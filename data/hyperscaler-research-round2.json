@@ -1,0 +1,66 @@
+[
+  {
+    "jurisdiction": "Menomonie",
+    "state": "WI",
+    "developer": "Balloonist LLC",
+    "hyperscaler": "Meta",
+    "confidence": "likely",
+    "evidence": "Balloonist LLC is a Delaware shell company that signed NDAs with Menomonie (Feb 2024) and Beaver Dam, WI. The Beaver Dam project was later confirmed as Meta. Multiple reporting (WPR, Wisconsin Watch, Jan 2026) found that both Balloonist LLC addresses (Corporation Service Company and 103 Foulk Road, Suite 202, Wilmington, DE) were used for at least three other data center projects later revealed to be Meta, including the Degas LLC project in Beaver Dam. The pattern of shell company usage, registered agent addresses, and project scale ($1.6B) all match Meta's established practices in Wisconsin."
+  },
+  {
+    "jurisdiction": "Statesville",
+    "state": "NC",
+    "developer": "Compass Datacenters",
+    "hyperscaler": "Microsoft",
+    "confidence": "likely",
+    "evidence": "Bloomberg (Feb 2026) reported Duke Energy signed deals with both Microsoft and Compass Datacenters to power data center complexes in North Carolina. Compass's Statesville campus (333 acres, 500MW, 1.34M sq ft) is one of Compass's major NC developments. Compass's securitization filings describe all facilities as 100% leased to 'investment-grade hyperscale tenants' (Moody's characterization). Microsoft is a known Compass tenant and has a separate $1B data center in nearby Catawba County, NC. The Duke Energy deal linking Microsoft and Compass in NC strongly suggests Microsoft is the tenant for the Statesville campus."
+  },
+  {
+    "jurisdiction": "Bessemer",
+    "state": "AL",
+    "developer": "Logistic Land Investment LLC (TPA Group)",
+    "hyperscaler": "Unknown (Fortune 10 company)",
+    "confidence": "rumored",
+    "evidence": "Project Marvel is a $14.5B, 18-building, 4.5M sq ft, 1.2GW data center on 700+ acres. Developer is Logistic Land Investment LLC, owned by Atlanta-based TPA Group. Alabama Reflector and other outlets report a 'large tech firm, likely a Fortune 10 company' is expected as the end user - with Google, Microsoft, Amazon, and Meta cited as chief possibilities. End user identity hidden by NDA signed by Bessemer mayor and city attorney. No specific hyperscaler has been publicly identified or reliably rumored."
+  },
+  {
+    "jurisdiction": "Franklin/Simpson County",
+    "state": "KY",
+    "developer": "TenKey LandCo I LLC (OTN Group)",
+    "hyperscaler": "Unknown (one of the largest tech companies in the world)",
+    "confidence": "rumored",
+    "evidence": "TenKey describes its tenant as 'one of the largest tech companies in the world.' The project includes three 200,000 sq ft facilities on 200 acres near I-65 Exit 2, each representing a $1.6B investment. Developers offered to reveal tenant identity only if county judge signed an NDA. The project plans to build its own natural gas turbines for on-site power generation. No specific hyperscaler has been publicly identified."
+  },
+  {
+    "jurisdiction": "Cassville",
+    "state": "WI",
+    "developer": "Unknown",
+    "hyperscaler": "Unknown (one of the big five or six)",
+    "confidence": "rumored",
+    "evidence": "Grant County Economic Development Corp. executive director Ron Brisbois stated: 'I don't know who the end user would be, all I'm being told is it's one of the big five or six businesses.' The project seeks 400-500 acres for a $1B data center. Neither the developer nor the end user has been publicly identified. The 'big five or six' likely refers to Amazon, Microsoft, Google, Meta, Apple, and possibly Oracle."
+  },
+  {
+    "jurisdiction": "Clarksville",
+    "state": "AR",
+    "developer": "Serverfarm (SF ARK1 LLC)",
+    "hyperscaler": "Unknown (undisclosed AI tenants)",
+    "confidence": "rumored",
+    "evidence": "Serverfarm purchased 135 acres through subsidiary SF ARK1 LLC and plans an $8B campus with six 360,000 sq ft buildings. CoStar (Dec 2025) reports Serverfarm's data centers 'have already been leased to undisclosed AI tenants.' Serverfarm closed a $3B credit facility from 23 institutional lenders. Serverfarm is owned by Manulife Investment Management. No specific AI tenant has been named for the Clarksville facility."
+  },
+  {
+    "jurisdiction": "Festus",
+    "state": "MO",
+    "developer": "CRG (Clayco)",
+    "hyperscaler": "Unknown (Fortune 100 company)",
+    "confidence": "rumored",
+    "evidence": "CRG (development arm of Clayco) is developing a 240-acre data center campus in Festus after withdrawing Project Cumulus from St. Charles, MO. The St. Charles project was explicitly described as being built for an unnamed Fortune 100 company. While no end user has been formally identified for the Festus project, it is likely the same Fortune 100 client from Project Cumulus. No specific company name has been publicly linked."
+  },
+  {
+    "jurisdiction": "Augusta",
+    "state": "GA",
+    "developer": "QTS Data Centers (via Eagle South LLC / Cyber Development LLC)",
+    "hyperscaler": "Unknown (QTS hyperscale tenant)",
+    "confidence": "rumored",
+    "evidence": "Project Eisenhower is a 6-building, 2.15M sq ft data center campus. Filing documents list Cyber Development LLC with plans 'prepared for QTS Data Centers.' QTS's known hyperscale customers include AWS, Microsoft Azure, and Google. QTS attended a DOE Savannah River Site data center meeting alongside Microsoft, CoreWeave, and Google. The specific end-user tenant for the Augusta campus has not been publicly identified, but QTS typically serves major hyperscalers."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "datacenter-fights",
+  "version": "1.0.0",
+  "description": "Interactive map and database of grassroots datacenter opposition across America",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/merge-all-data.js && cp data/fights.json site/data/fights.json",
+    "dev": "npm run build && npx serve site",
+    "build:data": "node scripts/merge-all-data.js"
+  },
+  "keywords": ["datacenter", "opposition", "community", "map"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}

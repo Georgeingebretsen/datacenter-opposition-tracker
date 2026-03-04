@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Datacenter Fights — Tracking Community Opposition</title>
+  <meta name="description" content="An interactive map and database of grassroots opposition to datacenter development across the United States. 337+ fights tracked across 50 states.">
+  <meta property="og:title" content="US Datacenter Fights">
+  <meta property="og:description" content="An interactive map tracking 337+ community opposition fights against datacenter development across 50 US states.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="US Datacenter Fights">
+  <meta name="twitter:description" content="337+ community fights against datacenter development across 50 US states. Interactive map and open database.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F5FA;</text></svg>">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>US Datacenter Fights</h1>
+      <p class="subtitle">Tracking community opposition to datacenter development across America</p>
+      <p class="last-updated" id="last-updated"></p>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">Dark Mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-bar" id="stats-bar">
+      <div class="stat">
+        <span class="stat-number" id="stat-total">—</span>
+        <span class="stat-label">Total Fights</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="stat-states">—</span>
+        <span class="stat-label">States</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="stat-investment">—</span>
+        <span class="stat-label">Investment At Stake</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="stat-moratoria">—</span>
+        <span class="stat-label">Moratoria</span>
+      </div>
+    </section>
+
+    <div class="outcome-bar" id="outcome-bar"></div>
+    <div class="hyperscaler-bar" id="hyperscaler-bar"></div>
+
+    <section class="map-container">
+      <div class="filters">
+        <select id="filter-state">
+          <option value="">All States</option>
+        </select>
+        <select id="filter-type">
+          <option value="">All Action Types</option>
+          <option value="moratorium">Moratorium</option>
+          <option value="full_ban">Full Ban</option>
+          <option value="zoning_restriction">Zoning Restriction</option>
+          <option value="cancellation">Cancellation</option>
+          <option value="permit_denial">Permit Denial</option>
+          <option value="resolution_opposing">Resolution Opposing</option>
+          <option value="lawsuit">Lawsuit</option>
+          <option value="protest">Protest</option>
+          <option value="petition">Petition</option>
+          <option value="legislative_action">Legislative Action</option>
+          <option value="other">Other</option>
+        </select>
+        <select id="filter-year">
+          <option value="">All Years</option>
+        </select>
+        <select id="filter-concern">
+          <option value="">All Concerns</option>
+          <option value="water">Water Usage</option>
+          <option value="noise">Noise</option>
+          <option value="electricity_rates">Electricity Rates</option>
+          <option value="air_quality">Air Quality</option>
+          <option value="property_values">Property Values</option>
+          <option value="traffic">Traffic</option>
+          <option value="agricultural_land">Agricultural Land</option>
+          <option value="environment">Environment</option>
+          <option value="grid_reliability">Grid Reliability</option>
+          <option value="health">Health</option>
+          <option value="community_character">Community Character</option>
+          <option value="process_fairness">Process Fairness</option>
+          <option value="light_pollution">Light Pollution</option>
+          <option value="tax_fairness">Tax Fairness</option>
+          <option value="wildlife">Wildlife</option>
+          <option value="jobs_quality">Jobs Quality</option>
+        </select>
+        <select id="filter-hyperscaler">
+          <option value="">All Companies</option>
+          <option value="Amazon/AWS">Amazon / AWS</option>
+          <option value="Google">Google</option>
+          <option value="Microsoft">Microsoft</option>
+          <option value="Meta">Meta</option>
+          <option value="OpenAI">OpenAI</option>
+          <option value="xAI">xAI</option>
+          <option value="CoreWeave">CoreWeave</option>
+        </select>
+        <button id="clear-filters" class="btn-clear">Clear Filters</button>
+      </div>
+      <div id="map"></div>
+    </section>
+
+    <section class="fights-list" id="fights-list">
+      <div class="list-header">
+        <h2>All Fights <span id="fights-count" class="count-badge"></span></h2>
+        <div class="list-actions">
+          <button id="toggle-view" class="btn-action" title="Toggle spreadsheet view">Spreadsheet View</button>
+          <button id="download-csv" class="btn-action" title="Download as CSV">Download CSV</button>
+          <button id="download-json" class="btn-action" title="Download as JSON">Download JSON</button>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search by location, company, or keyword..." />
+      </div>
+      <div id="fights-table-container">
+        <table id="fights-table">
+          <thead>
+            <tr id="table-header-row">
+              <th data-sort="date">Date</th>
+              <th data-sort="jurisdiction">Jurisdiction</th>
+              <th data-sort="state">State</th>
+              <th data-sort="action_type">Action</th>
+              <th data-sort="status">Status</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody id="fights-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="detail-panel" id="detail-panel">
+      <button class="close-panel" id="close-panel">&times;</button>
+      <div id="detail-content"></div>
+    </section>
+  </main>
+
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <h2>About This Project</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>What is this?</h3>
+          <p>An open database tracking every known instance of community opposition to datacenter development in the United States. From moratoria to lawsuits to grassroots protests, we document the growing movement of communities pushing back against rapid datacenter expansion.</p>
+        </div>
+        <div class="about-card">
+          <h3>Why does it matter?</h3>
+          <p>Datacenters are being built at an unprecedented rate to power AI, consuming massive amounts of water, electricity, and land. Communities across America are organizing to demand accountability, transparency, and environmental protections. This database helps connect those efforts.</p>
+        </div>
+        <div class="about-card">
+          <h3>Data Sources</h3>
+          <p>Compiled from <a href="https://www.datacenterwatch.org/" target="_blank">Data Center Watch</a>,
+            <a href="https://robertbryce.substack.com/" target="_blank">Robert Bryce's reporting</a>,
+            <a href="https://www.fractracker.org/" target="_blank">FracTracker Alliance</a>,
+            Change.org petitions, local news coverage, and direct research.</p>
+        </div>
+        <div class="about-card">
+          <h3>Contribute</h3>
+          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <p>US Datacenter Fights &mdash; an open-source database of community opposition to datacenter development.</p>
+      <p>Data is provided as-is for informational purposes. Last updated March 2026.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

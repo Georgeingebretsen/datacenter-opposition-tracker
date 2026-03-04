@@ -1,0 +1,747 @@
+[
+  {
+    "id": "milam-county-tx-2024-12-01",
+    "jurisdiction": "Milam County",
+    "state": "TX",
+    "updates": {
+      "company": "OpenAI/SoftBank (SB Energy)",
+      "concerns": [
+        "electricity_grid",
+        "water",
+        "energy_costs"
+      ],
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/softbanks-sb-energy-to-build-and-operate-openais-12gw-stargate-data-center-in-milam-county-texas/",
+        "https://mediajustice.org/wp-content/uploads/2025/12/Stargate-Project-SW-Fact-Sheet-FINAL.pdf"
+      ]
+    }
+  },
+  {
+    "id": "abilene-tx-2025-01-21",
+    "jurisdiction": "Abilene",
+    "state": "TX",
+    "updates": {
+      "company": "Lancium/Crusoe Energy",
+      "concerns": [
+        "water",
+        "electricity_grid",
+        "housing",
+        "transparency"
+      ],
+      "sources": [
+        "https://www.bigcountryhomepage.com/news/residents-demand-transparency-in-abilene-ai-data-center-project/",
+        "https://www.texasmonthly.com/news-politics/abilene-stargate-artificial-intelligence/",
+        "https://time.com/7362401/ai-stargate-data-center-abilene-housing-crisis/"
+      ]
+    }
+  },
+  {
+    "id": "college-station-tx-2025-09-12",
+    "jurisdiction": "College Station",
+    "state": "TX",
+    "updates": {
+      "company": "Priority Power Management",
+      "concerns": [
+        "noise",
+        "water",
+        "electricity_grid",
+        "proximity_to_homes"
+      ],
+      "sources": [
+        "https://www.kbtx.com/2025/09/12/college-station-city-council-unanimously-rejects-land-sale-ai-data-center/",
+        "https://www.kbtx.com/2025/09/09/college-station-residents-push-back-against-sale-land-proposed-midtown-data-center/",
+        "https://www.datacenterdynamics.com/en/news/college-station-texas-rejects-land-sale-for-data-center/"
+      ]
+    }
+  },
+  {
+    "id": "taylor-tx-2025-09-26",
+    "jurisdiction": "Taylor",
+    "state": "TX",
+    "updates": {
+      "company": "Blueprint Data Centers",
+      "opposition_groups": [
+        "Griffin family plaintiffs",
+        "Taylor community residents (led by Carrie D'Anna)"
+      ],
+      "concerns": [
+        "parkland_deed_violation",
+        "noise",
+        "quality_of_life",
+        "historical_preservation"
+      ],
+      "sources": [
+        "https://www.kut.org/energy-environment/2025-09-26/taylor-texas-blueprint-data-centers-lawsuit",
+        "https://www.kut.org/energy-environment/2025-10-08/judge-dismissed-lawsuit-taylor-data-center-blueprint-texas",
+        "https://www.kvue.com/article/news/local/taylor-residents-data-center-concerns/269-5a505a20-d721-4c49-85a4-4f78c27bfc7c"
+      ]
+    }
+  },
+  {
+    "id": "lufkin-tx-2025-11-01",
+    "jurisdiction": "Lufkin",
+    "state": "TX",
+    "updates": {
+      "company": "Amp Z",
+      "concerns": [
+        "water",
+        "environment",
+        "jobs_vs_impact",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://www.change.org/p/stop-ai-data-center-lufkin-tx",
+        "https://www.cityoflufkin.com/_T2_R653.php",
+        "https://lufkindailynews.com/news/community/texas-county-rejects-a-moratorium-on-data-center-development-amid-ai-boom/article_8c75c882-3ed8-5d5a-8ec0-508b9f6d6fb0.html"
+      ]
+    }
+  },
+  {
+    "id": "lacy-lakeview-waco-area-tx-2025-12-03",
+    "jurisdiction": "Lacy Lakeview (Waco area)",
+    "state": "TX",
+    "updates": {
+      "company": "Infrakey",
+      "opposition_groups": [
+        "Stop the Data Center on Taylor Lane (Facebook group)",
+        "Ross area community residents"
+      ],
+      "opposition_website": "https://wacodatacenter.com/",
+      "concerns": [
+        "noise",
+        "pollution",
+        "water",
+        "electricity_grid",
+        "lack_of_transparency",
+        "rural_character"
+      ],
+      "sources": [
+        "https://www.kwtx.com/2025/12/03/residents-oppose-proposed-10-billion-data-center-near-elm-mott/",
+        "https://www.kxxv.com/news/local-news/in-your-neighborhood/we-dont-want-this-lacy-lakeview-approves-data-center-agreement-despite-neighbors-opposition",
+        "https://wacobridge.org/2025/12/14/water-power-politics-three-challenges-for-the-10b-data-center-project/",
+        "https://www.governing.com/infrastructure/texas-towns-push-back-on-data-center-expansion"
+      ]
+    }
+  },
+  {
+    "id": "hood-county-tx-2026-02-10",
+    "jurisdiction": "Hood County",
+    "state": "TX",
+    "updates": {
+      "concerns": [
+        "noise",
+        "water",
+        "health",
+        "cryptocurrency_mining_impacts"
+      ],
+      "sources": [
+        "https://www.texastribune.org/2026/02/10/texas-hood-county-rejects-data-center-development-pause-ai/",
+        "https://www.keranews.org/energy-environment/2026-02-25/data-center-moratorium-texas-hood-county-ken-paxton",
+        "https://www.cbsnews.com/texas/news/hood-county-residents-concerns-proposed-data-center/",
+        "https://www.citizen.org/news/hood-county-residents-left-vulnerable-as-commissioners-reject-data-center-moratorium/"
+      ]
+    }
+  },
+  {
+    "id": "cameron-county-tx-2026-02-01",
+    "jurisdiction": "Cameron County",
+    "state": "TX",
+    "updates": {
+      "company": "Eneus Energy",
+      "concerns": [
+        "water",
+        "electricity_grid",
+        "jobs_vs_impact",
+        "energy_costs"
+      ],
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/2gw-data-center-could-be-developed-in-cameron-county-texas/",
+        "https://www.texastribune.org/2026/02/13/texas-data-centers-local-governments-power/",
+        "https://www.rgvbusinessjournal.com/news/12/02/2026/harlingen-14b-data-center-water-power-concerns/"
+      ]
+    }
+  },
+  {
+    "id": "san-marcos-tx-2026-02-17",
+    "jurisdiction": "San Marcos",
+    "state": "TX",
+    "updates": {
+      "company": "Highlander SM One LLC (John Maberry)",
+      "opposition_groups": [
+        "Save Our Springs Alliance",
+        "San Marcos River Foundation"
+      ],
+      "concerns": [
+        "water",
+        "environment",
+        "drought",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://communityimpact.com/austin/san-marcos-buda-kyle/government/2026/02/18/san-marcos-council-denies-map-change-stops-data-center-development/",
+        "https://www.kut.org/energy-environment/2026-02-18/san-marcos-city-council-blocks-proposed-data-center",
+        "https://deceleration.news/san-marcos-data-centers-drought-vote/",
+        "https://www.tpr.org/news/2026-02-27/with-5-data-centers-on-the-horizon-hays-county-water-advocates-see-the-fight-as-just-beginning"
+      ]
+    }
+  },
+  {
+    "id": "pecos-county-tx-2026-02-01",
+    "jurisdiction": "Pecos County",
+    "state": "TX",
+    "updates": {
+      "company": "Pacifico Energy",
+      "concerns": [
+        "air_pollution",
+        "greenhouse_gas_emissions",
+        "environment",
+        "water"
+      ],
+      "sources": [
+        "https://insideclimatenews.org/news/29012026/developer-calls-gw-ranch-in-pecos-county-texas-the-largest-power-project-in-u-s/",
+        "https://www.datacenterdynamics.com/en/news/pacifico-energy-unveils-5gw-offgrid-natural-gas-project-in-texas-slated-to-serve-a-hyperscale-data-center/",
+        "https://bigbendsentinel.com/2026/02/04/massive-ai-data-center-coming-to-pecos-county/"
+      ]
+    }
+  },
+  {
+    "id": "fairfax-county-va-2024-09-01",
+    "jurisdiction": "Fairfax County",
+    "state": "VA",
+    "updates": {
+      "opposition_groups": [
+        "Save Bren Mar Coalition",
+        "Sierra Club Virginia Chapter",
+        "Rose Hill Coalition"
+      ],
+      "opposition_website": "https://sites.google.com/view/savebrenmar/home",
+      "concerns": [
+        "noise",
+        "proximity_to_homes",
+        "water",
+        "energy_costs",
+        "substation_proximity"
+      ],
+      "sources": [
+        "https://sites.google.com/view/savebrenmar/home",
+        "https://www.fairfaxtimes.com/articles/fairfax_county/community-rallies-against-county-s-data-center-expansion/article_97db5e00-2419-11ef-b7b5-7b7a8975d46f.html",
+        "https://www.datacenterfrontier.com/site-selection/article/55139905/northern-virginias-fairfax-county-tightens-data-center-rules",
+        "https://rosehillcoalition.org/rose-hill-planning-district/data-centers-in-fairfax-county/"
+      ]
+    }
+  },
+  {
+    "id": "henrico-county-va-2025-06-01",
+    "jurisdiction": "Henrico County",
+    "state": "VA",
+    "updates": {
+      "company": "Centra Logistics",
+      "opposition_groups": [
+        "New Market Village residents",
+        "Varina community residents"
+      ],
+      "concerns": [
+        "noise",
+        "health",
+        "environmental_justice",
+        "proximity_to_schools",
+        "air_quality",
+        "traffic"
+      ],
+      "sources": [
+        "https://www.wric.com/news/local-news/henrico-county/zoning-appeals-denies-centra-logistics-data-center/",
+        "https://www.henricocitizen.com/data-center-detour-inside-henrico-countys-shifting-mindset-one-developers-attempt-to-overcome-it-and-a-community-fighting-back/",
+        "https://www.henricocitizen.com/henricos-board-of-zoning-appeals-denies-data-center-companys-appeal-for-varina-site/"
+      ]
+    }
+  },
+  {
+    "id": "newport-news-va-2025-12-01",
+    "jurisdiction": "Newport News",
+    "state": "VA",
+    "updates": {
+      "concerns": [
+        "water",
+        "noise",
+        "electricity_grid",
+        "transparency"
+      ],
+      "sources": [
+        "https://www.change.org/p/raise-awareness-about-the-potential-data-center-in-newport-news",
+        "https://www.wtkr.com/news/in-the-community/newport-news/newport-news-residents-push-back-against-potential-data-center-near-fort-eustis",
+        "https://www.wavy.com/news/local-news/newport-news/talks-of-possible-data-center-in-newport-news-sparks-online-petition/"
+      ]
+    }
+  },
+  {
+    "id": "stafford-county-va-2025-12-01",
+    "jurisdiction": "Stafford County",
+    "state": "VA",
+    "updates": {
+      "opposition_groups": [
+        "Protect Stafford"
+      ],
+      "opposition_website": "https://protectstafford.com",
+      "concerns": [
+        "noise",
+        "water",
+        "rezoning_agricultural_land",
+        "rural_character",
+        "environment"
+      ],
+      "sources": [
+        "https://virginiabusiness.com/stafford-data-center-growth-i95-2025/",
+        "https://www.fredericksburgfreepress.com/2025/10/22/a-home-run-for-data-center-critics-stafford-supervisors-adopt-750-foot-setback/",
+        "https://www.potomaclocal.com/2025/12/01/stafford-revisits-data-center-rules-proposes-grandfathering-five-major-projects/"
+      ]
+    }
+  },
+  {
+    "id": "hanover-county-va-2026-01-28",
+    "jurisdiction": "Hanover County",
+    "state": "VA",
+    "updates": {
+      "company": "HHHunt",
+      "opposition_groups": [
+        "Wyndham community residents",
+        "Wyndham Board of Directors Smart Development Task Force",
+        "Goochland Residents Alliance"
+      ],
+      "concerns": [
+        "noise",
+        "light_pollution",
+        "traffic",
+        "water",
+        "environment",
+        "health",
+        "rural_character"
+      ],
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/900mw-data-center-campus-plan-withdrawn-in-hanover-county-virginia/",
+        "https://www.wtvr.com/news/local-news/hhhunt-community-meeting-nov-17-2025",
+        "https://www.vpm.org/news/2025-11-18/hanover-hunting-hawk-data-center-hhhunt-wyndham-banton-mendelson-cheeley",
+        "https://www.henricocitizen.com/proposed-data-center-incites-opposition-from-hundreds-of-henrico-hanover-residents/"
+      ]
+    }
+  },
+  {
+    "id": "cumberland-county-nc-2025-11-01",
+    "jurisdiction": "Cumberland County",
+    "state": "NC",
+    "updates": {
+      "company": "Energy Storage Solutions (ESS)",
+      "concerns": [
+        "air_quality",
+        "health",
+        "energy_costs",
+        "misleading_marketing",
+        "noise",
+        "water"
+      ],
+      "sources": [
+        "https://www.change.org/p/stop-data-centers-in-cumberland-county-protect-fayetteville-s-health-and-water",
+        "https://www.cityviewnc.com/stories/residents-push-for-clarity-as-data-centers-consider-fayetteville/",
+        "https://www.cityviewnc.com/stories/cumberland-county-drafting-its-first-rules-for-data-centers/"
+      ]
+    }
+  },
+  {
+    "id": "gates-county-nc-2025-12-17",
+    "jurisdiction": "Gates County",
+    "state": "NC",
+    "updates": {
+      "concerns": [
+        "environment",
+        "water",
+        "noise",
+        "air_pollution",
+        "energy_costs",
+        "rural_character",
+        "property_values",
+        "jobs_vs_impact"
+      ],
+      "sources": [
+        "https://albemarleobserver.news/2025/12/20/concerns-rise-as-gates-county-halts-data-center-approvals/",
+        "https://www.roanoke-chowannewsherald.com/news/data-center-moratorium-approved-a302acb2",
+        "https://www.govtech.com/products/north-carolina-county-pauses-data-center-crypto-mines"
+      ]
+    }
+  },
+  {
+    "id": "town-of-canton-nc-2026-02-11",
+    "jurisdiction": "Town of Canton",
+    "state": "NC",
+    "updates": {
+      "concerns": [
+        "water",
+        "noise",
+        "environment",
+        "biodiversity",
+        "electricity_grid",
+        "rural_character"
+      ],
+      "sources": [
+        "https://smokymountainnews.com/news/item/40892-a-hard-no-to-high-tech-canton-passes-data-center-moratorium",
+        "https://wlos.com/news/local/town-canton-moratorium-pause-data-centers-crypto-mining-noise-public-hearing-paper-mill-nature-resources-water-energy-technology-jobs-infrastructure-future-community-feb-11",
+        "https://nclocal.org/2026/02/12/town-of-canton-blocks-any-potential-data-center-for-one-year/"
+      ]
+    }
+  },
+  {
+    "id": "edgecombe-county-nc-2025-12-01",
+    "jurisdiction": "Edgecombe County",
+    "state": "NC",
+    "updates": {
+      "company": "Energy Storage Solutions (ESS)",
+      "opposition_groups": [
+        "Edgecombe Neighbors for Data Center Accountability",
+        "NC Environmental Justice Network"
+      ],
+      "concerns": [
+        "energy_costs",
+        "environment",
+        "health",
+        "water",
+        "air_quality",
+        "emissions"
+      ],
+      "sources": [
+        "https://ncejn.org/updates-on-the-fight-against-data-centers-edgecombe-county/",
+        "https://www.bpr.org/2025-11-25/opposition-mounts-to-proposed-large-data-center-in-edgecombe-county",
+        "https://www.wfae.org/energy-environment/2025-12-02/proposed-edgecombe-county-data-center-draws-criticism-during-county-meeting",
+        "https://www.reflector.com/news/local/group-opposes-data-center-in-edgecombe-county/article_41840af8-bcc6-4a5c-8d1a-19f13b52759d.html"
+      ]
+    }
+  },
+  {
+    "id": "town-of-tarboro-nc-2025-09-15",
+    "jurisdiction": "Town of Tarboro",
+    "state": "NC",
+    "updates": {
+      "company": "Energy Storage Solutions (ESS)",
+      "opposition_groups": [
+        "Edgecombe Neighbors for Data Center Accountability"
+      ],
+      "concerns": [
+        "noise",
+        "water",
+        "traffic",
+        "proximity_to_animal_shelter",
+        "air_quality"
+      ],
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/developers-to-appeal-data-center-rejection-in-tarboro-north-carolina/",
+        "https://mytarborotoday.com/ess-plans-to-file-appeal-of-tarboros-sup-denial-p2853-106.htm",
+        "https://www.foxbusiness.com/economy/north-caroilna-residents-fight-back-against-massive-tech-project-potentially-coming-their-town"
+      ]
+    }
+  },
+  {
+    "id": "town-of-apex-wake-county-nc-2026-02-01",
+    "jurisdiction": "Town of Apex",
+    "state": "NC",
+    "updates": {
+      "opposition_groups": [
+        "Protect Wake County Coalition"
+      ],
+      "opposition_website": "https://www.protectwakecounty.org",
+      "concerns": [
+        "electricity_grid",
+        "energy_costs",
+        "noise",
+        "air_quality",
+        "water",
+        "proximity_to_homes"
+      ],
+      "sources": [
+        "https://www.change.org/p/stand-against-data-center-new-hill-nc",
+        "https://www.datacenterdynamics.com/en/news/residents-rally-against-250mw-data-center-proposal-in-wake-county-north-carolina/",
+        "https://indyweek.com/news/as-chatham-considers-moratorium-wake-county-residents-continue-opposition-to-proposed-apex-data-center/",
+        "https://abc11.com/post/apex-residents-oppose-proposed-190-acre-data-center-old-us-1-sharon-harris-road/18399493/"
+      ]
+    }
+  },
+  {
+    "id": "city-of-kings-mountain-nc-2026-02-26",
+    "jurisdiction": "City of Kings Mountain",
+    "state": "NC",
+    "updates": {
+      "concerns": [
+        "energy_costs",
+        "water",
+        "noise",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://www.qcnews.com/news/u-s/north-carolina/kings-mountain/kings-mountain-leaders-pause-potential-data-center-projects-amid-community-concerns/",
+        "https://www.wbtv.com/2026/02/25/kings-mountain-residents-share-concerns-another-data-center-is-proposed/",
+        "https://www.wfae.org/politics/2026-02-26/kings-mountain-approves-six-month-moratorium-on-new-data-centers"
+      ]
+    }
+  },
+  {
+    "id": "village-of-yorkville-wi-2025-10-01",
+    "jurisdiction": "Village of Yorkville",
+    "state": "WI",
+    "updates": {
+      "concerns": [
+        "farmland_loss",
+        "rural_character",
+        "water",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://biztimes.com/yorkville-puts-up-a-hard-no-on-data-center-talk/",
+        "https://wtmj.com/news/2025/12/23/a-look-back-at-wisconsins-year-of-the-data-center/",
+        "https://shepherdexpress.com/news/features/the-struggle-against-hyperscale-data-centers-across-wisconsin/"
+      ]
+    }
+  },
+  {
+    "id": "village-of-caledonia-wi-2025-10-09",
+    "jurisdiction": "Village of Caledonia",
+    "state": "WI",
+    "updates": {
+      "company": "Microsoft",
+      "concerns": [
+        "rural_character",
+        "farmland_loss",
+        "water",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://www.tomshardware.com/desktops/servers/microsoft-cancels-wisconsin-data-center-after-community-pushback-244-acre-caledonia-site-on-hold-but-redmond-says-it-remains-committed-to-the-region",
+        "https://urbanmilwaukee.com/2025/10/09/citing-opposition-microsoft-cancels-caledonia-data-center/",
+        "https://www.tmj4.com/news/racine-county/microsoft-pulls-plug-on-plans-for-244-acre-data-center-in-caledonia-after-community-pushback",
+        "https://www.cnbc.com/2025/11/25/microsoft-ai-data-center-rejection-vs-support.html"
+      ]
+    }
+  },
+  {
+    "id": "town-of-carlton-wi-2025-12-01",
+    "jurisdiction": "Town of Carlton",
+    "state": "WI",
+    "updates": {
+      "company": "Cloverleaf Infrastructure",
+      "concerns": [
+        "farmland_loss",
+        "rural_character"
+      ],
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/cloverleaf-walks-away-from-data-center-site-project-in-kewaunee-wisconsin/",
+        "https://pbswisconsin.org/news-item/kewaunee-county-town-staves-off-plan-for-a-land-purchase-by-a-data-center-developer/",
+        "https://www.nbc26.com/lakeshore/wisconsin-lakeshore-towns-resist-data-center-development-on-farmland"
+      ]
+    }
+  },
+  {
+    "id": "port-washington-wi-2025-08-01",
+    "jurisdiction": "Port Washington",
+    "state": "WI",
+    "updates": {
+      "company": "Vantage Data Centers (OpenAI/Oracle Stargate)",
+      "opposition_groups": [
+        "Great Lakes Neighbors United",
+        "Protect Fredonia Coalition",
+        "Party for Socialism and Liberation (PSL)"
+      ],
+      "opposition_website": "https://www.protectfredonia.com",
+      "concerns": [
+        "energy_costs",
+        "water",
+        "transparency",
+        "tax_financing",
+        "farmland_loss",
+        "power_line_routing"
+      ],
+      "sources": [
+        "https://www.tmj4.com/news/ozaukee-county/port-washington-neighbors-host-town-hall-rally-against-15-billion-data-center-project",
+        "https://www.datacenterdynamics.com/en/news/three-arrested-at-data-center-hearing-in-port-washington-wisconsin/",
+        "https://www.wpr.org/news/community-challenges-port-washingtons-data-center-tid-court",
+        "https://spectrumnews1.com/wi/milwaukee/in-focus/2026/01/30/port-washington--data-center--great-lakes-neighbors-united",
+        "https://www.protectfredonia.com/why-1"
+      ]
+    }
+  },
+  {
+    "id": "janesville-wi-2025-12-01",
+    "jurisdiction": "Janesville",
+    "state": "WI",
+    "updates": {
+      "opposition_groups": [
+        "No Janesville Data Center",
+        "Party for Socialism and Liberation (PSL)"
+      ],
+      "concerns": [
+        "water",
+        "electricity_grid",
+        "energy_costs",
+        "transparency",
+        "tax_exemptions",
+        "environment"
+      ],
+      "sources": [
+        "https://www.change.org/p/no-janesville-data-center",
+        "https://spectrumnews1.com/wi/milwaukee/news/2026/01/27/janesville-leaders-delay-decision-on-data-center-petition",
+        "https://news.ballotpedia.org/2026/02/12/janesville-wisconsin-voters-to-decide-nov-3-2026-initiative-requiring-approval-for-development-projects-exceeding-450-million-at-gm-jatco-site-such-as-proposed-data-center/",
+        "https://shepherdexpress.com/news/features/the-struggle-against-hyperscale-data-centers-across-wisconsin/"
+      ]
+    }
+  },
+  {
+    "id": "village-of-yorkville-wi-2025-10-01",
+    "jurisdiction": "Village of Mt. Pleasant",
+    "state": "WI",
+    "updates": {
+      "company": "Microsoft",
+      "opposition_groups": [
+        "Party for Socialism and Liberation (PSL)",
+        "350 Wisconsin",
+        "50501 Madison"
+      ],
+      "concerns": [
+        "energy_costs",
+        "water",
+        "farmland_loss",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://shepherdexpress.com/news/features/the-struggle-against-hyperscale-data-centers-across-wisconsin/",
+        "https://www.cnbc.com/2025/11/25/microsoft-ai-data-center-rejection-vs-support.html",
+        "https://racinecountyeye.com/2026/02/11/psc-data-center-hearing-oppose/"
+      ]
+    }
+  },
+  {
+    "id": "mount-horeb-wi-2026-01-01",
+    "jurisdiction": "Mount Horeb",
+    "state": "WI",
+    "updates": {
+      "concerns": [
+        "water",
+        "electricity_grid",
+        "energy_costs",
+        "farmland_loss",
+        "rural_character"
+      ],
+      "sources": [
+        "https://shepherdexpress.com/news/features/the-struggle-against-hyperscale-data-centers-across-wisconsin/",
+        "https://www.wpr.org/news/wisconsinites-data-center-projects-continue-protest",
+        "https://pbswisconsin.org/news-item/the-local-battles-over-data-center-developments-in-wisconsin/"
+      ]
+    }
+  },
+  {
+    "id": "city-of-st-charles-mo-2025-08-01",
+    "jurisdiction": "City of St. Charles",
+    "state": "MO",
+    "updates": {
+      "company": "CRG Cumulus LLC (Clayco/GRG)",
+      "concerns": [
+        "water_contamination",
+        "diesel_fuel",
+        "wildlife",
+        "electricity_grid",
+        "energy_costs",
+        "wellhead_protection"
+      ],
+      "sources": [
+        "https://www.stlpr.org/news-briefs/2025-08-18/developer-controversial-data-center-st-charles",
+        "https://www.ksdk.com/article/news/local/st-charles-ai-data-center-ban-first-in-nation/63-2c50fbcf-fcad-4b8d-bbcb-3711f6c2d29d",
+        "https://www.datacenterdynamics.com/en/news/bernie-sanders-praises-residents-after-developers-shelve-planned-data-center-in-st-charles-missouri/",
+        "https://www.midriversnewsmagazine.com/news/st-charles-residents-push-back-on-hyperscale-data-center-near-city-s-water-source/article_0892c124-6c4c-4ca0-a741-ee7275fbfeb0.html"
+      ]
+    }
+  },
+  {
+    "id": "platte-county-mo-2025-10-01",
+    "jurisdiction": "Platte County",
+    "state": "MO",
+    "updates": {
+      "concerns": [
+        "energy_costs",
+        "water",
+        "tax_subsidies",
+        "electricity_grid"
+      ],
+      "sources": [
+        "https://fox4kc.com/news/platte-county-commissioner-cant-support-100-billion-northland-data-center/",
+        "https://showmeinstitute.org/article/energy/data-centers-subsidies-and-electricity-in-platte-county-and-across-missouri/",
+        "https://www.stlmag.com/business/rural-missouri-data-center-battleground/"
+      ]
+    }
+  },
+  {
+    "id": "foristell-mo-2025-11-01",
+    "jurisdiction": "Foristell",
+    "state": "MO",
+    "updates": {
+      "concerns": [
+        "water",
+        "infrastructure",
+        "health",
+        "noise",
+        "environment",
+        "lack_of_information"
+      ],
+      "sources": [
+        "https://www.change.org/p/stop-the-foristell-data-center-project-protect-our-community-s-future",
+        "https://www.datacenterdynamics.com/en/news/data-center-proposal-review-in-foristell-missouri-postponed-as-venue-unable-to-accommodate-turnout/",
+        "https://www.stltoday.com/news/local/stcharles/article_5f3d9376-c237-425e-960f-7a9a19835e6e.html",
+        "https://www.stlmag.com/business/rural-missouri-data-center-battleground/"
+      ]
+    }
+  },
+  {
+    "id": "city-of-st-charles-mo-2025-08-01",
+    "jurisdiction": "St. Clair County",
+    "state": "MO",
+    "updates": {
+      "concerns": [
+        "water",
+        "electricity_grid",
+        "energy_costs",
+        "rural_character"
+      ],
+      "sources": [
+        "https://www.stlmag.com/business/rural-missouri-data-center-battleground/",
+        "https://www.kcur.org/politics-elections-and-government/2026-02-26/missouri-data-center-rules-water-electricity"
+      ]
+    }
+  },
+  {
+    "id": "wentzville-mo-2025-12-01",
+    "jurisdiction": "Wentzville",
+    "state": "MO",
+    "updates": {
+      "concerns": [
+        "water",
+        "electricity_grid",
+        "energy_costs",
+        "environment"
+      ],
+      "sources": [
+        "https://www.midriversnewsmagazine.com/business/the-new-space-race-data-centers-eye-missouri-while-residents-politicians-debate-merits/article_4e19c9dd-8529-4fd9-9b67-c2455612cbb5.html",
+        "https://www.stlmag.com/business/rural-missouri-data-center-battleground/"
+      ]
+    }
+  },
+  {
+    "id": "jefferson-city-mo-2026-01-01",
+    "jurisdiction": "Jefferson City",
+    "state": "MO",
+    "updates": {
+      "concerns": [
+        "electricity_grid",
+        "energy_costs",
+        "water",
+        "environment"
+      ],
+      "sources": [
+        "https://www.ky3.com/2026/02/27/missouri-future-caucus-prioritizes-legislation-regulate-ai-data-centers/",
+        "https://www.stlpr.org/government-politics-issues/2026-02-26/missouri-lawmakers-propose-water-power-usage-requirements-data-centers",
+        "https://www.komu.com/news/midmissourinews/missouri-leadership-pushes-data-center-development-despite-electricity-environmental-fears/article_73d1d49a-b2d2-4d9d-8187-0e891f613f52.html"
+      ]
+    }
+  }
+]

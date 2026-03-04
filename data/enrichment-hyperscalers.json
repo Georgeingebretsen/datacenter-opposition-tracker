@@ -1,0 +1,365 @@
+[
+  {
+    "id": "dona-ana-county-nm-2025-08-27",
+    "jurisdiction": "Dona Ana County",
+    "state": "NM",
+    "updates": {
+      "hyperscaler": "OpenAI",
+      "company": "BorderPlex Digital Assets / Stack"
+    },
+    "confidence": "confirmed",
+    "evidence": "Oracle revealed as tenant of Project Jupiter; Dona Ana County's Project Jupiter joins $500 billion Stargate AI initiative led by OpenAI and Oracle. DCD confirmed Oracle as tenant. Part of OpenAI's Stargate expansion."
+  },
+  {
+    "id": "fredonia-saukville-wi-2025-10-10",
+    "jurisdiction": "Fredonia/Saukville",
+    "state": "WI",
+    "updates": {
+      "hyperscaler": "OpenAI",
+      "company": "Vantage Data Centers"
+    },
+    "confidence": "confirmed",
+    "evidence": "OpenAI, Oracle, and Vantage Data Centers officially announced the Stargate data center site in Wisconsin (Port Washington campus). Opposition in Fredonia/Saukville is specifically about transmission lines for this Stargate campus. Confirmed via Vantage press release and multiple news sources."
+  },
+  {
+    "id": "st-charles-mo-2025-11-01",
+    "jurisdiction": "St. Charles",
+    "state": "MO",
+    "updates": {
+      "hyperscaler": "Google",
+      "company": "CRG Cumulus / Spark Innovations"
+    },
+    "confidence": "likely",
+    "evidence": "St. Louis Public Radio found at least seven LLCs with ties to Google involved in Project Cumulus. Spark Innovations LLC, named in city documents via NDAs, has ties to Google. Google did not comment. CRG described client as 'Fortune 100 hyperscale data center developer.'"
+  },
+  {
+    "id": "platte-county-mo-2025-10-01",
+    "jurisdiction": "Platte County",
+    "state": "MO",
+    "updates": {
+      "hyperscaler": "Google",
+      "company": "Shenandoah Computing LLC"
+    },
+    "confidence": "likely",
+    "evidence": "BizJournal reports Project Kestrel may be linked to Google, which already has a presence around Kansas City (Meta's Golden Plains site is nearby via Diode Ventures). Bond series issued to 'Shenandoah' entity. Port KC described developer as 'one of the world's leading tech companies.' Google did not comment."
+  },
+  {
+    "id": "city-of-peculiar-mo-2024-10-01",
+    "jurisdiction": "City of Peculiar",
+    "state": "MO",
+    "updates": {
+      "hyperscaler": "Meta",
+      "company": "Diode Ventures"
+    },
+    "confidence": "likely",
+    "evidence": "Diode Ventures is a subsidiary of Black & Veatch that developed Meta's Golden Plains Technology Park in Kansas City. Residents suspected Meta as the client based on the shell company pattern. However, a Meta spokesperson denied ties, and IPI (owned by Iconiq Capital, whose clients include Zuckerberg) was also involved. The KC proximity to Meta's existing Diode-developed site makes Meta the most likely hyperscaler."
+  },
+  {
+    "id": "charles-city-county-va-2025-08-01",
+    "jurisdiction": "Charles City County",
+    "state": "VA",
+    "updates": {
+      "hyperscaler": "Meta",
+      "company": "Diode Ventures"
+    },
+    "confidence": "likely",
+    "evidence": "Diode Ventures' Golden Plains Technology Park was confirmed as the site of Meta's $800M hyperscale data center. Diode Ventures is a known developer for Meta. The Roxbury Technology Park follows the same development pattern."
+  },
+  {
+    "id": "coweta-county-ga-2025-05-01",
+    "jurisdiction": "Coweta County",
+    "state": "GA",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Prologis / Atlas Development"
+    },
+    "confidence": "rumored",
+    "evidence": "Project Sail is a joint venture between Prologis (NYSE: PLD) and Georgia-based Atlas Development on 831 acres. No specific hyperscaler tenant has been identified. Prologis serves multiple hyperscale clients. Opposition group StopSail formed."
+  },
+  {
+    "id": "harwood-nd-2025-08-25",
+    "jurisdiction": "Harwood",
+    "state": "ND",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Applied Digital"
+    },
+    "confidence": "rumored",
+    "evidence": "Applied Digital announced $5B lease with unnamed 'U.S. Based Investment Grade Hyperscaler' for Polaris Forge 2 near Harwood. The specific hyperscaler has not been publicly disclosed despite the massive $5B/15-year lease. CoreWeave is at Polaris Forge 1 (Ellendale) but the Forge 2 tenant is different and undisclosed."
+  },
+  {
+    "id": "village-of-deforest-wi-2026-02-03",
+    "jurisdiction": "Village of DeForest",
+    "state": "WI",
+    "updates": {
+      "hyperscaler": null,
+      "company": "QTS (Blackstone)"
+    },
+    "confidence": "rumored",
+    "evidence": "QTS Realty Trust (owned by Blackstone) proposed a $12B hyperscale data center campus in Dane County. QTS serves multiple hyperscale clients but did not disclose the specific tenant. DeForest unanimously rejected the plan; QTS withdrew. No specific hyperscaler confirmed."
+  },
+  {
+    "id": "wake-county-nc-2025-08-01",
+    "jurisdiction": "Wake County",
+    "state": "NC",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Natelli Investments LLC"
+    },
+    "confidence": "rumored",
+    "evidence": "Natelli Investments LLC is a third-generation real estate firm that shifted to data center projects. They develop for various clients but the specific hyperscaler for the New Hill Digital Campus has not been disclosed."
+  },
+  {
+    "id": "hancock-county-in-2025-06-01",
+    "jurisdiction": "Hancock County",
+    "state": "IN",
+    "updates": {
+      "hyperscaler": "Google",
+      "company": "Surge Development"
+    },
+    "confidence": "likely",
+    "evidence": "While an end-user wasn't officially named, all the representative images of data centers in Surge Development's submitted documents were of known Google facilities. Google has been actively expanding in Indiana (Project Flo in Franklin Township, Monrovia campus). Surge withdrew the application after opposition."
+  },
+  {
+    "id": "page-az-2025-10-01",
+    "jurisdiction": "Page",
+    "state": "AZ",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Huntley LLC (Hollybrook/Rooskey)"
+    },
+    "confidence": "rumored",
+    "evidence": "Huntley LLC traces to UK developer Hollybrook and its data center subsidiary Rooskey. No feasibility study or hyperscaler tenant has been publicly identified. The 1GW/$10B project near Horseshoe Bend has no confirmed end user."
+  },
+  {
+    "id": "claremore-ok-2026-01-15",
+    "jurisdiction": "Claremore",
+    "state": "OK",
+    "updates": {
+      "hyperscaler": "Amazon/AWS",
+      "company": "Beale Infrastructure"
+    },
+    "confidence": "likely",
+    "evidence": "Beale Infrastructure developed Project Blue in Arizona which was linked to Amazon/AWS. Beale is a known developer for AWS. Project Mustang in Claremore follows the same pattern. The end user is described as 'domestically owned, publicly traded company.' AWS is Beale's primary known hyperscaler client."
+  },
+  {
+    "id": "mason-county-maysville-ky-2025-10-01",
+    "jurisdiction": "Mason County (Maysville)",
+    "state": "KY",
+    "updates": {
+      "hyperscaler": null,
+      "company": null
+    },
+    "confidence": "rumored",
+    "evidence": "A Fortune 100 company proposed a billion-dollar hyperscale data center near Maysville under NDAs. The specific hyperscaler has not been identified despite significant community opposition and organizing."
+  },
+  {
+    "id": "hermantown-mn-2025-10-20",
+    "jurisdiction": "Hermantown",
+    "state": "MN",
+    "updates": {
+      "hyperscaler": "Google",
+      "company": "Mortenson / Harmony Group LLC"
+    },
+    "confidence": "likely",
+    "evidence": "Project Loon is developed by Mortenson via the Harmony Group LLC affiliate for a 'Fortune 50' company. Google recently announced a second Minnesota data center in nearby Adolph (March 2026). Harmony Group LLC has been linked to Google in other projects. The Fortune 50 company description and Google's Minnesota expansion pattern strongly suggest Google."
+  },
+  {
+    "id": "oldham-county-ky-2025-07-02",
+    "jurisdiction": "Oldham County",
+    "state": "KY",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Western Hospitality Partners"
+    },
+    "confidence": "rumored",
+    "evidence": "Western Hospitality Partners is a New Jersey-based company proposing a $6B/600MW hyperscale project (Project Lincoln). Critics accuse the company of skirting zoning by designating itself as a 'private utility.' No hyperscaler tenant identified. WHP withdrew after moratorium."
+  },
+  {
+    "id": "bessemer-al-2025-08-01",
+    "jurisdiction": "Bessemer",
+    "state": "AL",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Logistics Land Investment LLC (TPA Group)"
+    },
+    "confidence": "rumored",
+    "evidence": "Logistics Land Investment LLC is owned by Atlanta-based TPA Group. The $14B Project Marvel's end user has not been confirmed. City officials, developer, and attorney all signed NDAs. The same company previously filed for a data center in Venus, Texas. No hyperscaler confirmed."
+  },
+  {
+    "id": "york-county-sc-2025-11-01",
+    "jurisdiction": "York County",
+    "state": "SC",
+    "updates": {
+      "hyperscaler": null,
+      "company": "QTS Realty Trust"
+    },
+    "confidence": "rumored",
+    "evidence": "QTS (owned by Blackstone) is developing Project COBRA, a $1B campus on 400 acres near Rock Hill. QTS serves hyperscale, enterprise, and government customers but has not disclosed the specific tenant for this facility."
+  },
+  {
+    "id": "van-buren-township-mi-2026-01-01",
+    "jurisdiction": "Van Buren Township",
+    "state": "MI",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Panattoni"
+    },
+    "confidence": "rumored",
+    "evidence": "Panattoni is developing Project Cannoli for a 'Fortune 50 company with global data center operations.' The hyperscaler has not been publicly named. Panattoni's known customers include Amazon, Best Buy, FedEx and others, but the specific tenant is undisclosed."
+  },
+  {
+    "id": "simpson-county-ky-2026-01-28",
+    "jurisdiction": "Simpson County",
+    "state": "KY",
+    "updates": {
+      "hyperscaler": null,
+      "company": "TenKey LandCo"
+    },
+    "confidence": "rumored",
+    "evidence": "TenKey LandCo proposed a $5B data center in Franklin, KY. The end user is described as 'one of the largest tech companies in the world' but has not been publicly identified. TenKey sued Simpson County over zoning regulations."
+  },
+  {
+    "id": "franklin-ky-2026-01-28",
+    "jurisdiction": "Franklin",
+    "state": "KY",
+    "updates": {
+      "hyperscaler": null,
+      "company": "TenKey LandCo"
+    },
+    "confidence": "rumored",
+    "evidence": "Same TenKey LandCo project as Simpson County. End user described as 'one of the largest tech companies in the world' but identity remains under NDA."
+  },
+  {
+    "id": "sangamon-county-il-2026-02-01",
+    "jurisdiction": "Sangamon County",
+    "state": "IL",
+    "updates": {
+      "hyperscaler": null,
+      "company": "CyrusOne (KKR)"
+    },
+    "confidence": "rumored",
+    "evidence": "CyrusOne, owned by KKR, is proposing a 600MW/$500M campus in Sangamon County. CyrusOne operates 50+ data centers for various clients. No specific hyperscaler tenant disclosed for this project."
+  },
+  {
+    "id": "foristell-mo-2025-11-01",
+    "jurisdiction": "Foristell",
+    "state": "MO",
+    "updates": {
+      "hyperscaler": "Google",
+      "company": null
+    },
+    "confidence": "likely",
+    "evidence": "Foristell is in St. Charles County, where Project Cumulus was linked to Google via Spark Innovations LLC. Google's pattern of using shell companies for data center projects in the KC/St. Louis corridor, plus the regional proximity to Project Cumulus, makes Google the most likely hyperscaler driving development in this area."
+  },
+  {
+    "id": "festus-mo-2025-11-21",
+    "jurisdiction": "Festus",
+    "state": "MO",
+    "updates": {
+      "hyperscaler": null,
+      "company": "CRG"
+    },
+    "confidence": "rumored",
+    "evidence": "CRG is the same developer behind Project Cumulus in St. Charles (linked to Google). However, the Festus project has no confirmed hyperscaler connection. CRG develops for multiple clients."
+  },
+  {
+    "id": "marion-county-project-liberty-sc-2026-01-22",
+    "jurisdiction": "Marion County (Project Liberty)",
+    "state": "SC",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Stream Data Centers (Eagle Myra LLC)"
+    },
+    "confidence": "rumored",
+    "evidence": "Stream Data Centers (part of Apollo ecosystem) developed Project Liberty via Eagle Myra LLC. Stream builds for hyperscale customers but the specific tenant for Project Liberty has not been disclosed despite community demands for transparency."
+  },
+  {
+    "id": "marion-county-sc-2025-01-22",
+    "jurisdiction": "Marion County",
+    "state": "SC",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Stream Data Centers (via Eagle Myra LLC)"
+    },
+    "confidence": "rumored",
+    "evidence": "Same as above - Stream Data Centers via Eagle Myra LLC. No hyperscaler identity confirmed."
+  },
+  {
+    "id": "city-of-farmington-mn-2025-01-14",
+    "jurisdiction": "City of Farmington",
+    "state": "MN",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Tract"
+    },
+    "confidence": "rumored",
+    "evidence": "Tract develops hyperscale-ready sites but has declined to identify the end user for the 708MW Farmington Technology Park. Tract selects sites and pre-positions power/fiber/zoning for hyperscale customers, but the specific tenant is undisclosed."
+  },
+  {
+    "id": "mooresville-nc-2025-08-01",
+    "jurisdiction": "Mooresville",
+    "state": "NC",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Tract"
+    },
+    "confidence": "rumored",
+    "evidence": "Tract proposed the $30B Mooresville Technology Park on the Earnhardt property. Tract develops for hyperscale clients but did not identify the tenant before withdrawing. The massive $30B price tag suggests multiple hyperscaler tenants."
+  },
+  {
+    "id": "maricopa-county-az-2024-05-01",
+    "jurisdiction": "Maricopa County",
+    "state": "AZ",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Tract"
+    },
+    "confidence": "rumored",
+    "evidence": "Tract's $14B Project Range was withdrawn after pushback from Goodyear and Buckeye. Tract develops for hyperscale clients but did not disclose the tenant."
+  },
+  {
+    "id": "goodyear-buckeye-az-2024-05-01",
+    "jurisdiction": "Goodyear / Buckeye",
+    "state": "AZ",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Tract"
+    },
+    "confidence": "rumored",
+    "evidence": "Same Tract Project Range as Maricopa County entry. No hyperscaler confirmed."
+  },
+  {
+    "id": "augusta-ga-2026-02-11",
+    "jurisdiction": "Augusta",
+    "state": "GA",
+    "updates": {
+      "hyperscaler": null,
+      "company": "QTS Data Centers"
+    },
+    "confidence": "rumored",
+    "evidence": "QTS (Blackstone) is a colocation/wholesale provider serving multiple hyperscalers. No specific tenant confirmed for the Augusta location."
+  },
+  {
+    "id": "independence-mo-2026-02-10",
+    "jurisdiction": "Independence",
+    "state": "MO",
+    "updates": {
+      "hyperscaler": null,
+      "company": "Nebius"
+    },
+    "confidence": "rumored",
+    "evidence": "Nebius (a Yandex spinoff focused on AI infrastructure) is an independent cloud/AI infrastructure company, not a shell for a major US hyperscaler."
+  },
+  {
+    "id": "toronto-sd-2026-01-06",
+    "jurisdiction": "Toronto",
+    "state": "SD",
+    "updates": {
+      "hyperscaler": "CoreWeave",
+      "company": "Applied Digital"
+    },
+    "confidence": "likely",
+    "evidence": "Applied Digital's Polaris Forge 1 in Ellendale is confirmed leased to CoreWeave. Applied Digital has a pattern of building for CoreWeave and an unnamed hyperscaler. The Toronto, SD project likely follows the same CoreWeave relationship given Applied Digital's track record."
+  }
+]

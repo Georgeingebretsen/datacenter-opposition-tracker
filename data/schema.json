@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Datacenter Fight",
+  "description": "A community opposition event against a datacenter project",
+  "type": "object",
+  "required": ["id", "jurisdiction", "state", "lat", "lng", "action_type", "date", "status"],
+  "properties": {
+    "id": { "type": "string", "description": "Unique identifier (slugified jurisdiction-state-date)" },
+    "jurisdiction": { "type": "string", "description": "City, county, or governing body that took action" },
+    "state": { "type": "string", "description": "US state abbreviation" },
+    "county": { "type": "string", "description": "County name if applicable" },
+    "lat": { "type": "number", "description": "Latitude of jurisdiction" },
+    "lng": { "type": "number", "description": "Longitude of jurisdiction" },
+    "action_type": {
+      "type": "string",
+      "enum": ["moratorium", "full_ban", "zoning_restriction", "cancellation", "permit_denial", "resolution_opposing", "lawsuit", "protest", "petition", "legislative_action", "other"],
+      "description": "Type of opposition action taken"
+    },
+    "date": { "type": "string", "format": "date", "description": "Date of action (YYYY-MM-DD)" },
+    "status": {
+      "type": "string",
+      "enum": ["active", "expired", "overturned", "permanent", "ongoing", "resolved", "pending", "defeated"],
+      "description": "Current status of the action"
+    },
+    "company": { "type": "string", "description": "Company proposing the datacenter" },
+    "project_name": { "type": "string", "description": "Name of the proposed project" },
+    "investment_million_usd": { "type": "number", "description": "Proposed investment in millions USD" },
+    "megawatts": { "type": "number", "description": "Proposed power capacity in MW" },
+    "acreage": { "type": "number", "description": "Total project site acreage" },
+    "building_sq_ft": { "type": "number", "description": "Total planned building square footage" },
+    "water_usage_gallons_per_day": { "type": "number", "description": "Estimated daily water consumption" },
+    "jobs_promised": { "type": "number", "description": "Number of permanent jobs promised by developer" },
+    "opposition_groups": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Names of community groups involved"
+    },
+    "opposition_website": { "type": "string", "description": "Official opposition website URL" },
+    "opposition_facebook": { "type": "string", "description": "Facebook group/page URL" },
+    "opposition_instagram": { "type": "string", "description": "Instagram handle" },
+    "opposition_twitter": { "type": "string", "description": "Twitter/X handle" },
+    "petition_url": { "type": "string", "description": "Online petition URL (Change.org, etc.)" },
+    "petition_signatures": { "type": "number", "description": "Number of petition signatures" },
+    "concerns": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["water", "noise", "electricity_rates", "air_quality", "property_values", "traffic", "agricultural_land", "environment", "grid_reliability", "health", "community_character", "process_fairness", "light_pollution", "tax_fairness", "wildlife", "jobs_quality"] },
+      "description": "Coded list of community concerns"
+    },
+    "summary": { "type": "string", "description": "Brief description of the fight (2-3 sentences)" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "URLs of source articles"
+    },
+    "data_source": {
+      "type": "string",
+      "enum": ["bryce", "dcw", "fractracker", "news", "manual"],
+      "description": "Where this entry was sourced from"
+    },
+    "last_updated": { "type": "string", "format": "date", "description": "When this entry was last verified" }
+  }
+}

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "lordstown-oh-2025-10-01",
+    "jurisdiction": "Lordstown",
+    "state": "OH",
+    "updates": {
+      "company": "Bristolville 25 Developer LLC",
+      "hyperscaler": "OpenAI (Stargate)",
+      "megawatts": 1500,
+      "investment_million_usd": 3600,
+      "notes": "Bristolville 25 Developer LLC proposed a $3.6B, 1.65M sq ft campus on 133 acres. The site is adjacent to the SoftBank/OpenAI/Oracle Stargate campus at the former GM plant. Lordstown banned data centers, developer sued via Ohio Supreme Court. SoftBank's Stargate facility at the former GM plant can scale to 1.5GW.",
+      "sources": [
+        "https://www.vindy.com/news/business-news/2025/10/developer-proposes-3-6b-data-center-in-lordstown/",
+        "https://www.datacenterdynamics.com/en/news/data-centers-now-banned-in-lordstown-ohio/",
+        "https://www.wfmj.com/story/53109325/lordstown-part-of-mammoth-dollar500-billion-artificial-intelligence-data-center-project"
+      ]
+    }
+  },
+  {
+    "id": "saline-township-mi-2025-10-01",
+    "jurisdiction": "Saline Township",
+    "state": "MI",
+    "updates": {
+      "company": "OpenAI / Oracle / Related Digital (Stargate)",
+      "hyperscaler": "OpenAI",
+      "megawatts": 1000,
+      "investment_million_usd": 7000,
+      "notes": "OpenAI, Oracle, and Related Digital revealed as developers behind a 1GW+ AI data center on 250 acres in Saline Township for the Stargate joint venture. Michigan PSC approved DTE's 19-year, 1.4GW power supply agreement. Construction slated for 2026.",
+      "sources": [
+        "https://planetdetroit.org/2025/10/saline-hyperscale-data-center/",
+        "https://bridgemi.com/michigan-environment-watch/dte-consumers-advance-plans-for-power-hungry-data-centers-in-michigan/",
+        "https://michiganadvance.com/2025/10/30/whitmer-multi-billion-dollar-saline-township-data-center-largest-investment-in-michigan-history/"
+      ]
+    }
+  },
+  {
+    "id": "st-joseph-county-in-2025-12-10",
+    "jurisdiction": "St. Joseph County",
+    "state": "IN",
+    "updates": {
+      "company": "New Carlisle 25 Developer LLC",
+      "hyperscaler": "Meta (denied affiliation)",
+      "megawatts": 2250,
+      "investment_million_usd": 13000,
+      "notes": "New Carlisle 25 Developer LLC proposed a $13B data center on 1,057 acres near New Carlisle. A local official claimed Meta was the end-user, but Meta denied affiliation. County Council voted 7-2 to deny rezoning after a 10-hour marathon meeting. This is separate from the approved $11B Amazon/AWS data center already under construction nearby.",
+      "sources": [
+        "https://wsbt.com/news/local/st-joseph-county-council-denies-rezoning-of-land-for-data-center-votes-7-2-marathon-meeting-hours-long-public-opinion-13-billion-dollar-project-amazon-new-carlisle-approval-process-plan-commission-st-joseph-county-indiana",
+        "https://www.datacenterdynamics.com/en/news/councilwoman-claims-family-was-swatted-as-planning-permission-denied-for-12bn-data-center-near-new-carlisle-indiana/",
+        "https://nwitimes.com/news/local/article_508bddc3-c842-4e1e-82b4-5c88a5db44d3.html"
+      ]
+    }
+  },
+  {
+    "id": "toronto-sd-2026-01-06",
+    "jurisdiction": "Toronto",
+    "state": "SD",
+    "updates": {
+      "company": "Applied Digital",
+      "megawatts": 430,
+      "investment_million_usd": 16000,
+      "notes": "Applied Digital proposes two data center buildings totaling 1.8M sq ft with 400-430MW power load on 150-200 acres in Deuel County. Total investment could reach $16B ($4-5B from Applied Digital, $6-12B from customers). Attracted by cold climate and natural gas/wind energy access.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/applied-digital-proposes-multi-billion-dollar-data-center-in-south-dakota/",
+        "https://www.mykxlg.com/news/local/potential-14-billion-data-center-could-transform-deuel-countys-economy/article_2a031739-b2ae-4932-95f5-57e4f280b7c7.html",
+        "https://www.keloland.com/keloland-com-original/deuel-county-eyes-multi-billion-data-center-proposal/"
+      ]
+    }
+  },
+  {
+    "id": "lacy-lakeview-waco-area-tx-2025-12-03",
+    "jurisdiction": "Lacy Lakeview (Waco area)",
+    "state": "TX",
+    "updates": {
+      "company": "Infrakey",
+      "investment_million_usd": 10000,
+      "notes": "Infrakey proposed a $10B data center on 520 acres of farmland west of Elm Mott. Lacy Lakeview City Council voted 6-1 to annex land despite organized opposition with 3,000+ petition signatures. Would generate $50M/year in tax revenue for the 7,000-resident city. Company formed in March 2025.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/10bn-data-center-project-recieves-approval-in-lacy-lakeview-texas/",
+        "https://www.texastribune.org/2025/11/24/texas-waco-data-center-project/",
+        "https://wacobridge.org/2025/11/21/talks-underway-for-10-billion-data-center-and-power-plant-north-of-waco/"
+      ]
+    }
+  },
+  {
+    "id": "wilmington-oh-2025-11-26",
+    "jurisdiction": "Wilmington",
+    "state": "OH",
+    "updates": {
+      "company": "Amazon Web Services (AWS)",
+      "hyperscaler": "Amazon/AWS",
+      "investment_million_usd": 4000,
+      "notes": "AWS proposing data center on 471 acres off U.S. 68 in Wilmington, Clinton County. ~100 permanent jobs with $8M annual payroll. AWS would fund $25M in public infrastructure. Planning Commission tabled the site plan for more information. 30-year PILOT agreement at 30% of property taxes.",
+      "sources": [
+        "https://www.wnewsj.com/2025/12/03/officials-detail-4b-aws-data-center-proposal-infrastructure-plans/",
+        "https://www.wcpo.com/news/local-news/4-billion-amazon-data-center-proposal-in-wilmington-advances-to-next-stage-residents-want-pause",
+        "https://www.datacenterdynamics.com/en/news/aws-data-center-project-tabled-in-wilmington-ohio/"
+      ]
+    }
+  },
+  {
+    "id": "kenosha-wi-2025-12-01",
+    "jurisdiction": "Kenosha",
+    "state": "WI",
+    "updates": {
+      "company": "Microsoft",
+      "hyperscaler": "Microsoft",
+      "investment_million_usd": 4000,
+      "notes": "Microsoft purchased 240 acres northwest of I-94 and Route 142. Part of Microsoft's broader $7B+ Wisconsin data center investment that includes the $3.3B Mount Pleasant campus. Phase 1 max electricity needs: 400MW. Kenosha signed NDA with Microsoft before annexing the land in December 2024.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/microsoft-acquires-240-acres-in-kenosha-wisconsin-for-data-center-development/",
+        "https://www.fox6now.com/news/microsoft-wisconsin-next-infrastructure-investment-announced",
+        "https://www.wpr.org/news/new-data-center-kenosha-wisconsin-rapids"
+      ]
+    }
+  },
+  {
+    "id": "montour-county-pa-2026-02-10",
+    "jurisdiction": "Montour County",
+    "state": "PA",
+    "updates": {
+      "company": "Talen Energy",
+      "megawatts": 1920,
+      "investment_million_usd": 18000,
+      "notes": "Talen Energy sought to rezone 1,300 acres (800+ from agricultural) for a data center near the Montour Steam Station. County commissioners unanimously denied the rezoning in February 2026. Separately, AWS has an $18B deal with Talen for 1.92GW nuclear power from the Susquehanna plant (in Salem Township, different location). Concerned Citizens of Montour County organized opposition.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/talen-energy-seeks-to-rezone-land-in-montour-county-pennsylvania-for-data-center-project/",
+        "https://penncapital-star.com/energy-environment/montour-county-denies-rezoning-plan-that-would-have-allowed-a-data-center/",
+        "https://insideclimatenews.org/news/03032026/pennsylvania-data-center-resistance/"
+      ]
+    }
+  },
+  {
+    "id": "new-castle-county-de-2026-02-04",
+    "jurisdiction": "New Castle County",
+    "state": "DE",
+    "updates": {
+      "company": "Starwood Digital Ventures (Starwood Capital Group)",
+      "megawatts": 1200,
+      "investment_million_usd": 10000,
+      "notes": "Starwood Digital Ventures filed plans for 'Project Washington,' a 1.2GW, 6M sq ft campus with 11 buildings on 580 acres north of Delaware City Refinery. Would consume as much power as 875,000-1M homes (nearly 2x all Delaware housing units). Construction targeted Q3 2026, operational by 2028.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/starwood-files-to-develop-12gw-11-building-data-center-campus-in-delaware/",
+        "https://spotlightdelaware.org/2025/07/20/proposed-delaware-data-center-energy/",
+        "https://delawarebusinesstimes.com/news/new-castle-data-center-campus/"
+      ]
+    }
+  },
+  {
+    "id": "delaware-city-de-2026-02-04",
+    "jurisdiction": "Delaware City",
+    "state": "DE",
+    "updates": {
+      "company": "Starwood Digital Ventures (Starwood Capital Group)",
+      "megawatts": 1200,
+      "investment_million_usd": 10000,
+      "notes": "Same project as New Castle County - Project Washington spans the area between New Castle and Delaware City. Starwood Digital Ventures (subsidiary of Starwood Capital Group) is the developer. Landowner is New Castle Campus Development LLC, tied to PBF Energy. Power from Delmarva Power & Light's Red Lion substation.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/starwood-files-to-develop-12gw-11-building-data-center-campus-in-delaware/",
+        "https://spotlightdelaware.org/2025/08/05/plans-for-de-data-center-submitted-starting-the-clock-on-the-controversial-proposal/"
+      ]
+    }
+  },
+  {
+    "id": "pacific-mo-2026-02-25",
+    "jurisdiction": "Pacific",
+    "state": "MO",
+    "updates": {
+      "company": "Beltline Energy",
+      "investment_million_usd": 16000,
+      "notes": "Atlanta-based Beltline Energy pitched the Meramec Valley Technology Park: up to 16 buildings on ~500 acres off Highway O in Franklin County. Developer tabled its rezoning request, citing inability to finalize funding agreement. Grassroots opposition over water usage and environmental impact on the Meramec River.",
+      "sources": [
+        "https://www.stlmag.com/business/pacific-data-center-beltline-energy-proposal/",
+        "https://www.firstalert4.com/2026/02/26/pacific-data-center-rezoning-meeting-ends-abruptly-after-developer-withdraws-request/",
+        "https://www.stltoday.com/news/local/business/article_bf5f674b-b567-4648-ab4d-e461b95f6cdc.html"
+      ]
+    }
+  },
+  {
+    "id": "city-of-chandler-az-2025-12-12",
+    "jurisdiction": "City of Chandler",
+    "state": "AZ",
+    "updates": {
+      "company": "Active Infrastructure",
+      "megawatts": 150,
+      "investment_million_usd": 2500,
+      "notes": "Active Infrastructure (New York-based) proposed a $2.5B, 400,000 sq ft data center on 40 acres near Queen Creek and Dobson roads. City Council unanimously rejected (7-0) on Dec 11, 2025. Former Sen. Kyrsten Sinema lobbied for the project as co-chair of AI Infrastructure Coalition. Emails opposing outnumbered supporters 20-to-1.",
+      "sources": [
+        "https://www.foxbusiness.com/politics/arizona-city-unanimously-rejects-ai-data-center-after-residents-outcry",
+        "https://www.12news.com/article/news/local/valley/chandler-arizona-city-council-shoots-down-proposed-ai-data-center/75-7e385023-85da-4f7c-ad2f-91fd43c6c75f",
+        "https://www.cnn.com/2025/12/10/politics/data-center-arizona-kyrsten-sinema-trump"
+      ]
+    }
+  },
+  {
+    "id": "van-buren-township-mi-2026-01-01",
+    "jurisdiction": "Van Buren Township",
+    "state": "MI",
+    "updates": {
+      "company": "Panattoni Development Co.",
+      "megawatts": 1000,
+      "notes": "Irvine, CA-based Panattoni Development Co. plans 'Project Cannoli' - a 1GW data center on 280 acres north of I-94 between Haggerty Road and I-275. Planning Commission voted 5-2 for preliminary site plan approval. Would use 2-3M gallons of water/day. End-user not publicly identified.",
+      "sources": [
+        "https://www.michiganpublic.org/transportation-infrastructure/2026-02-06/what-to-know-about-wayne-countys-proposed-data-center-project-cannoli",
+        "https://planetdetroit.org/2026/02/project-cannoli-preliminary-site-plan/",
+        "https://www.fox2detroit.com/news/massive-data-center-plans-van-buren-township-move-forward-despite-pushback"
+      ]
+    }
+  },
+  {
+    "id": "marion-county-project-liberty-sc-2026-01-22",
+    "jurisdiction": "Marion County (Project Liberty)",
+    "state": "SC",
+    "updates": {
+      "company": "Eagle Myra LLC",
+      "investment_million_usd": 2400,
+      "notes": "Eagle Myra LLC is behind 'Project Liberty,' a $2.4B data center quietly approved during a winter storm on Jan 22, with county council having signed an NDA. 60 permanent jobs, $28M/year in tax revenue. County approved a FILOT agreement. Company identity remained hidden from public until after approval.",
+      "sources": [
+        "https://capitalbnews.org/secret-data-center-deal-marion-county-south-carolina/",
+        "https://truthout.org/articles/amid-the-winter-storm-a-rural-sc-county-quietly-approved-a-2-4b-data-center/",
+        "https://wpde.com/news/local/marion-county-eagle-myra-project-liberty"
+      ]
+    }
+  },
+  {
+    "id": "simpson-county-ky-2026-01-28",
+    "jurisdiction": "Simpson County",
+    "state": "KY",
+    "updates": {
+      "company": "TenKey LandCo I LLC",
+      "investment_million_usd": 5000,
+      "notes": "TenKey LandCo I LLC proposes three 200,000 sq ft facilities over 3 years on ~200 acres near I-65 Exit 2 in Franklin. Each facility represents $1.6B investment. End-user described as 'one of the largest tech companies in the world' but not publicly identified. TenKey sued Simpson County over a zoning ordinance requiring heavy industrial zoning and conditional use permits for data centers.",
+      "sources": [
+        "https://www.lpm.org/news/2026-01-28/data-center-developer-sues-simpson-county-government-over-land-use-ordinance",
+        "https://www.wbko.com/2026/01/16/data-center-seeks-preliminary-site-development-plan-for-simpson-county/",
+        "https://www.lpm.org/news/2026-01-21/zoning-regulators-table-preliminary-development-plan-for-southern-kentucky-data-center"
+      ]
+    }
+  },
+  {
+    "id": "hanover-county-va-2026-01-28",
+    "jurisdiction": "Hanover County",
+    "state": "VA",
+    "updates": {
+      "company": "HHHunt (withdrawn) / Tract (new proposal)",
+      "megawatts": 900,
+      "notes": "HHHunt proposed 'Hunting Hawk Technology Park' - a 400-acre, 10-building, 3.9M sq ft campus supporting 900MW adjacent to Hunting Hawk Golf Club near Wyndham. Withdrawn before council vote in Feb 2026 after planners recommended refusal. A new 900MW proposal from Tract on 427 acres off Route 33 near Hanover-Henrico line followed shortly after.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/900mw-data-center-campus-plan-withdrawn-in-hanover-county-virginia/",
+        "https://www.wtvr.com/news/local-news/hhhunt-community-meeting-nov-17-2025",
+        "https://www.wtvr.com/news/local-news/route-33-data-center-plan-feb-19-2026"
+      ]
+    }
+  },
+  {
+    "id": "barrington-hills-il-2026-01-29",
+    "jurisdiction": "Barrington Hills",
+    "state": "IL",
+    "updates": {
+      "company": "Brennan Investment Group",
+      "investment_million_usd": 2000,
+      "notes": "Brennan Investment Group withdrew plans for a $2B data center on land south of Penny Road. Change.org petition with 1,300+ signatures. Developer canceled scheduled public presentation before village's plan commission. Brennan is also developing data centers in Elk Grove Village and Rolling Meadows.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/brennan-investment-group-withdraws-plans-for-2bn-data-center-outside-chicago-illinois/",
+        "https://therealdeal.com/chicago/2026/01/27/brennans-2b-barrington-hills-data-center-scrapped/",
+        "https://www.shawlocal.com/northwest-herald/news/2026/01/29/2-billion-data-center-proposal-in-barrington-hills-withdrawn/"
+      ]
+    }
+  },
+  {
+    "id": "adams-county-oh-2026-02-01",
+    "jurisdiction": "Adams County",
+    "state": "OH",
+    "updates": {
+      "company": "Unknown (multiple entities: Buck Canyon Properties LLC, High Table LLC, Energy Strike LLC, Hecate Energy)",
+      "megawatts": 1300,
+      "notes": "A data center near the former J.M. Stuart power plant would require 1,300MW by 2032, per AES Ohio filing. Multiple entities involved in land acquisition: Buck Canyon Properties paid $2.65M for 1,016 acres; High Table LLC and Energy Strike LLC bought 790 acres with option agreements with Hecate Energy (Chicago). Specific operator not publicly disclosed.",
+      "sources": [
+        "https://www.wcpo.com/news/local-news/i-team/adams-county-data-center-could-be-one-of-ohios-biggest-power-guzzlers",
+        "https://www.wcpo.com/news/local-news/i-team/adams-county-touts-demolished-power-plants-as-the-best-place-for-data-centers"
+      ]
+    }
+  },
+  {
+    "id": "ashville-pickaway-county-oh-2026-02-02",
+    "jurisdiction": "Ashville (Pickaway County)",
+    "state": "OH",
+    "updates": {
+      "company": "EdgeConneX",
+      "megawatts": 1800,
+      "notes": "EdgeConneX proposed a data center on 680 acres of farmland north of SR 752 in Ashville. Site plan includes a 1.8GW substation and 200MW gas turbine energy center. Company sought 30-year full tax abatement. EdgeConneX withdrew its larger campus annexation application in mid-December. Ashville Village Council approved a 180-day moratorium in response.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/proposed-edgeconnex-data-center-in-pickaway-county-ohio-facing-criticism/",
+        "https://www.10tv.com/article/news/local/boomtown-ohio/ashville-residents-push-back-proposed-data-center-plans/530-485aa583-7c22-4665-88e4-4e902f093c65",
+        "https://www.nbc4i.com/news/local-news/pickaway-county/after-public-pushback-pickaway-county-village-enacts-data-center-pause/"
+      ]
+    }
+  },
+  {
+    "id": "augusta-ga-2026-02-11",
+    "jurisdiction": "Augusta",
+    "state": "GA",
+    "updates": {
+      "company": "QTS Data Centers (via Eagle South LLC / Cyber Development LLC)",
+      "investment_million_usd": 2000,
+      "notes": "QTS Data Centers plans to invest $2B at 2883 Gordon Highway. Eagle South LLC acquired the property, with schematics listing Cyber Development LLC and QTS Data Centers (Duluth, GA). Expanded to 2.15M sq ft, double the original proposal. 160-220 jobs. Neighbors cited concerns about property values, noise, and utilities.",
+      "sources": [
+        "https://www.wrdw.com/2025/12/26/flying-under-radar-new-data-center-will-twice-big-augusta-mall/",
+        "https://www.wrdw.com/2026/02/03/augusta-leaders-hear-about-data-center-that-came-shock-neighbors/",
+        "https://wgac.com/2025/12/30/augusta-data-center-plans-expand-to-2-15-million-square-feet/"
+      ]
+    }
+  },
+  {
+    "id": "walla-walla-county-wa-2026-02-12",
+    "jurisdiction": "Walla Walla County",
+    "state": "WA",
+    "updates": {
+      "company": "Amazon Web Services (AWS) (via Advance Phase LLC)",
+      "hyperscaler": "Amazon/AWS",
+      "investment_million_usd": 4800,
+      "notes": "AWS identified as the company behind a $4.8B data center at the Wallula Gap Business Park. Advance Phase LLC purchased ~500 acres in Oct 2024. Plans for 16 data centers totaling 3.4M+ sq ft. AWS signed nuclear power deal with Energy Northwest for four SMRs providing up to 320MW. Would increase county tax base from ~$10B to ~$15B.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/aws-likely-behind-48bn-data-center-in-walla-walla-washington/",
+        "https://www.tricitiesbusinessnews.com/articles/wallula-data-center"
+      ]
+    }
+  },
+  {
+    "id": "san-marcos-tx-2026-02-17",
+    "jurisdiction": "San Marcos",
+    "state": "TX",
+    "updates": {
+      "company": "Highlander SM One LLC",
+      "megawatts": 380,
+      "investment_million_usd": 1500,
+      "notes": "Highlander SM One LLC (Fort Worth-based) proposed a $1.5B complex on 200 acres on Francis Harris Lane between San Marcos and New Braunfels. Five buildings at ~76MW each (~380MW total). City Council voted 5-2 to deny land use change on Feb 18, 2026. Note: A separate CloudBurst project (1.2GW) is also planned nearby.",
+      "sources": [
+        "https://www.kvue.com/article/news/local/hays-county/san-marcos-data-center-debate/269-26ebd1b0-1dfa-443b-b5ec-05016bcc0b7c",
+        "https://www.kut.org/energy-environment/2026-02-18/san-marcos-city-council-blocks-proposed-data-center",
+        "https://communityimpact.com/austin/san-marcos-buda-kyle/development/2025/05/21/new-data-center-planned-near-new-braunfels-and-san-marcos-sparks-debate/"
+      ]
+    }
+  },
+  {
+    "id": "sunbury-oh-2026-02-24",
+    "jurisdiction": "Sunbury",
+    "state": "OH",
+    "updates": {
+      "company": "Amazon Web Services (AWS)",
+      "hyperscaler": "Amazon/AWS",
+      "investment_million_usd": 2000,
+      "notes": "AWS plans a $2B data center campus in the Sunbury Business and Technology Park in Delaware County. Part of AWS's broader $7.8B central Ohio investment announced in 2023. Phase 1 includes 450,000 sq ft building. 50 full-time employees with $4.5M annual payroll. Construction expected Jan 2028, completion Dec 2034.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/aws-plans-2bn-data-center-campus-in-sunbury-ohio/",
+        "https://www.10tv.com/article/news/local/boomtown-ohio/amazon-new-data-center-delaware-county-ohio/530-df6756a8-47e3-4e04-a78d-189d4d014168"
+      ]
+    }
+  },
+  {
+    "id": "berkeley-county-wv-2026-02-26",
+    "jurisdiction": "Berkeley County",
+    "state": "WV",
+    "updates": {
+      "company": "Penzance Management",
+      "megawatts": 600,
+      "investment_million_usd": 4000,
+      "notes": "D.C.-based Penzance Management will build the 'Bedington Intelligence Center' on 548 acres in the Falling Waters District. 1.9M sq ft delivering 600MW critical IT capacity at full buildout. ~1,000 construction jobs, 125 permanent positions. Announced by Gov. Morrisey Feb 26, 2026. No state funding used.",
+      "sources": [
+        "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact",
+        "https://www.datacenterdynamics.com/en/news/penzance-targets-600mw-data-center-campus-in-west-virginia/",
+        "https://wvmetronews.com/2026/02/26/governor-announces-a-developer-for-big-west-virginia-data-center-spot/"
+      ]
+    }
+  },
+  {
+    "id": "fulton-county-in-2026-03-03",
+    "jurisdiction": "Fulton County",
+    "state": "IN",
+    "updates": {
+      "company": "Decennial Group",
+      "megawatts": 500,
+      "notes": "Decennial Group proposed a 500MW data center near Akron. ~200 residents attended meetings. Fulton County Commissioners voted 2-1 to approve a one-year moratorium. No formal application had been filed yet; project remains in proposal stage.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/officials-recommend-data-center-moratorium-for-approval-in-fulton-county-indiana/",
+        "https://www.giant.fm/fulton-county/news/local-news/data-center-moratorium-approved-during-fulton-county-commissioners-meeting-monday/"
+      ]
+    }
+  },
+  {
+    "id": "marana-referendum-lawsuit-az-2026-02-27",
+    "jurisdiction": "Marana (referendum lawsuit)",
+    "state": "AZ",
+    "updates": {
+      "company": "Beale Infrastructure (via Fremont Peak Properties LLC)",
+      "hyperscaler": "Amazon/AWS",
+      "investment_million_usd": 3600,
+      "notes": "Beale Infrastructure developed 'Project Blue' on 600 acres, tied to Amazon Web Services per 2023 Pima County documents. Marana approved rezoning for a 600-acre, up to 750MW hyperscale data center (Luckett Road Project). Two referendum petitions with ~6,000 signatures were rejected on a technicality (missing parcel number). Residents sued the Town of Marana; court hearing scheduled for March 4, 2026.",
+      "sources": [
+        "https://news.azpm.org/p/newsheadlines/2026/2/27/228668-marana-residents-sue-town-over-rejected-data-center-referendum-petitions/",
+        "https://www.tucsonsentinel.com/local/report/021826_data_referendum_fails/marana-rejects-referendums-against-data-center-center-rezoning/",
+        "https://azluminaria.org/2026/01/08/marana-arizona-data-center-updates/"
+      ]
+    }
+  },
+  {
+    "id": "city-of-atlanta-ga-2024-09-01",
+    "jurisdiction": "City of Atlanta",
+    "state": "GA",
+    "updates": {
+      "notes": "General zoning restriction, not tied to a specific company. Atlanta City Council approved two ordinances on Sept 3, 2024: (1) defining data centers and prohibiting them within 2,640 ft of high-capacity transit stops, and (2) prohibiting data centers within the BeltLine Overlay District. Motivated by 211% growth in data center development the prior year and energy/water concerns.",
+      "sources": [
+        "https://citycouncil.atlantaga.gov/Home/Components/News/News/3928/",
+        "https://www.gpb.org/news/2024/09/04/atlanta-city-council-bans-data-centers-along-beltline",
+        "https://www.datacenterdynamics.com/en/news/atlanta-city-council-passes-rules-limiting-data-center-locations/"
+      ]
+    }
+  },
+  {
+    "id": "fairfax-county-va-2024-09-01",
+    "jurisdiction": "Fairfax County",
+    "state": "VA",
+    "updates": {
+      "notes": "General zoning restriction, not tied to a specific company. Board of Supervisors adopted Data Centers Zoning Ordinance Amendment on Sept 10, 2024. Requires special exception approval for almost all data centers. 200-ft setback from residential property lines, 1-mile setback from Metro stations, noise/visual screening requirements.",
+      "sources": [
+        "https://www.fairfaxcounty.gov/planning-development/data-centers",
+        "https://www.hklaw.com/en/insights/publications/2024/09/fairfax-county-virginia-approves-updated-zoning-regulations",
+        "https://www.datacenterfrontier.com/site-selection/article/55139905/northern-virginias-fairfax-county-tightens-data-center-rules"
+      ]
+    }
+  },
+  {
+    "id": "oliver-county-nd-2024-12-12",
+    "jurisdiction": "Oliver County",
+    "state": "ND",
+    "updates": {
+      "notes": "General moratorium, not tied to a specific company. County adopted Resolution 2024-05 on Dec 12, 2024, imposing moratorium on data centers and cryptocurrency mining facilities. Planning & Zoning Board recommended by 4-3 vote. Commissioners voted unanimously (3-0). Also imposed moratorium on solar energy facilities.",
+      "sources": [
+        "https://olivercountynd.org/index.asp?SEC=AA1FE418-4509-4D80-9397-3CA011E32E88",
+        "https://bismarcktribune.com/news/state-regional/article_7008bcf1-5d9d-4007-96c7-a2f8bf697d75.html"
+      ]
+    }
+  },
+  {
+    "id": "marshall-county-in-2025-02-01",
+    "jurisdiction": "Marshall County",
+    "state": "IN",
+    "updates": {
+      "notes": "General moratorium (first in Indiana), not tied to a specific company. Adopted Feb 2025 due to concerns about data center expansion in neighboring St. Joseph County (Amazon's 2,250MW project). Commissioner Stan Klotz cited apprehension about what was happening in New Carlisle.",
+      "sources": [
+        "https://www.govtech.com/products/residents-push-indiana-community-toward-halt-on-data-centers",
+        "https://www.ibj.com/articles/3-counties-put-moratoriums-on-data-center-projects"
+      ]
+    }
+  },
+  {
+    "id": "henrico-county-va-2025-06-01",
+    "jurisdiction": "Henrico County",
+    "state": "VA",
+    "updates": {
+      "notes": "General zoning restriction, not tied to a specific company. Board of Supervisors adopted data center zoning amendments on June 10, 2025. Requires provisional use permits for future data centers outside the 3,000-acre White Oak Technology Park. 500-ft setback from residential areas, mandatory vegetative buffers, closed-loop water-cooling requirements, generator testing restrictions.",
+      "sources": [
+        "https://www.12onyourside.com/2025/06/11/henrico-board-supervisors-passes-stricter-requirements-data-centers/",
+        "https://richmondbizsense.com/2025/05/15/henrico-looks-to-limit-data-center-development-with-new-white-oak-overlay-district/",
+        "https://www.datacenterfrontier.com/hyperscale/article/55296394/henrico-county-virginia-moves-to-slow-data-center-growth"
+      ]
+    }
+  },
+  {
+    "id": "mesa-az-2025-07-08",
+    "jurisdiction": "Mesa",
+    "state": "AZ",
+    "updates": {
+      "notes": "General zoning restriction, not tied to a specific company. City Council voted 5-0 on July 8, 2025 to require City Council approval for data center construction. 15 data centers already built, approved, or proposed in Mesa over past 6 years. New design guidelines and environmental study requirements. Data centers previously treated as Indoor Warehousing and Storage.",
+      "sources": [
+        "https://www.kjzz.org/business/2025-07-14/mesa-city-council-approves-new-data-center-zoning-rules",
+        "https://www.12news.com/article/news/local/valley/new-data-center-regulations-approved-by-mesa-leaders-arizona/75-db14238c-61cd-4f89-9cfa-f7759baa5cf3"
+      ]
+    }
+  },
+  {
+    "id": "city-of-st-charles-mo-2025-08-01",
+    "jurisdiction": "City of St. Charles",
+    "state": "MO",
+    "updates": {
+      "company": "CGR (developer of 'Project Cumulus', withdrew)",
+      "notes": "CGR pulled the plug on a 440-acre data center ('Project Cumulus') after negative public feedback. City Council then unanimously passed a one-year moratorium in special session on Aug 22, 2025. Mayor Dan Borgmeyer had signed an NDA with the developer, frustrating residents. Company identity was not disclosed due to the NDA.",
+      "sources": [
+        "https://www.firstalert4.com/2025/08/23/st-charles-places-1-year-pause-data-center-projects/",
+        "https://www.ksdk.com/article/news/local/st-charles-ai-data-center-ban-first-in-nation/63-2c50fbcf-fcad-4b8d-bbcb-3711f6c2d29d",
+        "https://www.kcur.org/housing-development-section/2025-08-23/st-charles-data-center-year-ban"
+      ]
+    }
+  },
+  {
+    "id": "wrangell-ak-2025-08-21",
+    "jurisdiction": "Wrangell",
+    "state": "AK",
+    "updates": {
+      "company": "Greensparc",
+      "megawatts": 3.5,
+      "notes": "California-based Greensparc proposes a small-scale (~10,000 sq ft) data center at the former 6-Mile Mill site on borough-owned land, using 3.5MW of hydroelectric power. Would lease 1-2 acres of 42 borough-owned acres. Planning commission voted 3-2 to recommend lease approval on Jan 22. Greensparc's second facility (first in Cordova). No diesel generators planned.",
+      "sources": [
+        "https://www.ketchikandailynews.com/news/alaska/data-center-lease-recommended-wrangell-planning-group-votes/article_55efe7dc-592f-4c6a-8606-21dd936f063a.html",
+        "https://www.wrangellsentinel.com/stories/planning-commission-recommends-approval-of-data-center-lease,48289",
+        "https://www.juneauindependent.com/post/proposed-small-scale-data-center-in-wrangell-raises-questions"
+      ]
+    }
+  },
+  {
+    "id": "clayton-county-ga-2025-09-01",
+    "jurisdiction": "Clayton County",
+    "state": "GA",
+    "updates": {
+      "company": "TA Realty / Digital Realty (recently approved projects)",
+      "notes": "Board of Commissioners voted on Sept 3, 2025 for a 120-day moratorium (until Dec 31) on new data center permits. Sponsored by Vice Chair Alaina Reaves. Two data centers recently approved: one by TA Realty in Ellenwood, one by Digital Realty at former Fort Gillem site in Forest Park. Concerns about electromagnetic fields and water supplies.",
+      "sources": [
+        "https://www.claytoncountyga.gov/news/clayton-county-board-of-commissioners-approves-moratorium-on-new-data-centers-in-clayton-county/",
+        "https://www.wsbtv.com/news/local/clayton-county/clayton-county-commissioners-pass-data-center-moratorium-through-end-year/Z6267BV7TVAEPG7I35KHP2PFT4/"
+      ]
+    }
+  },
+  {
+    "id": "troup-county-ga-2025-09-01",
+    "jurisdiction": "Troup County",
+    "state": "GA",
+    "updates": {
+      "megawatts": 600,
+      "notes": "Board of Commissioners approved 90-day moratorium on Sept 16, 2025, extended another 90 days (through June 14, 2026). A 600MW data center ('Project West') with six 250,000 sq ft buildings on 513 acres near I-85 in LaGrange area is the focal point. A separate proposal near Hogansville on 437 acres also drew opposition. Developer name for the Hogansville project not publicly identified.",
+      "sources": [
+        "https://www.gpb.org/news/2025/11/26/why-are-troup-county-residents-saying-no-600-mw-data-center-in-hogansville",
+        "https://www.fox5atlanta.com/news/troup-countys-90-day-pause-data-centers",
+        "https://www.lagrangenews.com/news/troup-extends-data-center-moratorium-another-90-days-c6ce311c"
+      ]
+    }
+  },
+  {
+    "id": "prince-george-s-county-md-2025-09-01",
+    "jurisdiction": "Prince George's County",
+    "state": "MD",
+    "updates": {
+      "notes": "County Executive Aisha Braveboy signed Executive Order No. 42-2025 on Sept 12, 2025, pausing data center permit applications until Dec 31. Over 20,000 people signed petition against the Landover project. Council also introduced CR-98-2025 resolution. Qualified Data Center Task Force established with Nov 30 deadline for recommendations. Three sites being eyed for development.",
+      "sources": [
+        "https://marylandmatters.org/2025/09/17/prince-georges-county-moves-to-put-data-center-development-on-pause/",
+        "https://wtop.com/prince-georges-county/2025/09/prince-georges-county-moves-to-put-data-center-development-on-pause/",
+        "https://dbknews.com/2025/12/04/prince-georges-county-data-centers/"
+      ]
+    }
+  },
+  {
+    "id": "city-of-lagrange-ga-2025-09-01",
+    "jurisdiction": "City of LaGrange",
+    "state": "GA",
+    "updates": {
+      "notes": "City Council passed 180-day moratorium in September 2025 on new data center applications, not affecting already-approved centers. Extended to May 12. Under proposed regulations, data centers allowed only in industrial zoning; hyperscale data centers require heavy industrial zoning. Chattahoochee Riverkeeper advocacy group pushed for the moratorium.",
+      "sources": [
+        "https://www.wsbtv.com/news/local/lagrange-city-council-passes-180-day-moratorium-data-centers/LFCNYS3HWRE3VJ3AJBBLRT3COA/",
+        "https://www.lagrangenews.com/2025/09/16/185894/"
+      ]
+    }
+  },
+  {
+    "id": "pike-county-ga-2025-09-01",
+    "jurisdiction": "Pike County",
+    "state": "GA",
+    "updates": {
+      "notes": "One of four Georgia counties to create a data center moratorium in September 2025, along with Lamar, Troup, and Clayton counties. Part of a wave of data center ordinances sweeping through Georgia counties.",
+      "sources": [
+        "https://www.gpb.org/news/2025/10/22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they"
+      ]
+    }
+  },
+  {
+    "id": "lamar-county-ga-2025-09-01",
+    "jurisdiction": "Lamar County",
+    "state": "GA",
+    "updates": {
+      "company": "Amazon Web Services (AWS)",
+      "hyperscaler": "Amazon/AWS",
+      "investment_million_usd": 270,
+      "notes": "AWS purchased a 985-acre development site (Legacy 75 industrial park) for $270M in July 2025. Lamar County's moratorium was adopted in September 2025 because commercial/industrial zoning codes hadn't been updated since 2010 and the term 'data center' didn't exist in the county code. The county of 20,000 people learned about the purchase in July.",
+      "sources": [
+        "https://www.gpb.org/news/2025/10/22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they",
+        "https://www.ajc.com/business/2025/08/amazons-data-center-division-pays-270m-to-buy-sprawling-georgia-property/",
+        "https://www.datacenterdynamics.com/en/news/amazon-acquires-1000-acres-of-land-outside-atlanta-georgia/"
+      ]
+    }
+  },
+  {
+    "id": "blakely-pa-2025-09-12",
+    "jurisdiction": "Blakely",
+    "state": "PA",
+    "updates": {
+      "company": "Kriger / Alpesh 'Al' Patel",
+      "megawatts": 1500,
+      "notes": "Kriger president Jim Marzolino partnered with Al Patel (Al's Quick Stop chain) to build up to four 150,000 sq ft data centers off Business Route 6 and Terrace Drive. Would use 1.5GW (1,500MW) - equal to the entire Lackawanna Energy Center output. Developers withdrew zoning request on Sept 12, days before hearing. ~800-signature petition from grassroots opposition. Developer later moved to Dickson City.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/developers-withdraw-request-for-data-center-in-blakely-pennsylvania/",
+        "https://www.thetimes-tribune.com/2025/09/12/data-center-project-withdrawn-in-blakely-days-ahead-of-zoning-hearing/",
+        "https://www.thetimes-tribune.com/2025/12/12/data-center-developer-tied-to-projects-in-archbald-blakely-moves-to-dickson-city/"
+      ]
+    }
+  },
+  {
+    "id": "white-county-in-2025-10-01",
+    "jurisdiction": "White County",
+    "state": "IN",
+    "updates": {
+      "notes": "Board of Commissioners passed moratorium on Oct 20, 2025 after months of public opposition. A developer was considering a project near Wolcott. Amazon is scouting sites in the seven-county Northwest Indiana region for 2.4GW of capacity. One of three Indiana counties (with Marshall and Putnam) to enact data center moratoriums.",
+      "sources": [
+        "https://www.ibj.com/articles/3-counties-put-moratoriums-on-data-center-projects",
+        "https://dailyjournal.net/2025/11/24/3-counties-put-moratoriums-on-data-center-projects/"
+      ]
+    }
+  },
+  {
+    "id": "village-of-yorkville-wi-2025-10-01",
+    "jurisdiction": "Yorkville",
+    "state": "WI",
+    "updates": {
+      "company": "Microsoft (informal inquiry, denied involvement)",
+      "hyperscaler": "Microsoft",
+      "notes": "Microsoft was informally connected to a backup data center proposal in the Village of Yorkville in Racine County, WI. The Village Board and Plan Commission made clear the village was 'not interested.' This came after Microsoft canceled its Caledonia, WI data center due to community pushback. Village President Douglas Nelson said residents want to maintain Yorkville's rural character. No formal application was ever filed.",
+      "sources": [
+        "https://spectrumnews1.com/wi/milwaukee/news/2025/12/09/yorkville--backup-data-center--update",
+        "https://biztimes.com/yorkville-puts-up-a-hard-no-on-data-center-talk/"
+      ]
+    }
+  },
+  {
+    "id": "preble-county-oh-2025-10-01",
+    "jurisdiction": "Preble County",
+    "state": "OH",
+    "updates": {
+      "company": "PRSM (via Patrick Scanlon)",
+      "notes": "PRSM, a land development company formed in 2022 specializing in digital infrastructure, sought to rezone 300 acres of farmland for limited industrial use. Denied 11-0 by Planning Commission on Aug 21 and 5-0 by Rural Zoning Commission. Developer Patrick Scanlon withdrew the application in October as residents organized a referendum campaign. No end user was lined up.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/application-for-data-center-in-preble-county-ohio-withdrawn/",
+        "https://www.wdtn.com/news/300-acres-of-farmland-could-be-rezoned-for-new-data-center-near-i-70/"
+      ]
+    }
+  }
+]

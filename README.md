@@ -2,12 +2,12 @@
 
 An interactive map and open database tracking grassroots opposition to datacenter development across the United States.
 
-**337+ fights tracked across 50 states.**
+**345+ fights tracked across 50 states.**
 
 ## What's in here
 
 - **`site/`** — Static website with Leaflet.js map, filterable table, dark mode, CSV/JSON export
-- **`data/fights.json`** — The complete database (337 entries with coordinates, opposition groups, sources, specs)
+- **`data/fights.json`** — The complete database (345 entries with coordinates, opposition groups, sources, specs)
 - **`scripts/`** — Data processing and enrichment pipeline
 - **`data/enrichment-*.json`** — Research artifacts documenting how data was gathered and enriched
 

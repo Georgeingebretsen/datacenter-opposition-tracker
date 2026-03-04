@@ -1,0 +1,464 @@
+[
+  {
+    "id": "california-statewide-ca-2026-02-01",
+    "bill_number": "SB 886, SB 887 (also AB 222 from 2025 session)",
+    "sponsors": ["Sen. Steve Padilla (D-San Diego)", "Assemblymember Rebecca Bauer-Kahan (D-San Ramon)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - SB 886 and SB 887 introduced January 2026, hearings upcoming",
+    "sources": [
+      "https://sd18.senate.ca.gov/news/bills-protecting-ratepayers-data-center-costs-and-incentivizing-sustainable-tech",
+      "https://calmatters.org/environment/2025/12/data-center-energy-study-california/",
+      "https://www.usnews.com/news/best-states/california/articles/2026-01-02/big-tech-blocked-california-data-center-legislation-leaving-only-a-study-requirement"
+    ],
+    "summary": "Sen. Steve Padilla introduced SB 886 (requiring PUC to establish special tariff to protect ratepayers from data center transmission costs) and SB 887 (allowing data centers to be eligible for Environmental Leadership Development Project certification with additional requirements). These follow failed 2025 efforts where Big Tech blocked data center regulation, leaving only a study requirement. Gov. Pritzker separately announced a two-year suspension of tax incentives (note: this is Illinois, not CA). Bills are pending hearings in the Senate."
+  },
+  {
+    "id": "georgia-statewide-hb-1012-ga-2026-02-01",
+    "bill_number": "HB 1012",
+    "sponsors": ["Rep. Ruwa Romman (D-Duluth)"],
+    "opposition_groups": ["Sierra Club", "Southern Environmental Law Center (SELC)", "Southern Alliance for Clean Energy (SACE)", "Georgia Interfaith Power & Light", "Southface Institute", "Science for Georgia"],
+    "company": null,
+    "status": "pending - in House Governmental Affairs Committee",
+    "sources": [
+      "https://capitol-beat.org/2026/01/resistance-to-data-centers-fuels-flood-of-georgia-bills-targeting-the-industry/",
+      "https://georgiarecorder.com/2026/01/20/outrage-over-surge-of-data-centers-in-georgia-inspires-wave-of-bipartisan-bills/",
+      "https://trackbill.com/bill/georgia-house-bill-1012-local-government-construction-or-development-of-new-data-centers-for-a-specified-time-prohibit/2778746/"
+    ],
+    "summary": "HB 1012 bans new data center construction from July 1, 2026 until March 1, 2027. The bill bars counties and cities from issuing any permit, license, or certificate authorizing construction of a new data center during that period, with an exception for approvals issued before July 1, 2026. Part of a wave of seven data center bills introduced in Georgia's 2026 session. Currently in House Governmental Affairs Committee."
+  },
+  {
+    "id": "idaho-statewide-id-2026-02-09",
+    "bill_number": "HB 609 (tax exemption limits), HB 739, S 1317 (rate protection)",
+    "sponsors": ["Rep. Chris Bruce (R-Kuna)", "Sen. Lori Den Hartog (R-Meridian)", "Rep. Stephanie Mickelsen (R-Idaho Falls)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - multiple bills in committee",
+    "sources": [
+      "https://boisedev.com/news/2026/02/09/bipartisan-bill-would-limit-tax-exemptions-for-data-centers-add-new-requirements-for-water-power-usage/",
+      "https://boisedev.com/news/2026/02/24/data-electricity-testing/",
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0739/"
+    ],
+    "summary": "Bipartisan bill HB 609 would limit sales tax exemptions to data center-specific equipment (excluding construction materials), sunset the exemption in 2036, and require data centers built after March 2026 to pay power rates that fully cover utility costs. Rep. Mickelsen separately introduced a bill to prevent the Idaho PUC from approving any new customer requiring 20+ MW without proving it would not raise rates for other customers. Multiple bills addressing tax breaks, water usage reporting, and rate protection."
+  },
+  {
+    "id": "iowa-statewide-ia-2026-02-19",
+    "bill_number": "HF 2447 (renumbered HF 2690), HF 2261",
+    "sponsors": ["Rep. Cindy Golding (R-Cedar Rapids)"],
+    "opposition_groups": ["Iowa State Association of Counties (supportive)"],
+    "company": null,
+    "status": "pending - advanced past first funnel deadline",
+    "sources": [
+      "https://www.axios.com/local/des-moines/2026/02/19/iowa-lawmakers-push-data-center-transparency",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
+    ],
+    "summary": "HF 2447 requires data centers to file quarterly water usage reports with Iowa DNR and quarterly energy reports with the Iowa Utilities Commission. All reported information must be shared publicly online within 30 days. Also requires the Iowa Utilities Commission to create a separate rate class for data centers to prevent grid upgrade costs from being shifted to residents. HF 2261 would create a new customer class for water utilities serving energy facilities requiring 20+ MW."
+  },
+  {
+    "id": "illinois-statewide-il-2026-02-20",
+    "bill_number": "SB 4103 / HB 5513 (POWER Act), SB 2181 (Data Center Energy and Water Reporting Act)",
+    "sponsors": ["Sen. Ram Villivalam (D-Chicago)", "Rep. Robyn Gabel (D-Evanston)"],
+    "opposition_groups": ["Environmental Law & Policy Center (ELPC)", "Alliance for the Great Lakes", "GreenLatinos", "Illinois Environmental Council", "Union of Concerned Scientists", "NRDC", "Illinois Clean Jobs Coalition"],
+    "company": null,
+    "status": "pending - POWER Act introduced Feb 11, 2026; Governor Pritzker announced two-year suspension of data center tax incentives effective July 1, 2026",
+    "sources": [
+      "https://elpc.org/news/power-act-introduced-to-set-standards-for-illinois-data-centers/",
+      "https://capitolnewsillinois.com/?p=99250",
+      "https://insideclimatenews.org/news/19022026/illinois-data-center-impacts-bill/",
+      "https://www.nrdc.org/press-releases/pritzker-announces-two-year-suspension-state-tax-incentives-new-data-center"
+    ],
+    "summary": "The POWER Act (SB 4103/HB 5513) establishes comprehensive statewide standards for data center development including clean energy procurement requirements, utility cost responsibility, water use reporting, pollution controls, and community engagement. Requires data centers to submit clean energy supply plans and establishes new rate tariffs for hyperscale data centers. Governor Pritzker separately announced a two-year suspension of state tax incentives for new data center developments effective July 1, 2026. Data Center Coalition called the bill potentially harmful to the market."
+  },
+  {
+    "id": "oklahoma-statewide-ok-2026-02-01",
+    "bill_number": "HB 2992 (Data Center Consumer Ratepayer Protection Act), HB 3392, HB 3095 (Rural Landowners Protection Act), SB 1488 (moratorium)",
+    "sponsors": ["Rep. Brad Boles (R)", "Rep. Molly Jenkins", "Sen. Kendal Sacchieri (R-Blanchard)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - HB 2992 and HB 3392 advanced through House committee; SB 1488 moratorium pending",
+    "sources": [
+      "https://www.okhouse.gov/posts/news-20260217_6",
+      "https://www.okhouse.gov/posts/news-20260108_2",
+      "https://oksenate.gov/press-releases/senator-sacchieri-files-legislation-address-unknown-impacts-data-centers-oklahoma",
+      "https://www.okenergytoday.com/2026/02/another-data-center-bill-wins-house-committee-approval/"
+    ],
+    "summary": "Multiple data center bills in Oklahoma: HB 2992 (Data Center Consumer Ratepayer Protection Act) sets guidelines for how electric suppliers address rising energy demands from data centers, requiring separate terms and a minimum 10-year service commitment. HB 3095 gives rural landowners voting power on proposed data center sites. SB 1488 places a moratorium on data centers with electrical load >100 MW until November 2029. HB 3392 requires the Oklahoma Corporation Commission to define 'Large Load Electric Customer' and report on grid impact."
+  },
+  {
+    "id": "ohio-statewide-oh-2026-02-09",
+    "bill_number": "HB 706, plus Senate Democrat slate of bills",
+    "sponsors": ["Rep. David Thomas (R-Jefferson)", "Rep. Tristan Rader (D-Lakewood)", "Sen. Kent Smith (D)"],
+    "opposition_groups": [],
+    "company": "AEP (American Electric Power)",
+    "status": "pending - HB 706 introduced; Senate bills being introduced",
+    "sources": [
+      "https://ohiocapitaljournal.com/2026/02/09/ohio-democrats-offer-slate-of-bills-reining-in-data-centers/",
+      "https://spectrumnews1.com/oh/columbus/news/2026/02/18/ohio-house-bill-706",
+      "https://www.wosu.org/2026-03-02/ohio-house-bill-would-extend-data-center-tariff-to-rest-of-state"
+    ],
+    "summary": "HB 706 bans utilities from recovering data center infrastructure costs by shifting them onto other customers and requires long-term service agreements of at least 12 years. Mirrors AEP's existing tariff requiring data centers to cover 85% of energy costs. Senate Democrats introduced additional bills to eliminate tax breaks, require developers to cover infrastructure costs, and impose greater oversight. Around 18 municipalities have enacted local moratoriums on data centers."
+  },
+  {
+    "id": "new-hampshire-statewide-nh-2026-02-11",
+    "bill_number": "HB 1265 (moratorium), SB 439 (zoning), HB 1739, HB 1724",
+    "sponsors": ["Rep. Peter Schmidt (D-Dover)", "Rep. Tom Cormen"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - HB 1265 in Commerce and Consumer Affairs Committee; SB 439 passed Senate and moved to House; HB 1739 recommended to be killed by committee",
+    "sources": [
+      "https://indepthnh.org/2026/02/11/lawmakers-want-to-ban-data-center-construction-for-a-year/",
+      "https://www.citizenscount.org/news/should-new-hampshire-restrict-large-data-centers",
+      "https://legiscan.com/NH/bill/SB439/2026"
+    ],
+    "summary": "Four data center bills in NH: HB 1265 would impose a one-year moratorium on data center construction while a legislative study examines environmental effects. SB 439 enables local planning boards to regulate data centers (passed Senate). HB 1739 would establish tax incentives and grid modernization requirements (recommended to be killed). HB 1724 would require utilities to report on costs and capacity related to data centers."
+  },
+  {
+    "id": "maine-statewide-me-2026-02-12",
+    "bill_number": "LD 307",
+    "sponsors": ["Rep. Melanie Sachs (D-Freeport)"],
+    "opposition_groups": [],
+    "company": "LiquidCool (seeking exemption for Loring data center)",
+    "status": "pending - moratorium amendment proposed Feb 12, committee work sessions ongoing",
+    "sources": [
+      "https://www.bostonglobe.com/2026/02/23/metro/maine-data-center-legislation-ld307/",
+      "https://mainemorningstar.com/2026/02/23/as-data-centers-look-to-rural-new-england-maine-considers-a-moratorium/",
+      "https://themainemonitor.org/maine-considers-data-centers-moratorium/"
+    ],
+    "summary": "LD 307 would establish a Data Center Coordination Council within the energy resources department. Rep. Sachs proposed adding a moratorium amendment to pause building, permitting, and establishment of data centers with loads above 20 MW until July 1, 2028. The amendment faced opposition from Sen. Matt Harrington (R-York) who said it would harm a data center development in his district. Committee work sessions continue with debate over exemptions for specific projects including one in Sanford."
+  },
+  {
+    "id": "wisconsin-statewide-moratorium-bill-wi-2026-02-12",
+    "bill_number": "SB 1061",
+    "sponsors": ["Rep. Darrin Madison (D-10)", "Sen. Larson", "Sen. Carpenter", "Rep. Hong", "Rep. Moore Omokunde", "Rep. Clancy", "Rep. Cruz", "Rep. Tenorio"],
+    "opposition_groups": ["River Alliance of Wisconsin"],
+    "company": "Microsoft (Mount Pleasant data center), Meta (Beaver Dam data center)",
+    "status": "pending - introduced Feb 26, 2026, referred to Committee on Utilities, Technology and Tourism",
+    "sources": [
+      "https://wisconsinexaminer.com/2026/02/12/democratic-lawmakers-propose-data-center-moratorium/",
+      "https://wisconsinrivers.org/data-center-bills/",
+      "https://spectrumnews1.com/wi/milwaukee/news/2026/02/12/data-center-a-i--technology"
+    ],
+    "summary": "SB 1061 would ban data center construction until the state establishes a data center planning authority, prohibits energy/water cost-shifting to residents, creates a land and community funding mechanism, eliminates subsidies, mandates public reporting, creates pollution regulations, requires 100% renewable energy, requires prevailing wages, restores PSC planning authority, prohibits NDAs between data centers and government, and creates enforcement/penalty structures. Intent is not permanent prohibition but responsible development."
+  },
+  {
+    "id": "wisconsin-statewide-psc-rate-hearing-wi-2026-02-11",
+    "bill_number": "PSC rate proceeding (not a bill - regulatory action)",
+    "sponsors": [],
+    "opposition_groups": ["River Alliance of Wisconsin"],
+    "company": "Microsoft (Mount Pleasant, $13.3B project), Meta (Beaver Dam campus via Alliant Energy)",
+    "status": "pending - PSC reviewing rate proposals from Wisconsin Electric Power Company and Alliant Energy",
+    "sources": [
+      "https://wisconsinexaminer.com/2026/02/10/wisconsin-public-service-commission-data-center-hearing-draws-public-outcry/",
+      "https://racinecountyeye.com/2026/02/11/psc-data-center-hearing-oppose/",
+      "https://racinecountyeye.com/2026/02/10/psc-public-hearings-microsoft-rates/"
+    ],
+    "summary": "Wisconsin PSC held public hearings on a proposal from Wisconsin Electric Power Company to establish a tariff system for massive data centers with a 500 MW threshold. Over 200 people testified, with the vast majority opposing the proposed rate structure. Critics say residential consumers would still pay 25% of infrastructure costs. Microsoft's Mount Pleasant project requires 450 MW. PSC also required Alliant Energy to resubmit documents with fewer redactions for Meta's Beaver Dam campus rate proposal."
+  },
+  {
+    "id": "pennsylvania-statewide-moratorium-proposal-pa-2026-02-17",
+    "bill_number": "Bill number not yet assigned (moratorium memo circulated Feb 12, 2026)",
+    "sponsors": ["Sen. Katie Muth (D)", "Sen. Rosemary Brown (R)", "Rep. Jamie Walsh (R)"],
+    "opposition_groups": ["Better Path Coalition", "Food and Water Watch", "Friends of the Earth", "Greenpeace"],
+    "company": null,
+    "status": "pending - co-sponsorship memos circulated, bills not yet formally introduced",
+    "sources": [
+      "https://insideclimatenews.org/news/03032026/pennsylvania-data-center-resistance/",
+      "https://www.wvia.org/news/local/2026-02-17/lackawanna-county-commissioner-gaughan-asks-shapiro-and-pa-legislature-for-statewide-data-center-moratorium",
+      "https://www.spotlightpa.org/news/2026/01/data-centers-pennsylvania-debate-legislature-environment-environment/"
+    ],
+    "summary": "Sen. Katie Muth proposed a three-year moratorium on hyperscale data center construction including associated power generation and transmission infrastructure. Sen. Rosemary Brown (R) also supports a moratorium and unveiled a legislative package restricting data centers to industrial zones. Rep. Jamie Walsh (R) plans a separate regulatory package. Lackawanna County Commissioner Bill Gaughan urged Gov. Shapiro to support calls for a three-year moratorium. Bipartisan opposition with over 50 planned data centers facing resistance from community groups across the state."
+  },
+  {
+    "id": "south-dakota-moratorium-bill-sb-232-sd-2026-02-19",
+    "bill_number": "SB 232",
+    "sponsors": [],
+    "opposition_groups": [],
+    "company": null,
+    "status": "defeated - passed State Affairs Committee 5-3, but failed (tabled) in full Senate vote",
+    "sources": [
+      "https://legiscan.com/SD/bill/SB232/2026",
+      "https://www.sdpb.org/politics/2026-02-19/committee-kills-data-center-moratorium-bill",
+      "https://www.sdnewswatch.org/south-dakota-senate-data-center-vote/"
+    ],
+    "summary": "SB 232 would have imposed a one-year moratorium on the construction or expansion of hyperscale data centers in South Dakota. The bill passed the State Affairs Committee 5-3 but was ultimately killed during the full Senate vote. Part of a broader set of data center legislation in South Dakota's 2026 session."
+  },
+  {
+    "id": "florida-statewide-fl-2026-02-26",
+    "bill_number": "SB 484, HB 1007, SB 1118, HB 1517",
+    "sponsors": ["Sen. Bryan Avila (R-Miami Springs)", "Rep. Philip Griffitts (R-Panama City Beach)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "advancing - SB 484 passed Florida Senate unanimously",
+    "sources": [
+      "https://www.hklaw.com/en/insights/publications/2026/02/proposed-florida-legislation-creates-new-regulatory-framework",
+      "https://www.wlrn.org/government-politics/2026-02-27/ai-data-center-regulation-bill-passes-florida-senate",
+      "https://www.flsenate.gov/Session/Bill/2026/1007"
+    ],
+    "summary": "SB 484 establishes a comprehensive framework for regulating large-scale data centers (50+ MW peak load), requiring PSC to adopt baseline tariff and service requirements, preserving local government control over planning. Passed Senate unanimously. HB 1007 is more restrictive, prohibiting hyperscale data centers (25+ MW) on environmentally sensitive lands, imposing siting prohibitions, water permitting restrictions, and banning economic incentives. Multiple bills reflect DeSantis-backed data center restrictions."
+  },
+  {
+    "id": "connecticut-federal-ct-2026-02-26",
+    "bill_number": "GRID Act (federal - Guaranteeing Rate Insulation from Data Centers Act)",
+    "sponsors": ["Sen. Richard Blumenthal (D-CT)", "Sen. Josh Hawley (R-MO)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - introduced in U.S. Senate, reception unclear",
+    "sources": [
+      "https://ctmirror.org/2026/02/26/blumenthal-data-bill-0224/",
+      "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-introduces-bill-to-protect-americans-from-increasing-electricity-costs",
+      "https://www.hawley.senate.gov/hawley-blumenthal-introduce-bill-to-prevent-data-centers-from-increasing-electricity-costs-for-americans/"
+    ],
+    "summary": "The GRID Act is a bipartisan federal bill requiring new data centers with 20+ MW power demand to find their own power sources outside of the electric grid and report estimated utility usage for five years. Existing facilities must cover costs that would otherwise be passed to customers. Violators face $1 million/day civil fines. Also requires project labor agreements. First bipartisan federal bill addressing data center impacts on utility bills. State-level: SB 245 would revoke CT data center tax incentives."
+  },
+  {
+    "id": "michigan-statewide-mi-2026-02-26",
+    "bill_number": "HB 5594, HB 5595, HB 5596 (Data Center Regulation Act)",
+    "sponsors": ["Rep. Jennifer Wortz (R-Hudson)", "Rep. Joseph Fox (R-Fremont)", "Rep. Dylan Wegela (D-Garden City)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - referred to House Committee on Government Operations; likely veto by Gov. Whitmer",
+    "sources": [
+      "https://gophouse.org/posts/rep-wortz-introduces-bills-to-protect-communities-from-data-center-encroachment",
+      "https://michiganadvance.com/briefs/wortz-spearheads-bipartisan-effort-to-halt-data-center-construction-in-michigan/",
+      "https://planetdetroit.org/2026/03/lawmakers-propose-michigan-data-center-moratorium/"
+    ],
+    "summary": "Bipartisan House Bills 5594-5596 would create the 'Data Center Regulation Act' and halt construction of new data centers in Michigan until April 1, 2027. The moratorium would give local communities time to assess project ramifications. At least 25 Michigan communities have enacted local data center moratoriums. Gov. Whitmer opposes the bills, calling any legislation preventing economic growth 'an automatic non-starter' that would be vetoed."
+  },
+  {
+    "id": "michigan-statewide-moratorium-bills-mi-2026-02-26",
+    "bill_number": "HB 5594, HB 5595, HB 5596",
+    "sponsors": ["Rep. Jennifer Wortz (R-Hudson)", "Rep. Joseph Fox (R-Fremont)", "Rep. Dylan Wegela (D-Garden City)"],
+    "opposition_groups": ["Lansing Regional Chamber of Commerce"],
+    "company": null,
+    "status": "pending - referred to House Committee on Government Operations; Gov. Whitmer has signaled veto",
+    "sources": [
+      "https://wwmt.com/news/state/data-center-halt-stop-construction-michigan-legislation-proposed-house-bills-5594-5596-jennifer-wortz-representative-republican-moratorium-wwmt",
+      "https://www.wilx.com/2026/03/03/michigan-lawmakers-propose-year-long-data-center-construction-moratorium/",
+      "https://www.wkar.org/wkar-news/2026-02-26/michigan-house-reps-call-for-moratorium-on-data-centers"
+    ],
+    "summary": "Same as michigan-statewide-mi-2026-02-26. Bipartisan moratorium bills would halt all data center construction until April 2027. Lansing Regional Chamber of Commerce opposes the moratorium. The bills were introduced on a day of statewide action. At least 25 communities have active local moratoria on data centers in Michigan."
+  },
+  {
+    "id": "michigan-statewide-moratorium-2026-mi-2026-02-26",
+    "bill_number": "HB 5594, HB 5595, HB 5596",
+    "sponsors": ["Rep. Jennifer Wortz (R-Hudson)", "Rep. Joseph Fox (R-Fremont)", "Rep. Dylan Wegela (D-Garden City)"],
+    "opposition_groups": ["Lansing Regional Chamber of Commerce"],
+    "company": null,
+    "status": "pending - in House Committee on Government Operations; Gov. Whitmer threatened veto",
+    "sources": [
+      "https://gophouse.org/posts/rep-wortz-introduces-bills-to-protect-communities-from-data-center-encroachment",
+      "https://michiganadvance.com/briefs/wortz-spearheads-bipartisan-effort-to-halt-data-center-construction-in-michigan/",
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
+    ],
+    "summary": "Same legislation as the other Michigan entries. HB 5594-5596 create the Data Center Regulation Act imposing a moratorium until April 2027. Bipartisan sponsorship from Republicans Wortz and Fox and Democrat Wegela. Whitmer has signaled any such legislation would be vetoed. 25+ communities have local moratoria."
+  },
+  {
+    "id": "missouri-statewide-legislation-mo-2026-02-26",
+    "bill_number": "HB 3362, HB 3364 (AI Infrastructure, Grid Integrity and Water Resource Protection Act)",
+    "sponsors": ["Rep. Colin Wellenkamp", "Rep. Mike Costlow"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - filed but not yet assigned to committee",
+    "sources": [
+      "https://www.stlpr.org/government-politics-issues/2026-02-26/missouri-lawmakers-propose-water-power-usage-requirements-data-centers",
+      "https://www.kcur.org/politics-elections-and-government/2026-02-26/missouri-data-center-rules-water-electricity",
+      "https://www.ky3.com/2026/02/27/missouri-future-caucus-prioritizes-legislation-regulate-ai-data-centers/"
+    ],
+    "summary": "The AI Infrastructure, Grid Integrity and Water Resource Protection Act (HBs 3362 and 3364) requires large-load consumers like data centers to pay for grid infrastructure upgrades and creates a permit system for large water users through the Department of Natural Resources. Facilities withdrawing 2+ million gallons/day must obtain a permit (valid 5 years with annual reporting). If water use exceeds 80% of area capacity, the facility must build new freshwater capacity. At the federal level, Sen. Hawley (R-MO) co-sponsors the GRID Act."
+  },
+  {
+    "id": "alaska-statewide-ak-2026-01-01",
+    "bill_number": "HB 259, SB 250",
+    "sponsors": ["Rep. Mears"],
+    "opposition_groups": ["The Alaska Center"],
+    "company": null,
+    "status": "pending - in committee",
+    "sources": [
+      "https://mustreadalaska.com/anchorage-assembly-debates-regulations-for-data-centers/",
+      "https://akcenter.org/continuing-the-data-center-conversation-read-our-whitepaper/",
+      "https://www.akleg.gov/basis/Bill/Detail/33?Root=HB+259"
+    ],
+    "summary": "HB 259 establishes community benefit agreement requirements between large energy use facilities (including data centers) and municipalities. Requires facility energy rates to 'fully compensate' the utility for all costs to serve the facility, preventing cost-shifting to existing consumers. SB 250 addresses requirements for renewable energy investment, infrastructure upgrades, and community benefit agreements. The Alaska Legislature also has a Joint Legislative Task Force on AI studying data center impacts."
+  },
+  {
+    "id": "new-mexico-statewide-nm-2026-01-14",
+    "bill_number": "SB 235 (Microgrid Oversight Act)",
+    "sponsors": ["Sen. Jeff Steinborn (D-Las Cruces)"],
+    "opposition_groups": [],
+    "company": "Project Jupiter (Dona Ana County data center development)",
+    "status": "pending - approved for hearing by Governor",
+    "sources": [
+      "https://sourcenm.com/2026/01/14/nm-lawmaker-proposes-more-oversight-regulations-for-data-center-microgrids/",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
+    ],
+    "summary": "SB 235 (Microgrid Oversight Act) requires the Public Regulation Commission to develop rules for any microgrid producing more than 20 MW, grants regulators oversight over approval and operation of microgrids, and requires proof of ability to meet state renewable energy standards for microgrids coming online after May 2026. Annual reports required after 2027 detailing power generation, water usage, and compliance. Largely driven by concerns about Project Jupiter in Dona Ana County, which proposed self-reliant 'microgrids' to power multi-billion dollar data centers."
+  },
+  {
+    "id": "vermont-statewide-vt-2026-01-15",
+    "bill_number": "S.205 (moratorium), H.727 (Vermont Sustainable Data Centers Act)",
+    "sponsors": ["Sen. Rebecca 'Becca' White"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - S.205 in committee; no current data center proposals in Vermont",
+    "sources": [
+      "https://legislature.vermont.gov/bill/status/2026/S.205",
+      "https://vtdigger.org/2026/02/24/vermont-plugs-into-the-data-center-conversation/",
+      "https://www.vermontpublic.org/local-news/2026-02-26/concern-over-big-data-centers-is-growing-is-vermont-likely-to-get-one"
+    ],
+    "summary": "S.205 proposes a temporary moratorium on AI data centers (facilities requiring >100 MW for AI operations) until July 1, 2030, during which Vermont's Public Utility Commission would investigate impacts on natural resources, communities, and economy. H.727 (Vermont Sustainable Data Centers Act) would ensure proper siting with environmental protections while minimizing ratepayer impact. Notably, there are no current plans or proposals for a data center in Vermont - legislation is preemptive."
+  },
+  {
+    "id": "colorado-statewide-co-2026-02-12",
+    "bill_number": "SB 26-102 (regulation), HB 26-1030 (incentives)",
+    "sponsors": ["Sen. Cathy Kipp", "Rep. Kyle Brown"],
+    "opposition_groups": ["Earthjustice", "NRDC", "Conservation Colorado", "Western Resource Advocates", "Western Colorado Alliance"],
+    "company": null,
+    "status": "pending - two competing bills in committee, SB 26-102 (regulation) vs HB 26-1030 (incentives)",
+    "sources": [
+      "https://earthjustice.org/press/2026/legislation-introduced-to-ensure-common-sense-guardrails-on-data-centers-in-colorado",
+      "https://leg.colorado.gov/bills/SB26-102",
+      "https://www.cpr.org/2026/02/12/data-centers-renewable-energy-bill/"
+    ],
+    "summary": "Two competing approaches: SB 26-102 requires data centers to pay full electricity and grid investment costs, obtain power from renewables (100% by 2031), optimize water efficiency with transparent reporting, and engage with disproportionately impacted communities. HB 26-1030 creates a voluntary incentive program with 20-year, 100% sales/use tax exemption for data centers meeting investment ($250M minimum), labor, and environmental conditions. Environmental groups back SB 26-102 while tech industry supports HB 26-1030."
+  },
+  {
+    "id": "washington-statewide-wa-2026-02-11",
+    "bill_number": "HB 2515",
+    "sponsors": ["Rep. Beth Doglio (D-Olympia)"],
+    "opposition_groups": ["Data Center Coalition"],
+    "company": "Microsoft, Amazon",
+    "status": "defeated - bill lapsed/died March 3, 2026 after industry pushback; sponsor committed to reintroduce next session",
+    "sources": [
+      "https://washingtonstatestandard.com/2026/03/02/its-lights-out-for-wa-legislatures-effort-to-regulate-data-centers/",
+      "https://www.geekwire.com/2026/microsoft-urges-major-changes-to-washington-data-center-regulations-as-bill-nears-final-vote/",
+      "https://washingtonstatestandard.com/2026/02/11/how-wa-lawmakers-are-trying-to-regulate-data-centers/"
+    ],
+    "summary": "HB 2515 would have required data centers to pay additional utility charges, comply with clean energy requirements (80% clean power by 2030, 100% by 2045), publish annual reports on water/energy/pollution, and shut off power at peak demand times. Microsoft publicly labeled the proposed regulations 'uniquely anti-competitive.' The bill died when it failed to advance before the session deadline on March 3, 2026. Sponsor Rep. Doglio committed to continuing work on the legislation next session."
+  },
+  {
+    "id": "minnesota-statewide-moratorium-proposal-mn-2026-02-20",
+    "bill_number": "Bill number not yet assigned (moratorium proposal announced Feb 2026)",
+    "sponsors": ["Sen. Jen McEwen (DFL-Duluth)", "Sen. Erin Maye Quade (DFL-Apple Valley)"],
+    "opposition_groups": ["Minnesota Center for Environmental Advocacy (MCEA)", "CURE", "Workers Strike Back"],
+    "company": null,
+    "status": "pending - moratorium legislation announced but formal bill number not yet assigned",
+    "sources": [
+      "https://www.mprnews.org/story/2026/02/20/data-center-opponents-call-for-statewide-moratorium-new-regulations",
+      "https://www.womenspress.com/minnesota-lawmakers-and-activists-call-for-moratorium-on-data-centers/",
+      "https://www.twincities.com/2026/02/18/data-center-opponents-bring-swelling-opposition-to-minnesota-capitol/"
+    ],
+    "summary": "Sen. McEwen plans to introduce a two-year moratorium on new hyperscale data center permits while the state studies long-term effects on energy, water, environment, and public health. Sen. Maye Quade will introduce legislation to prohibit NDAs for data centers and end tech tax exemptions. Environmental advocates, union representatives, and engineers rallied at the State Capitol on Feb. 18. MCEA has sued over proposed data centers in multiple Minnesota communities. If every proposed MN data center is built, they would collectively use more electricity than every household in the state."
+  },
+  {
+    "id": "south-dakota-moratorium-incentive-defeat-sd-2026-02-24",
+    "bill_number": "HB 1005 (incentive - defeated), SB 232 (moratorium - defeated), SB 135 (Data Center Bill of Rights - passed committee)",
+    "sponsors": ["Sen. Chris Karr (R-Sioux Falls) for SB 135"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "mixed - HB 1005 (50-year tax break) defeated 9-3 in committee; SB 232 (moratorium) killed; SB 135 (bill of rights) passed committee 5-4",
+    "sources": [
+      "https://southdakotasearchlight.com/2026/02/04/data-center-tax-break-proposal-fails-in-south-dakota-legislative-committee/",
+      "https://southdakotasearchlight.com/2026/02/18/data-center-restrictions-earn-lawmaker-endorsement-as-fight-continues-over-tax-incentives/",
+      "https://siouxfalls.business/lawmakers-kill-bid-to-entice-data-centers-to-south-dakota-with-tax-exemptions/"
+    ],
+    "summary": "Multiple data center bills saw different outcomes: HB 1005 (50-year sales tax exemption for data centers) was defeated 9-3 in House State Affairs Committee. SB 232 (one-year moratorium) passed committee but was killed in full Senate vote. SB 135 ('Data Center Bill of Rights for Citizens' from Sen. Karr) passed committee 5-4 - it would set protections for utility ratepayers and resources while banning tax exemptions for data centers. Bills addressing noise levels, minimum distances from residences, and water/electricity regulation were also halted."
+  },
+  {
+    "id": "indiana-statewide-rally-moratorium-push-in-2026-02-24",
+    "bill_number": "HB 1245 (study bill - never advanced)",
+    "sponsors": ["Rep. Robin Shackleford (D-Indianapolis)"],
+    "opposition_groups": ["Hoosier Action", "Just Transition Northwest Indiana", "Citizens Action Coalition Indiana"],
+    "company": "Meta (Lebanon data center), Amazon ($11B Lake Michigan data center), Google ($2B Fort Wayne campus), Sabey (Decatur Township proposal)",
+    "status": "stalled - HB 1245 never advanced beyond first reading; local moratoriums advancing instead",
+    "sources": [
+      "https://mirrorindy.org/data-center-legislation-indiana-general-assembly-2026/",
+      "https://www.wfyi.org/news/articles/indiana-data-center-protest-lebanon-meta",
+      "https://www.govtech.com/products/residents-push-indiana-community-toward-halt-on-data-centers"
+    ],
+    "summary": "Over 200 people from 40 counties attended a 'People's Hearing on Data Centers' at the Indiana State Library on Feb 24, organized by Hoosier Action. Attendees delivered postcards urging legislators and Gov. Braun to regulate data centers. Rep. Shackleford's HB 1245 (requiring IURC to study data center energy impacts) never advanced. Citizens Action Coalition has called for a statewide moratorium since October 2025. Local moratoriums are advancing: Fulton County approved a one-year moratorium on March 3; Starke County and Dearborn County also enacted moratoriums."
+  },
+  {
+    "id": "maryland-statewide-hb-120-md-2026-01-01",
+    "bill_number": "HB 120",
+    "sponsors": ["Del. Mark Fisher (R-Calvert)", "Del. Brian Chisholm (R-Anne Arundel)", "Del. Matt Morgan (R-St. Mary's)", "Del. Kathy Szeliga (R-Baltimore)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - introduced Jan 14, 2026, assigned to Environment and Transportation Committee",
+    "sources": [
+      "https://thebaynet.com/hb-120-seeks-temporary-halt-on-maryland-data-centers/",
+      "https://mgaleg.maryland.gov/2026RS/bills/hb/hb0120f.pdf",
+      "https://marylandmatters.org/2026/01/03/data-center-regulations-2026/"
+    ],
+    "summary": "HB 120 prohibits construction of new data centers and prohibits state or local approvals for construction unless/until the General Assembly enacts legislation related to co-location with new or existing power generation (including natural gas, nuclear, or small modular reactors). Maryland lawmakers previously overrode Gov. Moore's veto of a data center impact study bill. The moratorium is tied to energy co-location requirements rather than a general pause."
+  },
+  {
+    "id": "nebraska-statewide-ne-2026-01-16",
+    "bill_number": "LB 1111",
+    "sponsors": ["Sen. Machaela Cavanaugh", "Sen. Terrell McKinney (co-sponsor)", "Ashlei Spivey (co-sponsor)"],
+    "opposition_groups": ["Bold Alliance (Bold Nebraska)"],
+    "company": null,
+    "status": "pending - hearing held Feb 12, 2026, before Legislature Natural Resources Committee",
+    "sources": [
+      "https://boldnebraska.org/support-lb-1111-to-regulate-data-centers-in-nebraska/",
+      "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63375",
+      "https://nebraskapublicmedia.org/en/news/news-articles/suspending-young-students-sparks-debate-data-center-proposals-heard/"
+    ],
+    "summary": "LB 1111 requires annual data center load reports to the Nebraska Power Review Board and ensures public power districts charge data centers for the full cost of additional infrastructure. Data centers may be required to submit operational and decommissioning plans, post security bonds, prevent cost transfers to other ratepayers, and execute community benefit agreements. Bold Alliance founder Jane Kleeb testified in support. Nebraska is the only 100% publicly-powered state and has added 20 major data centers in the past 20 years."
+  },
+  {
+    "id": "new-jersey-statewide-nj-2025-09-01",
+    "bill_number": "A5462 (ratepayer protection), S680 (clean energy requirements)",
+    "sponsors": ["Assemblyman Dave Bailey Jr.", "Assemblyman Joe Danielsen", "Assemblyman Clinton Calabrese"],
+    "opposition_groups": ["Sierra Club (supportive)", "New Jersey Business & Industry Association (NJBIA) (opposed)"],
+    "company": null,
+    "status": "advancing - A5462 passed both Assembly and Senate (Jan 12, 2026), headed to Governor's desk",
+    "sources": [
+      "https://newjerseymonitor.com/2026/02/13/committees-approve-bill-aimed-at-data-centers-power-usage/",
+      "https://www.sierraclub.org/new-jersey/blog/2026/02/key-legislation-ensure-data-center-transparency-and-energy-affordability",
+      "https://www.route-fifty.com/infrastructure/2026/01/nj-lawmakers-ok-plan-charge-data-centers-spiking-electric-costs/410580/"
+    ],
+    "summary": "A5462 requires electric utilities to develop special tariffs for data centers ensuring non-data-center ratepayers are protected from increased costs. Large power users (100+ MW/month) must be responsible for no less than 85% of their service costs. Passed Assembly and Senate, headed to Governor. S680 (2026) requires energy usage plans for AI data centers and cryptocurrency mining, mandating all electricity come from new clean energy sources. NJ Business & Industry Association opposes A5462 as discouraging data center investment."
+  },
+  {
+    "id": "oregon-statewide-or-2025-06-05",
+    "bill_number": "HB 3546 (POWER Act - signed into law 2025), HB 4084 (2026 tax break bill)",
+    "sponsors": ["Rep. Pam Marsh (D-Southern Jackson County)", "Rep. Owens", "Sen. Sollman", "Rep. Grayber"],
+    "opposition_groups": ["Oregon Citizens' Utility Board (CUB)", "Climate Solutions"],
+    "company": null,
+    "status": "enacted - POWER Act (HB 3546) passed with bipartisan support (41-16) and signed by Gov. Kotek in 2025; HB 4084 (2026) data center tax break provision paused",
+    "sources": [
+      "https://www.opb.org/article/2025/06/05/oregon-data-centers-cryptocurrency-business-environment-power-electricity/",
+      "https://oregoncub.org/news/blog/power-act-passes-oregon-house/3121/",
+      "https://www.opb.org/article/2026/03/02/data-centers-cut-bill-expanding-oregon-tax-breaks/"
+    ],
+    "summary": "Oregon's POWER Act (HB 3546) passed in 2025 with strong bipartisan support, creating a new classification for data centers and large industrial energy users (20+ MW) requiring them to pay their fair share of electricity costs. Requires 10-year utility purchase agreements. In 2026, Gov. Kotek's HB 4084 Enterprise Zone tax break expansion initially included data centers but that provision was cut amid concerns, with Kotek's office supporting the pause to 'address immediate concerns.'"
+  },
+  {
+    "id": "rhode-island-statewide-ri-2026-01-01",
+    "bill_number": "2026-H 7331",
+    "sponsors": ["Rep. Brian Patrick Kennedy (D-Dist. 38, Hopkinton/Westerly)"],
+    "opposition_groups": [],
+    "company": null,
+    "status": "pending - referred to House Committee on Corporations",
+    "sources": [
+      "https://www.onworldwide.com/index.php/news-articles-archives/5971-kennedy-bill-would-regulate-burgeoning-data-center-industry-in-rhode-island",
+      "https://pbn.com/kennedy-introduces-legislation-to-regulate-data-centers-in-r-i/",
+      "https://pbn.com/legislation-would-regulate-data-centers-in-r-i/"
+    ],
+    "summary": "2026-H 7331 requires data centers with electricity demand exceeding 50 MW to cover all costs associated with electricity infrastructure including planning, construction, expansion, operation and maintenance. Electricity companies must establish specific rate classes for data centers. Energy Facility Siting Board must collaborate with PUC to assess ratepayer impacts before approvals. Data centers must report annual water usage, cooling methods, and recycling practices. Rhode Island currently has seven data centers operated by four providers."
+  },
+  {
+    "id": "south-carolina-data-center-development-act-sc-2026-02-05",
+    "bill_number": "S. 867 (Data Center Development Act), H. 4583 (Data Center Responsibility Act)",
+    "sponsors": ["Sen. Davis", "Sen. Kimbrell", "Sen. Garrett", "Sen. Sutton", "Sen. Walker", "Sen. Blackmon", "Sen. Turner", "Sen. Zell", "Sen. Kennedy", "Sen. Devine"],
+    "opposition_groups": ["South Carolina Emerging Technologies Association (supportive)"],
+    "company": null,
+    "status": "pending - in committee, gathering public testimony",
+    "sources": [
+      "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm",
+      "https://www.wrhi.com/2026/02/debate-intensifies-over-proposed-data-center-development-act-in-south-carolina-210161",
+      "https://www.wfae.org/politics/2026-02-23/south-carolina-lawmakers-weigh-guardrails-on-data-center-growth"
+    ],
+    "summary": "S. 867 (Data Center Development Act) establishes a Data Center Development Office in the Department of Environmental Services, creates a Data Center Industry Advisory Committee, and requires siting permits. Sets water-use standards, caps usage with regular reporting, and similar standards for noise, vibration, and light. Companies must cover full cost of electrical/utility infrastructure upgrades. Data centers assigned to tiers based on electricity usage with stricter oversight for larger operations. Industry opponents warn regulations could push investment to other states."
+  }
+]

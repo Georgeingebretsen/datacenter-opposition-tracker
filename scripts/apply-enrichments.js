@@ -27,6 +27,12 @@ const ENRICHMENT_FILES = [
   'enrichment-tx-va-nc-wi-mo.json',
   'enrichment-remaining.json',
   'enrichment-petitions.json',
+  'enrichment-groups-batch3a.json',
+  'enrichment-groups-batch3b.json',
+  'enrichment-groups-batch3c.json',
+  'enrichment-specs2a.json',
+  'enrichment-specs2b.json',
+  'enrichment-facebook3.json',
 ];
 
 let fights = JSON.parse(fs.readFileSync(fightsPath, 'utf8'));
@@ -46,14 +52,35 @@ for (const file of ENRICHMENT_FILES) {
   console.log(`\nProcessing ${file}: ${enrichments.length} entries`);
 
   for (const enrichment of enrichments) {
-    const fight = fights.find(f => f.id === enrichment.id);
+    let fight = fights.find(f => f.id === enrichment.id);
+    // Fallback: try partial ID match (agent IDs sometimes miss date suffix)
     if (!fight) {
-      console.log(`  WARNING: No match for id="${enrichment.id}" (${enrichment.jurisdiction}, ${enrichment.state})`);
+      fight = fights.find(f => f.id && f.id.startsWith(enrichment.id + '-'));
+    }
+    // Fallback: try matching by jurisdiction+state if provided
+    if (!fight && enrichment.jurisdiction && enrichment.state) {
+      fight = fights.find(f =>
+        f.jurisdiction.toLowerCase() === enrichment.jurisdiction.toLowerCase() &&
+        f.state === enrichment.state
+      );
+    }
+    if (!fight) {
+      console.log(`  WARNING: No match for id="${enrichment.id}"`);
       continue;
     }
 
-    const updates = enrichment.updates;
-    if (!updates) continue;
+    // Support both formats: { id, updates: {...} } and { id, field1, field2, ... }
+    let updates = enrichment.updates;
+    if (!updates) {
+      // Treat the whole object (minus id) as updates
+      const { id, ...rest } = enrichment;
+      if (Object.keys(rest).length === 0) continue;
+      updates = rest;
+    }
+    // Normalize investment_million -> investment_million_usd
+    if (updates.investment_million && !updates.investment_million_usd) {
+      updates.investment_million_usd = updates.investment_million;
+    }
 
     let fieldsUpdated = 0;
 

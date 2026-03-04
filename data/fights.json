@@ -2176,7 +2176,7 @@
     "project_name": null,
     "investment_million_usd": 1000,
     "megawatts": null,
-    "acreage": null,
+    "acreage": 440,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -2815,7 +2815,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "The Alaska Center"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -3191,7 +3193,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -3228,11 +3232,13 @@
     "project_name": null,
     "investment_million_usd": 270,
     "megawatts": null,
-    "acreage": null,
+    "acreage": 985,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -3372,7 +3378,8 @@
       "New Jersey League of Conservation Voters",
       "Food & Water Watch",
       "Sierra Club (supportive)",
-      "New Jersey Business & Industry Association (NJBIA) (opposed)"
+      "New Jersey Business & Industry Association (NJBIA) (opposed)",
+      "New Jersey Business & Industry Association (NJBIA)"
     ],
     "opposition_website": "https://www.sierraclub.org/new-jersey",
     "opposition_facebook": "https://www.facebook.com/NJSierraClub",
@@ -3387,13 +3394,17 @@
       "environment",
       "transparency"
     ],
-    "summary": "A5462 requires electric utilities to develop special tariffs for data centers ensuring non-data-center ratepayers are protected from increased costs. Large power users (100+ MW/month) must be responsible for no less than 85% of their service costs. Passed Assembly and Senate, headed to Governor. S680 (2026) requires energy usage plans for AI data centers and cryptocurrency mining, mandating all electricity come from new clean energy sources. NJ Business & Industry Association opposes A5462 as discouraging data center investment.",
+    "summary": "New Jersey has introduced multiple data center bills. S4318 (Sen. Burzichelli, Sen. Greenstein) requires the BPU to study data center effects on electricity costs and was signed into law by Gov. Murphy. S4293 (Sen. Ruiz, Sen. Burgess) requires data centers to report water and energy usage to the BPU; conditionally vetoed by Gov. Murphy in October 2025. A5462/S4307 (Asm. Dave Bailey Jr.) would require electric utilities to develop special tariff rules for data centers using 100+ MW monthly to protect non-data-center customers from cost increases; pocket-vetoed by Gov. Murphy as one of his last acts and refiled in the 2026 session. In February 2026, committees in both chambers approved a bill requiring large power users (100+ MW/month) to pay at least 85% of their service costs.",
     "sources": [
       "https://www.njspotlightnews.org/2025/09/how-much-water-and-energy-do-data-centers-consume-nj-bill-demands-answers",
       "https://newjerseymonitor.com/2025/10/20/governor-data-centers-veto/",
       "https://newjerseymonitor.com/2026/02/13/committees-approve-bill-aimed-at-data-centers-power-usage/",
       "https://www.sierraclub.org/new-jersey/blog/2026/02/key-legislation-ensure-data-center-transparency-and-energy-affordability",
-      "https://www.route-fifty.com/infrastructure/2026/01/nj-lawmakers-ok-plan-charge-data-centers-spiking-electric-costs/410580/"
+      "https://www.route-fifty.com/infrastructure/2026/01/nj-lawmakers-ok-plan-charge-data-centers-spiking-electric-costs/410580/",
+      "https://legiscan.com/NJ/text/S4318/id/3235739",
+      "https://legiscan.com/NJ/text/S4293/id/3260078",
+      "https://pub.njleg.gov/Bills/2024/A5500/5462_I1.HTM",
+      "https://www.assemblydems.com/m/newsflash/Home/Detail/12939"
     ],
     "data_source": "dcw",
     "last_updated": "2026-03-04"
@@ -3537,7 +3548,8 @@
       "https://www.wosu.org/politics-government/2025-09-09/jerome-township-puts-pause-on-new-data-center-development-for-nine-months",
       "https://614now.com/2025/hot-topics/central-ohio-township-pauses-all-new-data-center-development-after-citizens-express-concerns",
       "https://www.thecooldown.com/green-business/amazon-data-centers-jerome-township-ohio-community-freeze/",
-      "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/"
+      "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/",
+      "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -3653,8 +3665,8 @@
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": 800,
+    "petition_url": "https://www.change.org/p/stop-data-center-construction-in-lackawanna-county",
+    "petition_signatures": 2015,
     "concerns": [
       "water",
       "electricity_rates",
@@ -3743,7 +3755,7 @@
     "project_name": "Project Flo",
     "investment_million_usd": 1000,
     "megawatts": null,
-    "acreage": null,
+    "acreage": 468,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -4321,7 +4333,7 @@
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-hickman-property-data-center-in-villa-rica-ga",
-    "petition_signatures": 2578,
+    "petition_signatures": 2579,
     "concerns": [
       "water",
       "air_quality",
@@ -4340,7 +4352,8 @@
       "https://www.change.org/p/stop-the-hickman-property-data-center-in-villa-rica-ga",
       "https://www.times-georgian.com/news/local/anti-data-center-group-we-will-continue-to-show-up/article_373d4ee8-a4e3-5e07-bac4-17d78cec0742.html",
       "https://www.datacenterdynamics.com/en/news/atlas-files-for-428-acre-technology-and-data-park-outside-atlanta-georgia/",
-      "https://baxtel.com/data-center/project-avemore"
+      "https://baxtel.com/data-center/project-avemore",
+      "https://www.change.org/p/stop-data-center-from-being-built-in-carroll-county-georgia"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -4861,7 +4874,7 @@
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-ai-data-center-construction-at-cleveland-ix-center",
-    "petition_signatures": 3860,
+    "petition_signatures": 3866,
     "concerns": [
       "noise",
       "electricity_rates",
@@ -4937,10 +4950,10 @@
     "company": "Brian O'Neill (developer)",
     "hyperscaler": null,
     "project_name": "Cleveland Cliffs Steel Plant Data Center",
-    "investment_million_usd": null,
+    "investment_million_usd": 9000,
     "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
+    "acreage": 66,
+    "building_sq_ft": 2000000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
@@ -5574,7 +5587,7 @@
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-ai-data-center-lufkin-tx",
-    "petition_signatures": 2586,
+    "petition_signatures": 2616,
     "concerns": [
       "environment",
       "jobs_quality",
@@ -5889,8 +5902,8 @@
     "hyperscaler": null,
     "project_name": "South Strabane Mega Data Center",
     "investment_million_usd": null,
-    "megawatts": null,
-    "acreage": null,
+    "megawatts": 600,
+    "acreage": 1500,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -5938,7 +5951,7 @@
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-data-centers-in-cumberland-county-protect-fayetteville-s-health-and-water",
-    "petition_signatures": 1441,
+    "petition_signatures": 1449,
     "concerns": [
       "air_quality",
       "jobs_quality",
@@ -6462,7 +6475,7 @@
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/prevent-ai-data-center-development-in-wilmington-oh",
-    "petition_signatures": 2652,
+    "petition_signatures": 2653,
     "concerns": [
       "noise",
       "water",
@@ -6489,7 +6502,8 @@
       "https://www.wnewsj.com/2025/12/03/officials-detail-4b-aws-data-center-proposal-infrastructure-plans/",
       "https://www.datacenterdynamics.com/en/news/aws-data-center-project-tabled-in-wilmington-ohio/",
       "https://www.change.org/p/prevent-ai-data-center-development-in-wilmington-oh",
-      "https://www.wyso.org/news/2025-12-02/amazon-proposes-4b-data-center-in-wilmington-seeks-tax-abatement"
+      "https://www.wyso.org/news/2025-12-02/amazon-proposes-4b-data-center-in-wilmington-seeks-tax-abatement",
+      "https://www.wnewsj.com/2025/11/21/protest-planned-ahead-of-council-vote-on-proposed-amazon-data-center/"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04",
@@ -6868,9 +6882,9 @@
     "hyperscaler": "Microsoft",
     "project_name": null,
     "investment_million_usd": 4000,
-    "megawatts": null,
+    "megawatts": 450,
     "acreage": 240,
-    "building_sq_ft": null,
+    "building_sq_ft": 1000000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
@@ -7006,7 +7020,9 @@
       "https://www.tmj4.com/news/dodge-county/its-really-scary-beaver-dam-residents-raise-water-concerns-about-metas-ai-data-center",
       "https://datacenters.atmeta.com/2025/11/hello-beaver-dam/",
       "https://www.alliantenergy.com/news/news-center/2025/11/111225-metabeaverdamannouncement",
-      "https://wedc.org/meta-state-and-local-officials-announce-1-billion-data-center-investment-in-beaver-dam-project/"
+      "https://wedc.org/meta-state-and-local-officials-announce-1-billion-data-center-investment-in-beaver-dam-project/",
+      "https://dailydodge.com/meta-addresses-beaver-dam-ai-data-center-questions/",
+      "https://dailydodge.com/data-center-opponents-recruit-common-council-candidates/"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -7164,7 +7180,7 @@
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/raise-awareness-about-the-potential-data-center-in-our-city",
-    "petition_signatures": 4290,
+    "petition_signatures": 4291,
     "concerns": [
       "environment",
       "health",
@@ -7818,7 +7834,7 @@
     "project_name": null,
     "investment_million_usd": 750,
     "megawatts": null,
-    "acreage": null,
+    "acreage": 237,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -8260,12 +8276,13 @@
       "light_pollution",
       "environment"
     ],
-    "summary": "2026-H 7331 requires data centers with electricity demand exceeding 50 MW to cover all costs associated with electricity infrastructure including planning, construction, expansion, operation and maintenance. Electricity companies must establish specific rate classes for data centers. Energy Facility Siting Board must collaborate with PUC to assess ratepayer impacts before approvals. Data centers must report annual water usage, cooling methods, and recycling practices. Rhode Island currently has seven data centers operated by four providers.",
+    "summary": "Rhode Island H 7331 (2026), introduced by House Speaker Pro Tempore Brian Patrick Kennedy (D-Hopkinton), would regulate data centers with electricity demand exceeding 50 MW. The bill requires such facilities to cover all costs associated with their electricity infrastructure, including planning, construction, expansion, operation and maintenance of generation, transmission and distribution facilities. Data centers would also be required to report daily water usage, cooling methods, and develop water conservation plans. The bill was referred to the House Committee on Corporations.",
     "sources": [
       "https://pbn.com/legislation-would-regulate-data-centers-in-r-i/",
       "https://pbn.com/opposition-is-building-against-expanding-plans-for-data-centers/",
       "https://www.onworldwide.com/index.php/news-articles-archives/5971-kennedy-bill-would-regulate-burgeoning-data-center-industry-in-rhode-island",
-      "https://pbn.com/kennedy-introduces-legislation-to-regulate-data-centers-in-r-i/"
+      "https://pbn.com/kennedy-introduces-legislation-to-regulate-data-centers-in-r-i/",
+      "https://legiscan.com/RI/bill/H8165/2026"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -8946,7 +8963,7 @@
     "petition_url": null,
     "petition_signatures": null,
     "concerns": [],
-    "summary": "S.205 proposes a temporary moratorium on AI data centers (facilities requiring >100 MW for AI operations) until July 1, 2030, during which Vermont's Public Utility Commission would investigate impacts on natural resources, communities, and economy. H.727 (Vermont Sustainable Data Centers Act) would ensure proper siting with environmental protections while minimizing ratepayer impact. Notably, there are no current plans or proposals for a data center in Vermont - legislation is preemptive.",
+    "summary": "Vermont is considering two major data center bills. S.205, sponsored by Sen. Rebecca 'Becca' White (Windsor County), would impose a temporary moratorium on AI data centers (defined as facilities requiring >100 MW for AI workloads) through July 1, 2030, while the Public Utility Commission studies impacts on natural resources, communities, and the economy. In the House, H.727 (the Vermont Sustainable Data Centers Act) would create siting criteria for data center construction with environmental protections while minimizing ratepayer impact. The town of Royalton separately approved its own moratorium on AI and crypto data centers in March 2026.",
     "sources": [
       "https://vtdigger.org/2026/02/24/vermont-plugs-into-the-data-center-conversation/",
       "https://legislature.vermont.gov/bill/status/2026/S.205",
@@ -9037,13 +9054,14 @@
     "petition_url": null,
     "petition_signatures": null,
     "concerns": [],
-    "summary": "LB 1111 requires annual data center load reports to the Nebraska Power Review Board and ensures public power districts charge data centers for the full cost of additional infrastructure. Data centers may be required to submit operational and decommissioning plans, post security bonds, prevent cost transfers to other ratepayers, and execute community benefit agreements. Bold Alliance founder Jane Kleeb testified in support. Nebraska is the only 100% publicly-powered state and has added 20 major data centers in the past 20 years.",
+    "summary": "Nebraska LB 1111, introduced January 16, 2026 by Sen. Machaela Cavanaugh (co-sponsors: Sens. Terrell McKinney, Ashlei Spivey), would regulate data centers by requiring them to pay the full cost of new electricity infrastructure so costs are not passed to ratepayers. The bill also requires power suppliers to publicly disclose the name, developers, owners, location, proposed size, electricity demand, and contract details of data center projects. Nebraska has added 20 major data centers in the past 20 years, in part because it is the only 100% publicly powered state. The Meta data center in Sarpy County, powered through OPPD's North Omaha Station, is a key driver of the legislation. Referred to the Natural Resources Committee with a public hearing held February 12, 2026.",
     "sources": [
       "https://unomahanews.com/2026/02/24/nebraska-lawmakers-push-for-data-center-regulation-amid-energy-concerns/",
       "https://www.datacenterdynamics.com/en/news/meta-to-expand-sarpy-data-center-in-nebraska/",
       "https://boldnebraska.org/support-lb-1111-to-regulate-data-centers-in-nebraska/",
       "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63375",
-      "https://nebraskapublicmedia.org/en/news/news-articles/suspending-young-students-sparks-debate-data-center-proposals-heard/"
+      "https://nebraskapublicmedia.org/en/news/news-articles/suspending-young-students-sparks-debate-data-center-proposals-heard/",
+      "https://boldnebraska.org/testimony-of-bolds-jane-kleeb-on-lb-1111-to-regulate-nebraska-data-centers/"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -9291,8 +9309,8 @@
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
+    "petition_url": "https://www.change.org/p/oppose-third-reading-of-ordinance-2026-01-in-marion-county",
+    "petition_signatures": 920,
     "concerns": [
       "process_fairness",
       "environment",
@@ -9311,7 +9329,8 @@
       "https://www.wmbfnews.com/2026/02/05/marion-county-community-members-seek-transparency-proposed-data-center/",
       "https://www.postandcourier.com/pee-dee/news/marion-county-stream-data-center/article_fce64b6c-7e65-4d99-ba9a-4d1dc70d28e5.html",
       "https://wpde.com/news/local/marion-county-eagle-myra-project-liberty",
-      "https://wpde.com/news/local/ai-stream-data-center-backlash-over-marion-county-data-center-project-administration-building-industrial-park-road-highway-501-update"
+      "https://wpde.com/news/local/ai-stream-data-center-backlash-over-marion-county-data-center-project-administration-building-industrial-park-road-highway-501-update",
+      "https://www.change.org/p/oppose-third-reading-of-ordinance-2026-01-in-marion-county"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -9409,7 +9428,9 @@
       "https://www.wbko.com/2026/01/28/tenkey-landco-sues-simpson-county-over-data-center-ordinance/",
       "https://www.wbko.com/2026/01/16/data-center-seeks-preliminary-site-development-plan-for-simpson-county/",
       "https://www.lpm.org/news/2026-01-21/zoning-regulators-table-preliminary-development-plan-for-southern-kentucky-data-center",
-      "https://bgdailynews.com/2026/02/22/simpson-fiscal-court-answers-data-center-lawsuit/"
+      "https://bgdailynews.com/2026/02/22/simpson-fiscal-court-answers-data-center-lawsuit/",
+      "https://www.change.org/p/oppose-the-data-center-proposal-for-franklin-kentucky",
+      "https://bgdailynews.com/2025/10/22/proposed-data-center-hits-stumbling-block-in-franklin/"
     ],
     "data_source": "dcw",
     "last_updated": "2026-03-04"
@@ -9628,8 +9649,8 @@
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
+    "petition_url": "https://www.change.org/p/protect-virginia-communities-regulate-data-center-growth-before-it-s-too-late",
+    "petition_signatures": 225,
     "concerns": [
       "noise",
       "water",
@@ -9649,7 +9670,10 @@
       "https://www.wtvr.com/news/local-news/hhhunt-community-meeting-nov-17-2025",
       "https://www.wtvr.com/news/local-news/route-33-data-center-plan-feb-19-2026",
       "https://www.vpm.org/news/2025-11-18/hanover-hunting-hawk-data-center-hhhunt-wyndham-banton-mendelson-cheeley",
-      "https://www.henricocitizen.com/proposed-data-center-incites-opposition-from-hundreds-of-henrico-hanover-residents/"
+      "https://www.henricocitizen.com/proposed-data-center-incites-opposition-from-hundreds-of-henrico-hanover-residents/",
+      "https://www.change.org/p/protect-virginia-communities-regulate-data-center-growth-before-it-s-too-late",
+      "https://neighbors4change.com/hhhunt-faces-strong-opposition-to-data-center-plan/",
+      "https://www.vpm.org/news/2026-01-20/hanover-hunting-hawk-data-center-hhhunt-wyndham-ashland-road-clark"
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-04"
@@ -10653,13 +10677,15 @@
     "building_sq_ft": 8000000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Citizens for Open Governance, Columbia County Georgia"
+    ],
+    "opposition_website": "https://www.gacolumbiacountyobserver.com/",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
+    "petition_url": "https://www.change.org/p/halt-the-construction-of-the-meta-data-center-in-appling-ga",
+    "petition_signatures": 2213,
     "concerns": [
       "water",
       "noise",
@@ -10677,7 +10703,10 @@
       "https://www.datacenterdynamics.com/en/news/plans-filed-for-8-million-sq-ft-data-center-and-technology-park-outside-augusta-georgia/",
       "https://augustatoday.com/2025/04/11/plans-filed-for-massive-8-million-square-foot-data-hub-near-augusta/",
       "https://finance.yahoo.com/news/high-tech-developer-proposes-8-100409179.html",
-      "https://theaugustapress.com/harlem-citizen-follows-legal-action-over-quarry-with-two-more-lawsuits-about-columbia-county-data-center-projects/"
+      "https://theaugustapress.com/harlem-citizen-follows-legal-action-over-quarry-with-two-more-lawsuits-about-columbia-county-data-center-projects/",
+      "https://www.change.org/p/halt-the-construction-of-the-meta-data-center-in-appling-ga",
+      "https://www.change.org/p/halt-the-construction-of-columbia-county-data-centers-quarry",
+      "https://www.change.org/p/petition-from-csra-residents"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -10746,7 +10775,13 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "Food & Water Watch"
+      "Food & Water Watch",
+      "Citizen Action of New York",
+      "NYPIRG",
+      "New York Communities for Change",
+      "Make the Road NY",
+      "NYC DSA Ecosocialist Working Group",
+      "Seneca Lake Guardian"
     ],
     "opposition_website": null,
     "opposition_facebook": null,
@@ -10755,9 +10790,15 @@
     "petition_url": null,
     "petition_signatures": null,
     "concerns": [],
-    "summary": "State legislators introduced S.9144, a 3+ year statewide moratorium on permits for data centers using 20 MW or more while DEC completes a comprehensive environmental impact statement.",
+    "summary": "New York S.9144 (Senate, Sen. Liz Krueger, co-prime sponsor Sen. Kristen Gonzalez) / A.10141 (Assembly, Asm. Anna Kelles), introduced February 6, 2026, would impose a moratorium of at least 3 years and 90 days on permits for new data centers designed to use 20+ MW. During the moratorium, the DEC must issue a generic environmental impact statement covering energy, water, air quality, GHG emissions, and e-waste; the PSC must assess rate impacts and protect residential customers from cost increases. Would not affect the public Empire AI research initiative in Buffalo. Described as the 'strongest-in-the-nation' data center moratorium. Additionally, S.6394 (the NY Sustainable Data Centers Act) requires data centers to source 1/3 renewable energy by 2030, 2/3 by 2035, and 100% by 2040. S.8540 (the AC/DC Act) addresses rate classification and cost responsibility for data center operators. Over 100 community, environmental, and faith organizations called for passage of S.9144/A.10141 in a March 2026 letter to Gov. Hochul.",
     "sources": [
-      "https://www.foodandwaterwatch.org/2026/02/06/ny-legislators-introduce-strongest-data-center-moratorium-bill-in-the-country/"
+      "https://www.foodandwaterwatch.org/2026/02/06/ny-legislators-introduce-strongest-data-center-moratorium-bill-in-the-country/",
+      "https://www.nysenate.gov/legislation/bills/2025/S9144",
+      "https://legiscan.com/NY/text/A10141/2025",
+      "https://www.foodandwaterwatch.org/2026/03/02/100-new-york-groups-call-for-passage-of-data-center-moratorium-bill/",
+      "https://techcrunch.com/2026/02/07/new-york-lawmakers-propose-a-three-year-pause-on-new-data-centers/",
+      "https://www.nysenate.gov/legislation/bills/2025/S6394/amendment/A",
+      "https://www.nysenate.gov/legislation/bills/2025/S8540"
     ],
     "data_source": "dcw",
     "last_updated": "2026-03-04"
@@ -11333,7 +11374,13 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "River Alliance of Wisconsin"
+      "River Alliance of Wisconsin",
+      "Power Wisconsin Forward",
+      "NAACP (national and Wisconsin State Conference)",
+      "Sierra Club Wisconsin (Northstar Chapter)",
+      "Clean Wisconsin",
+      "Citizens Utility Board (CUB)",
+      "Wisconsin's Green Fire"
     ],
     "opposition_website": null,
     "opposition_facebook": null,
@@ -11347,13 +11394,16 @@
       "environment",
       "process_fairness"
     ],
-    "summary": "Wisconsin PSC held public hearings on a proposal from Wisconsin Electric Power Company to establish a tariff system for massive data centers with a 500 MW threshold. Over 200 people testified, with the vast majority opposing the proposed rate structure. Critics say residential consumers would still pay 25% of infrastructure costs. Microsoft's Mount Pleasant project requires 450 MW. PSC also required Alliant Energy to resubmit documents with fewer redactions for Meta's Beaver Dam campus rate proposal.",
+    "summary": "Two Wisconsin PSC dockets address data center rate structures. Docket 6630-TE-113: We Energies proposed a 'Very Large Customer' rate class for customers with electricity demands above 500 MW (targeting hyperscale data centers like Microsoft in Mount Pleasant). Over 200 people joined virtual hearings on Feb 10-11, 2026, with ~85% of speakers opposing the proposal, urging that tech companies pay their full share of infrastructure costs. Critics argue the proposal would only require data centers to pay 75% of infrastructure costs, leaving 25% subsidized by the public. Docket 6680-TE-115: Alliant Energy's Individual Contract Rate Agreement to serve a data center campus in Beaver Dam (widely assumed to be Meta). The PSC required Alliant to refile the contract with fewer redactions after advocates raised transparency concerns. A coalition of 42 environmental justice, faith, conservation, and community organizations submitted formal comments opposing the proposals.",
     "sources": [
       "https://racinecountyeye.com/2026/02/11/psc-data-center-hearing-oppose/",
       "https://wisconsinexaminer.com/2026/02/12/democratic-lawmakers-propose-data-center-moratorium/",
       "https://spectrumnews1.com/wi/milwaukee/news/2026/02/26/new-poll-shows-partisan-divide--negative-opinion-of-data-centers",
       "https://wisconsinexaminer.com/2026/02/10/wisconsin-public-service-commission-data-center-hearing-draws-public-outcry/",
-      "https://racinecountyeye.com/2026/02/10/psc-public-hearings-microsoft-rates/"
+      "https://racinecountyeye.com/2026/02/10/psc-public-hearings-microsoft-rates/",
+      "https://urbanmilwaukee.com/2026/03/02/psc-requires-alliant-energy-to-disclose-data-center-rates/",
+      "https://naacp.org/articles/naacp-wisconsin-coalition-oppose-utility-bill-hikes-ai-data-center",
+      "https://www.sierraclub.org/press-releases/2026/03/sierra-club-wisconsin-and-partners-applaud-public-service-commission"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -11377,7 +11427,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Natural Resources Council of Maine (NRCM)",
+      "Slingshot (environmental health and justice organization)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -11385,11 +11438,12 @@
     "petition_url": null,
     "petition_signatures": null,
     "concerns": [],
-    "summary": "LD 307 would establish a Data Center Coordination Council within the energy resources department. Rep. Sachs proposed adding a moratorium amendment to pause building, permitting, and establishment of data centers with loads above 20 MW until July 1, 2028. The amendment faced opposition from Sen. Matt Harrington (R-York) who said it would harm a data center development in his district. Committee work sessions continue with debate over exemptions for specific projects including one in Sanford.",
+    "summary": "Maine LD 307 ('Resolve, to Establish the Maine Artificial Intelligence Data Center Coordination Council'), sponsored by Rep. Melanie Sachs (D-Freeport), would establish a data center coordination council within the energy resources department to evaluate policy options for data center development. During a February 12, 2026 work session, Sachs proposed a moratorium amendment to pause building, permitting, and establishment of data centers with loads above 20 MW until July 1, 2028. The amendment was opposed by Sen. Matt Harrington (R-York), who said it would harm a data center development in his district. The LiquidCool Solutions AI data center at the former Loring Air Force Base (2 MW, using patented immersion-cooling technology, no water for cooling) would likely not be affected by the moratorium; LiquidCool expects a waiver since the facility is 26 MW total and uses existing underutilized power generation.",
     "sources": [
       "https://mainemorningstar.com/2026/02/23/as-data-centers-look-to-rural-new-england-maine-considers-a-moratorium/",
       "https://www.bostonglobe.com/2026/02/23/metro/maine-data-center-legislation-ld307/",
-      "https://themainemonitor.org/maine-considers-data-centers-moratorium/"
+      "https://themainemonitor.org/maine-considers-data-centers-moratorium/",
+      "https://legislature.maine.gov/backend/app/services/getDocument.aspx?documentId=122054"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -12142,7 +12196,8 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "Iowa State Association of Counties (supportive)"
+      "Iowa State Association of Counties (supportive)",
+      "Iowa State Association of Counties"
     ],
     "opposition_website": null,
     "opposition_facebook": null,
@@ -12151,10 +12206,11 @@
     "petition_url": null,
     "petition_signatures": null,
     "concerns": [],
-    "summary": "HF 2447 requires data centers to file quarterly water usage reports with Iowa DNR and quarterly energy reports with the Iowa Utilities Commission. All reported information must be shared publicly online within 30 days. Also requires the Iowa Utilities Commission to create a separate rate class for data centers to prevent grid upgrade costs from being shifted to residents. HF 2261 would create a new customer class for water utilities serving energy facilities requiring 20+ MW.",
+    "summary": "Iowa HF 2447, proposed by Rep. Cindy Golding (R-Cedar Rapids), creates new reporting requirements and utility rate structures for data centers. Data centers must file quarterly reports with the Iowa DNR on water usage (source, volume, efficiency) and quarterly energy reports with the Iowa Utilities Commission (power consumption, on-site generators, sustainability metrics like waste heat reuse). All data must be publicly shared online within 30 days. The bill also requires the Iowa Utilities Commission to create a separate rate class for data centers to prevent grid upgrade costs from being shifted to residents. Separately, HF 2261 would create a new water utility customer class for energy facilities requiring 20+ MW. The bill survived legislative funnel week in February 2026.",
     "sources": [
       "https://www.axios.com/local/des-moines/2026/02/19/iowa-lawmakers-push-data-center-transparency",
-      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues",
+      "https://www.multistate.us/insider/2026/3/3/state-data-center-water-usage-legislation-gains-momentum-in-2025"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -12364,7 +12420,11 @@
       "Minnesota Center for Environmental Advocacy",
       "Minnesota Center for Environmental Advocacy (MCEA)",
       "CURE",
-      "Workers Strike Back"
+      "Workers Strike Back",
+      "Coalition for Responsible Data Center Planning",
+      "Alliance for Sustainability",
+      "Sierra Club Northstar Chapter",
+      "CURE (Clean Up the River Environment)"
     ],
     "opposition_website": null,
     "opposition_facebook": "https://www.facebook.com/FriendsMissRiv",
@@ -12378,13 +12438,16 @@
       "environment",
       "process_fairness"
     ],
-    "summary": "Sen. McEwen plans to introduce a two-year moratorium on new hyperscale data center permits while the state studies long-term effects on energy, water, environment, and public health. Sen. Maye Quade will introduce legislation to prohibit NDAs for data centers and end tech tax exemptions. Environmental advocates, union representatives, and engineers rallied at the State Capitol on Feb. 18. MCEA has sued over proposed data centers in multiple Minnesota communities. If every proposed MN data center is built, they would collectively use more electricity than every household in the state.",
+    "summary": "Multiple Minnesota data center bills are in play. SF 608 (94th Legislature, 2025-2026), co-sponsored by Sens. Lieske, Maye Quade, Wesenberg, Gruenhagen, and McEwen (companion bill HF 1109), would prohibit 'enterprise data centers' (800,000+ sq ft) in certain districts. Sen. Jen McEwen (DFL-Duluth) announced she will introduce a separate bill imposing a two-year moratorium on new data center permits while the state studies long-term effects. Sen. Erin Maye Quade (DFL-Apple Valley) plans legislation to prohibit NDAs for data centers and end tax exemptions for big tech. Previously, HF 16 (2025 special session, sponsored by Rep. Greg Davids and Sen. Ann Rest) passed and was signed into law (effective June 15, 2025), establishing initial data center regulations. On February 18-20, 2026, a large rally at the state Capitol drew hundreds of opponents calling for a statewide moratorium.",
     "sources": [
       "https://www.mprnews.org/story/2026/02/20/data-center-opponents-call-for-statewide-moratorium-new-regulations",
       "https://fmr.org/updates/general-water-legislative-land-use-planning/fmr-endorses-pause-data-centers",
       "https://www.mncenter.org/op-ed-data-center-proposals-are-moving-faster-policy-minnesota",
       "https://www.womenspress.com/minnesota-lawmakers-and-activists-call-for-moratorium-on-data-centers/",
-      "https://www.twincities.com/2026/02/18/data-center-opponents-bring-swelling-opposition-to-minnesota-capitol/"
+      "https://www.twincities.com/2026/02/18/data-center-opponents-bring-swelling-opposition-to-minnesota-capitol/",
+      "https://www.revisor.mn.gov/bills/94/2025/0/SF/608/?body=senate",
+      "https://www.house.mn.gov/sessiondaily/Story/18838",
+      "https://www.northernnewsnow.com/video/2026/03/04/minnesota-senator-introduce-data-center-moratorium/"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -12638,7 +12701,9 @@
     "building_sq_ft": 347200,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -12859,8 +12924,8 @@
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
+    "petition_url": "https://www.change.org/p/protect-pacific-and-the-meramec-valley-from-a-massive-data-center",
+    "petition_signatures": 309,
     "concerns": [
       "water",
       "environment",
@@ -12997,8 +13062,8 @@
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": 1700,
+    "petition_url": "https://www.change.org/p/petition-in-opposition-to-commercial-solar-energy-systems-dearborn-county-indiana",
+    "petition_signatures": 1743,
     "concerns": [
       "water",
       "electricity_rates",
@@ -13211,7 +13276,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Youth Action Fund"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -13346,11 +13413,13 @@
       "water",
       "grid_reliability"
     ],
-    "summary": "The AI Infrastructure, Grid Integrity and Water Resource Protection Act (HBs 3362 and 3364) requires large-load consumers like data centers to pay for grid infrastructure upgrades and creates a permit system for large water users through the Department of Natural Resources. Facilities withdrawing 2+ million gallons/day must obtain a permit (valid 5 years with annual reporting). If water use exceeds 80% of area capacity, the facility must build new freshwater capacity. At the federal level, Sen. Hawley (R-MO) co-sponsors the GRID Act.",
+    "summary": "Missouri has multiple data center bills. HB 3362 and HB 3364 (Reps. Colin Wellenkamp, Scott Miller, Mike Costlow), titled the 'AI Infrastructure, Grid Integrity and Water Resource Protection Act', would require large-load consumers to pay the full cost of electricity and infrastructure (including grid upgrades and new generation capacity) and create a water permit requirement from the DNR for facilities using 2+ million gallons of fresh water per day or 80% of local available capacity. Such facilities would need to build new freshwater capacity or create closed-loop freshwater systems. Separately, SB 1396 (Sen. Mike Henderson, R-Desloge) would alter 2018 economic development incentives to prevent data centers from taking advantage of energy incentive programs that were not designed for them.",
     "sources": [
       "https://www.kcur.org/politics-elections-and-government/2026-02-26/missouri-data-center-rules-water-electricity",
       "https://www.stlpr.org/government-politics-issues/2026-02-26/missouri-lawmakers-propose-water-power-usage-requirements-data-centers",
-      "https://www.ky3.com/2026/02/27/missouri-future-caucus-prioritizes-legislation-regulate-ai-data-centers/"
+      "https://www.ky3.com/2026/02/27/missouri-future-caucus-prioritizes-legislation-regulate-ai-data-centers/",
+      "https://www.newstribune.com/news/2026/feb/26/legislation-would-prevent-data-centers-from/",
+      "https://www.missourinet.com/2026/02/26/missouris-data-boom-prompts-bills-targeting-high-water-use-and-energy-costs/"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -13525,11 +13594,13 @@
       "electricity_rates",
       "grid_reliability"
     ],
-    "summary": "Missouri lawmakers filed the AI Infrastructure, Grid Integrity and Water Resource Protection Act, requiring large-load consumers like data centers to pay for grid infrastructure upgrades (not passed to consumers) and obtain DNR permits for using more than 2 million gallons of fresh water per day. Senator Josh Hawley also called for tech companies to pay for their energy and water usage.",
+    "summary": "The Missouri AI Infrastructure, Grid Integrity and Water Resource Protection Act is filed as HB 3362 and HB 3364 by Reps. Colin Wellenkamp, Scott Miller, and Mike Costlow (R-Dardenne Prairie). The legislation would establish separate utility rate structures for large customers with 50+ MW of annual peak demand, and create a permit system for large water users requiring facilities withdrawing 2+ million gallons/day to obtain 5-year permits from the DNR. If water use exceeds 80% of available local capacity, the facility must build out new freshwater capacity. The Missouri Future Caucus has prioritized this legislation. The bills had not yet been sent to committee as of late February 2026.",
     "sources": [
       "https://www.stlpr.org/government-politics-issues/2026-02-26/missouri-lawmakers-propose-water-power-usage-requirements-data-centers",
       "https://www.kcur.org/politics-elections-and-government/2026-02-26/missouri-data-center-rules-water-electricity",
-      "https://www.missourinet.com/2026/02/27/missouris-josh-hawley-says-major-tech-companies-should-pay-for-energy-and-water-usage-generated-by-their-data-centers/"
+      "https://www.missourinet.com/2026/02/27/missouris-josh-hawley-says-major-tech-companies-should-pay-for-energy-and-water-usage-generated-by-their-data-centers/",
+      "https://www.ky3.com/2026/02/27/missouri-future-caucus-prioritizes-legislation-regulate-ai-data-centers/",
+      "https://www.centralmoinfo.com/lawmakers-target-data-center-impacts/"
     ],
     "data_source": "news",
     "last_updated": "2026-03-04"
@@ -13646,8 +13717,8 @@
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
+    "acreage": 251,
+    "building_sq_ft": 939888,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
@@ -14063,7 +14134,7 @@
       "No Data Centers, Fulton County"
     ],
     "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_facebook": "https://www.facebook.com/groups/nodatacentersfultoncounty",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -14117,7 +14188,9 @@
       "Michiganders Against Data Centers"
     ],
     "last_updated": "2026-03-04",
-    "company": "Concord Infrastructure Partners"
+    "company": "Concord Infrastructure Partners",
+    "megawatts": 100,
+    "investment_million_usd": 285
   },
   {
     "id": "hubbard-township-oh-2026-02-15",
@@ -14438,12 +14511,15 @@
     "action_type": "legislative_action",
     "status": "pending - in committee, gathering public testimony",
     "date": "2026-02-05",
-    "summary": "S. 867 (Data Center Development Act) establishes a Data Center Development Office in the Department of Environmental Services, creates a Data Center Industry Advisory Committee, and requires siting permits. Sets water-use standards, caps usage with regular reporting, and similar standards for noise, vibration, and light. Companies must cover full cost of electrical/utility infrastructure upgrades. Data centers assigned to tiers based on electricity usage with stricter oversight for larger operations. Industry opponents warn regulations could push investment to other states.",
+    "summary": "South Carolina S. 867, the 'Data Center Development Act', introduced January 29, 2026, is sponsored by Sens. Tom Davis (R-Beaufort, primary sponsor), Kimbrell, Garrett, Sutton, Walker, Blackmon, Turner, Zell, Kennedy, and Devine. The bill requires a state permit before a new data center can operate, and regulates permitted data centers on locations, water usage, infrastructure costs, and financial assurances. Sen. Davis described it as a 'middle ground' approach. Separately, H4583, the 'South Carolina Data Center Responsibility Act', is sponsored by Reps. April Cromer (R-Anderson), Gilreath, Oremus, Chumley, White, Reese, and Atkinson. Additional related bills include S. 724 (commercial data center water usage reporting) and S. 3401 (technology transparency). A gigawatt-scale data center proposal in the Lowcountry drew significant opposition from local residents and a bipartisan group of legislators representing Colleton County.",
     "sources": [
       "https://www.wrhi.com/2026/02/debate-intensifies-over-proposed-data-center-development-act-in-south-carolina-210161",
       "https://www.wfae.org/politics/2026-02-23/south-carolina-lawmakers-weigh-guardrails-on-data-center-growth",
       "https://www.postandcourier.com/politics/south-carolina-data-centers-legislature-davis/article_83ddab2d-20d2-40e7-9688-04e37b27556f.html",
-      "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm"
+      "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm",
+      "https://www.scstatehouse.gov/sess126_2025-2026/bills/4583.htm",
+      "https://www.scpolicycouncil.org/a_trio_of_data_center_bills_filed_in_the_senate",
+      "https://www.herecolumbia.com/south-carolina-lawmakers-debate-data-center-development-act/"
     ],
     "concerns": [
       "electricity_rates",
@@ -14952,7 +15028,8 @@
     "company": "Microsoft",
     "hyperscaler": "Microsoft",
     "investment_million_usd": 750,
-    "opposition_facebook_members": 500
+    "opposition_facebook_members": 500,
+    "acreage": 272
   },
   {
     "id": "lyon-township-mi-2026-03-03",
@@ -14987,7 +15064,10 @@
     "company": "Verrus",
     "petition_url": "https://www.change.org/p/stop-the-building-of-an-ai-data-center-in-lyon-township",
     "hyperscaler": "Alphabet/Google",
-    "opposition_facebook_members": 1200
+    "opposition_facebook_members": 1200,
+    "investment_million_usd": 1000,
+    "acreage": 172,
+    "building_sq_ft": 1800000
   },
   {
     "id": "caledonia-township-mi-2026-01-01",
@@ -15100,7 +15180,8 @@
     "sources": [
       "https://www.wrbl.com/top-stories/columbus-city-council-discusses-proposed-5-18-billion-data-center-residents-voice-concern/",
       "https://www.change.org/p/stop-data-center-in-muscogee-county",
-      "https://www.datacenterdynamics.com/en/news/5bn-data-center-project-in-the-works-around-columbus-georgia/"
+      "https://www.datacenterdynamics.com/en/news/5bn-data-center-project-in-the-works-around-columbus-georgia/",
+      "https://www.wtvm.com/2026/02/16/columbus-leaders-pursue-5-billion-data-center-project/"
     ],
     "concerns": [
       "environment",
@@ -15115,7 +15196,9 @@
     "acreage": 900,
     "jobs_promised": 195,
     "project_name": "Project Ruby",
-    "megawatts": 600
+    "megawatts": 600,
+    "petition_url": "https://www.change.org/p/stop-data-center-in-muscogee-county",
+    "petition_signatures": 1814
   },
   {
     "id": "weld-county-co-2026-02-27",

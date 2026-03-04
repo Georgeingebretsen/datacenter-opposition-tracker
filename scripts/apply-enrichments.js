@@ -45,6 +45,11 @@ const ENRICHMENT_FILES = [
   'enrichment-investment1.json',
   'enrichment-status-march2026.json',
   'enrichment-social2.json',
+  'enrichment-specs4b.json',
+  'enrichment-legislation2.json',
+  'enrichment-highvalue2.json',
+  'enrichment-groups-batch6.json',
+  'enrichment-petitions2.json',
 ];
 
 let fights = JSON.parse(fs.readFileSync(fightsPath, 'utf8'));

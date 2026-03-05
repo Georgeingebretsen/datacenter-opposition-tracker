@@ -1,0 +1,100 @@
+[
+  {
+    "id": "champaign-county-oh-2026-02-01",
+    "company": "Thor Equities",
+    "hyperscaler": null,
+    "project_name": "Urbana Technology Hub",
+    "sources": [
+      "https://www.urbanacitizen.com/2026/02/18/data-center-plans-revealed-at-city-meeting/",
+      "https://www.wosu.org/2026-03-04/urbana-passes-moratorium-on-new-data-centers-leaving-1b-proposal-in-limbo",
+      "https://www.springfieldnewssun.com/news/urbana-officials-release-public-notice-with-overview-timeline-of-proposed-data-center/MZ42L743BVE5PCILD3FHAHR5GU/"
+    ]
+  },
+  {
+    "id": "montgomery-county-md-2026-02-02",
+    "company": "Atmosphere Data Centers",
+    "hyperscaler": null,
+    "project_name": "Dickerson Data Center Campus",
+    "sources": [
+      "https://atmosphere-dc.com/data-centers/dickerson-md/",
+      "https://bethesdamagazine.com/2026/02/25/dickerson-data-center-developers-have-right-to-go-forward-elrich-says/",
+      "https://sugarloafcitizens.org/issues-blog/a-new-era-for-the-dickerson-property"
+    ]
+  },
+  {
+    "id": "blanchester-oh-2026-02-12",
+    "company": "Amazon Web Services",
+    "hyperscaler": "AWS",
+    "project_name": "Wilmington Data Center Campus (nearby trigger for Blanchester moratorium)",
+    "sources": [
+      "https://www.wnewsj.com/2025/12/03/officials-detail-4b-aws-data-center-proposal-infrastructure-plans/",
+      "https://www.wnewsj.com/2026/02/20/blanchester-council-approves-data-center-moratorium-speed-limit-reductions/",
+      "https://www.datacenterdynamics.com/en/news/aws-data-center-project-tabled-in-wilmington-ohio/"
+    ]
+  },
+  {
+    "id": "lincoln-county-sd-2026-02-24",
+    "company": "Gemini Data Center SD LLC (Gemini Capital)",
+    "hyperscaler": null,
+    "project_name": "Sioux Falls Hyperscale Data Center",
+    "sources": [
+      "https://siouxfalls.business/hyperscale-data-center-seeking-city-approvals-to-build-northeast-of-sioux-falls/",
+      "https://www.sdpb.org/business-economics/2025-08-15/la-based-company-looking-to-build-data-center-in-sioux-falls",
+      "https://siouxfalls.business/sioux-falls-data-center-developers-detail-next-steps/"
+    ]
+  },
+  {
+    "id": "cobb-county-ga-2026-02-24",
+    "company": "Grindcap (MMM Acquisitions LLC)",
+    "hyperscaler": null,
+    "project_name": "Marietta Campus Data Center",
+    "sources": [
+      "https://baxtel.com/data-center/grindcap-marietta-campus",
+      "https://www.datacenterdynamics.com/en/news/108mw-data-center-campus-granted-zoning-approval-outside-atlanta-georgia/",
+      "https://www.atlantanewsfirst.com/2025/06/30/zoning-approved-new-marietta-data-center/"
+    ]
+  },
+  {
+    "id": "charles-county-md-2026-03-02",
+    "company": "TeraWulf Inc.",
+    "hyperscaler": null,
+    "project_name": "Morgantown Generating Station Data Center",
+    "sources": [
+      "https://thebaynet.com/charles-countys-morgantown-plant-being-bought-by-data-infrastructure-company/",
+      "https://investors.terawulf.com/news-events/press-releases/detail/129/terawulf-expands-digital-and-power-infrastructure-portfolio",
+      "https://technical.ly/entrepreneurship/terawulf-maryland-power-plant-acquistion/"
+    ]
+  },
+  {
+    "id": "kansas-city-mo-2026-01-16",
+    "company": "Multiple (Google, Meta, Nebius, Lambda)",
+    "hyperscaler": "Google, Meta",
+    "project_name": "Kansas City Data Center Zoning Restrictions (citywide response to multiple projects)",
+    "sources": [
+      "https://www.kcur.org/housing-development-section/2026-01-16/kansas-city-zoning-data-centers",
+      "https://www.kctv5.com/2026/02/12/google-confirms-new-data-center-development-kansas-citys-northland/",
+      "https://fox4kc.com/news/independence-city-council-votes-to-approve-tax-breaks-for-nebius-data-center/"
+    ]
+  },
+  {
+    "id": "new-york-100-groups-coalition-ny-2026-03-02",
+    "company": "Multiple (statewide moratorium targeting hyperscaler data centers)",
+    "hyperscaler": "AWS, Google, Meta, Microsoft",
+    "project_name": "NY Data Center Moratorium Bill S9144/A10141",
+    "sources": [
+      "https://www.foodandwaterwatch.org/2026/03/02/100-new-york-groups-call-for-passage-of-data-center-moratorium-bill/",
+      "https://techcrunch.com/2026/02/07/new-york-lawmakers-propose-a-three-year-pause-on-new-data-centers/",
+      "https://www.nysenate.gov/legislation/bills/2025/S9144"
+    ]
+  },
+  {
+    "id": "maumee-oh-2026-02-02",
+    "company": "Meta (nearby Middleton Township project triggered area moratoriums)",
+    "hyperscaler": "Meta",
+    "project_name": null,
+    "sources": [
+      "https://www.toledoblade.com/local/suburbs/2026/02/03/maumee-becomes-latest-northwest-ohio-community-to-pass-data-center-moratorium/stories/20260203114",
+      "https://www.13abc.com/2026/02/19/northwest-ohio-communities-grapple-with-data-center-developments-possible-plans/"
+    ]
+  }
+]

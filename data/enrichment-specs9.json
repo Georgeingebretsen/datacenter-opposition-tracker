@@ -1,0 +1,173 @@
+[
+  {
+    "id": "city-of-north-mankato-mn-2024-06-01",
+    "megawatts": 500,
+    "company": "Oppidan",
+    "hyperscaler": null,
+    "project_name": "North Mankato Data Center Campus",
+    "sources": [
+      "https://www.mankatofreepress.com/news/local_news/north-mankato-data-center-forum-asks-the-question-who-gets-to-decide/article_4c382e53-bd5d-4280-995c-9fed5c9c882d.html",
+      "https://www.datacenterdynamics.com/en/news/oppidan-backs-out-of-data-center-development-in-north-mankato-minnesota/",
+      "https://www.startribune.com/mega-data-centers-are-coming-to-minnesota-their-power-needs-are-staggering/601204129"
+    ]
+  },
+  {
+    "id": "lamar-county-ga-2024-09-01",
+    "megawatts": null,
+    "company": "Amazon Data Services",
+    "hyperscaler": "AWS",
+    "project_name": "Amazon Lamar County Data Center",
+    "sources": [
+      "https://www.13wmaz.com/article/news/local/amazon-eyes-lamar-county-for-new-data-center-after-270m-land-purchase/93-8f151e20-5455-44d5-9fb6-61d8b2418f45",
+      "https://techcrunch.com/2025/01/07/aws-says-itll-invest-at-least-11b-to-expand-data-center-infrastructure-in-georgia/"
+    ]
+  },
+  {
+    "id": "jones-county-ga-2025-03-01",
+    "megawatts": null,
+    "company": "EagleRock Partners",
+    "hyperscaler": null,
+    "project_name": "Crooked Creek Technology Park",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/data-center-developers-withdraw-plans-to-rezone-more-than-600-acres-in-jones-county-georgia-after-local-pushback/",
+      "https://www.13wmaz.com/article/news/local/600-acre-data-center-proposed-for-jones-county-faces-early-opposition/93-25e72bf8-9eed-47ae-a351-8b7a05ee723f"
+    ]
+  },
+  {
+    "id": "bartow-county-ga-2025-06-01",
+    "megawatts": 1830,
+    "company": "Taurus Investment Holdings",
+    "hyperscaler": "Digital Realty",
+    "project_name": "Project Bunkhouse",
+    "sources": [
+      "https://georgiamediagroup.org/2025/06/04/bartow-county-becoming-data-center-hub/",
+      "https://www.ajc.com/news/business/19b-data-center-campus-proposed-northwest-of-atlanta/FPMRPJCYERGXLLAND6IZACSVEM/",
+      "https://www.datacenterdynamics.com/en/news/application-filed-for-86-million-sq-ft-data-center-project-outside-atlanta-georgia/"
+    ]
+  },
+  {
+    "id": "oakland-university-rochester-hills-mi-2024-08-01",
+    "megawatts": 26,
+    "company": "Fairmount Properties",
+    "hyperscaler": null,
+    "project_name": "Oakland University Data Center",
+    "sources": [
+      "https://getcoai.com/news/oakland-university-leverages-26-megawatt-capacity-for-new-ai-data-center/",
+      "https://www.crainsdetroit.com/education/oakland-university-moves-forward-data-center-exploration",
+      "https://www.datacenterdynamics.com/en/news/michigans-oakland-university-puts-out-call-for-data-center-proposals/"
+    ]
+  },
+  {
+    "id": "clay-county-mo-2025-11-20",
+    "megawatts": 150,
+    "company": "Metrobloks",
+    "hyperscaler": null,
+    "project_name": "Liberty Data Center",
+    "sources": [
+      "https://www.kshb.com/news/local-news/missouri/clay-county/libertys-1st-data-center-proposal-raises-residents-concerns-about-utilities-costs"
+    ]
+  },
+  {
+    "id": "village-of-caledonia-wi-2024-11-01",
+    "megawatts": null,
+    "company": "Microsoft",
+    "hyperscaler": "Microsoft",
+    "project_name": "Project Nova",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/milwaukee/",
+      "https://www.tomshardware.com/desktops/servers/microsoft-cancels-wisconsin-data-center-after-community-pushback-244-acre-caledonia-site-on-hold-but-redmond-says-it-remains-committed-to-the-region",
+      "https://local.microsoft.com/blog/village-of-caledonia-datacenter-project-overview/"
+    ]
+  },
+  {
+    "id": "city-of-peculiar-mo-2025-01-01",
+    "megawatts": null,
+    "company": "Diode Ventures",
+    "hyperscaler": null,
+    "project_name": "Harper Road Technology Park",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/peculiar-data-center-faces-opposition-in-missouri/",
+      "https://baxtel.com/data-center/diode-ventures-peculiar-mo"
+    ]
+  },
+  {
+    "id": "charles-city-county-va-2024-07-01",
+    "megawatts": null,
+    "company": "Diode Ventures",
+    "hyperscaler": null,
+    "project_name": "Roxbury Technology Park",
+    "sources": [
+      "https://www.diodeventures.com/projects/charles-city-county-virginia-usa",
+      "https://www.datacenterdynamics.com/en/news/diode-files-for-515-acre-data-center-park-outside-richmond-virginia/",
+      "https://www.bisnow.com/national/news/data-center/community-pushback-dooms-diode-ventures-virginia-data-center-campus-130700"
+    ]
+  },
+  {
+    "id": "preble-county-oh-2025-10-01",
+    "megawatts": null,
+    "company": "PRSM (Patrick Scanlon)",
+    "hyperscaler": null,
+    "project_name": "PRSM Preble County",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/300-acres-of-land-in-preble-county-ohio-could-host-data-center-campus/",
+      "https://www.wdtn.com/news/300-acres-of-farmland-could-be-rezoned-for-new-data-center-near-i-70/"
+    ]
+  },
+  {
+    "id": "villa-rica-ga-2025-04-01",
+    "megawatts": null,
+    "company": "Embry Development",
+    "hyperscaler": null,
+    "project_name": "Villa Rica Technology Park",
+    "sources": [
+      "https://embrydevelopmentcorp.com/portfolio/villarica/",
+      "https://gradickcommunications.com/carroll-county-residents-file-petition-vs-developer-city-of-villa-rica-hope-to-stop-development-of-reported-400-acre-data-center-between-hickory-level-van-wert-road/"
+    ]
+  },
+  {
+    "id": "town-of-warrenton-va-2024-05-01",
+    "megawatts": null,
+    "company": "GI Partners",
+    "hyperscaler": null,
+    "project_name": null,
+    "sources": [
+      "https://www.pecva.org/warrenton-transmission-line/",
+      "https://www.fauquiernow.com/news/business/warrenton-planning-commission-recommends-removing-data-centers-from-zoning-ordinance/article_34ed0f2b-b040-4edf-b52f-6ec879adcaf5.html"
+    ]
+  },
+  {
+    "id": "menomonie-wi-2024-09-01",
+    "megawatts": null,
+    "company": "Balloonist LLC",
+    "hyperscaler": null,
+    "project_name": "Menomonie Data Center",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/data-center-development-in-menomonie-wisconsin-delayed/",
+      "https://www.foxbusiness.com/economy/mystery-companys-1-6b-data-center-proposed-wisconsin-farmland-draws-residents-ire",
+      "https://www.wpr.org/news/data-center-proposed-menomonie-strong-response-concerned-citizens"
+    ]
+  },
+  {
+    "id": "lower-mt-bethel-township-pa-2024-09-01",
+    "megawatts": null,
+    "company": "Peron Development / J.G. Petrucci",
+    "hyperscaler": null,
+    "project_name": "Lower Mount Bethel Data Center Campus",
+    "sources": [
+      "https://www.mcall.com/2026/02/25/lower-mount-bethel-data-center-peron-development-petrucci/",
+      "https://lvb.com/proposed-lower-mt-bethel-data-center-rural-preservation/"
+    ]
+  },
+  {
+    "id": "conshohocken-plymouth-township-pa-2024-10-01",
+    "megawatts": null,
+    "company": "Brian O'Neill",
+    "hyperscaler": null,
+    "project_name": "Cleveland-Cliffs Steel Mill Data Center",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/legal-issues-force-developer-to-withdraw-data-center-proposal-in-plymouth-township-pennsylvania/",
+      "https://morethanthecurve.com/developer-brian-oneill-behind-proposed-data-center-on-steel-plant-property-in-conshohocken/",
+      "https://whyy.org/articles/conshohocken-pennsylvania-residents-pushback-data-center-proposal/"
+    ]
+  }
+]

@@ -1,0 +1,346 @@
+{
+  "research_date": "2026-03-04",
+  "notes": "Round 5 research focused on very recent news (January-March 2026). Cross-referenced against fights.json (403 entries) and all previous new-fights-march2026 round files. Found 12 genuinely new entries not yet tracked plus 8 status updates for existing entries.",
+  "new_entries": [
+    {
+      "jurisdiction": "Columbiana (Shelby County)",
+      "state": "AL",
+      "lat": 33.1782,
+      "lng": -86.6064,
+      "action_type": "zoning_restriction",
+      "status": "enacted",
+      "date": "2026-02-17",
+      "summary": "Columbiana City Council unanimously approved a new ordinance imposing zoning restrictions on future data centers, becoming the first Alabama municipality to pass such restrictions. Requirements include: 60 ft max height (including rooftop equipment), 300 ft setback from residentially zoned districts, 25 ft landscape buffer, sound study demonstrating facility does not exceed 67 dB, and full enclosure or screening/fencing. Future data centers require a special permit from the Board of Adjustments. The restrictions do not apply retroactively to the existing DigiPower X facility (22MW expanding to 55MW by 2027). Came after a packed town hall where residents voiced concerns about noise, water, and energy impacts.",
+      "sources": [
+        "https://www.wbrc.com/2026/02/18/columbiana-passes-new-zoning-restrictions-data-centers/",
+        "https://www.shelbycountyreporter.com/news/columbiana-places-restrictions-on-future-data-centers-a848fc15/",
+        "https://www.apr.org/news/2026-02-19/two-alabama-cities-two-very-different-receptions-for-big-data-centers",
+        "https://abc3340.com/news/abc-3340-news-iteam/columbiana-town-hall-meeting-data-center-digihost-questions-answers-thursday-industrial-parkway"
+      ],
+      "concerns": ["noise", "water", "electricity_rates", "environment", "property_values"],
+      "opposition_groups": ["Columbiana residents"],
+      "company": "DigiPower X (existing)",
+      "megawatts": 55,
+      "investment_million_usd": 200
+    },
+    {
+      "jurisdiction": "Palo (Google annexation bypass)",
+      "state": "IA",
+      "lat": 42.0669,
+      "lng": -91.7929,
+      "action_type": "regulatory_bypass",
+      "status": "active",
+      "date": "2026-03-04",
+      "summary": "Google abandoned plans to build its $1B+ data center in unincorporated Linn County and announced it would instead pursue annexation into the City of Palo, bypassing Linn County's strict new data center ordinance which required water balance studies, 1,000-foot residential setbacks, and economic development agreements. Linn County Chair Kirsten Running-Marquardt criticized the move: 'Google has decided to bypass the protections that we put in place in our ordinance for the residents, for our water.' The original proposal called for up to 12 million gallons of water per day. Palo has no data center-specific zoning codes. County supervisors urged Palo to adopt similar protections.",
+      "sources": [
+        "https://www.iowapublicradio.org/ipr-news/2026-03-04/google-data-center-palo-linn-county",
+        "https://www.kcrg.com/2026/03/04/google-pulls-out-proposal-build-data-center-unincorporated-linn-co-build-palo-instead/",
+        "https://cbs2iowa.com/news/local/google-shifts-data-center-plan-to-palo-water-study-now-on-hold",
+        "https://www.thegazette.com/news/local/how-google-could-skirt-linn-county-s-data-center-regulations/article_a06481d4-0018-4400-a8c7-e41e71816303.html"
+      ],
+      "concerns": ["water", "electricity_rates", "noise", "light_pollution", "process_fairness", "livestock_impacts"],
+      "opposition_groups": ["Linn County residents"],
+      "company": "Google",
+      "hyperscaler": "Google",
+      "megawatts": 615,
+      "investment_million_usd": 1000
+    },
+    {
+      "jurisdiction": "Penn Forest Township (Carbon County)",
+      "state": "PA",
+      "lat": 40.9601,
+      "lng": -75.5840,
+      "action_type": "zoning_restriction",
+      "status": "enacted",
+      "date": "2026-03-03",
+      "summary": "Penn Forest Township supervisors approved a comprehensive data center ordinance at a well-attended meeting at Penn's Peak. The ordinance creates a new zoning overlay district covering 750 acres along Route 903, with requirements including: 30-acre minimum lot, 60 ft height cap plus 15 ft for rooftop equipment, noise and vibration standards, woodland protection (no more than 50% disturbance), Area of Influence water feasibility studies, and a decommissioning cost estimate from an independent engineer. Described as the 'least worst option' by community members who feared that without regulation, developers could exploit existing industrial zoning.",
+      "sources": [
+        "https://www.wvia.org/news/local/2026-03-03/penn-forest-twp-supervisors-approve-regulations-for-data-center-development",
+        "https://www.tnonline.com/20260304/penn-forest-oks-data-ordinance/",
+        "https://www.wvia.org/news/local/2026-02-28/least-worst-option-carbon-county-community-faces-data-center-challenges"
+      ],
+      "concerns": ["water", "environment", "noise", "community_character", "deforestation"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "West Rockhill Township (Bucks County)",
+      "state": "PA",
+      "lat": 40.3824,
+      "lng": -75.3569,
+      "action_type": "zoning_restriction",
+      "status": "pending",
+      "date": "2026-02-24",
+      "summary": "West Rockhill Board of Supervisors advanced a preemptive data center zoning ordinance restricting data centers to the township's industrial district adjacent to Hilltown Township and Telford Borough along State Road. Notable requirement: data centers must be powered by solar energy and served by public water and sewer. The ordinance includes definitions, building regulations, and accessory use standards. No data center proposals have been submitted; supervisors are taking proactive action. Public hearing scheduled for April 15, 2026 after review by township and county planning commissions.",
+      "sources": [
+        "https://northpennnow.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
+        "https://centralbucksnews.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
+        "https://www.thereporteronline.com/2026/02/23/west-rockhill-supervisors-advance-data-center-regulations/"
+      ],
+      "concerns": ["water", "electricity_rates", "environment"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "East Rockhill Township (Bucks County)",
+      "state": "PA",
+      "lat": 40.3825,
+      "lng": -75.3176,
+      "action_type": "zoning_restriction",
+      "status": "pending",
+      "date": "2026-02-24",
+      "summary": "East Rockhill Board of Supervisors unveiled a data center regulation ordinance nearly identical to neighboring West Rockhill's. The ordinance restricts data center construction to the township's industrial districts at the Pennridge Airport. While no data center applications have been received, the ordinance serves as a preemptive measure. Township solicitor Will Oetinger stated: 'By enacting an ordinance, we put guardrails around the development of a data center.' The board agreed to revisit the ordinance at its next meeting after gathering additional information.",
+      "sources": [
+        "https://centralbucksnews.com/news/2026/mar/03/east-rockhill-supervisors-discuss-data-center-ordinance/",
+        "https://www.thereporteronline.com/2026/02/27/east-rockhill-supervisors-discuss-data-center-ordinance/"
+      ],
+      "concerns": ["water", "electricity_rates", "environment", "noise"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Washington Township (Franklin County)",
+      "state": "OH",
+      "lat": 39.9539,
+      "lng": -82.8819,
+      "action_type": "moratorium",
+      "status": "approved",
+      "date": "2026-02-01",
+      "summary": "Washington Township, in the Columbus metro area, passed a moratorium on data center development as part of the broader wave of Ohio municipalities pushing back against rapid data center growth. The township is one of approximately 18 Ohio municipalities that have considered or enacted moratoriums pausing construction and approval of data centers, driven by concerns about rising electricity prices and infrastructure strain in communities that are experiencing the state's data center boom.",
+      "sources": [
+        "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success",
+        "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/"
+      ],
+      "concerns": ["electricity_rates", "infrastructure", "community_character"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Columbia County (judicial review lawsuits)",
+      "state": "GA",
+      "lat": 33.5460,
+      "lng": -82.2269,
+      "action_type": "lawsuit",
+      "status": "active",
+      "date": "2026-02-25",
+      "summary": "Harlem resident Gregory P. Guido Jr. filed two judicial review petitions in Columbia County Superior Court challenging the Board of Commissioners' approval of data center rezoning. The first case targets the White Oak Business Park project; the second targets the Pumpkin Center project. Petitions allege: commissioners approved rezonings without verified water or sewer capacity analysis, relied on an outdated June 2025 traffic study, and failed to provide meaningful notice to the School District. Cases were filed under Georgia's new judicial review code which places burden of proof on the petitioner. Commissioners had earlier rejected a third data center proposal (Appling-Harlem Road) in a 3-2 vote.",
+      "sources": [
+        "https://www.wrdw.com/2026/02/26/citizen-files-lawsuits-over-columbia-county-data-centers/",
+        "https://augustaceo.com/news/2026/02/citizen-files-lawsuits-over-columbia-county-data-centers/",
+        "https://theaugustapress.com/harlem-citizen-follows-legal-action-over-quarry-with-two-more-lawsuits-about-columbia-county-data-center-projects/"
+      ],
+      "concerns": ["water", "traffic", "environment", "process_fairness", "school_impacts"],
+      "opposition_groups": ["Columbia County residents"],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Shreveport (Caddo District Court lawsuit)",
+      "state": "LA",
+      "lat": 32.5252,
+      "lng": -93.7502,
+      "action_type": "lawsuit",
+      "status": "active",
+      "date": "2026-02-24",
+      "summary": "Mooringsport Mayor Tyler Gordon, and Shreveport residents Michael Craft and Mary Blakemore filed a Petition for Judicial Review in Caddo District Court to stop the west Shreveport data center. They allege the City Council 'violated its constitutional and statutory obligations' by overturning the Metropolitan Planning Commission's denial of a Special Use Permit. The suit claims Mayor Tom Arceneaux and Council 'unlawfully withheld public information' and that the developer (TXLAAR LLC, incorporated October 2025) has not disclosed who will operate the facility. Separately, State Rep. Wayne McMahen is demanding transparency around NDAs allegedly signed by local leaders to fast-track data center deals.",
+      "sources": [
+        "https://www.ksla.com/2026/02/24/shreveport-data-center-lawsuit-petition-alleges-city-withheld-public-information/",
+        "https://www.ktbs.com/news/city-of-shreveport-sued-over-data-center-vote/article_0bc5e38c-1443-4943-99b4-d30f77849960.html",
+        "https://www.shreveportbossieradvocate.com/business/lawsuit-louisiana-data-center/article_cbaa12e5-c5f8-4861-87b5-8c380d752a18.html",
+        "https://www.ktalnews.com/news/louisiana/mccormick-investigates-shreveport-blanchard-ndas/"
+      ],
+      "concerns": ["process_fairness", "transparency", "water", "electricity_rates", "environment"],
+      "opposition_groups": ["Shreveport residents", "Mooringsport officials"],
+      "company": "TXLAAR LLC (operator unknown)",
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Coweta (city council vote pending)",
+      "state": "OK",
+      "lat": 35.9515,
+      "lng": -95.6508,
+      "action_type": "zoning_denied",
+      "status": "appealed_to_council",
+      "date": "2026-02-02",
+      "summary": "Despite the Coweta Planning Commission's 4-1 denial of the Project Atlas rezoning, the proposal advanced to the Coweta city council. The developer, Beale Infrastructure, pledged $500K for a water plant master study and $3M+ for water system upgrades. During 40 minutes of questioning, residents expressed concerns about water quality: 'We need good water now, and it won't be any better if they come in.' The project originally called for 5.4 million gallons/day water usage before switching to an air-cooled design. The council hearing was held at Indian Capital Technology Center. Final vote expected April 2026.",
+      "sources": [
+        "https://www.okenergytoday.com/2026/02/data-center-project-to-be-subject-of-another-coweta-city-council-meeting/",
+        "https://tulsaflyer.org/2026/01/20/government/post/coweta-planning-commission-says-no-to-data-center-proposal/",
+        "https://www.newson6.com/tulsa-oklahoma-news/cowetas-planning-commission-votes-4-1-to-deny-rezoning-request-for-proposed-data-center"
+      ],
+      "concerns": ["water", "electricity_rates", "infrastructure", "community_character"],
+      "opposition_groups": ["Coweta residents"],
+      "company": "Beale Infrastructure",
+      "hyperscaler": "Amazon/AWS",
+      "megawatts": 400,
+      "investment_million_usd": 800
+    },
+    {
+      "jurisdiction": "Minnesota (statewide moratorium bill SF 2838)",
+      "state": "MN",
+      "lat": 46.7296,
+      "lng": -94.6859,
+      "action_type": "legislation",
+      "status": "pending",
+      "date": "2026-02-20",
+      "summary": "Senator Jen McEwen proposed SF 2838, a bill that would impose a two-year pause on all data center construction in Minnesota. The bill emerged after Eagan's moratorium and growing opposition to Google's Hermantown proposal. Data center opponents rallied at the state Capitol calling for statewide action. The bill would provide time for a comprehensive study of data center impacts on water, energy, and communities. Over 200 attendees filled a Capitol hearing room. The bill faces opposition from the tech industry and some business groups but has growing public support, especially in communities near proposed facilities.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/state-wide-data-center-moratorium-set-to-be-proposed-in-minnesota/",
+        "https://www.mprnews.org/story/2026/02/20/data-center-opponents-call-for-statewide-moratorium-new-regulations"
+      ],
+      "concerns": ["water", "electricity_rates", "environment", "community_character"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Georgia (statewide moratorium HB 1012 / HB 1059)",
+      "state": "GA",
+      "lat": 33.7490,
+      "lng": -84.3880,
+      "action_type": "legislation",
+      "status": "pending",
+      "date": "2026-01-20",
+      "summary": "Multiple Georgia data center moratorium bills introduced in 2026 session. HB 1012 (Rep. Ruwa Romman) would bar counties and cities from issuing permits for new data centers until March 1, 2027, with exceptions for approvals issued before July 1, 2026. HB 1059 (Rep. Derrick Jackson) would establish a moratorium from July 1, 2026 to December 31, 2028, and create a 14-member Data Center Impact Commission to conduct a three-year study with a final report due October 1, 2029. At least eight Georgia towns and counties have already passed local moratoriums. Industry opposition has been fierce, with a key bill stalling after a last-minute amendment found bipartisan support.",
+      "sources": [
+        "https://georgiarecorder.com/2026/01/20/outrage-over-surge-of-data-centers-in-georgia-inspires-wave-of-bipartisan-bills/",
+        "https://georgiarecorder.com/2026/02/26/data-center-bill-stalls-after-last-minute-change-opposed-by-industry-finds-support/",
+        "https://www.wabe.org/georgia-lawmakers-debating-data-center-moratorium-and-regulation-bills-in-legislature/"
+      ],
+      "concerns": ["water", "electricity_rates", "environment", "tax_incentives", "community_character"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Upper Macungie Township (Air Products site)",
+      "state": "PA",
+      "lat": 40.5691,
+      "lng": -75.5666,
+      "action_type": "zoning_appeal",
+      "status": "delayed",
+      "date": "2026-02-26",
+      "summary": "Air Products is seeking approval for a 2.6 million-square-foot data center complex (three buildings) at its former 194-acre headquarters at 7300 Cetronia Road. The proposal was filed under the old zoning ordinance before Upper Macungie updated its data center regulations on December 4, 2025, so it would not be subject to new regulations. The Zoning Hearing Board granted Air Products a delay until May 27 after the company said it is still gathering information and has not decided whether to proceed. The project is classified as a 'similar use' appeal in the Light Industrial district. Community members are concerned about the scale of the development and its exemption from new protections.",
+      "sources": [
+        "https://www.mcall.com/2026/02/26/upper-macungie-zoning-board-data-center/",
+        "https://www.wfmz.com/news/area/lehighvalley/lehigh-county/western-lehigh-county/air-products-hits-pause-on-2-6m-square-foot-data-center-appeal-in-upper-macungie/article_3efb655a-3bef-497f-9cc1-fc844aaaafcc.html",
+        "https://www.lehighvalleynews.com/business/giant-data-center-proposal-in-upper-macungie-township-is-in-the-works"
+      ],
+      "concerns": ["electricity_rates", "water", "community_character", "process_fairness"],
+      "opposition_groups": [],
+      "company": "Air Products",
+      "megawatts": null,
+      "investment_million_usd": null
+    }
+  ],
+  "updates": [
+    {
+      "jurisdiction": "Linn County",
+      "state": "IA",
+      "updates": {
+        "status": "bypassed",
+        "summary": "UPDATE: On March 4, 2026, Google announced it would abandon plans to build in unincorporated Linn County and instead pursue annexation into the City of Palo, bypassing the county's strict new data center ordinance. Linn County Chair Kirsten Running-Marquardt criticized the move as evading water and environmental protections. Palo has no data center-specific zoning. County supervisors urged Palo to adopt similar protections including 1,000-foot residential setbacks.",
+        "sources": [
+          "https://www.iowapublicradio.org/ipr-news/2026-03-04/google-data-center-palo-linn-county",
+          "https://www.kcrg.com/2026/03/04/google-pulls-out-proposal-build-data-center-unincorporated-linn-co-build-palo-instead/",
+          "https://cbs2iowa.com/news/local/google-shifts-data-center-plan-to-palo-water-study-now-on-hold"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "City of Ypsilanti",
+      "state": "MI",
+      "updates": {
+        "status": "approved",
+        "summary": "UPDATE: Ypsilanti City Council passed both a 60-day emergency ordinance and a 365-day resolution moratorium on data centers on March 3, 2026. The 60-day measure came from city administration; the 365-day resolution was introduced by Ward 3 Council member Amber Fellows. Ypsilanti is the 20th Michigan community to enact a data center moratorium.",
+        "sources": [
+          "https://www.wemu.org/wemu-news/2026-03-04/city-of-ypsilanti-passes-data-center-moratorium",
+          "https://www.easternecho.com/article/2026/03/city-of-ypsilanti-considers-emergency-moratorium-concerning-data-center-zoning"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Lordstown",
+      "state": "OH",
+      "updates": {
+        "status": "active_lawsuit",
+        "summary": "UPDATE: Lordstown is now entangled in a legal battle with Bristolville LLC, which claims it submitted its data center application in October 2025 before the village enacted its moratorium. The village hired a consultant to gather data on data center impacts during the 180-day moratorium period. The developer's attorney argues the application should be processed under pre-moratorium rules.",
+        "sources": [
+          "https://spectrumnews1.com/oh/dayton/news/2026/02/24/lordstown-ohio-data-center-lawsuit",
+          "https://www.tribtoday.com/news/local-news/2026/03/lordstown-oks-consultant-for-data-center-discussion/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Saline Township",
+      "state": "MI",
+      "updates": {
+        "status": "construction_underway",
+        "summary": "UPDATE: A Washtenaw County judge denied Saline Township resident Kathryn Haushalter's motion to intervene in the consent judgment that allowed the $7B Oracle/OpenAI data center to proceed. Construction is underway on the 250-acre site along Michigan Avenue. The state allowed construction to begin before final air quality permit approval. $2 billion in specialized equipment has been ordered and a $40M nonrefundable deposit paid to DTE Energy.",
+        "sources": [
+          "https://planetdetroit.org/2026/02/judge-denies-data-center-intervention/",
+          "https://planetdetroit.org/2026/02/saline-data-center-air-wetlands-permits/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Coweta",
+      "state": "OK",
+      "updates": {
+        "status": "appealed_to_council",
+        "summary": "UPDATE: Despite the Planning Commission's 4-1 denial, the Project Atlas rezoning proposal advanced to Coweta city council for a February 2026 hearing at Indian Capital Technology Center. Beale Infrastructure offered $500K for a water plant master study and $3M+ for water system upgrades. Final council vote expected April 2026.",
+        "sources": [
+          "https://www.okenergytoday.com/2026/02/data-center-project-to-be-subject-of-another-coweta-city-council-meeting/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Marana (referendum lawsuit)",
+      "state": "AZ",
+      "updates": {
+        "status": "active_lawsuit",
+        "summary": "UPDATE: A Pima County judge heard from attorneys on March 4, 2026 in a status conference for the lawsuit filed by Marana Citizens for Ethical and Transparent Government against the Town of Marana. The town rejected referendum petitions (2,800 signatures each, nearly double the required 1,400) on a technicality: missing legal property descriptions. The town acknowledges it failed to provide those descriptions to the Pima County Recorder's Office initially. Attorney Rui Wang argues the clerk had a duty to provide correct copies.",
+        "sources": [
+          "https://news.azpm.org/p/azpmnews/2026/2/27/228668-marana-residents-sue-town-over-rejected-data-center-referendum-petitions/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Henrico County (Varina)",
+      "state": "VA",
+      "updates": {
+        "status": "denied",
+        "summary": "UPDATE: Henrico Board of Zoning Appeals unanimously denied Centra Logistics' vested-rights claim for the Darbytown Road site on February 27, 2026. Deputy County Attorney Ryan Murphy argued landowners do not have a vested property right in expected uses of their land. The BZA upheld Planning Director Joe Emerson's December 2025 denial. Centra/Wagner Urban Logistics may appeal to Henrico Circuit Court.",
+        "sources": [
+          "https://www.wtvr.com/news/local-news/data-center-site-denied-feb-27-2026",
+          "https://www.wric.com/news/local-news/henrico-county/zoning-appeals-denies-centra-logistics-data-center/",
+          "https://richmondbizsense.com/2026/02/27/henrico-denies-vested-rights-appeal-for-data-centers-at-darbytown-site/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Shreveport",
+      "state": "LA",
+      "updates": {
+        "status": "active_lawsuit",
+        "summary": "UPDATE: Mooringsport Mayor Tyler Gordon and two Shreveport residents filed a Petition for Judicial Review in Caddo District Court to stop the west Shreveport data center, alleging the City Council violated constitutional obligations by overturning the MPC's denial. Separately, State Rep. Wayne McMahen is investigating NDAs allegedly signed by Shreveport and Blanchard leaders to fast-track data center deals.",
+        "sources": [
+          "https://www.ksla.com/2026/02/24/shreveport-data-center-lawsuit-petition-alleges-city-withheld-public-information/",
+          "https://www.ktalnews.com/news/louisiana/mccormick-investigates-shreveport-blanchard-ndas/"
+        ]
+      }
+    }
+  ]
+}

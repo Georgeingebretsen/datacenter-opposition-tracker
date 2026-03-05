@@ -2,7 +2,7 @@
 
 An interactive map and open database tracking grassroots opposition to datacenter development across the United States.
 
-**403+ fights tracked across 50 states.**
+**415+ fights tracked across 50 states.**
 
 ## What's in here
 

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "sunbury-oh-2026-02-24",
+    "hyperscaler": "AWS",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/aws-plans-2bn-data-center-campus-in-sunbury-ohio/",
+      "https://www.10tv.com/article/news/local/boomtown-ohio/amazon-new-data-center-delaware-county-ohio/530-df6756a8-47e3-4e04-a78d-189d4d014168"
+    ]
+  },
+  {
+    "id": "montgomery-county-mo-2026-02-16",
+    "hyperscaler": "AWS",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/1000-acre-aws-data-center-campus-under-consideration-in-montgomery-county-missouri/",
+      "https://www.mystandardnews.com/stories/amazon-announces-it-will-own-data-center-in-montgomery-county,136956",
+      "https://abc17news.com/news/2025/11/26/amazon-planning-data-center-in-montgomery-county/"
+    ]
+  },
+  {
+    "id": "city-of-st-charles-mo-2025-08-01",
+    "hyperscaler": "Google",
+    "sources": [
+      "https://www.stlpr.org/economy-business/2025-09-08/documents-link-secretive-st-charles-data-center-google",
+      "https://www.kcur.org/housing-development-section/2025-09-08/google-missouri-data-center-st-charles"
+    ]
+  },
+  {
+    "id": "hollenback-township-pa-2026-03-02",
+    "hyperscaler": "AWS",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/aws-acquires-talens-nuclear-data-center-campus-in-pennsylvania/",
+      "https://www.standardspeaker.com/2026/02/04/claim-hollenback-twp-rural-landowners-offered-175k-per-acre-for-data-center-takeover/",
+      "https://www.datacenterfrontier.com/hyperscale/article/33038288/aws-eyes-960-mw-for-newly-acquired-nuclear-power-data-center-in-pennsylvania"
+    ]
+  },
+  {
+    "id": "charles-county-md-2026-03-02",
+    "hyperscaler": "Google",
+    "sources": [
+      "https://www.cnbc.com/2025/08/18/terawulf-stock-google-stake-datacenter.html",
+      "https://www.coindesk.com/business/2025/10/28/terawulf-stock-surges-22-after-usd9-5b-google-backed-ai-compute-deal-with-fluidstack",
+      "https://investors.terawulf.com/news-events/press-releases/detail/129/terawulf-expands-digital-and-power-infrastructure-portfolio"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "weld-county-co-2026-02-27",
+    "company": "GlobalAI",
+    "hyperscaler": null,
+    "project_name": "GlobalAI Windsor Data Center",
+    "notes": "GlobalAI purchased 438 acres (former Carestream/Kodak site) at 2000 Howard Smith Avenue West near Windsor for $15.6M in Nov 2025. Plans for 18-24MW initial phase, expandable to 50-60MW and eventually up to 1GW. Partnership with Nvidia and Saudi company HUMAIN. Investment estimated $2B-$20B depending on final scale. Official Nvidia Preferred Cloud Partner using GB200 & GB300 Blackwell clusters.",
+    "sources": [
+      "https://www.9news.com/article/news/local/colorado-news/ai-data-center-plans-weld-county/73-0fa40d46-73a7-412a-93f3-5272c02b3b47",
+      "https://www.kunc.org/news/2025-12-23/globalai-data-center-company-buys-carestream-property",
+      "https://www.datacenterdynamics.com/en/news/global-ai-set-to-develop-data-center-outside-denver-colorado/"
+    ]
+  },
+  {
+    "id": "town-of-dryden-ny-2026-02-20",
+    "company": "TeraWulf",
+    "hyperscaler": "Google",
+    "project_name": "Cayuga Data Campus",
+    "notes": "Dryden banned data centers partly in response to neighboring Lansing's TeraWulf project at the former Cayuga coal plant. TeraWulf (via Cayuga Operating Company) secured 80-year lease on 183 acres for up to 400MW data center. $3.7B in contracted revenue. Google backstops Fluidstack lease obligations and receives ~8% equity stake in TeraWulf. Core42 (G42/Abu Dhabi subsidiary) also leasing 72.5MW. A separate developer had also sent an application directly to Dryden for a data center on George Road near State Route 13, which was denied by planning director Ray Burger.",
+    "sources": [
+      "https://ithacavoice.org/2026/02/the-town-of-dryden-just-banned-data-centers-heres-why/",
+      "https://www.datacenterdynamics.com/en/news/cryptominer-terawulf-secures-200mw-lease-with-fluidstack-google-to-take-stake-in-company/",
+      "https://investors.terawulf.com/news-events/press-releases/detail/113/terawulf-secures-long-term-ground-lease-at-cayuga-site-to"
+    ]
+  },
+  {
+    "id": "hubbard-township-oh-2026-02-15",
+    "company": "Bristolville 25 Developer LLC",
+    "hyperscaler": null,
+    "project_name": "Lordstown/Trumbull County Data Center",
+    "notes": "Bristolville 25 Developer LLC (New York, NY) proposed a $3.6B, 1.65M sq ft data center campus on 133 acres near Tod Avenue spanning Lordstown and Jackson Township in Trumbull/Mahoning counties. Regional data center interest prompted Hubbard Township's moratorium. In Hubbard itself, discussions between City of Hubbard, Lake to River Economic Development, and an unnamed company were underway about a potential technology project near Deer Creek Golf Course. Bristolville 25 filed Ohio Supreme Court complaint after Lordstown banned data centers.",
+    "sources": [
+      "https://www.wkbn.com/news/local-news/lordstown-news/developer-proposes-building-data-center-in-lordstown-area/",
+      "https://www.wfmj.com/story/53141480/hubbard-residents-petition-against-potential-data-center-project-at-deer-creek",
+      "https://businessjournaldaily.com/company-proposes-3-6b-data-center-in-lordstown/"
+    ]
+  }
+]

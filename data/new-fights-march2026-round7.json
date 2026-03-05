@@ -1,0 +1,373 @@
+{
+  "research_date": "2026-03-04",
+  "notes": "Round 7 research focused on January-March 2026 news. Cross-referenced against fights.json (417 entries) and all 6 previous new-fights-march2026 round files. Searched all 50 states with emphasis on OH, GA, PA, MI, VA, TX, MO, IN, WI, MD, NC, KY, NY, plus CO, MN, AL, FL, SC, OK, SD, CA. Found 12 genuinely new entries not yet tracked and 14 status updates for existing entries.",
+  "new_entries": [
+    {
+      "jurisdiction": "Fort Meade (Polk County)",
+      "state": "FL",
+      "lat": 27.7534,
+      "lng": -81.8010,
+      "action_type": "protest",
+      "status": "active",
+      "date": "2026-02-25",
+      "summary": "Community members rallied outside Fort Meade City Hall to protest a proposed 1.2-gigawatt, 4.4-million-square-foot hyperscale data center on over 1,000 acres being developed by Stonebridge. The city previously approved rezoning and a tax break, but residents are demanding a halt before a final site plan vote expected in March. Concerns center on massive water and energy drain in a small rural Polk County city, noise from low-frequency sound, and diesel backup generator pollution. The project would be one of the largest data centers in the US.",
+      "sources": [
+        "https://www.fox13news.com/news/residents-fort-meade-protest-proposed-data-center-developers-respond-questions",
+        "https://www.fox13news.com/news/protesters-against-proposed-fort-meade-data-center-gather-outside-city-hall",
+        "https://baynews9.com/fl/tampa/news/2026/02/11/fort-meade-residents-data-center-concern",
+        "https://floridaphoenix.com/2026/01/01/thirsty-ai-data-center-runs-into-florida-community-opposition-2/",
+        "https://www.wusf.org/environment/2026-02-16/proposals-massive-data-centers-across-florida-are-local-governments-prepared"
+      ],
+      "concerns": ["water", "electricity_rates", "noise", "air_quality", "community_character"],
+      "opposition_groups": ["Fort Meade residents", "Polk County environmental advocates"],
+      "company": "Stonebridge",
+      "hyperscaler": null,
+      "megawatts": 1200,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Scioto County (Open Meetings lawsuit)",
+      "state": "OH",
+      "lat": 38.7568,
+      "lng": -82.9482,
+      "action_type": "lawsuit",
+      "status": "active",
+      "date": "2026-02-15",
+      "summary": "A Scioto County resident filed a lawsuit accusing the county commission of violating Ohio's Open Meetings Act by conducting negotiations with Google for a $1 billion, 500,000-square-foot data center in Franklin Furnace behind closed doors. Commissioners admitted to signing NDAs that prevented them from publicly naming Google or discussing project details for months. Google was given a 75% tax abatement for 15 years. The secrecy sparked a separate legislative response: two Ohio lawmakers introduced a bill to ban NDAs for elected officials tied to their public duties.",
+      "sources": [
+        "https://www.wowktv.com/news/ohio/scioto-county-oh/lawsuit-filed-against-scioto-county-commission-surrounding-new-data-center/",
+        "https://sciotocountydailynews.com/commissioners-respond-to-open-meetings-lawsuit-over-data-center/",
+        "https://sciotocountydailynews.com/ohio-lawmakers-move-to-ban-ndas-for-elected-officials/",
+        "https://www.datacenterdynamics.com/en/news/google-confirmed-as-company-behind-500000-sq-ft-data-center-in-scioto-county-ohio/"
+      ],
+      "concerns": ["process_fairness", "tax_fairness", "transparency", "electricity_rates"],
+      "opposition_groups": ["Scioto County residents", "Ohio transparency advocates"],
+      "company": "Google",
+      "hyperscaler": "Google",
+      "megawatts": null,
+      "investment_million_usd": 1000
+    },
+    {
+      "jurisdiction": "Birmingham (citywide moratorium)",
+      "state": "AL",
+      "lat": 33.5207,
+      "lng": -86.8025,
+      "action_type": "moratorium",
+      "status": "approved",
+      "date": "2026-03-03",
+      "summary": "The Birmingham City Council voted on March 3, 2026 to approve a six-month moratorium on new applications for large or hyperscale data centers using more than 20MW of power. The pause gives the city time to review zoning and land-use policies, assess infrastructure and utility demands, and gather feedback from residents. Smaller facilities under 20MW are unaffected. The moratorium does not apply to projects with completed permits, including the Nebius AI factory at the former Regions Lakeshore Operations Center and DC BLOX's existing facility expansion. The process began with a January 13 public hearing where residents raised power, water, and noise concerns about a proposed 300MW Nebius facility in the Oxmoor neighborhood.",
+      "sources": [
+        "https://birminghamwatch.org/2026/03/03/birmingham-council-enacts-temporary-ban-on-large-data-centers/",
+        "https://www.wbrc.com/2026/03/04/birmingham-city-council-votes-pause-new-data-center-applications-six-months/",
+        "https://www.birminghamtimes.com/2026/03/birmingham-city-council-imposes-temporary-freeze-on-data-centers/",
+        "https://birminghamwatch.org/2026/01/13/birmingham-leaders-weigh-180-day-moratorium-on-data-centers-amid-power-and-water-concerns/",
+        "https://abc3340.com/news/local/birmingham-halts-new-data-center-projects-with-six-month-moratorium-city-of-birmingham-council-public-hearing-data-centers-zoning-land-use-regulations-review-infrastructure-demands-development"
+      ],
+      "concerns": ["water", "electricity_rates", "noise", "community_character", "local_control"],
+      "opposition_groups": ["Birmingham residents", "Oxmoor neighborhood residents", "GASP (Group Against Smog and Pollution)"],
+      "company": null,
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Birmingham (Nebius Oxmoor AI factory)",
+      "state": "AL",
+      "lat": 33.4540,
+      "lng": -86.8770,
+      "action_type": "protest",
+      "status": "active",
+      "date": "2026-02-10",
+      "summary": "Nebius, a Netherlands-based AI company, filed permits on January 29 to build a 300MW AI factory on approximately 80 acres at the former Regions Lakeshore Operations Center (201 Milan Parkway) in Birmingham's Oxmoor neighborhood. Oxmoor residents voiced strong opposition at a zoning board hearing, citing noise, power consumption, and proximity to homes. The project escaped Birmingham's March 3 moratorium because permits were filed before the vote. Alabama Power will service the facility. The project vote was delayed after community concerns, and Nebius says it will generate an estimated $80 million annually for Birmingham and Jefferson County schools.",
+      "sources": [
+        "https://www.wbrc.com/2026/02/11/ai-factory-being-proposed-along-lakeshore-parkway-birmingham/",
+        "https://www.wbrc.com/2026/02/10/oxmoor-residents-voice-concerns-over-proposed-data-center/",
+        "https://www.birminghamtimes.com/2026/03/birmingham-ai-factory-data-center-project-vote-delayed-after-community-concerns/",
+        "https://www.datacenterdynamics.com/en/news/nebius-targets-data-center-development-in-birmingham-alabama/"
+      ],
+      "concerns": ["noise", "electricity_rates", "water", "community_character", "health"],
+      "opposition_groups": ["Oxmoor neighborhood residents", "GASP (Group Against Smog and Pollution)"],
+      "company": "Nebius",
+      "hyperscaler": null,
+      "megawatts": 300,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Pike Township (Indianapolis withdrawal)",
+      "state": "IN",
+      "lat": 39.8634,
+      "lng": -86.2309,
+      "action_type": "cancellation",
+      "status": "withdrawn",
+      "date": "2026-02-04",
+      "summary": "American Tower Corporation withdrew its rezoning petition for a proposed 20,000-square-foot data center near W. 79th Street and Township Line Road in Pike Township, Indianapolis, after sustained pushback from neighbors and area leaders. The Boston-based developer said it would wait for the city to complete work on updating its zoning regulations before considering future projects. Residents and environmental groups celebrated the withdrawal, which came amid a broader wave of data center opposition across central Indiana.",
+      "sources": [
+        "https://www.axios.com/local/indianapolis/2026/02/04/pike-township-data-center-stalls-indiana-lawmakers-incentivize",
+        "https://fox59.com/indiana-news/developer-withdraws-proposed-pike-township-data-center/",
+        "https://www.wishtv.com/news/local-news/american-tower-rezoning-petition-withdrawn/",
+        "https://mirrorindy.org/pike-township-data-center-petition-withdrawn/"
+      ],
+      "concerns": ["community_character", "environment", "electricity_rates", "local_control"],
+      "opposition_groups": ["Pike Township residents", "Indianapolis environmental groups"],
+      "company": "American Tower Corporation",
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Oklahoma (statewide SB 1488 moratorium)",
+      "state": "OK",
+      "lat": 35.4676,
+      "lng": -97.5164,
+      "action_type": "legislative_action",
+      "status": "pending",
+      "date": "2026-01-15",
+      "summary": "State Senator Kendal Sacchieri (R-Blanchard) filed SB 1488 to impose a moratorium on new data center construction with electrical loads greater than 100MW until November 1, 2029. The bill directs the Oklahoma Corporation Commission to study impacts on water supply, utility rates, property values, and optimal siting practices. This would be a nearly four-year moratorium -- one of the longest proposed in any state. Senator Sacchieri stated the goal is 'not to halt progress, but to ensure that progress does not come at the expense of Oklahomans' quality of life or their utility costs.' The bill awaits committee referral.",
+      "sources": [
+        "https://oksenate.gov/press-releases/senator-sacchieri-files-legislation-address-unknown-impacts-data-centers-oklahoma",
+        "https://kfor.com/news/local/time-is-ticking-on-effort-to-halt-data-centers-in-ok-for-three-years/",
+        "https://www.okenergytoday.com/2026/01/senator-says-data-center-moratorium-would-give-assurances-to-ratepayers/",
+        "https://www.govtech.com/products/oklahoma-bill-would-put-3-year-pause-on-data-centers"
+      ],
+      "concerns": ["electricity_rates", "water", "property_values", "community_character"],
+      "opposition_groups": ["Oklahoma ratepayer advocates"],
+      "company": null,
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Imperial County (City of Imperial vs. County lawsuit)",
+      "state": "CA",
+      "lat": 32.8476,
+      "lng": -115.5695,
+      "action_type": "lawsuit",
+      "status": "active",
+      "date": "2026-01-15",
+      "summary": "The City of Imperial filed a lawsuit against Imperial County and its Board of Supervisors to block a nearly 1-million-square-foot data center complex, alleging the county fast-tracked the project without proper environmental oversight by labeling the permit as ministerial -- thereby bypassing CEQA requirements. Separately, developer Sebastian Rucci filed a federal lawsuit alleging a coordinated conspiracy between the city and Imperial Irrigation District to sabotage his $10 billion AI data center project, citing 43 exhibits of obstruction. A state lawmaker has called on county officials to halt the project. The Superior Court granted the county's motion to dismiss but allowed the city to amend its petition within 30 days.",
+      "sources": [
+        "https://calexicochronicle.com/2026/01/12/developer-of-10b-data-center-sues-city-of-imperial-in-fed-court/",
+        "https://www.ivpressonline.com/news/city-of-imperial-sues-county-to-halt-massive-data-center-project-city-of-el-centro/article_df62d7e7-49e4-496f-b55a-70743e48792e.html",
+        "https://www.kpbs.org/news/environment/2026/02/19/state-lawmaker-calls-on-imperial-county-officials-to-halt-controversial-data-center-project",
+        "https://www.planetizen.com/news/2026/02/136900-battle-over-15-billion-data-centers-erupts-rural-southern-california-county"
+      ],
+      "concerns": ["environment", "process_fairness", "water", "local_control"],
+      "opposition_groups": ["City of Imperial (official opposition)", "State Assemblymember Eduardo Garcia"],
+      "company": "Sebastian Rucci / unnamed developer",
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": 10000
+    },
+    {
+      "jurisdiction": "Mercer County (farmland opposition)",
+      "state": "KY",
+      "lat": 37.8105,
+      "lng": -84.8733,
+      "action_type": "protest",
+      "status": "active",
+      "date": "2026-02-17",
+      "summary": "Mercer County residents are organizing strong opposition to a potential data center on more than 500 acres of prime farmland -- described as the best soil quality in Kentucky. Over 1,700 residents signed a petition opposing the project, and hundreds packed the Mercer County Fairgrounds for a community meeting with near-universal opposition. Residents cited concerns including health impacts on people and animals, water usage, noise, light and air pollution, strain on the power grid, and rising utility bills. The data center could generate nearly $30 million annually in school revenue, but the county has not taken an official position.",
+      "sources": [
+        "https://www.wkyt.com/2026/02/17/mercer-county-residents-oppose-proposed-data-center-farmland/",
+        "https://www.lex18.com/news/covering-kentucky/mercer-county-residents-rally-against-proposed-data-center-development",
+        "https://www.wkyt.com/2026/02/19/mercer-county-residents-oppose-proposed-data-center-packed-community-meeting/",
+        "https://www.weku.org/the-commonwealth/2026-02-20/data-center-debate-draws-hundreds-to-meeting-in-mercer-county"
+      ],
+      "concerns": ["agriculture", "water", "noise", "health", "electricity_rates", "property_values"],
+      "opposition_groups": ["Mercer County farmland preservation advocates", "Mercer County residents"],
+      "company": null,
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Sioux Falls (citizen petition drive)",
+      "state": "SD",
+      "lat": 43.5460,
+      "lng": -96.7313,
+      "action_type": "petition",
+      "status": "active",
+      "date": "2026-01-07",
+      "summary": "After the Sioux Falls City Council voted 7-0 on January 6, 2026, to approve rezoning for a 500MW hyperscale data center in eastern Sioux Falls -- over nearly six hours of overwhelming public opposition from more than 60 speakers -- a citizen petition drive was launched to force a public vote on the rezoning. The proposed data center would consume roughly the same electricity as 50,000 homes. South Dakota currently lacks sufficient generation capacity to serve even one large facility without building new power plants or purchasing additional electricity. The crowd of opponents was described as larger and more passionate than many could remember seeing at a Sioux Falls City Council meeting.",
+      "sources": [
+        "https://www.siouxfallslive.com/news/sioux-falls/planned-data-center-sparks-outrage-in-downtown-sioux-falls",
+        "https://www.sdpb.org/politics/2026-01-07/sioux-falls-city-council-approves-rezoning-of-proposed-data-center-land",
+        "https://siouxfalls.business/hyperscale-data-center-gains-rezoning-vote-after-hours-of-opposing-testimony/",
+        "https://www.thedakotascout.com/p/planned-data-center-sparks-outrage"
+      ],
+      "concerns": ["electricity_rates", "grid_reliability", "water", "community_character", "property_values"],
+      "opposition_groups": ["Sioux Falls residents", "South Dakota citizen petition organizers"],
+      "company": null,
+      "hyperscaler": null,
+      "megawatts": 500,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Stokes County (lawsuit challenging rezoning)",
+      "state": "NC",
+      "lat": 36.4016,
+      "lng": -80.2358,
+      "action_type": "lawsuit",
+      "status": "active",
+      "date": "2026-01-15",
+      "summary": "A lawsuit has been filed challenging the Stokes County commissioners' 3-2 vote to rezone nearly 1,850 acres along the Dan River at the Virginia border for a data center (Project Delta), despite between 300-400 community members gathering to voice opposition. The project, developed by Drew Nations of Engineered Land Solutions, is opposed because the land was once home to the Saura tribe with significant archaeological finds, and the Dan River proximity raises environmental concerns about thermal pollution, chemical runoff, and groundwater contamination. The opposition group 'No Data Centers in Stokes County' organized with Clean Water for North Carolina.",
+      "sources": [
+        "https://greensboro.com/news/local/government-politics/article_1a8ef4e6-3153-54b7-895d-bd010c1c81d4.html",
+        "https://myfox8.com/news/north-carolina/piedmont-triad/stokes-county-commissioners-approve-zoning-for-data-center-amid-vocal-opposition/",
+        "https://cwfnc.org/stokes/",
+        "https://www.wfmynews2.com/article/news/local/stokes-county-commissioners-approve-data-center-despite-public-opposition-walnut-cove-project-delta/83-ba56506c-6a1a-4806-9627-391061df6ce5"
+      ],
+      "concerns": ["environment", "water", "cultural_heritage", "community_character", "noise"],
+      "opposition_groups": ["No Data Centers in Stokes County", "Clean Water for North Carolina", "Stokes County residents"],
+      "company": "Engineered Land Solutions (Drew Nations)",
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "DeKalb County (moratorium extension)",
+      "state": "GA",
+      "lat": 33.7712,
+      "lng": -84.2264,
+      "action_type": "moratorium",
+      "status": "approved",
+      "date": "2026-01-28",
+      "summary": "The DeKalb County Commission extended its moratorium on new data center applications and expansions until June 23, 2026, deferring the vote on a comprehensive data center zoning ordinance until May 12 to allow the Georgia General Assembly to potentially set statewide guidelines first. The proposed ordinance includes a 500-foot buffer from parks and trails, a half-mile exclusion zone around transit stops, a 100-foot transitional buffer for non-industrial neighbors, and an 8-foot wall requirement. Residents raised health, cost, and environmental concerns at multiple public hearings. Commissioner Ted Terry has been particularly vocal in supporting strong regulations.",
+      "sources": [
+        "https://www.wabe.org/dekalb-county-commision-votes-to-extend-pause-on-data-center-applications/",
+        "https://www.cbsnews.com/atlanta/news/dekalb-leaders-extend-data-center-moratorium-to-june-as-residents-raise-health-cost-concerns/",
+        "https://roughdraftatlanta.com/2026/01/28/data-center-regulation-dekalb-county/",
+        "https://engagedekalb.dekalbcountyga.gov/data-center-text-amendment"
+      ],
+      "concerns": ["health", "electricity_rates", "environment", "community_character", "noise"],
+      "opposition_groups": ["DeKalb County residents", "Commissioner Ted Terry (official)"],
+      "company": null,
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "New Orleans (citywide moratorium/ban)",
+      "state": "LA",
+      "lat": 29.9511,
+      "lng": -90.0715,
+      "action_type": "moratorium",
+      "status": "approved",
+      "date": "2026-01-28",
+      "summary": "The New Orleans City Council voted unanimously on January 28, 2026, to impose a temporary moratorium on new data centers and crypto mining facilities, with council members signaling the ban will likely become permanent. The moratorium was triggered by a proposal from MS Solar Grid Data for a 17-acre facility in New Orleans East; the developer pulled his zoning permit hours after the council meeting. The council noted data centers are not currently defined under city code, allowing projects to apply under misleading categories like 'office space with computers.' The Deep South Center for Environmental Justice led vocal opposition, citing grid strain, water impacts, and environmental justice concerns in a historically underserved area.",
+      "sources": [
+        "https://www.wwno.org/economy/2026-01-29/new-orleans-city-council-bans-data-center-development-for-a-year-heres-why",
+        "https://www.fox8live.com/2026/01/29/new-orleans-council-bans-data-center-development/",
+        "https://dscej.org/2026/01/29/data-center-moratorium/",
+        "https://veritenews.org/2026/01/28/data-centers-ban-new-orleans-council/",
+        "https://www.axios.com/local/new-orleans/2026/01/28/data-center-crypto-mining-moratorium-ban-city-council"
+      ],
+      "concerns": ["electricity_rates", "grid_reliability", "water", "environmental_justice", "process_fairness"],
+      "opposition_groups": ["Deep South Center for Environmental Justice", "New Orleans East residents", "New Orleans City Council (unanimous opposition)"],
+      "company": "MS Solar Grid Data",
+      "hyperscaler": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    }
+  ],
+  "updates": [
+    {
+      "id": "urbana-oh",
+      "field": "status",
+      "old_value": "active",
+      "new_value": "approved",
+      "notes": "Urbana city council passed a 12-month moratorium on March 3, 2026 by a 6-1 vote, blocking any new data center over 10,000 sq ft. Thor Equities' proposed $1B Urbana Technology Hub (460,000 sq ft near Ohio 55 and US 68) is now in limbo. Over 4,000 online signatures were collected opposing data centers in Champaign County within two weeks."
+    },
+    {
+      "id": "birmingham-al",
+      "field": "summary",
+      "old_snippet": "existing Birmingham AL entry",
+      "new_value": "Birmingham City Council voted on March 3, 2026 to approve a six-month moratorium on new hyperscale data center applications (>20MW). The Nebius AI factory at the former Regions Lakeshore Operations Center site and DC BLOX expansion are exempt because permits were filed before the vote.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "hermantown-mn",
+      "field": "summary",
+      "old_snippet": "existing Hermantown entry",
+      "new_value": "On March 3, 2026, Google was confirmed as the company behind the controversial 1.8-million-sq-ft, 700MW data center proposal in Hermantown. Minnesota Power signed an electric service agreement with Google. The project faces a pending lawsuit from the Stop the Hermantown Data Center group. The Hermantown Area Chamber of Commerce called it 'one of the most significant private investments ever considered' in the region.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "eagan-mn",
+      "field": "status",
+      "old_value": "active",
+      "new_value": "approved",
+      "notes": "Eagan City Council voted 4-0 on February 17, 2026 to approve a one-year moratorium on data centers using >20MW or within 500 feet of residential homes, lasting until Feb 17, 2027. First Minnesota city to enact such a moratorium. Also covers cryptocurrency mining. Four existing data centers are exempt."
+    },
+    {
+      "id": "new-orleans-la",
+      "field": "status",
+      "old_value": "active",
+      "new_value": "approved",
+      "notes": "City Council voted unanimously on January 28, 2026 to impose a temporary moratorium on data centers, with council signaling it will likely become permanent. MS Solar Grid Data pulled its zoning permit for the New Orleans East project hours after the vote."
+    },
+    {
+      "id": "festus-mo",
+      "field": "summary",
+      "old_snippet": "existing Festus entry",
+      "new_value": "In February 2026, Festus City Council voted 7-0 to hire MarksNelson to negotiate terms with developer CRG. The council unanimously approved annexation of 240 acres near US Route 67 and approved rezoning. No site plan has been submitted yet and no end user identified. Two residents have filed lawsuits and the grassroots group Wake Up Jeffco is criticizing government secrecy. The city administrator said a data center operator could be identified by CRG in the first half of 2026.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "independence-mo",
+      "field": "summary",
+      "old_snippet": "existing Independence entry",
+      "new_value": "The Independence City Council voted 5-2 on March 2, 2026 to approve tax incentives for a Nebius 800MW hyperscale data center campus including over $6.2 billion in property tax abatements and potentially $330 million in additional sales tax breaks. The project involves up to $150 billion in investment and 2.1 million sq ft off Route 78 and Little Blue Parkway. Residents immediately launched a referendum petition requiring 3,700 signatures within 30 days; a Facebook group 'Stop the AI Data Center in Independence' has ~2,900 members. They hope to place the question on the August 2026 ballot. Good Jobs First published an open letter questioning the deal's terms.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "lordstown-oh",
+      "field": "summary",
+      "old_snippet": "existing Lordstown entry",
+      "new_value": "The developer Bristolville 25 submitted evidence in its Ohio Supreme Court lawsuit against the Village of Lordstown in February 2026. The developer is seeking a writ of mandamus to force the village to process its site plan application for a $3.6B, 133-acre data center near the Ohio Turnpike. The village previously passed a data center ban in November 2025 but rescinded it in favor of a 180-day moratorium after receiving updated legal advice. The lawsuit remains ongoing.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "montour-county-rezoning-denied-pa",
+      "field": "status",
+      "old_value": "active",
+      "new_value": "approved",
+      "notes": "The rezoning denial stands. Montour County commissioners unanimously denied Talen Energy's request to rezone 800+ acres from agricultural to industrial for a data center near the Montour Preserve. Talen Energy said it still plans to develop a project and will refine plans. The grassroots group Concerned Citizens of Montour County grew from 4 members to hundreds of supporters."
+    },
+    {
+      "id": "franklin-simpson-county-ky",
+      "field": "summary",
+      "old_snippet": "existing Franklin/Simpson County entry",
+      "new_value": "TenKey LandCo filed a lawsuit in Simpson Circuit Court in January 2026 challenging a county ordinance requiring data centers to be in heavy industrial zones with conditional use permits. On March 3, 2026, the Franklin Planning and Zoning Commission voted unanimously to approve TenKey's preliminary development plan with conditions, despite hours of raucous opposition from residents. Simpson County Fiscal Court responded that its ordinance should remain in effect. The lawsuit is ongoing.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "san-marcos-tx",
+      "field": "status",
+      "old_value": "active",
+      "new_value": "blocked",
+      "notes": "San Marcos City Council voted 5-2 at 2:14 AM on February 18, 2026 to deny the Highlander SC One / Maberry data center's rezoning proposal. The proposed $1.5B, 199-acre facility would have consumed 70,000 gallons of water daily (25 million gallons annually). Water supply was the defining issue. The overflow room roared with cheers when the vote came. Maberry must wait six months before resubmitting."
+    },
+    {
+      "id": "port-washington-wi",
+      "field": "summary",
+      "old_snippet": "existing Port Washington entry",
+      "new_value": "The recall petition against Mayor Ted Neitzke launched by Great Lakes Neighbors United failed in February 2026, falling several hundred signatures short of the 1,600 required. The group collected approximately 1,200 signatures. The $15 billion Stargate/OpenAI/Oracle data center construction has begun despite the opposition effort.",
+      "action": "append_to_summary"
+    },
+    {
+      "id": "fulton-county-in",
+      "field": "status",
+      "old_value": "active",
+      "new_value": "approved",
+      "notes": "Fulton County commissioners voted 2-1 on March 3, 2026 to approve a one-year moratorium on data center construction, effective immediately. The moratorium blocks Decennial Group's proposed 500MW data center in Akron. During the moratorium, a data center committee will be formed to study impacts. Commissioner Dave Sommers cast the lone dissenting vote."
+    },
+    {
+      "id": "decatur-township-in",
+      "field": "summary",
+      "old_snippet": "existing Decatur Township entry",
+      "new_value": "The Metropolitan Development Commission's hearing examiner recommended approval of Sabey's 900,000-sq-ft, 250MW data center campus on February 26, 2026, advancing the project despite ongoing opposition from nearby homeowners. Sabey committed over $5 million toward road improvements in the area. Groundbreaking expected in 2026 with buildings going live in 2028 and 2030.",
+      "action": "append_to_summary"
+    }
+  ]
+}

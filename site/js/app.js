@@ -965,7 +965,7 @@ function clearFilters() {
   document.getElementById('filter-status').value = '';
   document.getElementById('filter-hyperscaler').value = '';
   selectedHyperscalers.clear();
-  document.getElementById('size-by').value = 'energy';
+  document.getElementById('size-by').value = 'petitions';
   document.getElementById('search-input').value = '';
   document.querySelectorAll('.col-filter-input').forEach(inp => { inp.value = ''; });
   render();

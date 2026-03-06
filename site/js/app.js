@@ -6,6 +6,7 @@ let fights = [];
 let map;
 let markers = [];
 let currentSort = { key: 'date', dir: 'desc' };
+let selectedHyperscalers = new Set();
 let spreadsheetMode = false;
 
 const ACTION_LABELS = {
@@ -79,8 +80,6 @@ const HYPERSCALER_INFO = {
   'Google':     { label: 'G',   color: '#4285F4' },
   'Microsoft':  { label: 'MS',  color: '#00A4EF' },
   'Meta':       { label: 'M',   color: '#0668E1' },
-  'Apple':      { label: 'A',   color: '#A2AAAD' },
-  'Oracle':     { label: 'O',   color: '#F80000' },
   'OpenAI':     { label: 'AI',  color: '#10A37F' },
   'xAI':        { label: 'xAI', color: '#1DA1F2' },
   'CoreWeave':  { label: 'CW',  color: '#6C63FF' },
@@ -109,7 +108,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('filter-type').addEventListener('change', render);
   document.getElementById('filter-year').addEventListener('change', render);
   document.getElementById('filter-concern').addEventListener('change', render);
-  document.getElementById('filter-hyperscaler').addEventListener('change', render);
+  document.getElementById('size-by').addEventListener('change', render);
   document.getElementById('clear-filters').addEventListener('click', clearFilters);
   document.getElementById('search-input').addEventListener('input', render);
   document.getElementById('close-panel').addEventListener('click', closePanel);
@@ -211,8 +210,9 @@ function toggleTheme() {
 }
 
 function populateFilters() {
+  const localFights = fights.filter(f => f.scope !== 'statewide' && f.scope !== 'federal');
   const stateCounts = {};
-  fights.forEach(f => { stateCounts[f.state] = (stateCounts[f.state] || 0) + 1; });
+  localFights.forEach(f => { stateCounts[f.state] = (stateCounts[f.state] || 0) + 1; });
   const states = Object.keys(stateCounts).sort();
   const stateSelect = document.getElementById('filter-state');
   states.forEach(s => {
@@ -222,7 +222,7 @@ function populateFilters() {
     stateSelect.appendChild(opt);
   });
 
-  const years = [...new Set(fights.map(f => f.date.substring(0, 4)))].sort();
+  const years = [...new Set(localFights.map(f => f.date.substring(0, 4)))].sort();
   const yearSelect = document.getElementById('filter-year');
   years.forEach(y => {
     const opt = document.createElement('option');
@@ -237,15 +237,15 @@ function getFiltered() {
   const type = document.getElementById('filter-type').value;
   const year = document.getElementById('filter-year').value;
   const concern = document.getElementById('filter-concern').value;
-  const hyperscaler = document.getElementById('filter-hyperscaler').value;
   const search = document.getElementById('search-input').value.toLowerCase();
 
   return fights.filter(f => {
+    if (f.scope === 'statewide' || f.scope === 'federal') return false;
     if (state && f.state !== state) return false;
     if (type && f.action_type !== type) return false;
     if (year && !f.date.startsWith(year)) return false;
     if (concern && (!f.concerns || !f.concerns.includes(concern))) return false;
-    if (hyperscaler && f.hyperscaler !== hyperscaler) return false;
+    if (selectedHyperscalers.size > 0 && !selectedHyperscalers.has(f.hyperscaler)) return false;
     if (search) {
       const haystack = [
         f.jurisdiction, f.state, f.company, f.project_name, f.summary,
@@ -258,10 +258,15 @@ function getFiltered() {
   });
 }
 
+function getLegislation() {
+  return fights.filter(f => f.scope === 'statewide' || f.scope === 'federal');
+}
+
 function render() {
   const filtered = getFiltered();
   updateStats(filtered);
   updateMap(filtered);
+  updateLegislation();
   updateTable(filtered);
   updateSortIndicators();
 }
@@ -312,9 +317,10 @@ function updateOutcomeBar(filtered) {
 
 function updateHyperscalerBar(filtered) {
   const bar = document.getElementById('hyperscaler-bar');
-  // Count hyperscalers in current filtered set
+  // Count from ALL local fights (not just filtered) so chips don't disappear when filtered
+  const localFights = fights.filter(f => f.scope !== 'statewide' && f.scope !== 'federal');
   const counts = {};
-  filtered.forEach(f => {
+  localFights.forEach(f => {
     if (f.hyperscaler) counts[f.hyperscaler] = (counts[f.hyperscaler] || 0) + 1;
   });
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
@@ -322,28 +328,137 @@ function updateHyperscalerBar(filtered) {
     bar.innerHTML = '';
     return;
   }
-  bar.innerHTML = '<span class="hs-label">Companies identified:</span>' +
-    sorted.map(([name, count]) => {
+
+  const DEFAULT_SHOW = 7;
+  const expanded = bar.dataset.expanded === 'true';
+  const visible = expanded ? sorted : sorted.slice(0, DEFAULT_SHOW);
+  const hasMore = sorted.length > DEFAULT_SHOW;
+
+  bar.innerHTML = '<span class="hs-label">Companies:</span>' +
+    visible.map(([name, count]) => {
       const info = HYPERSCALER_INFO[name] || { color: '#888', label: name };
-      const isActive = document.getElementById('filter-hyperscaler').value === name;
-      return `<span class="hs-chip${isActive ? ' hs-active' : ''}" style="background:${info.color}${isActive ? '44' : '22'};color:${info.color};${isActive ? 'border-color:'+info.color : ''}" onclick="var sel=document.getElementById('filter-hyperscaler');sel.value=sel.value==='${name}'?'':'${name}';render()">${name} <span class="hs-count">${count}</span></span>`;
-    }).join('');
+      const isActive = selectedHyperscalers.has(name);
+      return `<span class="hs-chip${isActive ? ' hs-active' : ''}" style="background:${info.color}${isActive ? '44' : '22'};color:${info.color};${isActive ? 'border-color:'+info.color : ''}" data-hs="${name}">${name} <span class="hs-count">${count}</span></span>`;
+    }).join('') +
+    (hasMore ? `<span class="hs-toggle" id="hs-toggle">${expanded ? 'show less' : '+ ' + (sorted.length - DEFAULT_SHOW) + ' more'}</span>` : '');
+
+  // Bind chip clicks (multi-select toggle)
+  bar.querySelectorAll('.hs-chip[data-hs]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const name = chip.dataset.hs;
+      if (selectedHyperscalers.has(name)) {
+        selectedHyperscalers.delete(name);
+      } else {
+        selectedHyperscalers.add(name);
+      }
+      render();
+    });
+  });
+
+  // Bind show more/less
+  const toggle = document.getElementById('hs-toggle');
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      bar.dataset.expanded = expanded ? 'false' : 'true';
+      updateHyperscalerBar(filtered);
+    });
+  }
 }
 
-// Compute marker radius from project scale (MW primary, investment fallback)
+// Size-by metric configuration
+const SIZE_METRICS = {
+  energy: {
+    getValue: f => f.megawatts || (f.investment_million_usd ? f.investment_million_usd * 0.5 : null),
+    minR: 4, maxR: 26, logScale: true,
+    label: 'project power',
+    formatTip: (f) => f.megawatts ? formatPower(f.megawatts) : (f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null),
+  },
+  investment: {
+    getValue: f => f.investment_million_usd,
+    minR: 4, maxR: 24, logScale: true,
+    label: 'investment',
+    formatTip: (f) => f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null,
+  },
+  acreage: {
+    getValue: f => f.acreage,
+    minR: 4, maxR: 24, logScale: true,
+    label: 'land usage (acres)',
+    formatTip: (f) => f.acreage ? f.acreage.toLocaleString() + ' acres' : null,
+  },
+  water: {
+    getValue: f => f.water_usage_gallons_per_day,
+    minR: 4, maxR: 24, logScale: true,
+    label: 'water usage',
+    formatTip: (f) => {
+      const w = f.water_usage_gallons_per_day;
+      if (!w) return null;
+      return (w >= 1000000 ? (w/1000000).toFixed(1).replace(/\.0$/,'') + 'M' : w >= 1000 ? Math.round(w/1000) + 'K' : w.toLocaleString()) + ' gal/day';
+    },
+  },
+  grassroots: {
+    getValue: f => getGrassrootsScore(f),
+    minR: 4, maxR: 24, logScale: false,
+    label: 'grassroots support',
+    formatTip: (f) => {
+      const s = getGrassrootsScore(f);
+      return s ? Math.round(s * 100) + '% grassroots score' : null;
+    },
+  },
+  petitions: {
+    getValue: f => f.petition_signatures,
+    minR: 4, maxR: 24, logScale: true,
+    label: 'petition signatures',
+    formatTip: (f) => f.petition_signatures ? f.petition_signatures.toLocaleString() + ' sigs' : null,
+  },
+  facebook: {
+    getValue: f => f.opposition_facebook_members,
+    minR: 4, maxR: 24, logScale: true,
+    label: 'Facebook members',
+    formatTip: (f) => f.opposition_facebook_members ? f.opposition_facebook_members.toLocaleString() + ' members' : null,
+  },
+  instagram: {
+    getValue: f => f.opposition_instagram_followers,
+    minR: 4, maxR: 24, logScale: true,
+    label: 'Instagram followers',
+    formatTip: (f) => f.opposition_instagram_followers ? f.opposition_instagram_followers.toLocaleString() + ' followers' : null,
+  },
+};
+
+// Grassroots composite score (0-1): normalized average of petition sigs, FB members, IG followers, group count
+function getGrassrootsScore(f) {
+  const components = [];
+  if (f.petition_signatures) components.push(Math.log10(f.petition_signatures + 1) / Math.log10(100000));
+  if (f.opposition_facebook_members) components.push(Math.log10(f.opposition_facebook_members + 1) / Math.log10(50000));
+  if (f.opposition_instagram_followers) components.push(Math.log10(f.opposition_instagram_followers + 1) / Math.log10(25000));
+  if (f.opposition_groups && f.opposition_groups.length) components.push(Math.log10(f.opposition_groups.length + 1) / Math.log10(10));
+  if (components.length === 0) return null;
+  const avg = components.reduce((a, b) => a + b, 0) / components.length;
+  return Math.min(1, Math.max(0, avg));
+}
+
+// Compute marker radius based on selected size-by metric
 function getMarkerRadius(f) {
-  // Scale radius so small projects (~50 MW) are visible and huge ones (11 GW) are noticeably larger
-  // Using log scale: distinguishes 100 MW vs 1 GW vs 10 GW without making huge dots overwhelming
-  if (f.megawatts) {
-    // log scale: 50MW=5px, 200MW=8px, 1GW=14px, 5GW=21px, 11GW=26px
-    const logMW = Math.log10(Math.max(f.megawatts, 10));
-    return Math.max(4, Math.min(26, (logMW - 1) * 8.5 + 2));
+  const sizeBy = document.getElementById('size-by').value;
+  const metric = SIZE_METRICS[sizeBy] || SIZE_METRICS.energy;
+  const val = metric.getValue(f);
+  if (val == null || val <= 0) return 5;
+
+  if (metric.logScale) {
+    const logVal = Math.log10(Math.max(val, 1));
+    const logMin = 0;
+    const logMax = Math.log10(Math.max(val, 1)) > 0 ? 6 : 1; // auto-scale
+    const t = Math.min(1, logVal / 6);
+    return metric.minR + t * (metric.maxR - metric.minR);
   }
-  if (f.investment_million_usd) {
-    const logInv = Math.log10(Math.max(f.investment_million_usd, 10));
-    return Math.max(4, Math.min(22, (logInv - 1) * 6.5 + 2));
-  }
-  return 5;
+  // Linear (0-1 range, used for grassroots)
+  return metric.minR + val * (metric.maxR - metric.minR);
+}
+
+// Tooltip label for the current size-by metric
+function getSizeTooltipLabel(f) {
+  const sizeBy = document.getElementById('size-by').value;
+  const metric = SIZE_METRICS[sizeBy] || SIZE_METRICS.energy;
+  return metric.formatTip(f);
 }
 
 function updateMap(filtered) {
@@ -383,7 +498,8 @@ function updateMap(filtered) {
 
     // Hover tooltip
     const companyLabel = f.hyperscaler || f.company || '';
-    const scaleLabel = f.megawatts ? ` · ${formatPower(f.megawatts)}` : (f.investment_million_usd ? ` · ${formatInvestment(f.investment_million_usd)}` : '');
+    const sizeTip = getSizeTooltipLabel(f);
+    const scaleLabel = sizeTip ? ` · ${sizeTip}` : '';
     const tooltipContent = `<strong>${f.jurisdiction}, ${f.state}</strong> · ${capitalize(f.status)}${companyLabel ? ' · ' + companyLabel : ''}${scaleLabel}`;
     marker.bindTooltip(tooltipContent, {
       direction: 'top',
@@ -407,8 +523,7 @@ function updateMap(filtered) {
 
   // Fit bounds when filtering (but not on initial full load)
   const stateFilter = document.getElementById('filter-state').value;
-  const hyperscalerFilter = document.getElementById('filter-hyperscaler').value;
-  if ((stateFilter || hyperscalerFilter) && markers.length > 0) {
+  if ((stateFilter || selectedHyperscalers.size > 0) && markers.length > 0) {
     const group = L.featureGroup(markers);
     map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 10 });
   }
@@ -418,17 +533,131 @@ function updateMap(filtered) {
 }
 
 function updateMapLegend() {
-  if (document.getElementById('map-legend')) return; // only add once
+  const sizeBy = document.getElementById('size-by').value;
+  const metric = SIZE_METRICS[sizeBy] || SIZE_METRICS.energy;
+  const sizeNote = `Dot size = ${metric.label}`;
+
+  const existing = document.getElementById('map-legend');
+  if (existing) {
+    // Update just the size note text
+    const noteEl = existing.querySelector('.legend-size-note');
+    if (noteEl) noteEl.textContent = sizeNote;
+    return;
+  }
+
   const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function() {
     const div = L.DomUtil.create('div', 'map-legend');
     div.id = 'map-legend';
     div.innerHTML = STATUS_LEGEND.map(item =>
       `<div class="legend-item"><span class="legend-dot" style="background:${item.color}"></span>${item.label}</div>`
-    ).join('') + '<div class="legend-size-note">Dot size = project power</div>';
+    ).join('') + `<div class="legend-size-note">${sizeNote}</div>`;
     return div;
   };
   legend.addTo(map);
+}
+
+
+// Legislation status simplified for display
+const LEG_STATUS_MAP = {
+  enacted: { label: 'Enacted', cls: 'leg-enacted' },
+  active: { label: 'Active', cls: 'leg-active' },
+  advancing: { label: 'Advancing', cls: 'leg-active' },
+  pending: { label: 'Pending', cls: 'leg-pending' },
+  ongoing: { label: 'Ongoing', cls: 'leg-pending' },
+  defeated: { label: 'Defeated', cls: 'leg-defeated' },
+  mixed: { label: 'Mixed', cls: 'leg-pending' },
+  stalled: { label: 'Stalled', cls: 'leg-defeated' },
+};
+
+function getLegStatus(f) {
+  const raw = (f.status || '').toLowerCase();
+  for (const [key, val] of Object.entries(LEG_STATUS_MAP)) {
+    if (raw.startsWith(key) || raw.includes(key)) return val;
+  }
+  return { label: capitalize(f.status), cls: 'leg-pending' };
+}
+
+function updateLegislation() {
+  const legislation = getLegislation();
+  document.getElementById('legislation-count').textContent = legislation.length;
+
+  const federal = legislation.filter(f => f.scope === 'federal').sort((a, b) => b.date.localeCompare(a.date));
+  const statewide = legislation.filter(f => f.scope === 'statewide');
+
+  // Group statewide by state
+  const byState = {};
+  statewide.forEach(f => {
+    byState[f.state] = byState[f.state] || [];
+    byState[f.state].push(f);
+  });
+  const stateKeys = Object.keys(byState).sort();
+
+  // Federal section
+  const fedEl = document.getElementById('legislation-federal');
+  if (federal.length) {
+    fedEl.innerHTML = `
+      <h3 class="leg-group-title">Federal</h3>
+      <div class="leg-cards">${federal.map(f => renderLegCard(f)).join('')}</div>
+    `;
+  } else {
+    fedEl.innerHTML = '';
+  }
+
+  // States section
+  const statesEl = document.getElementById('legislation-states');
+  statesEl.innerHTML = `
+    <h3 class="leg-group-title">State Legislation <span class="leg-state-count">${stateKeys.length} states</span></h3>
+    <div class="leg-grid">${stateKeys.map(st => {
+      const entries = byState[st].sort((a, b) => b.date.localeCompare(a.date));
+      return `
+        <div class="leg-state-group">
+          <div class="leg-state-name">${st}</div>
+          ${entries.map(f => renderLegCard(f)).join('')}
+        </div>
+      `;
+    }).join('')}</div>
+  `;
+
+  // Wire click handlers for detail
+  document.querySelectorAll('.leg-card[data-id]').forEach(card => {
+    card.addEventListener('click', () => {
+      const fight = fights.find(f => f.id === card.dataset.id);
+      if (fight) openDetail(fight);
+    });
+  });
+}
+
+function renderLegCard(f) {
+  const st = getLegStatus(f);
+  // Clean jurisdiction for display
+  let title = f.jurisdiction
+    .replace(/\(statewide[^)]*\)/i, '')
+    .replace(/\(federal\)/i, '')
+    .trim();
+  // Remove state name if it's just the prefix
+  const statePrefix = f.state + ' ';
+  if (title.startsWith(statePrefix)) title = title.slice(statePrefix.length);
+  if (title.startsWith('(')) title = title.slice(1);
+  if (title.endsWith(')')) title = title.slice(0, -1);
+  title = title.replace(/^[\s,]+|[\s,]+$/g, '').trim();
+  if (!title || title === f.state) title = f.action_type;
+
+  // First sentence of summary
+  const rawSummary = f.summary || '';
+  const firstDot = rawSummary.indexOf('. ');
+  const summary = firstDot > 0 ? rawSummary.slice(0, firstDot + 1) : rawSummary.slice(0, 200);
+
+  return `
+    <div class="leg-card" data-id="${f.id}">
+      <div class="leg-card-top">
+        <span class="leg-status ${st.cls}">${st.label}</span>
+        <span class="leg-date">${formatDate(f.date)}</span>
+      </div>
+      <div class="leg-card-title">${title}</div>
+      <div class="leg-card-summary">${summary}</div>
+    </div>
+  `;
 }
 
 function updateSortIndicators() {
@@ -488,7 +717,6 @@ function updateTable(filtered) {
           <td>${formatInvestment(f.investment_million_usd)}</td>
           <td>${formatPower(f.megawatts)}</td>
           <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
-          <td>${f.jobs_promised ? f.jobs_promised.toLocaleString() : ''}</td>
           <td class="groups-cell" title="${escapeHtml(groups)}">${groups}</td>
           <td class="links-cell">${links.join(' ')}</td>
           <td class="petition-cell">${petition}</td>
@@ -555,7 +783,6 @@ function updateSpreadsheetHeader() {
     <th data-sort="investment_million_usd">Investment</th>
     <th data-sort="megawatts">Power</th>
     <th data-sort="acreage">Acres</th>
-    <th data-sort="jobs_promised">Jobs</th>
     <th>Groups</th>
     <th>Links</th>
     <th>Petition</th>
@@ -580,7 +807,6 @@ function updateSpreadsheetHeader() {
       { key: 'project_name', ph: 'Project...' },
       { key: '', ph: '' },
       { key: 'megawatts_filter', ph: 'Min MW' },
-      { key: '', ph: '' },
       { key: '', ph: '' },
       { key: 'groups', ph: 'Group...' },
       { key: '', ph: '' },
@@ -674,7 +900,8 @@ function openDetail(f) {
     if (f.opposition_facebook) links.push({ url: f.opposition_facebook, icon: 'fb', label: 'Facebook' });
     if (f.opposition_instagram) {
       const igUrl = f.opposition_instagram.startsWith('http') ? f.opposition_instagram : `https://instagram.com/${f.opposition_instagram.replace('@','')}`;
-      links.push({ url: igUrl, icon: 'ig', label: 'Instagram' });
+      const igLabel = f.opposition_instagram_followers ? `Instagram (${f.opposition_instagram_followers.toLocaleString()} followers)` : 'Instagram';
+      links.push({ url: igUrl, icon: 'ig', label: igLabel });
     }
     if (f.opposition_twitter) {
       const twUrl = f.opposition_twitter.startsWith('http') ? f.opposition_twitter : `https://x.com/${f.opposition_twitter.replace('@','')}`;
@@ -712,7 +939,6 @@ function openDetail(f) {
     const waterStr = w >= 1000000 ? (w / 1000000).toFixed(1).replace(/\.0$/, '') + 'M' : w >= 1000 ? Math.round(w / 1000) + 'K' : w.toLocaleString();
     specs.push(`<li><strong>Water:</strong> ${waterStr} gal/day</li>`);
   }
-  if (f.jobs_promised) specs.push(`<li><strong>Jobs promised:</strong> ${f.jobs_promised.toLocaleString()}</li>`);
 
   // Build opposition links section
   const oppLinks = [];
@@ -723,7 +949,8 @@ function openDetail(f) {
   }
   if (f.opposition_instagram) {
     const igUrl = f.opposition_instagram.startsWith('http') ? f.opposition_instagram : `https://instagram.com/${f.opposition_instagram.replace('@','')}`;
-    oppLinks.push(`<a href="${igUrl}" target="_blank">Instagram</a>`);
+    const igLabel = f.opposition_instagram_followers ? `Instagram (${f.opposition_instagram_followers.toLocaleString()} followers)` : 'Instagram';
+    oppLinks.push(`<a href="${igUrl}" target="_blank">${igLabel}</a>`);
   }
   if (f.opposition_twitter) {
     const twUrl = f.opposition_twitter.startsWith('http') ? f.opposition_twitter : `https://x.com/${f.opposition_twitter.replace('@','')}`;
@@ -789,7 +1016,8 @@ function clearFilters() {
   document.getElementById('filter-type').value = '';
   document.getElementById('filter-year').value = '';
   document.getElementById('filter-concern').value = '';
-  document.getElementById('filter-hyperscaler').value = '';
+  selectedHyperscalers.clear();
+  document.getElementById('size-by').value = 'energy';
   document.getElementById('search-input').value = '';
   render();
 }

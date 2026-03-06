@@ -89,17 +89,22 @@
           <option value="wildlife">Wildlife</option>
           <option value="jobs_quality">Jobs Quality</option>
         </select>
-        <select id="filter-hyperscaler">
-          <option value="">All Companies</option>
-          <option value="Amazon/AWS">Amazon / AWS</option>
-          <option value="Google">Google</option>
-          <option value="Microsoft">Microsoft</option>
-          <option value="Meta">Meta</option>
-          <option value="OpenAI">OpenAI</option>
-          <option value="xAI">xAI</option>
-          <option value="CoreWeave">CoreWeave</option>
-        </select>
         <button id="clear-filters" class="btn-clear">Clear Filters</button>
+      </div>
+      <div class="map-controls">
+        <label class="size-by-label">
+          <span class="size-by-icon">⊙</span> Circle size:
+          <select id="size-by" title="What determines dot size">
+            <option value="energy">Energy (MW)</option>
+            <option value="investment">Investment ($)</option>
+            <option value="acreage">Land Usage</option>
+            <option value="water">Water Usage</option>
+            <option value="grassroots">Grassroots Support</option>
+            <option value="petitions">Petitions</option>
+            <option value="facebook">Facebook Members</option>
+            <option value="instagram">Instagram Followers</option>
+          </select>
+        </label>
       </div>
       <div id="map"></div>
     </section>
@@ -139,28 +144,29 @@
     </section>
   </main>
 
+    <section class="legislation-tracker" id="legislation-tracker">
+      <div class="legislation-header">
+        <h2>Legislation Tracker <span id="legislation-count" class="count-badge"></span></h2>
+        <p class="legislation-subtitle">State and federal bills regulating datacenter development</p>
+      </div>
+      <div id="legislation-federal"></div>
+      <div id="legislation-states"></div>
+    </section>
+
   <section class="about-section" id="about">
     <div class="about-inner">
       <h2>About This Project</h2>
       <div class="about-grid">
         <div class="about-card">
-          <h3>What is this?</h3>
-          <p>An open database tracking every known instance of community opposition to datacenter development in the United States. From moratoria to lawsuits to grassroots protests, we document the growing movement of communities pushing back against rapid datacenter expansion.</p>
-        </div>
-        <div class="about-card">
-          <h3>Why does it matter?</h3>
-          <p>Datacenters are being built at an unprecedented rate to power AI, consuming massive amounts of water, electricity, and land. Communities across America are organizing to demand accountability, transparency, and environmental protections. This database helps connect those efforts.</p>
-        </div>
-        <div class="about-card">
           <h3>Data Sources</h3>
           <p>Compiled from <a href="https://www.datacenterwatch.org/" target="_blank">Data Center Watch</a>,
             <a href="https://robertbryce.substack.com/" target="_blank">Robert Bryce's reporting</a>,
             <a href="https://www.fractracker.org/" target="_blank">FracTracker Alliance</a>,
-            Change.org petitions, local news coverage, and direct research.</p>
+            Change.org petitions, local news coverage, and direct research. AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors.</p>
         </div>
         <div class="about-card">
           <h3>Contribute</h3>
-          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions.</p>
+          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions, or reach out to <a href="mailto:george.ingebretsen@gmail.com">george.ingebretsen@gmail.com</a>.</p>
         </div>
       </div>
     </div>
@@ -168,8 +174,7 @@
 
   <footer>
     <div class="footer-inner">
-      <p>US Datacenter Fights &mdash; an open-source database of community opposition to datacenter development.</p>
-      <p>Data is provided as-is for informational purposes. Last updated March 2026.</p>
+      <p>Last updated March 2026.</p>
     </div>
   </footer>
 

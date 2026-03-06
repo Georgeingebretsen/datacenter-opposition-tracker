@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legislation Tracker — US Datacenter Opposition</title>
+  <meta name="description" content="Tracking state and federal bills regulating datacenter development across the United States.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F5FA;</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="hero-image">
+      <img src="img/hero.jpg" alt="Aerial view of a massive datacenter construction site" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="header-inner">
+      <h1>Tracking American AI Datacenter Opposition</h1>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">Dark Mode</button>
+    </div>
+  </header>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-link">Datacenter Fights</a>
+    <a href="legislation.html" class="nav-link active">Legislation Tracker</a>
+  </nav>
+  <p class="last-updated" id="last-updated"></p>
+
+  <main>
+    <section class="legislation-tracker" id="legislation-tracker">
+      <div class="legislation-header">
+        <h2>Legislation Tracker <span id="legislation-count" class="count-badge"></span></h2>
+        <p class="legislation-subtitle">State and federal bills regulating datacenter development</p>
+      </div>
+      <div id="legislation-federal"></div>
+      <div id="legislation-states"></div>
+    </section>
+  </main>
+
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <h2>About This Project</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Data Sources</h3>
+          <p>Compiled from <a href="https://www.datacenterwatch.org/" target="_blank">Data Center Watch</a>,
+            <a href="https://robertbryce.substack.com/" target="_blank">Robert Bryce's reporting</a>,
+            <a href="https://www.fractracker.org/" target="_blank">FracTracker Alliance</a>,
+            Change.org petitions, local news coverage, and direct research. AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors.</p>
+        </div>
+        <div class="about-card">
+          <h3>Contribute</h3>
+          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions via git. Also feel free to email <a href="mailto:ca1004@berkeley.edu">Cam Acosta</a> or <a href="mailto:george.ingebretsen@gmail.com">George Ingebretsen</a> with questions, additions, or suggestions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <p>Last updated March 2026.</p>
+    </div>
+  </footer>
+
+  <section class="detail-panel" id="detail-panel">
+    <button class="close-panel" id="close-panel">&times;</button>
+    <div id="detail-content"></div>
+  </section>
+
+  <script src="js/utils.js"></script>
+  <script src="js/legislation.js"></script>
+</body>
+</html>

@@ -10,64 +10,32 @@ let selectedHyperscalers = new Set();
 
 const ACTION_LABELS = {
   moratorium: 'Moratorium',
-  permanent_ban: 'Permanent Ban',
   zoning_restriction: 'Zoning Restriction',
-  cancellation: 'Cancellation',
-  permit_denial: 'Permit Denial',
   lawsuit: 'Lawsuit',
-  legislative_action: 'Legislative Action',
-  opposition: 'General Opposition',
+  permit_denial: 'Permit Denial',
+  legislation: 'Legislation',
+  other: 'Other',
 };
 
 // Status-based map colors
 const STATUS_COLORS = {
-  // Community won / protection in place
   active: '#3da55e',
-  permanent: '#2d8a4e',
-  blocked: '#3da55e',
   cancelled: '#3da55e',
-  resolved: '#3da55e',
-  denied: '#3da55e',
-  // Fight in progress
   ongoing: '#d4a020',
   pending: '#d07830',
   delayed: '#d07830',
-  legal_challenge: '#d4a020',
-  // Community lost
   approved: '#d03030',
-  defeated: '#d03030',
   expired: '#9a9080',
-  overturned: '#d03030',
-  // Other
-  moratorium: '#3da55e',
-  no_active_proposal: '#9a9080',
+  mixed: '#9a9080',
 };
 
 const STATUS_LEGEND = [
-  { color: '#3da55e', label: 'Won / Protected' },
-  { color: '#d4a020', label: 'Fight Ongoing' },
-  { color: '#d07830', label: 'Pending Decision' },
-  { color: '#d03030', label: 'Project Approved' },
-  { color: '#9a9080', label: 'Expired / Other' },
+  { color: '#3da55e', label: 'Protected' },
+  { color: '#d4a020', label: 'Ongoing' },
+  { color: '#d07830', label: 'Pending' },
+  { color: '#d03030', label: 'Approved' },
+  { color: '#9a9080', label: 'Other' },
 ];
-
-const STATUS_TOOLTIPS = {
-  active: 'Currently in effect — the restriction or opposition is ongoing',
-  approved: 'The datacenter project was approved despite opposition',
-  banned: 'Datacenters have been permanently banned in this jurisdiction',
-  blocked: 'The project was successfully blocked by the community',
-  cancelled: 'The project was cancelled or the developer withdrew their proposal',
-  defeated: 'The opposition effort was defeated — project moved forward',
-  delayed: 'The project or decision has been delayed',
-  enacted: 'The legislation or ordinance has been enacted into law',
-  expired: 'The moratorium or restriction has expired',
-  mixed: 'Mixed outcome — partial wins and losses',
-  ongoing: 'The fight is still in progress with no resolution yet',
-  passed: 'The measure passed (e.g. moratorium, resolution, ban)',
-  pending: 'A decision is pending — awaiting vote or ruling',
-  resolved: 'The issue has been resolved in the community\'s favor',
-  stalled: 'The project or process has stalled',
-};
 
 // Hyperscaler short labels and brand colors for map markers
 const HYPERSCALER_INFO = {
@@ -102,6 +70,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('filter-state').addEventListener('change', render);
   document.getElementById('filter-type').addEventListener('change', render);
   document.getElementById('filter-year').addEventListener('change', render);
+  document.getElementById('filter-lean').addEventListener('change', render);
+  document.getElementById('filter-status').addEventListener('change', render);
+  document.getElementById('filter-hyperscaler').addEventListener('change', render);
   document.getElementById('size-by').addEventListener('change', render);
   document.getElementById('clear-filters').addEventListener('click', clearFilters);
   document.getElementById('search-input').addEventListener('input', render);
@@ -112,6 +83,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   document.getElementById('download-csv').addEventListener('click', downloadCSV);
   document.getElementById('download-json').addEventListener('click', downloadJSON);
+
+  // Delegated hover for status-tip tooltips (position: fixed)
+  document.addEventListener('mouseenter', (e) => {
+    const badge = e.target.closest('.status-badge');
+    if (!badge) return;
+    const tip = badge.querySelector('.status-tip');
+    if (!tip) return;
+    const rect = badge.getBoundingClientRect();
+    tip.style.left = rect.left + rect.width / 2 + 'px';
+    tip.style.top = rect.top - 8 + 'px';
+    tip.style.transform = 'translate(-50%, -100%)';
+    tip.style.display = 'block';
+  }, true);
+  document.addEventListener('mouseleave', (e) => {
+    const badge = e.target.closest('.status-badge');
+    if (!badge) return;
+    const tip = badge.querySelector('.status-tip');
+    if (tip) tip.style.display = 'none';
+  }, true);
 
   document.querySelectorAll('#fights-table thead th[data-sort]').forEach(th => {
     th.addEventListener('click', () => {
@@ -138,9 +128,12 @@ function initMap() {
     maxZoom: 18,
     maxBounds: [[-180, -10], [-30, 75]],
     attributionControl: true,
+    dragRotate: false,
+    pitchWithRotate: false,
+    touchPitch: false,
   });
 
-  map.addControl(new maplibregl.NavigationControl(), 'top-right');
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
 
   // Tooltip element for hover
   window._mapTooltip = document.createElement('div');
@@ -172,12 +165,11 @@ function initMap() {
       data: { type: 'FeatureCollection', features: [] },
     });
 
-    // Circle layer for non-branded markers
+    // Circle layer
     map.addLayer({
       id: 'fights-circles',
       type: 'circle',
       source: 'fights',
-      filter: ['!', ['get', 'hasBrandedMarker']],
       paint: {
         'circle-radius': ['get', 'radius'],
         'circle-color': ['get', 'color'],
@@ -276,7 +268,6 @@ function reapplyMapData() {
     id: 'fights-circles',
     type: 'circle',
     source: 'fights',
-    filter: ['!', ['get', 'hasBrandedMarker']],
     paint: {
       'circle-radius': ['get', 'radius'],
       'circle-color': ['get', 'color'],
@@ -335,19 +326,47 @@ function populateFilters() {
     opt.textContent = y;
     yearSelect.appendChild(opt);
   });
+
+  // Populate status filter
+  const statusCounts = {};
+  localFights.forEach(f => { if (f.status) statusCounts[f.status] = (statusCounts[f.status] || 0) + 1; });
+  const statusSelect = document.getElementById('filter-status');
+  Object.keys(statusCounts).sort().forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = `${s.charAt(0).toUpperCase() + s.slice(1)} (${statusCounts[s]})`;
+    statusSelect.appendChild(opt);
+  });
+
+  // Populate hyperscaler filter
+  const hyperCounts = {};
+  localFights.forEach(f => { if (f.hyperscaler) hyperCounts[f.hyperscaler] = (hyperCounts[f.hyperscaler] || 0) + 1; });
+  const hyperSelect = document.getElementById('filter-hyperscaler');
+  Object.keys(hyperCounts).sort().forEach(h => {
+    const opt = document.createElement('option');
+    opt.value = h;
+    opt.textContent = `${h} (${hyperCounts[h]})`;
+    hyperSelect.appendChild(opt);
+  });
 }
 
 function getFiltered() {
   const state = document.getElementById('filter-state').value;
   const type = document.getElementById('filter-type').value;
   const year = document.getElementById('filter-year').value;
+  const lean = document.getElementById('filter-lean').value;
+  const status = document.getElementById('filter-status').value;
+  const hyperscaler = document.getElementById('filter-hyperscaler').value;
   const search = document.getElementById('search-input').value.toLowerCase();
 
-  return fights.filter(f => {
+  const base = fights.filter(f => {
     if (f.scope === 'statewide' || f.scope === 'federal') return false;
     if (state && f.state !== state) return false;
     if (type && f.action_type !== type) return false;
     if (year && !f.date.startsWith(year)) return false;
+    if (lean && f.county_lean !== lean) return false;
+    if (status && f.status !== status) return false;
+    if (hyperscaler && f.hyperscaler !== hyperscaler) return false;
     if (selectedHyperscalers.size > 0 && !selectedHyperscalers.has(f.hyperscaler)) return false;
     if (search) {
       const haystack = [
@@ -359,17 +378,15 @@ function getFiltered() {
     }
     return true;
   });
-}
 
-function getLegislation() {
-  return fights.filter(f => f.scope === 'statewide' || f.scope === 'federal');
+  // Apply spreadsheet column filters so map stays in sync
+  return applyColumnFilters(base);
 }
 
 function render() {
   const filtered = getFiltered();
   updateStats(filtered);
   updateMap(filtered);
-  updateLegislation();
   updateTable(filtered);
   updateSortIndicators();
 }
@@ -391,9 +408,9 @@ function updateStats(filtered) {
 
 function updateOutcomeBar(filtered) {
   const bar = document.getElementById('outcome-bar');
-  const wonStatuses = new Set(['active','permanent','blocked','withdrawn','resolved','denied','moratorium']);
-  const ongoingStatuses = new Set(['ongoing','pending','delayed','legal_challenge']);
-  const lostStatuses = new Set(['approved','defeated','overturned']);
+  const wonStatuses = new Set(['active','cancelled']);
+  const ongoingStatuses = new Set(['ongoing','pending','delayed']);
+  const lostStatuses = new Set(['approved']);
 
   let won = 0, ongoing = 0, lost = 0, other = 0;
   filtered.forEach(f => {
@@ -409,12 +426,12 @@ function updateOutcomeBar(filtered) {
 
   bar.innerHTML = `
     <div class="outcome-labels">
-      <span class="outcome-label" style="color:#3d7a4e">Won/Protected: ${won} (${pWon}%)</span>
+      <span class="outcome-label" style="color:#3d7a4e">Protected: ${won} (${pWon}%)</span>
       <span class="outcome-label" style="color:#c49525">Ongoing: ${ongoing} (${pOngoing}%)</span>
       <span class="outcome-label" style="color:#b5362a">Approved: ${lost} (${pLost}%)</span>
     </div>
     <div class="outcome-track">
-      <div class="outcome-segment" style="width:${pWon}%;background:#3d7a4e" title="Won/Protected: ${won}"></div>
+      <div class="outcome-segment" style="width:${pWon}%;background:#3d7a4e" title="Protected: ${won}"></div>
       <div class="outcome-segment" style="width:${pOngoing}%;background:#c49525" title="Ongoing: ${ongoing}"></div>
       <div class="outcome-segment" style="width:${pLost}%;background:#b5362a" title="Approved: ${lost}"></div>
       <div class="outcome-segment" style="width:${100-pWon-pOngoing-pLost}%;background:#9a9080" title="Other: ${other}"></div>
@@ -574,66 +591,30 @@ function updateMap(filtered) {
     return;
   }
 
-  // Remove old branded markers
+  // Remove old HTML markers (if any from previous render)
   markers.forEach(m => m.remove());
   markers = [];
 
-  // Build GeoJSON features for circle layer
+  // Build GeoJSON features — all dots use status color
   const features = [];
   filtered.forEach(f => {
     if (!f.lat || !f.lng) return;
     const color = STATUS_COLORS[f.status] || '#8888a0';
     const radius = getMarkerRadius(f);
-    const hyperscaler = f.hyperscaler;
-    const hsInfo = hyperscaler ? HYPERSCALER_INFO[hyperscaler] : null;
-
-    // Tooltip content
     const companyLabel = f.hyperscaler || f.company || '';
     const sizeTip = getSizeTooltipLabel(f);
     const scaleLabel = sizeTip ? ` &middot; ${sizeTip}` : '';
     const tooltipHtml = `<strong>${escapeHtml(f.jurisdiction)}, ${f.state}</strong> &middot; ${capitalize(f.status)}${companyLabel ? ' &middot; ' + escapeHtml(companyLabel) : ''}${scaleLabel}`;
-
-    if (hsInfo) {
-      // Branded HTML marker
-      const size = Math.max(22, Math.min(48, radius * 1.8));
-      const fontSize = Math.max(7, Math.min(13, size * 0.3));
-      const el = document.createElement('div');
-      el.className = 'logo-marker';
-      el.innerHTML = `<div class="logo-dot" style="width:${size}px;height:${size}px;border-color:${color};background:${hsInfo.color}"><span style="font-size:${fontSize}px">${hsInfo.label}</span></div>`;
-
-      const marker = new maplibregl.Marker({ element: el })
-        .setLngLat([f.lng, f.lat])
-        .addTo(map);
-
-      // Hover tooltip for branded markers
-      el.addEventListener('mouseenter', (e) => {
-        window._mapTooltip.innerHTML = tooltipHtml;
-        window._mapTooltip.style.display = 'block';
-        const rect = map.getContainer().getBoundingClientRect();
-        const point = map.project([f.lng, f.lat]);
-        window._mapTooltip.style.left = point.x + 'px';
-        window._mapTooltip.style.top = point.y + 'px';
-      });
-      el.addEventListener('mouseleave', () => {
-        window._mapTooltip.style.display = 'none';
-      });
-      el.addEventListener('click', () => openDetail(f));
-
-      markers.push(marker);
-    } else {
-      // GeoJSON feature for circle layer
-      features.push({
-        type: 'Feature',
-        geometry: { type: 'Point', coordinates: [f.lng, f.lat] },
-        properties: {
-          fightId: f.id,
-          color: color,
-          radius: radius,
-          hasBrandedMarker: false,
-          tooltipHtml: tooltipHtml,
-        },
-      });
-    }
+    features.push({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [f.lng, f.lat] },
+      properties: {
+        fightId: f.id,
+        color: color,
+        radius: radius,
+        tooltipHtml: tooltipHtml,
+      },
+    });
   });
 
   // Update the GeoJSON source
@@ -642,7 +623,7 @@ function updateMap(filtered) {
     source.setData({ type: 'FeatureCollection', features });
   }
 
-  // Update circle paint for dark mode
+  // Update paint for dark mode
   if (map.getLayer('fights-circles')) {
     map.setPaintProperty('fights-circles', 'circle-opacity', window._mapIsDark ? 0.85 : 0.7);
     map.setPaintProperty('fights-circles', 'circle-stroke-width', window._mapIsDark ? 1.5 : 2);
@@ -650,14 +631,26 @@ function updateMap(filtered) {
     map.setPaintProperty('fights-circles', 'circle-stroke-opacity', window._mapIsDark ? 0.6 : 0.9);
   }
 
-  // Fit bounds when filtering
-  const stateFilter = document.getElementById('filter-state').value;
-  if ((stateFilter || selectedHyperscalers.size > 0) && (features.length > 0 || markers.length > 0)) {
+  // Fit bounds when any filter is active
+  const hasColFilter = Array.from(document.querySelectorAll('.col-filter-input')).some(inp => inp.value.trim());
+  const hasActiveFilter = document.getElementById('filter-state').value ||
+    document.getElementById('filter-type').value ||
+    document.getElementById('filter-year').value ||
+    document.getElementById('filter-lean').value ||
+    document.getElementById('filter-status').value ||
+    document.getElementById('filter-hyperscaler').value ||
+    document.getElementById('search-input').value.trim() ||
+    selectedHyperscalers.size > 0 ||
+    hasColFilter;
+  if (hasActiveFilter && features.length > 0) {
     const allCoords = filtered.filter(f => f.lat && f.lng).map(f => [f.lng, f.lat]);
     if (allCoords.length > 0) {
       const bounds = allCoords.reduce((b, coord) => b.extend(coord), new maplibregl.LngLatBounds(allCoords[0], allCoords[0]));
       map.fitBounds(bounds, { padding: 50, maxZoom: 10 });
     }
+  } else if (!hasActiveFilter) {
+    // Reset to full US view when filters are cleared
+    map.fitBounds([[-128, 23], [-65, 50]], { padding: 20 });
   }
 
   updateMapLegend();
@@ -684,127 +677,6 @@ function updateMapLegend() {
   document.getElementById('map').appendChild(div);
 }
 
-
-// Legislation status simplified for display
-const LEG_STATUS_MAP = {
-  enacted: { label: 'Enacted', cls: 'leg-enacted' },
-  active: { label: 'Active', cls: 'leg-active' },
-  advancing: { label: 'Advancing', cls: 'leg-active' },
-  pending: { label: 'Pending', cls: 'leg-pending' },
-  ongoing: { label: 'Ongoing', cls: 'leg-pending' },
-  defeated: { label: 'Defeated', cls: 'leg-defeated' },
-  mixed: { label: 'Mixed', cls: 'leg-pending' },
-  stalled: { label: 'Stalled', cls: 'leg-defeated' },
-};
-
-function getLegStatus(f) {
-  const raw = (f.status || '').toLowerCase();
-  for (const [key, val] of Object.entries(LEG_STATUS_MAP)) {
-    if (raw.startsWith(key) || raw.includes(key)) return val;
-  }
-  return { label: capitalize(f.status), cls: 'leg-pending' };
-}
-
-function updateLegislation() {
-  const legislation = getLegislation();
-  document.getElementById('legislation-count').textContent = legislation.length;
-
-  const federal = legislation.filter(f => f.scope === 'federal').sort((a, b) => b.date.localeCompare(a.date));
-  const statewide = legislation.filter(f => f.scope === 'statewide');
-
-  // Group statewide by state
-  const byState = {};
-  statewide.forEach(f => {
-    byState[f.state] = byState[f.state] || [];
-    byState[f.state].push(f);
-  });
-  const stateKeys = Object.keys(byState).sort();
-
-  // Federal section
-  const fedEl = document.getElementById('legislation-federal');
-  if (federal.length) {
-    fedEl.innerHTML = `
-      <h3 class="leg-group-title">Federal</h3>
-      <div class="leg-cards">${federal.map(f => renderLegCard(f)).join('')}</div>
-    `;
-  } else {
-    fedEl.innerHTML = '';
-  }
-
-  // States section
-  const statesEl = document.getElementById('legislation-states');
-  statesEl.innerHTML = `
-    <h3 class="leg-group-title">State Legislation <span class="leg-state-count">${stateKeys.length} states</span></h3>
-    <div class="leg-grid">${stateKeys.map(st => {
-      const entries = byState[st].sort((a, b) => b.date.localeCompare(a.date));
-      return `
-        <div class="leg-state-group">
-          <div class="leg-state-name">${st}</div>
-          ${entries.map(f => renderLegCard(f)).join('')}
-        </div>
-      `;
-    }).join('')}</div>
-  `;
-
-  // Wire click handlers for detail
-  document.querySelectorAll('.leg-card[data-id]').forEach(card => {
-    card.addEventListener('click', () => {
-      const fight = fights.find(f => f.id === card.dataset.id);
-      if (fight) openDetail(fight);
-    });
-  });
-}
-
-function renderLegCard(f) {
-  const st = getLegStatus(f);
-
-  // Title: prefer bill_name, fallback to cleaned jurisdiction
-  let title = f.bill_name;
-  if (!title) {
-    title = f.jurisdiction
-      .replace(/\(statewide[^)]*\)/i, '')
-      .replace(/\(federal\)/i, '')
-      .replace(/^[\s,]+|[\s,]+$/g, '').trim();
-    if (!title || title === f.state) title = f.action_type;
-  }
-
-  // Summary: extract the substantive description, skipping bill number/sponsor preamble
-  const rawSummary = f.summary || '';
-  let summary = '';
-  // Try to find a clause starting with an action verb (skip sponsor/bill number preamble)
-  const actionVerbs = /(?:^|,\s*|\)\s*)(would |requires? |establishes? |prohibits? |creates? |imposes? |protects? |proposes? |bans? |mandates? |limits? |bars? |halts? )/i;
-  const actionMatch = rawSummary.match(actionVerbs);
-  if (actionMatch) {
-    summary = rawSummary.slice(actionMatch.index).replace(/^,\s*/, '').replace(/^\)\s*/, '');
-    summary = summary.charAt(0).toUpperCase() + summary.slice(1);
-    // Take first sentence — skip false stops at abbreviations (Sen., Rep., H., S., U.S., Gov., Del., A.)
-    const dotMatch = summary.match(/[a-z]{2,}[.]\s|[0-9][.]\s/);
-    if (dotMatch) summary = summary.slice(0, dotMatch.index + 2);
-    if (summary.length > 200) summary = summary.slice(0, 200) + '…';
-  } else {
-    // Fallback: find the second sentence or use a longer excerpt
-    const sentences = rawSummary.match(/[^.]+\.\s*/g) || [];
-    // Skip very short first sentences (likely just "Sen. X introduced Y.")
-    if (sentences.length > 1 && sentences[0].length < 80) {
-      summary = (sentences[0] + sentences[1]).trim();
-    } else {
-      summary = rawSummary.slice(0, 200);
-    }
-    if (summary.length > 200) summary = summary.slice(0, 200) + '…';
-  }
-
-  return `
-    <div class="leg-card" data-id="${f.id}">
-      <div class="leg-card-top">
-        <span class="leg-status ${st.cls}">${st.label}</span>
-        <span class="leg-date">${formatDate(f.date)}</span>
-      </div>
-      <div class="leg-card-title">${title}</div>
-      <div class="leg-card-summary">${summary}</div>
-      ${f.bill_url ? `<a href="${f.bill_url}" target="_blank" class="leg-card-bill" onclick="event.stopPropagation()">${f.bill_name || 'View Bill'} ↗</a>` : ''}
-    </div>
-  `;
-}
 
 function updateSortIndicators() {
   document.querySelectorAll('#fights-table thead th[data-sort]').forEach(th => {
@@ -833,8 +705,7 @@ function updateTable(filtered) {
   const tbody = document.getElementById('fights-tbody');
 
   updateSpreadsheetHeader();
-  const colFiltered = applyColumnFilters(sorted);
-  tbody.innerHTML = colFiltered.map(f => {
+  tbody.innerHTML = sorted.map(f => {
     const groups = (f.opposition_groups || []).join('; ');
     const links = [];
     if (f.opposition_website) links.push(`<a href="${f.opposition_website}" target="_blank">web</a>`);
@@ -855,11 +726,11 @@ function updateTable(filtered) {
         <td style="text-align:center">${f.county_lean ? `<span class="status-badge ${f.county_lean === 'R' ? 'partisan-r' : 'partisan-d'}" style="font-weight:600">${f.county_lean}<span class="info-icon">i</span><span class="status-tip">Based on 2024 presidential election results in ${escapeHtml(f.county || 'this county')}</span></span>` : ''}</td>
         <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
-        <td class="links-cell">${links.join(' ')}</td>
-        <td class="petition-cell">${petition}</td>
         <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700;color:'+(HYPERSCALER_INFO[f.hyperscaler]||{}).color : ''}">${f.hyperscaler || ''}</td>
         <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
         <td class="truncate-cell" title="${escapeHtml(f.project_name || '')}">${f.project_name || ''}</td>
+        <td class="petition-cell">${petition}</td>
+        <td class="links-cell">${links.join(' ')}</td>
         <td>${formatInvestment(f.investment_million_usd)}</td>
         <td>${formatPower(f.megawatts)}</td>
         <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
@@ -890,13 +761,13 @@ function updateSpreadsheetHeader() {
     <th data-sort="state">State</th>
     <th data-sort="county">County</th>
     <th data-sort="county_lean">Lean</th>
-    <th data-sort="action_type">Action</th>
+    <th data-sort="action_type">Mechanism</th>
     <th data-sort="status">Status</th>
-    <th>Links</th>
-    <th data-sort="petition_signatures">Petition</th>
-    <th data-sort="hyperscaler">Hyperscaler</th>
+    <th data-sort="hyperscaler">Company</th>
     <th data-sort="company">Developer</th>
     <th data-sort="project_name">Project</th>
+    <th data-sort="petition_signatures">Petition</th>
+    <th>Links</th>
     <th data-sort="investment_million_usd">Investment</th>
     <th data-sort="megawatts">Power</th>
     <th data-sort="acreage">Acres</th>
@@ -911,24 +782,24 @@ function updateSpreadsheetHeader() {
     filterRow = document.createElement('tr');
     filterRow.className = 'col-filter-row';
     const filterCols = [
-      { key: 'date', ph: 'Year...' },
-      { key: 'jurisdiction', ph: 'Filter...' },
-      { key: 'state', ph: 'ST' },
-      { key: 'action_type', ph: 'Type...' },
-      { key: 'county', ph: 'County...' },
-      { key: 'county_lean', ph: 'R/D' },
-      { key: 'status', ph: 'Status...' },
-      { key: '', ph: '' },
-      { key: '', ph: '' },
-      { key: 'hyperscaler', ph: 'Company...' },
-      { key: 'company', ph: 'Dev...' },
-      { key: 'project_name', ph: 'Project...' },
-      { key: '', ph: '' },
-      { key: 'megawatts_filter', ph: 'Min MW' },
-      { key: '', ph: '' },
-      { key: 'groups', ph: 'Group...' },
-      { key: 'summary', ph: 'Keyword...' },
-      { key: '', ph: '' },
+      { key: 'date', ph: 'Year...' },       // Date
+      { key: 'jurisdiction', ph: 'Filter...' }, // Jurisdiction
+      { key: 'state', ph: 'ST' },            // State
+      { key: 'county', ph: 'County...' },    // County
+      { key: 'county_lean', ph: 'R/D' },     // Lean
+      { key: 'action_type', ph: 'Type...' }, // Action
+      { key: 'status', ph: 'Status...' },    // Status
+      { key: 'hyperscaler', ph: 'Company...' }, // Company
+      { key: 'company', ph: 'Dev...' },      // Developer
+      { key: 'project_name', ph: 'Project...' }, // Project
+      { key: '', ph: '' },                   // Petition
+      { key: '', ph: '' },                   // Links
+      { key: '', ph: '' },                   // Investment
+      { key: 'megawatts_filter', ph: 'Min MW' }, // Power
+      { key: '', ph: '' },                   // Acres
+      { key: 'groups', ph: 'Group...' },     // Groups
+      { key: 'summary', ph: 'Keyword...' },  // Summary
+      { key: '', ph: '' },                   // Sources
     ];
     filterRow.innerHTML = filterCols.map(c => {
       if (!c.key) return '<th></th>';
@@ -948,8 +819,11 @@ function updateSpreadsheetHeader() {
 
 function rebindSortHeaders() {
   document.querySelectorAll('#fights-table thead th[data-sort]').forEach(th => {
-    th.addEventListener('click', () => {
-      const key = th.dataset.sort;
+    // Clone-replace to remove any stacked listeners from previous renders
+    const clone = th.cloneNode(true);
+    th.parentNode.replaceChild(clone, th);
+    clone.addEventListener('click', () => {
+      const key = clone.dataset.sort;
       if (currentSort.key === key) {
         currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
       } else {
@@ -1113,9 +987,13 @@ function clearFilters() {
   document.getElementById('filter-state').value = '';
   document.getElementById('filter-type').value = '';
   document.getElementById('filter-year').value = '';
+  document.getElementById('filter-lean').value = '';
+  document.getElementById('filter-status').value = '';
+  document.getElementById('filter-hyperscaler').value = '';
   selectedHyperscalers.clear();
   document.getElementById('size-by').value = 'energy';
   document.getElementById('search-input').value = '';
+  document.querySelectorAll('.col-filter-input').forEach(inp => { inp.value = ''; });
   render();
 }
 
@@ -1181,24 +1059,5 @@ function formatPower(mw) {
   return mw.toLocaleString() + ' MW';
 }
 
-function formatDate(dateStr) {
-  if (!dateStr) return '';
-  const d = new Date(dateStr + 'T00:00:00');
-  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
-}
-
-function capitalize(s) {
-  return s ? s.charAt(0).toUpperCase() + s.slice(1).replace(/_/g, ' ') : '';
-}
-
-function getStatusTooltip(status) {
-  if (!status) return '';
-  const key = status.split(/[\s\-–]/)[0].toLowerCase();
-  return STATUS_TOOLTIPS[key] || status;
-}
-
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
+// capitalize, escapeHtml, formatDate, getStatusTooltip, STATUS_TOOLTIPS
+// are provided by utils.js

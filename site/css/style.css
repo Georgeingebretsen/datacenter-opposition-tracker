@@ -765,6 +765,12 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.spreadsheet-mode .truncate-cell {
+  white-space: nowrap;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .spreadsheet-mode .links-cell {
   white-space: nowrap;
 }

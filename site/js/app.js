@@ -7,7 +7,7 @@ let map;
 let markers = [];
 let currentSort = { key: 'date', dir: 'desc' };
 let selectedHyperscalers = new Set();
-let spreadsheetMode = false;
+let spreadsheetMode = true;
 
 const ACTION_LABELS = {
   moratorium: 'Moratorium',
@@ -704,22 +704,24 @@ function updateTable(filtered) {
       const srcCount = (f.sources || []).length;
       const srcTooltip = (f.sources || []).map(function(s) { try { return new URL(s).hostname.replace('www.',''); } catch(e) { return s; } }).join(', ');
       const sourcesHtml = srcCount ? `<span title="${escapeHtml(srcTooltip)}">${srcCount} source${srcCount !== 1 ? 's' : ''}</span>` : '';
+      // Truncate status to first word, show full on hover
+      const statusWord = (f.status || '').split(/[\s\-–]/)[0];
       return `
         <tr data-id="${f.id}">
           <td>${formatDate(f.date)}</td>
           <td><strong>${f.jurisdiction}</strong></td>
           <td>${f.state}</td>
           <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
-          <td><span class="status-badge status-${f.status}">${capitalize(f.status)}</span></td>
-          <td style="${f.hyperscaler ? 'font-weight:700;color:'+(HYPERSCALER_INFO[f.hyperscaler]||{}).color : ''}">${f.hyperscaler || ''}</td>
-          <td>${f.company || ''}</td>
-          <td>${f.project_name || ''}</td>
+          <td><span class="status-badge status-${statusWord.toLowerCase()}" title="${escapeHtml(f.status || '')}">${capitalize(statusWord)}</span></td>
+          <td class="links-cell">${links.join(' ')}</td>
+          <td class="petition-cell">${petition}</td>
+          <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700;color:'+(HYPERSCALER_INFO[f.hyperscaler]||{}).color : ''}">${f.hyperscaler || ''}</td>
+          <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
+          <td class="truncate-cell" title="${escapeHtml(f.project_name || '')}">${f.project_name || ''}</td>
           <td>${formatInvestment(f.investment_million_usd)}</td>
           <td>${formatPower(f.megawatts)}</td>
           <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
           <td class="groups-cell" title="${escapeHtml(groups)}">${groups}</td>
-          <td class="links-cell">${links.join(' ')}</td>
-          <td class="petition-cell">${petition}</td>
           <td class="summary-cell" title="${escapeHtml(f.summary || '')}">${f.summary || ''}</td>
           <td class="concerns-cell" title="${escapeHtml(concernsFull)}">${concernsShort}</td>
           <td class="sources-cell">${sourcesHtml}</td>
@@ -729,16 +731,17 @@ function updateTable(filtered) {
   } else {
     // Default compact view
     updateDefaultHeader();
-    tbody.innerHTML = sorted.map(f => `
+    tbody.innerHTML = sorted.map(f => {
+      const statusWord = (f.status || '').split(/[\s\-–]/)[0];
+      return `
       <tr data-id="${f.id}">
         <td>${formatDate(f.date)}</td>
         <td><strong>${f.jurisdiction}</strong></td>
         <td>${f.state}</td>
         <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
-        <td><span class="status-badge status-${f.status}">${capitalize(f.status)}</span></td>
-        <td><button class="btn-detail" onclick="openDetail(fights.find(x=>x.id==='${f.id}'))">View</button></td>
+        <td><span class="status-badge status-${statusWord.toLowerCase()}" title="${escapeHtml(f.status || '')}">${capitalize(statusWord)}</span></td>
       </tr>
-    `).join('');
+    `}).join('');
   }
 
   // Row click
@@ -760,7 +763,6 @@ function updateDefaultHeader() {
     <th data-sort="state">State</th>
     <th data-sort="action_type">Action</th>
     <th data-sort="status">Status</th>
-    <th>Details</th>
   `;
   // Remove column filter row if present
   const filterRow = thead.querySelector('.col-filter-row');
@@ -777,6 +779,8 @@ function updateSpreadsheetHeader() {
     <th data-sort="state">State</th>
     <th data-sort="action_type">Action</th>
     <th data-sort="status">Status</th>
+    <th>Links</th>
+    <th data-sort="petition_signatures">Petition</th>
     <th data-sort="hyperscaler">Hyperscaler</th>
     <th data-sort="company">Developer</th>
     <th data-sort="project_name">Project</th>
@@ -784,8 +788,6 @@ function updateSpreadsheetHeader() {
     <th data-sort="megawatts">Power</th>
     <th data-sort="acreage">Acres</th>
     <th>Groups</th>
-    <th>Links</th>
-    <th>Petition</th>
     <th>Summary</th>
     <th>Concerns</th>
     <th>Sources</th>
@@ -802,6 +804,8 @@ function updateSpreadsheetHeader() {
       { key: 'state', ph: 'ST' },
       { key: 'action_type', ph: 'Type...' },
       { key: 'status', ph: 'Status...' },
+      { key: '', ph: '' },
+      { key: '', ph: '' },
       { key: 'hyperscaler', ph: 'Company...' },
       { key: 'company', ph: 'Dev...' },
       { key: 'project_name', ph: 'Project...' },
@@ -809,8 +813,6 @@ function updateSpreadsheetHeader() {
       { key: 'megawatts_filter', ph: 'Min MW' },
       { key: '', ph: '' },
       { key: 'groups', ph: 'Group...' },
-      { key: '', ph: '' },
-      { key: '', ph: '' },
       { key: 'summary', ph: 'Keyword...' },
       { key: 'concerns', ph: 'Concern...' },
       { key: '', ph: '' },

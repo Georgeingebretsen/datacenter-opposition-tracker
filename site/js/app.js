@@ -57,9 +57,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   populateFilters();
   render();
 
-  // Theme toggle
-  document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
-
   // Show last updated from most recent entry
   const dates = fights.map(f => f.last_updated || f.date).filter(Boolean).sort();
   if (dates.length) {
@@ -217,29 +214,6 @@ function initMap() {
   });
 }
 
-function toggleTheme() {
-  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-  const btn = document.getElementById('theme-toggle');
-
-  if (isDark) {
-    document.documentElement.removeAttribute('data-theme');
-    btn.textContent = 'Dark Mode';
-    if (map) {
-      map.setStyle('https://basemaps.cartocdn.com/gl/positron-gl-style/style.json');
-      window._mapIsDark = false;
-      // Re-add sources/layers after style change
-      map.once('style.load', () => reapplyMapData());
-    }
-  } else {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    btn.textContent = 'Light Mode';
-    if (map) {
-      map.setStyle('https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json');
-      window._mapIsDark = true;
-      map.once('style.load', () => reapplyMapData());
-    }
-  }
-}
 
 function reapplyMapData() {
   // Re-add mask

@@ -21,9 +21,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   const resp = await fetch('data/fights.json');
   fights = await resp.json();
 
-  // Theme toggle
-  document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
-
   // Last updated
   const dates = fights.map(f => f.last_updated || f.date).filter(Boolean).sort();
   if (dates.length) {
@@ -58,18 +55,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   updateLegislation();
 });
-
-function toggleTheme() {
-  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-  const btn = document.getElementById('theme-toggle');
-  if (isDark) {
-    document.documentElement.removeAttribute('data-theme');
-    btn.textContent = 'Dark Mode';
-  } else {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    btn.textContent = 'Light Mode';
-  }
-}
 
 function getLegStatus(f) {
   const raw = (f.status || '').toLowerCase();

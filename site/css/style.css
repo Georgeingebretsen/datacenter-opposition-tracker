@@ -46,7 +46,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -64,42 +64,63 @@ a:hover {
 header {
   background: var(--header-bg);
   border-bottom: 3px solid var(--accent);
-  padding: 2.5rem 1.5rem;
   position: relative;
   overflow: hidden;
 }
-header::before {
-  content: '';
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+}
+.hero-overlay {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background: radial-gradient(ellipse at 30% 50%, rgba(181,54,42,0.06) 0%, transparent 60%);
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(44,36,23,0) 0%, rgba(44,36,23,0.6) 60%, rgba(44,36,23,0.95) 100%);
   pointer-events: none;
 }
 .header-inner {
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
+  padding: 0 1.5rem 0.6rem;
+  margin-top: -80px;
+  z-index: 1;
+}
+.header-bar {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
 }
 h1 {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 2.4rem;
-  font-weight: 800;
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+  font-size: 2.6rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
   color: #faf7f2;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
 .subtitle {
-  color: var(--header-subtitle);
+  color: rgba(255,255,255,0.8);
   margin-top: 0.3rem;
   font-size: 1.05rem;
   max-width: 600px;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
 }
 .last-updated {
-  color: var(--header-date);
+  color: rgba(255,255,255,0.5);
   font-size: 0.78rem;
-  margin-top: 0.5rem;
+  margin: 0;
 }
 
 /* Theme toggle */
@@ -158,6 +179,47 @@ h1 {
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  position: relative;
+}
+.partisan-r { color: #d03030; }
+.partisan-d { color: #3060d0; }
+.partisan-stat .stat-number { color: var(--text); font-size: 1.8rem; }
+.stat-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  font-size: 9px;
+  font-weight: 700;
+  font-style: normal;
+  border: 1.5px solid var(--text-muted);
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: help;
+  vertical-align: middle;
+  margin-left: 2px;
+  position: relative;
+}
+.stat-info:hover { opacity: 0.7; }
+.stat-info:hover::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.72rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 5px 9px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 /* Outcome progress bar */
@@ -314,40 +376,38 @@ h1 {
 }
 #map {
   height: 580px;
+  position: relative;
   border-radius: var(--radius);
+  overflow: hidden;
   border: 1px solid var(--border);
   z-index: 1;
   box-shadow: 0 4px 20px var(--shadow);
 }
 
-/* Leaflet popup/tooltip — dark mode overrides */
-[data-theme="dark"] .leaflet-popup-content-wrapper {
-  background: rgba(30, 30, 35, 0.95);
-  color: #e8e4df;
+/* MapLibre dark mode overrides */
+[data-theme="dark"] .maplibregl-popup-content {
+  background: rgba(30, 30, 35, 0.95) !important;
+  color: #e8e4df !important;
   border: 1px solid rgba(255,255,255,0.12);
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   backdrop-filter: blur(12px);
 }
-[data-theme="dark"] .leaflet-popup-tip {
-  background: rgba(30, 30, 35, 0.95);
+[data-theme="dark"] .maplibregl-popup-tip {
+  border-top-color: rgba(30, 30, 35, 0.95) !important;
 }
-[data-theme="dark"] .leaflet-popup-content h3 {
+[data-theme="dark"] .maplibregl-popup-content h3 {
   color: #ffffff;
 }
-[data-theme="dark"] .leaflet-popup-close-button {
-  color: rgba(255,255,255,0.5) !important;
+[data-theme="dark"] .maplibregl-popup-close-button {
+  color: rgba(255,255,255,0.5);
 }
-[data-theme="dark"] .leaflet-tooltip {
+[data-theme="dark"] .map-tooltip {
   background: rgba(20, 20, 25, 0.92);
   color: #e8e4df;
   border: 1px solid rgba(255,255,255,0.15);
   box-shadow: 0 4px 16px rgba(0,0,0,0.4);
   backdrop-filter: blur(8px);
 }
-[data-theme="dark"] .leaflet-tooltip-top::before { border-top-color: rgba(255,255,255,0.15); }
-[data-theme="dark"] .leaflet-tooltip-bottom::before { border-bottom-color: rgba(255,255,255,0.15); }
-[data-theme="dark"] .leaflet-tooltip-left::before { border-left-color: rgba(255,255,255,0.15); }
-[data-theme="dark"] .leaflet-tooltip-right::before { border-right-color: rgba(255,255,255,0.15); }
 [data-theme="dark"] .map-legend {
   background: rgba(20, 20, 25, 0.88);
   border: 1px solid rgba(255,255,255,0.12);
@@ -357,21 +417,22 @@ h1 {
   border-top-color: rgba(255,255,255,0.1);
   color: rgba(255,255,255,0.4);
 }
-[data-theme="dark"] .leaflet-control-attribution {
+[data-theme="dark"] .maplibregl-ctrl-attrib {
   background: rgba(0,0,0,0.5) !important;
   color: rgba(255,255,255,0.4) !important;
 }
-[data-theme="dark"] .leaflet-control-attribution a {
+[data-theme="dark"] .maplibregl-ctrl-attrib a {
   color: rgba(255,255,255,0.5) !important;
 }
-[data-theme="dark"] .leaflet-control-zoom a {
+[data-theme="dark"] .maplibregl-ctrl button {
   background: rgba(30,30,35,0.85) !important;
-  color: #d0ccc6 !important;
   border-color: rgba(255,255,255,0.12) !important;
 }
-[data-theme="dark"] .leaflet-control-zoom a:hover {
+[data-theme="dark"] .maplibregl-ctrl button .maplibregl-ctrl-icon {
+  filter: invert(0.8);
+}
+[data-theme="dark"] .maplibregl-ctrl button:hover {
   background: rgba(50,50,55,0.95) !important;
-  color: #fff !important;
 }
 [data-theme="dark"] .logo-dot {
   box-shadow: 0 0 8px rgba(255,255,255,0.15), 0 1px 6px rgba(0,0,0,0.3);
@@ -383,31 +444,32 @@ h1 {
   background: rgba(255,255,255,0.03);
 }
 
-/* Leaflet popup/tooltip — light mode (base) */
-.leaflet-popup-content-wrapper {
+/* MapLibre popup/tooltip — light mode (base) */
+.maplibregl-popup-content {
   background: var(--surface);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-}
-.leaflet-popup-tip {
-  background: var(--surface);
-}
-.leaflet-popup-content {
-  margin: 12px 16px;
+  padding: 12px 16px;
   font-size: 0.9rem;
   line-height: 1.5;
+  max-width: 300px;
 }
-.leaflet-popup-content h3 {
+.maplibregl-popup-tip {
+  border-top-color: var(--surface);
+}
+.maplibregl-popup-content h3 {
   font-size: 1rem;
   margin-bottom: 0.4rem;
   color: var(--text);
 }
-.leaflet-popup-close-button {
-  color: var(--text-muted) !important;
+.maplibregl-popup-close-button {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  padding: 4px 8px;
 }
-.leaflet-tooltip {
+.map-tooltip {
   background: var(--surface);
   color: var(--text);
   border: 1px solid var(--border);
@@ -416,14 +478,19 @@ h1 {
   font-size: 0.82rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   white-space: nowrap;
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+  transform: translate(-50%, -100%);
+  margin-top: -12px;
 }
-.leaflet-tooltip-top::before { border-top-color: var(--border); }
-.leaflet-tooltip-bottom::before { border-bottom-color: var(--border); }
-.leaflet-tooltip-left::before { border-left-color: var(--border); }
-.leaflet-tooltip-right::before { border-right-color: var(--border); }
 
 /* Map legend */
 .map-legend {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  z-index: 2;
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -496,7 +563,7 @@ h1 {
   margin-bottom: 1.25rem;
 }
 .legislation-header h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
   font-size: 1.4rem;
   color: var(--text);
 }
@@ -607,6 +674,28 @@ h1 {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.leg-card-bill {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+}
+.leg-card-bill:hover {
+  text-decoration: underline;
+}
+.bill-link-section .bill-link {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 0.3rem 0;
+}
+.bill-link-section .bill-link:hover {
+  text-decoration: underline;
+}
 
 /* Fights List */
 .fights-list {
@@ -623,7 +712,7 @@ h1 {
   gap: 0.75rem;
 }
 .list-header h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
   font-size: 1.4rem;
   color: var(--text);
 }
@@ -759,12 +848,6 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.spreadsheet-mode .concerns-cell {
-  white-space: nowrap;
-  max-width: 160px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .spreadsheet-mode .truncate-cell {
   white-space: nowrap;
   max-width: 100px;
@@ -834,19 +917,77 @@ h1 {
   white-space: nowrap;
 }
 .badge-moratorium { background: rgba(196, 149, 37, 0.12); color: var(--yellow); }
-.badge-full_ban { background: rgba(181, 54, 42, 0.12); color: var(--accent); }
+.badge-permanent_ban { background: rgba(181, 54, 42, 0.12); color: var(--accent); }
 .badge-zoning_restriction { background: rgba(122, 99, 166, 0.12); color: var(--purple); }
 .badge-cancellation { background: rgba(61, 122, 78, 0.12); color: var(--green); }
 .badge-permit_denial { background: rgba(192, 112, 48, 0.12); color: var(--orange); }
-.badge-resolution_opposing { background: rgba(74, 127, 181, 0.12); color: var(--blue); }
 .badge-lawsuit { background: rgba(181, 54, 42, 0.12); color: var(--accent); }
-.badge-protest { background: rgba(192, 112, 48, 0.12); color: var(--orange); }
-.badge-petition { background: rgba(74, 127, 181, 0.12); color: var(--blue); }
 .badge-legislative_action { background: rgba(122, 99, 166, 0.12); color: var(--purple); }
-.badge-other { background: rgba(122, 112, 96, 0.12); color: var(--text-muted); }
+.badge-opposition { background: rgba(74, 127, 181, 0.12); color: var(--blue); }
 
 .status-badge {
   font-size: 0.75rem;
+  cursor: help;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.status-badge:hover {
+  background: rgba(0,0,0,0.05);
+}
+[data-theme="dark"] .status-badge:hover {
+  background: rgba(255,255,255,0.08);
+}
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  opacity: 0.3;
+  flex-shrink: 0;
+}
+.status-badge:hover .info-icon {
+  opacity: 0.6;
+}
+.status-badge .status-tip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.status-badge .status-tip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--text);
+}
+.status-badge:hover .status-tip {
+  display: block;
 }
 .status-active { color: var(--green); }
 .status-expired { color: var(--text-muted); }
@@ -861,23 +1002,6 @@ h1 {
 .status-withdrawn { color: var(--green); }
 .status-approved { color: var(--accent); }
 .status-delayed { color: var(--orange); }
-
-/* Concern tags */
-.concerns-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-.concern-tag {
-  display: inline-block;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  background: rgba(74, 127, 181, 0.1);
-  color: var(--blue);
-  white-space: nowrap;
-}
 
 /* Opposition links */
 .opp-links {
@@ -985,10 +1109,16 @@ h1 {
   color: var(--text);
 }
 #detail-content h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
   color: var(--text);
+}
+#detail-content .detail-county {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.5rem;
 }
 #detail-content .detail-meta {
   color: var(--text-muted);
@@ -1029,7 +1159,7 @@ h1 {
   padding: 0 1.5rem;
 }
 .about-inner h2 {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
   font-size: 1.4rem;
   color: var(--text);
   margin-bottom: 1.25rem;
@@ -1095,8 +1225,15 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-  header {
-    padding: 1.5rem 1rem;
+  .hero-image {
+    height: 180px;
+  }
+  .header-inner {
+    margin-top: -60px;
+    padding: 0 1rem 1.5rem;
+  }
+  h1 {
+    font-size: 1.8rem;
   }
   h1 {
     font-size: 1.6rem;

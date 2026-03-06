@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>US Datacenter Fights — Tracking Community Opposition</title>
+  <title>Tracking American AI Datacenter Opposition</title>
   <meta name="description" content="An interactive map and database of grassroots opposition to datacenter development across the United States. 421+ fights tracked across 50 states.">
   <meta property="og:title" content="US Datacenter Fights">
   <meta property="og:description" content="An interactive map tracking 415+ community opposition fights against datacenter development across 50 US states.">
@@ -12,16 +12,24 @@
   <meta name="twitter:title" content="US Datacenter Fights">
   <meta name="twitter:description" content="421+ community fights against datacenter development across 50 US states. Interactive map and open database.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F5FA;</text></svg>">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
+    <div class="hero-image">
+      <img src="img/hero.jpg" alt="Aerial view of a massive datacenter construction site" />
+      <div class="hero-overlay"></div>
+    </div>
     <div class="header-inner">
-      <h1>US Datacenter Fights</h1>
-      <p class="subtitle">Tracking community opposition to datacenter development across America</p>
-      <p class="last-updated" id="last-updated"></p>
+      <h1>Tracking American AI Datacenter Opposition</h1>
       <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">Dark Mode</button>
+    </div>
+    <div class="header-bar">
+      <p class="last-updated" id="last-updated"></p>
     </div>
   </header>
 
@@ -43,6 +51,10 @@
         <span class="stat-number" id="stat-moratoria">—</span>
         <span class="stat-label">Moratoria</span>
       </div>
+      <div class="stat partisan-stat">
+        <span class="stat-number" id="stat-partisan"><span class="partisan-r">—R</span> / <span class="partisan-d">—D</span></span>
+        <span class="stat-label">County Lean <span class="stat-info" data-tip="Based on 2024 presidential election results by county">i</span></span>
+      </div>
     </section>
 
     <div class="outcome-bar" id="outcome-bar"></div>
@@ -56,38 +68,16 @@
         <select id="filter-type">
           <option value="">All Action Types</option>
           <option value="moratorium">Moratorium</option>
-          <option value="full_ban">Full Ban</option>
+          <option value="permanent_ban">Permanent Ban</option>
           <option value="zoning_restriction">Zoning Restriction</option>
           <option value="cancellation">Cancellation</option>
           <option value="permit_denial">Permit Denial</option>
-          <option value="resolution_opposing">Resolution Opposing</option>
           <option value="lawsuit">Lawsuit</option>
-          <option value="protest">Protest</option>
-          <option value="petition">Petition</option>
           <option value="legislative_action">Legislative Action</option>
-          <option value="other">Other</option>
+          <option value="opposition">General Opposition</option>
         </select>
         <select id="filter-year">
           <option value="">All Years</option>
-        </select>
-        <select id="filter-concern">
-          <option value="">All Concerns</option>
-          <option value="water">Water Usage</option>
-          <option value="noise">Noise</option>
-          <option value="electricity_rates">Electricity Rates</option>
-          <option value="air_quality">Air Quality</option>
-          <option value="property_values">Property Values</option>
-          <option value="traffic">Traffic</option>
-          <option value="agricultural_land">Agricultural Land</option>
-          <option value="environment">Environment</option>
-          <option value="grid_reliability">Grid Reliability</option>
-          <option value="health">Health</option>
-          <option value="community_character">Community Character</option>
-          <option value="process_fairness">Process Fairness</option>
-          <option value="light_pollution">Light Pollution</option>
-          <option value="tax_fairness">Tax Fairness</option>
-          <option value="wildlife">Wildlife</option>
-          <option value="jobs_quality">Jobs Quality</option>
         </select>
         <button id="clear-filters" class="btn-clear">Clear Filters</button>
       </div>
@@ -113,7 +103,6 @@
       <div class="list-header">
         <h2>All Fights <span id="fights-count" class="count-badge"></span></h2>
         <div class="list-actions">
-          <button id="toggle-view" class="btn-action active" title="Toggle spreadsheet view">Compact View</button>
           <button id="download-csv" class="btn-action" title="Download as CSV">Download CSV</button>
           <button id="download-json" class="btn-action" title="Download as JSON">Download JSON</button>
         </div>
@@ -128,6 +117,8 @@
               <th data-sort="date">Date</th>
               <th data-sort="jurisdiction">Jurisdiction</th>
               <th data-sort="state">State</th>
+              <th data-sort="county">County</th>
+              <th data-sort="county_lean">Lean</th>
               <th data-sort="action_type">Action</th>
               <th data-sort="status">Status</th>
               <th>Details</th>
@@ -162,11 +153,11 @@
           <p>Compiled from <a href="https://www.datacenterwatch.org/" target="_blank">Data Center Watch</a>,
             <a href="https://robertbryce.substack.com/" target="_blank">Robert Bryce's reporting</a>,
             <a href="https://www.fractracker.org/" target="_blank">FracTracker Alliance</a>,
-            Change.org petitions, local news coverage, and direct research. AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors.</p>
+            Change.org petitions, local news coverage, and direct research. AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors. The local fights tracker has been more closely vetted than the legislation tracker section.</p>
         </div>
         <div class="about-card">
           <h3>Contribute</h3>
-          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions, or reach out to <a href="mailto:george.ingebretsen@gmail.com">george.ingebretsen@gmail.com</a>.</p>
+          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions via git. Also feel free to email <a href="mailto:ca1004@berkeley.edu">Cam Acosta</a> or <a href="mailto:george.ingebretsen@gmail.com">George Ingebretsen</a> with questions, additions, or suggestions.</p>
         </div>
       </div>
     </div>
@@ -178,7 +169,7 @@
     </div>
   </footer>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

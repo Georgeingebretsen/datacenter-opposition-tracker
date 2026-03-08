@@ -6767,9 +6767,13 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "Community members"
+      "Stop Project Tango",
+      "NO To Project Tango",
+      "Palm Beach County Environmental Alliance",
+      "Sierra Club Loxahatchee Group",
+      "Florida Native Plant Society PBC Chapter"
     ],
-    "opposition_website": null,
+    "opposition_website": "https://www.notoprojecttango.com/",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -6789,7 +6793,7 @@
       "https://news.datacenterview.com/p/december-11-2025-pba-s-project-tango-approved"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-07",
     "scope": "local",
     "county_lean": "D"
   },
@@ -15675,7 +15679,9 @@
       "https://www.wptv.com/wptv-investigates/scrapped-developer-of-st-lucie-county-data-center-project-may-withdraw-plan-amid-new-ai-legislation"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05"
+    "last_updated": "2026-03-07",
+    "petition_url": "https://www.change.org/p/say-no-to-sentinel-grove-technology-park-ai-data-center-in-st-lucie-county",
+    "petition_signatures": 608
   },
   {
     "id": "west-louisville-ky-2026-03-05",
@@ -17089,5 +17095,55 @@
     "bill_name": null,
     "bill_url": null,
     "county_lean": "R"
+  },
+  {
+    "id": "citrus-county-lecanto-fl-2026-02-01",
+    "jurisdiction": "Citrus County (Lecanto)",
+    "state": "FL",
+    "county": "Citrus County",
+    "county_lean": "R",
+    "lat": 28.8436,
+    "lng": -82.4879,
+    "date": "2026-02-01",
+    "action_type": "zoning_restriction",
+    "status": "delayed",
+    "scope": "local",
+    "company": "Deltona Corp",
+    "acreage": 813,
+    "summary": "Deltona Corp proposed an 813-acre AI data center near CR 491 and Tram Road in Lecanto. The Planning & Development Commission voted 4-3 to postpone any decision. Nearly 200 residents packed meetings to oppose heavy industrial rezoning of the site. County commissioners are exploring new guidelines before any data center approvals.",
+    "opposition_groups": [
+      "Citrus County residents"
+    ],
+    "sources": [
+      "https://www.chronicleonline.com/news/local/data-center-debate-heads-to-planning-board/article_c998935f-03bb-5f47-8592-bc118bb1cdcd.html"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-07"
+  },
+  {
+    "id": "martin-county-indiantown-fl-2026-03-01",
+    "jurisdiction": "Martin County (Indiantown)",
+    "state": "FL",
+    "county": "Martin County",
+    "county_lean": "R",
+    "lat": 27.0256,
+    "lng": -80.4856,
+    "date": "2026-03-01",
+    "action_type": "other",
+    "status": "active",
+    "scope": "local",
+    "company": "Silver Fox 606 LLC",
+    "project_name": "Silver Fox",
+    "building_sq_ft": 2000000,
+    "acreage": 200,
+    "summary": "Silver Fox 606 LLC (developer Nelson Ferreira, Juno Beach) proposed a ~2 million sq ft data center campus with AI lab, four buildings, and an FPL substation in Indiantown. The site includes 200 acres of wetlands and habitat for protected species. South Florida Wildlands Association has raised environmental concerns. First of three public hearings expected March 2026.",
+    "opposition_groups": [
+      "South Florida Wildlands Association"
+    ],
+    "sources": [
+      "https://www.wptv.com/news/region-martin-county/indiantown/proposed-data-center-in-indiantown-would-impact-wetlands-and-protected-species-records-show"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-07"
   }
 ]

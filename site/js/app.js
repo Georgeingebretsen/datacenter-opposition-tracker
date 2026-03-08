@@ -857,16 +857,14 @@ function openDetail(f) {
       const twUrl = f.opposition_twitter.startsWith('http') ? f.opposition_twitter : `https://x.com/${f.opposition_twitter.replace('@','')}`;
       links.push({ url: twUrl, icon: 'x', label: 'X / Twitter' });
     }
-    groupsHtml = f.opposition_groups.map(g => {
-      let html = `<div class="group-card"><span class="group-name">${escapeHtml(g)}</span>`;
-      if (links.length) {
-        html += `<div class="group-links">${links.map(l =>
-          `<a href="${l.url}" target="_blank" class="group-link-btn" title="${l.label}">${l.icon}</a>`
-        ).join('')}</div>`;
-      }
-      html += '</div>';
-      return html;
-    }).join('');
+    groupsHtml = f.opposition_groups.map(g =>
+      `<div class="group-card"><span class="group-name">${escapeHtml(g)}</span></div>`
+    ).join('');
+    if (links.length) {
+      groupsHtml += `<div class="group-links" style="margin-top:0.5rem;">${links.map(l =>
+        `<a href="${l.url}" target="_blank" class="group-link-btn" title="${l.label}">${l.icon}</a>`
+      ).join('')}</div>`;
+    }
   } else {
     groupsHtml = '<p style="color:var(--text-muted);font-size:0.9rem;">Not yet documented</p>';
   }

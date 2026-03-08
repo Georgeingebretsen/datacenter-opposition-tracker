@@ -17190,5 +17190,48 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-07"
+  },
+  {
+    "id": "round-rock-tx-2026-02-12",
+    "jurisdiction": "Round Rock",
+    "state": "TX",
+    "county": "Williamson County",
+    "lat": 30.5083,
+    "lng": -97.6789,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-12",
+    "status": "approved",
+    "company": "Skybox",
+    "hyperscaler": null,
+    "project_name": "Skybox Data Center",
+    "investment_million_usd": null,
+    "megawatts": 60,
+    "acreage": 30,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Protect Round Rock",
+      "Public Citizen Texas",
+      "Climate Justice San Antonio",
+      "Texas Data Center Rebellion"
+    ],
+    "opposition_website": "https://protectroundrock.org",
+    "opposition_facebook": null,
+    "opposition_instagram": "https://www.instagram.com/protectroundrock/",
+    "opposition_twitter": null,
+    "petition_url": "https://www.change.org/p/say-no-to-the-skybox-data-center-and-substation-in-round-rock-tx",
+    "petition_signatures": 3384,
+    "summary": "Round Rock City Council voted unanimously on February 12, 2026 to approve rezoning for Skybox's 60MW AI data center on 30 acres along Old Settlers Boulevard, despite hours of public opposition. Over 50 speakers opposed the project at a December 2025 hearing. Residents raised concerns about water consumption during drought conditions, 24/7 industrial noise within 2.5 miles of homes and schools, and power grid strain. The Protect Round Rock coalition collected over 3,200 petition signatures. This is Round Rock's 9th approved data center.",
+    "sources": [
+      "https://protectroundrock.org",
+      "https://www.change.org/p/say-no-to-the-skybox-data-center-and-substation-in-round-rock-tx"
+    ],
+    "bill_name": null,
+    "bill_url": null,
+    "data_source": "web_research",
+    "last_updated": "2026-03-07",
+    "scope": "local",
+    "county_lean": "D"
   }
 ]

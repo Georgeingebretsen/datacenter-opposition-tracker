@@ -17153,5 +17153,42 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-07"
+  },
+  {
+    "id": "genesee-county-stamp-ny-2025-02-01",
+    "jurisdiction": "Genesee County (STAMP)",
+    "state": "NY",
+    "county": "Genesee County",
+    "county_lean": "R",
+    "lat": 43.0967,
+    "lng": -78.2647,
+    "date": "2025-02-01",
+    "action_type": "lawsuit",
+    "status": "cancelled",
+    "scope": "local",
+    "company": "STREAM Data Centers",
+    "project_name": "STAMP Data Center",
+    "investment_million_usd": 6300,
+    "megawatts": 500,
+    "building_sq_ft": 2200000,
+    "acreage": 60,
+    "summary": "STREAM Data Centers proposed a $6.3B, 2.2 million sq ft data center complex at the WNY STAMP site in Alabama, NY \u2014 adjacent to Tonawanda Seneca Nation treaty-protected territory and complex wetlands with old-growth forest. The Tonawanda Seneca Nation and Sierra Club filed litigation citing environmental and treaty concerns. GCEDC construction caused 500-700 gallon hydraulic drilling fluid spills into Refuge wetlands. In late 2025, the Genesee County Economic Development Center rescinded its approvals, and opponents declared victory. Up to $801M in tax subsidies had been proposed.",
+    "opposition_groups": [
+      "Tonawanda Seneca Nation",
+      "Sierra Club",
+      "Honor the Earth",
+      "Stop Data Colonialism"
+    ],
+    "opposition_instagram": "https://www.instagram.com/stopdatacolonialism/",
+    "sources": [
+      "https://www.wxxinews.org/local-news/2025-02-06/big-data-centers-eying-genesee-county-tech-park-face-widespread-opposition",
+      "https://www.wkbw.com/genesee-county/genesee-county-residents-voice-concerns-over-planned-multi-billion-dollar-data-center",
+      "https://orleanshub.com/allies-of-tonawanda-seneca-nation-strongly-oppose-monstrous-data-center-proposed-for-stamp/",
+      "https://videonewsservice.net/index.php/2025/10/21/genesee-county-tonawanda-seneca-nation-and-sierra-club-declare-victory-in-litigation-against-massive-data-center-seek-dismissal-of-suit-following-rescission-of-approvals/",
+      "https://www.wxxinews.org/local-news/2025-09-18/genesee-county-stamp-site-data-center-on-hold-as-expansion-gets-pursued",
+      "https://videonewsservice.net/index.php/2025/11/06/genesee-county-residents-of-the-glow-region-plan-rally-and-press-conference-to-celebrate-recent-victory-against-the-stamp-data-center/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-07"
   }
 ]

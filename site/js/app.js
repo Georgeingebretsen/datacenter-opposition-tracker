@@ -415,6 +415,7 @@ function updateOutcomeBar(filtered) {
 
 function updateHyperscalerBar(filtered) {
   const bar = document.getElementById('hyperscaler-bar');
+  if (!bar) return;
   // Count from ALL local fights (not just filtered) so chips don't disappear when filtered
   const localFights = fights.filter(f => f.scope !== 'statewide' && f.scope !== 'federal');
   const counts = {};

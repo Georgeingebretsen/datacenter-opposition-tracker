@@ -19,22 +19,22 @@ const ACTION_LABELS = {
 
 // Status-based map colors
 const STATUS_COLORS = {
-  active: '#3da55e',
-  cancelled: '#3da55e',
-  ongoing: '#d4a020',
-  pending: '#d07830',
-  delayed: '#d07830',
-  approved: '#d03030',
-  expired: '#9a9080',
-  mixed: '#9a9080',
+  active: '#66800B',
+  cancelled: '#66800B',
+  ongoing: '#AD8301',
+  pending: '#BC5215',
+  delayed: '#BC5215',
+  approved: '#AF3029',
+  expired: '#878580',
+  mixed: '#878580',
 };
 
 const STATUS_LEGEND = [
-  { color: '#3da55e', label: 'Protected' },
-  { color: '#d4a020', label: 'Ongoing' },
-  { color: '#d07830', label: 'Pending' },
-  { color: '#d03030', label: 'Approved' },
-  { color: '#9a9080', label: 'Other' },
+  { color: '#66800B', label: 'Protected' },
+  { color: '#AD8301', label: 'Ongoing' },
+  { color: '#BC5215', label: 'Pending' },
+  { color: '#AF3029', label: 'Approved' },
+  { color: '#878580', label: 'Other' },
 ];
 
 // Hyperscaler short labels and brand colors for map markers
@@ -149,7 +149,7 @@ function initMap() {
           type: 'fill',
           source: 'us-mask',
           paint: {
-            'fill-color': '#d5d0c8',
+            'fill-color': '#CECDC3',
             'fill-opacity': 0.55,
           },
         });
@@ -400,15 +400,15 @@ function updateOutcomeBar(filtered) {
 
   bar.innerHTML = `
     <div class="outcome-labels">
-      <span class="outcome-label" style="color:#3d7a4e">Protected: ${won} (${pWon}%)</span>
-      <span class="outcome-label" style="color:#c49525">Ongoing: ${ongoing} (${pOngoing}%)</span>
-      <span class="outcome-label" style="color:#b5362a">Approved: ${lost} (${pLost}%)</span>
+      <span class="outcome-label" style="color:#66800B">Protected: ${won} (${pWon}%)</span>
+      <span class="outcome-label" style="color:#AD8301">Ongoing: ${ongoing} (${pOngoing}%)</span>
+      <span class="outcome-label" style="color:#AF3029">Approved: ${lost} (${pLost}%)</span>
     </div>
     <div class="outcome-track">
-      <div class="outcome-segment" style="width:${pWon}%;background:#3d7a4e" title="Protected: ${won}"></div>
-      <div class="outcome-segment" style="width:${pOngoing}%;background:#c49525" title="Ongoing: ${ongoing}"></div>
-      <div class="outcome-segment" style="width:${pLost}%;background:#b5362a" title="Approved: ${lost}"></div>
-      <div class="outcome-segment" style="width:${100-pWon-pOngoing-pLost}%;background:#9a9080" title="Other: ${other}"></div>
+      <div class="outcome-segment" style="width:${pWon}%;background:#66800B" title="Protected: ${won}"></div>
+      <div class="outcome-segment" style="width:${pOngoing}%;background:#AD8301" title="Ongoing: ${ongoing}"></div>
+      <div class="outcome-segment" style="width:${pLost}%;background:#AF3029" title="Approved: ${lost}"></div>
+      <div class="outcome-segment" style="width:${100-pWon-pOngoing-pLost}%;background:#878580" title="Other: ${other}"></div>
     </div>
   `;
 }
@@ -436,7 +436,7 @@ function updateHyperscalerBar(filtered) {
     visible.map(([name, count]) => {
       const info = HYPERSCALER_INFO[name] || { color: '#888', label: name };
       const isActive = selectedHyperscalers.has(name);
-      return `<span class="hs-chip${isActive ? ' hs-active' : ''}" style="background:${info.color}${isActive ? '44' : '22'};color:${info.color};${isActive ? 'border-color:'+info.color : ''}" data-hs="${name}">${name} <span class="hs-count">${count}</span></span>`;
+      return `<span class="hs-chip${isActive ? ' hs-active' : ''}" data-hs="${name}">${name} <span class="hs-count">${count}</span></span>`;
     }).join('') +
     (hasMore ? `<span class="hs-toggle" id="hs-toggle">${expanded ? 'show less' : '+ ' + (sorted.length - DEFAULT_SHOW) + ' more'}</span>` : '');
 
@@ -697,17 +697,17 @@ function updateTable(filtered) {
         <td><strong>${f.jurisdiction}</strong></td>
         <td>${f.state}</td>
         <td>${f.county || ''}</td>
-        <td style="text-align:center">${f.county_lean ? `<span class="status-badge ${f.county_lean === 'R' ? 'partisan-r' : 'partisan-d'}" style="font-weight:600">${f.county_lean}<span class="info-icon">i</span><span class="status-tip">Based on 2024 presidential election results in ${escapeHtml(f.county || 'this county')}</span></span>` : ''}</td>
         <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
-        <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700;color:'+(HYPERSCALER_INFO[f.hyperscaler]||{}).color : ''}">${f.hyperscaler || ''}</td>
-        <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
-        <td class="truncate-cell" title="${escapeHtml(f.project_name || '')}">${f.project_name || ''}</td>
         <td class="petition-cell">${petition}</td>
         <td class="links-cell">${links.join(' ')}</td>
+        <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700' : ''}">${f.hyperscaler || ''}</td>
+        <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
+        <td class="truncate-cell" title="${escapeHtml(f.project_name || '')}">${f.project_name || ''}</td>
         <td>${formatInvestment(f.investment_million_usd)}</td>
         <td>${formatPower(f.megawatts)}</td>
         <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
+        <td style="text-align:center">${f.county_lean ? `<span class="status-badge ${f.county_lean === 'R' ? 'partisan-r' : 'partisan-d'}" style="font-weight:600">${f.county_lean}<span class="info-icon">i</span><span class="status-tip">Based on 2024 presidential election results in ${escapeHtml(f.county || 'this county')}</span></span>` : ''}</td>
         <td class="groups-cell" title="${escapeHtml(groups)}">${groups}</td>
         <td class="summary-cell" title="${escapeHtml(f.summary || '')}">${f.summary || ''}</td>
         <td class="sources-cell">${sourcesHtml}</td>
@@ -734,17 +734,17 @@ function updateSpreadsheetHeader() {
     <th data-sort="jurisdiction">Jurisdiction</th>
     <th data-sort="state">State</th>
     <th data-sort="county">County</th>
-    <th data-sort="county_lean">Lean</th>
     <th data-sort="action_type">Mechanism</th>
     <th data-sort="status">Status</th>
+    <th data-sort="petition_signatures">Petition</th>
+    <th>Links</th>
     <th data-sort="hyperscaler">Company</th>
     <th data-sort="company">Developer</th>
     <th data-sort="project_name">Project</th>
-    <th data-sort="petition_signatures">Petition</th>
-    <th>Links</th>
     <th data-sort="investment_million_usd">Investment</th>
     <th data-sort="megawatts">Power</th>
     <th data-sort="acreage">Acres</th>
+    <th data-sort="county_lean">Lean</th>
     <th>Groups</th>
     <th>Summary</th>
     <th>Sources</th>
@@ -760,17 +760,17 @@ function updateSpreadsheetHeader() {
       { key: 'jurisdiction', ph: 'Filter...' }, // Jurisdiction
       { key: 'state', ph: 'ST' },            // State
       { key: 'county', ph: 'County...' },    // County
-      { key: 'county_lean', ph: 'R/D' },     // Lean
-      { key: 'action_type', ph: 'Type...' }, // Action
+      { key: 'action_type', ph: 'Type...' }, // Mechanism
       { key: 'status', ph: 'Status...' },    // Status
+      { key: '', ph: '' },                   // Petition
+      { key: '', ph: '' },                   // Links
       { key: 'hyperscaler', ph: 'Company...' }, // Company
       { key: 'company', ph: 'Dev...' },      // Developer
       { key: 'project_name', ph: 'Project...' }, // Project
-      { key: '', ph: '' },                   // Petition
-      { key: '', ph: '' },                   // Links
       { key: '', ph: '' },                   // Investment
       { key: 'megawatts_filter', ph: 'Min MW' }, // Power
       { key: '', ph: '' },                   // Acres
+      { key: 'county_lean', ph: 'R/D' },     // Lean
       { key: 'groups', ph: 'Group...' },     // Groups
       { key: 'summary', ph: 'Keyword...' },  // Summary
       { key: '', ph: '' },                   // Sources

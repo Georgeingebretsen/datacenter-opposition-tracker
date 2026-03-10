@@ -37,13 +37,22 @@
 
   <main>
     <section class="stats-strip" id="stats-bar">
-      <span class="stat-item"><strong id="stat-total">—</strong> fights across <strong id="stat-states">—</strong> states</span>
-      <span class="stat-sep">·</span>
-      <span class="stat-item"><strong id="stat-investment">—</strong> in investment at stake</span>
-      <span class="stat-sep">·</span>
-      <span class="stat-item"><strong id="stat-moratoria">—</strong> moratoria</span>
-      <span class="stat-sep">·</span>
-      <span class="stat-item" id="stat-partisan"><span class="partisan-r">—R</span> / <span class="partisan-d">—D</span> county lean <span class="stat-info" data-tip="Based on 2024 presidential election results by county">i</span></span>
+      <div class="stat-card">
+        <span class="stat-number"><span id="stat-total">—</span></span>
+        <span class="stat-label">fights across <span id="stat-states">—</span> states</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number"><span id="stat-investment">—</span></span>
+        <span class="stat-label">in investment at stake</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number"><span id="stat-moratoria">—</span></span>
+        <span class="stat-label">moratoria</span>
+      </div>
+      <div class="stat-card" id="stat-partisan">
+        <span class="stat-number"><span class="partisan-r">—R</span> / <span class="partisan-d">—D</span></span>
+        <span class="stat-label">county lean <span class="stat-info" data-tip="Based on 2024 presidential election results by county">i</span></span>
+      </div>
     </section>
 
     <div class="outcome-bar" id="outcome-bar"></div>
@@ -139,14 +148,11 @@
       <div class="about-grid">
         <div class="about-card">
           <h3>Data Sources</h3>
-          <p>Compiled from <a href="https://www.datacenterwatch.org/" target="_blank">Data Center Watch</a>,
-            <a href="https://robertbryce.substack.com/" target="_blank">Robert Bryce's reporting</a>,
-            <a href="https://www.fractracker.org/" target="_blank">FracTracker Alliance</a>,
-            Change.org petitions, local news coverage, and direct research. AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors. The local fights tracker has been more closely vetted than the legislation tracker section.</p>
+          <p>AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors. Built by Cam Acosta and George Ingebretsen.</p>
         </div>
         <div class="about-card">
           <h3>Contribute</h3>
-          <p>Know of a datacenter fight not listed here? Have corrections or updates? This is an open-source project and contributions are welcome. Download the data using the buttons above and submit additions via git. Also feel free to email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
+          <p>Know of a datacenter fight not listed here? Notice an issue? Please email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
         </div>
       </div>
     </div>

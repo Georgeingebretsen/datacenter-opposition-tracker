@@ -22098,5 +22098,132 @@
     "date": "2026-03-01",
     "status": "active",
     "summary": "Bipartisan effort to override Gov. DeWine's veto of data center sales tax exemption repeal. Current exemptions cost $141-200M/year in lost state revenue. Speaker Huffman pushing for vote before end of March. Needs 60 House + 20 Senate votes."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://legiscan.com/NJ/text/S731/id/3312992",
+      "https://www.sierraclub.org/new-jersey/blog/2026/02/key-legislation-ensure-data-center-transparency-and-energy-affordability"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "nj-s731-large-load-tariff-nj-2026-02-12",
+    "jurisdiction": "New Jersey (S731/A796 Large Load Tariff)",
+    "state": "NJ",
+    "county": "Mercer County",
+    "lat": 40.22,
+    "lng": -74.77,
+    "action_type": "legislation",
+    "date": "2026-02-12",
+    "status": "pending",
+    "summary": "Reintroduced after Gov. Murphy pocket-vetoed prior version on last day in office. Requires utilities to develop tariff for 100+ MW data centers, protecting non-DC ratepayers from increased costs. Passed both chambers' committees Feb 2026."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [
+      "https://insideclimatenews.org/news/26022026/new-jersey-data-center-tax-break/",
+      "https://re-nj.com/coreweave-begins-1-8-billion-data-center-project-in-kenilworth-landing-first-award-under-new-eda-tax-credit-program/"
+    ],
+    "company": "CoreWeave",
+    "hyperscaler": "CoreWeave",
+    "id": "kenilworth-coreweave-nj-2025-11-01",
+    "jurisdiction": "Kenilworth (CoreWeave $250M tax break)",
+    "state": "NJ",
+    "county": "Union County",
+    "lat": 40.68,
+    "lng": -74.29,
+    "action_type": "other",
+    "date": "2025-11-01",
+    "status": "approved",
+    "summary": "First award under NJ's Next New Jersey AI program: $250M tax break ($50M/yr x 5 years) for $1.8B, 250MW facility at former Merck campus. Critics note program lacks community benefits agreement requirements of older NJ incentive programs.",
+    "investment_usd": 1800000000,
+    "energy_mw": 250
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://legiscan.com/MD/bill/HB1411/2026",
+      "https://natureforward.org/data-center-bills-for-mdga2026/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "maryland-hb-1411-md-2026-03-10",
+    "jurisdiction": "Maryland (HB 1411 transparency act)",
+    "state": "MD",
+    "county": "Anne Arundel County",
+    "lat": 38.98,
+    "lng": -76.49,
+    "action_type": "legislation",
+    "date": "2026-03-10",
+    "status": "pending",
+    "summary": "Requires large data centers to report energy, water, and environmental impacts publicly. Mandates $1,000/MW payment into EmPOWER program for low-income Marylanders. Hearing March 10, 2026."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://mgaleg.maryland.gov/2026RS/bills/hb/hb1595f.pdf",
+      "https://natureforward.org/data-center-bills-for-mdga2026/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "maryland-hb-1595-sb-427-md-2026-02-15",
+    "jurisdiction": "Maryland (HB 1595/SB 427 property tax authority)",
+    "state": "MD",
+    "county": "Anne Arundel County",
+    "lat": 38.98,
+    "lng": -76.49,
+    "action_type": "legislation",
+    "date": "2026-02-15",
+    "status": "pending",
+    "summary": "Authorizes counties to establish special personal property tax rate for data centers up to 2.5x the real property rate. Allows localities to capture more revenue from data center equipment investments. Emerged from Frederick County's push for local taxing authority."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.fredericknewspost.com/news/continuing_coverage/data_centers/pippy-proposes-data-center-moratorium-bill-for-frederick-county/article_a31f3fc5-5c63-5255-9dae-2077932ea181.html"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "frederick-county-pippy-moratorium-md-2026-03-06",
+    "jurisdiction": "Frederick County (Pippy state moratorium bill)",
+    "state": "MD",
+    "county": "Frederick County",
+    "lat": 39.41,
+    "lng": -77.41,
+    "action_type": "legislation",
+    "date": "2026-03-06",
+    "status": "pending",
+    "summary": "House Minority Whip Jesse Pippy (R) proposed county-specific moratorium until statewide data center impact study completes (due Sept 1, 2026). Bipartisan effort supported by 13+ nonprofits. Parallel to citizen referendum petition drive (12,088 of ~15,000 signatures by early March, deadline March 20)."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.spotlightpa.org/news/2026/03/data-centers-josh-shapiro-permitting-water-energy-jobs-regulation-environment/",
+      "https://insideclimatenews.org/news/06022026/pennsylvania-governor-josh-shapiro-data-center-growth-consumer-protections/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "pennsylvania-shapiro-grid-pa-2026-02-04",
+    "jurisdiction": "Pennsylvania (Gov. Shapiro GRID standards)",
+    "state": "PA",
+    "county": "Dauphin County",
+    "lat": 40.27,
+    "lng": -76.89,
+    "action_type": "other",
+    "date": "2026-02-04",
+    "status": "active",
+    "summary": "Gov. Shapiro unveiled voluntary GRID (Responsible Infrastructure Development) standards: expedited permitting for developers who bring/pay for new power, meet environmental/water requirements, engage transparently with communities, and hire local workers. Represents pivot from 'All in on AI' to 'We need to be selective.' Critics note standards are voluntary."
   }
 ]

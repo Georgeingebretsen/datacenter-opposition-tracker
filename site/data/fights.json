@@ -13236,7 +13236,7 @@
     "lng": -100.3538,
     "action_type": "legislation",
     "date": "2026-01-26",
-    "status": "active",
+    "status": "enacted",
     "company": null,
     "hyperscaler": null,
     "project_name": "SB 135",
@@ -13253,7 +13253,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Data Center Bill of Rights for Citizens. Requires data centers (10+ MW peak) to cover all power demand costs including infrastructure. Prohibits state from overruling local government data center ordinances. Requires notification to local water providers. Passed House 60-7, enrolled and awaiting governor signature.",
+    "summary": "Data Center Bill of Rights for Citizens. Requires data centers (10+ MW peak) to cover all power demand costs including infrastructure. Prohibits state from overruling local government data center ordinances. Requires notification to local water providers. Passed House 60-7, enrolled and awaiting governor signature. Passed House 60-7, enrolled March 5, 2026.",
     "sources": [
       "https://legiscan.com/SD/bill/SB135/2026",
       "https://southdakotasearchlight.com/2026/02/20/data-center-regulation-bill-passes-state-senate-sans-tax-incentive-ban/"
@@ -21938,5 +21938,165 @@
     "status": "approved",
     "summary": "After council secretly approved $2.4B Project Liberty during a rare winter storm under NDA, residents packed subsequent meetings demanding transparency. Project listed on agenda only as 'Project Liberty' with no details.",
     "investment_usd": 2400000000
+  },
+  {
+    "scope": "federal",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.congress.gov/bill/119th-congress/house-bill/6984"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "federal-hr-6984-us-2026-01-01",
+    "jurisdiction": "Federal (HR 6984 Data Center Transparency Act)",
+    "state": "DC",
+    "county": "District of Columbia",
+    "lat": 38.91,
+    "lng": -77.04,
+    "action_type": "legislation",
+    "date": "2026-01-01",
+    "status": "pending",
+    "summary": "Menendez/Casar bill requiring EIA to collect energy consumption data from all US data centers and EPA to report emissions. Would establish first comprehensive federal data center environmental reporting requirements."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.legis.ga.gov/legislation/73559"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "georgia-hb-559-ga-2026-02-01",
+    "jurisdiction": "Georgia (HB 559 tax exemption sunset)",
+    "state": "GA",
+    "county": "Fulton County",
+    "lat": 33.75,
+    "lng": -84.39,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "summary": "Rep. Carson (R) bill to sunset Georgia's data center sales tax exemption to December 31, 2026, effectively ending the exemption program that has cost the state hundreds of millions in foregone revenue."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.legis.ga.gov/legislation/73808"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "georgia-sb-408-ga-2026-02-01",
+    "jurisdiction": "Georgia (SB 408 tax exemption sunset)",
+    "state": "GA",
+    "county": "Fulton County",
+    "lat": 33.75,
+    "lng": -84.39,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "summary": "Sen. Orrock (D) bill to sunset Georgia's data center tax exemption to January 1, 2027. Companion to bipartisan effort to end exemptions that have drawn criticism as communities bear costs of data center expansion."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.legis.iowa.gov/legislation/BillBook?ba=HF2001&ga=91"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "iowa-hf-2001-ia-2026-02-01",
+    "jurisdiction": "Iowa (HF 2001 water efficiency)",
+    "state": "IA",
+    "county": "Polk County",
+    "lat": 41.59,
+    "lng": -93.62,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "summary": "Establishes minimum water efficiency standards for data centers in Iowa. Part of growing concern over data center water consumption in agricultural communities reliant on groundwater."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "idaho-h-820-id-2026-02-01",
+    "jurisdiction": "Idaho (H 820 tax exemption reform)",
+    "state": "ID",
+    "county": "Ada County",
+    "lat": 43.62,
+    "lng": -116.2,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "summary": "Bipartisan reform: 20-year limit on data center tax exemptions (previously unlimited), narrowed exemption scope, full utility cost recovery requirement, and water usage notice requirements for local communities."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/HB756/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "idaho-hb-756-id-2026-01-01",
+    "jurisdiction": "Idaho (HB 756 no-harm test)",
+    "state": "ID",
+    "county": "Ada County",
+    "lat": 43.62,
+    "lng": -116.2,
+    "action_type": "legislation",
+    "date": "2026-01-01",
+    "status": "pending",
+    "summary": "Rep. Mickelsen's bill requiring PUC to prove that customers with 20+ MW demand won't raise rates for other ratepayers before approving service. Targets large data center loads."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.flsenate.gov/Session/Bill/2026/1517"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "florida-hb-1517-fl-2026-02-01",
+    "jurisdiction": "Florida (HB 1517 transparency act)",
+    "state": "FL",
+    "county": "Leon County",
+    "lat": 30.44,
+    "lng": -84.28,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "summary": "Florida Data Center Transparency Act requiring detailed environmental impact disclosures including energy consumption, water usage, emissions, and community impact assessments."
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.statenews.org/government-politics/2026-03-05/ohio-gop-leaders-plan-override-of-dewines-veto-restoring-data-center-tax-break"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "ohio-veto-override-oh-2026-03-01",
+    "jurisdiction": "Ohio (tax exemption veto override effort)",
+    "state": "OH",
+    "county": "Franklin County",
+    "lat": 39.96,
+    "lng": -82.99,
+    "action_type": "legislation",
+    "date": "2026-03-01",
+    "status": "active",
+    "summary": "Bipartisan effort to override Gov. DeWine's veto of data center sales tax exemption repeal. Current exemptions cost $141-200M/year in lost state revenue. Speaker Huffman pushing for vote before end of March. Needs 60 House + 20 Senate votes."
   }
 ]

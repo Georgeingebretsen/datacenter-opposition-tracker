@@ -348,7 +348,7 @@
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": 300,
-    "acreage": null,
+    "acreage": 55,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -369,7 +369,8 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "investment_usd": 1600000000
   },
   {
     "id": "santa-clara-ca-2024-03-06",
@@ -4609,7 +4610,7 @@
     "lng": -83.2141,
     "action_type": "moratorium",
     "date": "2025-09-03",
-    "status": "active",
+    "status": "expired",
     "company": "Amazon/AWS",
     "hyperscaler": "Amazon/AWS",
     "project_name": null,
@@ -8412,7 +8413,7 @@
     "lng": -83.8285,
     "action_type": "zoning_restriction",
     "date": "2025-11-26",
-    "status": "ongoing",
+    "status": "delayed",
     "company": "Amazon/AWS",
     "hyperscaler": "Amazon/AWS",
     "project_name": null,
@@ -8424,7 +8425,8 @@
     "jobs_promised": 100,
     "opposition_groups": [
       "Wilmington Residents for Responsible Development (WRFRD)",
-      "Wilmington Residents for Responsible Development (WRRD)"
+      "Wilmington Residents for Responsible Development (WRRD)",
+      "Wilmington Residents for Responsible Development"
     ],
     "opposition_website": "https://wilmingtondatacenter.org/",
     "opposition_facebook": null,
@@ -8454,7 +8456,8 @@
     "last_updated": "2026-03-05",
     "opposition_facebook_members": null,
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 4000000000
   },
   {
     "id": "hogansville-troup-county-ga-2025-11-26",
@@ -9983,7 +9986,7 @@
     "action_type": "other",
     "date": "2025-12-18",
     "status": "ongoing",
-    "company": "Franklin Lowell LLC",
+    "company": "Microsoft",
     "hyperscaler": "Microsoft",
     "project_name": null,
     "investment_million_usd": 1000,
@@ -10311,7 +10314,8 @@
     "data_source": "dcw",
     "last_updated": "2026-03-06",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "water_gallons_per_day": 3600000
   },
   {
     "id": "luther-ok-2026-01-01",
@@ -12844,7 +12848,9 @@
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 750000000,
+    "water_gallons_per_day": 500000
   },
   {
     "id": "south-whitehall-township-pa-2026-01-20",
@@ -13907,7 +13913,8 @@
     "last_updated": "2026-03-05",
     "opposition_facebook_members": 679,
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 1300
   },
   {
     "id": "champaign-county-oh-2026-02-01",
@@ -14322,7 +14329,9 @@
     "petition_url": null,
     "petition_signatures": null,
     "summary": "Saugatuck Township in Allegan County passed a resolution enacting a moratorium on data center development in February 2026.",
-    "sources": [],
+    "sources": [
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
+    ],
     "data_source": "ssrn_moratorium_nation",
     "last_updated": "2026-03-09",
     "scope": "local",
@@ -17904,7 +17913,8 @@
     "data_source": "news",
     "last_updated": "2026-03-05",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 2000000000
   },
   {
     "id": "cobb-county-ga-2026-02-24",
@@ -20848,7 +20858,8 @@
     "action_type": "moratorium",
     "date": "2026-03-02",
     "status": "active",
-    "summary": "Trustees unanimously passed 12-month moratorium on data centers and small modular nuclear reactors. Second Adams County township to do so. Near former Killen power plant."
+    "summary": "Trustees unanimously passed 12-month moratorium on data centers and small modular nuclear reactors. Second Adams County township to do so. Near former Killen power plant.",
+    "energy_mw": 650
   },
   {
     "scope": "local",
@@ -20857,7 +20868,7 @@
     "sources": [
       "https://www.foodandwaterwatch.org/2026/02/26/sprigg-township-oh-passes-data-center-moratorium/"
     ],
-    "company": "",
+    "company": "68 Yards LLC",
     "hyperscaler": "",
     "id": "sprigg-township-adams-county-oh-2026-02-26",
     "jurisdiction": "Sprigg Township (Adams County)",
@@ -20866,9 +20877,10 @@
     "lat": 38.73,
     "lng": -83.38,
     "action_type": "moratorium",
-    "date": "2026-02-26",
+    "date": "2026-02-24",
     "status": "active",
-    "summary": "Home of the former Stuart power plant, passed one-year voluntary moratorium on data centers. Area targeted for massive data center requiring 1,300 MW \u2014 31x the county's current usage."
+    "summary": "Home of the former Stuart power plant, passed one-year voluntary moratorium on data centers. Area targeted for massive data center requiring 1,300 MW \u2014 31x the county's current usage.",
+    "energy_mw": 1300
   },
   {
     "scope": "local",
@@ -20929,7 +20941,9 @@
     "action_type": "other",
     "date": "2026-03-07",
     "status": "ongoing",
-    "summary": "Opposition organizing against data center with 115 diesel-fired generators and 36 cooling towers, emitting 236 tons/year of nitrogen oxides. Ohio EPA public hearing set. Buckeye Environmental Network leading opposition."
+    "summary": "Opposition organizing against data center with 115 diesel-fired generators and 36 cooling towers, emitting 236 tons/year of nitrogen oxides. Ohio EPA public hearing set. Buckeye Environmental Network leading opposition.",
+    "acreage": 170,
+    "investment_usd": 500000000
   },
   {
     "scope": "local",
@@ -21707,5 +21721,222 @@
     "date": "2026-02-26",
     "status": "active",
     "summary": "Township Board voted unanimously for 6-month moratorium on data center permits. Preemptive action \u2014 no proposal pending. Created subcommittee to study zoning amendments."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.crainsgrandrapids.com/news/economic-development/microsoft-faces-the-public-as-it-pursues-two-grand-rapids-area-data-center-projects/",
+      "https://www.woodtv.com/news/kent-county/gaines-township-planning-commission-to-hold-hearing-on-data-center-rezoning/"
+    ],
+    "company": "Microsoft",
+    "hyperscaler": "Microsoft",
+    "id": "gaines-township-mi-2026-03-03",
+    "jurisdiction": "Gaines Charter Township",
+    "state": "MI",
+    "county": "Kent County",
+    "lat": 42.87,
+    "lng": -85.6,
+    "action_type": "other",
+    "date": "2026-03-03",
+    "status": "ongoing",
+    "summary": "Microsoft seeking to rezone 356 acres (purchased from Steelcase for $45.3M) for data center. Dec 2025 hearing canceled when 250+ overflowed venue. Microsoft terminated NDAs with Gaines and 3 other West MI communities in March 2026. Planning Commission hearing expected April.",
+    "acreage": 356
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.wusf.org/politics-issues/2026-02-26/florida-senate-unanimously-passes-restrictions-large-scale-data-centers",
+      "https://www.flsenate.gov/Session/Bill/2026/484"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "florida-sb-484-fl-2026-02-26",
+    "jurisdiction": "Florida (SB 484 data center regulation)",
+    "state": "FL",
+    "county": "Leon County",
+    "lat": 30.44,
+    "lng": -84.28,
+    "action_type": "legislation",
+    "date": "2026-02-26",
+    "status": "pending",
+    "summary": "Senate unanimously passed SB 484 establishing comprehensive regulatory framework for hyperscale data centers. Requires PSC tariffs for 50+ MW customers, prevents cost-shifting to ratepayers, bans state agency NDAs restricting disclosure, mandates reclaimed water use, preserves local land use control."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [
+      "https://www.covnews.com/news/county/newton-county-enacts-moratoriums-data-centers-convenience-stores/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "newton-county-moratorium-ga-2026-01-20",
+    "jurisdiction": "Newton County (moratorium)",
+    "state": "GA",
+    "county": "Newton County",
+    "lat": 33.56,
+    "lng": -83.86,
+    "action_type": "moratorium",
+    "date": "2026-01-20",
+    "status": "active",
+    "summary": "Board of Commissioners unanimously enacted 30-day moratorium on data center applications. Existing ordinance limits DCs to Stanton Springs overlay, but development creeping into incorporated areas."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.13wmaz.com/article/news/local/forsyth-monroe/monroe-county-passes-data-center-moratorium-will-review-potential-limitations/93-195cbb55-5a2a-4f29-879f-c0f3f859aef2"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "id": "monroe-county-moratorium-ga-2025-12-01",
+    "jurisdiction": "Monroe County (moratorium)",
+    "state": "GA",
+    "county": "Monroe County",
+    "lat": 33.02,
+    "lng": -83.92,
+    "action_type": "moratorium",
+    "date": "2025-12-01",
+    "status": "active",
+    "summary": "Monroe County commissioners passed moratorium on new data center applications while developing zoning restrictions. Set to be lifted at first March 2026 commission meeting."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.cnbc.com/2026/03/10/elon-musk-xai-permit-for-mississippi-plant-despite-pollution-concerns.html",
+      "https://naacp.org/articles/naacp-demands-mississippi-regulators-reschedule-data-center-permit-hearing"
+    ],
+    "company": "xAI / MZX Tech LLC",
+    "hyperscaler": "",
+    "id": "southaven-xai-permit-ms-2026-03-10",
+    "jurisdiction": "Southaven (xAI air permit approval)",
+    "state": "MS",
+    "county": "DeSoto County",
+    "lat": 34.97,
+    "lng": -89.98,
+    "action_type": "other",
+    "date": "2026-03-10",
+    "status": "approved",
+    "summary": "MDEQ Permit Board granted air permit for 41 gas turbines powering Colossus 2 despite 300+ opponents at Feb hearing. NAACP protested hearing scheduled on Election Day with 5 days notice. 27 turbines already operating without permit. NAACP/SELC say permit violates federal law.",
+    "energy_mw": 2000,
+    "acreage": 105
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.mississippifreepress.org/amazons-canton-data-center-promises-prosperity-for-neighbors-its-bringing-dust-noise-and-pollution-fears/"
+    ],
+    "company": "Amazon/AWS",
+    "hyperscaler": "Amazon",
+    "id": "canton-amazon-idlebriar-ms-2026-02-19",
+    "jurisdiction": "Canton / Idlebriar (Amazon impacts)",
+    "state": "MS",
+    "county": "Madison County",
+    "lat": 32.61,
+    "lng": -90.04,
+    "action_type": "other",
+    "date": "2026-02-19",
+    "status": "ongoing",
+    "summary": "Amazon's $10B data center complex (5 buildings operational, 7 under construction on 1,000+ acres) generating neighborhood opposition. Idlebriar residents report dust causing asthma in children, construction traffic. MDEQ permits show 240 tons/yr NOx (9x Nissan plant) from 700+ diesel generators.",
+    "investment_usd": 10000000000,
+    "acreage": 1000
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal",
+      "https://lailluminator.com/2026/02/27/no-investigation-of-data-center-ownership-transfer/"
+    ],
+    "company": "Meta",
+    "hyperscaler": "Meta",
+    "id": "louisiana-psc-meta-financing-la-2026-02-27",
+    "jurisdiction": "Louisiana (PSC Meta financing investigation)",
+    "state": "LA",
+    "county": "East Baton Rouge Parish",
+    "lat": 30.45,
+    "lng": -91.19,
+    "action_type": "other",
+    "date": "2026-02-27",
+    "status": "ongoing",
+    "summary": "LA PSC refused to investigate Meta's sale of 80% of $27B Richland Parish data center to Blue Owl Capital, creating 'Beignet' holding company with only a 4-year lease. Earthjustice/UCS warned ratepayers could be stuck paying for 3 new Entergy gas plants if Meta exits. Meta signed 'Ratepayer Protection Pledge' March 4.",
+    "investment_usd": 27000000000
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.foxcarolina.com/2026/02/27/company-withdraws-ai-data-center-spartanburg-county-consideration/",
+      "https://www.datacenterdynamics.com/en/news/tigerdc-pulls-planned-data-center-project-from-south-carolina-county-after-officials-deny-tax-deal/"
+    ],
+    "company": "TigerDC",
+    "hyperscaler": "",
+    "id": "spartanburg-tigerdc-withdrawal-sc-2026-02-27",
+    "jurisdiction": "Spartanburg County (TigerDC withdrawal)",
+    "state": "SC",
+    "county": "Spartanburg County",
+    "lat": 34.95,
+    "lng": -81.93,
+    "action_type": "other",
+    "date": "2026-02-27",
+    "status": "cancelled",
+    "summary": "TigerDC formally withdrew $3B Project Spero after council denied tax incentives amid sustained opposition. 'No Data Centers in Spartanburg' Facebook group gained ~3,000 members; petition reached ~4,000 signatures. Concerns included brownouts, water consumption, environmental impacts.",
+    "investment_usd": 3000000000,
+    "petition_signatures": 4000
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center"
+    ],
+    "company": "Hut 8",
+    "hyperscaler": "",
+    "id": "west-feliciana-hut8-la-2026-02-01",
+    "jurisdiction": "West Feliciana Parish",
+    "state": "LA",
+    "county": "West Feliciana Parish",
+    "lat": 30.83,
+    "lng": -91.42,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "approved",
+    "summary": "Hut 8's $10B River Bend AI data center campus received zoning approval. Phase I: 245 MW facility, operations expected Q2 2027. Near decommissioned River Bend Nuclear Station. 75 direct + 193 indirect jobs.",
+    "investment_usd": 10000000000,
+    "energy_mw": 245
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [
+      "https://capitalbnews.org/secret-data-center-deal-marion-county-south-carolina/",
+      "https://wpde.com/news/local/marion-county-residents-pack-council-meeting-to-oppose-data-center-demand-more-details-stream-data-centers-artificial-intelligence-digital-benefits-construction-hearing"
+    ],
+    "company": "Stream Data Centers",
+    "hyperscaler": "",
+    "id": "marion-county-backlash-sc-2026-02-01",
+    "jurisdiction": "Marion County (post-approval backlash)",
+    "state": "SC",
+    "county": "Marion County",
+    "lat": 34.18,
+    "lng": -79.4,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "approved",
+    "summary": "After council secretly approved $2.4B Project Liberty during a rare winter storm under NDA, residents packed subsequent meetings demanding transparency. Project listed on agenda only as 'Project Liberty' with no details.",
+    "investment_usd": 2400000000
   }
 ]

@@ -6687,7 +6687,7 @@
       "https://calmatters.org/environment/2025/12/data-center-energy-study-california/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-14",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "SB 57 - Data Center Energy Study",
@@ -11795,7 +11795,7 @@
       "https://calmatters.org/environment/2025/12/data-center-energy-study-california/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-14",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "AB 1577 - Data Center Monthly Reporting",
@@ -14297,7 +14297,7 @@
     ],
     "bill_name": "HB 2756",
     "bill_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2756P.pdf",
-    "last_updated": "2026-02-01",
+    "last_updated": "2026-03-14",
     "lat": 33.4484,
     "lng": -112.074,
     "opposition_groups": []
@@ -17274,7 +17274,8 @@
     "last_updated": "2026-03-14",
     "scope": "statewide",
     "county_lean": "D",
-    "bill_name": "SB 1586 - Hillsboro UGB Expansion"
+    "bill_name": "SB 1586 - Hillsboro UGB Expansion",
+    "bill_url": "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/SB1586"
   },
   {
     "id": "southaven-ms-2026-02-18",
@@ -21488,7 +21489,9 @@
     "date": "2026-01-01",
     "status": "pending",
     "summary": "Would repeal Arizona's data center sales and use tax exemption program, which cost the state ~$38.5M in fiscal year 2025. Companies currently receive exemptions for spending $50M+ (Maricopa/Pima) or $25M+ (other counties) on data center construction.",
-    "bill_name": "SB 1463 - Data Center Tax Incentive Repeal"
+    "bill_name": "SB 1463 - Data Center Tax Incentive Repeal",
+    "bill_url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1463P.htm",
+    "last_updated": "2026-03-14"
   },
   {
     "scope": "statewide",
@@ -22077,7 +22080,8 @@
     "status": "enacted",
     "summary": "Revises data center sales tax and property tax exemptions. Requires qualifying businesses to receive electricity under rate schedules that fully recover all utility costs. Mandates written notice to local water providers and Department of Water Resources detailing anticipated water consumption needs.",
     "bill_name": "H 820 - Data Center Tax Exemption Reform",
-    "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/"
+    "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/",
+    "last_updated": "2026-03-14"
   },
   {
     "scope": "statewide",
@@ -22099,7 +22103,8 @@
     "status": "pending",
     "summary": "Addresses state tax incentives for data centers created by House Bill 521 in 2020. Part of legislative efforts to rein in data center tax exemptions and curb impact on power and water resources.",
     "bill_name": "HB 756 - Data Center Regulation",
-    "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0756/"
+    "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0756/",
+    "last_updated": "2026-03-14"
   },
   {
     "scope": "statewide",
@@ -22589,7 +22594,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://earthjustice.org/press/2026/groups-challenge-montana-psc-order-that-shields-data-center-plans-from-public-view"
+      "https://earthjustice.org/press/2026/groups-challenge-montana-psc-order-that-shields-data-center-plans-from-public-view",
+      "https://dailymontanan.com/2026/03/13/public-service-commission-cant-keep-data-center-information-secret-says-group/"
     ],
     "company": "NorthWestern Energy",
     "hyperscaler": "",
@@ -22613,7 +22619,8 @@
     "date": "2026-03-11",
     "status": "ongoing",
     "bill_name": "PSC Protective Order Challenge",
-    "summary": "Earthjustice and seven community/conservation organizations challenged a Montana PSC protective order shielding NorthWestern Energy's letters of intent to provide electricity service to data centers from public view. Groups argue the order unconstitutionally shifted the burden of proof to the public and exceeded PSC's legal authority. PSC granted the order in December after NorthWestern filed in September."
+    "summary": "Earthjustice and seven community/conservation organizations challenged a Montana PSC protective order shielding NorthWestern Energy's letters of intent to provide electricity service to data centers from public view. Groups argue the order unconstitutionally shifted the burden of proof to the public and exceeded PSC's legal authority. PSC granted the order in December after NorthWestern filed in September.",
+    "last_updated": "2026-03-14"
   },
   {
     "scope": "local",
@@ -25395,34 +25402,6 @@
     "summary": "Millard County Commission approved rezoning of 4,400+ acres from agricultural to forest/range for Creekstone Energy solar farm to power AI data centers, despite resident opposition. Concerns about ruining land's multipurpose use, visual impact, and long-term consequences."
   },
   {
-    "scope": "statewide",
-    "data_source": "agent_research",
-    "county_lean": "",
-    "sources": [
-      "https://dailymontanan.com/2026/03/13/public-service-commission-cant-keep-data-center-information-secret-says-group/"
-    ],
-    "company": "",
-    "hyperscaler": "",
-    "energy_mw": null,
-    "investment_usd": null,
-    "acreage": null,
-    "water_gallons_per_day": null,
-    "petition_signatures": null,
-    "opposition_groups": [],
-    "opposition_facebook_members": null,
-    "id": "montana-psc-transparency-2026-02",
-    "jurisdiction": "Montana",
-    "state": "MT",
-    "county": "",
-    "lat": 46.5884,
-    "lng": -112.0245,
-    "action_type": "legislation",
-    "date": "2026-02-05",
-    "status": "pending",
-    "bill_name": "Montana PSC Data Center Transparency Push",
-    "summary": "Legislative push for transparency in NorthWestern Energy's data center agreements. The PSC requested additional information on data center customers mentioned in utility press releases, triggering NorthWestern's protective order filing. Eleven data center developers reportedly in talks with NorthWestern."
-  },
-  {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "D",
@@ -25481,7 +25460,8 @@
     "status": "active",
     "bill_name": "HB 2795 - SMR Local Preemption",
     "bill_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2795P.htm",
-    "summary": "Prohibits counties (<500K pop) from denying zoning approval for small modular reactors after federal design certification and site permitting. Allows SMR construction colocated with large industrial users (data centers) without ACC environmental compatibility certificate. Cleared House on party-line vote Feb 26, advancing to Senate. Gov. Hobbs vetoed similar bill in 2025."
+    "summary": "Prohibits counties (<500K pop) from denying zoning approval for small modular reactors after federal design certification and site permitting. Allows SMR construction colocated with large industrial users (data centers) without ACC environmental compatibility certificate. Cleared House on party-line vote Feb 26, advancing to Senate. Gov. Hobbs vetoed similar bill in 2025.",
+    "last_updated": "2026-03-14"
   },
   {
     "scope": "local",
@@ -28661,5 +28641,85 @@
     "last_updated": "2026-03-14",
     "scope": "local",
     "county_lean": "D"
+  },
+  {
+    "id": "california-sb-978-ca-2026-02-21",
+    "jurisdiction": "California (SB 978)",
+    "state": "CA",
+    "county": null,
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "action_type": "legislation",
+    "date": "2025-02-21",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "SB 978 - Large-Scale Energy Facilities: Labor: Electricity Rates",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB978",
+    "summary": "Establishes regulations for large-scale energy users (75+ MW facilities). Requires the CPUC to create special rate structures ensuring these users cover infrastructure upgrade costs and cannot shift expenses to other customers. Mandates prevailing wage construction standards.",
+    "sources": [
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB978"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-14"
+  },
+  {
+    "id": "california-sb-887-ca-2026-01-13",
+    "jurisdiction": "California (SB 887)",
+    "state": "CA",
+    "county": null,
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "action_type": "legislation",
+    "date": "2026-01-13",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "SB 887 - CEQA: Data Centers",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB887",
+    "summary": "Removes CEQA exemptions for data centers. Allows gubernatorial certification as 'environmental leadership' projects only if they pay full interconnection costs, achieve 100% zero-carbon electricity within 5 years, and implement water-efficient cooling.",
+    "sources": [
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB887"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-14"
+  },
+  {
+    "id": "california-sb-1168-ca-2026-02-18",
+    "jurisdiction": "California (SB 1168)",
+    "state": "CA",
+    "county": null,
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "action_type": "legislation",
+    "date": "2026-02-18",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "SB 1168 - Data Centers: Natural Gas and Electricity Surcharges",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1168",
+    "summary": "Imposes surcharges on natural gas and electricity consumed by data centers (20+ MW). Revenue funds low-income rate assistance programs (CARE/FERA).",
+    "sources": [
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1168"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-14"
+  },
+  {
+    "id": "california-ab-2619-ca-2026-02-20",
+    "jurisdiction": "California (AB 2619)",
+    "state": "CA",
+    "county": null,
+    "lat": 38.5816,
+    "lng": -121.4944,
+    "action_type": "legislation",
+    "date": "2026-02-20",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "AB 2619 - Water Resources: Data Centers",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2619",
+    "summary": "Comprehensive water reporting requirements with three data center size categories (hyperscale >25 MW, mid-range 2-25 MW, small <2 MW). Requires water consumption disclosure before business license issuance. DWR/CEC must develop best practices by January 2029.",
+    "sources": [
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2619"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-14"
   }
 ]

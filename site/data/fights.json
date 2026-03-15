@@ -1196,14 +1196,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "HB 1579 (Rep. Anna Novak) puts large electricity users (50+ MW) under a state siting process similar to power plants and transmission lines. Initially targeted data centers specifically. Passed the House 89-3 despite opposition from utilities and data center industry.",
+    "summary": "Originally introduced to create a state siting process for large electricity users (50+ MW). Significantly amended \u2014 siting process stripped and replaced with mandate for interim legislative study on impact of large energy consumers on the state's electrical grid. Passed House 89-3, Senate 46-0. Signed April 28, 2025.",
     "sources": [
       "https://www.grandforksherald.com/news/north-dakota/utilities-push-back-on-proposed-regulations-for-big-north-dakota-power-users-data-centers"
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "HB 1579",
+    "bill_url": "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1579.html?bill_year=2025&bill_number=1579"
   },
   {
     "id": "abilene-tx-2025-01-21",
@@ -2581,14 +2583,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Comprehensive data center regulation enacted during 2025 special session. Defines 'qualified large-scale data centers' (100+ MW). Requires separate water-use permits for 100M+ gallons/year. Imposes $2M-$5M annual fees. Eliminates electricity sales tax exemption but extends IT equipment exemption from 20 to 35 years.",
+    "summary": "Comprehensive data center regulation. Defines 'qualified large-scale data centers' (25,000+ sq ft, $250M+ investment). Eliminates electricity sales tax exemption. Extends IT equipment exemption from 20 to 35 years. Imposes $2M-$5M annual fees based on peak electrical demand. Requires prevailing wages. Passed House 85-43, Senate 40-26.",
     "sources": [
       "https://www.house.mn.gov/sessiondaily/Story/18838"
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "HF 16 (Data Center Regulation Act)",
+    "bill_url": "https://www.revisor.mn.gov/bills/94/2025/1/HF/16/?body=house"
   },
   {
     "id": "chesapeake-va-2025-06-17",
@@ -6657,7 +6661,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 57 (Sen. Padilla, D-San Diego) directs the CPUC to study whether data center electricity demand growth shifts costs to other ratepayers. Assessment due January 1, 2027. The only CA data center bill Governor Newsom signed in 2025; he vetoed AB 93 (water reporting).",
+    "summary": "Directs CPUC to assess whether investor-owned utility costs from new data center loads result in cost shifts to other retail customers. Report due to Legislature by January 1, 2027. Signed by Governor Oct 11, 2025 (Chapter 647, Statutes of 2025). Study-only approach; earlier prescriptive provisions were removed.",
     "sources": [
       "https://sd18.senate.ca.gov/news/legislation-protect-california-ratepayers-paying-data-centers-energy-costs-signed-law",
       "https://calmatters.org/environment/2025/12/data-center-energy-study-california/"
@@ -6665,7 +6669,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "SB 57 - Data Center Energy Study",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB57"
   },
   {
     "id": "meade-county-ky-2025-10-14",
@@ -6839,7 +6845,7 @@
     "lng": -74.756,
     "action_type": "legislation",
     "date": "2025-10-20",
-    "status": "pending",
+    "status": "defeated",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -6856,7 +6862,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Governor Murphy conditionally vetoed A5462/S4143 requiring data centers to report water and electricity use and directing BPU to study ratepayer subsidies. Murphy asked for additional tariff provisions. Legislature's Energy committees approved revised bill in Feb 2026.",
+    "summary": "Directs utilities to file a new tariff for large load customers (100+ MW/month) with the BPU. Gov. Murphy pocket-vetoed before leaving office in Jan. 2026. Reintroduced in new session as S731/A796.",
     "sources": [
       "https://newjerseymonitor.com/2025/10/20/governor-data-centers-veto/",
       "https://njbia.org/bill-to-impose-tariffs-on-data-centers-pocket-vetoed-by-murphy/"
@@ -6864,7 +6870,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "A5462 / S4307 - Large Load Customer Tariff",
+    "bill_url": "https://www.njleg.state.nj.us/bill-search/2024/A5462"
   },
   {
     "id": "logan-county-co-2025-10-01",
@@ -9882,7 +9890,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Maryland General Assembly overrode Governor Moore's veto during a December 16 special session, enacting a law requiring a comprehensive environmental and economic analysis of data center expansion. Report due September 2026, to be created by MDE, Maryland Energy Administration, and UMD.",
+    "summary": "Maryland General Assembly overrode Gov. Moore's veto (Senate 44-0, House 111-24) enacting a law requiring a comprehensive environmental and economic analysis of data center expansion. Report due September 2026, produced by MDE, Maryland Energy Administration, and UMD School of Business.",
     "sources": [
       "https://marylandmatters.org/2025/12/16/general-assembly-climate-veto-overrides/",
       "https://technical.ly/civics/maryland-data-center-impact-study-veto-override/"
@@ -9890,7 +9898,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "HB 270 / SB 116 - Data Center Impact Analysis",
+    "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0116?ys=2025RS"
   },
   {
     "id": "gates-county-nc-2025-12-17",
@@ -10114,7 +10124,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "LPSC adopted a fast-track process for utility companies building power infrastructure for data centers. Data centers cover only 50% of costs; ratepayers pay the rest. Passed 4-1 (Commissioner Davante Lewis opposed). Critics warn it could shift billions in costs to ratepayers.",
+    "summary": "Shortens review process for large-load electricity connections to 8 months. Allows utilities to bypass least-cost power demonstration requirements. Requires 15-year electric service agreement, proof of additional capacity need, payment of at least 50% of new infrastructure costs, and LED letter of support. Critics say ratepayers could cover up to 75% of data center infrastructure costs.",
     "sources": [
       "https://thelensnola.org/2026/02/18/louisiana-lightning-amendment-ai-data-centers-ratepayer-costs/",
       "https://lailluminator.com/2025/12/19/electricity-data-centers/"
@@ -10122,7 +10132,8 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "LPSC Lightning Amendment"
   },
   {
     "id": "hidalgo-county-tx-2025-12-22",
@@ -10984,7 +10995,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 6231 eliminates sales tax exemption for refurbishing/replacing existing data center equipment, effective July 1, 2026. Passed the Legislature on March 12, 2026 (final day of session) and delivered to the Governor. Estimated to generate $140M+ per biennium. Preserves tax benefits for new facility equipment. Industry called it a 'self-inflicted hit to the state's economy.'",
+    "summary": "Repeals the retail sales and use tax exemption for refurbishment of existing computer data centers. Makes purchases of replacement server equipment ineligible for exemption. Preserves tax benefits for new facilities. Expected to bring in $140M+ every two years. Enrolled March 13, 2026.",
     "sources": [
       "https://www.opb.org/article/2026/03/07/data-center-tax-zapped-washington-legislature/",
       "https://www.geekwire.com/2026/big-tech-dodged-washington-states-data-center-rules-but-didnt-escape-a-sales-tax-bill/",
@@ -10993,7 +11004,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-14",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "SB 6231 - Data Center Tax Exemption Repeal",
+    "bill_url": "https://legiscan.com/WA/bill/SB6231/2025"
   },
   {
     "id": "maryland-hb-560-md-2026-01-01",
@@ -11021,7 +11034,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "HB 560 repeals counties' authority to exempt data center equipment from local property tax and repeals the state sales/use tax exemption for data center property. The existing program cost $22M in its first four years ($11M in 2024 alone).",
+    "summary": "Repeals the state sales/use tax exemption for data center property and eliminates county authority to reduce or eliminate property tax on data center equipment.",
     "sources": [
       "https://stateline.org/2026/02/24/data-center-tax-breaks-are-on-the-chopping-block-in-some-states/",
       "https://www.datacenterdynamics.com/en/news/legislation-introduced-to-end-data-center-tax-breaks-in-maryland-and-arizona/"
@@ -11029,7 +11042,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "HB 560 - Data Center Tax Exemptions Repeal",
+    "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0560?ys=2026RS"
   },
   {
     "id": "virginia-sb-619-va-2026-01-01",
@@ -11057,7 +11072,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 619 (Sen. Srinivasan, D-Loudoun) and companion HB 155 (Del. Thomas) would require SCC certificate for high-load facilities (90+/25+ MW). SB 619 passed the Senate but both bills were tabled in House subcommittee. Would have required showing no adverse impact on rates, environment, and public health.",
+    "summary": "Requires SCC certificate before data centers over 90 MW can operate. SCC issues certificate only if facility has no material adverse effect on other customers' rates, reliability, or utility's ability to meet environmental laws. Passed Senate 23-16 but House subcommittee tabled it.",
     "sources": [
       "https://www.vpm.org/generalassembly/2026-03-06/va-srinivasan-thomas-sb619-hb155-data-centers-review-heuf",
       "https://virginiamercury.com/2026/03/06/general-assembly-nixes-bills-that-required-data-centers-to-get-scc-certificate/"
@@ -11065,42 +11080,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
-  },
-  {
-    "id": "rhode-island-h-7331-ri-2026-01-01",
-    "jurisdiction": "Rhode Island (H 7331)",
-    "state": "RI",
-    "county": null,
-    "lat": 41.824,
-    "lng": -71.413,
-    "action_type": "legislation",
-    "date": "2026-01-01",
-    "status": "pending",
-    "company": null,
-    "hyperscaler": null,
-    "project_name": null,
-    "investment_million_usd": null,
-    "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
-    "opposition_instagram": null,
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "H 7331 (Rep. Kennedy) requires data centers over 50 MW to cover all electricity infrastructure costs, use closed-loop water cooling, report annual water usage to DEM, and provide financial assurance for site restoration.",
-    "sources": [
-      "https://pbn.com/kennedy-introduces-legislation-to-regulate-data-centers-in-r-i/"
-    ],
-    "data_source": "agent_research",
-    "last_updated": "2026-03-09",
-    "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "SB 619 - High-Load Facility SCC Certificate",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB619"
   },
   {
     "id": "laramie-county-wy-2026-01-06",
@@ -11479,7 +11461,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Sen. Tom Cotton (R-AR) introduced the DATA Act creating 'consumer-regulated electric utilities' \u2014 allowing data centers to build off-grid power plants exempt from FERC/DOE regulation. Framed as protecting ratepayers while enabling AI buildout.",
+    "summary": "Amends the Federal Power Act to create 'consumer-regulated electric utilities' (CREUs) \u2014 data centers that build their own power generation fully isolated from the grid would be exempt from FERC rate regulation, reliability standards, interconnection rules, and merger approval.",
     "sources": [
       "https://www.cotton.senate.gov/news/press-releases/cotton-introduces-bill-to-lower-energy-costs-for-arkansans",
       "https://www.utilitydive.com/news/senate-bill-exempts-fully-isolated-large-loads-from-ferc-doe-regulation/809330/"
@@ -11487,7 +11469,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "federal",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "S. 3585 - DATA Act of 2026",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3585"
   },
   {
     "id": "milam-county-tx-2024-12-01",
@@ -11755,7 +11739,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "AB 1577, introduced by Asm. Bauer-Kahan in January 2026, requires monthly reporting by data centers to the State Energy Resources Conservation and Development Commission. Note: This is a transparency/reporting bill, not a moratorium on construction.",
+    "summary": "Requires data center owners to submit monthly reports to the State Energy Commission on energy and water consumption. Prohibits disclosure of personally identifiable information or energy data for specific utility customers. Introduced by Assemblymember Bauer-Kahan.",
     "sources": [
       "https://legiscan.com/CA/text/AB1577/id/3306901",
       "https://calmatters.org/environment/2025/12/data-center-energy-study-california/"
@@ -11763,7 +11747,9 @@
     "data_source": "ssrn_moratorium_nation",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "AB 1577 - Data Center Monthly Reporting",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1577"
   },
   {
     "id": "village-of-greenleaf-wi-2026-01-13",
@@ -12050,7 +12036,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "HB 4583 (Data Center Responsibility Act) requires data centers to use closed-loop water/liquid cooling with zero net water withdrawal and zero wastewater discharge. Prohibits extraction of groundwater or municipal water for cooling.",
+    "summary": "Mandates data centers use closed-loop cooling systems with zero net water withdrawal and zero wastewater discharge. Prohibits data centers from extracting groundwater or using municipal water for cooling.",
     "sources": [
       "https://www.scstatehouse.gov/sess126_2025-2026/bills/4583.htm",
       "https://www.multistate.us/insider/2026/3/3/state-data-center-water-usage-legislation-gains-momentum-in-2025"
@@ -12058,7 +12044,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "HB 4583 - Data Center Responsibility Act",
+    "bill_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4583.htm"
   },
   {
     "id": "maryland-statewide-hb-120-md-2026-01-01",
@@ -12110,7 +12098,7 @@
     "lng": -105.9378,
     "action_type": "legislation",
     "date": "2026-01-14",
-    "status": "defeated",
+    "status": "active",
     "company": "Project Jupiter (Dona Ana County data center development)",
     "hyperscaler": null,
     "project_name": "Steinborn Microgrid Regulation Bill",
@@ -12127,7 +12115,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 235 (Microgrid Oversight Act) requires the Public Regulation Commission to develop rules for any microgrid producing more than 20 MW, grants regulators oversight over approval and operation of microgrids, and requires proof of ability to meet state renewable energy standards for microgrids coming online after May 2026. Annual reports required after 2027 detailing power generation, water usage, and compliance. Largely driven by concerns about Project Jupiter in Dona Ana County, which proposed self-reliant 'microgrids' to power multi-billion dollar data centers.",
+    "summary": "SB 235 (Microgrid Oversight Act) requires the Public Regulation Commission to develop rules for any microgrid producing more than 20 MW, grants regulators oversight over approval and operation of microgrids, and requires proof of ability to meet state renewable energy standards for microgrids coming online after May 2026. Annual reports required after 2027 detailing power generation, water usage, and compliance. Largely driven by concerns about Project Jupiter in Dona Ana County, which proposed self-reliant 'microgrids' to power multi-billion dollar data centers. Passed NM Senate 22-20.",
     "sources": [
       "https://sourcenm.com/2026/01/14/nm-lawmaker-proposes-more-oversight-regulations-for-data-center-microgrids/",
       "https://sourcenm.com/2025/12/05/data-center-project-jupiters-greenhouse-gas-emissions-could-rival-nms-largest-cities/",
@@ -12573,7 +12561,7 @@
     "lng": -71.3162,
     "action_type": "moratorium",
     "date": "2026-01-16",
-    "status": "active",
+    "status": "enacted",
     "company": "Markley Group",
     "hyperscaler": null,
     "project_name": "Markley Data Center",
@@ -13693,7 +13681,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "S 867 (Data Center Development Act) creates a tiered permitting system: Tier 1 (1-10 MW, 60-day review), Tier 2 (11-50 MW, 90-day), Tier 3 (50+ MW, 120-day comprehensive). Requires data centers to pay full infrastructure costs via upfront contributions.",
+    "summary": "Creates Data Center Development Office. Establishes tiered permitting system (Tier 1: 1-10 MW; Tier 2: 11-50 MW; Tier 3: 50+ MW). Requires data centers to pay full infrastructure costs. Mandates water efficiency, noise controls, buffer zones, and decommissioning plans.",
     "sources": [
       "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm",
       "https://www.fitsnews.com/2026/01/30/fitsforum-data-center-development-act-is-a-balanced-path-forward/"
@@ -13701,7 +13689,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "S 867 - Data Center Development Act",
+    "bill_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm"
   },
   {
     "id": "sangamon-county-il-2026-02-01",
@@ -14373,14 +14363,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 4004 (Sen. Chapin Rose, R-Mahomet) would permanently ban data centers from using Mahomet Aquifer groundwater, which serves as sole-source drinking water for ~1 million people across 14 counties. Requires transparency in water usage, prohibits NDAs hiding resource consumption.",
+    "summary": "Would permanently ban data centers from using Mahomet Aquifer groundwater, the sole-source drinking water for ~1 million people across 14 counties. Also prohibits local governments from entering NDAs with data center companies and requires transparency in water usage.",
     "sources": [
       "https://www.wcia.com/news/champaign-county/new-package-of-energy-bills-would-impose-moratorium-on-data-centers-built-on-mahomet-aquifer/"
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "SB 4004"
   },
   {
     "id": "montgomery-county-md-2026-02-02",
@@ -15114,7 +15105,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 232 would have imposed a one-year moratorium on hyperscale data center construction/expansion. Tabled by Senate State Affairs Committee 5-3 on Feb 18, 2026.",
+    "summary": "Would have imposed a one-year moratorium on construction or expansion of hyperscale data centers. Tabled by Senate State Affairs Committee 5-3 on Feb 18, 2026.",
     "sources": [
       "https://legiscan.com/SD/bill/SB232/2026",
       "https://www.sdpb.org/politics/2026-02-19/committee-kills-data-center-moratorium-bill"
@@ -15122,7 +15113,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "SB 232",
+    "bill_url": "https://legiscan.com/SD/bill/SB232/2026"
   },
   {
     "id": "south-carolina-data-center-development-act-sc-2026-02-05",
@@ -16014,7 +16007,7 @@
     "lng": -71.5724,
     "action_type": "legislation",
     "date": "2026-02-11",
-    "status": "pending",
+    "status": "defeated",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 1265",
@@ -16576,42 +16569,6 @@
     "last_updated": "2026-03-07",
     "scope": "local",
     "county_lean": "D"
-  },
-  {
-    "id": "nebraska-lb-1111-ne-2026-02-12",
-    "jurisdiction": "Nebraska (LB 1111)",
-    "state": "NE",
-    "county": null,
-    "lat": 40.809,
-    "lng": -96.68,
-    "action_type": "legislation",
-    "date": "2026-02-12",
-    "status": "pending",
-    "company": null,
-    "hyperscaler": null,
-    "project_name": null,
-    "investment_million_usd": null,
-    "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
-    "opposition_instagram": null,
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "LB 1111 (Sen. Cavanaugh) requires data centers to pay full cost of new electricity infrastructure (not pass to ratepayers), mandates transparency on project details, and prevents secrecy agreements. Bold Nebraska founder Jane Kleeb testified in support.",
-    "sources": [
-      "https://boldnebraska.org/support-lb-1111-to-regulate-data-centers-in-nebraska/",
-      "https://unomahanews.com/2026/02/24/nebraska-lawmakers-push-for-data-center-regulation-amid-energy-concerns/"
-    ],
-    "data_source": "agent_research",
-    "last_updated": "2026-03-09",
-    "scope": "statewide",
-    "county_lean": null
   },
   {
     "id": "chatham-county-nc-2026-02-13",
@@ -17237,7 +17194,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 1586 (Oregon JOBS Act) would have expanded Hillsboro's urban growth boundary by ~1,700 acres, converting protected farmland to industrial use for data centers. 1000 Friends of Oregon, Oregon League of Conservation Voters, and farmers opposed. Sen. Sollman shelved the bill. 6th attempt to develop this farmland.",
+    "summary": "Would have brought 373 acres of rural land south of U.S. 26 into Hillsboro's urban growth boundary for advanced technology industries, with ~1,400 acres designated for future industrial use. Sen. Janeen Sollman withdrew the bill following pushback from residents, farmers, and land policy watchdogs.",
     "sources": [
       "https://www.opb.org/article/2026/03/03/hillsboro-will-not-get-more-industrial-land-for-high-tech-data-centers/",
       "https://capitalpress.com/2026/03/06/lawmaker-shelves-bill-slating-hillsboro-farmland-for-industrial-development/"
@@ -17245,7 +17202,8 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": "D"
+    "county_lean": "D",
+    "bill_name": "SB 1586 - Hillsboro UGB Expansion"
   },
   {
     "id": "southaven-ms-2026-02-18",
@@ -17390,7 +17348,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Governor Pritzker announced a proposed 2-year suspension of the Data Center Investment Program (enacted 2019, offers up to 20 years of tax exemptions) during his annual budget speech. 37 projects built under the program. Driven by ICC/IPA/IEPA Resource Adequacy Study projecting capacity shortfalls by 2029 in Northern IL.",
+    "summary": "Governor Pritzker proposed a 2-year suspension of the Data Center Investment Program (enacted 2019, offers up to 20 years of tax exemptions) during his 2026 budget address. Driven by ICC/IPA/IEPA Resource Adequacy Study projecting capacity shortfalls by 2029 in Northern IL. 37 projects built under the program.",
     "sources": [
       "https://www.axios.com/local/chicago/2026/02/18/illinois-freezes-data-center-tax-incentives-pritzker-trump-energy",
       "https://www.nbcnews.com/politics/politics-news/gov-jb-pritzker-suspending-tax-incentives-data-centers-illinois-rcna259297"
@@ -17398,7 +17356,8 @@
     "data_source": "ssrn_moratorium_nation",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "Data Center Investment Program Suspension"
   },
   {
     "id": "middleton-township-oh-2025-04-01",
@@ -17708,7 +17667,7 @@
     "action_type": "legislation",
     "status": "pending",
     "date": "2026-02-23",
-    "summary": "Senator Bernie Sanders renewed his call for a national moratorium on data center construction, praising Denver's moratorium announcement. Sanders first endorsed a national moratorium in December 2025. He argued that data centers are driving up electricity bills for American families while generating massive profits for tech companies. Ron DeSantis independently made similar anti-data-center statements around the same time, creating an unusual bipartisan anti-data-center alignment. Over 230 state and local environmental groups sent a letter to Congress demanding a national moratorium in December 2025. No formal legislation has been introduced.",
+    "summary": "Sen. Bernie Sanders has called for a national moratorium on data center construction, supported by 230+ environmental groups. As of March 2026, no formal bill has been introduced. The call has gained traction among progressives but remains unpopular with both party leaderships.",
     "sources": [
       "https://www.sanders.senate.gov/press-releases/news-sanders-yes-we-need-a-moratorium-on-data-center-construction/",
       "https://www.commondreams.org/news/denver-data-center",
@@ -17727,7 +17686,8 @@
     "opposition_twitter": null,
     "petition_url": null,
     "county": "District of Columbia",
-    "county_lean": "D"
+    "county_lean": "D",
+    "bill_name": "Sanders National Moratorium Call"
   },
   {
     "id": "north-coventry-township-pa-2026-02-23",
@@ -19254,42 +19214,6 @@
     "county_lean": "R"
   },
   {
-    "id": "connecticut-sb-245-ct-2026-02-27",
-    "jurisdiction": "Connecticut (SB 245)",
-    "state": "CT",
-    "county": null,
-    "lat": 41.764,
-    "lng": -72.682,
-    "action_type": "legislation",
-    "date": "2026-02-27",
-    "status": "pending",
-    "company": null,
-    "hyperscaler": null,
-    "project_name": null,
-    "investment_million_usd": null,
-    "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
-    "opposition_instagram": null,
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "SB 245 would eliminate data center tax incentives enacted in 2021 under Public Act 21-1. Energy and Technology Committee held a public hearing in late February 2026.",
-    "sources": [
-      "https://www.wshu.org/connecticut-news/2026-02-27/ct-ai-data-centers-regulations",
-      "https://legiscan.com/CT/bill/SB00245/2026"
-    ],
-    "data_source": "agent_research",
-    "last_updated": "2026-03-09",
-    "scope": "statewide",
-    "county_lean": null
-  },
-  {
     "id": "canton-ms-2025-01-01",
     "jurisdiction": "Canton",
     "state": "MS",
@@ -19748,7 +19672,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "HB 2151 directs DCED to develop a model zoning ordinance for municipalities to regulate data centers. Optional, not mandatory. Restricts hyperscale development to industrial/mining zones. Passed House Energy Committee 14-12. Supported by Gov. Shapiro.",
+    "summary": "Directs DCED to develop a model zoning ordinance for municipalities to regulate data centers, including standards for noise, water, electricity, and light pollution. Passed House Energy Committee 14-12 along party lines.",
     "sources": [
       "https://www.wesa.fm/politics-government/2026-03-09/lawmakers-bill-data-center-construction",
       "https://www.cityandstatepa.com/policy/2026/03/pa-house-committee-advances-data-center-bills/411812/"
@@ -19756,7 +19680,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "HB 2151 - Data Center Model Zoning Ordinance",
+    "bill_url": "https://www.palegis.us/legislation/bills/2025/hb2151"
   },
   {
     "id": "fulton-county-in-2026-03-03",
@@ -20357,7 +20283,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 410 repeals sales/use tax exemptions for data centers (passed Senate 32-21). Data centers may continue exemptions through end of 2031. Also requires utility contracts to protect residential customers from cost-shifting. The two tax credits grew from ~$100M to ~$2.5B exposure.",
+    "summary": "Repeals state sales and use tax exemption for new data centers while grandfathering existing projects. Locks into law that data centers must cover full cost of new generation and transmission infrastructure. Passed Senate March 6, 2026.",
     "sources": [
       "https://www.ajc.com/business/2026/03/georgia-senate-votes-to-claw-back-data-center-tax-breaks/",
       "https://www.wabe.org/georgia-bill-to-repeal-new-data-center-tax-breaks-advances-out-of-senate/"
@@ -20365,7 +20291,9 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-09",
     "scope": "statewide",
-    "county_lean": null
+    "county_lean": null,
+    "bill_name": "SB 410 - Data Center Tax Exemption Repeal",
+    "bill_url": "https://www.legis.ga.gov/legislation/70838"
   },
   {
     "id": "champaign-county-il-2025-12-01",
@@ -21126,7 +21054,9 @@
     "action_type": "legislation",
     "date": "2026-03-09",
     "status": "pending",
-    "summary": "HB 2150 requires data centers to submit annual energy/water consumption reports to DEP. Passed House Energy Committee 14-12 on party-line vote, advancing to full House."
+    "summary": "Requires data centers to submit annual energy and water consumption reports to DEP, including measures undertaken to improve efficiency. Passed House Energy Committee 14-12 on party-line vote.",
+    "bill_name": "HB 2150 - Data Center Energy and Water Reporting Act",
+    "bill_url": "https://www.palegis.us/legislation/bills/2025/hb2150"
   },
   {
     "scope": "local",
@@ -21166,7 +21096,9 @@
     "action_type": "legislation",
     "date": "2026-02-12",
     "status": "pending",
-    "summary": "S3379 requires data center operators to submit semi-annual water and energy usage reports to Board of Public Utilities for three years. Reported favorably by Senate Environment and Energy Committee."
+    "summary": "Requires data center operators to submit semi-annual water and energy usage reports to the Board of Public Utilities for three years. Senate Environment and Energy Committee reported favorably (3-1-1).",
+    "bill_name": "S3379 - Data Center Water and Energy Reporting",
+    "bill_url": "https://legiscan.com/NJ/bill/S3379/2026"
   },
   {
     "scope": "local",
@@ -21207,7 +21139,8 @@
     "action_type": "legislation",
     "date": "2026-03-01",
     "status": "pending",
-    "summary": "Senate President Ferguson introduced bill banning data center construction on TIF-benefiting land, targeting Baltimore Peninsula. Also requires PSC oversight of transmission lines. BGE paused $537M transmission upgrade plan."
+    "summary": "Senate President Bill Ferguson introduced legislation banning data center construction on land benefiting from tax increment financing (TIF) in Baltimore City, targeting Baltimore Peninsula. Also requires PSC oversight of transmission line projects. BGE subsequently paused its $537M South Baltimore transmission upgrade.",
+    "bill_name": "Ferguson Data Center TIF Ban"
   },
   {
     "scope": "local",
@@ -21342,7 +21275,9 @@
     "action_type": "legislation",
     "date": "2026-02-25",
     "status": "defeated",
-    "summary": "HB 1007 would ban hyperscale data centers near residential areas and schools, require PSC tariffs for full infrastructure costs. Passed House Commerce Committee 24-1 but stalled when House refused to take up AI regulation package. Session ended March 13."
+    "summary": "Establishes restrictive regulatory framework for hyperscale data centers (25+ MW). Bans data centers from agricultural zoning districts, requires 500-foot setbacks, bans economic incentives, imposes water permitting restrictions. Session ended without committee action.",
+    "bill_name": "HB 1007 - Hyperscale Data Centers",
+    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1007"
   },
   {
     "scope": "statewide",
@@ -21363,48 +21298,8 @@
     "action_type": "legislation",
     "date": "2026-01-01",
     "status": "pending",
-    "summary": "Repeals transaction privilege and use tax exemption for large data centers. Exemption cost Arizona ~$38.5M in FY2025, projected to reach $60M/year by 2027. Requires two-thirds supermajority."
-  },
-  {
-    "scope": "statewide",
-    "data_source": "agent_research",
-    "county_lean": "",
-    "sources": [
-      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
-    ],
-    "company": "",
-    "hyperscaler": "",
-    "id": "arizona-hb-2756-az-2026-01-01",
-    "jurisdiction": "Arizona (HB 2756 ratepayer protection)",
-    "state": "AZ",
-    "county": "Maricopa County",
-    "lat": 33.45,
-    "lng": -112.07,
-    "action_type": "legislation",
-    "date": "2026-01-01",
-    "status": "active",
-    "summary": "Requires regulators to adopt rules ensuring data center grid connection costs are not shifted onto retail customers. Passed the Arizona House."
-  },
-  {
-    "scope": "statewide",
-    "data_source": "agent_research",
-    "county_lean": "",
-    "sources": [
-      "https://legiscan.com/TN/bill/SB2128/2025",
-      "https://www.fox13memphis.com/news/proposed-legislation-in-tennessee-requires-data-centers-to-pay-for-increased-energy-costs/article_15971aee-39e5-4a61-96ea-8e8e13c99fea.html"
-    ],
-    "company": "",
-    "hyperscaler": "",
-    "id": "tennessee-sb-2128-tn-2026-01-22",
-    "jurisdiction": "Tennessee (SB 2128 infrastructure costs)",
-    "state": "TN",
-    "county": "Davidson County",
-    "lat": 36.17,
-    "lng": -86.78,
-    "action_type": "legislation",
-    "date": "2026-01-22",
-    "status": "pending",
-    "summary": "Requires data center operators to pay full cost of power, gas, and water infrastructure. Prevents cost-shifting to other ratepayers. Scheduled for Commerce and Labor Committee March 10."
+    "summary": "Would repeal Arizona's data center sales and use tax exemption program, which cost the state ~$38.5M in fiscal year 2025. Companies currently receive exemptions for spending $50M+ (Maricopa/Pima) or $25M+ (other counties) on data center construction.",
+    "bill_name": "SB 1463 - Data Center Tax Incentive Repeal"
   },
   {
     "scope": "statewide",
@@ -21424,28 +21319,9 @@
     "action_type": "legislation",
     "date": "2026-02-02",
     "status": "pending",
-    "summary": "Creates Tennessee Data Center Impact Review Act establishing formal review process for data center impacts on communities, environment, and infrastructure."
-  },
-  {
-    "scope": "statewide",
-    "data_source": "agent_research",
-    "county_lean": "",
-    "sources": [
-      "https://www.lpm.org/news/2026-02-12/gop-bill-seeks-guardrails-for-new-data-centers-to-pay-their-own-way-in-kentucky",
-      "https://www.datacenterdynamics.com/en/news/kentucky-house-proposes-new-rate-class-for-large-load-data-centers/"
-    ],
-    "company": "",
-    "hyperscaler": "",
-    "id": "kentucky-hb-593-ky-2026-02-01",
-    "jurisdiction": "Kentucky (HB 593 utility costs)",
-    "state": "KY",
-    "county": "Franklin County",
-    "lat": 38.2,
-    "lng": -84.87,
-    "action_type": "legislation",
-    "date": "2026-02-01",
-    "status": "pending",
-    "summary": "Requires large data centers to cover all transmission/infrastructure costs. $75K non-refundable application fee. Data centers over 250MW must have dedicated energy resource. Prevents ratepayer cost-shifting."
+    "summary": "Creates the Tennessee Data Center Impact Review Act establishing formal review process for data center impacts on communities, environment, and infrastructure. Deferred in Senate Commerce and Labor Committee to March 17, 2026.",
+    "bill_name": "SB 2653 - Data Center Impact Review Act",
+    "bill_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2653&GA=114"
   },
   {
     "scope": "statewide",
@@ -21465,7 +21341,9 @@
     "action_type": "legislation",
     "date": "2026-01-09",
     "status": "active",
-    "summary": "GOP bill preventing data centers from passing energy costs to residents, requiring closed-loop water cooling, mandating water usage reporting, requiring bonds for reclamation. Passed Assembly 53-44; pending in Senate."
+    "summary": "Republican bill directing PSC to ensure data center utility costs are not passed to other ratepayers. Requires renewable energy facilities serving data center load to be on data center property. Requires hiring Wisconsin workers. Passed Assembly 53-44.",
+    "bill_name": "AB 840 / SB 843",
+    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/ab840"
   },
   {
     "scope": "statewide",
@@ -21485,7 +21363,9 @@
     "action_type": "legislation",
     "date": "2026-01-01",
     "status": "pending",
-    "summary": "Democratic bill creating new 'very large customer' rate class for data centers, requiring 70% renewable energy, mandating biennial rate cases. Heard in Senate committee Feb 17."
+    "summary": "Democratic bill creating new 'very large customer' electric rate class for data centers. To qualify for tax exemption, data centers must derive at least 70% of energy from renewables and pay prevailing wages. Establishes water usage reporting requirements.",
+    "bill_name": "SB 729 / AB 722",
+    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/sb729"
   },
   {
     "scope": "statewide",
@@ -21505,7 +21385,9 @@
     "action_type": "legislation",
     "date": "2026-01-27",
     "status": "enacted",
-    "summary": "Requires data center companies to pay 1% of electricity bill savings to local communities for tax breaks. Advancing \u2014 headed to Governor Braun for signature."
+    "summary": "Omnibus DLGF bill with data center provision requiring companies receiving future sales tax exemptions to pay up to 1% of electricity bill savings each quarter to local governments. Passed House 91-3, Senate 48-0. Signed by Gov. Braun on March 12, 2026.",
+    "bill_name": "HB 1210",
+    "bill_url": "https://iga.in.gov/legislative/2026/bills/house/1210"
   },
   {
     "scope": "statewide",
@@ -21526,7 +21408,9 @@
     "action_type": "legislation",
     "date": "2026-02-01",
     "status": "active",
-    "summary": "Creates 13-member Data Center Study Commission to study environmental impacts, water use, grid reliability, farmland preservation. Passed House Technology Committee 9-3. Ohio Farm Bureau testified in support."
+    "summary": "Creates 13-member Data Center Study Commission to examine environmental impacts, water use, grid reliability, noise/light pollution, farmland preservation, and local economic effects. Commission must report findings within 6 months. Passed House Technology & Innovation Committee 9-3.",
+    "bill_name": "HB 646 (Data Center Study Commission)",
+    "bill_url": "https://www.legislature.ohio.gov/legislation/136/hb646"
   },
   {
     "scope": "local",
@@ -21700,7 +21584,9 @@
     "action_type": "legislation",
     "date": "2026-02-26",
     "status": "enacted",
-    "summary": "Senate unanimously passed SB 484 establishing comprehensive regulatory framework for hyperscale data centers. Requires PSC tariffs for 50+ MW customers, prevents cost-shifting to ratepayers, bans state agency NDAs restricting disclosure, mandates reclaimed water use, preserves local land use control."
+    "summary": "Establishes regulatory framework for hyperscale data centers. Requires PSC to ensure data centers pay their own utility costs. Prohibits certain NDAs. Preserves local government land use authority. Mandates stricter water permitting. Passed both chambers; heading to Governor DeSantis.",
+    "bill_name": "CS/CS/SB 484 - Data Centers",
+    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/484"
   },
   {
     "scope": "local",
@@ -21806,8 +21692,10 @@
     "action_type": "other",
     "date": "2026-02-27",
     "status": "ongoing",
-    "summary": "LA PSC refused to investigate Meta's sale of 80% of $27B Richland Parish data center to Blue Owl Capital, creating 'Beignet' holding company with only a 4-year lease. Earthjustice/UCS warned ratepayers could be stuck paying for 3 new Entergy gas plants if Meta exits. Meta signed 'Ratepayer Protection Pledge' March 4.",
-    "investment_usd": 27000000000
+    "summary": "LPSC refused to investigate Meta's sale of 80% of its $27B Richland Parish data center to Blue Owl Capital. Meta retains only 20% stake with a 4-year lease. Earthjustice/UCS warned ratepayers could be stuck paying for 3 new Entergy gas plants if Meta exits.",
+    "investment_usd": 27000000000,
+    "bill_name": "LPSC Meta/Blue Owl Financing Investigation",
+    "bill_url": "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal"
   },
   {
     "scope": "local",
@@ -21892,9 +21780,11 @@
     "lat": 38.91,
     "lng": -77.04,
     "action_type": "legislation",
-    "date": "2026-01-01",
+    "date": "2026-01-08",
     "status": "pending",
-    "summary": "Menendez/Casar bill requiring EIA to collect energy consumption data from all US data centers and EPA to report emissions. Would establish first comprehensive federal data center environmental reporting requirements."
+    "summary": "Requires EPA to collect and report quarterly on data center water consumption, water reuse, pollutants, and impacts on local water systems. Requires EIA to collect data every 6 months on total energy consumed by each US data center.",
+    "bill_name": "H.R. 6984 - Data Center Transparency Act",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6984"
   },
   {
     "scope": "statewide",
@@ -21914,7 +21804,9 @@
     "action_type": "legislation",
     "date": "2026-02-01",
     "status": "pending",
-    "summary": "Rep. Carson (R) bill to sunset Georgia's data center sales tax exemption to December 31, 2026, effectively ending the exemption program that has cost the state hundreds of millions in foregone revenue."
+    "summary": "Moves the sunset date for the high-technology data center equipment sales and use tax exemption from December 31, 2031 to December 31, 2026, effectively ending the exemption program. The exemption has cost the state an estimated $778M/year.",
+    "bill_name": "HB 559 - Data Center Equipment Tax Exemption Sunset",
+    "bill_url": "https://www.legis.ga.gov/legislation/70171"
   },
   {
     "scope": "statewide",
@@ -21934,27 +21826,9 @@
     "action_type": "legislation",
     "date": "2026-02-01",
     "status": "pending",
-    "summary": "Sen. Orrock (D) bill to sunset Georgia's data center tax exemption to January 1, 2027. Companion to bipartisan effort to end exemptions that have drawn criticism as communities bear costs of data center expansion."
-  },
-  {
-    "scope": "statewide",
-    "data_source": "agent_research",
-    "county_lean": "",
-    "sources": [
-      "https://www.legis.iowa.gov/legislation/BillBook?ba=HF2001&ga=91"
-    ],
-    "company": "",
-    "hyperscaler": "",
-    "id": "iowa-hf-2001-ia-2026-02-01",
-    "jurisdiction": "Iowa (HF 2001 water efficiency)",
-    "state": "IA",
-    "county": "Polk County",
-    "lat": 41.59,
-    "lng": -93.62,
-    "action_type": "legislation",
-    "date": "2026-02-01",
-    "status": "pending",
-    "summary": "Establishes minimum water efficiency standards for data centers in Iowa. Part of growing concern over data center water consumption in agricultural communities reliant on groundwater."
+    "summary": "Moves sunset date for data center sales tax exemption from January 1, 2032 to January 1, 2027. Functionally identical in intent to HB 559.",
+    "bill_name": "SB 408 - Data Center Tax Exemption Sunset",
+    "bill_url": "https://www.legis.ga.gov/legislation/70803"
   },
   {
     "scope": "statewide",
@@ -21974,7 +21848,9 @@
     "action_type": "legislation",
     "date": "2026-02-01",
     "status": "enacted",
-    "summary": "Bipartisan reform: 20-year limit on data center tax exemptions (previously unlimited), narrowed exemption scope, full utility cost recovery requirement, and water usage notice requirements for local communities."
+    "summary": "Revises data center sales tax and property tax exemptions. Requires qualifying businesses to receive electricity under rate schedules that fully recover all utility costs. Mandates written notice to local water providers and Department of Water Resources detailing anticipated water consumption needs.",
+    "bill_name": "H 820 - Data Center Tax Exemption Reform",
+    "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/"
   },
   {
     "scope": "statewide",
@@ -21994,7 +21870,9 @@
     "action_type": "legislation",
     "date": "2026-01-01",
     "status": "pending",
-    "summary": "Rep. Mickelsen's bill requiring PUC to prove that customers with 20+ MW demand won't raise rates for other ratepayers before approving service. Targets large data center loads."
+    "summary": "Addresses state tax incentives for data centers created by House Bill 521 in 2020. Part of legislative efforts to rein in data center tax exemptions and curb impact on power and water resources.",
+    "bill_name": "HB 756 - Data Center Regulation",
+    "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0756/"
   },
   {
     "scope": "statewide",
@@ -22013,8 +21891,10 @@
     "lng": -84.28,
     "action_type": "legislation",
     "date": "2026-02-01",
-    "status": "pending",
-    "summary": "Florida Data Center Transparency Act requiring detailed environmental impact disclosures including energy consumption, water usage, emissions, and community impact assessments."
+    "status": "defeated",
+    "summary": "Requires data center developers to disclose projected energy, water, carbon emissions, noise, and environmental impacts at application stage. Imposes penalties for noncompliance. Session ended without committee hearing.",
+    "bill_name": "HB 1517 - Florida Data Center Transparency Act",
+    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1517"
   },
   {
     "scope": "statewide",
@@ -22034,7 +21914,9 @@
     "action_type": "legislation",
     "date": "2026-03-01",
     "status": "active",
-    "summary": "Bipartisan effort to override Gov. DeWine's veto of data center sales tax exemption repeal. Current exemptions cost $141-200M/year in lost state revenue. Speaker Huffman pushing for vote before end of March. Needs 60 House + 20 Senate votes."
+    "summary": "Bipartisan effort to override Gov. DeWine's line-item veto of the data center sales tax exemption repeal in budget bill HB 96. Current exemptions cost $140M+/year in lost revenue. Override requires 60 House + 20 Senate votes. Google, Microsoft, Amazon, Meta oppose override.",
+    "bill_name": "HB 96 Veto Override",
+    "bill_url": "https://www.legislature.ohio.gov/legislation/136/hb96"
   },
   {
     "scope": "statewide",
@@ -22055,7 +21937,9 @@
     "action_type": "legislation",
     "date": "2026-02-12",
     "status": "pending",
-    "summary": "Reintroduced after Gov. Murphy pocket-vetoed prior version on last day in office. Requires utilities to develop tariff for 100+ MW data centers, protecting non-DC ratepayers from increased costs. Passed both chambers' committees Feb 2026."
+    "summary": "Reintroduced after Murphy pocket veto. Requires utilities to develop tariff for data centers using 100+ MW monthly. New large load customers must post financial guarantees for 85% of requested service for 10+ years. Reported from Senate Committee with amendments.",
+    "bill_name": "S731 / A796 - Large Load Data Center Tariff",
+    "bill_url": "https://legiscan.com/NJ/text/S731/id/3312992"
   },
   {
     "scope": "local",
@@ -22099,7 +21983,9 @@
     "action_type": "legislation",
     "date": "2026-03-10",
     "status": "pending",
-    "summary": "Requires large data centers to report energy, water, and environmental impacts publicly. Mandates $1,000/MW payment into EmPOWER program for low-income Marylanders. Hearing March 10, 2026."
+    "summary": "Requires large-scale data center operators to report environmental and resource impacts publicly. Mandates jurisdictions with 10,000+ residents create formal data center management plans by 2027. Includes $1,000/MW payment into EmPOWER program for low-income assistance.",
+    "bill_name": "HB 1411 - Data Center Planning and Transparency Act",
+    "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1411?ys=2026RS"
   },
   {
     "scope": "statewide",
@@ -22120,7 +22006,9 @@
     "action_type": "legislation",
     "date": "2026-02-15",
     "status": "pending",
-    "summary": "Authorizes counties to establish special personal property tax rate for data centers up to 2.5x the real property rate. Allows localities to capture more revenue from data center equipment investments. Emerged from Frederick County's push for local taxing authority."
+    "summary": "Authorizes counties to establish a special personal property tax subclass for data centers and set a rate up to 2.5x the real property tax rate. Emerged from Frederick County's push for local taxing authority over data center equipment.",
+    "bill_name": "HB 1595 / SB 427 - Data Center Property Tax Subclass",
+    "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1595?ys=2026RS"
   },
   {
     "scope": "statewide",
@@ -22140,7 +22028,8 @@
     "action_type": "legislation",
     "date": "2026-03-06",
     "status": "pending",
-    "summary": "House Minority Whip Jesse Pippy (R) proposed county-specific moratorium until statewide data center impact study completes (due Sept 1, 2026). Bipartisan effort supported by 13+ nonprofits. Parallel to citizen referendum petition drive (12,088 of ~15,000 signatures by early March, deadline March 20)."
+    "summary": "House Minority Whip Jesse Pippy (R) proposed a county-specific moratorium on new data centers until the statewide impact study (due Sept. 1, 2026) is completed. Separate from the county council's unanimous Feb. 2 vote to pause permitting and the citizen referendum drive (15,000+ signatures).",
+    "bill_name": "Pippy Frederick County Data Center Moratorium"
   },
   {
     "scope": "statewide",
@@ -22161,7 +22050,8 @@
     "action_type": "other",
     "date": "2026-02-04",
     "status": "active",
-    "summary": "Gov. Shapiro unveiled voluntary GRID (Responsible Infrastructure Development) standards: expedited permitting for developers who bring/pay for new power, meet environmental/water requirements, engage transparently with communities, and hire local workers. Represents pivot from 'All in on AI' to 'We need to be selective.' Critics note standards are voluntary."
+    "summary": "Voluntary executive program offering expedited state permitting for data center developers who commit to bringing/paying for their own power generation, transparency and community engagement, hiring local workers, and environmental protection including water conservation. Critics note standards are voluntary with no enforcement.",
+    "bill_name": "Governor's GRID Standards"
   },
   {
     "scope": "local",
@@ -22284,7 +22174,10 @@
     "lng": -121.4934,
     "action_type": "legislation",
     "date": "2025-02-21",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "SB 978 - Data Center Community Accountability Act",
+    "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB978",
+    "summary": "Bans backup diesel generators at data centers, prevents data centers from placing electricity costs onto ratepayers, directs PUC to establish a special rate structure for large-scale energy users (75+ MW), ensures hyperscale data center construction uses local skilled workforce and pays prevailing wages. Introduced by Sen. Sasha Ren\u00e9e P\u00e9rez (D-Pasadena)."
   },
   {
     "scope": "local",
@@ -22366,7 +22259,9 @@
     "lng": -123.0351,
     "action_type": "other",
     "date": "2025-03-01",
-    "status": "active"
+    "status": "active",
+    "bill_name": "Gov. Kotek Data Center Advisory Committee",
+    "summary": "Gov. Tina Kotek created a seven-member Data Center Advisory Committee to develop policy recommendations for data center expansion aligned with the state's 'Prosperity Roadmap.' Committee chaired by Margaret Hoffmann and Michael Jung, with policy recommendations due to Legislature by October 2026."
   },
   {
     "scope": "federal",
@@ -22393,7 +22288,10 @@
     "lng": -77.037,
     "action_type": "legislation",
     "date": "2026-01-15",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "S. 3682 - Power for the People Act",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3682",
+    "summary": "Directs FERC to mandate grid operators create specific queues for data center electricity connection requests, encourages states to establish rate classes specific to data centers, and requires data center operators to cover the full cost of generation, transmission, and distribution upgrades. Includes prevailing wage and registered apprenticeship requirements."
   },
   {
     "scope": "statewide",
@@ -22420,7 +22318,10 @@
     "lng": -74.7699,
     "action_type": "legislation",
     "date": "2026-01-20",
-    "status": "active"
+    "status": "active",
+    "bill_name": "Executive Order No. 2 - Utility Costs Emergency",
+    "bill_url": "https://www.nj.gov/governor/news/2026/20260120a.shtml",
+    "summary": "Gov. Mikie Sherrill signed on her first day in office, declaring a state of emergency on utility costs. Directs BPU to require electric utilities to report on energy requests from data centers ('ghost loads'). Identifies data center demand surge as key driver of NJ's energy crisis."
   },
   {
     "scope": "statewide",
@@ -22446,7 +22347,9 @@
     "lng": -97.74,
     "action_type": "legislation",
     "date": "2026-02-09",
-    "status": "active"
+    "status": "active",
+    "bill_name": "PUCT Data Center Water Use Survey",
+    "summary": "Public Utility Commission of Texas conducting a survey of water use by data centers and virtual currency mining facilities. Authorized by state budget rider from Rep. Armando Walle. Survey asks about direct water use, cooling technology, and indirect water use. Results shared with Texas Water Development Board and TCEQ, due to legislature by end of 2026. Texas has 464 data centers with 70+ under development."
   },
   {
     "scope": "statewide",
@@ -22475,7 +22378,9 @@
     "lng": -112.5348,
     "action_type": "lawsuit",
     "date": "2026-03-11",
-    "status": "ongoing"
+    "status": "ongoing",
+    "bill_name": "PSC Protective Order Challenge",
+    "summary": "Earthjustice and seven community/conservation organizations challenged a Montana PSC protective order shielding NorthWestern Energy's letters of intent to provide electricity service to data centers from public view. Groups argue the order unconstitutionally shifted the burden of proof to the public and exceeded PSC's legal authority. PSC granted the order in December after NorthWestern filed in September."
   },
   {
     "scope": "local",
@@ -22588,7 +22493,10 @@
     "lng": -75.5244,
     "action_type": "legislation",
     "date": "2025-09-29",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "SB 205 - Data Center PSC Certification",
+    "bill_url": "https://legis.delaware.gov/BillDetail/142714",
+    "summary": "Requires businesses using 30+ MW of electricity to obtain a certificate to operate from the Delaware Public Service Commission, which may mandate grid modernization payments or additional energy generation commitments. Stalled in Senate Energy Committee amid union and Republican opposition."
   },
   {
     "scope": "local",
@@ -22641,7 +22549,9 @@
     "lng": -77.0369,
     "action_type": "legislation",
     "date": "2026-03-04",
-    "status": "active"
+    "status": "active",
+    "bill_name": "Ratepayer Protection Pledge (Presidential Proclamation)",
+    "summary": "Nonbinding presidential proclamation announced during 2026 State of the Union. Seven tech companies (Amazon, Google, Meta, Microsoft, OpenAI, Oracle, xAI) pledged to build/buy their own power generation, pay for all grid infrastructure upgrades, negotiate separate rate structures, and invest in local communities."
   },
   {
     "scope": "federal",
@@ -22667,7 +22577,10 @@
     "lng": -77.0369,
     "action_type": "legislation",
     "date": "2025-12-09",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "H.R. 6529 - Protecting Families from AI Data Center Energy Costs Act",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6529",
+    "summary": "Directs FERC to convene a technical conference within 90 days on how large electricity loads \u2014 especially AI data centers \u2014 affect residential and small commercial customers' bills. FERC must submit a report with recommendations to Congressional energy committees within 180 days."
   },
   {
     "scope": "local",
@@ -23039,7 +22952,10 @@
     "lng": -72.5754,
     "action_type": "legislation",
     "date": "2026-01-21",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "H.727 - Vermont Sustainable Data Centers Act",
+    "bill_url": "https://legislature.vermont.gov/bill/status/2026/H.727",
+    "summary": "Regulates data centers requiring 20+ MW power capacity. Focuses on proper siting, environmental protections, and ratepayer cost controls. Referred to Committee on Energy and Digital Infrastructure."
   },
   {
     "scope": "statewide",
@@ -23067,7 +22983,10 @@
     "lng": -71.413,
     "action_type": "legislation",
     "date": "2026-01-30",
-    "status": "defeated"
+    "status": "defeated",
+    "bill_name": "S 2346 - Data Center Tax Incentives",
+    "bill_url": "https://webserver.rilegislature.gov/BillText/BillText26/SenateText26/S2346.pdf",
+    "summary": "Establishes property, tangible, sales and use tax exemptions as incentives for qualified data centers locating in Rhode Island. Senate Commerce Committee recommended held for further study on March 10."
   },
   {
     "scope": "statewide",
@@ -23093,7 +23012,10 @@
     "lng": -71.413,
     "action_type": "legislation",
     "date": "2026-03-04",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "S 2776 - Data Center Infrastructure Costs",
+    "bill_url": "https://legiscan.com/RI/bill/S2776/2026",
+    "summary": "Requires data centers needing large amounts of electricity to fund the cost of necessary infrastructure improvements to supply that electricity. Senate Commerce Committee recommended held for further study."
   },
   {
     "scope": "statewide",
@@ -23121,7 +23043,10 @@
     "lng": -69.7795,
     "action_type": "legislation",
     "date": "2026-03-12",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "LD 713 - Exclude Data Centers from Tax Exemptions",
+    "bill_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=713&snum=132",
+    "summary": "Excludes data centers from Maine's Business Equipment Tax Exemption (BETE) program (100% property tax break) and the Dirigo Business Incentives Programs. Also requires the Maine DECD to study other state incentives data centers may benefit from. Presented to Taxation Committee March 12, 2026."
   },
   {
     "scope": "local",
@@ -23199,7 +23124,9 @@
     "lng": -72.6823,
     "action_type": "legislation",
     "date": "2026-03-06",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "CT BYOP Mandate",
+    "summary": "Would codify a 'bring your own power' mandate effective July 1, 2026. Generators supplying electricity to large customers (20+ MW) via private connection must obtain a PURA license and produce 100% of projected demand plus reserve margin using new generation. Large customers must post financial guarantees covering 85% of requested service for 10+ years."
   },
   {
     "scope": "local",
@@ -23251,7 +23178,10 @@
     "lng": -86.2999,
     "action_type": "legislation",
     "date": "2026-03-13",
-    "status": "active"
+    "status": "active",
+    "bill_name": "SB 265 - Data Center Tax Incentive Reform",
+    "bill_url": "https://legiscan.com/AL/bill/SB265/2026",
+    "summary": "Limits data center abatement periods to 20 years starting Jan 1, 2027. Mandates large-scale data centers using 100+ MW pay state sales and use taxes. Governor may waive taxes for economically struggling counties. Passed Senate March 13, 2026."
   },
   {
     "scope": "statewide",
@@ -23277,7 +23207,10 @@
     "lng": -86.2999,
     "action_type": "legislation",
     "date": "2026-03-11",
-    "status": "active"
+    "status": "active",
+    "bill_name": "SB 354 - Solar Farm Moratorium",
+    "bill_url": "https://legiscan.com/AL/bill/SB354/2026",
+    "summary": "Imposes a one-year moratorium on construction of new large-scale solar power facilities, prompted by opposition to a 4,500-acre solar project in Stockton meant to power Meta's Montgomery data center expansion. Exempts TVA solar capacity and projects already under construction."
   },
   {
     "scope": "local",
@@ -23384,7 +23317,10 @@
     "lng": -84.2807,
     "action_type": "legislation",
     "date": "2026-02-26",
-    "status": "enacted"
+    "status": "enacted",
+    "bill_name": "CS/SB 1118 - Public Records/Data Centers",
+    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1118",
+    "summary": "Creates public records exemption allowing local governments to keep data center siting plans confidential for up to 12 months. Includes 5-year sunset provision (Oct 2031). Companion to SB 484."
   },
   {
     "scope": "local",
@@ -23571,7 +23507,9 @@
     "lng": -96.7026,
     "action_type": "legislation",
     "date": "2026-03-13",
-    "status": "ongoing"
+    "status": "pending",
+    "bill_name": "LB 1261",
+    "summary": "Would allow privately built power generation facilities (1,000+ MW) to serve large industrial customers like data centers, with eminent domain protections. Drafted to enable Google's proposed fourth Nebraska data center requiring 1,000-3,000 MW of power, powered by a privately built natural gas plant."
   },
   {
     "scope": "local",
@@ -23905,32 +23843,6 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://ohiocapitaljournal.com/2026/03/04/ohio-lawmaker-queue-up-data-center-study-commission/"
-    ],
-    "company": "",
-    "hyperscaler": "",
-    "energy_mw": null,
-    "investment_usd": null,
-    "acreage": null,
-    "water_gallons_per_day": null,
-    "petition_signatures": null,
-    "opposition_groups": [],
-    "opposition_facebook_members": null,
-    "id": "ohio-statewide-hb-646-2026",
-    "jurisdiction": "Ohio",
-    "state": "OH",
-    "county": "",
-    "lat": 39.9612,
-    "lng": -82.9988,
-    "action_type": "legislation",
-    "date": "2026-03-04",
-    "status": "pending"
-  },
-  {
-    "scope": "statewide",
-    "data_source": "agent_research",
-    "county_lean": "D",
-    "sources": [
       "https://www.wpr.org/news/new-bill-ban-nondisclosure-agreements-wisconsin-data-centers-nda"
     ],
     "company": "",
@@ -23952,7 +23864,10 @@
     "lng": -89.4008,
     "action_type": "legislation",
     "date": "2026-02-18",
-    "status": "pending"
+    "status": "pending",
+    "bill_name": "SB 969 / AB 969 (NDA Ban)",
+    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/SB969",
+    "summary": "Bipartisan bill prohibiting NDAs between data center companies and municipalities. Still allows withholding genuine trade secrets. Prompted by revelation that at least 4 Wisconsin communities signed secrecy deals. Passed Senate Committee 4-1."
   },
   {
     "id": "walla-walla-wallula-gap-wa-2026",
@@ -24529,7 +24444,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Data center transparency bill requiring an annual report disclosing information about each data center operator receiving a sales tax exemption, including whether they have met job creation and capital investment goals. Cleared key House committee in late February 2026. Part of a broader 60+ bill slate of data center reform legislation in Virginia's 2026 session.",
+    "summary": "Requires annual report disclosing information about each data center operator receiving a sales tax exemption, including whether job creation and investment goals have been met.",
     "sources": [
       "https://www.multistate.us/insider/2026/2/4/states-rethink-data-center-tax-incentives-as-costs-soar",
       "https://virginiamercury.com/2026/02/20/halfway-through-the-2026-legislative-session-theres-still-no-consensus-on-data-center-bills/",
@@ -24538,8 +24453,8 @@
     "data_source": "news",
     "last_updated": "2026-03-14",
     "scope": "statewide",
-    "bill_name": "HB 784",
-    "bill_url": null,
+    "bill_name": "HB 784 - Data Center Tax Exemption Reporting",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB784",
     "county_lean": "D"
   },
   {
@@ -24568,7 +24483,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Virginia's Great Outdoors Act imposes a $3/sq ft tax on data center facilities above 25,000 sq ft, starting January 1, 2027. Revenue ($250M+/year starting July 2028) dedicated to land preservation: State Park Conservation Resources Fund, Virginia Land Conservation Fund, statewide trail system, and other outdoor recreation programs. Passed Senate Agriculture, Conservation and Natural Resources Committee; rereferred to Finance and Appropriations.",
+    "summary": "Establishes $3/sq ft tax on data center facilities above 25,000 sq ft starting January 1, 2027. Dedicates at least $250M annually to State Park Conservation Resources Fund, Virginia Land Conservation Fund, statewide trail system, and Virginia Tribal Commitment Fund.",
     "sources": [
       "https://www.multistate.us/insider/2026/2/4/states-rethink-data-center-tax-incentives-as-costs-soar",
       "https://www.billtrack50.com/billdetail/1940964",
@@ -24577,8 +24492,8 @@
     "data_source": "news",
     "last_updated": "2026-03-14",
     "scope": "statewide",
-    "bill_name": "SB 393",
-    "bill_url": null,
+    "bill_name": "SB 393 - Virginia's Great Outdoors Act",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB393",
     "county_lean": "D"
   },
   {
@@ -24607,7 +24522,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Sponsored by Del. John McAuliff (D-Fauquier). Would have prohibited utilities from recovering costs for serving data centers over 100 MW capacity from residential ratepayers, requiring high-load users to pay for their own transmission and generation infrastructure. Killed by the House during the 2026 session.",
+    "summary": "Prohibits utilities from recovering costs of transmission lines and energy generation serving data centers over 100 MW from residential ratepayers. House subcommittee recommended continuing to next session.",
     "sources": [
       "https://www.vpm.org/generalassembly/2026-01-16/2026-data-center-bills-thomas-hb155-mcauliff-hb503-pjm-dominion-energy",
       "https://virginiamercury.com/2026/01/19/these-bills-aim-to-regulate-virginia-data-center-siting-generator-use-and-scc-oversight/",
@@ -24616,8 +24531,8 @@
     "data_source": "news",
     "last_updated": "2026-03-14",
     "scope": "statewide",
-    "bill_name": "HB 503",
-    "bill_url": null,
+    "bill_name": "HB 503 - Data Center Cost Recovery Prohibition",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB503",
     "county_lean": "D"
   },
   {
@@ -24916,7 +24831,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Sen. Joey Garcia (D-Marion) introduced SB 658 to restore local government sovereignty over data center siting, reversing HB 2014's preemption of local control. The bill never received a committee hearing. Del. Evan Hansen (D-Monongalia) also tried twice to amend House data center rules to require water usage disclosures, but both amendments were defeated (23-70 on the floor vote). Residents from Tucker, Logan, Mingo, and Mason counties visited the Capitol to push for changes. Despite bipartisan community opposition, lawmakers repeatedly blocked all efforts to restore local control or add transparency requirements during the 2026 session.",
+    "summary": "Would restore local government control over data center siting, reversing provisions of the 2025 Power Generation and Consumption Act that stripped counties of jurisdiction. Never received committee hearing.",
     "sources": [
       "https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/",
       "https://westvirginiawatch.com/2026/02/18/wv-house-passes-new-data-center-development-rules-without-local-control-water-protection-provisions/",
@@ -24926,7 +24841,9 @@
     "data_source": "news",
     "last_updated": "2026-03-14",
     "scope": "statewide",
-    "county_lean": "R"
+    "county_lean": "R",
+    "bill_name": "SB 658 - Data Center Local Control Restoration",
+    "bill_url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=658&year=2026&sessiontype=RS"
   },
   {
     "id": "virginia-budget-tax-exemption-va-2026-02-24",
@@ -24954,7 +24871,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Virginia's FY27-28 budget negotiations are stalled over the data center sales tax exemption, worth an estimated $1.6 billion annually in forgone revenue. The Democrat-controlled Senate budget would phase out the exemption by Jan. 1, 2027 and redirect funds to transportation and water infrastructure. The House budget keeps the exemption but adds clean energy requirements. The two chambers remain at an impasse. The current exemption is set to sunset in 2035; the Senate proposal would accelerate that by eight years.",
+    "summary": "Senate budget proposes accelerating data center tax exemption sunset from 2035 to January 2027, redirecting $1.6B/year to tax rebates, transportation, and water infrastructure. House budget preserves exemption but adds clean energy requirements. Unresolved; General Assembly reconvenes April 22.",
     "sources": [
       "https://virginiamercury.com/2026/02/24/senators-propose-phasing-out-data-center-tax-credit-house-budget-keeps-it/",
       "https://www.vpm.org/generalassembly/2026-03-12/budget-data-center-tax-break-scott-lucas-spanberger-torian-rephann",
@@ -24964,7 +24881,9 @@
     "data_source": "news",
     "last_updated": "2026-03-14",
     "scope": "statewide",
-    "county_lean": "D"
+    "county_lean": "D",
+    "bill_name": "FY2027-28 Budget - Data Center Tax Exemption",
+    "bill_url": "https://budget.lis.virginia.gov/amendment/2025/1/SB800/Introduced/CA/4-14/7S/"
   },
   {
     "scope": "local",
@@ -25080,5 +24999,1107 @@
     "action_type": "lawsuit",
     "date": "2025-10-17",
     "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [
+      "https://www.tucsonsentinel.com/local/report/022026_datacenter_zoning/tucson-considers-new-zoning-rules-data-centers/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "Tucson Clean Energy Coalition"
+    ],
+    "opposition_facebook_members": null,
+    "id": "tucson-az-zoning-2026-02",
+    "jurisdiction": "Tucson",
+    "state": "AZ",
+    "county": "Pima County",
+    "lat": 32.2226,
+    "lng": -110.9747,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-18",
+    "status": "pending"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.pinalcentral.com/news/pinal-county-pauses-data-center-approvals/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "pinal-county-az-moratorium-2026-01",
+    "jurisdiction": "Pinal County",
+    "state": "AZ",
+    "county": "Pinal County",
+    "lat": 32.7574,
+    "lng": -111.5712,
+    "action_type": "moratorium",
+    "date": "2026-01-14",
+    "status": "enacted"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [
+      "https://www.stgeorgeutah.com/news/archive/2026/02/10/iron-county-residents-pack-hearing-oppose-data-center/"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": 350,
+    "opposition_groups": [
+      "Iron County Citizens for Responsible Growth"
+    ],
+    "opposition_facebook_members": null,
+    "id": "iron-county-ut-opposition-2026-02",
+    "jurisdiction": "Iron County",
+    "state": "UT",
+    "county": "Iron County",
+    "lat": 37.8493,
+    "lng": -113.0619,
+    "action_type": "other",
+    "date": "2026-02-10",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": 500,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "millard-county-ut-solar-2026-01",
+    "jurisdiction": "Millard County",
+    "state": "UT",
+    "county": "Millard County",
+    "lat": 39.0735,
+    "lng": -112.6428,
+    "action_type": "other",
+    "date": "2026-01-22",
+    "status": "active"
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "montana-psc-transparency-2026-02",
+    "jurisdiction": "Montana",
+    "state": "MT",
+    "county": "",
+    "lat": 46.5884,
+    "lng": -112.0245,
+    "action_type": "legislation",
+    "date": "2026-02-05",
+    "status": "pending",
+    "bill_name": "Montana PSC Data Center Transparency Push",
+    "summary": "Legislative push for transparency in NorthWestern Energy's data center agreements. The PSC requested additional information on data center customers mentioned in utility press releases, triggering NorthWestern's protective order filing. Eleven data center developers reportedly in talks with NorthWestern."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "dona-ana-county-nm-lawsuit-2026-01",
+    "jurisdiction": "Do\u00f1a Ana County",
+    "state": "NM",
+    "county": "Do\u00f1a Ana County",
+    "lat": 32.3514,
+    "lng": -106.7464,
+    "action_type": "lawsuit",
+    "date": "2026-01-28",
+    "status": "active"
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [
+      "https://www.azleg.gov/legtext/57leg/1R/bills/HB2795P.htm"
+    ],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "arizona-hb-2795-smr-2026",
+    "jurisdiction": "Arizona",
+    "state": "AZ",
+    "county": "",
+    "lat": 34.0489,
+    "lng": -111.0937,
+    "action_type": "legislation",
+    "date": "2026-02-03",
+    "status": "active",
+    "bill_name": "HB 2795 - SMR Local Preemption",
+    "bill_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2795P.htm",
+    "summary": "Prohibits counties (<500K pop) from denying zoning approval for small modular reactors after federal design certification and site permitting. Allows SMR construction colocated with large industrial users (data centers) without ACC environmental compatibility certificate. Cleared House on party-line vote Feb 26, advancing to Senate. Gov. Hobbs vetoed similar bill in 2025."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "Hill County Concerned Citizens"
+    ],
+    "opposition_facebook_members": null,
+    "id": "hill-county-tx-opposition-2026-02",
+    "jurisdiction": "Hill County",
+    "state": "TX",
+    "county": "Hill County",
+    "lat": 31.9913,
+    "lng": -97.1302,
+    "action_type": "other",
+    "date": "2026-02-12",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "Amazon",
+    "hyperscaler": "AWS",
+    "energy_mw": null,
+    "investment_usd": 650000000,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "Falls Township Residents Against Data Centers"
+    ],
+    "opposition_facebook_members": null,
+    "id": "falls-township-pa-amazon-2026-02",
+    "jurisdiction": "Falls Township",
+    "state": "PA",
+    "county": "Bucks County",
+    "lat": 40.1762,
+    "lng": -74.7872,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-20",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "bryan-tx-zoning-2026-02",
+    "jurisdiction": "Bryan",
+    "state": "TX",
+    "county": "Brazos County",
+    "lat": 30.6744,
+    "lng": -96.3698,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-25",
+    "status": "pending"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "oneonta-ny-moratorium-2026-02",
+    "jurisdiction": "Oneonta",
+    "state": "NY",
+    "county": "Otsego County",
+    "lat": 42.4534,
+    "lng": -75.0635,
+    "action_type": "moratorium",
+    "date": "2026-02-14",
+    "status": "enacted"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "White Clay Creek Conservation Alliance"
+    ],
+    "opposition_facebook_members": null,
+    "id": "newark-de-white-clay-2026-01",
+    "jurisdiction": "Newark",
+    "state": "DE",
+    "county": "New Castle County",
+    "lat": 39.6837,
+    "lng": -75.7497,
+    "action_type": "other",
+    "date": "2026-01-30",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "grant-county-in-moratorium-2026-02",
+    "jurisdiction": "Grant County",
+    "state": "IN",
+    "county": "Grant County",
+    "lat": 40.5153,
+    "lng": -85.6614,
+    "action_type": "moratorium",
+    "date": "2026-02-10",
+    "status": "enacted"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "Microsoft",
+    "hyperscaler": "Microsoft",
+    "energy_mw": 600,
+    "investment_usd": 20000000000,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": 3000,
+    "opposition_groups": [
+      "Joliet Residents Against Data Centers"
+    ],
+    "opposition_facebook_members": null,
+    "id": "joliet-il-opposition-2026-01",
+    "jurisdiction": "Joliet",
+    "state": "IL",
+    "county": "Will County",
+    "lat": 41.525,
+    "lng": -88.0817,
+    "action_type": "other",
+    "date": "2026-01-20",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "lake-county-in-zoning-2026-02",
+    "jurisdiction": "Lake County",
+    "state": "IN",
+    "county": "Lake County",
+    "lat": 41.473,
+    "lng": -87.337,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-18",
+    "status": "pending"
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "ohio-senate-dems-package-2026",
+    "jurisdiction": "Ohio",
+    "state": "OH",
+    "county": "",
+    "lat": 40.4173,
+    "lng": -82.9071,
+    "action_type": "legislation",
+    "date": "2026-02-05",
+    "status": "pending",
+    "bill_name": "Senate Democrats Data Center Accountability Package",
+    "summary": "Package of 6+ bills by Sen. Kent Smith (D-Euclid): Data Center Grid Cost Responsibility Act, Tax Break Ban, Powering Ohio Communities Act, Local Development Protection Act, Power Reliability and Fairness Act, and Responsible Water Use Act (cap daily use at 5M gallons)."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "thomas-county-ga-moratorium-2026-01",
+    "jurisdiction": "Thomas County",
+    "state": "GA",
+    "county": "Thomas County",
+    "lat": 30.8364,
+    "lng": -83.9196,
+    "action_type": "moratorium",
+    "date": "2026-01-15",
+    "status": "enacted"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "irwin-county-ga-opposition-2026-02",
+    "jurisdiction": "Irwin County",
+    "state": "GA",
+    "county": "Irwin County",
+    "lat": 31.6002,
+    "lng": -83.2767,
+    "action_type": "other",
+    "date": "2026-02-05",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "clarksdale-ms-opposition-2026-01",
+    "jurisdiction": "Clarksdale",
+    "state": "MS",
+    "county": "Coahoma County",
+    "lat": 34.2001,
+    "lng": -90.571,
+    "action_type": "other",
+    "date": "2026-01-22",
+    "status": "active"
+  },
+  {
+    "scope": "statewide",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "alabama-hb-399-2026",
+    "jurisdiction": "Alabama",
+    "state": "AL",
+    "county": "",
+    "lat": 32.3617,
+    "lng": -86.2792,
+    "action_type": "legislation",
+    "date": "2026-02-12",
+    "status": "active",
+    "bill_name": "HB 399 - Data Center Abatement Limits",
+    "bill_url": "https://legiscan.com/AL/bill/HB399/2026",
+    "summary": "House companion to SB 265. Limits abatements for data center projects over $200M to 20 years. Requires data centers to pay real property taxes and sales/use taxes allocated to General Fund. Passed House 103-0."
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "bessemer-al-expansion-2026-02",
+    "jurisdiction": "Bessemer",
+    "state": "AL",
+    "county": "Jefferson County",
+    "lat": 33.4018,
+    "lng": -86.9544,
+    "action_type": "other",
+    "date": "2026-02-18",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "Amazon",
+    "hyperscaler": "AWS",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "madison-county-ms-amazon-2026-01",
+    "jurisdiction": "Madison County",
+    "state": "MS",
+    "county": "Madison County",
+    "lat": 32.4637,
+    "lng": -90.1156,
+    "action_type": "other",
+    "date": "2026-01-28",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "nobles-county-mn-opposition-2026-02",
+    "jurisdiction": "Nobles County",
+    "state": "MN",
+    "county": "Nobles County",
+    "lat": 43.6694,
+    "lng": -95.7472,
+    "action_type": "other",
+    "date": "2026-02-08",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "Minnesota Center for Environmental Advocacy"
+    ],
+    "opposition_facebook_members": null,
+    "id": "faribault-mn-mcea-lawsuit-2026-02",
+    "jurisdiction": "Faribault",
+    "state": "MN",
+    "county": "Rice County",
+    "lat": 44.295,
+    "lng": -93.2688,
+    "action_type": "lawsuit",
+    "date": "2026-02-15",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "D",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "prince-william-county-va-moratorium-2026-02",
+    "jurisdiction": "Prince William County",
+    "state": "VA",
+    "county": "Prince William County",
+    "lat": 38.6581,
+    "lng": -77.2816,
+    "action_type": "moratorium",
+    "date": "2026-02-11",
+    "status": "enacted"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "culpeper-county-va-zoning-2026-01",
+    "jurisdiction": "Culpeper County",
+    "state": "VA",
+    "county": "Culpeper County",
+    "lat": 38.4734,
+    "lng": -77.9967,
+    "action_type": "zoning_restriction",
+    "date": "2026-01-21",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "Fauquier Citizens Alliance"
+    ],
+    "opposition_facebook_members": null,
+    "id": "fauquier-county-va-opposition-2026-02",
+    "jurisdiction": "Fauquier County",
+    "state": "VA",
+    "county": "Fauquier County",
+    "lat": 38.7241,
+    "lng": -77.8083,
+    "action_type": "other",
+    "date": "2026-02-20",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "Meta",
+    "hyperscaler": "Meta",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [
+      "Stokes County NAACP",
+      "Rural Empowerment Association for Community Help"
+    ],
+    "opposition_facebook_members": null,
+    "id": "stokes-county-nc-lawsuit-2026-02",
+    "jurisdiction": "Stokes County",
+    "state": "NC",
+    "county": "Stokes County",
+    "lat": 36.4013,
+    "lng": -80.2358,
+    "action_type": "lawsuit",
+    "date": "2026-02-14",
+    "status": "active"
+  },
+  {
+    "scope": "local",
+    "data_source": "agent_research",
+    "county_lean": "R",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "dekalb-county-tn-opposition-2026-01",
+    "jurisdiction": "DeKalb County",
+    "state": "TN",
+    "county": "DeKalb County",
+    "lat": 35.9785,
+    "lng": -85.833,
+    "action_type": "other",
+    "date": "2026-01-30",
+    "status": "active"
+  },
+  {
+    "scope": "federal",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "sources": [],
+    "company": "",
+    "hyperscaler": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "federal-datacenter-community-impact-act-2026",
+    "jurisdiction": "United States",
+    "state": "US",
+    "county": "",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "action_type": "legislation",
+    "date": "2026-03-06",
+    "status": "pending",
+    "bill_name": "Data Center Community Impact Act",
+    "bill_url": "https://watsoncoleman.house.gov/newsroom/press-releases/rep-watson-coleman-introduces-bill-to-study-impact-of-ai-data-centers-on-local-communities",
+    "summary": "Authorizes a federal study on the environmental, economic, and public health impacts of data centers, with a focus on communities of color and low-income communities. Requires the Secretary of Energy to conduct the study and report findings to Congress. Endorsed by NRDC, Climate Justice Alliance, GreenLatinos, Food & Water Watch."
+  },
+  {
+    "id": "iowa-hf-2261-ia-2026",
+    "jurisdiction": "Iowa",
+    "state": "IA",
+    "county": "",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "company": "",
+    "hyperscaler": "",
+    "sources": [
+      "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF+2261"
+    ],
+    "data_source": "agent_research",
+    "scope": "statewide",
+    "county_lean": "",
+    "bill_name": "HF 2261",
+    "bill_url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF+2261",
+    "summary": "Creates new water utility customer class for energy facilities requiring 20+ MW. First-of-its-kind legislation targeting water utilities specifically.",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "federal-hr-6983-price-act-2026",
+    "jurisdiction": "United States",
+    "state": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "action_type": "legislation",
+    "date": "2026-01-08",
+    "status": "pending",
+    "scope": "federal",
+    "sources": [
+      "https://www.congress.gov/bill/119th-congress/house-bill/6983"
+    ],
+    "bill_name": "H.R. 6983 - PRICE Act",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6983",
+    "summary": "Requires data center operators to generate all electricity they consume on-site rather than drawing from the grid. Mandates 75% renewable by 2035 and 100% renewable by 2040. Civil penalties up to $100,000 per day for violations."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "federal-hr-6179-clean-cloud-act-house-2025",
+    "jurisdiction": "United States",
+    "state": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "action_type": "legislation",
+    "date": "2025-11-20",
+    "status": "pending",
+    "scope": "federal",
+    "sources": [
+      "https://www.congress.gov/bill/119th-congress/house-bill/6179"
+    ],
+    "bill_name": "H.R. 6179 - Clean Cloud Act (House)",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6179",
+    "summary": "House companion to S. 1475. Establishes emissions performance standard for electricity used by data centers and cryptomining facilities. Creates fee system; collected fees fund zero-carbon generation, long-duration energy storage, and grants to lower residential electricity costs."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "federal-hr-5227-rural-ai-act-2025",
+    "jurisdiction": "United States",
+    "state": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "action_type": "legislation",
+    "date": "2025-09-09",
+    "status": "pending",
+    "scope": "federal",
+    "sources": [
+      "https://www.congress.gov/bill/119th-congress/house-bill/5227"
+    ],
+    "bill_name": "H.R. 5227 - Unleashing Low-Cost Rural AI Act",
+    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/5227",
+    "summary": "Bipartisan bill requiring Departments of Energy, Interior, and Agriculture to study the impact of AI and data center growth on energy supply in the United States, with a focus on rural communities."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "federal-ferc-large-load-rulemaking-2025",
+    "jurisdiction": "United States",
+    "state": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "action_type": "legislation",
+    "date": "2025-10-23",
+    "status": "active",
+    "scope": "federal",
+    "sources": [
+      "https://www.ferc.gov/rm26-4"
+    ],
+    "bill_name": "FERC Large Load Interconnection Rulemaking (RM26-4)",
+    "bill_url": "https://www.ferc.gov/rm26-4",
+    "summary": "DOE directed FERC to standardize interconnection of large loads (>20 MW, primarily data centers). Proposes expedited 60-day studies for flexible loads, 100% network upgrade cost responsibility for large load customers. Final rule due April 30, 2026."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "federal-ferc-pjm-colocation-2025",
+    "jurisdiction": "United States",
+    "state": "US",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "action_type": "legislation",
+    "date": "2025-12-18",
+    "status": "active",
+    "scope": "federal",
+    "sources": [
+      "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and"
+    ],
+    "bill_name": "FERC PJM Co-Location Order",
+    "bill_url": "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and",
+    "summary": "FERC ordered PJM Interconnection to develop rules for colocating data centers at power plants. Creates three new transmission services for co-located loads. Major victory for owners of gas-fired and nuclear plants seeking to serve data centers directly."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "new-york-s6394a-sustainable-dc-2025",
+    "jurisdiction": "New York",
+    "state": "NY",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "action_type": "legislation",
+    "date": "2025-03-13",
+    "status": "pending",
+    "scope": "statewide",
+    "sources": [
+      "https://www.nysenate.gov/legislation/bills/2025/S6394/amendment/A"
+    ],
+    "bill_name": "S.6394A - Sustainable Data Centers Act",
+    "bill_url": "https://www.nysenate.gov/legislation/bills/2025/S6394/amendment/A",
+    "summary": "Regulates energy consumption by data centers. Requires annual disclosure reporting, prohibits fossil fuel PPAs, directs PSC to establish a surcharge/discount plan. Mandates progressive transition to renewable energy (33% by 2030, 67% by 2035, 100% by 2040)."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "new-york-s8540-acdc-act-2025",
+    "jurisdiction": "New York",
+    "state": "NY",
+    "lat": 42.6526,
+    "lng": -73.7562,
+    "action_type": "legislation",
+    "date": "2025-10-22",
+    "status": "pending",
+    "scope": "statewide",
+    "sources": [
+      "https://www.nysenate.gov/legislation/bills/2025/S8540"
+    ],
+    "bill_name": "S.8540 - AC/DC Act",
+    "bill_url": "https://www.nysenate.gov/legislation/bills/2025/S8540",
+    "summary": "Requires electric/gas corporations to establish an independent classification of service for large energy use facilities separate from other rate classes. Authorizes DPS to develop financial surety requirements. Prevents data center costs from being blended into residential rate cases."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "new-hampshire-hb-1724-nh-2026",
+    "jurisdiction": "New Hampshire",
+    "state": "NH",
+    "lat": 43.1939,
+    "lng": -71.5724,
+    "action_type": "legislation",
+    "date": "2026-01-01",
+    "status": "pending",
+    "scope": "statewide",
+    "sources": [
+      "https://legiscan.com/NH/text/HB1724/2026"
+    ],
+    "bill_name": "HB 1724 - Data Center Utility Reporting",
+    "bill_url": "https://legiscan.com/NH/text/HB1724/2026",
+    "summary": "Requires utilities to report on costs and capacity related to data center electricity demands."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "wyoming-hb-90-water-study-2026",
+    "jurisdiction": "Wyoming",
+    "state": "WY",
+    "lat": 42.7559,
+    "lng": -107.3025,
+    "action_type": "legislation",
+    "date": "2026-02-12",
+    "status": "defeated",
+    "scope": "statewide",
+    "sources": [
+      "https://legiscan.com/WY/bill/HB0090/2026"
+    ],
+    "bill_name": "HB 90 - Water Study",
+    "bill_url": "https://www.wyoleg.gov/Legislation/2026/HB0090",
+    "summary": "Would have appropriated $500K to the State Engineer to study large-scale industrial water use by data centers, carbon capture, and hydrogen projects. Advanced 8-1 out of House Agriculture Committee but did not pass full chamber."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "mississippi-sb-2599-ms-2026",
+    "jurisdiction": "Mississippi",
+    "state": "MS",
+    "lat": 32.3643,
+    "lng": -88.7037,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "enacted",
+    "scope": "statewide",
+    "sources": [],
+    "bill_name": "SB 2599 - Compass Datacenters Land Sale",
+    "summary": "Allows state to sell or lease Mississippi DPS land in Meridian to Compass Datacenters for expansion of existing data center property. Passed both chambers."
+  },
+  {
+    "county": "",
+    "company": "",
+    "hyperscaler": "",
+    "data_source": "agent_research",
+    "county_lean": "",
+    "energy_mw": null,
+    "investment_usd": null,
+    "acreage": null,
+    "water_gallons_per_day": null,
+    "petition_signatures": null,
+    "opposition_groups": [],
+    "opposition_facebook_members": null,
+    "id": "mississippi-hb-1635-ms-2026",
+    "jurisdiction": "Mississippi",
+    "state": "MS",
+    "lat": 32.2988,
+    "lng": -90.1848,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "defeated",
+    "scope": "statewide",
+    "sources": [],
+    "bill_name": "HB 1635 - Large Project Tax Redistribution",
+    "summary": "Would have redirected 80% of local ad-valorem taxes collected over $1B from large projects (including data centers) into a new state fund, with 20% to local government/schools. Author did not bring to committee vote."
   }
 ]

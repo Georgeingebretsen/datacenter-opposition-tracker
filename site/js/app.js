@@ -990,12 +990,19 @@ function downloadCSV() {
     });
     csvRows.push(row.join(','));
   });
+  csvRows.push('');
+  csvRows.push('"License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — US Datacenter Fights — datacenterfights.org"');
   downloadFile('datacenter-fights.csv', csvRows.join('\n'), 'text/csv');
 }
 
 function downloadJSON() {
   const filtered = getFiltered();
-  downloadFile('datacenter-fights.json', JSON.stringify(filtered, null, 2), 'application/json');
+  const output = {
+    license: 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)',
+    attribution: 'US Datacenter Fights — datacenterfights.org',
+    data: filtered
+  };
+  downloadFile('datacenter-fights.json', JSON.stringify(output, null, 2), 'application/json');
 }
 
 function downloadFile(filename, content, type) {

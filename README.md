@@ -53,4 +53,7 @@ Know of a datacenter fight not listed? Have corrections or updates? Open an issu
 
 ## License
 
-MIT
+- **Code** (HTML, CSS, JS, scripts): [MIT License](LICENSE)
+- **Data** (`fights.json` and all derived data files): [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+You are free to download, share, remix, and use the data for any purpose — including commercial use — as long as you provide attribution. See the [LICENSE](LICENSE) file for full details.

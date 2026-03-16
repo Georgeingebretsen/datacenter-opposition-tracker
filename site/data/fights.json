@@ -28938,5 +28938,102 @@
     "data_source": "web_research",
     "last_updated": "2026-03-15",
     "investment_usd": 6600000000
+  },
+  {
+    "id": "wyoming-evanston-prometheus-wy-2026",
+    "jurisdiction": "Evanston (Uinta County)",
+    "state": "WY",
+    "county": "Uinta County",
+    "lat": 41.2683,
+    "lng": -110.9632,
+    "action_type": "other",
+    "date": "2026-02-14",
+    "status": "pending",
+    "scope": "local",
+    "company": "Prometheus Hyperscale",
+    "hyperscaler": "Meta/Microsoft",
+    "summary": "Prometheus Hyperscale is developing a 1.2-gigawatt data center near Evanston on the Wyoming-Utah border, courting both Meta and Microsoft as potential tenants. Uinta County commissioners approved a letter of intent for a 'workforce hub' providing temporary housing for up to 3,000 construction workers on 997 acres of county-owned property adjacent to Bear River State Park. Environmental groups have opposed the project citing enormous energy and water consumption. Over 200 environmental organizations nationally have cited such projects as needing better regulations before approval.",
+    "sources": [
+      "https://cowboystatedaily.com/2026/02/14/data-center-near-evanston-is-talking-to-microsoft-meta/",
+      "https://www.uintacountyherald.com/stories/county-officials-sign-letters-of-support-for-incoming-data-center,107999"
+    ],
+    "opposition_groups": [
+      "Wyoming Outdoor Council"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "wyoming-statewide-rate-protection-wy-2026",
+    "jurisdiction": "Wyoming (statewide)",
+    "state": "WY",
+    "county": null,
+    "lat": 42.7559,
+    "lng": -107.3025,
+    "action_type": "legislation",
+    "date": "2026-01-16",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Wyoming faces 12.8 GW of announced data center projects that would more than double statewide electrical demand, sparking fears of soaring residential electric rates. While the state has an existing ratepayer protection law (statute 37-3-116 from 2019) preventing new large load customers from obligating existing customers for utility costs, the Wyoming Outdoor Council has published a white paper calling for additional legislation requiring data center developers to pay for grid infrastructure, reduce greenhouse gas emissions, and be accountable to the public. Lawmakers are considering additional regulatory measures for the upcoming budget session.",
+    "sources": [
+      "https://cowboystatedaily.com/2025/10/13/wyomings-data-center-boom-sparks-fears-of-soaring-electric-rates/",
+      "https://www.governing.com/infrastructure/data-center-boom-threatens-to-overload-wyomings-power-system",
+      "https://www.wyomingpublicmedia.org/open-spaces/2026-01-16/bigger-data-centers-are-coming-how-can-wyoming-get-ahead-of-the-boom"
+    ],
+    "opposition_groups": [
+      "Wyoming Outdoor Council"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "nebraska-sarpy-county-tax-loss-ne-2026",
+    "jurisdiction": "Sarpy County",
+    "state": "NE",
+    "county": "Sarpy County",
+    "lat": 41.1128,
+    "lng": -96.1131,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Meta/Google",
+    "hyperscaler": "Meta/Google",
+    "summary": "Sarpy County Board of Commissioners formally opposed state data center tax incentive legislation (LB209), testifying that the county loses $5.8 million in personal property tax revenue annually from existing data center tax incentives. Research shows a net fiscal loss of $10.02 million per year during the incentive period. Meta is expanding its Sarpy campus to nine buildings across 4 million sq ft on 500+ acres in Springfield. A statewide tax incentive audit found $1.2 billion in lost revenue across incentive programs over four fiscal years.",
+    "sources": [
+      "https://update.legislature.ne.gov/?p=33630",
+      "https://www.multistate.us/insider/2026/2/4/states-rethink-data-center-tax-incentives-as-costs-soar"
+    ],
+    "opposition_groups": [
+      "Sarpy County Board of Commissioners"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "alabama-huntsville-meta-noise-al-2026",
+    "jurisdiction": "Huntsville (Madison County)",
+    "state": "AL",
+    "county": "Madison County",
+    "lat": 34.7304,
+    "lng": -86.5861,
+    "action_type": "other",
+    "date": "2026-02-19",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Meta",
+    "hyperscaler": "Meta",
+    "summary": "Residents near Meta's existing data center on West Ridge Drive in Madison County report ongoing noise issues from generators and alarms, with one resident stating alarms sometimes run for 12 hours. Mayor Tommy Battle has publicly expressed wariness about opening a second data center in Huntsville, noting data centers require seven times more energy than typical facilities but only employ about 180 workers. Battle has not written off a new center but wants to ensure the tradeoff is worthwhile, signaling a shift from the state's previous pro-development stance.",
+    "sources": [
+      "https://www.apr.org/news/2026-02-19/two-alabama-cities-two-very-different-receptions-for-big-data-centers",
+      "https://abc3340.com/news/abc-3340-news-iteam/power-progress-alabamas-data-center-boom-abc-3340-town-hall-thursday-at-4-pm-continuing-coverage"
+    ],
+    "opposition_groups": [
+      "Madison County residents"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
   }
 ]

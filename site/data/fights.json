@@ -536,9 +536,10 @@
       "https://www.nwitimes.com/news/local/business/data-center-provident-realty-advisors-chesterton/article_da2f9234-1f42-11ef-b4ef-f35b554f7907.html"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 1300000000
   },
   {
     "id": "dekalb-county-tn-2024-06-01",
@@ -703,9 +704,10 @@
       "https://www.foxessellfaster.com/blog/1668-million-deal-developer-eyes-fairfax-county-police-training-campus-in-chantilly-for-massive-data-center-project/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "investment_usd": 166800000
   },
   {
     "id": "morton-county-nd-2024-09-01",
@@ -858,10 +860,11 @@
       "https://baxtel.com/data-center/diode-ventures-peculiar-mo"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "R",
-    "opposition_facebook_members": 1000
+    "opposition_facebook_members": 1000,
+    "investment_usd": 1500000000
   },
   {
     "id": "jones-county-ia-2024-10-01",
@@ -1172,11 +1175,12 @@
       "https://www.govtech.com/infrastructure/fort-worth-data-center-approved-over-residents-opposition"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 10000000000
   },
   {
     "id": "north-dakota-hb-1579-nd-2025-01-01",
@@ -1254,9 +1258,11 @@
       "https://www.crusoe.ai/resources/newsroom/crusoe-expands-ai-data-center-campus-in-abilene-to-1-2-gigawatts"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 1200,
+    "investment_usd": 12000000000
   },
   {
     "id": "reno-nv-2025-01-10",
@@ -1930,10 +1936,11 @@
       "https://www.chestertontribune.com/articles/burns-harbor-residents-say-no-way-to-data-center/",
       "https://www.nwitimes.com/news/local/article_b835a314-7b61-11ef-9626-2bd80bf9f2ca.html",
       "https://www.citact.org/about",
-      "https://indianaeconomicdigest.net/MobileContent/Most-Recent/Sunday/Article/Burns-Harbor-Plan-Commission-postpones-vote-on-controversial-data-center-rezone-amid-public-outcry/31/134/117105"
+      "https://indianaeconomicdigest.net/MobileContent/Most-Recent/Sunday/Article/Burns-Harbor-Plan-Commission-postpones-vote-on-controversial-data-center-rezone-amid-public-outcry/31/134/117105",
+      "https://www.chicagotribune.com/2024/08/03/developer-eyes-burns-harbor-for-data-center-project/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "R"
   },
@@ -2098,10 +2105,11 @@
       "https://www.greenfieldreporter.com/2025/07/19/commissioners-public-commenters-share-thoughts-during-meeting-nixing-data-center/",
       "https://www.greenfieldreporter.com/2025/04/26/residents-respond-to-proposed-data-center-project/",
       "https://www.wishtv.com/news/politics/rezoning-proposal-withdrawn-for-data-center-in-hancock-county/",
-      "https://www.datacentermap.com/usa/indiana/indianapolis/hancock-county-megasite-building-1/"
+      "https://www.datacentermap.com/usa/indiana/indianapolis/hancock-county-megasite-building-1/",
+      "https://www.ibj.com/articles/hancock-county-officials-to-consider-proposal-for-776-acre-data-center-campus"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "R",
     "opposition_facebook_members": 1700
@@ -2250,7 +2258,7 @@
     "project_name": "Hydro Park Data Center / AI Supercomputer",
     "investment_million_usd": 1200,
     "megawatts": 110,
-    "acreage": null,
+    "acreage": 124,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -2272,12 +2280,17 @@
       "https://peoplestribune.org/2026/02/fighting-the-data-center-death-cult-in-ypsilanti-and-beyond/",
       "https://www.wemu.org/wemu-news/2025-06-25/growing-community-concern-over-plans-for-data-centers-in-ypsilanti-township",
       "https://stopthedatacenter.substack.com/p/all-out-june-17th",
-      "https://michiganabolition.org/2025/11/18/everyone-hates-data-centers-an-interview-with-stop-the-data-center/"
+      "https://michiganabolition.org/2025/11/18/everyone-hates-data-centers-an-interview-with-stop-the-data-center/",
+      "https://www.datacenterdynamics.com/en/news/university-of-michigan-tells-residents-12bn-data-center-wont-impact-water-supply-or-energy-costs/",
+      "https://insideclimatenews.org/news/08102025/los-alamos-university-of-michigan-national-security-data-center/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 110,
+    "investment_usd": 1250000000,
+    "water_gallons_per_day": 500000
   },
   {
     "id": "oakland-university-rochester-hills-mi-2025-06-01",
@@ -2641,11 +2654,13 @@
       "https://www.whro.org/business-growth/2025-06-17/chesapeake-city-council-rejects-data-center-proposal"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 200,
+    "investment_usd": 500000000
   },
   {
     "id": "texas-statewide-sb-6-tx-2025-06-20",
@@ -2745,9 +2760,10 @@
       "https://virginiamercury.com/2025/05/21/report-highlights-community-pushback-stalling-64-billion-in-data-center-development-nationwide/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 30
   },
   {
     "id": "monrovia-morgan-county-in-2025-07-01",
@@ -2789,12 +2805,16 @@
       "https://dailyjournal.net/2025/10/17/aes-indiana-plans-1200-megawatt-substation-for-morgan-county-data-center/",
       "https://www.wfyi.org/news/articles/indiana-data-centers-google-communities-fight-back-winning",
       "https://mirrorindy.org/aes-data-center-southside-monrovia-citizens-action-coalition/",
-      "https://www.change.org/p/stop-the-data-center-monrovia"
+      "https://www.change.org/p/stop-the-data-center-monrovia",
+      "https://www.datacenterdynamics.com/en/news/google-behind-390-acre-data-center-development-in-morgan-county-indiana/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 1200,
+    "investment_usd": 1000000000,
+    "water_gallons_per_day": 4000000
   },
   {
     "id": "perry-township-oh-2025-07-01",
@@ -2807,7 +2827,7 @@
     "date": "2025-07-01",
     "status": "ongoing",
     "company": "Province Group",
-    "hyperscaler": null,
+    "hyperscaler": "Microsoft",
     "project_name": "Champion Farm Data Center Campus",
     "investment_million_usd": null,
     "megawatts": null,
@@ -2829,10 +2849,11 @@
     "sources": [
       "https://www.news-herald.com/2025/07/11/perry-village-government-provides-updates-regarding-proposed-data-center/",
       "https://www.news-herald.com/2025/06/24/perry-village-amends-zoning-code-to-include-data-center-campuses/",
-      "https://www.news-herald.com/2025/08/10/perry-village-getting-ready-to-post-more-answers-to-data-center-questions/"
+      "https://www.news-herald.com/2025/08/10/perry-village-getting-ready-to-post-more-answers-to-data-center-questions/",
+      "https://www.datacenterdynamics.com/en/news/microsoft-shares-details-on-ohio-data-center-in-perry-township/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-08",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "R"
   },
@@ -2989,9 +3010,10 @@
       "Food & Water Watch",
       "Sierra Club (supportive)",
       "New Jersey Business & Industry Association (NJBIA) (opposed)",
-      "New Jersey Business & Industry Association (NJBIA)"
+      "New Jersey Business & Industry Association (NJBIA)",
+      "Climate Revolution Action Network"
     ],
-    "opposition_website": null,
+    "opposition_website": "https://www.climaterevolutionnj.org",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -3010,7 +3032,7 @@
       "https://www.assemblydems.com/m/newsflash/Home/Detail/12939"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "statewide",
     "bill_name": "S4318",
     "bill_url": "https://www.njleg.state.nj.us/bill-search/2024/S4318",
@@ -3153,12 +3175,16 @@
       "https://michiganadvance.com/2025/10/09/a-michigan-town-hopes-to-stop-a-data-center-with-a-2026-ballot-initiative/",
       "https://bridgemi.com/michigan-environment-watch/tiny-michigan-town-hopes-to-stop-data-center-with-ballot-initiative/",
       "https://insideclimatenews.org/news/09102025/michigan-town-effots-to-stop-data-center/",
-      "https://www.datacenterdynamics.com/en/news/local-officials-recommend-denial-of-thor-equities-data-center-in-michigan/"
+      "https://www.datacenterdynamics.com/en/news/local-officials-recommend-denial-of-thor-equities-data-center-in-michigan/",
+      "https://www.clickondetroit.com/news/local/2025/06/03/farming-community-resists-1b-data-center-project-in-washtenaw-county/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 100,
+    "investment_usd": 1000000000,
+    "water_gallons_per_day": 1000000
   },
   {
     "id": "city-of-north-mankato-mn-2025-08-01",
@@ -3240,9 +3266,12 @@
       "https://www.hollyspringsupdate.com/p/protect-wake-county-nc-coalition"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 300,
+    "investment_usd": 1000000000,
+    "water_gallons_per_day": 1000000
   },
   {
     "id": "bessemer-al-2025-08-01",
@@ -3481,9 +3510,10 @@
       "https://www.kens5.com/article/news/community/texas-san-antonios-data-center-economy-skyline/273-82d28bd3-34c2-48bb-a493-cd24008bc9cc"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 400000000
   },
   {
     "id": "mooresville-nc-2025-08-01",
@@ -3661,14 +3691,21 @@
     "summary": "Meta's $10B+, 1 GW data center campus on 1,500 acres in Lebanon's LEAP District. Uses ~5M gallons/day. Wabash Valley Power Alliance increasing transmission spending by 1,300% ($627M) primarily for Meta, with costs likely passed to ratepayers. 200+ people rallied in Feb 2026.",
     "sources": [
       "https://www.wfyi.org/news/articles/indiana-data-center-protest-lebanon-meta",
-      "https://www.datacenterdynamics.com/en/news/meta-announces-1gw-data-center-campus-in-indiana/"
+      "https://www.datacenterdynamics.com/en/news/meta-announces-1gw-data-center-campus-in-indiana/",
+      "https://www.datacenterdynamics.com/en/news/meta-set-to-develop-1500-acre-data-center-campus-outside-indianapolis-indiana/",
+      "https://commercialobserver.com/2026/02/meta-data-center-lebanon-indiana/",
+      "https://about.fb.com/news/2026/02/metas-new-data-center-lebanon-indiana-marks-milestone-ai-investment/",
+      "https://lebanon.in.gov/2026/02/11/meta-makes-lebanon-data-center-announcement-official/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 1000,
+    "investment_usd": 10000000000,
+    "water_gallons_per_day": 3000000
   },
   {
     "id": "richland-parish-la-2025-08-01",
@@ -4067,7 +4104,7 @@
     "project_name": null,
     "investment_million_usd": 959,
     "megawatts": 324,
-    "acreage": null,
+    "acreage": 35,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -4092,9 +4129,11 @@
       "https://www.cbsnews.com/atlanta/news/let-the-people-speak-tensions-boil-over-at-dekalb-meeting-on-data-center-regulations/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 180,
+    "investment_usd": 959000000
   },
   {
     "id": "troup-county-ga-2025-09-01",
@@ -4111,7 +4150,7 @@
     "project_name": null,
     "investment_million_usd": 9700,
     "megawatts": 600,
-    "acreage": null,
+    "acreage": 513,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -4138,9 +4177,11 @@
       "https://www.gpb.org/news/2025/08/21/why-lagrange-residents-are-concerned-about-incoming-data-center-project-pegasus"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 600,
+    "investment_usd": 9700000000
   },
   {
     "id": "prince-george-s-county-md-2025-09-01",
@@ -4164,7 +4205,10 @@
     "opposition_groups": [
       "No Data Center in Landover coalition",
       "Taylor Frazier McCollum (petition organizer)",
-      "Party for Socialism and Liberation DC"
+      "Party for Socialism and Liberation DC",
+      "No Data Center in Landover",
+      "South County Environmental Justice Coalition",
+      "Brandywine TB Southern Region Neighborhood Coalition"
     ],
     "opposition_website": null,
     "opposition_facebook": null,
@@ -4191,7 +4235,7 @@
       "https://www.fastcompany.com/91460617/data-center-backlash-wave-of-change-org-petitions-in-2025"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "opposition_instagram_followers": 2268,
     "county_lean": "D",
@@ -4242,9 +4286,10 @@
       "https://www.bisnow.com/atlanta/news/industrial/new-york-investor-buys-big-in-lagrange-for-future-data-center-campus-125401"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 400
   },
   {
     "id": "pike-county-ga-2025-09-01",
@@ -4365,10 +4410,12 @@
       "https://www.datacentermap.com/usa/north-carolina/charlotte/compass-statesville/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "opposition_facebook_members": 900,
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 500,
+    "investment_usd": 1000000000
   },
   {
     "id": "hampden-township-pa-2025-09-01",
@@ -4905,7 +4952,7 @@
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
-    "acreage": null,
+    "acreage": 151,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -4921,11 +4968,13 @@
       "https://www.wsbtv.com/news/local/walton-county/city-social-circle-bans-new-data-center-applications-90-days/JGRPK34JC5AGRA5V5KH6YCXVWA/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 288,
+    "investment_usd": 7500000000
   },
   {
     "id": "franklin-township-indianapolis-in-2025-09-22",
@@ -4965,12 +5014,18 @@
       "https://www.axios.com/local/indianapolis/2025/09/23/google-data-center-project-opposition-withdrawal",
       "https://www.change.org/p/halt-the-proposed-data-center-land-development-in-franklin-township",
       "https://www.wfyi.org/news/articles/indianapolis-council-google-data-center-vote-withdrawl",
-      "https://www.wthr.com/article/news/local/indianapolis-franklin-township-google-data-center-plan-pulled-after-city-county-council-discussion/531-b8223650-5721-4108-a927-9ac38d894b3e"
+      "https://www.wthr.com/article/news/local/indianapolis-franklin-township-google-data-center-plan-pulled-after-city-county-council-discussion/531-b8223650-5721-4108-a927-9ac38d894b3e",
+      "https://www.datacenterdynamics.com/en/news/sabey-targets-indianapolis-for-250mw-data-center-campus/",
+      "https://www.inkfreenews.com/2025/11/21/4b-data-center-planned-for-indianapolis/",
+      "https://www.ibj.com/articles/seattle-firm-plans-4b-data-center-project-in-indianapolis",
+      "https://fox59.com/news/washington-based-sabey-aims-to-build-900000-square-foot-data-center-campus-in-decatur-township/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 250,
+    "investment_usd": 4000000000
   },
   {
     "id": "city-of-south-fulton-ga-2025-09-22",
@@ -5104,7 +5159,8 @@
     "jobs_promised": 30,
     "opposition_groups": [
       "Griffin family plaintiffs",
-      "Taylor community residents (led by Carrie D'Anna)"
+      "Taylor community residents (led by Carrie D'Anna)",
+      "Halt the BPP Project in Taylor"
     ],
     "opposition_website": null,
     "opposition_facebook": [
@@ -5124,10 +5180,12 @@
       "https://www.kvue.com/article/news/local/taylor-residents-data-center-concerns/269-5a505a20-d721-4c49-85a4-4f78c27bfc7c"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "opposition_facebook_members": 91,
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 60,
+    "investment_usd": 1000000000
   },
   {
     "id": "mason-county-wv-2025-09-28",
@@ -5688,13 +5746,17 @@
       "https://local12.com/news/local/data-center-butler-county-trenton-millions-dollars-real-estate-developers-industrial-land-sale-finalized-new-project-farmland-construction-jobs-long-term-positions",
       "https://www.fox19.com/2025/11/06/trenton-residents-oppose-proposed-data-center-141-acre-site/",
       "https://www.wcpo.com/news/local-news/butler-county/trenton/trenton-residents-demand-transparency-as-data-center-construction-begins",
-      "https://www.journal-news.com/news/trenton-data-center-plan-outlined-by-prologis-residents-question-benefits-and-risks/VQWDFH52WVAELJIUDMMZNKPKD4/"
+      "https://www.journal-news.com/news/trenton-data-center-plan-outlined-by-prologis-residents-question-benefits-and-risks/VQWDFH52WVAELJIUDMMZNKPKD4/",
+      "https://www.datacenterdynamics.com/en/news/prologis-details-plans-for-data-center-campus-outside-cincinnati-ohio/",
+      "https://local12.com/news/local/site-work-begins-mammoth-data-center-cincinnati-region-butler-county-prologis-project-mila-trenton-create-jobs-employment-career-hiring"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-16",
     "opposition_facebook_members": null,
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 250,
+    "water_gallons_per_day": 43288
   },
   {
     "id": "mason-county-maysville-ky-2025-10-01",
@@ -5807,7 +5869,8 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "No data center LMBT"
+      "No data center LMBT",
+      "NO DATA CENTER LMBT"
     ],
     "opposition_website": "https://www.nodatacenterlmbt.com/",
     "opposition_facebook": null,
@@ -5824,7 +5887,7 @@
       "https://ridgeviewecho.com/2026/02/24/mount-bethel-data-center-faces-backlash-from-community-models-a-similar-fate-for-new-jersey/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "R"
   },
@@ -5870,7 +5933,9 @@
     "data_source": "news",
     "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 100,
+    "investment_usd": 60000000
   },
   {
     "id": "hobart-in-2025-10-01",
@@ -5956,12 +6021,16 @@
       "https://www.wrtv.com/news/local-news/plainfield-could-be-home-to-the-next-data-center",
       "https://www.datacenterdynamics.com/en/news/radiusdc-looks-to-build-two-data-centers-outside-indianapolis-indiana/",
       "https://www.townofplainfield.com/2023/Radius-Data-Center--Allpoints-18",
-      "https://newswire.telecomramblings.com/2026/01/radiusdc-expands-its-footprint-with-edge-colocation-campus-in-indianapolis-in/"
+      "https://newswire.telecomramblings.com/2026/01/radiusdc-expands-its-footprint-with-edge-colocation-campus-in-indianapolis-in/",
+      "https://www.datacenterdynamics.com/en/news/radiusdc-announces-24mw-data-center-campus-outside-indianapolis-indiana/",
+      "https://baxtel.com/data-center/radiusdc-plainfield-campus"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 24,
+    "water_gallons_per_day": 700
   },
   {
     "id": "lordstown-oh-2025-10-01",
@@ -6109,9 +6178,10 @@
       "https://www.datacenterdynamics.com/en/news/planning-agency-of-plymouth-township-pennsylvania-votes-not-to-recommend-data-center-proposal/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "investment_usd": 9000000000
   },
   {
     "id": "lackawanna-county-pa-2025-10-01",
@@ -6128,7 +6198,7 @@
     "project_name": "Covington/Clifton Townships Data Center",
     "investment_million_usd": 14250,
     "megawatts": 1500,
-    "acreage": null,
+    "acreage": 1000,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -6155,9 +6225,11 @@
       "https://www.thetimes-tribune.com/2025/07/10/developer-looks-to-build-30-plus-data-centers-in-north-pocono/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 1500,
+    "investment_usd": 14250000000
   },
   {
     "id": "saline-township-mi-2025-10-01",
@@ -6208,13 +6280,18 @@
       "https://www.michiganpublic.org/politics-government/2025-12-02/saline-residents-protest-data-center-project-chant-no-secret-deals",
       "https://www.wemu.org/wemu-news/2026-02-20/lawsuit-aimed-at-stopping-saline-township-data-center-rejected-by-washtenaw-county-judge",
       "https://mitechnews.com/featured/billion-openai-data-center-clears-major-legal-hurdle-in-saline/",
-      "https://planetdetroit.org/2026/02/saline-data-center-air-wetlands-permits/"
+      "https://planetdetroit.org/2026/02/saline-data-center-air-wetlands-permits/",
+      "https://www.datacenterdynamics.com/en/news/related-digitals-michigan-1gw-data-center-project-to-serve-openai-oracle/",
+      "https://www.related-digital.com/news/openai-oracle-and-related-digital-announce-stargate-data-center-site-in-michigan",
+      "https://planetdetroit.org/2025/12/dte-data-center-contracts-approved/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "opposition_facebook_members": 1800,
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 1400,
+    "investment_usd": 7000000000
   },
   {
     "id": "shreveport-la-2025-10-01",
@@ -6331,9 +6408,10 @@
     ],
     "opposition_groups": [
       "East Vincent Advocacy (EVT Advocacy)",
-      "Prevent East Vincent Data Center Development"
+      "Prevent East Vincent Data Center Development",
+      "East Vincent Advocacy"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "company": "Penn Hurst Holdings DE LLC",
     "opposition_website": "https://www.evtadvocacy.org/",
     "petition_url": "https://www.change.org/p/protect-pennhurst-from-data-center-development",
@@ -6366,14 +6444,18 @@
     "opposition_groups": [
       "Stop Temple Data Centers"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "company": "Rowan Digital Infrastructure",
     "megawatts": 300,
     "investment_million_usd": 700,
     "petition_signatures": null,
     "scope": "local",
     "county": "Bell County",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 300,
+    "investment_usd": 700000000,
+    "acreage": 700,
+    "water_gallons_per_day": 4000
   },
   {
     "id": "gordon-county-ga-2025-10-01",
@@ -7091,9 +7173,11 @@
       "https://virginiaindependentnews.com/infrastructure/data-center-cancellations-pile-up-as-virginians-voice-opposition/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 50,
+    "investment_usd": 500000000
   },
   {
     "id": "wyandotte-county-ks-2025-10-29",
@@ -7387,9 +7471,12 @@
     "water_usage_gallons_per_day": 3000000,
     "jobs_promised": 200,
     "opposition_groups": [
-      "Rockford residents (Change.org petition organizers)"
+      "Rockford residents (Change.org petition organizers)",
+      "No Data Centers Northern IL",
+      "Sustain Rockford",
+      "Natural Land Institute"
     ],
-    "opposition_website": null,
+    "opposition_website": "https://sustainrockford.org/",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -7404,9 +7491,11 @@
       "https://fidelisinfra.com/project/monarch-compute-campus/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 1200,
+    "investment_usd": 12000000000
   },
   {
     "id": "foristell-mo-2025-11-01",
@@ -8052,12 +8141,16 @@
       "https://www.wvxu.org/environment/2025-12-03/developers-data-center-butler-county",
       "https://www.daytondailynews.com/local/life-changing-decision-data-center-growth-fuels-fears-in-local-communities/FQ4JYJCGSVG7TBF7C7A2GR6SVA/",
       "https://www.datacenterdynamics.com/en/news/logistix-gets-planning-commission-approval-for-data-center-project-outside-cincinnati-ohio/",
-      "https://local12.com/news/local/plans-1-billion-cincinnati-hamilton-ohio-data-center-advance-despite-environmental-energy-concerns-bills-usage-cost-customers-residents-logistix-property-group-consumption-natural-gas-hydroelectric-solar-wind-generators-technology-hub-tech-computers"
+      "https://local12.com/news/local/plans-1-billion-cincinnati-hamilton-ohio-data-center-advance-despite-environmental-energy-concerns-bills-usage-cost-customers-residents-logistix-property-group-consumption-natural-gas-hydroelectric-solar-wind-generators-technology-hub-tech-computers",
+      "https://www.thebcfa.org/ignitebutler/featured-news-articles/p/item/64490/1b-hyperscale-data-center-could-break-ground-in-city-of-hamilton-in-2026",
+      "https://www.wcpo.com/hamilton-ohio-data-center-city-council-meeting-october"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 240,
+    "investment_usd": 1000000000
   },
   {
     "id": "great-falls-mt-2025-11-17",
@@ -8286,7 +8379,8 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "Stop the Data Centers Livingston County"
+      "Stop the Data Centers Livingston County",
+      "Livingston County Residents for Responsible Development"
     ],
     "opposition_website": "https://www.livcoaction.org/",
     "opposition_facebook": [],
@@ -8306,7 +8400,7 @@
       "https://www.wilx.com/2025/11/21/meta-is-behind-proposed-howell-twp-data-center-trustee-says/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R"
@@ -8526,10 +8620,11 @@
       "https://www.wyso.org/news/2025-12-02/amazon-proposes-4b-data-center-in-wilmington-seeks-tax-abatement",
       "https://www.wnewsj.com/2025/11/21/protest-planned-ahead-of-council-vote-on-proposed-amazon-data-center/",
       "https://www.chooseclintoncountyoh.org/news/data-center-faqs",
-      "https://www.wnewsj.com/2025/12/18/officials-address-water-power-concerns-at-data-center-town-hall/"
+      "https://www.wnewsj.com/2025/12/18/officials-address-water-power-concerns-at-data-center-town-hall/",
+      "https://www.wnewsj.com/2026/03/12/wilmington-planning-commission-tables-data-center-zoning-amendment/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R",
@@ -9521,9 +9616,10 @@
       "https://northernstar.info/130777/news/dozens-gather-to-voice-concerns-over-proposed-dekalb-data-center/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "investment_usd": 800000000
   },
   {
     "id": "green-charter-township-mi-2025-12-09",
@@ -9795,10 +9891,13 @@
       "https://www.times-herald.com/data_center/public-protests-split-vote-mark-approval-of-data-center-rules/article_324e192d-23e5-4d78-9894-00182e3a9d35.html"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "opposition_facebook_members": 4500,
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 900,
+    "investment_usd": 17000000000,
+    "water_gallons_per_day": 9000000
   },
   {
     "id": "dekalb-county-ga-2024-07-01",
@@ -10263,9 +10362,11 @@
       "https://www.jfkliving.com/blog/vineland-ai-hub"
     ],
     "opposition_groups": [
-      "Pinelands Alliance"
+      "Pinelands Alliance",
+      "Sustain South Jersey",
+      "Sierra Club (New Jersey Chapter)"
     ],
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-16",
     "company": "DataOne / Nebius Group",
     "megawatts": 300,
     "building_sq_ft": 2400000,
@@ -10275,7 +10376,8 @@
     "county": "Cumberland County",
     "county_lean": "R",
     "bill_name": "Vineland Ordinance 2026-3 (PILOT Agreement)",
-    "bill_url": "https://www.thevinelandvoice.com/news/vineland-residents-raise-concerns-over-300-megawatt-ai-data-center-project/article_a51ed7b1-249e-4897-8803-6c62d54e846f.html"
+    "bill_url": "https://www.thevinelandvoice.com/news/vineland-residents-raise-concerns-over-300-megawatt-ai-data-center-project/article_a51ed7b1-249e-4897-8803-6c62d54e846f.html",
+    "opposition_website": "https://pinelandsalliance.org/"
   },
   {
     "id": "frederick-county-md-2025-12-24",
@@ -11401,7 +11503,7 @@
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
-    "acreage": null,
+    "acreage": 603,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -11420,11 +11522,12 @@
       "https://www.atlantanewsfirst.com/2026/01/06/henry-county-commissioners-look-put-guardrails-any-future-data-centers/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "D"
+    "county_lean": "D",
+    "water_gallons_per_day": 5000000
   },
   {
     "id": "springfield-township-mi-2026-01-07",
@@ -11839,7 +11942,8 @@
     "opposition_groups": [
       "Stop the Greenleaf Data Center",
       "Moms Clean Air Force",
-      "Clean Wisconsin"
+      "Clean Wisconsin",
+      "Izaak Walton League (Brown County Chapter)"
     ],
     "opposition_website": null,
     "opposition_facebook": [],
@@ -11857,7 +11961,7 @@
       "https://www.cleanwisconsin.org/take-a-stand-against-unchecked-data-center-development/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R"
@@ -13751,7 +13855,8 @@
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
-      "Sierra Club"
+      "Sierra Club",
+      "Coalition for Springfield's Utility Future"
     ],
     "opposition_website": null,
     "opposition_facebook": [
@@ -13771,9 +13876,12 @@
       "https://www.sierraclub.org/illinois/sangamon-valley/about-us"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "energy_mw": 636,
+    "investment_usd": 500000000,
+    "water_gallons_per_day": 2800
   },
   {
     "id": "oklahoma-statewide-ok-2026-02-01",
@@ -13945,10 +14053,11 @@
       "https://www.peoplesdefender.com/2026/02/12/data-center-debate-emerges-in-adams-county-amid-calls-for-transparency/",
       "https://www.fox19.com/2026/02/19/manchester-residents-voice-concerns-over-potential-data-center-construction/",
       "https://www.wcpo.com/news/local-news/adams-county/adams-county-residents-voice-skepticism-concerns-over-proposed-data-center-projects-at-community-meeting",
-      "https://www.wcpo.com/news/local-news/i-team/adams-county-touts-demolished-power-plants-as-the-best-place-for-data-centers"
+      "https://www.wcpo.com/news/local-news/i-team/adams-county-touts-demolished-power-plants-as-the-best-place-for-data-centers",
+      "https://www.datacenterdynamics.com/en/news/new-data-center-construction-confirmed-in-adams-county-ohio/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "opposition_facebook_members": 679,
     "scope": "local",
     "county_lean": "R",
@@ -13990,12 +14099,15 @@
       "https://www.urbanacitizen.com/2026/02/18/data-center-plans-revealed-at-city-meeting/",
       "https://www.wosu.org/2026-03-04/urbana-passes-moratorium-on-new-data-centers-leaving-1b-proposal-in-limbo",
       "https://www.springfieldnewssun.com/news/urbana-officials-release-public-notice-with-overview-timeline-of-proposed-data-center/MZ42L743BVE5PCILD3FHAHR5GU/",
-      "https://www.springfieldnewssun.com/news/potential-data-center-considered-for-champaign-county/BYYV3EK3ARGZFM4ARE3NPOSEH4/"
+      "https://www.springfieldnewssun.com/news/potential-data-center-considered-for-champaign-county/BYYV3EK3ARGZFM4ARE3NPOSEH4/",
+      "https://www.urbanacitizen.com/2026/01/23/data-center-interest-confirmed-urbana-officials-address-residents-concerns/",
+      "https://wysu.org/ohio-news/2026-03-04/urbana-passes-moratorium-on-new-data-centers-leaving-1b-proposal-in-limbo"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "investment_usd": 1000000000
   },
   {
     "id": "allen-park-mi-2026-02-01",
@@ -15287,10 +15399,12 @@
     "sources": [
       "https://www.change.org/p/muhlenberg-twp-and-community-against-data-center-and-or-power-distribution-build",
       "https://www.datacenterdynamics.com/en/news/muhlenberg-ohio-introduces-year-long-moratorium-on-new-data-centers/",
-      "https://www.circlevilleherald.com/community/muhlenberg-trustees-pass-12-month-moratorium-on-data-centers/article_1669c51d-3606-432b-b2c5-633b7e5a25fb.html"
+      "https://www.circlevilleherald.com/community/muhlenberg-trustees-pass-12-month-moratorium-on-data-centers/article_1669c51d-3606-432b-b2c5-633b7e5a25fb.html",
+      "https://www.circlevilleherald.com/news/muhlenberg-trustees-inform-residents-of-application-for-zoning-change-for-data-center/article_4f341ad1-f5fe-49cc-a2fa-9374625d50ac.html",
+      "https://www.nbc4i.com/news/local-news/pickaway-county/after-public-pushback-pickaway-county-village-enacts-data-center-pause/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "R"
   },
@@ -15754,7 +15868,10 @@
     "last_updated": "2026-03-16",
     "opposition_facebook_members": 30700,
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 800,
+    "investment_usd": 6600000000,
+    "water_gallons_per_day": 1740
   },
   {
     "id": "city-of-oregon-oh-2026-02-10",
@@ -15777,12 +15894,13 @@
       "https://oregonohio.org/oregon-industrial-park-information-on-data-centers/",
       "https://capacityinfrastructure.com/oregon-oh/",
       "https://www.toledoblade.com/local/suburbs/2026/02/02/data-center-developer-asks-6-more-months-finalize-oregon-project/stories/20260202100",
-      "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success"
+      "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success",
+      "https://www.signatureassociates.com/oregon-oh-planning-for-big-data-center-as-tech-companies-swarm-region/"
     ],
     "opposition_groups": [
       "Coalition Against Data Centers in South Ohio"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "investment_million_usd": 2000,
     "company": "Capacity LLC",
     "megawatts": 500,
@@ -15792,7 +15910,9 @@
     "county_lean": "D",
     "opposition_facebook": [
       "https://www.facebook.com/groups/coalitionagainstdatacenters"
-    ]
+    ],
+    "energy_mw": 500,
+    "investment_usd": 2000000000
   },
   {
     "id": "hayes-township-mi-2026-02-10",
@@ -16292,10 +16412,11 @@
       "https://legislature.maine.gov/backend/app/services/getDocument.aspx?documentId=122054",
       "https://www.nrcm.org/blog/four-ways-maine-can-address-energy-impact-data-centers/",
       "https://www.mainepublic.org/climate/2026-02-16/maine-lawmakers-consider-moratorium-on-new-data-centers",
-      "https://www.slingshot.org/"
+      "https://www.slingshot.org/",
+      "https://www.pressherald.com/2026/03/13/maines-proposed-data-center-moratorium-could-scuttle-project-at-jay-mill/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "statewide",
     "bill_name": "LD 307",
     "bill_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132",
@@ -17641,9 +17762,11 @@
       "https://www.change.org/p/stop-data-centers-in-aurora-il"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
-    "county_lean": "D"
+    "county_lean": "D",
+    "energy_mw": 40,
+    "investment_usd": 350000000
   },
   {
     "id": "town-of-dryden-ny-2026-02-20",
@@ -17849,10 +17972,11 @@
       "https://www.denver7.com/money/science-and-tech/ai-data-center-could-use-more-power-than-dia-leaving-neighbors-worried-about-power-and-water-bills",
       "https://www.denverpost.com/2026/02/23/denver-data-center-coresite-elyria-swansea/",
       "https://www.denverpost.com/2026/02/23/denver-data-center-moratorium-mayor-rules/",
-      "https://www.ges-coalition.org/good-neighbor-proposal"
+      "https://www.ges-coalition.org/good-neighbor-proposal",
+      "https://www.9news.com/article/news/local/local-politics/denver-moratorium-data-centers/73-d503f38f-dfda-42f9-ac7b-22a0277c5d96"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "D"
   },
@@ -18257,13 +18381,16 @@
     "opposition_website": "https://hilliardcleanair.org/",
     "sources": [
       "https://www.axios.com/local/columbus/2026/03/04/amazon-hilliard-data-center-fuel-cell-debate",
-      "https://signalohio.org/columbus-suburb-sues-to-block-amazon-data-centers-six-acre-array-of-228-fuel-cells-ohio/"
+      "https://signalohio.org/columbus-suburb-sues-to-block-amazon-data-centers-six-acre-array-of-228-fuel-cells-ohio/",
+      "https://hilliardohio.gov/fuel-cells/",
+      "https://www.datacenterdynamics.com/en/news/city-of-hilliard-challenges-amazon-fuel-cell-project-at-ohio-data-center-report/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-16",
     "investment_million_usd": 200,
     "megawatts": 73,
-    "acreage": 142
+    "acreage": 142,
+    "investment_usd": 200000000
   },
   {
     "id": "city-of-portage-mi-2026-02-25",
@@ -20397,10 +20524,11 @@
     "summary": "Champaign County proposed a 12-month moratorium on data centers with 10,000+ sq ft processing area in unincorporated areas. ZBA vote scheduled March 26, 2026, County Board vote expected April. Primary concerns: water usage from the Mahomet Aquifer (serving ~1 million people) and energy usage. County Board unanimously created a data center task force.",
     "sources": [
       "https://www.wandtv.com/news/illinois/champaign-county-moves-forward-with-moratorium-on-big-data-centers/article_68fc64e6-28af-42f5-a896-c83a15633abf.html",
-      "https://www.news-gazette.com/business/champaign-county-proposes-one-year-ban-on-large-data-centers-while-regulations-drafted/article_a0009ee9-5365-4246-9bf8-4e5659e76bca.html"
+      "https://www.news-gazette.com/business/champaign-county-proposes-one-year-ban-on-large-data-centers-while-regulations-drafted/article_a0009ee9-5365-4246-9bf8-4e5659e76bca.html",
+      "https://ipmnewsroom.org/a-new-task-force-in-champaign-county-will-set-parameters-for-large-scale-data-center-development/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-16",
     "scope": "local",
     "county_lean": "D"
   },
@@ -20484,7 +20612,10 @@
     "opposition_groups": [
       "Spotsylvania County residents"
     ],
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "energy_mw": 770,
+    "investment_usd": 35000000000,
+    "acreage": 873
   },
   {
     "scope": "local",
@@ -20987,7 +21118,10 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.dextertownshipmi.gov/resolution-26-705-resolution-adopting-data-center-application-moratorium-2/"
+      "https://www.dextertownshipmi.gov/resolution-26-705-resolution-adopting-data-center-application-moratorium-2/",
+      "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/",
+      "https://www.washtenaw.org/4635/Data-Centers",
+      "https://planetdetroit.org/2026/03/lawmakers-propose-michigan-data-center-moratorium/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21000,7 +21134,8 @@
     "action_type": "moratorium",
     "date": "2026-02-01",
     "status": "active",
-    "summary": "Adopted 180-day moratorium on data center applications (Resolution #26-705)."
+    "summary": "Adopted 180-day moratorium on data center applications (Resolution #26-705).",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -21267,7 +21402,8 @@
     "county_lean": "R",
     "sources": [
       "https://www.wfmd.com/2026/01/26/frederick-county-board-of-elections-approves-petition-for-data-center-referendum/",
-      "https://www.baltimoresun.com/2026/03/06/data-centers-frederick-petition/"
+      "https://www.baltimoresun.com/2026/03/06/data-centers-frederick-petition/",
+      "https://www.fredericknewspost.com/news/continuing_coverage/data_centers/data-center-referendum-group-says-it-has-exceeded-its-signature-goal/article_c698affe-ea19-5558-8030-45f847694dfd.html"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21288,7 +21424,7 @@
     ],
     "opposition_website": "https://fcdcreferendum.org/",
     "petition_signatures": 15000,
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "statewide",
@@ -21691,7 +21827,8 @@
       "Protect Wilson County Water",
       "Stockdale area residents"
     ],
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "investment_usd": 6000000000
   },
   {
     "scope": "local",
@@ -23391,7 +23528,9 @@
     "acreage": null,
     "water_gallons_per_day": null,
     "petition_signatures": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Caddo Lake Institute"
+    ],
     "opposition_facebook_members": null,
     "id": "caddo-parish-water-moratorium-la-2026",
     "jurisdiction": "Caddo Parish",
@@ -26454,7 +26593,10 @@
     "scope": "local",
     "county_lean": "D",
     "data_source": "agent_research",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-16",
+    "opposition_groups": [
+      "Honest Future for Lowell"
+    ]
   },
   {
     "id": "gibraltar-mi-moratorium-2026-02",
@@ -28264,7 +28406,8 @@
       "https://virginiamercury.com/2026/03/11/clock-ticking-on-virginia-budget-as-democrats-clash-over-data-center-tax-break/",
       "https://fortune.com/2026/03/11/virginia-data-centers-tax-breaks/",
       "https://virginiamercury.com/2026/02/10/bill-would-put-more-energy-costs-on-data-centers-slash-residential-customerss-rates/",
-      "https://news.bloombergtax.com/daily-tax-report-state/virginia-impasse-over-data-center-tax-break-punts-budget-talks"
+      "https://news.bloombergtax.com/daily-tax-report-state/virginia-impasse-over-data-center-tax-break-punts-budget-talks",
+      "https://cardinalnews.org/2026/03/14/the-2026-general-assembly-session-wraps-with-no-budget-special-session-on-the-horizon/"
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-16",
@@ -28759,5 +28902,74 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-15"
+  },
+  {
+    "id": "fayetteville-nc-zoning-ban-2026-03",
+    "jurisdiction": "Fayetteville",
+    "state": "NC",
+    "county": "Cumberland County",
+    "lat": 35.0527,
+    "lng": -78.8784,
+    "action_type": "zoning_restriction",
+    "date": "2026-03-05",
+    "status": "enacted",
+    "scope": "local",
+    "company": "CHI Acquisitions LP",
+    "summary": "Fayetteville City Council voted in early March 2026 to remove data centers as a permitted use from ALL zoning categories within city limits. A pending application by CHI Acquisitions LP for a 300,000 sq ft facility on 37 acres was denied by the Planning and Zoning Commission. CHI appealed; the City Council will make a final decision on March 19.",
+    "sources": [
+      "https://thecitizen.com/2026/03/16/data-center-decision-comes-thursday-for-fayetteville-council/",
+      "https://www.cityviewnc.com/stories/fayetteville-council-clashes-over-who-should-shape-citys-data-center-rules/"
+    ],
+    "acreage": 37,
+    "data_source": "web_research",
+    "last_updated": "2026-03-16"
+  },
+  {
+    "id": "washington-township-macomb-mi-2026",
+    "jurisdiction": "Washington Township (Macomb County)",
+    "state": "MI",
+    "county": "Macomb County",
+    "lat": 42.7377,
+    "lng": -82.9937,
+    "action_type": "other",
+    "date": "2026-03-11",
+    "status": "delayed",
+    "scope": "local",
+    "company": "Prologis",
+    "hyperscaler": "Microsoft",
+    "acreage": 312,
+    "summary": "Prologis is seeking to rezone 312 acres on 32 Mile Road for a Microsoft data center. The Planning Commission has postponed the rezoning decision four times (Jan -> Feb -> April -> June 11) as the township works on zoning ordinance amendments. Hundreds of residents have packed multiple hearings in opposition, citing water, noise, traffic, and loss of rural character.",
+    "sources": [
+      "https://planetdetroit.org/2026/03/washington-township-delays-data-center-decision/",
+      "https://www.macombdaily.com/2026/03/11/washington-twp-data-center-zoning-request-postponed-yet-again-heres-why/",
+      "https://www.cnbc.com/2026/01/07/microsoft-behind-controversial-data-center-in-michigan-township.html"
+    ],
+    "opposition_groups": [
+      "Stop Washington Township Data Center"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-16"
+  },
+  {
+    "id": "washington-county-pa-protest-2026-03",
+    "jurisdiction": "Washington County (protest)",
+    "state": "PA",
+    "county": "Washington County",
+    "lat": 40.174,
+    "lng": -80.2462,
+    "action_type": "other",
+    "date": "2026-03-12",
+    "status": "active",
+    "scope": "local",
+    "summary": "Residents and the Center for Coalfield Justice protested on March 12 as County Commissioners entered an invite-only meeting with data center developers, chanting 'Our land, our power, our land, our water.' Part of a broader PA movement where 50+ data center plans face growing opposition.",
+    "sources": [
+      "https://www.farmanddairy.com/news/residents-protest-data-centers-in-washington-county-pa/907467.html",
+      "https://insideclimatenews.org/news/03032026/pennsylvania-data-center-resistance/"
+    ],
+    "opposition_groups": [
+      "Center for Coalfield Justice"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-16"
   }
 ]

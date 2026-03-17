@@ -23730,7 +23730,9 @@
     "lng": -87.6256,
     "action_type": "other",
     "date": "2026-02-17",
-    "status": "ongoing"
+    "status": "ongoing",
+    "summary": "HydraVault received a full building permit from Chicago to construct a 76,000-square-foot, 20-megawatt AI data center at 2538 S. Wabash Avenue in the South Loop. Residents reported opposition due to energy consumption, water use, and the lack of public hearings \u2014 the project was classified as a 'minor change' by zoning officials, bypassing community review.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -23756,7 +23758,9 @@
     "lng": -88.4473,
     "action_type": "other",
     "date": "2026-03-11",
-    "status": "approved"
+    "status": "approved",
+    "summary": "After a nearly six-hour contentious city council meeting, Yorkville approved Pioneer Development's 'Project Cardinal' \u2014 a 1,037-acre, 1.8-gigawatt data center campus with 14 buildings totaling 17 million square feet, plus a $51 million upfront payment. Residents spoke against it, citing water usage, noise, air quality, and property value concerns.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -23783,14 +23787,16 @@
     "action_type": "other",
     "date": "2026-02-22",
     "status": "ongoing",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "summary": "Cloverleaf Infrastructure has been in detailed discussions with Edwardsville officials since mid-2025 about a data center south of New Poag Road. Obtained emails revealed extensive behind-the-scenes planning despite public assurances of 'no formal proposal.' Residents for Responsible Growth organized a meeting of nearly 300 people in March 2026."
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://mirrorindy.org/martindale-brightwood-metrobloks-indianapolis-naacp-metrobloks-data-center/"
+      "https://mirrorindy.org/martindale-brightwood-metrobloks-indianapolis-naacp-metrobloks-data-center/",
+      "https://www.wfyi.org/news/articles/martindale-brightwood-data-center-meeting-metrobloks"
     ],
     "company": "Metrobloks",
     "hyperscaler": "",
@@ -23812,14 +23818,17 @@
     "lng": -86.1275,
     "action_type": "other",
     "date": "2026-02-12",
-    "status": "ongoing"
+    "status": "ongoing",
+    "summary": "Metrobloks proposed a 154,372-square-foot data center at 505 N. Sherman Drive in Martindale-Brightwood, one of Indianapolis's oldest historic Black neighborhoods. The Indianapolis NAACP reversed its initial support, and six city-county councilors called on Metrobloks to pause or withdraw, citing pollution compounding decades of existing environmental burdens including lead-contaminated soil.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.wfyi.org/news/articles/decatur-township-sabey-data-center-mdc-hearing-examiner"
+      "https://www.wfyi.org/news/articles/decatur-township-sabey-data-center-mdc-hearing-examiner",
+      "https://mirrorindy.org/indys-a-step-closer-to-a-new-data-center-and-residents-are-livid/"
     ],
     "company": "Sabey Data Centers",
     "hyperscaler": "",
@@ -23840,7 +23849,9 @@
     "lng": -86.255,
     "action_type": "other",
     "date": "2026-02-26",
-    "status": "ongoing"
+    "status": "ongoing",
+    "summary": "Sabey Data Centers proposed a 1-million-square-foot, 250-megawatt data center on 130 acres in Decatur Township, filing for a variance of use rather than full rezoning \u2014 bypassing a City-County Council vote. Dozens organized under 'Protect Decatur Township,' citing public health risks and property value impacts. The MDC hearing examiner recommended approval.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -23868,7 +23879,9 @@
     "lng": -83.5539,
     "action_type": "moratorium",
     "date": "2026-02-24",
-    "status": "active"
+    "status": "active",
+    "summary": "Sprigg Township trustees passed a 12-month voluntary moratorium on data centers in late February 2026, in response to a proposed facility near the former Stuart power plant requiring 1,300 megawatts \u2014 31 times Adams County's annual power consumption. First of two Adams County localities to act, followed by Monroe Township.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -23896,7 +23909,9 @@
     "lng": -83.4817,
     "action_type": "moratorium",
     "date": "2026-03-02",
-    "status": "active"
+    "status": "active",
+    "summary": "Monroe Township trustees unanimously passed a 12-month moratorium on data centers and small modular nuclear reactors in early March 2026, also establishing a zoning commission for the 27-square-mile jurisdiction including the former Killen power plant. Second Adams County locality to act after Sprigg Township.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -23926,7 +23941,8 @@
     "date": "2025-12-20",
     "status": "active",
     "opposition_facebook": "https://www.facebook.com/people/Protect-Pickaway-Alliance/61583713468844/",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "summary": "Ashville Village Council unanimously passed a 180-day emergency moratorium on December 20, 2025, in response to EdgeConneX's proposal on 680 acres including an on-site 200-megawatt natural gas power plant. Residents lined yards with 'No Data Center' signs. EdgeConneX withdrew its annexation application but reportedly already holds land zoned for data center use."
   },
   {
     "scope": "local",
@@ -23952,7 +23968,9 @@
     "lng": -82.9988,
     "action_type": "other",
     "date": "2026-03-12",
-    "status": "ongoing"
+    "status": "ongoing",
+    "summary": "Columbus City Council held hearings in March 2026 examining rapid data center growth in central Ohio, with large facilities potentially requiring up to 5 million gallons of water per day. Of 130 data centers in the area, only 18 fall within city limits, limiting regulatory authority. Some councilmembers called for a moratorium though no legislation has been introduced.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "statewide",
@@ -25030,7 +25048,9 @@
     "lng": -112.4955,
     "action_type": "zoning_restriction",
     "date": "2025-12-10",
-    "status": "enacted"
+    "status": "enacted",
+    "summary": "The Maricopa County Board of Supervisors unanimously approved a modernized zoning ordinance establishing specific rules for data center development, effective January 9, 2026. The new rules limit data centers to two industrial zoning districts (IND-2 and IND-3), requiring full rezoning for any other land.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -25062,7 +25082,8 @@
     "action_type": "lawsuit",
     "date": "2026-01-14",
     "status": "active",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "summary": "The No Desert Data Center Coalition filed a lawsuit alleging Pima County violated Arizona's Open Meeting Law when rezoning for 'Project Blue.' Separately, AG Kris Mayes challenged the Corporation Commission's approval of a 286 MW power deal between Tucson Electric Power and the developer, arguing it violates the state constitution."
   },
   {
     "scope": "local",
@@ -25070,7 +25091,8 @@
     "county_lean": "D",
     "sources": [
       "https://www.denverpost.com/2026/02/23/denver-data-center-coresite-elyria-swansea/",
-      "https://denverite.com/2026/02/25/denver-data-center-public-meeting-outrage/"
+      "https://denverite.com/2026/02/25/denver-data-center-public-meeting-outrage/",
+      "https://coloradosun.com/2026/02/24/denver-data-center-moratorium-state-legislature-opposition/"
     ],
     "company": "CoreSite",
     "hyperscaler": "",
@@ -25091,14 +25113,17 @@
     "lng": -104.9662,
     "action_type": "other",
     "date": "2026-02-23",
-    "status": "ongoing"
+    "status": "ongoing",
+    "summary": "CoreSite is building a 600,000-square-foot data center in Elyria-Swansea, one of the most polluted zip codes in the country (80216), which proceeded as a by-right use without community review. Hundreds packed a February 2026 meeting demanding transparency, and delivered a 'Good Neighbor' proposal. Denver's mayor subsequently joined calls for a moratorium.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.tucsonsentinel.com/local/report/022026_datacenter_zoning/tucson-considers-new-zoning-rules-data-centers/"
+      "https://www.tucsonsentinel.com/local/report/022026_datacenter_zoning/tucson-considers-new-zoning-rules-data-centers/",
+      "https://www.kold.com/2026/02/27/tucson-asking-feedback-data-center-zoning-rules/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -25119,7 +25144,9 @@
     "lng": -110.9747,
     "action_type": "zoning_restriction",
     "date": "2026-02-18",
-    "status": "pending"
+    "status": "pending",
+    "summary": "Tucson began developing new zoning regulations in February 2026 for data centers over 50,000 square feet, requiring water/power disclosure and empowering the city to fine or shut off water if usage exceeds allotment by 120%. Heavy industrial zones designated as most suitable locations.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -25127,7 +25154,8 @@
     "county_lean": "R",
     "sources": [
       "https://www.pinalcentral.com/news/pinal-county-pauses-data-center-approvals/",
-      "https://www.datacenterdynamics.com/en/news/land-developer-vermaland-plans-33bn-data-center-in-arizona/"
+      "https://www.datacenterdynamics.com/en/news/land-developer-vermaland-plans-33bn-data-center-in-arizona/",
+      "https://www.pinalcentral.com/maricopa_monitor/news/pinal-supervisors-approve-3-data-center-projects-with-some-concern/article_a6f448f1-f8b2-4eda-a1da-d70d9b921f8c.html"
     ],
     "company": "",
     "hyperscaler": "",
@@ -25144,10 +25172,11 @@
     "county": "Pinal County",
     "lat": 32.7574,
     "lng": -111.5712,
-    "action_type": "moratorium",
+    "action_type": "other",
     "date": "2026-01-14",
-    "status": "enacted",
-    "last_updated": "2026-03-14"
+    "status": "approved",
+    "last_updated": "2026-03-16",
+    "summary": "Despite community opposition from RAZE and the Ak-Chin Indian Community, Pinal County approved three major data center projects in November 2025 totaling ~3,900 acres, including the $33 billion Vermaland 'La Osa' project near Eloy. Residents raised concerns about desert water use, noise, cultural impacts to tribal land, and infrastructure strain."
   },
   {
     "scope": "local",
@@ -25276,7 +25305,8 @@
     "county_lean": "R",
     "sources": [
       "https://www.datacenterdynamics.com/en/news/600mw-natural-gas-powered-data-center-campus-proposed-in-hubbard-texas/",
-      "https://hillsbororeporter.com/nexus-lays-out-hubbard-data-center-plan-p31318-54.htm"
+      "https://hillsbororeporter.com/nexus-lays-out-hubbard-data-center-plan-p31318-54.htm",
+      "https://wacobridge.org/2026/01/14/town-hall-questions-on-lake-whitney-data-center-echo-mclennan-county-debate/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -25298,7 +25328,8 @@
     "action_type": "other",
     "date": "2026-02-12",
     "status": "active",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "summary": "CyrusOne filed plans for a 400-megawatt data center campus in Whitney, Hill County, with an initial $750 million building due by October 2026. Residents packed a town hall citing water use from Lake Whitney (a petition with 6,000 signatures), noise, and tax abatements. The opposition has become a key issue in the 2026 Republican primary for Texas Senate District 22."
   },
   {
     "scope": "local",
@@ -25329,14 +25360,16 @@
     "action_type": "zoning_restriction",
     "date": "2026-02-20",
     "status": "active",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "summary": "Amazon is building a 1-million-square-foot data center at the Keystone Trade Center in Falls Township, fast-tracked through Governor Shapiro's PA Permit Fast Track Program. Residents cite energy grid strain, increased electricity rates, and diesel generator impacts. A regional survey found 42% of SE Pennsylvania residents oppose data centers vs 34% in support."
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.texastribune.org/2026/02/13/texas-data-centers-local-governments-power/"
+      "https://www.texastribune.org/2026/02/13/texas-data-centers-local-governments-power/",
+      "https://www.kbtx.com/2025/09/17/bryan-annexes-land-near-rellis-campus-with-potential-retail-data-center-use/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -25356,7 +25389,8 @@
     "action_type": "zoning_restriction",
     "date": "2026-02-25",
     "status": "pending",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-16",
+    "summary": "Bryan City Council proactively annexed 162 acres near the RELLIS campus and adopted a Planned Development zoning district allowing data centers with stricter-than-normal standards including increased setbacks, noise requirements, and screening specifications. No data center project has been formally proposed yet."
   },
   {
     "scope": "local",
@@ -25384,7 +25418,8 @@
     "action_type": "moratorium",
     "date": "2026-03-12",
     "status": "enacted",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-16",
+    "summary": "The Oneonta Town Board passed a 12-month moratorium on AI data centers in March 2026 after residents presented more than 700 signatures, prompted by Eco-Yotta Inc.'s plans to rezone 150 acres of farmland. This came weeks after the nearby Town of Dryden instituted an outright ban following its own 18-month moratorium."
   },
   {
     "scope": "local",
@@ -25441,7 +25476,8 @@
     "action_type": "moratorium",
     "date": "2026-03-02",
     "status": "enacted",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-16",
+    "summary": "Grant County Commissioners passed a 24-month moratorium on data centers on March 2, 2026. The Area Plan Commission began drafting ordinance language focusing on transparency, resource impacts, and local benefits, including questions about client disclosure and annual energy/water reporting."
   },
   {
     "scope": "local",
@@ -25560,7 +25596,8 @@
     "action_type": "moratorium",
     "date": "2026-01-20",
     "status": "enacted",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-16",
+    "summary": "Thomas County Board of Commissioners unanimously approved a 12-month moratorium on AI data center construction in January 2026. Commission Chair Mark NeSmith said the board was 'certainly not anti-data centers' but preferred to be proactive in protecting the community while gathering more information."
   },
   {
     "scope": "local",
@@ -25741,7 +25778,8 @@
     "action_type": "lawsuit",
     "date": "2026-02-15",
     "status": "active",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-16",
+    "summary": "MCEA filed an appeal against Faribault over an 'inadequate' environmental review of Archer Datacenters' proposal on 87.6 acres, alleging the developer dropped estimated greenhouse gas emissions by 98% between draft and final stages without explanation, and failure to analyze cumulative impacts from the wave of nearby data center proposals."
   },
   {
     "scope": "local",
@@ -25799,7 +25837,9 @@
     "lng": -77.9967,
     "action_type": "zoning_restriction",
     "date": "2026-01-21",
-    "status": "active"
+    "status": "active",
+    "summary": "Culpeper County unanimously required conditional use permits for data centers on industrial land in September 2025, impacting 3,000+ acres across 140+ parcels that previously allowed by-right construction. Five projects in the Culpeper Technology Zone remain vested. The Piedmont Environmental Council and Coalition to Save Culpeper pushed for the stronger regulations.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -25807,7 +25847,8 @@
     "county_lean": "R",
     "sources": [
       "https://www.pecva.org/region/fauquier/gigaland/",
-      "https://www.datacenterdynamics.com/en/news/plans-for-800mw-gigaland-data-center-campus-withdrawn-in-fauquier-county-virginia/"
+      "https://www.datacenterdynamics.com/en/news/plans-for-800mw-gigaland-data-center-campus-withdrawn-in-fauquier-county-virginia/",
+      "https://www.fauquier.com/localnews/gigaland-resubmits-scaled-down-data-center-project/article_86348ee7-cefa-4d0f-b28c-33ced39ae9ff.html"
     ],
     "company": "",
     "hyperscaler": "",
@@ -25830,7 +25871,9 @@
     "lng": -77.8083,
     "action_type": "other",
     "date": "2026-02-20",
-    "status": "active"
+    "status": "active",
+    "summary": "GigaLand LLC resubmitted a scaled-down data center proposal near Remington after withdrawing the original in September 2025, reducing building space by 55% (from 2.2M to 998,662 sq ft) and cutting substation capacity from 1.2 GW to 600 MW, with a $3 billion estimated cost on 202 acres. Opposition groups including Protect Fauquier and the Piedmont Environmental Council continue monitoring.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "local",
@@ -25862,7 +25905,9 @@
     "lng": -80.2358,
     "action_type": "lawsuit",
     "date": "2026-02-14",
-    "status": "active"
+    "status": "active",
+    "summary": "Community groups represented by the Southern Coalition for Social Justice and SELC filed a lawsuit challenging the January 2026 rezoning of 1,845 acres of residential-agricultural land on the Dan River for 'Project Delta.' Hundreds chanted 'we don't want this' at the approval meeting, citing threats to the Dan River and the region's rural character.",
+    "last_updated": "2026-03-16"
   },
   {
     "scope": "federal",

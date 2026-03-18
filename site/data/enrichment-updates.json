@@ -1,0 +1,222 @@
+{
+  "richland-parish-la-2025-08-01": {
+    "fields_to_update": {
+      "megawatts": 2230,
+      "acreage": 2250,
+      "water_usage_gallons_per_day": 5000000,
+      "building_sq_ft": 4000000
+    },
+    "confidence": "high",
+    "notes": "Meta Hyperion. 2,230 MW from Entergy gas capacity filing (2.23 GW). 2,250 acres initial site (Meta has since purchased additional 1,400 acres for expansion). 5M gallons/day water usage. 4M sq ft facility. Investment already correctly at $27B in DB.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hyperion_(data_center)",
+      "https://www.datacentermap.com/usa/louisiana/shreveport/meta-richland-parish/",
+      "https://www.sierraclub.org/sierra/rural-louisiana-meta-s-new-data-center-promises-growth-what-cost",
+      "https://fortune.com/2026/02/04/meta-hyperion-ai-data-center-louisiana-expansion/"
+    ]
+  },
+  "the-dalles-or-2026-01-15": {
+    "fields_to_update": {
+      "investment_million_usd": 1800,
+      "water_usage_gallons_per_day": 1189041
+    },
+    "confidence": "high",
+    "notes": "Google The Dalles. $1.8B total investment in campus. 434M gallons/year (2024) = ~1.19M gal/day. Google has multiple campuses in The Dalles; total acreage spans original campus + 74-acre expansion + former Martin-Marietta smelter site. MW not publicly disclosed by Google.",
+    "sources": [
+      "https://datacenters.google/locations/oregon/",
+      "https://www.opb.org/article/2026/01/23/the-dalles-mayor-data-center-google/",
+      "https://oregonbusiness.com/google-advances-commitment-to-the-dalles-launching-sustainable-water-storage-system/"
+    ]
+  },
+  "blanchard-north-caddo-parish-la-2026-03-03": {
+    "fields_to_update": {
+      "building_sq_ft": 10000000
+    },
+    "confidence": "high",
+    "notes": "Amazon NW Louisiana. 10M sq ft total across 3 interconnected campuses in Caddo/Bossier parishes. building_sq_ft should be updated from 7M to 10M based on latest reporting.",
+    "sources": [
+      "https://www.opportunitylouisiana.gov/news/amazon-selects-louisiana-for-12-billion-data-center-campuses-in-major-u-s-expansion",
+      "https://lailluminator.com/2026/02/23/amazon-data-center/",
+      "https://www.nola.com/news/business/amazon-ai-data-centers-louisiana/article_ddb965ff-ed4d-40a8-9a70-6369f99a3298.html"
+    ]
+  },
+  "pine-island-mn-2025-10-16": {
+    "fields_to_update": {
+      "water_usage_gallons_per_day": 152000,
+      "building_sq_ft": 250000,
+      "jobs_promised": 100
+    },
+    "confidence": "high",
+    "notes": "Google Project Skyway. 152K gal/day per adopted AUAR. 250K sq ft data center + 35K sq ft office on ~88 acres of the 482-acre park. 100 permanent jobs. NOTE: 1,900 MW figure in press is total new clean energy Xcel will add to the grid (wind/solar/storage), NOT the data center's actual power draw.",
+    "sources": [
+      "https://pineislandmn.gov/skyway",
+      "https://www.startribune.com/google-announces-minnesota-data-center-in-pine-island-near-rochester/601587214",
+      "https://www.postbulletin.com/business/the-company-building-pine-islands-data-center-is-finally-revealed",
+      "https://www.kttc.com/2026/02/24/xcel-energy-power-new-google-data-center-pine-island/"
+    ]
+  },
+  "vicksburg-ms-2025-11-20": {
+    "fields_to_update": {
+      "jobs_promised": 200
+    },
+    "confidence": "high",
+    "notes": "Amazon Vicksburg. At least 200 full-time jobs confirmed. $3B investment already in DB. Specific MW, acreage, and water figures not yet publicly disclosed.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/amazon-to-build-3bn-data-center-campus-in-vicksburg-mississippi/",
+      "https://mississippitoday.org/2025/11/20/amazon-data-center-warren-county-mississippi/"
+    ]
+  },
+  "west-memphis-ar-2025-10-01": {
+    "fields_to_update": {
+      "megawatts": 800,
+      "investment_million_usd": 10000,
+      "jobs_promised": 300
+    },
+    "confidence": "high",
+    "notes": "Google Project Pyramid. 500-800 MW at full buildout (800 MW upper estimate). Total investment now $10B (up from initial $4B). 300 permanent + 5,000 construction jobs. 600 MW solar + 350 MW battery storage planned. Acreage already 1,178 in DB. investment_million_usd should be updated from 4000 to 10000.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/google-confirmed-to-be-behind-west-memphis-data-center-project-in-arkansas/",
+      "https://constructionreviewonline.com/google-plans-10-billion-data-center-campus-in-west-memphis-arkansas/",
+      "https://wearememphis.com/news/google-to-build-10-billion-data-center-campus-in-west-memphis-arkansas/"
+    ]
+  },
+  "louisa-county-va-2025-06-01": {
+    "fields_to_update": {
+      "megawatts": 2100,
+      "investment_million_usd": 28800,
+      "building_sq_ft": 7200000
+    },
+    "confidence": "high",
+    "notes": "Amazon Louisa County (withdrawn third campus proposal). 7 substations x 300 MW = 2,100 MW potential. $28.8B if fully built out. 7.2M sq ft proposed. Acreage 1,370 already in DB.",
+    "sources": [
+      "https://virginiamercury.com/2025/07/28/amazon-pulls-louisa-county-data-center-proposal-after-strong-resistance/",
+      "https://www.datacenterdynamics.com/en/news/aws-proposes-72m-sq-ft-data-center-campus-in-louisa-county-virginia/",
+      "https://www.bisnow.com/national/news/data-center/amazon-planning-1370-acre-virginia-data-center-campus-129714"
+    ]
+  },
+  "stafford-county-va-2025-10-22": {
+    "fields_to_update": {
+      "megawatts": 192,
+      "investment_million_usd": 2000,
+      "acreage": 82,
+      "building_sq_ft": 929000
+    },
+    "confidence": "high",
+    "notes": "Vantage Data Centers VA4 campus. 192 MW IT capacity. $2B investment. 82 acres, 929K sq ft, three 2-story buildings. Closed-loop chilled water cooling.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/vantage-plans-192mw-data-center-campus-in-stafford-county-virginia/",
+      "https://www.vedp.org/press-release/2025-11/vantage-stafford",
+      "https://www.governor.virginia.gov/newsroom/news-releases/2025/november/name-1070885-en.html"
+    ]
+  },
+  "west-louisville-ky-2026-03-05": {
+    "fields_to_update": {
+      "megawatts": 400,
+      "acreage": 153,
+      "investment_million_usd": 2000
+    },
+    "confidence": "high",
+    "notes": "PowerHouse Data Centers + Poe Companies. Up to 400 MW (initial 335 MW secured from LG&E). 153 acres on Camp Ground Road near Shively. ~$2B estimated investment.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/powerhouse-plans-400mw-data-center-campus-in-louisville-kentucky/",
+      "https://www.lanereport.com/178548/2025/01/louisville-will-be-home-to-400-mw-data-center-campus-kys-first/",
+      "https://www.wdrb.com/in-depth/developers-unveil-plans-for-large-tech-data-center-in-louisville-the-1st-of-its-kind/article_e7adef68-c92f-11ef-b262-bf1780db36c6.html"
+    ]
+  },
+  "waterford-ct-2024-01-09": {
+    "fields_to_update": {
+      "investment_million_usd": 1600,
+      "acreage": 55,
+      "building_sq_ft": 1500000
+    },
+    "confidence": "high",
+    "notes": "NE Edge at Millstone. $1.6B investment. 55 acres of Millstone's 526-acre site. 1.5M sq ft across two 2-story buildings. 300 MW already in DB.",
+    "sources": [
+      "https://ctmirror.org/2024/01/19/millstone-power-plant-ct-data-center-nuclear/",
+      "https://ffcct.org/proposed-waterford-data-center-would-dwarf-existing-connecticut-data-centers/",
+      "https://www.courant.com/2024/01/20/proposed-data-center-would-get-power-from-millstone-nuclear-plant/"
+    ]
+  },
+  "osceola-county-fl-2024-10-01": {
+    "fields_to_update": {
+      "building_sq_ft": 7000000
+    },
+    "confidence": "medium",
+    "notes": "US Development Yeehaw Junction. 9 three-story buildings at 675K sq ft each = 7M+ sq ft total. 434 acres already in DB.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/company-seeks-to-rezone-434-acres-for-data-center-in-osceola-county-florida/",
+      "https://www.orlandosentinel.com/2024/09/17/osceola-is-being-scouted-for-one-of-the-worlds-largest-data-centers/"
+    ]
+  },
+  "newton-county-covington-ga-2026-01-20": {
+    "fields_to_update": {
+      "investment_million_usd": 750,
+      "water_usage_gallons_per_day": 500000
+    },
+    "confidence": "high",
+    "notes": "Meta Stanton Springs. $750M initial investment (broke ground 2018). ~500K gal/day water usage (10% of local supply).",
+    "sources": [
+      "https://datacenters.atmeta.com/asset/newton-data-center-info-sheet/",
+      "https://ppc.land/meta-data-center-impacts-local-water-supply-in-newton-county/",
+      "https://sfist.com/2025/07/14/turns-out-metas-ai-data-centers-use-up-a-lot-of-water-in-addition-to-electricity/"
+    ]
+  },
+  "hancock-county-in-2025-06-01": {
+    "fields_to_update": {
+      "megawatts": 24,
+      "water_usage_gallons_per_day": 700
+    },
+    "confidence": "medium",
+    "notes": "Surge Development (likely Google). Developer stated 24 MW and 700 gal/day. Figures seem low for 775-acre campus; may represent initial phase only. Project withdrawn.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/775-acre-data-center-campus-proposed-outside-indianapolis-indiana/",
+      "https://www.wthr.com/article/news/local/public-meeting-set-for-proposed-data-center-campus-in-rural-hancock-county-tuttle-orchards/531-83634bf4-6c95-4d7a-994c-ea114fa0de2c"
+    ]
+  },
+  "baldwin-county-stockton-al-2025-12-02": {
+    "fields_to_update": {
+      "megawatts": 260
+    },
+    "confidence": "high",
+    "notes": "Silicon Ranch solar for Meta. 260 MW combined (Stockton I: 80 MW + Stockton II: 180 MW). $300M and 4,500 acres already in DB.",
+    "sources": [
+      "https://weartv.com/news/local/metas-solar-farm-plans-face-opposition-in-baldwin-county",
+      "https://mynbc15.com/news/local/ceo-addresses-backlash-over-300m-solar-farm-in-stockton-powering-meta-data-center"
+    ]
+  },
+  "village-of-greenleaf-wi-2026-01-13": {
+    "fields_to_update": {
+      "acreage": 500,
+      "jobs_promised": 200
+    },
+    "confidence": "high",
+    "notes": "Cloverleaf Infrastructure. ~500 acres at $120K/acre. Up to 200 jobs. Project cancelled after community opposition.",
+    "sources": [
+      "https://www.nbc26.com/news/local-news/cloverleaf-backs-out-of-ai-data-center-proposal-in-greenleaf",
+      "https://www.datacenterdynamics.com/en/news/cloverleaf-backs-out-of-data-center-project-in-greenleaf-wisconsin/"
+    ]
+  },
+  "logan-county-wv-2025-09-02": {
+    "fields_to_update": {
+      "megawatts": 2457
+    },
+    "confidence": "high",
+    "notes": "TransGas Adams Fork Energy. 117 engines x 21 MW = 2,457 MW per facility at Holden. Second identical facility at Wharncliffe (~4,914 MW total for both).",
+    "sources": [
+      "https://westvirginiawatch.com/2025/09/02/enough-devastation-mingo-logan-residents-worry-about-proposed-power-plants-data-centers-in-wv/",
+      "https://www.wvgazettemail.com/news/energy_and_environment/dep-sets-in-person-meeting-on-mingo-data-center-permit-plans-after-public-outcry/article_2e72cacb-80fc-46b1-bd2a-03f0899c023a.html"
+    ]
+  },
+  "conway-ar-2025-04-01": {
+    "fields_to_update": {
+      "building_sq_ft": 300000,
+      "jobs_promised": 50
+    },
+    "confidence": "high",
+    "notes": "Forgelight Ventures (confirmed Google front company). 300K sq ft facility. ~50 permanent jobs. $1B investment already in DB.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/plans-for-300000-sq-ft-data-center-put-forward-in-conway-arkansas/",
+      "https://www.arkansasbusiness.com/article/conway-approves-1-billion-data-center-fortune-100-company/"
+    ]
+  }
+}

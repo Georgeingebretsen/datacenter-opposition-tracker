@@ -1,0 +1,298 @@
+{
+  "research_date": "2026-03-14",
+  "notes": "Round 8 research focused on very recent news (February-March 2026). Cross-referenced against fights.json (727 entries) and all previous new-fights-march2026 round files. Found 4 genuinely new entries not yet tracked plus 11 status updates for existing entries.",
+  "new_entries": [
+    {
+      "id": "beloit-wi-2026-03-12",
+      "jurisdiction": "Town of Beloit",
+      "state": "WI",
+      "county": "Rock County",
+      "county_lean": "D",
+      "lat": 42.5236,
+      "lng": -89.0318,
+      "action_type": "other",
+      "date": "2026-03-12",
+      "status": "active",
+      "scope": "local",
+      "company": "Cambrin LLC (linked to Meta)",
+      "hyperscaler": "Meta",
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 430,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "No Beloit Data Center"
+      ],
+      "opposition_facebook": "https://www.facebook.com/groups/nobeloitdatacenter",
+      "concerns": ["water", "air_quality", "electricity_rates", "environment", "community_character"],
+      "summary": "About 200 people turned out at the Beloit Public Library to oppose a possible data center on 430+ acres of working gravel pit land in the Town of Beloit. The town entered a pre-development agreement with Cambrin LLC (linked to Meta) in July 2025. Opponents formed the 'No Beloit Data Center' Facebook group and plan further demonstrations. State Rep. Clinton Anderson has proposed bills to regulate data centers statewide.",
+      "sources": [
+        "https://www.wifr.com/2026/03/12/possible-data-center-near-beloit-raises-concerns-community/",
+        "https://www.gazettextra.com/news/local/beloit-data-center-opponents-fill-library-plan-more-demonstrations/article_61edbf30-a910-5fb6-9d42-bef77fd534c8.html",
+        "https://www.wkow.com/news/concerns-rise-over-potential-meta-linked-data-center-in-beloit-community/article_467d8865-c53a-42aa-ad9c-cbe5f005e7db.html",
+        "https://www.beloitdailynews.com/news/local-news/beloit-data-center-opponents-fill-library-plan-more-demonstrations/article_1b148177-900a-4674-8f62-0d3a8d95fc8b.html"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-14"
+    },
+    {
+      "id": "washington-county-west-finley-pa-2026-03-12",
+      "jurisdiction": "Washington County (West Finley)",
+      "state": "PA",
+      "county": "Washington County",
+      "county_lean": "R",
+      "lat": 39.9539,
+      "lng": -80.3597,
+      "action_type": "protest",
+      "date": "2026-03-12",
+      "status": "active",
+      "scope": "local",
+      "company": "Next Generation Land Company",
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 147,
+      "building_sq_ft": 150000,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Center for Coalfield Justice"
+      ],
+      "concerns": ["water", "noise", "agricultural_land", "environment", "community_character"],
+      "summary": "Residents and Center for Coalfield Justice members protested in downtown Washington, PA on March 12, chanting 'Our land, our power, our land, our water' as county commissioners met with data center developers in an invite-only meeting. Next Generation Land Company proposed a 150,000 sq ft data center on 147 acres in the rural community of West Finley. Protesters cited impacts on 23 dairy farms in the county, including water consumption and 24/7 noise affecting livestock.",
+      "sources": [
+        "https://www.farmanddairy.com/news/residents-protest-data-centers-in-washington-county-pa/907467.html",
+        "https://insideclimatenews.org/news/03032026/pennsylvania-data-center-resistance/",
+        "https://www.publicsource.org/datacenters-pittsburgh-pennsylvania-energy-resistance-environment/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-14"
+    },
+    {
+      "id": "prince-william-diamond-hill-substation-va-2026-03-11",
+      "jurisdiction": "Prince William County (Diamond Hill substation)",
+      "state": "VA",
+      "county": "Prince William County",
+      "county_lean": "D",
+      "lat": 38.7289,
+      "lng": -77.5405,
+      "action_type": "permit_denial",
+      "date": "2026-03-11",
+      "status": "active",
+      "scope": "local",
+      "company": "NOVEC (Northern Virginia Electric Cooperative)",
+      "hyperscaler": null,
+      "project_name": "Diamond Hill Substation",
+      "investment_million_usd": null,
+      "megawatts": 300,
+      "acreage": 67,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "The Coalition to Protect Prince William County"
+      ],
+      "opposition_website": "https://protectpwc.org",
+      "concerns": ["noise", "health", "electricity_rates", "grid_reliability", "community_character"],
+      "summary": "Prince William County Planning Commission voted 5-3 to deny the 'Diamond Hill Substation,' a proposed 300 MW power substation on 67 acres behind Amberleigh Station and Silver Leaf Estates in Bristow. The substation was intended to power a new data center campus. NOVEC has 10 days to appeal to the Board of County Supervisors. Residents already surrounded by data centers raised concerns about health impacts, noise, and strain on the power grid.",
+      "sources": [
+        "https://www.fox5dc.com/news/prince-william-planning-commission-rejects-power-station-plan-tied-data-center-expansion",
+        "https://www.princewilliamtimes.com/localnews/planning-commission-denies-substation-for-data-centers-in-bristow/article_442f4d3b-2bea-42f5-ac48-af6167e1a709.html",
+        "https://protectpwc.org/2026/02/28/13682/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-14"
+    },
+    {
+      "id": "stokes-county-lawsuit-nc-2026-03-13",
+      "jurisdiction": "Stokes County (Walnut Cove lawsuit)",
+      "state": "NC",
+      "county": "Stokes County",
+      "county_lean": "R",
+      "lat": 36.2954,
+      "lng": -80.1413,
+      "action_type": "lawsuit",
+      "date": "2026-03-13",
+      "status": "active",
+      "scope": "local",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 1800,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Clean Water for North Carolina",
+        "Walnut Cove residents"
+      ],
+      "opposition_website": "https://cwfnc.org/stokes/",
+      "concerns": ["water", "air_quality", "noise", "agricultural_land", "environment", "community_character"],
+      "summary": "Environmental groups and Walnut Cove neighbors filed a lawsuit on March 13, 2026, challenging Stokes County commissioners' 3-2 vote to rezone 1,800 acres of farmland near the Dan River for an AI data center. The suit alleges commissioners approved the project without considering environmental impacts including air quality, water usage, and noise. The rezoning was originally approved January 12 despite majority public opposition at hearings.",
+      "sources": [
+        "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/",
+        "https://www.wsoctv.com/news/local/nc-neighbors-suing-protect-farmland-rezoning-data-center/4FMVUKUJ7VBAJBV46OBDT75SYU/",
+        "https://journalnow.com/news/local/business/development/article_ecd6167b-aac8-4828-81e1-3d50a447416d.html",
+        "https://cwfnc.org/stokes/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-14"
+    }
+  ],
+  "updates": [
+    {
+      "jurisdiction": "Lowell",
+      "state": "MA",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-11",
+        "summary": "UPDATE: Lowell City Council voted 10-0 on March 11 to impose a 360-day moratorium on the expansion of existing data centers and the construction of new ones, with an option to extend by 180 days. This is the first data center moratorium fully implemented in Massachusetts. The moratorium targets the Markley Group's 352,000 sq ft facility in Sacred Heart neighborhood.",
+        "sources": [
+          "https://www.lowellsun.com/2026/03/13/lowell-city-council-imposes-360-day-moratorium-on-new-data-center-construction/",
+          "https://www.nbcboston.com/boston-business-journal/lowell-imposes-moratorium-on-data-centers-targeting-states-largest-facility/3913800/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Denver",
+      "state": "CO",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE: Denver's proposed one-year moratorium on data center development is expected to be introduced at a council meeting as early as March 31, 2026. Existing permitted projects (only CoreSite's DE3 facility) would be exempt. The review will target 'responsible land, energy, and water use as well as zoning and affordability for ratepayers.'",
+        "sources": [
+          "https://www.axios.com/local/denver/2026/03/02/denvers-considers-data-center-moratorium",
+          "https://gizmodo.com/denver-announces-data-center-moratorium-as-opposition-picks-up-steam-around-the-country-2000726129",
+          "https://denverite.com/2026/02/23/denver-data-center-moratorium-proposed/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Town of Apex",
+      "state": "NC",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-10",
+        "summary": "UPDATE: After Natelli Investments withdrew the New Hill Digital Campus application on March 5, Mayor Pro Tem Terry Mahaffey proposed a one-year moratorium on March 10. Town council voted unanimously to move forward. Mayor Jacques Gilbert also proposed a non-standing committee to research data center impacts.",
+        "sources": [
+          "https://www.wunc.org/environment/2026-03-11/apex-data-center-moratorium-wake-county",
+          "https://indyweek.com/news/apex-initiates-moratorium-on-data-centers/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Provo",
+      "state": "UT",
+      "updates": {
+        "status": "defeated",
+        "date": "2026-03-11",
+        "summary": "UPDATE: Provo City Council unanimously denied (7-0) the rezoning request for B+F Timpanogos Tech Center's 66,000 sq ft data center at 1507 S. and 180 East on March 11, 2026. The consensus was the city needed to complete its economic master plan first. Mayor Marsha Judkins also opposed the project.",
+        "sources": [
+          "https://www.ksl.com/article/51461110/provo-city-council-denies-zoning-change-for-proposed-data-center",
+          "https://www.heraldextra.com/news/2026/mar/11/provo-city-council-denies-rezoning-request-for-data-center-at-east-bay/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Athens-Clarke County",
+      "state": "GA",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-11",
+        "summary": "UPDATE: Athens-Clarke County Commission voted unanimously on March 11 to extend its data center moratorium to June 5, 2026 (originally set to expire March 6). One proposed regulation would categorize data centers as Level 3 industrial, requiring a special use permit. Commissioner Melissa Link: 'We need to make it as onerous as possible.'",
+        "sources": [
+          "https://flagpole.com/news/city-dope/2026/03/11/athens-clarke-county-commission-extends-moratorium-on-data-centers/",
+          "https://www.redandblack.com/athensnews/athens-mayor-and-commission-votes-to-extend-data-center-moratorium/article_5c1abc8b-78a1-4dc2-8b92-5772e98a2941.html"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Monticello",
+      "state": "MN",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-09",
+        "summary": "UPDATE: Monticello residents rallied against two proposed data centers (600+ acres combined, 4M+ sq ft). An online petition exceeded 1,200 signatures. Minnesota Center for Environmental Advocacy filed a lawsuit against the city challenging the review process. A Facebook opposition group quickly gained traction. Residents gathered at local parks to distribute yard signs.",
+        "sources": [
+          "https://www.fox9.com/news/monticello-residents-rally-against-proposed-data-centers-march-2026",
+          "https://www.hometownsource.com/monticello_times/data-center-pushback-gains-momentum/article_289f1599-95ad-4b59-9298-482b565dbf14.html",
+          "https://www.kare11.com/article/news/local/proposed-data-centers-in-monticello-spark-community-backlash/89-9f0aa475-3d16-4ab5-8b06-27f4cea6b408"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Independence",
+      "state": "MO",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-12",
+        "summary": "UPDATE: Three Independence residents (Rachel Gonzalez, Misty Vaughn, Karma Magers) filed a lawsuit in Jackson County court to force City Clerk Suzanne Holland to certify referendum signatures challenging $6.26B in Nebius data center tax breaks. The city approved a 98% real property tax abatement and 90% personal property abatement for 20 years. Organizers have collected 800+ of the 3,488 signatures needed, aiming for an August 2026 ballot measure.",
+        "sources": [
+          "https://www.kcur.org/politics-elections-and-government/2026-03-12/independence-residents-sue-tax-breaks-data-center",
+          "https://www.datacenterdynamics.com/en/news/independence-missouri-faces-lawsuit-after-rejecting-petition-against-tax-breaks-for-nebius-data-center/",
+          "https://fox4kc.com/news/citizens-file-lawsuit-against-city-of-independence-over-data-center-referendum/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "New Castle County",
+      "state": "DE",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-11",
+        "summary": "UPDATE: New Castle County Council voted 12-0 on March 11 to approve comprehensive data center regulations after 7 months of deliberation. Key provisions: 1,000-foot buffer from residential zones (500 ft with noise study), ban on open-loop cooling (unless using reclaimed water), mandatory use of energy-efficient generators, site restoration requirement. Regulations will NOT apply retroactively to projects already in the pipeline. Separately, Starwood Digital Ventures' appeal of its Coastal Zone permit denial is scheduled for hearing March 24, 2026.",
+        "sources": [
+          "https://www.delawarepublic.org/politics-government/2026-03-11/new-castle-county-council-unanimously-approves-data-center-regulations-after-hours-long-meeting",
+          "https://spotlightdelaware.org/2026/03/11/after-months-of-debate-the-new-castle-county-council-agrees-to-regulate-the-data-center-industry/",
+          "https://www.delawarepublic.org/science-health-tech/2026-02-25/starwood-appeals-denial-of-permit-for-data-center-in-ncc"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Pekin",
+      "state": "IL",
+      "updates": {
+        "status": "defeated",
+        "date": "2026-03-09",
+        "summary": "UPDATE: Pekin Mayor Mary Burress announced on March 9 that the city will not move forward with the proposed data center project. Her announcement was met with applause and cheers from opponents who had filled council chambers for months. The city is expected to vote March 23 to formally end its agreement with developer Western Hospitality Partners for the 321-acre site.",
+        "sources": [
+          "https://www.datacenterdynamics.com/en/news/data-center-proposal-rejected-in-pekin-illinois/",
+          "https://www.nprillinois.org/illinois/2026-03-09/data-center-wont-be-built-in-pekin",
+          "https://www.25newsnow.com/2026/03/09/pekins-mayor-announces-data-center-project-will-not-move-forward/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Spartanburg County",
+      "state": "SC",
+      "updates": {
+        "status": "active",
+        "date": "2026-03-07",
+        "summary": "UPDATE: More than two dozen protesters gathered at the Spartanburg County courthouse on March 7, then marched down Magnolia Street chanting about data center concerns. Northmark Strategies has started construction on one project; a second project is planned at 300 Jones Road. Separately, SC utility companies report data center proposals declining in the state.",
+        "sources": [
+          "https://www.foxcarolina.com/2026/03/07/ai-is-anti-human-protestors-express-concerns-regarding-data-centers-coming-upstate/",
+          "https://www.wrdw.com/2026/03/08/ai-is-anti-human-sc-protestors-express-concerns-regarding-data-centers/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Foristell",
+      "state": "MO",
+      "updates": {
+        "status": "pending",
+        "date": "2026-03-16",
+        "summary": "UPDATE: The Foristell Board of Aldermen is scheduled to hold the second reading and final vote on the 216-acre land annexation on March 16, 2026. If approved, residents can file a protest petition within 14 days (requiring signatures of 5% of qualified voters). A Change.org petition has been launched. Developer: Oppidan Investment Company / Connect.",
+        "sources": [
+          "https://moundcitymessenger.com/2026/02/20/foristell-residents-express-opposition-to-proposed-data-center/",
+          "https://www.midriversnewsmagazine.com/news/decision-on-foristell-land-annexation-coming-next-month/article_12c2f2ba-bc92-463c-a54e-0d22190acbe0.html",
+          "https://www.change.org/p/stop-the-foristell-data-center-project-protect-our-community-s-future"
+        ]
+      }
+    }
+  ]
+}

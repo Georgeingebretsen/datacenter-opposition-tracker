@@ -1,0 +1,442 @@
+{
+  "research_date": "2026-03-17",
+  "notes": "Research focused on Louisiana (7 existing), Mississippi (5 existing: Canton, Southaven, Southaven xAI permit, Vicksburg, Clarksdale), Arkansas (3 existing: Little Rock, Clarksville, Conway), and New Mexico (2 existing: Dona Ana County, NM statewide). Found 11 genuinely new entries and 14 status updates for existing entries.",
+  "new_entries": [
+    {
+      "jurisdiction": "Bossier Parish (Highway 3 Technology Park)",
+      "state": "LA",
+      "county": "Bossier Parish",
+      "lat": 32.5174,
+      "lng": -93.7377,
+      "action_type": "protest",
+      "status": "active",
+      "date": "2026-03-18",
+      "summary": "The Bossier Parish Police Jury held the first public hearing on March 18 on the final plat for Amazon's 1,089-acre 'Highway 3 Technology Park' north of Benton. This was the first opportunity for public comment on the property held by any Bossier government body since its future as a data center was confirmed Feb 23. STACK Infrastructure is developing the site for Amazon Web Services. The planned facility will be over 1.3 million sq ft split across six buildings. Air quality and water concerns have been raised by residents.",
+      "sources": [
+        "https://www.shreveportbossieradvocate.com/news/public-hearing-on-benton-data-center-plan-scheduled-by-bossier-police-jury-here-s-when/article_547eac30-0cd7-41e4-bd13-54ced8d31b91.html",
+        "https://www.ksla.com/2026/02/24/campuses-newly-announced-amazon-data-center-spanning-bossier-caddo-parishes-confirmed/",
+        "https://www.ksla.com/2026/03/10/amazon-data-center-plan-raises-air-quality-concerns-northwest-louisiana/"
+      ],
+      "concerns": ["air_quality", "water", "process_fairness", "community_character"],
+      "opposition_groups": [],
+      "company": "Amazon (AWS) / STACK Infrastructure",
+      "hyperscaler": "Amazon/AWS",
+      "project_name": "Highway 3 Technology Park",
+      "investment_million_usd": 12000,
+      "acreage": 1089,
+      "building_sq_ft": 1300000,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Louisiana PSC (Meta financing investigation)",
+      "state": "LA",
+      "lat": 30.4583,
+      "lng": -91.1403,
+      "action_type": "legislative_action",
+      "status": "defeated",
+      "date": "2026-02-25",
+      "summary": "The Louisiana Public Service Commission refused on Feb 25, 2026 to investigate Meta's 'Frankenstein financing' deal with Blue Owl Capital for its $27B Richland Parish data center. Earthjustice, Alliance for Affordable Energy, and Union of Concerned Scientists had filed a motion on Jan 14 requesting the probe, warning that Meta's sale of 80% of its data center stake to Blue Owl via holding company 'Beignet' allows Meta to walk away after 4 years, leaving ratepayers to pay for 3 new gas plants. PSC staff found no evidence warranting action and declined to conduct a prudence review of whether Entergy knew about the deal before the PSC's Aug 2025 vote.",
+      "sources": [
+        "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal",
+        "https://www.ucs.org/about/news/louisiana-wont-investigate-risky-meta-data-center-financing",
+        "https://lailluminator.com/2026/02/27/no-investigation-of-data-center-ownership-transfer/",
+        "https://www.nola.com/news/environment/meta-data-center-louisiana-ai-entergy/article_4c0c0e8c-bf32-4a3c-8021-ae739a0ba912.html"
+      ],
+      "concerns": ["electricity_rates", "process_fairness"],
+      "opposition_groups": ["Earthjustice", "Alliance for Affordable Energy", "Union of Concerned Scientists"],
+      "company": "Meta",
+      "hyperscaler": "Meta",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Caddo Parish (water moratorium proposal)",
+      "state": "LA",
+      "county": "Caddo Parish",
+      "lat": 32.5252,
+      "lng": -93.7502,
+      "action_type": "moratorium",
+      "status": "defeated",
+      "date": "2026-02-04",
+      "summary": "Caddo Parish Commissioner Chris Kracman proposed a one-year moratorium on developments drawing large amounts of water from Caddo Lake, plus a study on whether the lake's environment could handle large water withdrawals. The motion died without discussion at the Commission session -- no other commissioner supported putting it to a vote. The proposal came after Blanchard's town council agreed in December 2025 to sell up to 1.5 million gallons/day to an undisclosed data center developer purchasing hundreds of acres near Latex and State Line Roads.",
+      "sources": [
+        "https://www.thecentersquare.com/louisiana/article_9b293a27-28ee-49c8-b9b6-86cccb79f3b4.html",
+        "https://www.ksla.com/2026/02/04/commissioner-calls-pause-large-scale-water-agreement-caddo-lake/",
+        "https://www.yahoo.com/news/articles/caddo-lake-water-motion-dies-235751063.html"
+      ],
+      "concerns": ["water", "environment", "wildlife"],
+      "opposition_groups": [],
+      "company": "Amazon (AWS)",
+      "hyperscaler": "Amazon/AWS",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Meridian (Compass Datacenters)",
+      "state": "MS",
+      "county": "Lauderdale County",
+      "lat": 32.3643,
+      "lng": -88.7037,
+      "action_type": "protest",
+      "status": "ongoing",
+      "date": "2025-06-01",
+      "summary": "Compass Datacenters broke ground on a $10 billion, eight-building data center campus in Lauderdale County near Meridian. The Center for Economic Accountability named the project the country's 'Worst Economic Development Deal of the Year,' citing the breadth and length of state and local tax incentives. The Bigger Pie Forum, chaired by Kelley Williams, has been a frequent critic of the deal. Concerns center on the huge investment producing relatively few permanent jobs compared to environmental and resource impacts, and the generosity of the tax incentive package.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/compass-datacenters-breaks-ground-on-10bn-campus-in-meridian-mississippi/",
+        "https://msindy.org/p/mississippis-data-center-boom-and",
+        "https://meridianstar.com/2026/02/18/ai-driven-global-data-center-boom-including-in-mississippi-draws-critics-and-litigation/",
+        "https://mississippitoday.org/2026/02/05/mississippi-marketplace-are-state-leaders-rethinking-data-center-deals/"
+      ],
+      "concerns": ["tax_fairness", "jobs_quality", "electricity_rates", "environment", "process_fairness"],
+      "opposition_groups": ["Bigger Pie Forum", "Center for Economic Accountability"],
+      "company": "Compass Datacenters",
+      "investment_million_usd": 10000,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Brandon (Rankin County)",
+      "state": "MS",
+      "county": "Rankin County",
+      "lat": 32.2732,
+      "lng": -89.9862,
+      "action_type": "petition",
+      "status": "active",
+      "date": "2025-09-03",
+      "summary": "A Change.org petition calling for transparency and environmental safeguards on AVAIO Digital's $6 billion Taurus data center hub in Brandon has gathered nearly 1,000 signatures. Residents want documented proof that families in Rankin County will not face higher utility costs or limited access to clean water. Construction is underway at the East Metropolitan Center Business and Industrial Park, with occupancy expected by H1 2027. The petition warns that 'similar data centers have been built across the country, with the affected communities seeing a dramatic increase in their water and electric bills.'",
+      "sources": [
+        "https://www.change.org/p/petition-regarding-the-rankin-county-data-center-s-risks-to-the-community",
+        "https://www.supertalk.fm/multi-billion-dollar-data-center-being-built-in-brandon-but-residents-still-want-answers/",
+        "https://mississippitoday.org/2025/09/03/data-center-petition-brandon-mississippi-environment-pollution-energy/"
+      ],
+      "concerns": ["water", "electricity_rates", "air_quality", "property_values", "environment"],
+      "opposition_groups": ["Rankin County residents"],
+      "company": "AVAIO Digital Partners",
+      "project_name": "Taurus Data Center Hub",
+      "investment_million_usd": 6000,
+      "petition_url": "https://www.change.org/p/petition-regarding-the-rankin-county-data-center-s-risks-to-the-community",
+      "petition_signatures": 1000,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Mississippi (statewide tax reform debate)",
+      "state": "MS",
+      "lat": 32.2988,
+      "lng": -90.1848,
+      "action_type": "legislative_action",
+      "status": "defeated",
+      "date": "2026-02-05",
+      "summary": "House Bill 1635, authored by Ways and Means Committee Chairman Trey Lamar, would have directed 80% of local ad-valorem taxes collected above $1 billion in data center investment into a new state fund, with 20% going to local government and school districts. Lamar did not bring the bill up in committee before the deadline, letting it die without a vote. Meanwhile, the state recently approved SB 3168, raising investment thresholds for data center tax exemptions to $250M and 35 jobs, excluding cryptocurrency mining, and adding electricity tax exemptions. Mississippi has secured roughly $49 billion in headline data center investments.",
+      "sources": [
+        "https://mississippitoday.org/2026/02/05/mississippi-marketplace-are-state-leaders-rethinking-data-center-deals/",
+        "https://magnoliatribune.com/2026/02/18/ai-driven-global-data-center-boom-including-in-mississippi-draws-critics-and-litigation/",
+        "https://stateline.org/2026/02/24/data-center-tax-breaks-are-on-the-chopping-block-in-some-states/"
+      ],
+      "concerns": ["tax_fairness", "electricity_rates", "process_fairness"],
+      "opposition_groups": ["Bigger Pie Forum"],
+      "company": null,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Pulaski County (Coalition of Little Rock Neighborhoods)",
+      "state": "AR",
+      "county": "Pulaski County",
+      "lat": 34.7465,
+      "lng": -92.2896,
+      "action_type": "protest",
+      "status": "active",
+      "date": "2026-03-14",
+      "summary": "The Coalition of Little Rock Neighborhoods held a meeting on March 14, 2026 to organize residents against two massive data centers planned for Pulaski County: the AVAIO Digital $6 billion campus near Wrightsville (760 acres, up to 1 GW power) and a Google $1 billion data center in Little Rock. Residents are committing to community organizing as Arkansas faces five data center projects totaling billions. Senator Tom Cotton introduced the DATA Act to let data centers build off-grid power plants, but critics warn this could shift fixed utility costs to residential customers.",
+      "sources": [
+        "https://arktimes.com/arkansas-blog/2026/03/16/pulaski-county-residents-commit-to-organizing-against-data-centers",
+        "https://www.arkansasonline.com/news/2026/mar/14/arkansas-lawmaker-little-rock-neighborhood-group/",
+        "https://katv.com/news/local/cotton-introduces-bill-to-shield-arkansans-from-data-center-driven-electric-rate-hi-artificial-intelligence-ai-entergy-senator-tom-cotton-trump-electric-bill-power-plant-google-avaio-little-rock-meta-aws-public-service-commission-danni-hoefer-data-act"
+      ],
+      "concerns": ["electricity_rates", "water", "environment", "community_character", "jobs_quality"],
+      "opposition_groups": ["Coalition of Little Rock Neighborhoods"],
+      "company": "AVAIO Digital / Google",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Arkansas (DATA Act / Cotton bill)",
+      "state": "AR",
+      "lat": 34.7465,
+      "lng": -92.2896,
+      "action_type": "legislative_action",
+      "status": "pending",
+      "date": "2026-01-09",
+      "summary": "Senator Tom Cotton introduced the Decentralized Access to Technology Alternatives (DATA) Act of 2026, which would allow data centers to build their own off-grid power plants exempt from federal utility regulations. The bill was introduced after the Arkansas PSC warned that data centers' massive power demands are contributing to rising electric rates. The Consumer Energy Alliance warns the bill could shift fixed costs to residential and small business customers and create reliability and safety risks. AVAIO Digital's fully built-out campus near Little Rock would pull 1 GW from Arkansas's grid -- over 5% of the state's total electric capacity.",
+      "sources": [
+        "https://katv.com/news/local/cotton-introduces-bill-to-shield-arkansans-from-data-center-driven-electric-rate-hi-artificial-intelligence-ai-entergy-senator-tom-cotton-trump-electric-bill-power-plant-google-avaio-little-rock-meta-aws-public-service-commission-danni-hoefer-data-act",
+        "https://arktimes.com/arkansas-blog/2026/01/09/tom-cotton-wades-into-the-data-center-conversation-we-may-wish-that-he-hadnt",
+        "https://consumerenergyalliance.org/2026/02/consumer-energy-alliance-flags-cost-reliability-risks-in-sen-cottons-data-act/",
+        "https://reason.com/2026/01/12/data-centers-use-lots-of-electricity-this-bill-would-let-them-go-off-the-grid/"
+      ],
+      "concerns": ["electricity_rates", "grid_reliability", "process_fairness"],
+      "opposition_groups": ["Consumer Energy Alliance"],
+      "company": null,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Arkansas (data center lawsuit vs. state)",
+      "state": "AR",
+      "lat": 34.7465,
+      "lng": -92.2896,
+      "action_type": "lawsuit",
+      "status": "ongoing",
+      "date": "2026-03-17",
+      "summary": "An unnamed data center company and the state of Arkansas are accusing each other of foot-dragging in discovery and deposition disputes in a lawsuit filed against the state over two laws the company argues are discriminatory. As of March 17, 2026, dueling accusations continued in court. The litigation highlights tension between data center developers and state regulation, with the state attorney general's office and the company both alleging the other is delaying proceedings.",
+      "sources": [
+        "https://www.arkansasonline.com/news/2026/mar/17/data-center-company-and-state-accuse-each-other/",
+        "https://www.nwaonline.com/news/2026/mar/17/data-center-company-and-state-accuse-each-other/",
+        "https://www.arkansasonline.com/news/2026/mar/05/data-center-company-accuses-arkansas-officials-of/"
+      ],
+      "concerns": ["process_fairness", "tax_fairness"],
+      "opposition_groups": [],
+      "company": null,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Dona Ana County (NMELC Open Meetings lawsuit)",
+      "state": "NM",
+      "county": "Dona Ana County",
+      "lat": 32.3199,
+      "lng": -106.7637,
+      "action_type": "lawsuit",
+      "status": "ongoing",
+      "date": "2026-02-06",
+      "summary": "The New Mexico Environmental Law Center filed a second lawsuit on Feb 6, 2026 in Dona Ana County District Court alleging the County Commission violated the Open Meetings Act when it approved $165 billion in industrial revenue bonds for Project Jupiter on Sept 19, 2025. The suit alleges commissioners moved into closed session without proper notice or reasonable specificity. This joins an October 2025 lawsuit by the Empowerment Congress of Dona Ana County challenging the IRBs and LEDA incentives. Project Jupiter is shaping 2026 county commission elections, with former Empowerment Congress director Daisy Maldonado running for District 1.",
+      "sources": [
+        "https://nmelc.org/2026/02/09/nmelc-files-lawsuit-against-dona-ana-county-commission-for-oma-violations/",
+        "https://sourcenm.com/2026/02/10/lawsuit-alleges-nm-countys-project-jupiter-data-center-vote-violated-open-meetings-act/",
+        "https://kfoxtv.com/news/local/nmelc-files-lawsuit-against-dona-ana-county-for-open-meeting-violations",
+        "https://www.abqjournal.com/news/how-project-jupiter-is-shaping-doa-ana-county-elections/3002483"
+      ],
+      "concerns": ["process_fairness", "water", "environment", "air_quality"],
+      "opposition_groups": ["New Mexico Environmental Law Center", "Empowerment Congress of Dona Ana County"],
+      "company": "Oracle / OpenAI (Stargate Project)",
+      "hyperscaler": "OpenAI",
+      "project_name": "Project Jupiter",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "New Mexico (Project Jupiter air permit opposition)",
+      "state": "NM",
+      "lat": 32.3199,
+      "lng": -106.7637,
+      "action_type": "petition",
+      "status": "pending",
+      "date": "2026-03-02",
+      "summary": "Over 1,500 New Mexicans submitted comments opposing an air pollution permit for Project Jupiter's methane gas power plant in Dona Ana County. The Rio Grande Sierra Club coalition collected nearly 950 pages of personal messages to the New Mexico Environment Department plus technical comments highlighting the applicant's failure to comply with clean air laws. If approved, Project Jupiter could emit over 14 million tons of greenhouse gases/year. Environmental advocates allege the developer split emissions across two permit applications to skirt 'major source' regulations. Public comment ended March 2; the state has until April 22 to decide. A secretive statewide PR campaign by project backers emerged in March.",
+      "sources": [
+        "https://www.riograndesierraclub.org/new-mexicans-oppose-project-jupiter/",
+        "https://truthout.org/articles/secretive-new-mexico-data-center-plan-races-forward-despite-community-pushback/",
+        "https://sourcenm.com/2026/03/04/a-secretive-ad-campaign-calls-on-new-mexicans-to-support-controversial-project-jupiter-data-center/",
+        "https://www.governing.com/infrastructure/new-mexico-data-center-project-could-emit-more-greenhouse-gases-than-its-two-largest-cities"
+      ],
+      "concerns": ["air_quality", "environment", "health", "process_fairness", "water"],
+      "opposition_groups": ["Rio Grande Sierra Club", "ProgressNow New Mexico"],
+      "company": "Oracle / OpenAI (Stargate Project)",
+      "hyperscaler": "OpenAI",
+      "project_name": "Project Jupiter",
+      "petition_signatures": 1500,
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    }
+  ],
+  "updates": [
+    {
+      "id": "caddo-bossier-parishes-shreveport-area-la-2026-02-25",
+      "jurisdiction": "Caddo-Bossier Parishes (Shreveport area)",
+      "state": "LA",
+      "updates": {
+        "status": "active",
+        "summary_append": "Amazon confirmed on Feb 23 as the company behind $12B investment across three interconnected campuses in Caddo and Bossier parishes. Amazon pledged to limit water cooling to 'less than 13% of the year' during summer. Air quality concerns raised by residents and environmental advocates, with federal reports ranking Louisiana among worst states for air quality. A third site at Resilient Tech Park in Shreveport was excluded from the announcement due to pending litigation.",
+        "investment_million_usd": 12000,
+        "sources_append": [
+          "https://www.ksla.com/2026/03/10/amazon-data-center-plan-raises-air-quality-concerns-northwest-louisiana/",
+          "https://www.enr.com/articles/62581-amazon-to-break-ground-on-12b-louisiana-data-center-network",
+          "https://lailluminator.com/2026/02/23/amazon-data-center/",
+          "https://www.ktalnews.com/news/local-news/shreveport-bossier-amazon-data-center-water-concerns/"
+        ]
+      }
+    },
+    {
+      "id": "shreveport-la-2025-10-01",
+      "jurisdiction": "Shreveport",
+      "state": "LA",
+      "updates": {
+        "status": "active_lawsuit",
+        "summary_append": "Resilient Tech Park data center left out of Gov. Landry's Feb 23 announcement due to pending litigation. Mooringsport Mayor Tyler Gordon, Michael Craft, and Mary Blakemore's lawsuit in Caddo District Court challenges the City Council's override of the Planning Commission's denial. State Rep. Danny McCormick posted transmission logs showing 'highly suspicious' responses to public records requests about NDAs -- Blanchard claimed zero emails exist from 4 years; Shreveport admits NDA discussions but hasn't produced paperwork.",
+        "sources_append": [
+          "https://www.thecentersquare.com/louisiana/article_99f0ca92-ef18-482d-9f5c-8e382dcb4803.html",
+          "https://www.ktalnews.com/news/louisiana/mccormick-investigates-shreveport-blanchard-ndas/"
+        ]
+      }
+    },
+    {
+      "id": "blanchard-north-caddo-parish-la-2026-03-03",
+      "jurisdiction": "Blanchard (North Caddo Parish)",
+      "state": "LA",
+      "updates": {
+        "status": "active",
+        "summary_append": "Blanchard water issues are now affecting multiple Caddo municipalities. The town's agreement to sell 1.5M gallons/day to a data center developer has prompted broader concerns. Residents boycotted the March 3 community meeting. The Village of Mooringsport unanimously approved a resolution on Feb 12 calling for an environmental study.",
+        "sources_append": [
+          "https://www.shreveportbossieradvocate.com/news/blanchard-hopes-to-have-water-for-caddo-parish-by-monday/article_4eb0a10e-a116-445b-9f6a-8a945741d335.html"
+        ]
+      }
+    },
+    {
+      "id": "richland-parish-la-2025",
+      "jurisdiction": "Richland Parish (Rayville/Delhi)",
+      "state": "LA",
+      "updates": {
+        "status": "ongoing",
+        "summary_append": "Louisiana PSC refused on Feb 25 to investigate Meta's 'Frankenstein financing' deal with Blue Owl Capital. The deal allows Meta to walk away after 4 years, potentially leaving ratepayers paying for 3 new gas plants. PSC staff found no evidence warranting action. Earthjustice called the decision 'alarming.' Meta says the facility will consume roughly the same amount of water as the farmland it replaced (500-600M gallons/year vs. registered 8.4B gallons/year).",
+        "sources_append": [
+          "https://www.ucs.org/about/news/louisiana-wont-investigate-risky-meta-data-center-financing",
+          "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal",
+          "https://www.1012industryreport.com/technology/ai/meta-leader-addresses-louisiana-data-center-water-usage-concerns/"
+        ]
+      }
+    },
+    {
+      "id": "new-orleans-la-2026-01-28",
+      "jurisdiction": "New Orleans",
+      "state": "LA",
+      "updates": {
+        "status": "approved",
+        "notes": "No change -- moratorium remains in effect. Council signaling it will become permanent."
+      }
+    },
+    {
+      "id": "canton-ms-2025-01-01",
+      "jurisdiction": "Canton",
+      "state": "MS",
+      "updates": {
+        "status": "ongoing",
+        "summary_append": "AP/Mississippi Free Press reported in Feb-March 2026 that Idlebriar neighborhood residents are struggling with the data center next door. Construction dust worsening a teenager's asthma, traffic congestion spiking, and noise disrupting daily life. Residents express surprise at the scale and proximity of the facility. Amazon's two Madison County campuses will house over 700 diesel generators capable of producing close to 2,000 MW combined. The story was picked up nationally by AP, NPR, Arkansas Times, and others.",
+        "concerns_append": ["health", "air_quality"],
+        "sources_append": [
+          "https://www.mississippifreepress.org/amazons-canton-data-center-promises-prosperity-for-neighbors-its-bringing-dust-noise-and-pollution-fears/",
+          "https://www.arkansasonline.com/news/2026/mar/01/a-mississippi-subdivision-struggles-with-the-data/",
+          "https://www.northernpublicradio.org/wnij-news/2026-02-19/a-subdivision-struggles-with-the-massive-data-center-moving-in-next-door"
+        ]
+      }
+    },
+    {
+      "id": "southaven-ms-xai-permit-2026",
+      "jurisdiction": "Southaven (xAI air permit fight)",
+      "state": "MS",
+      "updates": {
+        "status": "permit_approved_over_opposition",
+        "summary_append": "Despite overwhelming public opposition at the Feb 17 hearing (not a single speaker in favor, ~200 attendees), the Mississippi Department of Environmental Quality approved xAI's air permit on March 10-11, 2026. The NAACP called it a 'civil rights issue.' A mid-South coalition including Memphis Community Against Pollution, NAACP Memphis Branch, Young Gifted & Green, and Safe and Sound Coalition formally opposed. David Wood, Rankin County environmental advocate, also testified against at the March 10 Permit Board meeting.",
+        "opposition_groups_append": ["Memphis Community Against Pollution", "Young Gifted & Green", "NAACP Memphis Branch"],
+        "sources_append": [
+          "https://www.wlbt.com/2026/03/11/mdeq-approves-air-permit-xai-data-center-southaven-amid-community-opposition/",
+          "https://floodlightnews.org/mississippi-regulators-greenlight-xais-southaven-power-plant-despite-strong-public-opposition/",
+          "https://www.memphisflyer.com/naacp-sends-letter-in-opposition-to-southaven-xai-permit/",
+          "https://www.actionnews5.com/2026/02/17/mid-south-coalition-oppose-xais-desoto-county-expansion/"
+        ]
+      }
+    },
+    {
+      "id": "vicksburg-ms-2025",
+      "jurisdiction": "Vicksburg",
+      "state": "MS",
+      "updates": {
+        "status": "ongoing",
+        "summary_append": "Farmers express concern about the strain data centers put on local aquifers. No assurances from Amazon that energy costs will not rise for locals. Construction expected to begin in 2026. The Vicksburg Daily News published an editorial calling the data center 'a bad deal for locals.' Regional water officials urging holistic discussions about data center water impacts.",
+        "concerns_append": ["water", "agricultural_land"],
+        "sources_append": [
+          "https://vicksburgnews.com/amazon-data-center-is-bad-deal-for-locals/",
+          "https://www.datacenterdynamics.com/en/news/amazon-to-build-3bn-data-center-campus-in-vicksburg-mississippi/"
+        ]
+      }
+    },
+    {
+      "id": "clarksdale-ms-2026-03-10",
+      "jurisdiction": "Clarksdale",
+      "state": "MS",
+      "updates": {
+        "notes": "No change from prior entry -- board tabled discussion without a vote on March 10."
+      }
+    },
+    {
+      "id": "little-rock-ar-2025-06-01",
+      "jurisdiction": "Little Rock",
+      "state": "AR",
+      "updates": {
+        "status": "active",
+        "summary_append": "AVAIO Digital announced Jan 12, 2026 a $6 billion 'Leo' data center hub on a 760-acre site near Wrightsville, ~10 miles south of Little Rock. First phase construction started Q1 2026, with Phase 1 completion expected June 2027. The campus would eventually need up to 1 GW of power (over 5% of Arkansas's total electric capacity), creating 500+ permanent jobs through 2031. Full buildout projected at $21 billion. The project is the largest economic investment in Arkansas history. Coalition of Little Rock Neighborhoods held organizing meeting March 14 to oppose.",
+        "company": "AVAIO Digital Partners",
+        "project_name": "Leo Data Center Hub",
+        "investment_million_usd": 6000,
+        "acreage": 760,
+        "megawatts": 1000,
+        "jobs_promised": 500,
+        "sources_append": [
+          "https://www.prnewswire.com/news-releases/avaio-digital-announces-new-large-scale-ai-ready-data-center-and-power-campus-in-little-rock-arkansas-302658354.html",
+          "https://arkansasadvocate.com/briefs/central-arkansas-to-get-6-billion-data-center/",
+          "https://arktimes.com/arkansas-blog/2026/03/16/pulaski-county-residents-commit-to-organizing-against-data-centers"
+        ]
+      }
+    },
+    {
+      "id": "clarksville-ar-2025-11-25",
+      "jurisdiction": "Clarksville",
+      "state": "AR",
+      "updates": {
+        "notes": "No significant new opposition developments. Five data center projects totaling billions are planned across Arkansas (Clarksville, Conway, Little Rock AVAIO, Little Rock Google, West Memphis Google)."
+      }
+    },
+    {
+      "id": "conway-ar-2025-09",
+      "jurisdiction": "Conway",
+      "state": "AR",
+      "updates": {
+        "status": "active",
+        "summary_append": "Conway's data center, along with Little Rock's, would occupy 300,000 sq ft but employ just 50 people each. Arkansas politicians weighing benefits vs. consequences. The project is part of broader national tension: $18 billion in data center projects have been blocked and $46 billion delayed nationwide over the past two years.",
+        "sources_append": [
+          "https://www.camdenarknews.com/news/2026/mar/01/arkansas-politicians-weigh-in-on-data-center/",
+          "https://www.arkansasonline.com/news/2026/feb/27/arkansas-politicians-weight-in-on-data-center/"
+        ]
+      }
+    },
+    {
+      "id": "dona-ana-county-nm-2025-08-27",
+      "jurisdiction": "Dona Ana County",
+      "state": "NM",
+      "updates": {
+        "status": "ongoing",
+        "summary_append": "Two lawsuits now pending: (1) Oct 2025 Empowerment Congress suit challenging IRBs and incentives, (2) Feb 2026 NMELC suit alleging Open Meetings Act violations. A secretive statewide PR campaign by unnamed project backers emerged in March 2026. A Texas energy company is seeking federal approval for a pipeline through New Mexico to power the data center. SB235 (microgrid oversight bill) passed the NM Senate but died in the House. Project Jupiter is shaping the 2026 Dona Ana County commission elections. The state NMED has until April 22 to rule on the air permit applications.",
+        "sources_append": [
+          "https://sourcenm.com/2026/03/04/a-secretive-ad-campaign-calls-on-new-mexicans-to-support-controversial-project-jupiter-data-center/",
+          "https://sourcenm.com/2026/03/04/texas-energy-company-seeks-federal-approval-for-pipeline-through-new-mexico-to-power-data-center/",
+          "https://www.swenergy.org/new-mexico-2026-leg-session/",
+          "https://www.abqjournal.com/news/how-project-jupiter-is-shaping-doa-ana-county-elections/3002483"
+        ]
+      }
+    },
+    {
+      "id": "new-mexico-statewide-nm-2026-01-14",
+      "jurisdiction": "New Mexico (statewide)",
+      "state": "NM",
+      "updates": {
+        "status": "active",
+        "summary_append": "SB235 (microgrid oversight bill for data centers) passed the NM Senate but did not advance in the House before the session ended. The bill would have put qualifying microgrids under PRC oversight and required them to meet clean energy portfolio standards. Governor Lujan Grisham separately announced a $5 billion BorderPlex Digital Infrastructure Campus in Santa Teresa with BorderPlex Digital Assets, LLC. The NM legislative session ended without passing data center oversight legislation.",
+        "sources_append": [
+          "https://www.swenergy.org/new-mexico-2026-leg-session/",
+          "https://www.nmborderplex.com/governor-lujan-grisham-announces-5-billion-new-mexico-borderplex-digital-infrastructure-campus-in-santa-teresa/"
+        ]
+      }
+    }
+  ]
+}

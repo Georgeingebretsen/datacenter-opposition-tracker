@@ -1,0 +1,370 @@
+{
+  "research_date": "2026-03-17",
+  "notes": "Round 9 research focused on Wisconsin, Minnesota, and Iowa. Cross-referenced against fights.json and all previous new-fights-march2026 round files. Found 6 genuinely new entries not yet tracked plus 10 status updates for existing entries.",
+  "new_entries": [
+    {
+      "id": "wisconsin-nda-ban-sb969-wi-2026-02-18",
+      "jurisdiction": "Wisconsin (NDA ban bill SB 969)",
+      "state": "WI",
+      "county": null,
+      "county_lean": null,
+      "lat": 43.0722,
+      "lng": -89.4008,
+      "action_type": "legislative_action",
+      "date": "2026-02-18",
+      "status": "pending",
+      "scope": "statewide",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["process_fairness", "community_character"],
+      "summary": "Wisconsin SB 969, authored by Sen. Andre Jacque (R-New Franken), would impose a blanket ban on NDAs between data center companies and municipalities. Cleared the Senate Committee on Utilities, Technology and Tourism on a bipartisan 4-1 vote. However, the Assembly adjourned without taking up its companion bill, leaving the path forward uncertain. The bill would still allow trade secrets to be withheld but require all project plans to be disclosed publicly.",
+      "sources": [
+        "https://www.wispolitics.com/2026/sen-jacque-data-center-nda-ban-clears-senate-committee-with-bipartisan-support/",
+        "https://www.wisbusiness.com/2026/senate-committee-signs-off-on-data-center-bills/",
+        "https://wisconsinexaminer.com/2026/02/18/non-disclosure-agreements-energy-costs-focus-of-data-center-hearing/",
+        "https://www.wpr.org/news/new-bill-ban-nondisclosure-agreements-wisconsin-data-centers-nda"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "minnesota-nda-ban-hf4077-mn-2026-03-12",
+      "jurisdiction": "Minnesota (NDA ban bill HF 4077)",
+      "state": "MN",
+      "county": null,
+      "county_lean": null,
+      "lat": 44.9537,
+      "lng": -93.09,
+      "action_type": "legislative_action",
+      "date": "2026-03-12",
+      "status": "pending",
+      "scope": "statewide",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["process_fairness", "community_character"],
+      "summary": "Minnesota HF 4077, co-authored by Rep. Emma Greenman (DFL-Minneapolis) and Rep. Drew Roach (R-Farmington), would prohibit municipalities from entering into NDAs with private companies, except where required by law. Passed the House Elections Finance and Government Operations Committee unanimously. The bill is retroactive and would apply to existing NDAs. Testimony centered on data center projects in Farmington, Hermantown, and Pine Island. Sent to House floor for a vote; outcome not yet confirmed.",
+      "sources": [
+        "https://bringmethenews.com/minnesota-news/amid-data-center-controversies-lawmakers-consider-ban-on-cities-entering-into-ndas",
+        "https://www.twincities.com/2026/03/12/minnesota-reps-advance-bill-prohibiting-local-governments-from-entering-into-ndas/",
+        "https://www.fox9.com/news/minnesota-data-centers-bill-ban-nondisclosure-agreements-march-12"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "monticello-mcea-lawsuit-mn-2026-02-25",
+      "jurisdiction": "Monticello (MCEA AUAR lawsuit)",
+      "state": "MN",
+      "county": "Wright County",
+      "county_lean": "R",
+      "lat": 45.3064,
+      "lng": -93.7916,
+      "action_type": "lawsuit",
+      "date": "2026-02-25",
+      "status": "active",
+      "scope": "local",
+      "company": "Monticello Tech LLC",
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 550,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Minnesota Center for Environmental Advocacy (MCEA)"
+      ],
+      "opposition_website": "https://www.mncenter.org/data-centers",
+      "concerns": ["water", "air_quality", "noise", "light_pollution", "electricity_rates", "environment"],
+      "summary": "MCEA filed its sixth data center lawsuit in Minnesota on Feb 25 in Wright County District Court (Case No. 86-CV-26-1130) against the City of Monticello and Monticello Tech LLC. The suit challenges the city's approval of an Alternative Urban Areawide Review (AUAR) for a 550-acre data center site south of 85th Street. MCEA argues the review failed to adequately analyze water use (estimated 250-300 million gallons/year, ~half of Monticello's current use), electricity demand, air quality, noise, and cumulative environmental effects. MCEA seeks reversal of AUAR approval and a full Environmental Impact Statement.",
+      "sources": [
+        "https://www.hometownsource.com/monticello_times/environmental-group-files-lawsuit-challenging-monticello-data-center-review/article_d5ffa609-757b-485d-b8b4-ef8e3ead2694.html",
+        "https://www.mncenter.org/data-centers-lawsuits",
+        "https://www.mncenter.org/press-release-new-lawsuits-highlight-shortcomings-and-lack-transparency-surrounding-environmental"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "monticello-community-protest-mn-2026-03-09",
+      "jurisdiction": "Monticello (community opposition)",
+      "state": "MN",
+      "county": "Wright County",
+      "county_lean": "R",
+      "lat": 45.3064,
+      "lng": -93.7916,
+      "action_type": "protest",
+      "date": "2026-03-09",
+      "status": "ongoing",
+      "scope": "local",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 600,
+      "building_sq_ft": 4000000,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Monticello residents"
+      ],
+      "petition_signatures": 1200,
+      "concerns": ["water", "noise", "electricity_rates", "air_quality", "environment", "community_character", "health"],
+      "summary": "Residents rallied against two proposed data centers totaling 600+ acres and 4M+ sq ft. An online petition exceeded 1,200 signatures. Residents gathered at local parks to distribute yard signs and voice opposition. Two projects proposed: a 500-acre site south of 85th St/east of Hwy 25, and a 100-acre site near Otter Creek Crossing Industrial Park. City administrator confirmed only 'concepts' had been discussed and no formal applications accepted pending new regulations.",
+      "sources": [
+        "https://www.fox9.com/news/monticello-residents-rally-against-proposed-data-centers-march-2026",
+        "https://www.hometownsource.com/monticello_times/data-center-pushback-gains-momentum/article_289f1599-95ad-4b59-9298-482b565dbf14.html",
+        "https://www.kare11.com/article/news/local/proposed-data-centers-in-monticello-spark-community-backlash/89-9f0aa475-3d16-4ab5-8b06-27f4cea6b408"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "port-washington-recall-referendum-wi-2026-02-17",
+      "jurisdiction": "Port Washington (recall attempt & TID referendum)",
+      "state": "WI",
+      "county": "Ozaukee County",
+      "county_lean": "R",
+      "lat": 43.3867,
+      "lng": -87.8756,
+      "action_type": "petition",
+      "date": "2026-02-17",
+      "status": "active",
+      "scope": "local",
+      "company": "Vantage Data Centers",
+      "hyperscaler": "Oracle/OpenAI",
+      "project_name": "Lighthouse Campus",
+      "investment_million_usd": 15000,
+      "megawatts": null,
+      "acreage": 672,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Great Lakes Neighbors United"
+      ],
+      "concerns": ["water", "noise", "electricity_rates", "light_pollution", "process_fairness", "community_character"],
+      "summary": "Great Lakes Neighbors United attempted to recall Mayor Ted Neitzke over the Vantage data center approval, collecting 1,200 signatures but falling 'several hundred' short of the threshold. Separately, the group successfully petitioned (1,000+ verified signatures) to put a Tax Incremental District referendum on the April 7, 2026 ballot, which would require voter approval before the city creates TIDs with projected base values above $10M. Residents also petitioned against 24-hour construction at the Lighthouse Campus, citing lights, noise, traffic, emissions, and dust.",
+      "sources": [
+        "https://spectrumnews1.com/wi/milwaukee/news/2026/02/17/port--washington--data--center--petition",
+        "https://wtmj.com/news/2026/02/17/attempt-to-recall-port-washington-mayor-by-anti-data-center-group-fails-according-to-city/",
+        "https://www.wpr.org/news/frustration-grows-over-24-hour-data-center-construction-port-washington",
+        "https://urbanmilwaukee.com/2026/03/15/neighbors-push-back-on-24-hour-data-center-work-in-port-washington/",
+        "https://news.ballotpedia.org/2026/02/19/voters-in-two-wisconsin-cities-to-decide-on-ballot-measures-related-to-data-center-development/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "minnesota-moratorium-sf4298-mn-2026-03-04",
+      "jurisdiction": "Minnesota (statewide moratorium bill SF 4298)",
+      "state": "MN",
+      "county": null,
+      "county_lean": null,
+      "lat": 44.9537,
+      "lng": -93.09,
+      "action_type": "legislative_action",
+      "date": "2026-03-04",
+      "status": "pending",
+      "scope": "statewide",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["water", "electricity_rates", "environment", "community_character"],
+      "summary": "SF 4298, sponsored by Sens. McEwen, Maye Quade, Port, Marty, and Clark, would bar state and local governments from issuing data center permits until one year after the Public Utility Commission submits a comprehensive report on possible data center development scenarios. This is the formal bill introduced following the Feb 20 Capitol rally. Separately, Sen. Maye Quade plans to reintroduce legislation to ban NDAs and eliminate tax exemptions for data center operators.",
+      "sources": [
+        "https://www.revisor.mn.gov/bills/94/2026/0/SF/4298/",
+        "https://www.mprnews.org/story/2026/02/20/data-center-opponents-call-for-statewide-moratorium-new-regulations",
+        "https://www.northernnewsnow.com/video/2026/03/04/minnesota-senator-introduce-data-center-moratorium/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    }
+  ],
+  "updates": [
+    {
+      "id": "wisconsin-statewide-moratorium-bill-wi-2026-02-12",
+      "jurisdiction": "Wisconsin (statewide moratorium bill)",
+      "state": "WI",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE (SB 1061): Bill was read first time and referred to Committee on Utilities, Technology and Tourism on 02/26/2026. The bill establishes extensive requirements including a statewide data center planning authority, prohibitions on shifting energy/water/infrastructure costs to residential customers, mandated 100% renewable energy, elimination of state/local subsidies, and public reporting of water/electricity usage. As of mid-March 2026, the bill has not progressed beyond initial committee referral. No statewide moratorium bills have passed their originating chamber in any state as of this date.",
+        "sources": [
+          "https://legiscan.com/WI/bill/SB1061/2025",
+          "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/",
+          "https://www.multistate.us/insider/2026/3/13/local-data-center-regulations-gain-ground-as-state-bills-falter"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "janesville-wi-2025-12-01",
+      "jurisdiction": "Janesville",
+      "state": "WI",
+      "updates": {
+        "status": "active",
+        "date": "2026-02-09",
+        "action_type": "petition",
+        "summary": "UPDATE: On Feb 9, 2026, Janesville City Council voted unanimously to put a referendum on the Nov. 3, 2026 ballot. The initiative, organized by 'No Janesville Data Center,' would require voter approval before the city could approve any development project exceeding $450M on undeveloped portions of the former GM/JATCO site. The targeted project is Viridian Partners' proposed 800 MW, 11-building 'digital campus' on the 250-acre site, representing $8B in total investment. This is now a confirmed November 2026 ballot measure.",
+        "sources": [
+          "https://news.ballotpedia.org/2026/02/12/janesville-wisconsin-voters-to-decide-nov-3-2026-initiative-requiring-approval-for-development-projects-exceeding-450-million-at-gm-jatco-site-such-as-proposed-data-center/",
+          "https://www.wmtv15news.com/2026/02/10/janesville-city-council-unanimously-passes-legislation-petition-connection-former-gmjatco-site/",
+          "https://www.gazettextra.com/news/local/janesville-city-council-sends-gm-jatco-site-ordinance-to-november-referendum/article_1eb9803d-8fb4-4372-9dae-554de054be00.html"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "port-washington-wi-2025-08-01",
+      "jurisdiction": "Port Washington",
+      "state": "WI",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: Residents petitioning against 24-hour construction at Vantage's Lighthouse Campus. Construction was originally limited to 12 hours but the city approved 24-hour weekday work. Residents describe bright work lights shining through windows 24/7, plus noise, traffic, emissions, and dust. A mayoral recall attempt by Great Lakes Neighbors United fell 'several hundred signatures' short of the required threshold (collected 1,200). A separate TID referendum petition succeeded (1,000+ verified signatures of 954 needed) and will appear on the April 7, 2026 ballot.",
+        "sources": [
+          "https://www.wpr.org/news/frustration-grows-over-24-hour-data-center-construction-port-washington",
+          "https://urbanmilwaukee.com/2026/03/15/neighbors-push-back-on-24-hour-data-center-work-in-port-washington/",
+          "https://spectrumnews1.com/wi/milwaukee/news/2026/02/17/port--washington--data--center--petition",
+          "https://wtmj.com/news/2026/02/17/attempt-to-recall-port-washington-mayor-by-anti-data-center-group-fails-according-to-city/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "beaver-dam-wi-2025-12-01",
+      "jurisdiction": "Beaver Dam",
+      "state": "WI",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: New details revealed for Meta's Beaver Dam data center, expected to open in 2027. Meta seeks to add additional capacity to the facility already under construction. Meta also linked to a second potential project in the Town of Beloit via shell company Cambrin LLC (same name/email as Beaver Dam documents). At least four Wisconsin communities including Beaver Dam signed secrecy NDAs for data center projects.",
+        "sources": [
+          "https://www.wisbusiness.com/2026/new-details-revealed-for-metas-beaver-dam-data-center/",
+          "https://wisconsinwatch.org/2026/01/wisconsin-data-center-secrecy-deals-nda-nondisclosure-agreement/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "minnesota-statewide-moratorium-proposal-mn-2026-02-20",
+      "jurisdiction": "Minnesota (statewide moratorium proposal)",
+      "state": "MN",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE: The initial Feb 20 Capitol rally has now been formalized as SF 4298 (see new entry). Additionally, the House passed legislation to regulate data centers. Six MCEA lawsuits are now active across the state (Lakeville, Hermantown, North Mankato, Pine Island, Faribault, and Monticello). Data center opposition is now a major 2026 political issue in Minnesota with both statewide moratorium and NDA ban bills advancing through committees.",
+        "sources": [
+          "https://www.house.mn.gov/sessiondaily/Story/18838",
+          "https://www.revisor.mn.gov/bills/94/2026/0/SF/4298/",
+          "https://www.mncenter.org/latest-our-data-center-lawsuits-mceas-chief-legal-officer"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "city-of-eagan-mn-2026-02-17",
+      "jurisdiction": "City of Eagan",
+      "state": "MN",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Eagan confirmed as the first Minnesota city to enact a data center moratorium. The one-year interim ordinance (effective Feb 17, 2026 through Feb 17, 2027) bans data centers and cryptocurrency mining operations within 500 feet of residential-zoned areas or using more than 20 MW. No building permits will be issued during the pause except for necessary repairs. The city will conduct a comprehensive study on regulating, locating, and permitting high-consumption facilities. Existing centers can complete updates, repairs, and approved construction.",
+        "sources": [
+          "https://www.fox9.com/news/mn-data-center-cryptocurrency-ban-eagan-approved-feb-17-2026",
+          "https://www.kare11.com/article/news/local/eagan-mn-moratorium-data-center/89-a65e44a4-000c-492b-94c7-7d78ea20cc7c",
+          "https://www.mprnews.org/story/2026/02/18/eagan-data-center-developments-pause"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "hermantown-mn-2025-10-20",
+      "jurisdiction": "Hermantown",
+      "state": "MN",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: Hermantown remains one of the MCEA's active lawsuit locations. The project continues to be cited in statewide moratorium advocacy as a cautionary example. The Hermantown case was central to testimony during the Feb 20 Capitol rally and subsequent committee hearings on NDA bans.",
+        "sources": [
+          "https://www.mncenter.org/data-centers-lawsuits",
+          "https://www.mprnews.org/story/2026/02/20/data-center-opponents-call-for-statewide-moratorium-new-regulations"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "iowa-statewide-ia-2026-02-19",
+      "jurisdiction": "Iowa (statewide)",
+      "state": "IA",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE (HF 2447 -> HF 2690): The bill was approved by committee and renumbered as HF 2690 on Feb 23, 2026. An amendment (H-8214) was filed on March 12, 2026. Key provisions: quarterly water and energy use reporting to DNR and Iowa Utilities Commission, public disclosure online within 30 days, and a separate utility rate class for data centers to prevent grid upgrade costs from being shifted to residential customers. Sponsored by Rep. Cindy Golding (R-Cedar Rapids).",
+        "sources": [
+          "https://legiscan.com/IA/bill/HF2690/2025",
+          "https://www.axios.com/local/des-moines/2026/02/19/iowa-lawmakers-push-data-center-transparency",
+          "https://www.iowapublicradio.org/state-government-news/2026-02-17/lawmakers-look-to-regulate-utility-use-by-data-centers"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "johnson-county-ia-2025-11-08",
+      "jurisdiction": "Johnson County",
+      "state": "IA",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Johnson County's one-year moratorium (set to expire Nov 8, 2026) is being used to develop a comprehensive data center ordinance. County staff are drafting regulations addressing location, water usage, and size. Officials estimate they are 3-4 months from finalizing an ordinance with clear rules before approving new data centers. The Board of Supervisors is considering groundwater monitoring requirements amid AI data center concerns.",
+        "sources": [
+          "https://cbs2iowa.com/news/local/johnson-county-imposes-moratorium-on-data-centers-to-protect-resources-and-assess-impacts",
+          "https://www.thegazette.com/local-government/johnson-county-looks-toward-future-beyond-data-center-moratorium/",
+          "https://dailyiowan.com/2026/03/04/joco-officials-weigh-ai-data-center-impact-amid-groundwater-monitoring-concerns/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "linn-county-new-ordinance-ia-2026-03-01",
+      "jurisdiction": "Linn County (new ordinance)",
+      "state": "IA",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Following Linn County's Feb 18 passage of one of the nation's strictest data center zoning ordinances (requiring water studies, 1,000-ft residential setbacks, noise/light limits, infrastructure compensation), Google abandoned its plans for unincorporated Linn County entirely and announced annexation into the City of Palo to bypass the regulations. Google also backed out of a $500,000 commitment for a regional water balance study. Linn County Supervisor Sami Scheetz: 'We negotiated in good faith. And Google's response was to go find a local government that will ask for less.' Palo (pop. 1,407) has no data center-specific zoning codes. Google's proposed facility would use up to 12 million gallons of water per day.",
+        "sources": [
+          "https://insideclimatenews.org/news/04032026/google-attempts-to-annex-iowa-county-land-for-data-center/",
+          "https://www.iowapublicradio.org/ipr-news/2026-03-04/google-data-center-palo-linn-county",
+          "https://cbs2iowa.com/news/local/google-shifts-data-center-plan-to-palo-water-study-now-on-hold",
+          "https://corridorbusiness.com/linn-county-data-center-ordinance-gets-final-approval/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    }
+  ],
+  "context_notes": {
+    "marquette_poll_feb_2026": "Marquette Law School poll (Feb 11-19, 818 WI registered voters, +/-4.3% MOE): 70% say data center costs outweigh benefits (up from 55% in Oct). Top concerns: water use (52%), AI development opposition (45%), rising electric bills (35%). Partisan breakdown: Democrats 85% oppose (up from 56%), independents 76% (up from 55%), Republicans 55% (up from 53%).",
+    "mcea_lawsuit_tracker": "MCEA has now filed 6 data center lawsuits in Minnesota: Lakeville, Hermantown, North Mankato, Pine Island, Faribault, and Monticello. All challenge inadequate environmental review (AUAR process).",
+    "wi_governor_race": "Data centers have become a top issue in Wisconsin's 2026 gubernatorial race.",
+    "statewide_moratorium_status": "As of mid-March 2026, no statewide data center moratorium bill has passed its originating chamber in any U.S. state, though local moratoriums and zoning restrictions continue to proliferate.",
+    "wi_nda_secrecy_scope": "At least 4 WI communities signed secrecy NDAs for data center projects: Beaver Dam, Port Washington, Beloit, and at least one other. Investigations ongoing into additional NDAs in Mount Pleasant, Mount Horeb, and others."
+  }
+}

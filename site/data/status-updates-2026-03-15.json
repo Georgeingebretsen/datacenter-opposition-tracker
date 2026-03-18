@@ -1,0 +1,96 @@
+{
+  "description": "Status updates for existing fights in the database, based on web research March 8-15, 2026",
+  "generated": "2026-03-15",
+  "updates": [
+    {
+      "id": "oliver-county-nd-2024-12-12",
+      "current_status": "expired",
+      "recommended_status": "enacted",
+      "update_note": "Oliver County commissioners voted unanimously on March 13, 2026 for a NEW 180-day moratorium on data center construction. The original 2024 moratorium had expired, but this is a new, separate action. Consider updating this entry or confirming the new entry oliver-county-nd-moratorium-2026-03-13 covers it."
+    },
+    {
+      "id": "south-dakota-statewide-sb-135-sd-2026-01-26",
+      "current_status": "enacted",
+      "recommended_status": "pending_governor",
+      "update_note": "SB 135 passed the House 60-7 on March 5, 2026 and was sent to Governor Rhoden's desk on March 11. The bill has passed both chambers but has NOT yet been signed. Status should be 'pending' until the Governor signs it."
+    },
+    {
+      "id": "alabama-statewide-sb-270-al-2026-02-05",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Alabama Senate passed SB270 on March 13, 2026. The bill now advances to Alabama House committees. Status remains active but should note Senate passage."
+    },
+    {
+      "id": "florida-sb-484-fl-2026-02-26",
+      "current_status": "enacted",
+      "recommended_status": "enacted",
+      "update_note": "Florida Legislature gave final approval March 13. The House passed the bill 92-16 on March 11 with weakened transparency provisions (allowing state agencies to sign NDAs with data center companies). The Senate approved the weakened version March 13. Now goes to Governor DeSantis for signature. Summary should be updated to reflect the NDA provision added by House Rep. Griff Griffitts."
+    },
+    {
+      "id": "hood-county-tx-2026-02-10",
+      "current_status": "defeated",
+      "recommended_status": "defeated",
+      "update_note": "Hood County commissioners rejected the moratorium a SECOND time in late February/early March, again 3-2. Officials will explore water protection codes on March 10 to see if the county can regulate data center water impacts on Lake Granbury. Residents are calling for commissioner resignations."
+    },
+    {
+      "id": "athens-clarke-county-ga-2025-12-01",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "The Athens-Clarke County Commission voted unanimously on March 3 to extend the moratorium until June 5, 2026 (originally set to expire March 6). Commission voted to send text amendments back to the planning commission for revision. Commissioners want to wait to see what the Georgia legislature does before passing local data center regulations."
+    },
+    {
+      "id": "provo-ut-2026-02-11",
+      "current_status": "defeated",
+      "recommended_status": "defeated",
+      "update_note": "Confirmed: Provo City Council voted unanimously 7-0 on March 11, 2026 to deny the zoning change. Council said they need to complete the economic development study first. Status is correctly marked as defeated."
+    },
+    {
+      "id": "east-whiteland-township-pa-2026-02-26",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Planning Commission on March 10 unanimously voted to recommend Board of Supervisors 'carefully consider impacts' rather than fully recommending approval. About 400 residents attended. The amended plan increases the data center footprint by 61% to over 1.6 million sq ft. A prior February meeting was halted when attendees exceeded occupancy limits. Consider adding developer name: Green Fig Land LLC / Sentinel Data Centers."
+    },
+    {
+      "id": "west-louisville-ky-2026-03-05",
+      "current_status": "approved",
+      "recommended_status": "approved",
+      "update_note": "On March 14, West Louisville residents continued speaking out after the planning commission allowed the data center to move forward. The Planning Commission vote was 6-1 (or 8-1 per some reports). Project: 1.6M sq ft, 400 MW, 150+ acres by Poe Companies and PowerHouse Data Centers. Zoned heavy industrial so no Metro Council approval needed. Status is correctly marked as approved."
+    },
+    {
+      "id": "michigan-statewide-mi-2026-02-26",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "New details: The three-bill package (HB 5594, 5595, 5596) was introduced by Rep. Jennifer Wortz (R-Quincy) with bipartisan co-sponsors. Would block permits until April 1, 2027. Governor Whitmer has explicitly said any such legislation 'would be vetoed.' At least 19 Michigan towns have already passed local moratoriums independently. Bills are in House Government Operations Committee."
+    },
+    {
+      "id": "st-albans-township-oh-2026-03-10",
+      "current_status": "pending",
+      "recommended_status": "enacted",
+      "update_note": "St. Albans Township held the public hearing on March 10 and reportedly became the first township in Licking County to ban data centers. 25 people attended. Status should be updated to 'enacted' if the ban was formally adopted."
+    },
+    {
+      "id": "independence-referendum-lawsuit-mo-2026",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Lawsuit filed March 12 by three residents (Gonzalez, Vaughn, Magers) in Jackson County court. City rejected petition on March 5 citing Section 7.2 of charter. Organizers have 800+ signatures, need 3,700 within 30 days. Goal is citywide vote by August 2026. $6.26B in tax breaks approved for Nebius including 98% property tax abatement for 20 years."
+    },
+    {
+      "id": "champaign-county-il-2025-12-01",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "The ZBA hearing originally scheduled for March 12 was POSTPONED. New date TBD. The moratorium vote is now expected March 26 at ZBA, with potential county board vote in April. A 12-person task force was established to develop data center zoning rules, with water resource protection (Mahomet Aquifer) as a key focus."
+    },
+    {
+      "id": "vineland-nj-2025-12-23",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "New development: Persistent humming noise complaints from residents living near the DataOne/Nebius facility on South Lincoln Avenue. Cumberland County Health Department investigating. DataOne says the facility is within noise ordinance limits and will continue deploying sound reduction measures. Multiple news outlets covered the noise issue in March 2026."
+    },
+    {
+      "id": "port-washington-wi-2025-08-01",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Residents presented a petition signed by 100 people to both the Common Council and Town Board requesting restoration of 12-hour construction schedule by mid-March. 24-hour weekday construction is causing complaints about noise, lights, vibration, and traffic. Dump trucks rerouted around Fredonia after speeding/noise complaints. Vantage says they plan to return to 12-hour days for next construction phase."
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+[
+  {
+    "id": "waterford-ct-2024-01-09",
+    "energy_mw": 300,
+    "investment_usd": 1600000000,
+    "water_gallons_per_day": null,
+    "acreage": 25,
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/ne-edge-proposes-15-million-sq-ft-data-center-at-nuclear-power-station-in-connecticut/",
+      "https://ctexaminer.com/2024/04/08/plans-for-massive-data-center-linked-to-nuclear-power-spark-debate-on-connecticuts-energy-future/",
+      "https://ctmirror.org/2024/01/19/millstone-power-plant-ct-data-center-nuclear/"
+    ]
+  },
+  {
+    "id": "maricopa-county-az-2024-05-01",
+    "energy_mw": 1000,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": 529,
+    "sources": [
+      "https://www.yourvalley.net/stories/goodyear-area-529-acre-ai-data-center-campus-application-draws-opposition-water,484602",
+      "https://www.yourvalley.net/stories/ai-taxing-arizona-power-grid-water-supply,505251",
+      "https://www.aztechcouncil.org/microsoft-agrees-to-make-data-centers-air-cooled-amid-water-infrastructure-challenges-in-goodyear/"
+    ]
+  },
+  {
+    "id": "kootenai-county-id-2025-03-02",
+    "energy_mw": null,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://cdapress.com/news/2025/mar/02/kootenai-county-commissioners-approve-temporary-data-center-moratorium/",
+      "https://www.khq.com/news/kootenai-county-imposes-moratorium-on-data-center-building-permits/article_f622e15a-f79e-11ef-87ed-1bd380bdd67e.html"
+    ]
+  },
+  {
+    "id": "mesa-az-2025-07-08",
+    "energy_mw": 450,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://www.themesatribune.com/news/mesa-looks-to-tap-the-brakes-on-data-centers/article_34673e28-4e97-11ee-a972-dfdf0dfd5039.html",
+      "https://telecomtalk.info/edgecore-expansion-datacenter-capacity-in-mesa-arizona/994700/",
+      "https://www.datacenterfrontier.com/featured/article/11428015/facebook-unveils-water-projects-to-support-800-million-mesa-data-center"
+    ]
+  },
+  {
+    "id": "reno-nv-2025-01-10",
+    "energy_mw": 650,
+    "investment_usd": 1000000000,
+    "water_gallons_per_day": null,
+    "acreage": 345,
+    "sources": [
+      "https://www.technologyreview.com/2025/05/20/1116287/ai-data-centers-nevada-water-reno-computing-environmental-impact/",
+      "https://nevadacurrent.com/2026/02/09/data-center-water-power-needs-regulatory-challenges-strain-rural-communities/",
+      "https://www.datacenterfrontier.com/cloud/article/11430825/reno-rising-region-attracts-cluster-of-cloud-campuses"
+    ]
+  },
+  {
+    "id": "gilroy-ca-2025-07-03",
+    "energy_mw": 49,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": 56,
+    "sources": [
+      "https://www.cityofgilroy.org/1019/15010/Gilroy-Data-Center-by-AWS",
+      "https://www.datacenterdynamics.com/en/news/amazon-data-services-gains-approval-for-data-center-on-56-acres-in-gilroy-california/",
+      "https://gilroydispatch.com/residents-raise-concerns-over-new-data-center-in-gilroy/"
+    ]
+  },
+  {
+    "id": "jerome-township-oh-2025-09-03",
+    "energy_mw": null,
+    "investment_usd": 200000000,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://www.wosu.org/politics-government/2025-09-09/jerome-township-puts-pause-on-new-data-center-development-for-nine-months",
+      "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/",
+      "https://www.columbusmessenger.com/amazon-looks-to-build-200-million-data-center-in-alder-school-district.html"
+    ]
+  },
+  {
+    "id": "barberton-oh-2025-11-10",
+    "energy_mw": 5,
+    "investment_usd": 2000000000,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://citizenportal.ai/articles/3563566/Ohio/Barberton-plans-high-security-data-center-with-cogeneration-facility-and-230-construction-jobs",
+      "https://www.change.org/p/stop-construction-of-project-triton-in-norton-and-barberton-residential-areas"
+    ]
+  },
+  {
+    "id": "norton-oh-2025-11-03",
+    "energy_mw": 5,
+    "investment_usd": 2000000000,
+    "water_gallons_per_day": null,
+    "acreage": 90,
+    "sources": [
+      "https://www.wkyc.com/article/news/local/summit-county/norton-residents-push-back-proposed-data-center-quantum-hpc/95-bded910f-b3ba-496f-8a62-f41b5a0506c0",
+      "https://www.thebarbertongazette.com/2025/10/17/norton-data-center-proposal-withdrawn/",
+      "https://www.wkyc.com/article/news/local/summit-county/norton-data-center-project-will-not-move-forward-city-council-ppg-mine-site-limestone-drive/95-13c2926a-e2b2-4e81-b9fb-0cdae35bb7ca"
+    ]
+  },
+  {
+    "id": "lordstown-oh-2025-10-01",
+    "energy_mw": 1500,
+    "investment_usd": 3000000000,
+    "water_gallons_per_day": null,
+    "acreage": 586,
+    "sources": [
+      "https://www.wfmj.com/story/53109325/lordstown-part-of-mammoth-dollar500-billion-artificial-intelligence-data-center-project",
+      "https://www.datacenterfrontier.com/machine-learning/article/55319132/scaling-stargate-openais-five-new-us-data-centers-push-toward-10-gw-ai-infrastructure",
+      "https://www.wkbn.com/news/local-news/lordstown-news/lordstown-named-as-site-of-openais-expansion-of-ai-infrastructure/"
+    ]
+  },
+  {
+    "id": "wilmington-oh-2025-11-26",
+    "energy_mw": 1500,
+    "investment_usd": 4000000000,
+    "water_gallons_per_day": null,
+    "acreage": 471,
+    "sources": [
+      "https://www.wyso.org/news/2025-12-02/amazon-proposes-4b-data-center-in-wilmington-seeks-tax-abatement",
+      "https://www.wcpo.com/news/local-news/4-billion-amazon-data-center-proposal-in-wilmington-advances-to-next-stage-residents-want-pause",
+      "https://policymattersohio.org/news/2026/01/07/amazon-data-center-proposal-a-bad-deal-for-wilmington/"
+    ]
+  },
+  {
+    "id": "lawrence-county-oh-2025-12-01",
+    "energy_mw": 80,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://www.wowktv.com/news/ohio/lawrence-county-oh/new-ai-and-data-center-coming-to-lawrence-county-ohio/",
+      "https://wchstv.com/news/local/a-i-infrastructure-being-developed-in-lawrence-county-ohio",
+      "https://sciotovalleyguardian.com/2026/03/07/lawrence-county-to-be-launch-site-for-strata-expanses-national-ai-infrastructure-network/"
+    ]
+  },
+  {
+    "id": "wood-county-bowling-green-area-oh-2026-01-06",
+    "energy_mw": 350,
+    "investment_usd": 800000000,
+    "water_gallons_per_day": null,
+    "acreage": 280,
+    "sources": [
+      "https://bgindependentmedia.org/meta-reveals-plans-for-800-million-data-center-north-of-bg/",
+      "https://bgindependentmedia.org/power-plant-for-meta-data-center-in-wood-county-fast-tracked-approved-with-no-public-hearings/",
+      "https://www.jobsohio.com/newsroom/news-press/regional-growth-partnership-and-jobsohio-welcome-meta-to-northwest-ohio-with-new-800-million-data-center-announcement"
+    ]
+  },
+  {
+    "id": "village-of-deforest-wi-2026-02-03",
+    "energy_mw": 1600,
+    "investment_usd": 12000000000,
+    "water_gallons_per_day": null,
+    "acreage": 1600,
+    "sources": [
+      "https://constructionreviewonline.com/qts-data-centers-announces-its-plans-for-12-billion-data-center-project-in-deforest-wisconsin/",
+      "https://wisconsinwatch.org/2026/01/deforest-wisconsin-data-center-project-village-board-government/",
+      "https://captimes.com/news/government/data-centers-threaten-wisconsins-rural-charm-residents-say/article_a5edd6b2-6cdb-46d2-bafa-c2dc5195aa0a.html"
+    ]
+  },
+  {
+    "id": "beaver-dam-wi-2025-12-01",
+    "energy_mw": 400,
+    "investment_usd": 1000000000,
+    "water_gallons_per_day": 0,
+    "acreage": 520,
+    "sources": [
+      "https://wedc.org/meta-state-and-local-officials-announce-1-billion-data-center-investment-in-beaver-dam-project/",
+      "https://www.alliantenergy.com/news/news-center/2025/11/111225-metabeaverdamannouncement",
+      "https://datacenters.atmeta.com/2025/11/hello-beaver-dam/"
+    ]
+  },
+  {
+    "id": "port-washington-wi-2025-08-01",
+    "energy_mw": 902,
+    "investment_usd": 15000000000,
+    "water_gallons_per_day": null,
+    "acreage": 672,
+    "sources": [
+      "https://vantage-dc.com/news/openai-oracle-and-vantage-data-centers-announce-stargate-data-center-site-in-wisconsin/",
+      "https://www.wpr.org/news/port-washington-data-center-campus-openai-oracle-stargate-chatgpt",
+      "https://www.datacenterdynamics.com/en/news/openai-oracle-and-vantage-plan-stargate-wisconsin-data-center-expected-to-be-close-to-a-gigawatt/"
+    ]
+  },
+  {
+    "id": "kenosha-wi-2025-12-01",
+    "energy_mw": null,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": 240,
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/microsoft-acquires-240-acres-in-kenosha-wisconsin-for-data-center-development/",
+      "https://www.cnbc.com/2025/09/18/microsoft-wisconsin-data-center.html",
+      "https://www.wisbusiness.com/2025/wisconsin-sees-data-center-boom-as-concerns-mount-over-environmental-impacts-energy-use/"
+    ]
+  },
+  {
+    "id": "henrico-county-va-2025-06-01",
+    "energy_mw": 900,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": 400,
+    "sources": [
+      "https://www.wtvr.com/news/local-news/wyndham-hh-hunt-data-center-plan-oct-21-2025",
+      "https://richmondbizsense.com/2025/09/08/hhhunt-planning-10-building-400-acre-data-center-campus-beside-wyndham/",
+      "https://www.henricocitizen.com/proposed-data-center-incites-opposition-from-hundreds-of-henrico-hanover-residents/"
+    ]
+  },
+  {
+    "id": "college-station-tx-2025-09-12",
+    "energy_mw": 600,
+    "investment_usd": 30000000,
+    "water_gallons_per_day": null,
+    "acreage": 200,
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/600mw-data-center-campus-proposed-in-texas/",
+      "https://www.governing.com/infrastructure/texas-towns-push-back-on-data-center-expansion",
+      "https://www.kbtx.com/2025/09/09/college-station-residents-push-back-against-sale-land-proposed-midtown-data-center/"
+    ]
+  },
+  {
+    "id": "nashville-tn-2025-09-09",
+    "energy_mw": 12,
+    "investment_usd": null,
+    "water_gallons_per_day": null,
+    "acreage": 12,
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/radiusdc-breaks-ground-on-12mw-nashville-data-center-tennessee/",
+      "https://www.wkrn.com/news/local-news/nashville/nashville-neighborhood-questions-new-data-center-project/",
+      "https://citynownext.com/2025/09/09/radiusdc-breaks-ground-on-urban-data-center-in-nashville/"
+    ]
+  },
+  {
+    "id": "prince-george-s-county-md-2025-09-01",
+    "energy_mw": 820,
+    "investment_usd": 5000000000,
+    "water_gallons_per_day": null,
+    "acreage": 87,
+    "sources": [
+      "https://afro.com/landover-data-center-opposition/",
+      "https://wtop.com/prince-georges-county/2025/12/whats-at-stake-as-prince-georges-county-ponders-data-centers/",
+      "https://commercialobserver.com/2025/09/data-center-pause-prince-george-maryland/"
+    ]
+  },
+  {
+    "id": "st-louis-mo-2025-09-01",
+    "energy_mw": 120,
+    "investment_usd": 1500000000,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://www.stlpr.org/economy-business/2025-10-12/armory-data-center-draws-200-st-louisans-town-hall-midtown",
+      "https://www.stlpr.org/economy-business/2025-10-15/data-centers-missouri-economy",
+      "https://www.stlpr.org/government-politics-issues/2026-02-05/long-awaited-rules-limit-data-centers-built-st-louis"
+    ]
+  },
+  {
+    "id": "fredonia-saukville-wi-2025-10-10",
+    "energy_mw": 1300,
+    "investment_usd": 1500000000,
+    "water_gallons_per_day": null,
+    "acreage": null,
+    "sources": [
+      "https://spectrumnews1.com/wi/milwaukee/news/2025/10/10/ozaukee-county-port-washington-data-center-fredonia",
+      "https://www.gmtoday.com/daily_news/business/port-washington-data-center-s-transmission-line-application-submitted-to-psc/article_42cfd9f2-6534-480c-88aa-ff26c0765bde.html",
+      "https://www.wpr.org/news/proposed-transmission-line-wisconsin-data-center-opposition"
+    ]
+  },
+  {
+    "id": "city-of-madison-wi-2026-01-13",
+    "energy_mw": 1600,
+    "investment_usd": 12000000000,
+    "water_gallons_per_day": null,
+    "acreage": 1600,
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/qts-plans-15-building-data-center-campus-in-madison-wisconsin/",
+      "https://qtsdatacenters.com/news/qts-advances-plans-for-state-of-the-art-data-center-campus-and-announces-50-million-community-commitment-for-dane-county/",
+      "https://www.datacenterdynamics.com/en/news/qts-drops-plan-for-data-center-near-madison-wisconsin-amid-opposition-from-local-officials/"
+    ]
+  },
+  {
+    "id": "blakely-pa-2025-09-12",
+    "energy_mw": 1500,
+    "investment_usd": null,
+    "water_gallons_per_day": 300000,
+    "acreage": 209,
+    "sources": [
+      "https://www.thetimes-tribune.com/2025/08/13/blakely-data-center-meeting-draws-large-crowd-opposition/",
+      "https://fox56.com/news/local/blakely-borough-data-center-plans-scrapped-amid-community-pushback-borough-responds",
+      "https://www.bayjournal.com/pennsylvania-localities-feel-data-center-push-and-some-are-pushing-back/article_09db2a10-f46f-48d9-b03c-fd38fff2062c.html"
+    ]
+  }
+]

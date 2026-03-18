@@ -1,0 +1,769 @@
+{
+  "research_date": "2026-03-17",
+  "notes": "Round 10 research focused on Western states (AZ, CA, OR, WA, NV). Cross-referenced against fights.json (727 entries) and all 9 previous new-fights-march2026 round files. Existing western counts in fights.json: AZ 9, CA 4, OR 2, WA 2, NV 4 (21 total). Round 7 added 1 CA entry (Imperial County vs County lawsuit). This round adds 17 genuinely new entries and 14 status updates. New entries by state: AZ 7, CA 3, OR 4, WA 3, NV 0. Key findings: OR HB 4084 enrolled March 6, awaiting Kotek signature (includes 1-year data center tax break moratorium). WA ESSB 6231 passed House 51-46 on March 12, awaiting Ferguson signature (eliminates refurbishment tax exemption). WA HB 2515 data center regulation bill died after Microsoft opposition. CA SB 887/SB 978/AB 2619 all pending in committee. Monterey Park CA ballot measure for permanent ban set for June 2 vote. Page AZ recall effort ongoing; referendum disqualified on technicality. Pima County Project Blue faces two lawsuits (community group + AG Mayes). Tucson zoning ordinance in public feedback stage, expected May 2026 vote. The Dalles OR faces water controversy with Google; coalition opposes HR 655 land transfer. Walla Walla WA Port approved 553-acre Amazon sale Feb 12 despite community opposition.",
+  "new_entries": [
+    {
+      "id": "surprise-project-baccara-az-2026-02-04",
+      "jurisdiction": "Surprise / Maricopa County (Project Baccara)",
+      "state": "AZ",
+      "county": "Maricopa County",
+      "county_lean": "R",
+      "lat": 33.6292,
+      "lng": -112.3680,
+      "action_type": "petition",
+      "date": "2026-02-04",
+      "status": "active",
+      "scope": "local",
+      "company": "Takanock",
+      "hyperscaler": null,
+      "project_name": "Project Baccara",
+      "investment_million_usd": null,
+      "megawatts": 700,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Stop Project Baccara, Protect Surprise AZ"
+      ],
+      "opposition_website": "https://stopbaccara.com/",
+      "petition_url": "https://www.change.org/p/stop-project-baccara-on-the-southern-border-of-surprise-az-in-maricopa-county",
+      "petition_signatures": 5000,
+      "concerns": ["air_quality", "water", "noise", "health", "community_character", "electricity_rates"],
+      "summary": "Project Baccara is a data center campus with two 700 MW on-site natural gas generators planned in unincorporated Maricopa County north of Luke Air Force Base, near Surprise city limits. The Arizona Corporation Commission approved the Certificate of Environmental Compatibility 5-0 on Feb 4, 2026, after the Line Siting Committee approved it 8-1 in December 2025. A Change.org petition has nearly 5,000 signatures and a Facebook opposition group has 1,000+ members. The project still needs a Military Compatibility Permit and Maricopa County Board of Supervisors approval. Takanock targets Q3 2026 construction start.",
+      "sources": [
+        "https://ktar.com/arizona-business/valley-data-center-scrutiny/5812647/",
+        "https://stopbaccara.com/",
+        "https://www.abc15.com/news/region-west-valley/community-concerned-over-major-new-data-center-project",
+        "https://www.change.org/p/stop-project-baccara-on-the-southern-border-of-surprise-az-in-maricopa-county",
+        "https://nationaltoday.com/us/az/surprise/news/2026/02/04/controversial-surprise-data-center-project-clears-key-environmental-review/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "arizona-hb2631-tax-repeal-az-2026-01-08",
+      "jurisdiction": "Arizona (statewide - HB 2631 tax incentive repeal)",
+      "state": "AZ",
+      "county": null,
+      "county_lean": null,
+      "lat": 33.4484,
+      "lng": -112.0740,
+      "action_type": "legislative_action",
+      "date": "2026-01-08",
+      "status": "pending",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "HB 2631",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["tax_fairness", "electricity_rates"],
+      "summary": "Governor Katie Hobbs called for repealing Arizona's data center tax incentives in her January 2026 State of the State address, reversing her previous support. Rep. Neal Carter (R-San Tan Valley) sponsored HB 2631 to sunset the exemption. The Department of Revenue estimates the breaks cost the state $38.5 million in 2025, projected to reach $60 million by 2027. Hobbs also proposed that data centers pay 'their fair share for water' into a Colorado River Protection Fund. Repeal requires a two-thirds supermajority.",
+      "sources": [
+        "https://azgovernor.gov/office-arizona-governor/news/2026/01/icymi-governor-katie-hobbs-focuses-affordability-2026-state",
+        "https://www.kawc.org/news/2026-01-08/arizona-gov-hobbs-against-tax-breaks-to-build-data-centers-in-az",
+        "https://www.axios.com/local/phoenix/2026/01/14/arizona-data-center-tax-break-repeal",
+        "https://tucson.com/news/state-regional/government-politics/article_fcd329d7-35f8-4e01-8f5c-dc419439f4f8.html"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "arizona-hb2452-land-use-defeated-az-2026-02-27",
+      "jurisdiction": "Arizona (statewide - HB 2452 data center land use bill defeated)",
+      "state": "AZ",
+      "county": null,
+      "county_lean": null,
+      "lat": 33.4484,
+      "lng": -112.0740,
+      "action_type": "legislative_action",
+      "date": "2026-02-27",
+      "status": "defeated",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "HB 2452",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["community_character", "process_fairness"],
+      "summary": "Arizona House killed HB 2452 on a 25-29 vote, with six Republicans joining all Democrats to defeat the bill. The measure would have required counties with 125,000+ residents to designate land for data centers and small modular nuclear reactors in their comprehensive plans, effectively limiting local government authority to restrict data center siting. Its defeat was seen as a bipartisan rebuke of industry-backed efforts to override local control.",
+      "sources": [
+        "https://www.multistate.us/insider/2026/3/3/local-government-data-center-oversight-becomes-flashpoint-in-state-capitols",
+        "https://www.tucsonsentinel.com/local/report/022726_az_nuclear_power/arizona-house-kills-nuclear-reactor-bill-then-passes-nearly-identical-one-hours-later",
+        "https://poliscore.us/2026/az/bill/2235/hb/2452"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "tucson-zoning-ordinance-az-2026-02-20",
+      "jurisdiction": "Tucson (data center zoning ordinance)",
+      "state": "AZ",
+      "county": "Pima County",
+      "county_lean": "D",
+      "lat": 32.2226,
+      "lng": -110.9747,
+      "action_type": "zoning_restriction",
+      "date": "2026-02-20",
+      "status": "pending",
+      "scope": "local",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["water", "electricity_rates", "community_character", "process_fairness"],
+      "summary": "The City of Tucson initiated a public feedback process in February 2026 for a proposed zoning code amendment regulating large-scale data centers. The draft ordinance would define large-scale data centers (50,000+ sq ft), restrict where they can be built, set setback requirements, and require developers to prove adequate water and power access. Data centers would also fall under the city's Large Quantity Water User Ordinance. The planning commission review and public hearing are expected before a May 2026 Mayor and Council vote.",
+      "sources": [
+        "https://www.kold.com/2026/02/27/tucson-asking-feedback-data-center-zoning-rules/",
+        "https://news.azpm.org/p/newsheadlines/2026/2/20/228586-tucson-hosts-first-public-meeting-on-proposed-data-center-regulations/",
+        "https://www.kgun9.com/news/community-inspired-journalism/midtown-news/city-of-tucson-considers-new-zoning-rules-for-large-scale-data-centers-amid-water-and-energy-concerns"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "ag-mayes-project-blue-appeal-az-2026-02-20",
+      "jurisdiction": "Arizona (AG Mayes appeal - Project Blue TEP agreement)",
+      "state": "AZ",
+      "county": "Pima County",
+      "county_lean": "D",
+      "lat": 32.2226,
+      "lng": -110.9747,
+      "action_type": "lawsuit",
+      "date": "2026-02-20",
+      "status": "active",
+      "scope": "state",
+      "company": "Beale Infrastructure Group",
+      "hyperscaler": null,
+      "project_name": "Project Blue",
+      "investment_million_usd": 3000,
+      "megawatts": null,
+      "acreage": 290,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["electricity_rates", "process_fairness"],
+      "summary": "Arizona Attorney General Kris Mayes filed an appeal in Maricopa County Superior Court on February 20, 2026, challenging the Arizona Corporation Commission's approval of a special energy agreement between Tucson Electric Power (TEP) and Beale Infrastructure for the $3 billion Project Blue data center. Mayes argues a provision allowing TEP and Beale to set electricity rates privately violates the Arizona Constitution, which grants the Commission exclusive authority over utility rates. Project Blue would use up to 15% of TEP's current electricity generation capacity.",
+      "sources": [
+        "https://www.azag.gov/press-release/attorney-general-mayes-appeals-arizona-corporation-commissions-approval-tucson",
+        "https://www.kjzz.org/fronteras-desk/2026-02-20/mayes-asks-court-to-vacate-corporation-commission-approval-of-tucson-data-center-project-blue",
+        "https://news.azpm.org/p/news-articles/2026/3/2/228711-ag-kris-mayes-appeals-energy-agreement-between-tep-and-project-blue-developers/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "no-desert-data-center-pima-lawsuit-az-2026-01-14",
+      "jurisdiction": "Pima County (No Desert Data Center Coalition lawsuit)",
+      "state": "AZ",
+      "county": "Pima County",
+      "county_lean": "D",
+      "lat": 32.2226,
+      "lng": -110.9747,
+      "action_type": "lawsuit",
+      "date": "2026-01-14",
+      "status": "active",
+      "scope": "local",
+      "company": "Beale Infrastructure Group",
+      "hyperscaler": null,
+      "project_name": "Project Blue",
+      "investment_million_usd": 3000,
+      "megawatts": null,
+      "acreage": 290,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "No Desert Data Center Coalition"
+      ],
+      "concerns": ["process_fairness", "water", "electricity_rates", "community_character"],
+      "summary": "The No Desert Data Center Coalition filed a lawsuit in Pima County Superior Court on January 14, 2026, alleging county staff violated Arizona's open meeting law by failing to give adequate public notice during the Project Blue rezoning process. The complaint alleges the data center reference was 'buried deep in documentation' and 'surrounded by a bodyguard of lies designed to deceive the public.' The county signed non-disclosure agreements with the developer. The lawsuit seeks to void the rezoning that allowed the $3B data center on a 290-acre parcel along Houghton Road.",
+      "sources": [
+        "https://www.kold.com/2026/01/16/new-lawsuit-threatens-project-blue-pima-county/",
+        "https://azluminaria.org/2026/01/14/project-blue-opponents-sue-pima-county-over-alleged-open-meeting-law-violations/",
+        "https://news.azpm.org/p/azpmnews/2026/1/14/227982-activists-file-to-sue-pima-county-over-project-blue-approval-process/",
+        "https://www.tucsonsentinel.com/local/report/011526_project_blue_lawsuit/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "monterey-park-ballot-ban-ca-2026-03-04",
+      "jurisdiction": "Monterey Park (ballot measure - permanent data center ban)",
+      "state": "CA",
+      "county": "Los Angeles County",
+      "county_lean": "D",
+      "lat": 34.0625,
+      "lng": -118.1228,
+      "action_type": "full_ban",
+      "date": "2026-03-04",
+      "status": "pending",
+      "scope": "local",
+      "company": "HMC StratCap",
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": 45,
+      "acreage": null,
+      "building_sq_ft": 225000,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Monterey Park residents"
+      ],
+      "concerns": ["electricity_rates", "environment", "community_character", "process_fairness"],
+      "summary": "Monterey Park City Council unanimously voted on March 4, 2026, to place a measure on the June 2, 2026 ballot that would permanently prohibit all data centers citywide by amending the Municipal Code and General Plan. The council also unanimously directed staff to draft a city ordinance banning data centers that could take effect before the election, and extended the existing moratorium to January 2027. The measures target a proposed 225,000 sq ft data center by Australian company HMC StratCap that would consume 45 MW of electricity, equal to the entire city's current consumption. HMC StratCap has threatened litigation.",
+      "sources": [
+        "https://www.sgvtribune.com/2026/03/05/monterey-park-approves-ballot-measure-to-prohibit-data-centers/",
+        "https://www.montereypark.ca.gov/m/newsflash/home/detail/1306",
+        "https://laist.com/news/monterey-park-data-center-ballot-question",
+        "https://la.streetsblog.org/2026/02/06/monterey-park-to-draft-ballot-measure-banning-data-centers",
+        "https://nationaltoday.com/us/ca/monterey-park/news/2026/03/06/monterey-park-residents-defeat-data-center-in-triple-victory/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "california-sb978-perez-ca-2026-02-01",
+      "jurisdiction": "California (statewide - SB 978 Data Center Community Accountability Act)",
+      "state": "CA",
+      "county": null,
+      "county_lean": null,
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "action_type": "legislative_action",
+      "date": "2026-02-01",
+      "status": "pending",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "SB 978",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["air_quality", "electricity_rates", "environment"],
+      "summary": "Senator Sasha Renee Perez (D-Pasadena) introduced SB 978, the Data Center Community Accountability Act, to regulate hyperscale data centers. Key provisions: mandate clean backup generation (banning diesel generators), direct CEC to report on hyperscale data center climate impacts, require upfront payment for transmission upgrades, create a separate utility rate class for data centers above 75 MW, and require prevailing wages and local skilled workforce for construction.",
+      "sources": [
+        "https://sd25.senate.ca.gov/news/senator-perez-introduces-legislation-protect-communities-amid-unprecedented-growth-data",
+        "https://southpasadenan.com/sb-978-protect-communities-from-rapidly-expanding-data-centers-senator-perez/",
+        "https://www.coloradoboulevard.net/senator-perez-introduces-bill-to-regulate-data-center-expansion/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "california-ab2619-water-ca-2026-02-01",
+      "jurisdiction": "California (statewide - AB 2619 water resources guidelines)",
+      "state": "CA",
+      "county": null,
+      "county_lean": null,
+      "lat": 38.5816,
+      "lng": -121.4944,
+      "action_type": "legislative_action",
+      "date": "2026-02-01",
+      "status": "pending",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "AB 2619",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["water", "environment"],
+      "summary": "AB 2619 would require the Department of Water Resources and the State Energy Resources Conservation and Development Commission to develop guidelines and best practices by January 1, 2029, to maximize efficient use of natural resources for data centers, including use of closed-loop cooling systems and nonpotable water. The bill would also require guidance for cities and counties to assess projected water use, efficiency measures, and cumulative water resource impacts of proposed data centers.",
+      "sources": [
+        "https://calmatters.digitaldemocracy.org/bills/ca_202520260ab2619",
+        "https://calmatters.org/environment/2025/12/data-center-energy-study-california/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "oregon-hb4084-tax-moratorium-or-2026-03-06",
+      "jurisdiction": "Oregon (statewide - HB 4084 data center tax break moratorium)",
+      "state": "OR",
+      "county": null,
+      "county_lean": null,
+      "lat": 44.9429,
+      "lng": -123.0351,
+      "action_type": "legislative_action",
+      "date": "2026-03-06",
+      "status": "active",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "HB 4084",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["tax_fairness", "electricity_rates"],
+      "summary": "Oregon HB 4084 was enrolled on March 6, 2026, after lawmakers amended it to include a one-year moratorium on new data centers qualifying for expanded enterprise zone tax breaks (which the bill extends from 5 to 10 years for other industries). The data center pause gives Governor Kotek's new Data Center Advisory Committee, formed in January 2026, time to develop recommendations before the 2027 session. The amendment was proposed by Rep. Nancy Nathanson (D-Eugene). Governor Kotek's office said she supports the change. The bill was signed by the President of the Senate on March 10.",
+      "sources": [
+        "https://www.opb.org/article/2026/03/02/data-centers-cut-bill-expanding-oregon-tax-breaks/",
+        "https://oregoncapitalchronicle.com/2026/03/02/oregon-would-temporarily-bar-expanded-tax-benefits-for-data-centers-under-changes-to-governors-bill/",
+        "https://ktvz.com/news/oregon-northwest/2026/03/03/oregon-lawmakers-advance-one-year-moratorium-on-tax-breaks-for-data-centers/",
+        "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/HB4084"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "hillsboro-sb1586-defeated-or-2026-03-03",
+      "jurisdiction": "Hillsboro / Oregon (SB 1586 urban growth boundary defeated)",
+      "state": "OR",
+      "county": "Washington County",
+      "county_lean": "D",
+      "lat": 45.5229,
+      "lng": -122.9898,
+      "action_type": "legislative_action",
+      "date": "2026-03-03",
+      "status": "defeated",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "SB 1586",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 1700,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "1000 Friends of Oregon"
+      ],
+      "concerns": ["agricultural_land", "environment", "community_character"],
+      "summary": "Oregon SB 1586 was shelved on March 3, 2026, after its chief sponsor Sen. Janeen Sollman (D-Hillsboro) withdrew the bill. It would have brought 373 acres into Hillsboro's urban growth boundary for advanced tech industries and designated 1,400 acres for future industrial use. Although it explicitly banned stand-alone data centers, it allowed data centers as part of other manufacturing facilities with no size or power caps. The bill faced intense opposition from residents, farmers, and 1000 Friends of Oregon, who argued it would pave over prime Willamette Valley farmland for data centers.",
+      "sources": [
+        "https://www.opb.org/article/2026/03/03/hillsboro-will-not-get-more-industrial-land-for-high-tech-data-centers/",
+        "https://www.opb.org/article/2026/02/17/oregon-senators-tech-development-hillsboro-farm-group/",
+        "https://www.kgw.com/article/news/politics/state-drops-bill-rezone-1700-acres-hillsboro-land-industrial-use/283-0a865ff6-bcd4-4e8b-8712-cd52a600d0b9",
+        "https://capitalpress.com/2026/03/06/lawmaker-shelves-bill-slating-hillsboro-farmland-for-industrial-development/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "oregon-kotek-advisory-committee-or-2026-01-20",
+      "jurisdiction": "Oregon (statewide - Kotek Data Center Advisory Committee)",
+      "state": "OR",
+      "county": null,
+      "county_lean": null,
+      "lat": 44.9429,
+      "lng": -123.0351,
+      "action_type": "other",
+      "date": "2026-01-20",
+      "status": "active",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "Data Center Advisory Committee",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["tax_fairness", "electricity_rates", "water", "environment"],
+      "summary": "Governor Tina Kotek announced the creation of a seven-member Data Center Advisory Committee on January 20, 2026, tasked with developing policy recommendations for the expansion and economic development of data centers and other large-load industrial users. The committee is expected to issue recommendations before the 2027 legislative session. Oregon's data center boom has been criticized for providing few jobs and consuming vast amounts of energy, with Umatilla Electric Cooperative reporting 554% demand growth from Amazon data centers alone.",
+      "sources": [
+        "https://www.opb.org/article/2026/01/20/oregon-data-center-advisory-committee/",
+        "https://oregoncapitalchronicle.com/2026/01/20/oregon-governor-forms-new-committee-to-advise-on-massive-data-center-growth/",
+        "https://www.ocpp.org/2026/03/12/oregons-data-center-boom/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "washington-sb6231-tax-repeal-wa-2026-03-12",
+      "jurisdiction": "Washington (statewide - SB 6231 data center tax exemption repeal)",
+      "state": "WA",
+      "county": null,
+      "county_lean": null,
+      "lat": 47.0379,
+      "lng": -122.9007,
+      "action_type": "legislative_action",
+      "date": "2026-03-12",
+      "status": "active",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "ESSB 6231",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["tax_fairness", "electricity_rates"],
+      "summary": "Washington Legislature passed ESSB 6231 on the final day of session (March 12, 2026) by a 51-46 House vote, with 8 Democrats voting against. The bill eliminates the sales tax exemption for replacing or refurbishing data center equipment (but preserves the exemption for new equipment purchases). Requested by Governor Ferguson, it is projected to raise $63 million in the current biennium and $140.5 million in the next. Data center operators would have until July 1 to use remaining exemptions. Awaiting governor's signature as of March 17.",
+      "sources": [
+        "https://www.geekwire.com/2026/big-tech-dodged-washington-states-data-center-rules-but-didnt-escape-a-sales-tax-bill/",
+        "https://www.opb.org/article/2026/03/07/data-center-tax-zapped-washington-legislature/",
+        "https://washingtonstatestandard.com/2026/03/07/data-center-tax-break-close-to-getting-zapped-by-wa-legislature/",
+        "https://washingtonstatestandard.com/2026/03/12/wa-legislative-session-ends-with-budgets-passed-and-a-dash-of-drama/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "washington-hb2515-regulation-defeated-wa-2026-03-03",
+      "jurisdiction": "Washington (statewide - HB 2515 data center regulation defeated)",
+      "state": "WA",
+      "county": null,
+      "county_lean": null,
+      "lat": 47.0379,
+      "lng": -122.9007,
+      "action_type": "legislative_action",
+      "date": "2026-03-03",
+      "status": "defeated",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": "HB 2515 / SB 6171",
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Seattle Indivisible"
+      ],
+      "concerns": ["electricity_rates", "grid_reliability", "environment"],
+      "summary": "Washington's HB 2515 / SB 6171, which would have required data centers to report energy and water use, comply with clean energy standards, shut off power during peak grid demand, and end no-cost carbon allowances, died in the Senate Ways & Means Committee in early March 2026. Microsoft came out strongly against the bill, with its senior director of WA government affairs calling it unworkable. Industry argued the transparency requirements could reveal trade secrets. The companion bills had bipartisan committee passage in the House but could not clear the Senate.",
+      "sources": [
+        "https://www.geekwire.com/2026/big-tech-dodged-washington-states-data-center-rules-but-didnt-escape-a-sales-tax-bill/",
+        "https://www.route-fifty.com/infrastructure/2026/03/its-lights-out-washington-legislatures-effort-regulate-data-centers/411828/",
+        "https://www.dailyfly.com/2026/03/03/washington-state-data-center-regulation-bill-dies-in-legislature-after-industry-pushback",
+        "https://housedemocrats.wa.gov/doglio/2026/03/03/data-centers-bill-update-immigrant-support-millionaires-tax/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "arizona-capitol-protest-az-2025-12-16",
+      "jurisdiction": "Arizona (statewide Capitol protest)",
+      "state": "AZ",
+      "county": null,
+      "county_lean": null,
+      "lat": 33.4484,
+      "lng": -112.0740,
+      "action_type": "protest",
+      "date": "2025-12-16",
+      "status": "resolved",
+      "scope": "state",
+      "company": null,
+      "hyperscaler": null,
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [],
+      "concerns": ["water", "electricity_rates", "process_fairness", "tax_fairness"],
+      "summary": "More than a hundred people gathered at the Arizona State Capitol on December 16, 2025, to protest data center proposals across the state. The rally came amid a wave of local opposition following the Chandler rejection, Page land sale controversy, and Project Blue disputes in southern Arizona. Protesters called for ending data center tax incentives and requiring full environmental review of all data center projects.",
+      "sources": [
+        "https://truthout.org/articles/as-towns-and-cities-fight-off-data-centers-calls-grow-for-a-national-moratorium/",
+        "https://www.commondreams.org/news/ai-data-center-propaganda-blitz"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "the-dalles-google-water-or-2026-01-15",
+      "jurisdiction": "The Dalles (Google water expansion)",
+      "state": "OR",
+      "county": "Wasco County",
+      "county_lean": "R",
+      "lat": 45.5946,
+      "lng": -121.1787,
+      "action_type": "petition",
+      "date": "2026-01-15",
+      "status": "active",
+      "scope": "local",
+      "company": "Google",
+      "hyperscaler": "Google",
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 150,
+      "building_sq_ft": null,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Columbia Riverkeeper",
+        "WaterWatch"
+      ],
+      "concerns": ["water", "environment", "process_fairness"],
+      "summary": "A coalition of angling, land-use, and conservation organizations including Columbia Riverkeeper and WaterWatch oppose HR 655, which would transfer 150 acres of Mount Hood National Forest land to The Dalles to expand the city's water reservoir. The coalition calls it a 'cynical sweetheart deal' that would triple water storage primarily to serve Google's expanding data center campus, which already consumes a third of the city's water supply. Google completed a fourth data center building in 2025, with a fifth planned for 2026, despite the city's population only growing by 1,700 in 15 years. HR 655 passed the House on December 9 and is before the Senate Energy and Natural Resources Committee.",
+      "sources": [
+        "https://www.opb.org/article/2026/01/15/as-googles-water-demands-grow-the-dalles-aims-to-pull-more-from-mount-hood-forest/",
+        "https://www.columbiariverkeeper.org/2026/coalition-urges-senators-wyden-and-merkley-to-oppose-public-land-giveaway-for-data-center-water-use/",
+        "https://waterwatch.org/mt-hood-dog-river-letter-wyden-coalition-statement/",
+        "https://www.opb.org/article/2026/01/23/the-dalles-mayor-data-center-google/"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "id": "walla-walla-amazon-sale-wa-2026-02-12",
+      "jurisdiction": "Walla Walla (Port of Walla Walla Amazon land sale)",
+      "state": "WA",
+      "county": "Walla Walla County",
+      "county_lean": "R",
+      "lat": 46.0646,
+      "lng": -118.3430,
+      "action_type": "protest",
+      "date": "2026-02-12",
+      "status": "active",
+      "scope": "local",
+      "company": "Amazon Web Services",
+      "hyperscaler": "Amazon",
+      "project_name": null,
+      "investment_million_usd": null,
+      "megawatts": null,
+      "acreage": 553,
+      "building_sq_ft": 3400000,
+      "water_usage_gallons_per_day": null,
+      "jobs_promised": null,
+      "opposition_groups": [
+        "Walla Walla DSA"
+      ],
+      "concerns": ["water", "environment", "noise", "community_character"],
+      "summary": "The Port of Walla Walla Commissioners unanimously approved a $36 million sale of 553 acres from the Wallula Gap Business Park to Amazon Web Services on February 12, 2026, for 16 data center warehouses totaling 3.4 million sq ft. Community members voiced opposition at the meeting, with the Walla Walla DSA citing 'ecologically devastating' water consumption, soaring greenhouse emissions, and noise pollution from the constant hum. The project is part of a broader expansion of 16 new data center projects planned for Walla Walla County.",
+      "sources": [
+        "https://whitmanwire.com/news/2026/02/27/amazons-data-center-project-raises-concerns-in-walla-walla/",
+        "https://www.union-bulletin.com/news/local/business/port-of-walla-walla-approves-36m-sale-of-property-for-amazon-data-center/article_0830f222-47e3-46c0-9a9f-45557bc8d1db.html"
+      ],
+      "data_source": "web_research",
+      "last_updated": "2026-03-17"
+    }
+  ],
+  "updates": [
+    {
+      "id": "page-az-2025-10-01",
+      "jurisdiction": "Page",
+      "state": "AZ",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: The Page referendum effort (409 signatures, needed 303) was disqualified by the city clerk because the referendum number was only written on the front of each page, not front and back, and the land ordinance sale was not stapled to the signature paperwork. A separate recall effort targeting Mayor Steve Kidman and Councillor Roundtree is ongoing. Over 1,475 signatures on a Change.org petition. Nearly 500 pages of public records revealed city officials signed NDAs with developer Huntley LLC eight months before informing the public.",
+        "sources": [
+          "https://www.fox10phoenix.com/news/10b-data-center-plan-page-area-faces-pushback-from-residents",
+          "https://lakepowellchronicle.com/stories/arizonas-data-center-loophole-from-tucson-to-page-private-deals-spark-statewide-backlash,95747",
+          "https://www.change.org/p/no-data-center-in-page-az"
+        ]
+      }
+    },
+    {
+      "id": "pima-county-az-2025-12-16",
+      "jurisdiction": "Pima County",
+      "state": "AZ",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: The land sale for Project Blue closed on Dec 24, 2025 and the project is moving forward on the 290-acre county parcel along Houghton Road. Two new lawsuits have been filed: (1) No Desert Data Center Coalition sued over open meeting law violations (Jan 14, 2026); (2) AG Kris Mayes filed an appeal challenging the Corporation Commission's approval of the TEP energy agreement (Feb 20, 2026). Marana referendum petitions against companion Beale Infrastructure rezoning were rejected on technical grounds (Feb 18, 2026).",
+        "sources": [
+          "https://www.kold.com/2026/01/16/new-lawsuit-threatens-project-blue-pima-county/",
+          "https://www.kjzz.org/fronteras-desk/2026-02-20/mayes-asks-court-to-vacate-corporation-commission-approval-of-tucson-data-center-project-blue",
+          "https://www.tucsonsentinel.com/local/report/021826_data_referendum_fails/marana-rejects-referendums-against-project-blue-data-center-rezoning"
+        ]
+      }
+    },
+    {
+      "id": "city-of-chandler-az-2025-12-12",
+      "jurisdiction": "City of Chandler",
+      "state": "AZ",
+      "updates": {
+        "status": "permanent",
+        "summary": "UPDATE: Confirmed permanent. Chandler City Council voted 7-0 in December 2025 to reject the $2.5B, 422,000 sq ft AI data center championed by former Sen. Kyrsten Sinema on behalf of the AI Infrastructure Coalition (backed by Andreessen Horowitz, Microsoft, Meta, Exxon Mobil, NextEra). Over 200 public comments filed against the proposal vs. just 8 in favor. Sinema warned the council Trump could 'step in' if they failed to approve.",
+        "sources": [
+          "https://www.eenews.net/articles/arizona-city-rejects-data-center-after-ai-lobbying-push/",
+          "https://www.axios.com/local/phoenix/2025/12/16/chandler-rejects-sinema-ai-data-center",
+          "https://www.commondreams.org/news/chandler-az-data-center"
+        ]
+      }
+    },
+    {
+      "id": "marana-referendum-lawsuit-az-2026-02-27",
+      "jurisdiction": "Marana (referendum lawsuit)",
+      "state": "AZ",
+      "updates": {
+        "status": "defeated",
+        "summary": "UPDATE: The Marana referendum effort is effectively dead. Town officials rejected the petitions on February 18, 2026, ruling that Worker Power (which sponsored Arizonans for Responsible Development) failed to include the legal description of the involved properties as required by Arizona state law. Both petitions had ~2,800 signatures each (needed 1,360). Three residents have launched council runs in response to the data center vote. The underlying rezoning of 600 acres for Beale Infrastructure (Project Blue companion site) stands.",
+        "sources": [
+          "https://www.tucsonsentinel.com/local/report/021826_data_referendum_fails/marana-rejects-referendums-against-project-blue-data-center-rezoning",
+          "https://news.azpm.org/p/azpmnews/2026/2/10/228403-marana-residents-submit-petitions-to-put-data-center-project-to-a-vote/",
+          "https://news.azpm.org/s/102502-marana-data-center-vote-sparks-backlash-three-residents-launch-council-runs/"
+        ]
+      }
+    },
+    {
+      "id": "monterey-park-ca-2026-01-21",
+      "jurisdiction": "Monterey Park",
+      "state": "CA",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Monterey Park City Council unanimously voted on March 4 to place a permanent data center ban on the June 2, 2026 ballot, amending both the Municipal Code and General Plan. The council also directed staff to draft an ordinance banning data centers that could take effect before the election, and extended the existing moratorium to January 2027. The targeted HMC StratCap data center would consume 45 MW, equal to the entire city's current electricity usage. HMC StratCap has threatened litigation.",
+        "sources": [
+          "https://www.sgvtribune.com/2026/03/05/monterey-park-approves-ballot-measure-to-prohibit-data-centers/",
+          "https://www.montereypark.ca.gov/m/newsflash/home/detail/1306",
+          "https://laist.com/news/monterey-park-data-center-ballot-question"
+        ]
+      }
+    },
+    {
+      "id": "california-statewide-ca-2026-02-01",
+      "jurisdiction": "California (statewide)",
+      "state": "CA",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE: Multiple new bills introduced in 2026 session. SB 887 (Padilla) clarifies data centers are not exempt from CEQA and not eligible for advanced manufacturing exemption, but allows ELDP certification with enhanced requirements. SB 978 (Perez) creates Data Center Community Accountability Act with diesel generator bans, 75 MW+ rate class, prevailing wage requirements, and upfront transmission upgrade payments. AB 2619 requires water use guidelines by 2029. Prior 2025 session data center bills were blocked by Big Tech lobbying, leaving only a study requirement (report due 2027).",
+        "sources": [
+          "https://sd18.senate.ca.gov/news/bills-protecting-ratepayers-data-center-costs-and-incentivizing-sustainable-tech",
+          "https://sd25.senate.ca.gov/news/senator-perez-introduces-legislation-protect-communities-amid-unprecedented-growth-data",
+          "https://calmatters.digitaldemocracy.org/bills/ca_202520260ab2619",
+          "https://calmatters.org/environment/2025/12/data-center-energy-study-california/"
+        ]
+      }
+    },
+    {
+      "id": "imperial-county-ca-2025-12-04",
+      "jurisdiction": "Imperial County",
+      "state": "CA",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: In January 2026, the City of Imperial filed a lawsuit against Imperial County alleging the county fast-tracked the data center by labeling the permit as ministerial, bypassing CEQA. Developer Sebastian Rucci filed a federal lawsuit alleging a conspiracy between the city and Imperial Irrigation District. Sen. Padilla has urged the county to halt the project. The Superior Court granted the county's motion to dismiss but allowed the city to amend its petition within 30 days.",
+        "sources": [
+          "https://calexicochronicle.com/2026/01/12/developer-of-10b-data-center-sues-city-of-imperial-in-fed-court/",
+          "https://www.kpbs.org/news/environment/2026/02/19/state-lawmaker-calls-on-imperial-county-officials-to-halt-controversial-data-center-project"
+        ]
+      }
+    },
+    {
+      "id": "oregon-statewide-or-2025-06-05",
+      "jurisdiction": "Oregon (statewide)",
+      "state": "OR",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Oregon's data center policy landscape has expanded significantly in 2026. Governor Kotek formed a Data Center Advisory Committee in January 2026. HB 4084, enrolled March 6, includes a one-year moratorium barring data centers from expanded enterprise zone tax breaks. SB 1586, which would have opened 1,700 acres near Hillsboro to industrial development (potentially data centers), was shelved March 3 after opposition from farmers and land conservation groups. Oregon Center for Public Policy analysis found data centers receive $4.5 billion in tax breaks with minimal job creation.",
+        "sources": [
+          "https://www.opb.org/article/2026/03/02/data-centers-cut-bill-expanding-oregon-tax-breaks/",
+          "https://www.opb.org/article/2026/01/20/oregon-data-center-advisory-committee/",
+          "https://www.ocpp.org/2026/03/12/oregons-data-center-boom/"
+        ]
+      }
+    },
+    {
+      "id": "washington-statewide-wa-2026-02-11",
+      "jurisdiction": "Washington (statewide)",
+      "state": "WA",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Washington's 2026 legislative session yielded mixed results on data centers. HB 2515 / SB 6171 (comprehensive regulation including energy reporting, clean energy standards, peak demand shutoffs) died in Senate Ways & Means after Microsoft lobbied against it. However, ESSB 6231 passed 51-46 on the final day (March 12), eliminating sales tax exemptions for refurbishing data center equipment. The tax repeal is projected to raise $63M in current biennium and $140.5M next biennium. Governor Ferguson, who requested the bill, had established a data center workgroup via executive order in 2025.",
+        "sources": [
+          "https://www.geekwire.com/2026/big-tech-dodged-washington-states-data-center-rules-but-didnt-escape-a-sales-tax-bill/",
+          "https://washingtonstatestandard.com/2026/03/14/winners-losers-and-takeaways-from-was-legislative-session/",
+          "https://www.route-fifty.com/infrastructure/2026/03/its-lights-out-washington-legislatures-effort-regulate-data-centers/411828/"
+        ]
+      }
+    },
+    {
+      "id": "reno-nv-2025-01-10",
+      "jurisdiction": "Reno",
+      "state": "NV",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: Despite the Reno Planning Commission's moratorium recommendation, the Reno City Council rejected it and approved the Oppidan Data Center (the city's second data center) over the planning commission's original denial. The Sierra Club's Toiyabe chapter filed an appeal against the Webb Data Center approval. Northern Nevada's energy grid could quadruple in size from data center demand. The Pyramid Lake Paiute Tribe has fought to protect its Truckee River water rights threatened by data center expansion.",
+        "sources": [
+          "https://www.nbcnews.com/news/us-news/reno-nevada-data-centers-water-drought-rcna235966",
+          "https://thisisreno.com/2025/02/reno-city-council-data-center-moratorium/",
+          "https://nevadacurrent.com/2026/02/09/data-center-water-power-needs-regulatory-challenges-strain-rural-communities/"
+        ]
+      }
+    },
+    {
+      "id": "yerington-lyon-county-nv-2025-08-01",
+      "jurisdiction": "Yerington (Lyon County)",
+      "state": "NV",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: The Monarch Data Center project by Copia Power Devco LLC continues to move forward after Lyon County Planning Commission unanimously approved rezoning of 500+ acres of agricultural land. The proposed 14-building complex would require 1,000 MW of power. Mason Valley is one of Nevada's most overtapped groundwater basins, where farmers already face potential water cuts. University of Nevada, Reno Extension professor Staci Emm has criticized the lack of environmental assessments.",
+        "sources": [
+          "https://nevadacurrent.com/2026/02/09/data-center-water-power-needs-regulatory-challenges-strain-rural-communities/",
+          "https://www.datacenterdynamics.com/en/news/land-rezoning-approved-for-data-center-in-lyon-county-nevada/"
+        ]
+      }
+    },
+    {
+      "id": "mesa-az-2025-07-08",
+      "jurisdiction": "Mesa",
+      "state": "AZ",
+      "updates": {
+        "status": "permanent",
+        "summary": "UPDATE: Mesa continues to grapple with data center saturation. In under a decade, 15 data centers have been built, approved, or proposed on 1,500 acres. The city is concerned about losing land that could be used for higher-density job creators such as aerospace, bioscience, and innovation companies.",
+        "sources": [
+          "https://www.yourvalley.net/mesa-independent/stories/data-center-planned-on-170-acres-in-mesa,646803"
+        ]
+      }
+    },
+    {
+      "id": "lyon-county-silver-springs-nv-2025-11-01",
+      "jurisdiction": "Lyon County (Silver Springs)",
+      "state": "NV",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: Data center expansion continues to raise concerns across Lyon County. The county still has no specific data center zoning regulations. NV Energy's CEO stated the utility grid in Northern Nevada could 'double, triple, even quadruple' in the foreseeable future. Over half of Nevada's groundwater basins are already over-appropriated.",
+        "sources": [
+          "https://nevadacurrent.com/2026/02/09/data-center-water-power-needs-regulatory-challenges-strain-rural-communities/",
+          "https://www.nevadaappeal.com/news/2025/feb/15/data-centers-could-quadruple-regions-electrical-grid-nv-energy-ceo-says/"
+        ]
+      }
+    },
+    {
+      "id": "walla-walla-county-wa-2026-02-12",
+      "jurisdiction": "Walla Walla County",
+      "state": "WA",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: The Port of Walla Walla Commissioners unanimously approved a $36 million sale of 553 acres from the Wallula Gap Business Park to Amazon Web Services on February 12, 2026, for 16 data center warehouses totaling 3.4 million sq ft. Community members voiced opposition at the meeting, citing water consumption, greenhouse emissions, and noise pollution. The Walla Walla DSA actively opposed the sale.",
+        "sources": [
+          "https://whitmanwire.com/news/2026/02/27/amazons-data-center-project-raises-concerns-in-walla-walla/",
+          "https://www.union-bulletin.com/news/local/business/port-of-walla-walla-approves-36m-sale-of-property-for-amazon-data-center/article_0830f222-47e3-46c0-9a9f-45557bc8d1db.html"
+        ]
+      }
+    }
+  ]
+}

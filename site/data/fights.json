@@ -29822,5 +29822,97 @@
     "sources": [],
     "data_source": "web_research",
     "last_updated": "2026-03-17"
+  },
+  {
+    "id": "franklin-county-regulations-mo-2026-03-17",
+    "jurisdiction": "Franklin County (county-wide regulations)",
+    "state": "MO",
+    "county": "Franklin County",
+    "lat": 38.4113,
+    "lng": -91.0526,
+    "action_type": "zoning_restriction",
+    "date": "2026-03-17",
+    "status": "pending",
+    "scope": "local",
+    "summary": "Franklin County Planning & Zoning Commission is considering county-wide data center regulations including 1,000-ft setbacks from residential/parks/agriculture, max 800-acre site limit, 10% open space requirement, and sound limits of 60dB daytime/50dB nighttime. On the same agenda as two major rezoning requests (Gateway Digital and Beltline Energy).",
+    "sources": [
+      "https://www.firstalert4.com/2026/03/14/franklin-county-data-center-projects-return-planning-commission-tuesday-with-frustration-about-process/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "meade-county-ky-moratorium-2026-01",
+    "jurisdiction": "Meade County (moratorium)",
+    "state": "KY",
+    "county": "Meade County",
+    "lat": 37.971,
+    "lng": -86.2168,
+    "action_type": "moratorium",
+    "date": "2026-01-13",
+    "status": "active",
+    "scope": "local",
+    "summary": "Meade County adopted Ordinance 2025-07 on January 13, 2026, establishing a moratorium on data center development. This followed the Fiscal Court's vote to deny rezoning of 138 acres for a PowerHouse Industries data center in October 2025.",
+    "sources": [
+      "https://www.wdrb.com/news/meade-county-enacts-moratorium-on-data-centers/article_37ac787-a183-4c20-86ee-685d58d4b21d.html"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "tva-affordability-tn-2026",
+    "jurisdiction": "Tennessee Valley Authority (affordability concerns)",
+    "state": "TN",
+    "county": null,
+    "lat": 35.0456,
+    "lng": -85.3097,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "ongoing",
+    "scope": "statewide",
+    "summary": "TVA is reversing coal plant closures and investing in new natural gas generation to meet surging data center electricity demand across its 7-state service territory. Critics warn this threatens TVA's clean energy commitments and could raise rates for the 10 million people it serves. TVA pledged rate fairness but has not detailed how data center costs will be allocated.",
+    "sources": [
+      "https://www.axios.com/local/nashville/2026/02/09/tva-pledges-to-tackle-electric-rate-fairness-as-data-center-demand-surges"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "arizona-hb-2631-tax-repeal-2026",
+    "jurisdiction": "Arizona (HB 2631 tax repeal)",
+    "state": "AZ",
+    "county": null,
+    "lat": 33.4484,
+    "lng": -112.074,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "HB 2631 - Data Center Tax Incentive Repeal",
+    "summary": "Governor Katie Hobbs called for repealing data center tax incentives which cost Arizona approximately $38.5 million per year. The bill would end the transaction privilege and use tax exemption for large data centers. Part of a broader national trend of states reconsidering data center tax breaks.",
+    "sources": [
+      "https://www.azleg.gov/legtext/57leg/2R/bills/HB2631P.htm"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "monterey-park-ca-ballot-ban-2026-06",
+    "jurisdiction": "Monterey Park (permanent ballot ban)",
+    "state": "CA",
+    "county": "Los Angeles County",
+    "lat": 34.0625,
+    "lng": -118.1228,
+    "action_type": "zoning_restriction",
+    "date": "2026-03-04",
+    "status": "pending",
+    "scope": "local",
+    "summary": "Monterey Park City Council voted unanimously to place a permanent data center ban on the June 2, 2026 ballot. If approved by voters, it would permanently ban all data centers citywide \u2014 an escalation from the 45-day moratorium passed in January 2026. The community collected 5,779 petition signatures.",
+    "sources": [
+      "https://www.sgvtribune.com/2026/03/04/monterey-park-to-put-data-center-ban-on-june-ballot/"
+    ],
+    "petition_signatures": 5779,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
   }
 ]

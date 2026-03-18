@@ -1,0 +1,534 @@
+[
+  {
+    "id": "oliver-county-nd-moratorium-2026-03-13",
+    "jurisdiction": "Oliver County",
+    "state": "ND",
+    "county": "Oliver County",
+    "lat": 47.1155,
+    "lng": -101.3502,
+    "action_type": "moratorium",
+    "date": "2026-03-13",
+    "status": "enacted",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Oliver County commissioners voted unanimously on March 13, 2026 to impose a 180-day moratorium on new data center construction. The board initially discussed a 90-day moratorium but opted for the longer pause to allow more study time. Over 100 residents packed the meeting room. The county's planning and zoning board had recommended an even longer three-year moratorium. The decision came days after neighboring Mercer County passed a one-year moratorium on March 4. Concerns centered on land acquisition by energy companies using non-disclosure agreements that limited public transparency, as well as potential impacts on local electricity rates and water resources. NextEra and Basin Electric are eyeing projects in the area.",
+    "sources": [
+      "https://www.kfyrtv.com/2026/03/15/commissioners-voted-unanimously-pause-new-data-center-projects-while-they-study-issue/",
+      "https://www.kxnet.com/news/top-stories/oliver-county-data-center-moratorium/",
+      "https://bismarcktribune.com/news/state-regional/article_7008bcf1-5d9d-4007-96c7-a2f8bf697d75.html"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "east-whiteland-expansion-opposition-pa-2026-03-10",
+    "jurisdiction": "East Whiteland Township",
+    "state": "PA",
+    "county": "Chester County",
+    "lat": 40.0552,
+    "lng": -75.5266,
+    "action_type": "other",
+    "date": "2026-03-10",
+    "status": "active",
+    "scope": "local",
+    "company": "Green Fig Land LLC / Sentinel Data Centers",
+    "hyperscaler": null,
+    "project_name": "East Whiteland Data Center Expansion",
+    "building_sq_ft": 1600000,
+    "summary": "East Whiteland Planning Commission on March 10, 2026 stopped short of fully recommending approval for an amended plan that would increase a data center footprint by 61% to over 1.6 million square feet. About 400 residents packed the meeting. A prior February meeting had to be halted when attendees exceeded occupancy limits. The Planning Commission unanimously voted to recommend the Board of Supervisors carefully consider impacts before approving. Developer Green Fig Land LLC / Sentinel Data Centers is seeking the expansion on Swedesford Road. Residents cite concerns about power grid stress, rising energy costs, water use, noise, and declining property values. Senator Katie Muth announced intent to file a three-year statewide data center moratorium bill in response to this and other PA opposition.",
+    "sources": [
+      "https://www.inquirer.com/news/pennsylvania/east-whiteland-data-center-meeting-20260310.html",
+      "https://6abc.com/post/east-whiteland-twp-residents-oppose-data-center-planners-send-revised-plan-back-review/18698080/",
+      "https://www.foodandwaterwatch.org/2026/03/10/east-whiteland-planning-commission-recommends-increased-scrutiny-for-data-center-proposal/"
+    ],
+    "opposition_groups": [
+      "Food & Water Watch"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "vineland-noise-complaint-nj-2026-03-14",
+    "jurisdiction": "Vineland",
+    "state": "NJ",
+    "county": "Cumberland County",
+    "lat": 39.4864,
+    "lng": -75.026,
+    "action_type": "other",
+    "date": "2026-03-14",
+    "status": "active",
+    "scope": "local",
+    "company": "DataOne",
+    "hyperscaler": "Nebius",
+    "megawatts": 300,
+    "building_sq_ft": 2600000,
+    "summary": "Residents in Vineland report persistent humming noise from the 300 MW DataOne/Nebius AI data center on South Lincoln Avenue. Multiple residents have filed complaints; the noise is described as worse at night. Cumberland County Health Department conducted acoustical monitoring and inspections; DataOne says the facility is operating within Vineland's noise ordinance limits and will continue deploying sound reduction measures. This is a new noise complaint development on top of the existing community opposition to the $17 billion, 2.6 million sq ft facility which has faced concerns about water use, electricity demand, and property values since late 2025.",
+    "sources": [
+      "https://www.nbcphiladelphia.com/news/local/vineland-loud-humming-noise-ai-data-center/4366931/",
+      "https://6abc.com/post/vineland-nj-residents-raise-concerns-humming-noise-data-center-south-lincoln-avenue/18707437/",
+      "https://nj1015.com/vineland-nj-data-center-concerns/"
+    ],
+    "opposition_groups": [
+      "Pinelands Alliance"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "port-washington-noise-petition-wi-2026-03-15",
+    "jurisdiction": "Port Washington",
+    "state": "WI",
+    "county": "Ozaukee County",
+    "lat": 43.3867,
+    "lng": -87.8753,
+    "action_type": "other",
+    "date": "2026-03-15",
+    "status": "active",
+    "scope": "local",
+    "company": "Vantage Data Centers",
+    "hyperscaler": null,
+    "project_name": "Lighthouse Campus",
+    "investment_million_usd": 15000,
+    "summary": "Residents near the $15 billion Vantage Data Centers Lighthouse Campus in Port Washington presented a petition signed by 100 people to both the city's Common Council and the Town Board, requesting restoration of the original 12-hour construction schedule by mid-March. The city had expanded to 24-hour construction on weekdays, causing complaints about incessant backup beeping, extremely bright lights shining in windows around the clock, vibration, and construction traffic. Dump trucks were also rerouted around nearby Fredonia after speeding and noise complaints. Vantage officials said they plan to switch back to 12-hour days, six days a week, for the next major construction phase. This builds on months of ongoing opposition including a failed recall effort against the mayor.",
+    "sources": [
+      "https://www.wpr.org/news/frustration-grows-over-24-hour-data-center-construction-port-washington",
+      "https://urbanmilwaukee.com/2026/03/15/neighbors-push-back-on-24-hour-data-center-work-in-port-washington/",
+      "https://www.ozaukeepress.com/content/residents-beg-relief-data-center-work"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "spartanburg-protest-march-sc-2026-03-07",
+    "jurisdiction": "Spartanburg County",
+    "state": "SC",
+    "county": "Spartanburg County",
+    "lat": 34.9496,
+    "lng": -81.932,
+    "action_type": "other",
+    "date": "2026-03-07",
+    "status": "active",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "More than two dozen people gathered at the Spartanburg County courthouse on Saturday, March 7, 2026 to protest data center development, then marched down Magnolia Street. Protesters connected through social media groups and expressed concerns about power demand, water use, noise, and health impacts. They noted that while Tiger DC had withdrawn its $3 billion data center proposal (a win for opposition), two more data centers remain planned for the area. South Carolina utility companies report data center proposals are declining statewide, suggesting opposition is having a deterrent effect.",
+    "sources": [
+      "https://www.foxcarolina.com/2026/03/07/ai-is-anti-human-protestors-express-concerns-regarding-data-centers-coming-upstate/",
+      "https://www.wrdw.com/2026/03/08/ai-is-anti-human-sc-protestors-express-concerns-regarding-data-centers/",
+      "https://www.spartanburg.com/news/2026/03/data-center-proposals-on-the-decline-according-to-south-carolina-utility-companies/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "provo-ut-denial-2026-03-11",
+    "jurisdiction": "City of Provo",
+    "state": "UT",
+    "county": "Utah County",
+    "lat": 40.2338,
+    "lng": -111.6585,
+    "action_type": "permit_denial",
+    "date": "2026-03-11",
+    "status": "defeated",
+    "scope": "local",
+    "company": "B+F Timpanogos Tech",
+    "hyperscaler": null,
+    "megawatts": 30,
+    "acreage": 9,
+    "building_sq_ft": 66000,
+    "summary": "The Provo City Council voted unanimously (7-0) on March 11, 2026 to deny a zoning change for a proposed AI data center at 1507 S. 180 East in the East Bay area. Developer B+F Timpanogos Tech had requested to have property rezoned to an industrial commercial data center overlay zone for a 66,000 sq ft, 30 MW facility on 9 acres. Council members said the city needs to complete its economic development study before making long-term land-use decisions of this nature. Lingering concerns about power consumption and community impact drove the unanimous rejection.",
+    "sources": [
+      "https://www.ksl.com/article/51461110/provo-city-council-denies-zoning-change-for-proposed-data-center",
+      "https://www.abc4.com/news/wasatch-front/provo-ai-data-center-not-approved-zoning-city-council/",
+      "https://www.heraldextra.com/news/2026/mar/11/provo-city-council-denies-rezoning-request-for-data-center-at-east-bay/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "minnesota-nda-ban-bill-mn-2026-03-12",
+    "jurisdiction": "Minnesota (Statewide)",
+    "state": "MN",
+    "county": null,
+    "lat": 46.7296,
+    "lng": -94.6859,
+    "action_type": "legislation",
+    "date": "2026-03-12",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": "Google",
+    "summary": "The Minnesota House Elections Finance and Government Operations Committee approved a bill on March 12, 2026 that would largely prohibit municipalities from entering into non-disclosure agreements (NDAs) with data center developers except where required by law. Testimony centered on data center proposals in Farmington, Hermantown, and Pine Island where county officials signed NDAs preventing them from discussing project details, including a proposed Google data center in Hermantown. The bill addresses transparency concerns raised by communities learning about massive projects only after key decisions were already made behind closed doors. Separately, Sen. Jennifer McEwen (DFL-Duluth) announced she will introduce a statewide moratorium bill (SF 4298) barring permits until one year after the PUC completes a comprehensive data center study.",
+    "sources": [
+      "https://www.fox9.com/news/minnesota-data-centers-bill-ban-nondisclosure-agreements-march-12",
+      "https://bringmethenews.com/minnesota-news/amid-data-center-controversies-lawmakers-consider-ban-on-cities-entering-into-ndas",
+      "https://planetdetroit.org/2026/03/lawmakers-propose-michigan-data-center-moratorium/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "alabama-senate-sb-270-passed-al-2026-03-13",
+    "jurisdiction": "Alabama (Statewide)",
+    "state": "AL",
+    "county": null,
+    "lat": 32.3617,
+    "lng": -86.2792,
+    "action_type": "legislation",
+    "date": "2026-03-13",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "The Alabama Senate passed SB270 on March 13, 2026, sponsored by Sen. Lance Bell (R-Pell City). The bill requires the Public Service Commission to review contracts between utilities and large-scale data centers (150+ MW) to ensure they are 'in the public interest.' Key provisions: (1) incremental infrastructure costs must be recovered from the data center, not existing ratepayers; (2) contracts must provide positive benefits to all other retail electric customers; (3) PSC must evaluate whether pricing terms could lower costs for other utility customers. The bill now advances to Alabama House committees.",
+    "sources": [
+      "https://www.alreporter.com/2026/03/13/alabama-senate-passes-bill-to-rein-in-data-center-tax-incentives/",
+      "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB270-int.pdf"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "south-dakota-sb-135-governor-desk-sd-2026-03-11",
+    "jurisdiction": "South Dakota (Statewide)",
+    "state": "SD",
+    "county": null,
+    "lat": 44.2998,
+    "lng": -99.4388,
+    "action_type": "legislation",
+    "date": "2026-03-11",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "South Dakota's SB 135, the 'Data Center Bill of Rights for Citizens,' was sent to Governor Larry Rhoden's desk on March 11, 2026 after passing the House 60-7 and the Senate 34-0. The bill requires data centers with 10+ MW peak electrical use to cover all costs of meeting their power demands (including decommissioning costs), notify local water providers of proposed water usage, and preserves local authority to limit, ban, or regulate data centers (bars state preemption of local laws). Sponsored by Senate President Pro Tempore Chris Karr and House Speaker Jon Hansen, both Republicans.",
+    "sources": [
+      "https://www.dakotanewsnow.com/2026/03/11/data-center-bill-rights-heads-governor-rhodens-desk/",
+      "https://southdakotasearchlight.com/2026/03/05/data-center-regulation-bill-passes-south-dakota-house/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "florida-sb-484-passed-legislature-fl-2026-03-13",
+    "jurisdiction": "Florida (Statewide)",
+    "state": "FL",
+    "county": null,
+    "lat": 30.4383,
+    "lng": -84.2807,
+    "action_type": "legislation",
+    "date": "2026-03-13",
+    "status": "enacted",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "The Florida Legislature passed SB 484 on March 13, 2026, sending it to Governor DeSantis for signature. The House passed it 92-16 on March 11; the Senate gave final approval March 13 after the House weakened transparency provisions by adding language allowing state agencies to sign NDAs with data center companies for up to one year. Despite weakened transparency, the bill retains the core ratepayer protection: Florida's Public Service Commission must ensure data centers pay for their own utility infrastructure and costs, not the general body of ratepayers. Rep. Griff Griffitts said the NDA provision mirrors the White House's 'Ratepayer Protection Pledge.'",
+    "sources": [
+      "https://floridaphoenix.com/2026/03/11/florida-house-weakens-transparency-requirement-in-data-center-bill-sends-to-senate/",
+      "https://floridaphoenix.com/2026/03/13/florida-senate-half-heartedly-agrees-to-final-ok-for-weakened-data-center-bill/",
+      "https://floridapolitics.com/archives/785103-legislature-approves-regulatory-framework-for-data-centers-as-florida-tries-to-keep-ahead-in-ai-race/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "virginia-siting-conference-committee-va-2026-03-13",
+    "jurisdiction": "Virginia (Statewide)",
+    "state": "VA",
+    "county": null,
+    "lat": 37.5407,
+    "lng": -77.436,
+    "action_type": "legislation",
+    "date": "2026-03-13",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Multiple data center siting and water usage bills remain unresolved as the Virginia General Assembly session winds down. SB 94 (Sen. Danica Roem) and HB 153 (Del. Josh Thomas) would require data centers using 100+ MW to assess noise, water, agricultural, and environmental impacts. The bills differ on industrial zone siting requirements and have been sent to a conference committee including Roem, Thomas, and Sen. Bill Stanley (R). Separately, Sen. Creigh Deeds' bill requiring rainwater harvesting systems was continued to 2027 with a study group. Bills requiring SCC certificates for data centers were killed. The legislature was scheduled to adjourn March 15, with the Senate budget potentially including a repeal of the $1.6 billion data center sales and use tax exemption.",
+    "sources": [
+      "https://cardinalnews.org/2026/03/13/bills-on-data-center-siting-and-water-usage-remain-unresolved-as-general-assembly-session-winds-down/",
+      "https://virginiamercury.com/2026/03/06/general-assembly-nixes-bills-that-required-data-centers-to-get-scc-certificate/"
+    ],
+    "opposition_groups": [
+      "Piedmont Environmental Council"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "pennsylvania-shapiro-grid-standards-pa-2026-03-10",
+    "jurisdiction": "Pennsylvania (Statewide)",
+    "state": "PA",
+    "county": null,
+    "lat": 40.2732,
+    "lng": -76.8867,
+    "action_type": "legislation",
+    "date": "2026-03-10",
+    "status": "active",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": "AWS",
+    "summary": "Governor Josh Shapiro announced GRID (Governor's Responsible Infrastructure Development) standards for data centers, offering expedited 'Fast Track' permitting in exchange for commitments to water conservation, local hiring, and independent power generation. Two Amazon data centers in Salem Township and Falls Township are the first projects in the program. Separately, the PA House Energy Committee advanced two bills along party lines on March 9: one requiring annual water and energy use reporting, another creating model zoning guidelines for municipalities. Environmental advocates expressed concern about the voluntary nature of GRID and the lack of enforcement mechanisms without legislative cooperation from the GOP-controlled Senate.",
+    "sources": [
+      "https://www.spotlightpa.org/news/2026/03/data-centers-josh-shapiro-permitting-water-energy-jobs-regulation-environment/",
+      "https://newtownpanow.com/2026/03/13/governor-wants-to-incentivize-data-centers-to-be-better-neighbors/",
+      "https://www.wesa.fm/politics-government/2026-03-09/lawmakers-bill-data-center-construction"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "michigan-hb-5594-5596-moratorium-mi-2026-03",
+    "jurisdiction": "Michigan (Statewide)",
+    "state": "MI",
+    "county": null,
+    "lat": 42.7325,
+    "lng": -84.5555,
+    "action_type": "legislation",
+    "date": "2026-03-03",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "State Rep. Jennifer Wortz (R-Quincy) introduced a three-bill Data Center Regulation Act (HB 5594, 5595, 5596) with bipartisan co-sponsors Reps. Joseph Fox (R-Fremont) and Dylan Wegela (D-Garden City). The bills would prevent EGLE and local governments from issuing data center permits until April 1, 2027, and bar the Michigan Public Service Commission from approving utility agreements with data centers over the same period. At least 19 Michigan towns have already passed local data center moratoriums. However, Governor Whitmer opposes the bills, with her spokesperson stating any legislation preventing economic growth 'would be vetoed.' The bills were referred to the House Government Operations Committee.",
+    "sources": [
+      "https://michiganadvance.com/briefs/wortz-spearheads-bipartisan-effort-to-halt-data-center-construction-in-michigan/",
+      "https://planetdetroit.org/2026/03/lawmakers-propose-michigan-data-center-moratorium/",
+      "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "beloit-meta-opposition-wi-2026-03-12",
+    "jurisdiction": "Town of Beloit",
+    "state": "WI",
+    "county": "Rock County",
+    "lat": 42.5083,
+    "lng": -89.0318,
+    "action_type": "other",
+    "date": "2026-03-12",
+    "status": "active",
+    "scope": "local",
+    "company": "Cambrin LLC (Meta-linked)",
+    "hyperscaler": "Meta",
+    "acreage": 430,
+    "summary": "A 'No Beloit Data Center' Facebook group formed in early March 2026 has attracted over 1,000 members opposing a potential 430-acre data center in the Town of Beloit. Developer Cambrin LLC signed a pre-development agreement with the town in July 2025; the company name and contact information match Meta's confirmed data center in Beaver Dam, WI. A petition urging the governor to stop the project has over 750 signatures. A town hall meeting was scheduled for Wednesday at the Beloit Public Library, and another informational meeting 'No More Fossil Fuels' is set for March 19 at Riverside Park. No formal applications have been submitted yet. Concerns center on air quality, water use, electricity demand, and noise/light pollution.",
+    "sources": [
+      "https://www.wifr.com/2026/03/12/possible-data-center-near-beloit-raises-concerns-community/",
+      "https://www.gazettextra.com/news/local/petition-launched-against-any-data-centers-in-town-of-beloit/article_dcb4dcb4-6d64-558a-9a08-68381fa44d72.html",
+      "https://www.beloitdailynews.com/news/local-news/petition-launched-against-any-data-centers-in-beloit-town-hall-meeting-wednesday/article_2f2a080b-5d9e-42f1-af98-a6f7c2bac390.html"
+    ],
+    "opposition_groups": [
+      "No Beloit Data Center"
+    ],
+    "petition_signatures": 750,
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "wisconsin-nda-ban-senate-committee-wi-2026-03",
+    "jurisdiction": "Wisconsin (Statewide)",
+    "state": "WI",
+    "county": null,
+    "lat": 43.0722,
+    "lng": -89.3837,
+    "action_type": "legislation",
+    "date": "2026-03-12",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "A bipartisan bill banning non-disclosure agreements between municipalities and data center developers cleared the Wisconsin Senate committee with bipartisan support. Authored by Sen. Andre Jacque, the bill reflects growing anger over secretive data center deals in communities like Beloit, Port Washington, and other Wisconsin towns where residents learned of massive projects only after NDAs prevented elected officials from discussing them publicly.",
+    "sources": [
+      "https://www.wispolitics.com/2026/sen-jacque-data-center-nda-ban-clears-senate-committee-with-bipartisan-support/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "independence-mo-tax-breaks-approved-2026-03-03",
+    "jurisdiction": "City of Independence",
+    "state": "MO",
+    "county": "Jackson County",
+    "lat": 39.0911,
+    "lng": -94.4155,
+    "action_type": "other",
+    "date": "2026-03-03",
+    "status": "active",
+    "scope": "local",
+    "company": "Nebius",
+    "hyperscaler": "Nebius",
+    "investment_million_usd": 6600,
+    "acreage": 400,
+    "summary": "Independence City Council approved $6.26 billion in tax breaks over 20 years for Nebius on March 3, 2026, including a 98% real property tax abatement, 90% personal property tax abatement, and sales tax exemptions on construction materials. Residents immediately launched a petition drive; the group 'Stop the AI Data Center in Independence' collected over 800 signatures but the city rejected the petition on March 5 under Section 7.2 of its charter (excluding referendums on immediately-effective ordinances). Three residents filed a lawsuit on March 12 in Jackson County court to force certification of signatures and allow a public referendum, potentially by August 2026. The proposed data center would be an 'AI factory' covering over 400 acres.",
+    "sources": [
+      "https://www.kcur.org/politics-elections-and-government/2026-03-03/independence-gives-billions-in-tax-breaks-for-a-massive-data-center-despite-outcry-from-residents",
+      "https://www.kcur.org/politics-elections-and-government/2026-03-12/independence-residents-sue-tax-breaks-data-center",
+      "https://fox4kc.com/news/citizens-file-lawsuit-against-city-of-independence-over-data-center-referendum/"
+    ],
+    "opposition_groups": [
+      "Stop the AI Data Center in Independence"
+    ],
+    "petition_url": "https://www.change.org/p/stop-the-massive-nebius-data-center-in-independence-mo",
+    "petition_signatures": 800,
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "new-hampshire-hb672-off-grid-nh-2025-08-01",
+    "jurisdiction": "New Hampshire (statewide)",
+    "state": "NH",
+    "county": null,
+    "lat": 43.1939,
+    "lng": -71.5724,
+    "action_type": "legislation",
+    "date": "2025-08-01",
+    "status": "enacted",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Governor Kelly Ayotte signed HB 672 into law, creating a new legal category for 'off-grid electricity providers' that exempts facilities generating their own power without connecting to the existing electric grid from PUC regulation. Critics argue this effectively creates a loophole for data centers to bypass utility oversight. Facilities over 30MW still require Site Evaluation Committee approval for environmental review. The law makes it faster and less expensive to build power infrastructure for data centers, and has been cited as a potential model for other states.",
+    "sources": [
+      "https://www.thedartmouth.com/article/2025/10/ehlrich-joseph-new-energy-law-deregulates-off-grid-energy-providers",
+      "https://www.citizenscount.org/bills/hb-672-2025",
+      "https://www.mclane.com/insights/new-hampshire-charts-new-energy-course/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "wyoming-evanston-prometheus-wy-2026",
+    "jurisdiction": "Evanston (Uinta County)",
+    "state": "WY",
+    "county": "Uinta County",
+    "lat": 41.2683,
+    "lng": -110.9632,
+    "action_type": "other",
+    "date": "2026-02-14",
+    "status": "pending",
+    "scope": "local",
+    "company": "Prometheus Hyperscale",
+    "hyperscaler": "Meta/Microsoft",
+    "summary": "Prometheus Hyperscale is developing a 1.2-gigawatt data center near Evanston on the Wyoming-Utah border, courting both Meta and Microsoft as potential tenants. Uinta County commissioners approved a letter of intent for a 'workforce hub' providing temporary housing for up to 3,000 construction workers on 997 acres of county-owned property adjacent to Bear River State Park. Environmental groups have opposed the project citing enormous energy and water consumption. Over 200 environmental organizations nationally have cited such projects as needing better regulations before approval.",
+    "sources": [
+      "https://cowboystatedaily.com/2026/02/14/data-center-near-evanston-is-talking-to-microsoft-meta/",
+      "https://www.uintacountyherald.com/stories/county-officials-sign-letters-of-support-for-incoming-data-center,107999"
+    ],
+    "opposition_groups": [
+      "Wyoming Outdoor Council"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "wyoming-statewide-rate-protection-wy-2026",
+    "jurisdiction": "Wyoming (statewide)",
+    "state": "WY",
+    "county": null,
+    "lat": 42.7559,
+    "lng": -107.3025,
+    "action_type": "legislation",
+    "date": "2026-01-16",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Wyoming faces 12.8 GW of announced data center projects that would more than double statewide electrical demand, sparking fears of soaring residential electric rates. While the state has an existing ratepayer protection law (statute 37-3-116 from 2019) preventing new large load customers from obligating existing customers for utility costs, the Wyoming Outdoor Council has published a white paper calling for additional legislation requiring data center developers to pay for grid infrastructure, reduce greenhouse gas emissions, and be accountable to the public. Lawmakers are considering additional regulatory measures for the upcoming budget session.",
+    "sources": [
+      "https://cowboystatedaily.com/2025/10/13/wyomings-data-center-boom-sparks-fears-of-soaring-electric-rates/",
+      "https://www.governing.com/infrastructure/data-center-boom-threatens-to-overload-wyomings-power-system",
+      "https://www.wyomingpublicmedia.org/open-spaces/2026-01-16/bigger-data-centers-are-coming-how-can-wyoming-get-ahead-of-the-boom"
+    ],
+    "opposition_groups": [
+      "Wyoming Outdoor Council"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "nebraska-sarpy-county-tax-loss-ne-2026",
+    "jurisdiction": "Sarpy County",
+    "state": "NE",
+    "county": "Sarpy County",
+    "lat": 41.1128,
+    "lng": -96.1131,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Meta/Google",
+    "hyperscaler": "Meta/Google",
+    "summary": "Sarpy County Board of Commissioners formally opposed state data center tax incentive legislation (LB209), testifying that the county loses $5.8 million in personal property tax revenue annually from existing data center tax incentives. Research shows a net fiscal loss of $10.02 million per year during the incentive period. Meta is expanding its Sarpy campus to nine buildings across 4 million sq ft on 500+ acres in Springfield. A statewide tax incentive audit found $1.2 billion in lost revenue across incentive programs over four fiscal years.",
+    "sources": [
+      "https://update.legislature.ne.gov/?p=33630",
+      "https://www.multistate.us/insider/2026/2/4/states-rethink-data-center-tax-incentives-as-costs-soar"
+    ],
+    "opposition_groups": [
+      "Sarpy County Board of Commissioners"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "nebraska-lb1111-regulation-ne-2026",
+    "jurisdiction": "Nebraska (statewide)",
+    "state": "NE",
+    "county": null,
+    "lat": 40.8136,
+    "lng": -96.7026,
+    "action_type": "legislation",
+    "date": "2026-02-12",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Senator Machaela Cavanaugh introduced LB 1111 to comprehensively regulate data centers in Nebraska. The bill requires annual data center load reports to the Nebraska Power Review Board, mandates that data centers pay the full cost of new electricity infrastructure without passing costs to ratepayers, requires public disclosure of project names, developers, locations, and electricity demand. Also requires decommissioning plans and Community Benefits Agreements. Supported by Bold Nebraska's Jane Kleeb, who testified at the February 12, 2026 hearing.",
+    "sources": [
+      "https://boldnebraska.org/support-lb-1111-to-regulate-data-centers-in-nebraska/",
+      "https://boldnebraska.org/testimony-of-bolds-jane-kleeb-on-lb-1111-to-regulate-nebraska-data-centers/"
+    ],
+    "opposition_groups": [
+      "Bold Nebraska"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  },
+  {
+    "id": "alabama-huntsville-meta-noise-al-2026",
+    "jurisdiction": "Huntsville (Madison County)",
+    "state": "AL",
+    "county": "Madison County",
+    "lat": 34.7304,
+    "lng": -86.5861,
+    "action_type": "other",
+    "date": "2026-02-19",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Meta",
+    "hyperscaler": "Meta",
+    "summary": "Residents near Meta's existing data center on West Ridge Drive in Madison County report ongoing noise issues from generators and alarms, with one resident stating alarms sometimes run for 12 hours. Mayor Tommy Battle has publicly expressed wariness about opening a second data center in Huntsville, noting data centers require seven times more energy than typical facilities but only employ about 180 workers. Battle has not written off a new center but wants to ensure the tradeoff is worthwhile, signaling a shift from the state's previous pro-development stance.",
+    "sources": [
+      "https://www.apr.org/news/2026-02-19/two-alabama-cities-two-very-different-receptions-for-big-data-centers",
+      "https://abc3340.com/news/abc-3340-news-iteam/power-progress-alabamas-data-center-boom-abc-3340-town-hall-thursday-at-4-pm-continuing-coverage"
+    ],
+    "opposition_groups": [
+      "Madison County residents"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-15"
+  }
+]

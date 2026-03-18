@@ -1,0 +1,105 @@
+{
+  "_audit_date": "2026-03-10",
+  "_summary": "Audit of 8 entries with empty sources arrays. 7 were marked ssrn_moratorium_nation_unverified, 1 was ssrn_moratorium_nation. Web research results and recommended corrections below.",
+
+  "hitchcock-county-ne-2025-02-01": {
+    "verification_status": "VERIFIED - real moratorium, zoning amendment confirmed",
+    "notes": "Hitchcock County Planning & Zoning page lists 'Resolution 25-9: 2025 amendment to Zoning Regs - DATA CENTERS'. The moratorium was replaced by permanent data center zoning regulations. Commissioner Randy Dean from neighboring Red Willow County cited Hitchcock County's 'unpermitted data center' as motivation for their own moratorium. The county is working with West Central Nebraska Development District on comprehensive plan updates.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation",
+      "status": "expired",
+      "summary": "Hitchcock County passed a 1-year moratorium on data center and cryptocurrency mining development via resolution in February 2025. The moratorium was later replaced by permanent zoning regulations (Resolution 25-9, 2025 amendment to Zoning Regs - DATA CENTERS)."
+    },
+    "sources": [
+      "https://hitchcockcounty.ne.gov/webpages/planning_zoning/planning_zoning.html",
+      "https://hitchcockcounty.ne.gov/posting_files/pdfs/zoning/minutes/2025/20250723_173911_zoning_minutes.pdf",
+      "https://hitchcockcounty.ne.gov/posting_files/pdfs/zoning/minutes/2025/20250611_162248_zoning_minutes.pdf"
+    ]
+  },
+
+  "story-county-ia-2025-06-01": {
+    "verification_status": "UNVERIFIED - no independent evidence found",
+    "notes": "Extensive searching found no news articles, county meeting minutes, board of supervisors agendas, or any other record of Story County passing a data center moratorium. The Story County Board of Supervisors agendas and minutes are publicly accessible at storycountyiowa.gov but no data center moratorium appears. Resolution #25-85 found on their site relates to redistricting, not data centers. Other Iowa counties (Johnson, Linn, Mitchell, Clinton, Clarke) have confirmed moratoriums with news coverage, but Story County has none. The SSRN paper claim could not be verified.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation_unverified",
+      "summary": "Story County reportedly passed a moratorium on data center and cryptocurrency mining development via resolution in June 2025. Source: SSRN paper 'Moratorium Nation' (Bommarito 2026). Unable to independently verify via news sources or county records. Consider removing this entry if the SSRN paper cannot be consulted directly."
+    },
+    "sources": [],
+    "recommendation": "FLAG_FOR_REVIEW - Consider removing or adding a prominent unverified warning. No corroboration found anywhere online."
+  },
+
+  "red-willow-county-ne-2025-09-01": {
+    "verification_status": "VERIFIED - moratorium confirmed via local news",
+    "notes": "McCook Gazette articles confirm the moratorium. Commissioner Randy Dean described the data center moratorium as part of the county's proactive approach to comprehensive planning updates. Chairman Ted Gans described the moratorium as 'All it was was us saying time out.' The moratorium applies to data centers, solar farms, and other technological facilities. The county hired West Central Nebraska Development District to update its comprehensive plan.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation",
+      "summary": "Red Willow County passed a 1-year moratorium on data center, solar, and technological facility development via resolution in September 2025. Chairman Ted Gans described the moratorium as a 'time out' while the county updates its comprehensive plan and zoning regulations. Cited neighboring Hitchcock County's unpermitted data center as motivation."
+    },
+    "sources": [
+      "http://www.mccookgazette.com/story/3064778.html",
+      "https://www.mccookgazette.com/story/3064913.html",
+      "https://redwillowcountyne.gov/webpages/planning_zoning/planning_zoning.html"
+    ]
+  },
+
+  "town-of-ulysses-ny-2025-10-01": {
+    "verification_status": "UNVERIFIED - no independent evidence found",
+    "notes": "Extensive searching found no evidence that the Town of Ulysses passed a data center moratorium. All Tompkins County data center moratorium coverage focuses on the Town of Lansing (which itself withdrew its moratorium in November 2025). The Ulysses town website has no mention of a data center moratorium. The main data center controversy in Tompkins County centers on TeraWulf's proposed AI data center at the former Cayuga Power Plant in Lansing, not Ulysses. Ulysses is a neighboring town but no moratorium action was found.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation_unverified",
+      "summary": "The Town of Ulysses in Tompkins County reportedly passed a moratorium resolution on data center development in October 2025. Source: SSRN paper 'Moratorium Nation' (Bommarito 2026). Unable to independently verify via news sources, town website, or meeting records. Note: neighboring Town of Lansing considered but ultimately withdrew a data center moratorium in November 2025."
+    },
+    "sources": [],
+    "recommendation": "FLAG_FOR_REVIEW - No corroboration found. May be confused with Lansing's moratorium debate in same county. Consider removing."
+  },
+
+  "city-of-wooster-oh-2025-12-01": {
+    "verification_status": "UNVERIFIED - no independent evidence found",
+    "notes": "The City of Wooster's official legislation page (woosteroh.com/city-council/legislation) lists all 2025-2026 ordinances and resolutions, but none relate to data centers. Multiple searches across Ohio data center moratorium coverage (18+ municipalities mentioned) never list Wooster or Wayne County. No news coverage of a Wooster data center moratorium was found.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation_unverified",
+      "summary": "The City of Wooster in Wayne County reportedly passed a resolution enacting a moratorium on data center and related development. Source: SSRN paper 'Moratorium Nation' (Bommarito 2026). Unable to independently verify via the City of Wooster's official legislation page, news sources, or Ohio data center moratorium coverage."
+    },
+    "sources": [],
+    "recommendation": "FLAG_FOR_REVIEW - City's own legislation page does not show a data center moratorium. Consider removing."
+  },
+
+  "breckinridge-county-ky-2025-12-01": {
+    "verification_status": "VERIFIED - AI Data Center Moratorium Ordinance confirmed",
+    "notes": "Breckinridge County's official ordinances page lists 'Ordinance #2025-1117A: AI Data Center Moratorium'. The ordinance PDF is hosted on the county website. The county also separately passed a solar energy systems moratorium (Ordinance #2025-0121). The database summary incorrectly states 'Unable to independently verify' and notes only a solar moratorium - in fact, the data center moratorium is a distinct, confirmed ordinance. The ordinance number suggests it was adopted on November 17, 2025.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation",
+      "status": "active",
+      "date": "2025-11-17",
+      "summary": "Breckinridge County enacted an AI Data Center Moratorium via Ordinance #2025-1117A. The county also separately passed a solar energy systems moratorium (Ordinance #2025-0121) in January 2025."
+    },
+    "sources": [
+      "https://breckinridgeky.com/ordinances/",
+      "https://breckinridgeky.com/wp-content/uploads/2025/12/AI-Data-Center-Moratorium-Ordinance-2025-1117A.pdf"
+    ]
+  },
+
+  "bruce-township-mi-2026-01-01": {
+    "verification_status": "UNVERIFIED - no independent evidence found",
+    "notes": "Bruce Township in Macomb County is not listed on the WKAR Michigan Data Center Tracker (which lists 25+ confirmed moratoriums as of Feb 27, 2026). It is not mentioned in any of the major Michigan data center moratorium coverage (Bridge Michigan, Planet Detroit, Detroit News, Varnum Law, Great Lakes Echo). The Prologis '32 Mile Technical Campus' data center project is in neighboring Washington Township, not Bruce Township. A Bruce Township resident was quoted at the Washington Township hearing. The township website was inaccessible (403 error). No moratorium evidence found.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation_unverified",
+      "summary": "Bruce Township in Macomb County reportedly enacted a moratorium on data center development. Source: SSRN paper 'Moratorium Nation' (Bommarito 2026). Unable to independently verify via news sources or the WKAR Michigan Data Center Tracker. Note: neighboring Washington Township is the site of the Prologis '32 Mile Technical Campus' data center proposal."
+    },
+    "sources": [],
+    "recommendation": "FLAG_FOR_REVIEW - Not on WKAR tracker of 25+ confirmed MI moratoriums. May be confused with neighboring Washington Township's data center controversy."
+  },
+
+  "saugatuck-township-mi-2026-02-01": {
+    "verification_status": "PARTIALLY VERIFIED - on WKAR tracker as 'unconfirmed'",
+    "notes": "The WKAR Michigan Data Center Tracker (Feb 27, 2026) lists Saugatuck Township as 'Adoption unconfirmed following Feb. 11 agenda discussion'. This means the moratorium was discussed at a Feb 11, 2026 meeting but formal adoption has not been confirmed. The data_source is 'ssrn_moratorium_nation' (not unverified), suggesting higher confidence, but the WKAR tracker does not confirm passage. The moratorium should be marked as pending/unconfirmed rather than active.",
+    "corrections": {
+      "data_source": "ssrn_moratorium_nation",
+      "status": "pending",
+      "summary": "Saugatuck Township in Allegan County discussed a data center moratorium at its February 11, 2026 board meeting. Adoption status is unconfirmed per the WKAR Michigan Data Center Tracker (Feb 27, 2026). Part of a broader wave of local moratoria across Michigan, with at least 27 communities having active moratoria."
+    },
+    "sources": [
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
+    ]
+  }
+}

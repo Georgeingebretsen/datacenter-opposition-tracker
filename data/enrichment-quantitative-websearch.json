@@ -1,0 +1,212 @@
+[
+  {
+    "id": "joliet-il-opposition-2026-01",
+    "megawatts": 1800,
+    "investment_million_usd": 20000,
+    "acreage": 795,
+    "water_usage_gallons_per_day": 150000,
+    "building_sq_ft": null,
+    "jobs_promised": 700,
+    "company": "Microsoft",
+    "project_name": "Joliet Technology Center",
+    "source": "1,800 MW per city staff report (Shaw Local 3/5/2026). $20 billion investment from Hillwood/PowerHouse Data Centers (Patch, joliettechnologycenter.com). 795 acres (DCD, Shaw Local 10/3/2025). City staff recommends capping daily water at 150,000 gallons/day (Shaw Local 3/5/2026). 700 permanent jobs projected (Patch). Developer: HW Technology Park Development LLC (Hillwood + PowerHouse). Microsoft identified as tenant (Chicago Tribune 3/4/2026).",
+    "sources": [
+      "https://www.shawlocal.com/the-herald-news/2026/03/05/joliet-staff-recommends-yes-vote-on-data-center-heres-what-they-say/",
+      "https://patch.com/illinois/joliet/yes-new-jobs-joliet-joliet-technology-center-launches-website-20-billion-investment",
+      "https://www.datacenterdynamics.com/en/news/data-center-planned-on-795-acres-of-farmland-in-south-joliet-illinois/",
+      "https://www.chicagotribune.com/2026/03/04/joliet-data-center-water-electricity/"
+    ]
+  },
+  {
+    "id": "stokes-county-nc-2026-01-12",
+    "megawatts": 300,
+    "investment_million_usd": 10000,
+    "acreage": 1800,
+    "water_usage_gallons_per_day": 100000,
+    "jobs_promised": 500,
+    "project_name": "Project Delta",
+    "source": "Up to 300 MW power capacity (Business NC, DCD). $10 billion investment (WFMY News 2, Business NC). 1,800 acres total with 998 developable (DCD). 50,000-100,000 gallons/day closed-loop cooling (Clean Water for NC handout, FOX8). 500 jobs at avg $100K salary (Spectrum News). Developer: Engineered Land Solutions / Drew Nations.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/proposal-filed-for-1800-acre-data-center-campus-outside-greensboro-north-carolina/",
+      "https://businessnc.com/?p=115575",
+      "https://cwfnc.org/wp-content/uploads/2025/12/Stokes-Data-Center-Project-Delta-Handout.pdf",
+      "https://myfox8.com/news/north-carolina/piedmont-triad/stokes-county-commissioners-approve-zoning-for-data-center-amid-vocal-opposition/"
+    ]
+  },
+  {
+    "id": "stokes-county-lawsuit-nc-2026-03-12",
+    "megawatts": 300,
+    "investment_million_usd": 10000,
+    "acreage": 1800,
+    "project_name": "Project Delta",
+    "source": "Same project as stokes-county-nc-2026-01-12. Lawsuit filed by Southern Coalition for Social Justice on March 12, 2026 to stop Project Delta. 300 MW, $10B, 1,800 acres (Business NC, DCD, WFMY).",
+    "sources": [
+      "https://www.africanelements.org/news/why-walnut-cove-is-suing-to-stop-project-delta-ai-centers/",
+      "https://www.wfmynews2.com/article/news/local/stokes-county-commissioners-approve-data-center-despite-public-opposition-walnut-cove-project-delta/83-ba56506c-6a1a-4806-9627-391061df6ce5"
+    ]
+  },
+  {
+    "id": "falls-township-pa-amazon-2026-02",
+    "megawatts": null,
+    "investment_million_usd": 20000,
+    "acreage": 247,
+    "building_sq_ft": 2000000,
+    "jobs_promised": 1250,
+    "company": "Amazon",
+    "hyperscaler": "AWS",
+    "source": "Part of Amazon's $20 billion PA investment (Construction Dive, The Hill, 6ABC). 247-acre parcel at Keystone Trade Center, former U.S. Steel site (Inquirer, PhillyVoice). 10 structures totaling 2M sq ft (Falls Township). 1,250 high-skilled jobs statewide across both PA campuses (6ABC). MW not publicly disclosed due to NDA (Inquirer). Note: $20B is total PA investment across Falls Township + Salem Township/Luzerne County campuses.",
+    "sources": [
+      "https://www.constructiondive.com/news/amazon-pennsylvania-data-centers-invest/750284/",
+      "https://www.inquirer.com/business/amazon-data-centers-pennsylvania-20250609.html",
+      "https://www.fallstwp.com/resources/news/article/?id=10070",
+      "https://buckscountybeacon.com/2025/08/not-everyone-is-sold-on-the-benefits-of-amazons-data-center-coming-to-falls-township/"
+    ]
+  },
+  {
+    "id": "madison-county-ms-amazon-2026-01",
+    "megawatts": 650,
+    "investment_million_usd": 10000,
+    "acreage": 1700,
+    "jobs_promised": 1000,
+    "company": "Amazon",
+    "hyperscaler": "AWS",
+    "source": "AWS $10 billion investment for two data center complexes spanning 1,700 acres in Madison County (About Amazon, Baxtel, Site Selection). 650 MW of new renewable energy via Entergy deal (About Amazon). Backup diesel generators capable of 2,000 MW combined (Arkansas Democrat-Gazette). 1,000 direct high-tech jobs at avg $80K (Madison County EDA).",
+    "sources": [
+      "https://www.aboutamazon.com/news/company-news/amazon-3-billion-mississippi-data-center-investment",
+      "https://baxtel.com/data-center/aws-madison-county-mega-site-campus",
+      "https://madisoncountyeda.com/aws-investment-launches-new-era-of-innovation-and-growth-in-madison-county/",
+      "https://siteselection.com/amazon-delivers-record-package-to-mississippi/"
+    ]
+  },
+  {
+    "id": "bessemer-al-2025-08-01",
+    "megawatts": 1200,
+    "investment_million_usd": 14000,
+    "acreage": 1600,
+    "water_usage_gallons_per_day": 2000000,
+    "building_sq_ft": 4500000,
+    "project_name": "Project Marvel",
+    "source": "1,200 MW capacity in 18 buildings (WBRC, DCD, Alabama Reflector). $14 billion investment (Alabama Reflector, Inside Climate News). Originally 700 acres, expanded to 1,600 acres after 900-acre expansion approved by Planning Commission Feb 2026 (WBRC 2/9/2026, DCD). 2 million gallons/day from Warrior River Water Authority (Alabama Reflector). 4.5M sq ft (BhamWiki). Developer: Logistic Land Investment LLC / TPA Group.",
+    "sources": [
+      "https://www.wbrc.com/2026/02/09/proposed-data-center-campus-bessemer-expands-1600-acres-updated-plan/",
+      "https://www.datacenterdynamics.com/en/news/900-acre-expansion-to-alabamas-project-marvel-receives-recommendation-from-planning-commission/",
+      "https://alabamareflector.com/2025/11/19/bessemer-officials-approve-data-center-construction-despite-environmental-concerns/",
+      "https://insideclimatenews.org/news/11052025/bessemer-alabama-proposed-data-center/"
+    ]
+  },
+  {
+    "id": "bessemer-al-expansion-2026-02",
+    "megawatts": 1200,
+    "investment_million_usd": 14000,
+    "acreage": 1600,
+    "water_usage_gallons_per_day": 2000000,
+    "building_sq_ft": 4500000,
+    "project_name": "Project Marvel",
+    "source": "Same project as bessemer-al-2025-08-01. Expansion added 900 acres to bring total to 1,600 acres (WBRC 2/9/2026). Overall project specs: 1,200 MW, $14B, 18 buildings, 4.5M sq ft (DCD, Alabama Reflector).",
+    "sources": [
+      "https://www.wbrc.com/2026/02/09/proposed-data-center-campus-bessemer-expands-1600-acres-updated-plan/",
+      "https://www.datacenterdynamics.com/en/news/900-acre-expansion-to-alabamas-project-marvel-receives-recommendation-from-planning-commission/"
+    ]
+  },
+  {
+    "id": "bessemer-lawsuit-al-2025",
+    "megawatts": 1200,
+    "investment_million_usd": 14000,
+    "acreage": 1600,
+    "project_name": "Project Marvel",
+    "source": "Same project as bessemer-al-2025-08-01. Project Marvel: 1,200 MW, $14B, 1,600 acres after expansion (WBRC, DCD, Alabama Reflector).",
+    "sources": [
+      "https://alabamareflector.com/2025/11/19/bessemer-officials-approve-data-center-construction-despite-environmental-concerns/",
+      "https://www.bhamwiki.com/w/Bessemer_Hyperscale_Data_Center"
+    ]
+  },
+  {
+    "id": "iron-county-ut-opposition-2026-02",
+    "megawatts": 1500,
+    "acreage": 640,
+    "project_name": "Antelope Data Center",
+    "company": "Pronghorn Development",
+    "source": "1.5 GW (1,500 MW) power capacity planned with on-site natural gas generation (Fox 13, St. George News, KSL). 640 acres northwest of Cedar City (KSL, Fox 13). Developer: Pronghorn Development LLP. Investment amount not publicly confirmed; one activist source cites $50B but this is unverified. Initial water fill of 2.6M gallons, then ~3.13 acre-feet/year for building use (Fox 13).",
+    "sources": [
+      "https://www.fox13now.com/news/local-news/iron-county/is-iron-county-ready-for-massive-ai-data-center-residents-dont-think-so",
+      "https://www.stgeorgeutah.com/news/hundreds-pack-iron-county-hearing-as-residents-voice-concerns-over-proposed-ai-data-center/article_21d47585-32c8-4f77-9a2d-adc3f5e388d5.html",
+      "https://www.ksl.com/article/51355852/worlds-largest-data-center-campus-could-be-coming-to-central-utah"
+    ]
+  },
+  {
+    "id": "pinal-county-az-moratorium-2026-01",
+    "megawatts": 3000,
+    "investment_million_usd": 33000,
+    "acreage": 3300,
+    "company": "Vermaland LLC",
+    "project_name": "La Osa Project",
+    "source": "3 GW (3,000 MW) power capacity (DCD, AZ Big Media, Real Estate Daily News). $33 billion investment (AZ Big Media, Orion Investment). 3,300 acres south of Eloy between Phoenix and Tucson (KJZZ, AZBEX). Developer: Vermaland LLC. Hybrid energy: solar, natural gas, battery storage, grid. Construction anticipated in 2-3 years, full build-out over a decade.",
+    "sources": [
+      "https://azbigmedia.com/business/33-billion-data-center-industrial-park-coming-to-pinal-county/",
+      "https://www.datacenterdynamics.com/en/news/land-developer-vermaland-plans-33bn-data-center-in-arizona/",
+      "https://realestatedaily-news.com/3300-acre-mega-scale-data-center-corridor-proposed-for-pinal-county/",
+      "https://www.kjzz.org/business/2025-08-04/arizona-developer-wants-to-build-3-000-acre-data-center-corridor-between-tucson-and-phoenix"
+    ]
+  },
+  {
+    "id": "hill-county-tx-opposition-2026-02",
+    "megawatts": 612,
+    "acreage": 2000,
+    "investment_million_usd": null,
+    "company": "Nexus Data Centers",
+    "project_name": "Nexus Hubbard Campus",
+    "source": "612 MW natural gas-powered campus (DCD 12/2025). ~2,000 acres between Hwy 171 and County Road 3369 outside Hubbard (Hillsboro Reporter). $50 million Community Partnership Program committed to Hubbard and Hill County (EIN Presswire). On-site natural gas turbines, behind-the-meter. Construction commenced late 2025, first phase operational 2H 2026. Also: NextEra 400 MW battery storage facility nearby on Hillsboro's 300-acre industrial site (Hillsboro Herald).",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/600mw-natural-gas-powered-data-center-campus-proposed-in-hubbard-texas/",
+      "https://hillsbororeporter.com/nexus-lays-out-hubbard-data-center-plan-p31318-54.htm",
+      "https://www.einpresswire.com/article/893047837/nexus-data-centers-announces-50-million-community-partnership-program-in-hubbard-and-hill-county",
+      "https://hillsboroherald.com/breaking-news-the-400-megawatt-handshake-is-nextera-building-the-gas-station-for-hillsboros-secret-300-acre-user/"
+    ]
+  },
+  {
+    "id": "bryan-tx-zoning-2026-02",
+    "acreage": 160,
+    "source": "160 acres annexed near RELLIS campus in Bryan's Innovation Corridor (KBTX 9/17/2025, KXXV). Zoned PD-M / IC-RS allowing data center use. No specific project filed. Would be powered by BTU (Bryan Texas Utilities). MW and investment not disclosed as no formal proposal exists.",
+    "sources": [
+      "https://www.kbtx.com/2025/09/17/bryan-annexes-land-near-rellis-campus-with-potential-retail-data-center-use/",
+      "https://www.kbtx.com/2025/10/17/follow-up-what-we-know-about-potential-data-center-near-rellis/"
+    ]
+  },
+  {
+    "id": "clarksdale-ms-opposition-2026-01",
+    "acreage": 648,
+    "source": "648 acres between Sunflower River, U.S. 278, Tallahatchie St, and Roundyard neighborhood considered for rezoning (Mississippi Today 3/10/2026). $5 million impact fee stipulated. Company name not publicly disclosed; described as a 'global firm' by Crossroads Economic Partnership. Board tabled decision without vote. MW, investment, and company unknown.",
+    "sources": [
+      "https://mississippitoday.org/2026/03/10/clarksdale-data-center-proposal/",
+      "https://desotocountynews.com/mississippi-news/clarksdale-considers-rezoning-for-potential-data-center-project/"
+    ]
+  },
+  {
+    "id": "lake-county-in-zoning-2026-02",
+    "investment_million_usd": 5000,
+    "acreage": 160,
+    "jobs_promised": 250,
+    "company": "Sentinel Data Centers",
+    "source": "$5 billion investment for hyper-scaler data center on 160-acre farm field near Lowell, south of State Rd 2, east of Clay St (NW Times, Chicago Tribune 12/19/2025). 250 permanent on-site jobs, 2,500 construction jobs (Lakeshore Public Media). Developer: Sentinel Data Centers (NY-based). Due diligence through 2026. MW not publicly disclosed.",
+    "sources": [
+      "https://nwitimes.com/news/local/lake/article_f110fc47-1e97-4787-bde8-7f3a116f18bd.html",
+      "https://www.chicagotribune.com/2025/12/19/lake-county-plan-commission-mulls-data-center-proposal-near-lowell/",
+      "https://www.lakeshorepublicmedia.org/local-news/2025-12-23/another-potential-data-center-entering-lake-county"
+    ]
+  },
+  {
+    "id": "grant-county-in-moratorium-2026-02",
+    "source": "24-month moratorium passed by county commissioners to study zoning, land use, infrastructure before allowing data centers (Chronicle-Tribune, IBJ). No specific project details (MW, investment, acreage) available as the moratorium was preemptive. County developing data center ordinance with transparency and infrastructure offset requirements (Citizen Portal).",
+    "sources": [
+      "https://www.chronicle-tribune.com/news/commissioners-pass-data-center-moratorium/article_a55a569b-62b5-578c-912e-f183d461f1b9.html",
+      "https://www.ibj.com/articles/3-counties-put-moratoriums-on-data-center-projects"
+    ]
+  },
+  {
+    "id": "thomas-county-ga-moratorium-2026-01",
+    "source": "12-month moratorium unanimously approved by Thomas County Board of Commissioners in Jan 2026 (WALB). Preemptive action; no specific data center project proposed. No MW, investment, or acreage data available. Part of wave of GA county moratoriums (Cobb, DeKalb, Thomas counties, plus cities like Fayetteville, LaGrange, Roswell).",
+    "sources": [
+      "https://www.walb.com/2026/01/20/thomas-county-board-commissioners-temporarily-halt-ai-data-centers-coming-area/"
+    ]
+  }
+]

@@ -1,0 +1,567 @@
+{
+  "research_date": "2026-03-17",
+  "notes": "Round 10 research focused on Indiana, Kentucky, Tennessee, and Alabama. Cross-referenced against fights.json (IN: 21, KY: 8, TN: 3, AL: 3 existing entries) and all previous new-fights-march2026 round files. Found 18 genuinely new entries not yet tracked plus 14 status updates for existing entries.",
+  "new_entries": [
+    {
+      "jurisdiction": "Grant County",
+      "state": "IN",
+      "lat": 40.5153,
+      "lng": -85.6536,
+      "action_type": "moratorium",
+      "status": "active",
+      "date": "2026-03-02",
+      "summary": "Grant County Board of Commissioners passed a 24-month moratorium on data center construction, pending attorney review, at the request of District 3 Commissioner Ron Stewart. The Area Plan Commission began work on December 1 on an outline for a potential data center ordinance, focusing on transparency, resource impacts, and local benefits. Commissioners raised questions about annual energy/water use reporting, client-category disclosure, and infrastructure offsets. The moratorium is described as a pause to study zoning rules, land use concerns, infrastructure questions, and public input.",
+      "sources": [
+        "https://www.chronicle-tribune.com/news/commissioners-pass-data-center-moratorium/article_a55a569b-62b5-578c-912e-f183d461f1b9.html",
+        "https://citizenportal.ai/articles/7249170/Grant-County/Indiana/Grant-County-planners-begin-outline-for-datacenter-ordinance-emphasize-transparency-and-resource-impacts",
+        "https://www.ibj.com/articles/3-counties-put-moratoriums-on-data-center-projects"
+      ],
+      "concerns": ["water", "electricity_rates", "community_character", "process_fairness", "jobs_quality"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Decatur Township (Indianapolis, Sabey variance)",
+      "state": "IN",
+      "lat": 39.7004,
+      "lng": -86.2519,
+      "action_type": "protest",
+      "status": "pending",
+      "date": "2026-02-25",
+      "summary": "Sabey Data Centers of Seattle is seeking variances of use (not a full rezoning) to build a 1 million-square-foot, 250-megawatt data center on 130 acres near Kentucky Avenue and Camby Road. Dozens of residents protested at the City-County Building on Feb. 25, but the MDC hearing examiner recommended approval that same afternoon. Because it is a variance rather than rezoning, the final vote rests with the Metropolitan Development Commission (not City-County Council). MDC vote set for March 18, 2026. Southside councilor believes approval is likely.",
+      "sources": [
+        "https://www.wfyi.org/news/articles/decatur-township-sabey-data-center-mdc-hearing-examiner",
+        "https://mirrorindy.org/decatur-township-civic-council-camby-sabey-data-center-proposal-industrial-zoning/",
+        "https://www.wfyi.org/news/articles/decatur-township-data-center-sabey-variance",
+        "https://www.wishtv.com/news/local-news/decatur-township-data-center/",
+        "https://www.wthr.com/article/news/local/proposed-decatur-township-data-center-sparks-opposition-bypasses-city-county-council-vote/531-316120a8-0588-4dd2-96de-9bfa0baa5dcd"
+      ],
+      "concerns": ["noise", "air_quality", "environment", "health", "process_fairness"],
+      "opposition_groups": ["Decatur Township residents"],
+      "company": "Sabey Data Centers",
+      "megawatts": 250,
+      "acreage": 130,
+      "building_sq_ft": 1000000,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Martindale-Brightwood (Indianapolis, NAACP reversal)",
+      "state": "IN",
+      "lat": 39.7942,
+      "lng": -86.1277,
+      "action_type": "protest",
+      "status": "pending",
+      "date": "2026-03-09",
+      "summary": "The Indianapolis NAACP reversed its position on the Metrobloks data center, withdrawing support on March 9 after community backlash. At the March 4 MDC hearing, City-County Councilor Ron Gibson requested a one-month continuance, stating 'We'll work very hard in the next 30 days to try and inform the community more about the benefits of this project.' The MDC granted the delay; the next vote is expected in April 2026. Mayor Hogsett's economic development organization, Develop Indy, publicly supports the $500M project. Residents have called on the mayor to stop the development. Martindale-Brightwood is one of Indianapolis' oldest historic Black neighborhoods.",
+      "sources": [
+        "https://mirrorindy.org/martindale-brightwood-metrobloks-indianapolis-naacp-metrobloks-data-center/",
+        "https://www.wishtv.com/news/local-news/naacp-changes-stance-martindale-brightwood/",
+        "https://www.ibj.com/articles/vote-on-martindale-brightwood-data-center-delayed-until-april",
+        "https://mirrorindy.org/mayor-joe-hogsett-indianapolis-economic-development-data-centers-martindale-brightwood-metrobloks/",
+        "https://www.ipm.org/news/2026-02-11/martindale-brightwood-residents-call-on-mayor-hogsett-to-stop-data-center-development"
+      ],
+      "concerns": ["environment", "health", "community_character", "process_fairness", "air_quality"],
+      "opposition_groups": ["Martindale-Brightwood residents", "Greater Indianapolis NAACP Branch 3053"],
+      "company": "Metrobloks",
+      "megawatts": null,
+      "acreage": null,
+      "building_sq_ft": 150000,
+      "investment_million_usd": 500
+    },
+    {
+      "jurisdiction": "Indiana (HB 1333 tax sharing bill)",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "action_type": "legislative_action",
+      "status": "pending",
+      "date": "2026-02-04",
+      "summary": "HB 1333 passed the Indiana House and moved to the Senate. The bill requires data centers to share 1% of their sales tax exemption savings with local governments. However, the bill also allows developments to proceed without a public hearing if built on farmland considered less fertile, drawing criticism from community advocates. Citizens Action Coalition called on the General Assembly to enact a moratorium on new 'hyperscaler' data centers and commence a task force study. Despite the pivotal moment for data centers, Indiana lawmakers took little additional regulatory action in the 2026 session.",
+      "sources": [
+        "https://www.ipm.org/news/2026-02-04/house-bill-could-provide-benefit-to-communities-that-host-data-centers",
+        "https://www.wfyi.org/news/articles/data-center-legislation-indiana-general-assembly-2026",
+        "https://www.wthr.com/article/news/local/statehouse-data-center-bill-offers-money-to-cities-less-say-on-development-house-1333-input/531-29f42519-7ab2-4428-b06a-9420d25e8f70",
+        "https://www.citact.org/news/cac-calls-data-center-moratorium"
+      ],
+      "concerns": ["tax_fairness", "process_fairness", "electricity_rates", "agricultural_land"],
+      "opposition_groups": ["Citizens Action Coalition"],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Meta Lebanon LEAP District (Boone County water controversy)",
+      "state": "IN",
+      "lat": 40.0483,
+      "lng": -86.4694,
+      "action_type": "protest",
+      "status": "ongoing",
+      "date": "2026-02-11",
+      "summary": "Meta officially announced its 1GW, $10B+ data center campus in Lebanon's LEAP district on 1,500 acres with 13 buildings and 300 operational jobs. The project triggered major water controversy: Citizens Energy proposed drawing up to 8 million gallons/day from Eagle Creek Reservoir to supply the technology park. Hoosier Environmental Council and council members raised concerns about long-term water security, affordability, environmental impacts, and use of eminent domain for new pipelines. Kerwin Olson (Citizens Action Coalition) testified that demand from large-scale data facilities is already driving up energy costs.",
+      "sources": [
+        "https://about.fb.com/news/2026/02/metas-new-data-center-lebanon-indiana-marks-milestone-ai-investment/",
+        "https://indianacapitalchronicle.com/2026/02/11/details-on-long-expected-meta-data-center-campus-unveiled/",
+        "https://mirrorindy.org/indianapolis-city-county-council-sustainability-committee-data-centers/",
+        "https://www.wthr.com/article/news/local/city-leaders-begin-debate-over-regulating-data-centers-amid-indiana-boom-county-council-committee/531-e955a877-f3a2-49ba-a256-484e15da08aa"
+      ],
+      "concerns": ["water", "electricity_rates", "agricultural_land", "environment", "process_fairness"],
+      "opposition_groups": ["Hoosier Environmental Council", "Citizens Action Coalition"],
+      "company": "Meta",
+      "hyperscaler": "Meta",
+      "megawatts": 1000,
+      "acreage": 1500,
+      "investment_million_usd": 10000,
+      "jobs_promised": 300
+    },
+    {
+      "jurisdiction": "Meade County (moratorium)",
+      "state": "KY",
+      "lat": 37.9987,
+      "lng": -86.2219,
+      "action_type": "moratorium",
+      "status": "active",
+      "date": "2026-01-13",
+      "summary": "Following the unanimous rezoning denial in October 2025, Meade County Fiscal Court adopted Ordinance No. 2025-07 establishing a temporary moratorium on data center applications. The ordinance was given first reading December 9, 2025 and formally adopted January 13, 2026. The moratorium pauses acceptance, review, processing, or approval of applications related to establishment, expansion, or construction of data centers and IT Infrastructure Facilities. The county determined that its Zoning Ordinance and Comprehensive Plan do not specifically address data center development and additional study is needed to ensure future uses are appropriately located and regulated.",
+      "sources": [
+        "https://www.meadeky.gov/m/newsflash/Home/Detail/145",
+        "https://www.datacenterdynamics.com/en/news/officials-in-meade-county-kentucky-reject-data-center-rezoning-plan/",
+        "https://www.wdrb.com/news/meade-county-commission-votes-unanimously-not-to-rezone-138-acre-site-for-proposed-data-center/article_05d308e7-72bb-461c-8b4a-7194a55ab4d3.html"
+      ],
+      "concerns": ["water", "electricity_rates", "environment", "agricultural_land", "process_fairness"],
+      "opposition_groups": ["Meade County residents"],
+      "company": null,
+      "megawatts": null,
+      "acreage": 138,
+      "investment_million_usd": null,
+      "petition_signatures": 2800
+    },
+    {
+      "jurisdiction": "Louisville (West Louisville hyperscale approval)",
+      "state": "KY",
+      "lat": 38.1937,
+      "lng": -85.8214,
+      "action_type": "protest",
+      "status": "approved_despite_opposition",
+      "date": "2026-03-05",
+      "summary": "Louisville Planning Commission voted 8-1 to approve revised development plans for Kentucky's first hyperscale data center near Shively at 6001 Camp Ground Road, despite more than 20 speakers opposing the project. Developers Poe Companies and PowerHouse Data Centers plan a campus of seven 219,534 sq ft data center buildings plus office, utility, and security buildings across 153 acres. 130MW capacity expected online October 2026. The project does not require Metro Council approval since existing zoning allows data centers on heavy industrial land. West Louisville residents and metro councilmembers said the development comes at their expense.",
+      "sources": [
+        "https://www.lpm.org/news/2026-03-05/west-louisville-data-center-approved-despite-opposition",
+        "https://www.wdrb.com/news/large-scale-louisville-data-center-project-advances-despite-community-protest/article_843c2208-7581-4d72-872c-b0e74418165e.html",
+        "https://www.datacenterdynamics.com/en/news/planning-commission-recommends-approval-for-16m-sq-ft-planned-data-center-in-louisville-kentucky/",
+        "https://www.wave3.com/2026/03/14/west-louisville-residents-speak-out-after-planning-commission-allows-data-center-move-forward/"
+      ],
+      "concerns": ["water", "electricity_rates", "air_quality", "environment", "community_character"],
+      "opposition_groups": ["West Louisville residents"],
+      "company": "Poe Companies / PowerHouse Data Centers",
+      "megawatts": 130,
+      "acreage": 153,
+      "building_sq_ft": 1536738,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Kentucky (HB 593 ratepayer protection)",
+      "state": "KY",
+      "lat": 38.1867,
+      "lng": -84.8753,
+      "action_type": "legislative_action",
+      "status": "pending",
+      "date": "2026-02-12",
+      "summary": "HB 593, filed by GOP Rep. Josh Bray, passed the House Economic Development and Workforce Investment Committee unanimously and was sent to the House floor. The bill requires large data centers to sign contracts with utilities agreeing to cover any transmission or infrastructure costs, ensuring costs are not passed to other ratepayers. Prospective data centers must pay a non-refundable $75,000 application fee. Companies can self-generate electricity, enter PPAs, or buy on the open market. Both the Kentucky Resources Council and Sierra Club's Kentucky chapter called HB 593 a positive 'first step.' A separate Democratic bill, the Kentucky Ratepayer Protection Act (Rep. Adam Moore, D-45), takes a similar approach.",
+      "sources": [
+        "https://www.lpm.org/news/2026-02-12/gop-bill-seeks-guardrails-for-new-data-centers-to-pay-their-own-way-in-kentucky",
+        "https://www.wkms.org/2026-02-12/gop-bill-seeks-guardrails-for-new-data-centers-to-pay-their-own-way-in-kentucky",
+        "https://jessaminejournal.com/2026/03/01/house-bill-593-takes-aim-at-data-center-utility-needs/",
+        "https://www.lex18.com/news/covering-kentucky/kentucky-lawmaker-proposes-bill-to-protect-residents-from-data-center-electricity-costs"
+      ],
+      "concerns": ["electricity_rates", "tax_fairness", "process_fairness"],
+      "opposition_groups": ["Kentucky Resources Council", "Sierra Club Kentucky"],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Johnson City",
+      "state": "TN",
+      "lat": 36.3134,
+      "lng": -82.3535,
+      "action_type": "moratorium",
+      "status": "active",
+      "date": "2025-12-04",
+      "summary": "Johnson City Commission passed a one-year moratorium on new data centers (including bitcoin mines) in the I-2 heavy industrial zoning district, effective through June 4, 2026. A text amendment was also passed limiting data centers to I-2 zones. The moratorium was prompted by concerns about a potential Bitcoin mining facility. A noise and vibration study is underway to understand how heavy manufacturing impacts surrounding environments. The city aims to present proposed permanent regulations to the Commission by late spring for final approval before the moratorium expires June 4.",
+      "sources": [
+        "https://www.wjhl.com/news/local/johnson-city-commission-approves-moratorium-on-data-centers/",
+        "https://www.johnsoncitypress.com/news/local-news/johnson-city-commission-passes-moratorium-targeting-data-centers/article_9b3b0b2c-e693-4965-ad15-1a38449f492f.html",
+        "https://www.wjhl.com/news/local/johnson-city-noise-study-would-help-form-data-center-regs/"
+      ],
+      "concerns": ["noise", "electricity_rates", "health", "environment", "community_character"],
+      "opposition_groups": ["Johnson City residents"],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "BrightRidge (regional utility moratorium)",
+      "state": "TN",
+      "lat": 36.3134,
+      "lng": -82.3535,
+      "action_type": "moratorium",
+      "status": "active",
+      "date": "2025-05-01",
+      "summary": "BrightRidge, the regional electric utility serving the Johnson City area, imposed a moratorium on data center project proposals across its entire service territory, including a proposed south Johnson City facility. The utility concluded that for data center projects, 'the costs currently outweigh the benefits for the communities BrightRidge serves.' The moratorium came after years of noise complaints from residents near a cryptocurrency mine in Limestone (operating under a settlement agreement with Washington County), which remains on track for closure in March 2026. BrightRidge spokesperson confirmed the utility 'maintains its moratorium as local governments in the region determine how data centers should be addressed in local zoning codes.'",
+      "sources": [
+        "https://wcyb.com/news/local/brightridge-puts-moratorium-on-data-center-project-proposals-in-region",
+        "https://www.wjhl.com/news/local/brightridge-pauses-any-new-data-center-projects/",
+        "https://www.johnsoncitypress.com/news/business/brightridge-places-proposed-data-center-project-on-hold/article_b9eb5814-4380-414a-8027-2703dd74ef51.html"
+      ],
+      "concerns": ["noise", "electricity_rates", "community_character"],
+      "opposition_groups": ["BrightRidge utility", "Washington County residents"],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Moore County",
+      "state": "TN",
+      "lat": 35.2859,
+      "lng": -86.3622,
+      "action_type": "moratorium",
+      "status": "pending",
+      "date": "2026-03-15",
+      "summary": "Moore County Metro Council is considering a two-year moratorium on data centers, cryptocurrency mining facilities, and similar high-impact computing operations. If approved, the moratorium takes effect April 20, 2026 through April 19, 2028 (extendable). During the moratorium, the county would stop accepting new applications for special use permits, conditional use permits, zoning map amendments, subdivision plats, and building permits related to these facilities. Interior renovations that do not expand capacity or change exterior appearance are exempt. The ordinance cites 'unprecedented increase' in this kind of development and says current regulations do not adequately address the demands.",
+      "sources": [
+        "https://mcobserver.news/news/metro-council-to-consider-data-center-moratorium/",
+        "https://thelynchburgtimes.com/what-happens-next-with-moore-countys-proposed-ai-moratorium/"
+      ],
+      "concerns": ["water", "electricity_rates", "noise", "environment", "community_character"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "DeKalb County (Smithville area)",
+      "state": "TN",
+      "lat": 35.9562,
+      "lng": -85.8122,
+      "action_type": "zoning_restriction",
+      "status": "pending",
+      "date": "2026-02-19",
+      "summary": "DeKalb County Commission is debating a proposed resolution to regulate nuclear-powered facilities, AI data centers, and other data centers in unincorporated areas of the county, operating under the County Powers Act adopted in October 2024. The proposed resolution is considered too restrictive by some commissioners, as it would prohibit data centers within 5,000 feet of any residence, school, daycare, park, church, retail, commercial, or industrial establishment. Commissioner Tom Chandler stated 'none could ever be approved.' An existing crypto mine (McMinnville Energy LLC) operates on South College Street outside Smithville city limits. The county had previously adopted crypto mine regulations but not data center-specific rules.",
+      "sources": [
+        "https://www.wjle.com/county-commission-to-renew-discussion-about-proposed-data-center-regulations-view-video-here/",
+        "https://www.wjle.com/county-commission-to-hear-from-public-on-proposed-data-center-regulations-under-county-powers-act/",
+        "https://www.wjle.com/could-dekalb-county-be-getting-a-nuclear-powered-data-center/"
+      ],
+      "concerns": ["noise", "water", "electricity_rates", "community_character", "health"],
+      "opposition_groups": ["DeKalb County residents"],
+      "company": "McMinnville Energy LLC (existing crypto mine)",
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Tennessee (TVA energy affordability concerns)",
+      "state": "TN",
+      "lat": 36.1627,
+      "lng": -86.7816,
+      "action_type": "protest",
+      "status": "ongoing",
+      "date": "2026-03-01",
+      "summary": "Sierra Club and environmental groups called on the Tennessee Valley Authority to do more than pledges to address affordability as AI data center demand drives unprecedented electricity growth across the seven-state TVA region. TVA reversed plans to close the Cumberland City coal plant, keeping it open specifically to meet data center demand. Sen. London Lamar introduced legislation for more transparency around data centers. The TVA board cited 'explosive growth in data center demand' as the primary factor in its decision. Concerns center on residents subsidizing infrastructure for tech companies through higher electricity rates.",
+      "sources": [
+        "https://www.sierraclub.org/press-releases/2026/03/tennessee-valley-region-needs-more-data-center-pledge-address-affordability",
+        "https://www.newschannel5.com/news/state/tennessee/stewart-county/tva-reverses-coal-plant-closure-plan-as-ai-data-centers-drive-electricity-demand-tennessee-leaders-weigh-in"
+      ],
+      "concerns": ["electricity_rates", "environment", "air_quality", "tax_fairness"],
+      "opposition_groups": ["Sierra Club"],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Alabama (SB 270 data center utility regulation)",
+      "state": "AL",
+      "lat": 32.3792,
+      "lng": -86.3077,
+      "action_type": "legislative_action",
+      "status": "pending",
+      "date": "2026-03-13",
+      "summary": "SB 270, sponsored by Senator Lance Bell, passed the Alabama Senate 30-0 and advanced to the House. The bill establishes considerations for the Public Service Commission when approving electric utility contracts with large data centers, ensuring data centers pay for additional electricity infrastructure their operations require rather than shifting costs to residential ratepayers. As of March 17, the governor has not yet signed the bill, which must still pass the House. Separately, the legislature is considering bills to reform Public Service Commission oversight and utility governance.",
+      "sources": [
+        "https://www.alreporter.com/2026/03/13/alabama-senate-passes-bill-to-rein-in-data-center-tax-incentives/",
+        "https://www.wbrc.com/2026/02/05/alabama-senate-bills-target-data-center-incentives-utility-regulation/",
+        "https://alabamareflector.com/2026/03/13/what-passed-in-the-alabama-legislature-march-10-12-2026/"
+      ],
+      "concerns": ["electricity_rates", "tax_fairness"],
+      "opposition_groups": [],
+      "company": null,
+      "megawatts": null,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Bessemer (Project Marvel expansion to 1,600 acres)",
+      "state": "AL",
+      "lat": 33.4018,
+      "lng": -86.9544,
+      "action_type": "protest",
+      "status": "ongoing",
+      "date": "2026-02-18",
+      "summary": "The Bessemer Planning and Zoning Commission voted 6-1 to recommend rezoning an additional 914 acres from agricultural to light industrial, more than doubling the Project Marvel data center campus to 1,600 total acres. Developer Logistic Land Investment LLC says the expansion adds green space and 250-300 ft setbacks from property lines. A separate lawsuit challenging the original 700-acre rezoning (approved Nov 2025) remains active, with a final hearing set for March 19, 2026 at the Bessemer Justice Center. The facility would have annual energy consumption 90 times greater than all Bessemer residences. Southern Environmental Law Center is monitoring the case.",
+      "sources": [
+        "https://www.wbrc.com/2026/02/09/proposed-data-center-campus-bessemer-expands-1600-acres-updated-plan/",
+        "https://www.wbrc.com/2026/02/18/planning-zoning-commission-recommends-more-land-bessemer-data-center/",
+        "https://abc3340.com/news/abc-3340-news-iteam/bessemer-rezoning-fight-continues-over-proposed-data-center-court-hearing-complaint-motion-to-dismiss-response-legal-ruling-complaint-amendment-dispute-follow-up",
+        "https://insideclimatenews.org/news/14012026/bessemer-alabama-data-center-to-ask-for-additional-900-acres/"
+      ],
+      "concerns": ["water", "electricity_rates", "environment", "agricultural_land", "health", "process_fairness"],
+      "opposition_groups": ["Bessemer residents", "Southern Environmental Law Center"],
+      "company": "Logistic Land Investment LLC",
+      "project_name": "Project Marvel",
+      "megawatts": null,
+      "acreage": 1600,
+      "investment_million_usd": 14500
+    },
+    {
+      "jurisdiction": "Bessemer (rezoning lawsuit hearing March 19)",
+      "state": "AL",
+      "lat": 33.4018,
+      "lng": -86.9544,
+      "action_type": "lawsuit",
+      "status": "active",
+      "date": "2025-04-01",
+      "summary": "Jefferson County Senior Circuit Judge David J. Hobdy scheduled a final hearing for March 19, 2026 at 10 a.m. in Courtroom 340 at the Bessemer Justice Center in the lawsuit challenging the city's November 2025 rezoning of 700 acres from A-1 Agricultural to I-1 Light Industrial. Plaintiffs (group of Bessemer residents) argue the rezoning was rushed and unfair. The city's motion to dismiss was denied, allowing the case to proceed. The city argues the rezoning serves public interest by promoting health, safety, prosperity, economic diversification, and increased tax revenue. Outcome of March 19 hearing not yet reported as of research date.",
+      "sources": [
+        "https://abc3340.com/news/abc-3340-news-iteam/bessemer-rezoning-fight-continues-over-proposed-data-center-court-hearing-complaint-motion-to-dismiss-response-legal-ruling-complaint-amendment-dispute-follow-up",
+        "https://abc3340.com/news/abc-3340-news-iteam/legal-challenge-filed-to-halt-controversial-data-center-project-in-bessemer"
+      ],
+      "concerns": ["process_fairness", "environment", "agricultural_land", "water"],
+      "opposition_groups": ["Bessemer residents"],
+      "company": "Logistic Land Investment LLC",
+      "project_name": "Project Marvel",
+      "megawatts": null,
+      "acreage": 700,
+      "investment_million_usd": 14500
+    },
+    {
+      "jurisdiction": "Nebius Oxmoor AI Factory (Birmingham)",
+      "state": "AL",
+      "lat": 33.4376,
+      "lng": -86.8802,
+      "action_type": "protest",
+      "status": "active",
+      "date": "2026-02-10",
+      "summary": "Nebius Group N.V. filed for a 300MW 'AI Factory' data center on 80 acres in the Oxmoor area of Birmingham at the former Regions Lakeshore Operations Center. Nebius affiliate Alabama ADC Holdings LLC acquired the properties from UAB, Regions Bank, and U.S. Steel for $90M combined. Residents argue a 300MW AI factory does not belong near apartments, homes, and animal facilities, citing noise from industrial chillers, cooling systems, and backup generators. The project was filed before Birmingham's March 3 moratorium vote, so it is exempt from the six-month pause. Hoar Construction awarded the initial contract; completion expected 2028. Birmingham's planning and zoning committee will review a draft of the new zoning policy on March 24.",
+      "sources": [
+        "https://www.wbrc.com/2026/02/11/ai-factory-being-proposed-along-lakeshore-parkway-birmingham/",
+        "https://birminghamfreepress.com/2026/03/04/ai-factory-plan-in-oxmoor-valley-tests-birminghams-appetite-for-big-tech/",
+        "https://abc3340.com/news/local/ai-factory-sets-sights-on-oxmoor-valley-neighborhood-data-center-power-water-jefferson-county-birmingham",
+        "https://www.wbrc.com/2026/02/10/oxmoor-residents-voice-concerns-over-proposed-data-center/",
+        "https://www.birminghamtimes.com/2026/03/birmingham-ai-factory-data-center-project-vote-delayed-after-community-concerns/"
+      ],
+      "concerns": ["noise", "water", "electricity_rates", "health", "community_character", "property_values"],
+      "opposition_groups": ["Oxmoor Valley residents"],
+      "company": "Nebius Group N.V.",
+      "megawatts": 300,
+      "acreage": 80,
+      "investment_million_usd": null
+    },
+    {
+      "jurisdiction": "Huntsville (Meta neighbor complaints)",
+      "state": "AL",
+      "lat": 34.7304,
+      "lng": -86.5861,
+      "action_type": "protest",
+      "status": "ongoing",
+      "date": "2026-02-18",
+      "summary": "Neighbors of Meta's existing data center in Huntsville (approximately 2.5 million sq ft, with expansion underway) reported persistent disturbances including alarms sometimes running for 12 hours before being shut off. Residents described noise as 'not super loud, but noticeable,' with generators running at night causing the most disruption and construction being the worst ongoing complaint. ABC 33/40 visited the facility and interviewed Madison County neighbors firsthand. The complaints provide a real-world case study as Alabama debates regulations for new data centers statewide.",
+      "sources": [
+        "https://abc3340.com/news/abc-3340-news-iteam/power-progress-alabamas-data-center-boom-abc-3340-town-hall-thursday-at-4-pm-continuing-coverage",
+        "https://abc3340.com/news/abc-3340-news-iteam/continuing-coverage-on-bessemer-data-center-proposal-a-look-into-demand-and-impact-jefferson-county-data-center-huntsville-meta-energy-policies-growth-data-storage-concerns-pros-cons-effects-impact-follow-up"
+      ],
+      "concerns": ["noise", "health", "community_character"],
+      "opposition_groups": ["Huntsville/Madison County residents"],
+      "company": "Meta",
+      "hyperscaler": "Meta",
+      "megawatts": null,
+      "building_sq_ft": 2500000,
+      "investment_million_usd": null
+    }
+  ],
+  "updates": [
+    {
+      "jurisdiction": "Martindale-Brightwood (Indianapolis)",
+      "state": "IN",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE: MDC hearing examiner recommended approval Feb 12. At the March 4 MDC hearing, Councilor Ron Gibson requested a one-month continuance. The MDC granted the delay; full commission vote now expected April 2026. Indianapolis NAACP reversed its position on March 9, withdrawing support after community backlash. Mayor Hogsett's Develop Indy publicly supports the project.",
+        "sources": [
+          "https://www.ibj.com/articles/vote-on-martindale-brightwood-data-center-delayed-until-april",
+          "https://mirrorindy.org/martindale-brightwood-metrobloks-indianapolis-naacp-metrobloks-data-center/",
+          "https://mirrorindy.org/mayor-joe-hogsett-indianapolis-economic-development-data-centers-martindale-brightwood-metrobloks/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Decatur Township (Indianapolis)",
+      "state": "IN",
+      "updates": {
+        "status": "pending",
+        "summary": "UPDATE: Sabey Data Centers' variance of use request was recommended for approval by the MDC hearing examiner on Feb 25, 2026 despite dozens of residents protesting. The MDC vote is set for March 18, 2026. Because it is a variance (not rezoning), the final decision rests with the MDC, not the City-County Council, limiting community's ability to appeal.",
+        "sources": [
+          "https://www.wfyi.org/news/articles/decatur-township-sabey-data-center-mdc-hearing-examiner",
+          "https://www.wishtv.com/news/local-news/decatur-township-data-center/",
+          "https://www.wthr.com/article/news/local/proposed-decatur-township-data-center-sparks-opposition-bypasses-city-county-council-vote/531-316120a8-0588-4dd2-96de-9bfa0baa5dcd"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Fulton County",
+      "state": "IN",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Fulton County commissioners voted 2-1 on March 3 to approve a one-year moratorium, effective immediately. A data center committee will be formed to study economic and environmental impacts during the pause. The moratorium could block a 300-acre, 500MW campus proposed by Decennial Group near Akron. Commissioner Dave Sommers cast the lone dissenting vote, citing need for economic growth.",
+        "sources": [
+          "https://www.wndu.com/2026/03/03/fulton-county-commissioners-approve-one-year-moratorium-data-center-construction-meeting/",
+          "https://wsbt.com/news/local/fulton-county-commissioners-approve-data-center-moratorium-one-year-paise-research-rumors-development-measure-benefits-financial-residents-commission-area-planning-job-work-concern-action-fulton-county-indiana"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Franklin County",
+      "state": "IN",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Franklin County Commissioners voted unanimously to extend the data center moratorium. Applications for building a data center will not be permitted until February 24, 2027. The vote came before an overflow crowd. The planning commission will begin consideration of rule changes in April.",
+        "sources": [
+          "https://www.eaglecountryonline.com/news/local-news/franklin-co-commissioners-place-year-long-moratorium-on-data-centers/",
+          "https://www.wcpo.com/news/local-news/finding-solutions/you-have-your-moratorium-what-comes-after-critical-vote-on-solar-farms-data-centers-in-dearborn-county"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Pike Township (Indianapolis withdrawal)",
+      "state": "IN",
+      "updates": {
+        "status": "resolved",
+        "summary": "UPDATE: American Tower Corporation withdrew its rezoning petition for a 20,000 sq ft Edge Data Center near 79th Street and Township Line Road in Pike Township, after community pushback. The project would have required 4MW from AES Indiana. Residents celebrated the withdrawal but emphasized the need for data center-specific zoning protections.",
+        "sources": [
+          "https://mirrorindy.org/pike-township-data-center-petition-withdrawn/",
+          "https://www.wishtv.com/news/local-news/american-tower-rezoning-petition-withdrawn/",
+          "https://www.axios.com/local/indianapolis/2026/02/04/pike-township-data-center-stalls-indiana-lawmakers-incentivize"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Simpson County",
+      "state": "KY",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: First court hearing held March 17, 2026 in Simpson Circuit Court. The county asked the court to stay proceedings while potential amendments to the ordinance move through local planning/zoning process. TenKey opposed the stay, arguing the ordinance remains in effect regardless. A separate motion to disqualify the county's legal counsel was also discussed. Judge took both motions under advisement. Next status conference set for April 13 at 1:30 p.m.",
+        "sources": [
+          "https://bgdailynews.com/2026/03/17/first-court-hearing-held-in-simpson-data-center-lawsuit/",
+          "https://bgdailynews.com/2026/02/22/simpson-fiscal-court-answers-data-center-lawsuit/",
+          "https://www.wnky.com/data-center-lawsuit-proceedings-begin-in-simpson-circuit-court/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Franklin",
+      "state": "KY",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: Despite TenKey's lawsuit against Simpson County, the Franklin Planning and Zoning Commission approved a preliminary development plan for TenKey's three 200,000 sq ft data storage buildings on Steele Road. The project continues to face both legal challenges (county-level CUP ordinance) and community opposition (hundreds attended meetings). TenKey maintains questions 'are best addressed' after approval. The development plan was approved with conditions, though the county ordinance still stands.",
+        "sources": [
+          "https://www.lpm.org/news/2026-03-05/feet-to-the-fire-preliminary-plan-for-franklin-data-center-approved",
+          "https://www.wsmv.com/2026/02/06/after-kentucky-data-center-proposal-was-once-again-tabled-developers-maintain-that-questions-about-it-are-best-addressed-after-approval/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Meade County",
+      "state": "KY",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Following the unanimous rezoning denial in October 2025, Meade County Fiscal Court formally adopted Ordinance No. 2025-07 on January 13, 2026, establishing a temporary moratorium on data center applications. The moratorium pauses all acceptance, review, processing, and approval of applications related to data centers and IT Infrastructure Facilities. The county is using the pause to update its Zoning Ordinance and Comprehensive Plan, which currently lack data center-specific provisions.",
+        "sources": [
+          "https://www.meadeky.gov/m/newsflash/Home/Detail/145"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Mason County",
+      "state": "KY",
+      "updates": {
+        "status": "enacted",
+        "summary": "UPDATE: Mason County Fiscal Court formally adopted Ordinance 26-01 after two readings (first reading Feb 17, special meeting Feb 27). The adopted ordinance includes 750 ft setbacks from residential areas and community spaces, 50 dB noise limits at all times, and construction restricted to daytime hours. The ordinance paves the way for a potential 2,000-acre data center by an undisclosed company. A mother-daughter pair rejected millions for their land in the data center site area.",
+        "sources": [
+          "https://www.weku.org/the-commonwealth/2026-03-01/mason-county-officials-approve-ordinance-paving-the-way-for-potential-large-scale-data-center",
+          "https://www.wcpo.com/news/northern-kentucky/im-feeling-more-disappointment-rules-governing-mason-county-data-centers-approved-in-packed-meeting",
+          "https://www.lex18.com/news/covering-kentucky/mason-county-mother-daughter-reject-millions-as-data-center-land-dispute-continues"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Mercer County",
+      "state": "KY",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Opposition intensified in February 2026. Over 1,700 residents signed a petition against the data center. A packed community meeting on Feb 19 drew hundreds; nearly 50 signed up to speak. Key concerns include impact on Desmar Stables horse breeding program, rising utility costs, and loss of prime farmland. Attorney Hank Graddy recommended the planning commission request a moratorium from the fiscal court. The Harrodsburg-Mercer County Industrial Development Authority says it has received 'numerous inquiries' about data centers due to the county's high-voltage transmission lines and power plant.",
+        "sources": [
+          "https://www.wkyt.com/2026/02/19/mercer-county-residents-oppose-proposed-data-center-packed-community-meeting/",
+          "https://www.lex18.com/news/covering-kentucky/data-center-opposition-grows-in-mercer-county-as-residents-voice-concerns",
+          "https://www.harrodsburgherald.com/2026/02/26/citizens-weigh-in-on-data-center-project/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Bessemer",
+      "state": "AL",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: Project Marvel expanded from 700 to 1,600 acres after P&Z Commission voted 6-1 (Feb 18) to recommend rezoning 914 additional acres. Developer claims expansion adds green space and 250-300 ft setbacks. Separately, the lawsuit challenging the original 700-acre rezoning proceeds: judge denied motion to dismiss and ordered plaintiffs to amend complaint. Final hearing set for March 19, 2026 at 10 a.m., Courtroom 340, Bessemer Justice Center. Outcome not yet reported.",
+        "sources": [
+          "https://www.wbrc.com/2026/02/18/planning-zoning-commission-recommends-more-land-bessemer-data-center/",
+          "https://abc3340.com/news/abc-3340-news-iteam/bessemer-rezoning-fight-continues-over-proposed-data-center-court-hearing-complaint-motion-to-dismiss-response-legal-ruling-complaint-amendment-dispute-follow-up"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Birmingham",
+      "state": "AL",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: Birmingham City Council voted unanimously on March 3 to implement a six-month moratorium on data centers using more than 20MW. Two projects are exempt (existing applications): DC Blox expansion and Nebius AI Factory. The city's planning and zoning committee will review a draft zoning policy on March 24, with a new data center zoning ordinance expected before city council for public hearing by April 28, 2026.",
+        "sources": [
+          "https://www.wbrc.com/2026/03/04/birmingham-city-council-votes-pause-new-data-center-applications-six-months/",
+          "https://abc3340.com/news/local/birmingham-halts-new-data-center-projects-with-six-month-moratorium-city-of-birmingham-council-public-hearing-data-centers-zoning-land-use-regulations-review-infrastructure-demands-development",
+          "https://birminghamwatch.org/2026/03/03/birmingham-council-enacts-temporary-ban-on-large-data-centers/"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Memphis",
+      "state": "TN",
+      "updates": {
+        "status": "ongoing",
+        "summary": "UPDATE: TVA reversed plans to close the Cumberland City coal plant, keeping it open specifically to meet data center electricity demand. The TVA board approved a resolution citing 'explosive growth in data center demand' as the primary factor. Sierra Club and environmental groups responded that the Tennessee Valley region needs more than data center pledges to address affordability concerns for residential customers across the seven-state TVA territory.",
+        "sources": [
+          "https://www.sierraclub.org/press-releases/2026/03/tennessee-valley-region-needs-more-data-center-pledge-address-affordability",
+          "https://www.newschannel5.com/news/state/tennessee/stewart-county/tva-reverses-coal-plant-closure-plan-as-ai-data-centers-drive-electricity-demand-tennessee-leaders-weigh-in"
+        ]
+      }
+    },
+    {
+      "jurisdiction": "Dearborn County",
+      "state": "IN",
+      "updates": {
+        "status": "active",
+        "summary": "UPDATE: The Dearborn County moratorium is now in effect as of Feb 25, 2026. The planning commission will begin consideration of rule changes in April, with workshops to follow. The planning and zoning director asked residents to submit suggestions for rule changes via the county website and Facebook.",
+        "sources": [
+          "https://www.wvxu.org/environment/2026-02-25/dearborn-county-moratorium-solar-farms-data-center",
+          "https://www.wcpo.com/news/local-news/finding-solutions/you-have-your-moratorium-what-comes-after-critical-vote-on-solar-farms-data-centers-in-dearborn-county"
+        ]
+      }
+    }
+  ]
+}

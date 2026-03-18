@@ -1,0 +1,265 @@
+{
+  "research_date": "2026-03-17",
+  "notes": "Deep dive on Illinois datacenter opposition. IL currently has 22 entries and is rapidly heating up. This research identified 5 genuinely new entries not yet tracked, plus 8 status updates for existing entries. New fights include Granite City, Coal City, Minooka, Logan County, and the Joliet council vote delay. Also captured major status updates for Pekin (FB group now 5,000+), Yorkville (approved with $91M deal), Sangamon County (March 23 vote imminent), and the POWER Act progress.",
+
+  "new_entries": [
+    {
+      "jurisdiction": "Granite City",
+      "state": "IL",
+      "county": "Madison County",
+      "lat": 38.7015,
+      "lng": -90.1487,
+      "action_type": "other",
+      "status": "ongoing",
+      "date": "2026-02-05",
+      "summary": "Granite City Plan Commission postponed a zoning change that would allow data centers on Feb. 5, 2026, as residents raised concerns the city was moving too quickly. Cloverleaf Infrastructure (Houston/Seattle-based, $300M in PE backing) has been discussing data center sites in Granite City as part of a broader Metro East push targeting Troy, Edwardsville, and Granite City. Mayor Mike Parkinson acknowledged the city's history of poor industrial regulation and wants to 'hold them accountable for air and water quality.' No formal proposal submitted yet, but zoning discussions are paused for public input.",
+      "sources": [
+        "https://fox2now.com/news/illinois/granite-city-pauses-talks-on-proposed-data-center/",
+        "https://fox2now.com/news/illinois/data-center-proposal-in-granite-city/",
+        "https://www.stlpr.org/government-politics-issues/2026-02-22/edwardsville-data-center-city-emails-cloverleaf"
+      ],
+      "concerns": ["water", "air_quality", "community_character", "process_fairness"],
+      "opposition_groups": [],
+      "company": "Cloverleaf Infrastructure",
+      "scope": "local",
+      "county_lean": "D",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Coal City",
+      "state": "IL",
+      "county": "Grundy County",
+      "lat": 41.2878,
+      "lng": -88.2856,
+      "action_type": "other",
+      "status": "ongoing",
+      "date": "2026-02-13",
+      "summary": "Aligned Data Centers is proposing an 11-building data center campus on 300 acres near Carbon Hill Road and Reed Road in Coal City. The village has been working with Aligned since 2024. An open house at Coal City High School drew questions from residents about energy use, water consumption, noise, and whether tax revenues would lower property taxes. Part of a cluster of Will/Grundy County proposals (Joliet, Minooka, Essex) driving regional concern about cumulative grid and water impacts.",
+      "sources": [
+        "https://www.wcsjnews.com/news/local/more-reaction-from-coal-city-data-center-campus-open-house/article_e65b1817-bf8c-4829-a422-644aa85c4a24.html",
+        "https://www.shawlocal.com/morris-herald-news/2026/02/13/open-house-being-held-tuesday-on-potential-data-center-in-coal-city/"
+      ],
+      "concerns": ["electricity_rates", "water", "noise", "tax_fairness", "grid_reliability"],
+      "opposition_groups": [],
+      "company": "Aligned Data Centers",
+      "acreage": 300,
+      "scope": "local",
+      "county_lean": "R",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Minooka",
+      "state": "IL",
+      "county": "Grundy County",
+      "lat": 41.4553,
+      "lng": -88.2617,
+      "action_type": "other",
+      "status": "approved",
+      "date": "2025-09-01",
+      "summary": "Equinix received village approval for a $2 billion, 340-acre, 700MW data center campus along Ridge Road near Holt Road. Would include 4 AI-focused buildings plus 3-4 retail data centers over a 10-year build-out. Requires 3 million gallons of water per day — roughly 30% of the municipality's allocation from a $1.54 billion Lake Michigan pipeline under construction (completion ~2030). Equinix cut its original water request in half and plans to use reclaimed water. Project approved but concerns persist from farmers, environmentalists, and the Will County Governmental League about whether this is the 'highest and best use' of limited water resources.",
+      "sources": [
+        "https://www.wcsjnews.com/news/local/progress-update-on-equinix-data-center-in-minooka/article_a83b2af7-f341-4bf8-a050-cb64e461edba.html",
+        "https://www.chicagotribune.com/2025/03/23/illinois-data-centers-clean-energy/",
+        "https://insideclimatenews.org/news/16062025/illinois-data-centers-water-use/"
+      ],
+      "concerns": ["water", "electricity_rates", "agricultural_land", "grid_reliability", "environment"],
+      "opposition_groups": [],
+      "company": "Equinix",
+      "acreage": 340,
+      "energy_mw": 700,
+      "investment_usd": 2000000000,
+      "water_gallons_per_day": 3000000,
+      "scope": "local",
+      "county_lean": "R",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Logan County",
+      "state": "IL",
+      "county": "Logan County",
+      "lat": 40.1536,
+      "lng": -89.3649,
+      "action_type": "other",
+      "status": "pending",
+      "date": "2025-12-29",
+      "summary": "Hut 8 Corp. (Miami-based) proposes a $5 billion, 500MW data center on 200 acres of farmland near Latham. After a public outcry fueled by social media backlash, Hut 8 temporarily withdrew its rezoning request on Dec. 29, 2025, to give county officials and the public more time. Logan County Board will discuss conditional permitted use at its April 16 workshop and take a final vote April 21. Located near the proposed Sangamon County CyrusOne project, raising concerns about cumulative grid strain in central Illinois.",
+      "sources": [
+        "https://www.illinoistimes.com/news/logan-county-data-center-plans-delayed/",
+        "https://newschannel20.com/news/local/hut-8s-4-5-billion-data-center-proposal-in-logan-county-faces-public-scrutiny",
+        "https://www.cities929.com/2026/01/07/logan-county-native-urges-oversight-of-proposed-5b-il-data-center/"
+      ],
+      "concerns": ["agricultural_land", "electricity_rates", "water", "grid_reliability", "process_fairness"],
+      "opposition_groups": [],
+      "company": "Hut 8 Corp.",
+      "megawatts": 500,
+      "acreage": 200,
+      "investment_usd": 5000000000,
+      "scope": "local",
+      "county_lean": "R",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    },
+    {
+      "jurisdiction": "Aurora",
+      "state": "IL",
+      "county": "Kane County",
+      "lat": 41.7606,
+      "lng": -88.3201,
+      "action_type": "moratorium",
+      "status": "active",
+      "date": "2025-09-25",
+      "summary": "Aurora City Council enacted a 180-day moratorium on new data center and warehouse developments on September 25, 2025, citing increased applications and resident concerns about noise, water, and energy. The moratorium expires late March 2026 and could be extended 30 days. During the moratorium, the city hosted an open house (Feb 12) where over 200 residents voiced concerns. New proposed regulations include 59 dB daytime / 49 dB nighttime noise limits, bans on roof-mounted chillers within 1,500 ft of residential areas, and ground-mounted equipment setbacks of 1,000 ft. The Rules Committee is reviewing these regulations as the moratorium expiration approaches.",
+      "sources": [
+        "https://www.aurora.il.us/Property-and-Business/Zoning-and-Planning/Data-Center-and-Warehouse-Moratorium",
+        "https://www.chicagotribune.com/2025/09/26/aurora-temporarily-pauses-data-center-warehouse-development-approvals/",
+        "https://abc7chicago.com/post/aurora-city-council-consider-temporary-moratorium-put-pause-development-new-data-centers/17882682/",
+        "https://abc7chicago.com/post/aurora-city-council-hold-meeting-data-centers-moratorium-set-expire/18670755/"
+      ],
+      "concerns": ["noise", "water", "electricity_rates", "air_quality", "community_character"],
+      "opposition_groups": ["Stop Data Centers in Aurora IL", "GreenLatinos Illinois", "Illinois Environmental Council"],
+      "company": "CyrusOne (existing)",
+      "scope": "local",
+      "county_lean": "D",
+      "data_source": "news",
+      "last_updated": "2026-03-17"
+    }
+  ],
+
+  "status_updates": [
+    {
+      "id": "pekin-il-2026-01-26",
+      "updates": {
+        "status": "defeated",
+        "opposition_facebook_members": 5000,
+        "petition_signatures": 5000,
+        "summary": "Hundreds of residents packed city council meetings to oppose a data center proposed on the 321-acre Lutticken Farm along the Mahomet Aquifer, which serves nearly 1 million people. Mayor Mary Burress announced on March 9 that the city will not move forward, met with applause and cheers. The Tazewell County Data Center Opposition Facebook group grew from 2,200 to 5,000+ members in two months. State bill SB 4004 would permanently ban data centers from using Mahomet Aquifer groundwater.",
+        "sources": [
+          "https://www.datacenterdynamics.com/en/news/data-center-proposal-rejected-in-pekin-illinois/",
+          "https://constructionreviewonline.com/controversial-321-acre-data-center-campus-proposed-in-pekin-illinois-officially-rejected/",
+          "https://www.wcbu.org/local-news/2026-02-09/proposed-pekin-data-center-slips-into-tazewell-county-board-candidate-forum-discussion"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "joliet-il-opposition-2026-01",
+      "updates": {
+        "status": "pending",
+        "investment_usd": 20000000000,
+        "energy_mw": 1800,
+        "summary": "795-acre, $20B, 1.8GW data center campus (Hillwood/PowerHouse). Plan Commission approved 7-1 on March 5 despite hours of opposition testimony. At the March 17 City Council meeting, a marathon 6.5-hour public hearing forced a recess -- vote delayed to Thursday March 19 due to election day restrictions. Developers promise $100M community contribution, 7,000-10,000 construction jobs, and 700 permanent jobs. Residents packed City Hall citing water, noise, grid strain, and traffic. Would be largest data center in Illinois.",
+        "sources": [
+          "https://therealdeal.com/chicago/2026/03/17/joliet-delays-vote-on-hillwood-data-center/",
+          "https://www.shawlocal.com/the-herald-news/2026/03/17/joliet-city-council-moves-vote-on-data-center-to-thursday/",
+          "https://therealdeal.com/chicago/2026/03/16/joliet-panel-advances-massive-data-center/",
+          "https://www.shawlocal.com/the-herald-news/2026/03/06/joliet-plan-commission-recommends-approval-of-data-center-project/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "yorkville-il-project-cardinal-2026",
+      "updates": {
+        "status": "approved",
+        "energy_mw": 1800,
+        "investment_usd": 91000000,
+        "summary": "Yorkville City Council approved Project Cardinal at 12:51 AM on March 12 after a nearly 6-hour contentious meeting. The 1,037-acre campus (Pioneer Development LLC) will include 14 buildings totaling 17M sq ft. Development agreement includes $51M in upfront payments over 4 years and $68.25M directed to the school district for facility improvements ($91M total). First data center operational by 2029. Residents cited sound, light, and air pollution concerns, especially during the lengthy construction period.",
+        "sources": [
+          "https://www.shawlocal.com/kendall-county-now/2026/03/12/yorkville-data-center-approval-comes-after-nearly-6-hour-contentious-city-council-meeting/",
+          "https://www.chicagotribune.com/2026/03/13/yorkville-council-oks-1000-acre-data-center-campus/",
+          "https://www.wspynews.com/news/local/91-million-tied-to-yorkville-data-center-agreements/article_065124ef-e34b-466f-9bb7-6016c29ac5c3.html",
+          "https://therealdeal.com/chicago/2026/03/12/lisle-plan-scrapped-as-yorkville-bets-big-on-data-centers/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "sangamon-county-il-2026-02-01",
+      "updates": {
+        "status": "pending",
+        "jobs_promised": 100,
+        "summary": "CyrusOne's $500M, 636MW data center on 230 acres of farmland in Talkington Township moves toward final vote. ZBA voted 5-0 on Feb. 19 to recommend approval. County Board will take final vote March 23 at BOS Center. Project would generate $5-6M/year in new property taxes and create 100 permanent jobs (avg. $83K salary) plus 500+ construction jobs. County rejected a proposed 6-month moratorium by 5-3 vote. Opposition centers on farmland loss, diesel backup fuel risks, water use, and electricity rate impacts.",
+        "sources": [
+          "https://www.illinoistimes.com/news/data-center-project-moves-forward/",
+          "https://www.sangamonreporter.com/post/zoning-board-advances-data-center-permit-to-county-board",
+          "https://www.wcia.com/news/sangamon-county/sangamon-county-will-not-adopt-6-month-moratorium-on-data-centers/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "champaign-county-il-2025-12-01",
+      "updates": {
+        "summary": "Champaign County proposed a 12-month moratorium on data centers with 10,000+ sq ft processing area in unincorporated areas. ZBA public hearing held March 11; ZBA vote scheduled March 26, County Board vote expected April. County Board unanimously created a data center task force to develop comprehensive regulations. Primary concerns: Mahomet Aquifer water usage (serving ~1M people) and energy strain. Separately, a petition with 4,000+ online signatures opposes data centers in the county.",
+        "petition_signatures": 4000,
+        "sources": [
+          "https://www.stjosephrecord.com/2026/03/11/champaign-county-public-hearing-on-proposed-data-center-moratorium/",
+          "https://ipmnewsroom.org/a-new-task-force-in-champaign-county-will-set-parameters-for-large-scale-data-center-development/",
+          "https://www.wandtv.com/news/illinois/champaign-county-moves-forward-with-moratorium-on-big-data-centers/article_68fc64e6-28af-42f5-a896-c83a15633abf.html"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "troy-il-moratorium-2026",
+      "updates": {
+        "status": "enacted",
+        "summary": "Troy Planning Commission approved a six-month moratorium on data processing centers on March 13, after Cloverleaf Infrastructure's proposal for a 500MW, 1.4M sq ft hyperscale data center collapsed following massive public opposition. Hundreds of residents packed Triad High School in February to oppose. Troy Residents for Responsible Growth led organized opposition citing proximity to neighborhoods, daycares, and senior living. The moratorium goes to City Council for final passage at its March 16 meeting. Cloverleaf is also pursuing sites in Edwardsville and Granite City.",
+        "energy_mw": 500,
+        "sources": [
+          "https://www.timestribunenews.com/2026/03/13/troy-planning-commission-approves-six-month-moratorium-on-data-processing-centers/",
+          "https://www.timestribunenews.com/2026/02/25/troy-mayor-announces-data-processing-center-moratorium/",
+          "https://www.firstalert4.com/2026/02/11/hundreds-pack-troy-data-center-meeting-held-by-developer-residents-push-back-controversial-project/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "lisle-il-2026-01-23",
+      "updates": {
+        "status": "cancelled",
+        "summary": "Cloud Centers formally withdrew its application for a 256,000 sq ft, 50MW data center at the long-vacant Lockformer property at 711 Ogden Avenue. Over 300 residents packed a January hearing, forcing postponement when the crowd exceeded the 250-person board room capacity. 127 written submissions, all opposed. Managing partner Craig McGahey said 'we were not given a chance to present' and that many residents 'simply rejected the idea.' The 18-acre site has sat vacant for 20+ years after the former Lockformer plant shuttered. Concerns included diesel generators, noise, proximity to homes (<300 ft) and a grade school.",
+        "sources": [
+          "https://patch.com/illinois/lisle/lisle-data-center-application-withdrawn-developer",
+          "https://abc7chicago.com/post/lisle-data-center-cloudcenters-llc-drops-application-former-lockformer-company-site-ogden-avenue-village-officials-say/18703440/",
+          "https://therealdeal.com/chicago/2026/03/12/lisle-plan-scrapped-as-yorkville-bets-big-on-data-centers/"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    },
+    {
+      "id": "illinois-statewide-il-2026-02-20",
+      "updates": {
+        "summary": "The POWER Act (SB 4016/HB 5513), introduced Feb. 11 by Sen. Ram Villivalam (D-Chicago) and Rep. Robyn Gabel (D-Evanston), establishes comprehensive statewide standards: 'bring your own new clean capacity' plans, Water Impact Permits from IL EPA, quarterly water usage reports, mandatory payments into an energy affordability fund, restrictions on backup diesel generators, and a ban on NDAs with local governments. Industry coalition calls it market-closing. Separately, competing Republican package led by Sen. Chapin Rose includes SB 4004 (permanent Mahomet Aquifer groundwater ban for data centers). Gov. Pritzker's two-year tax incentive suspension (effective July 1) requires General Assembly approval. The General Assembly must reconcile competing Democratic and Republican packages.",
+        "sources": [
+          "https://capitolnewsillinois.com/news/power-act-lawmakers-seek-to-regulate-new-data-centers-power-water-usage/",
+          "https://ipmnewsroom.org/illinois-democrats-republicans-introduce-competing-packages-regulate-data-centers-concerns-over-power-and-water-usage/",
+          "https://www.nrdc.org/press-releases/power-act-intended-protect-ratepayers-and-environment-data-center-harm",
+          "https://www.nbcchicago.com/investigations/new-illinois-bill-takes-aim-at-consumer-environmental-impacts-of-data-centers/3891564/",
+          "https://www.nprillinois.org/illinois/2026-03-16/illinois-lawmakers-look-to-regulate-data-centers-as-local-governments-propose-their-own-rules"
+        ],
+        "last_updated": "2026-03-17"
+      }
+    }
+  ],
+
+  "analysis": {
+    "total_new_entries": 5,
+    "total_status_updates": 8,
+    "new_total_il_entries": 27,
+    "key_findings": [
+      "Illinois is the most active state-level battleground in the country with action at every level: statewide legislation (POWER Act, SB 4004, SB 2182, tax incentive suspension), county moratoriums (Champaign), and a wave of municipal moratoriums (Aurora, Troy, Godfrey, Ottawa) and project rejections (Pekin, Naperville, Lisle, Barrington Hills).",
+      "The Joliet vote (delayed to March 19) is the single most consequential pending decision: a $20B, 1.8GW, 795-acre campus that would be the largest data center in Illinois.",
+      "Sangamon County's March 23 vote on CyrusOne (636MW, $500M) is the next major decision point.",
+      "The Mahomet Aquifer has become a rallying point with SB 4004 proposing a permanent ban on data center groundwater use, and Champaign County considering a 12-month moratorium.",
+      "Suburban Chicago has seen 4 project cancellations/withdrawals in 3 months (Naperville, Lisle, Barrington Hills, Troy), while rural/exurban communities (Yorkville, Joliet, Minooka) are moving forward despite opposition.",
+      "Opposition groups are becoming more sophisticated: Tazewell County Data Center Opposition grew from 2,200 to 5,000+ members in 2 months; Protect Naperville collected 5,600+ petition signatures; Troy Residents for Responsible Growth organized hundreds at a school forum.",
+      "Madison County (Metro East/St. Louis area) is an emerging hotspot with Cloverleaf Infrastructure targeting Troy, Edwardsville, and Granite City simultaneously, with moratoriums or pauses in all three.",
+      "The POWER Act (SB 4016) is potentially the most ambitious state-level data center regulation in the country, requiring data centers to bring their own clean energy, submit water impact permits, and fund energy affordability programs."
+    ],
+    "note_on_aurora_entry": "The existing 'aurora-il-2026-02-19' entry tracks the noise/zoning regulation fight around the existing CyrusOne facility. The new Aurora moratorium entry I'm proposing tracks the broader 180-day development moratorium enacted Sept 25, 2025, which is a separate action. These could be merged or kept distinct depending on preference."
+  }
+}

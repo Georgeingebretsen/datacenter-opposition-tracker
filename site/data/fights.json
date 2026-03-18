@@ -29587,5 +29587,240 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-17"
+  },
+  {
+    "id": "lee-county-nc-2026-03-16",
+    "jurisdiction": "Lee County",
+    "state": "NC",
+    "county": "Lee County",
+    "lat": 35.4738,
+    "lng": -79.1803,
+    "action_type": "other",
+    "date": "2026-03-16",
+    "status": "pending",
+    "scope": "local",
+    "company": "Deep River Data",
+    "summary": "Lee County residents packed a commissioners meeting on March 16 demanding a moratorium on data centers. Deep River Data plans to power an AI data center with fracked natural gas from Butler Well #3 \u2014 which would be a first for North Carolina. The gas well is approximately 2,700 feet deep with fractures known to travel up to 2,000 feet, raising groundwater contamination concerns. SELC attorney Brooks Rainey urged commissioners to adopt a moratorium.",
+    "sources": [
+      "https://www.wunc.org/2026-03-17/lee-county-residents-ask-for-a-data-center-moratorium"
+    ],
+    "opposition_groups": [
+      "Clean Water for North Carolina",
+      "Southern Environmental Law Center"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "early-county-blakely-ga-2026-03-01",
+    "jurisdiction": "Blakely (Early County)",
+    "state": "GA",
+    "county": "Early County",
+    "lat": 31.3774,
+    "lng": -84.934,
+    "action_type": "other",
+    "date": "2026-03-01",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "QTS Technology Services",
+    "summary": "QTS filed a Developments of Regional Impact application for a 12 million sq ft data center campus on the outskirts of Blakely, the 'Peanut Capital of the World.' Phase 1 is $290M with construction starting July 2026. At a January Rotary Club meeting, QTS could not answer key questions about start dates, job numbers, or water usage. Blakely previously adopted 30+ restrictions on data centers in November 2025.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/qts-targets-two-data-center-campuses-in-georgia/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "stokes-county-nc-primary-2026-03",
+    "jurisdiction": "Stokes County (primary election backlash)",
+    "state": "NC",
+    "county": "Stokes County",
+    "lat": 36.4013,
+    "lng": -80.2357,
+    "action_type": "other",
+    "date": "2026-03-03",
+    "status": "enacted",
+    "scope": "local",
+    "summary": "Stokes County voters resoundingly rejected both incumbent commissioners in the March 3 Republican primary, less than two months after the board's controversial 3-2 vote to approve rezoning for the Project Delta data center. Commissioner Rick Morris, who voted in favor, came in last place in the eight-way contest. The results signal strong voter backlash against the data center approval.",
+    "sources": [
+      "https://www.wunc.org/2026-03-05/data-center-approval-looms-over-stokes-county-primary-results"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "lee-county-tx-sandow-2026",
+    "jurisdiction": "Lee County (Blue/Sandow)",
+    "state": "TX",
+    "county": "Lee County",
+    "lat": 30.4632,
+    "lng": -97.0821,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "local",
+    "company": "Sandow Lakes Energy Co.",
+    "summary": "'Move the Gas Plant' grassroots group fighting a 1,200 MW gas plant by Sandow Lakes Energy that would serve nearby data centers and Bitcoin mining. TCEQ denied their hearing request in approximately 45 seconds and issued the air pollution permit authorizing 460 tons/year of ammonia, 153 tons of soot, 76 tons of sulfuric acid. Texas Energy Fund also denied Sandow Lakes' $295M loan application.",
+    "sources": [
+      "https://www.texastribune.org/2026/01/15/texas-sandow-lakes-data-center-gas-plant/"
+    ],
+    "opposition_groups": [
+      "Move the Gas Plant"
+    ],
+    "opposition_website": "https://movethegasplant.org",
+    "energy_mw": 1200,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "permian-basin-transmission-tx-2026",
+    "jurisdiction": "Permian Basin / Hill Country (765kV transmission)",
+    "state": "TX",
+    "county": null,
+    "lat": 30.7,
+    "lng": -98.3,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "statewide",
+    "summary": "A $13 billion plan to build Texas' first 765kV transmission line through the Hill Country to serve Permian Basin data center demand. Coalition of landowners, conservation advocates, and lawmakers mobilizing across Burnet, Llano, and other Hill Country counties. At final stages of administrative review; construction could start 2027.",
+    "sources": [
+      "https://www.texastribune.org/2026/02/20/texas-hill-country-transmission-line-data-centers/"
+    ],
+    "investment_usd": 13000000000,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "texas-srec-resolution-2026",
+    "jurisdiction": "Texas (State Republican Executive Committee)",
+    "state": "TX",
+    "county": null,
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "active",
+    "scope": "statewide",
+    "summary": "The State Republican Executive Committee passed a near-unanimous resolution calling for 'rigorous independent assessments' of data center impacts on the grid and water supply before approval, and a pause on 'open loop' (high water use) data centers. Significant because it reflects growing intra-GOP opposition to data center development in Texas.",
+    "sources": [
+      "https://www.texastribune.org/2026/02/15/texas-data-center-local-government-authority/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "loudoun-county-va-amazon-gw-campus-2026-03",
+    "jurisdiction": "Loudoun County (Amazon/GW campus)",
+    "state": "VA",
+    "county": "Loudoun County",
+    "lat": 39.0437,
+    "lng": -77.4875,
+    "action_type": "other",
+    "date": "2026-03-10",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Amazon Data Services",
+    "hyperscaler": "Amazon/AWS",
+    "summary": "Amazon Data Services purchased GWU's 122-acre Ashburn campus for $427M. Loudoun County officials were 'blindsided' and are vowing to fight the data center conversion. Under new zoning rules, data centers require special exception review rather than by-right approval.",
+    "sources": [
+      "https://wtop.com/loudoun-county/2026/03/loudoun-county-will-fight-to-keep-amazon-data-center-off-just-sold-gw-campus-in-ashburn/"
+    ],
+    "investment_usd": 427000000,
+    "acreage": 122,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "new-kent-county-va-tod-2026-02",
+    "jurisdiction": "New Kent County",
+    "state": "VA",
+    "county": "New Kent County",
+    "lat": 37.5168,
+    "lng": -76.9789,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-17",
+    "status": "pending",
+    "scope": "local",
+    "summary": "Following Goochland's lead, New Kent County is proposing a 1,800-acre Technology Overlay District along the Route 33 corridor. Controversial fast-track process would skip standard public hearings. Public meetings planned for late March/April 2026. No actual data center application has been filed yet \u2014 this is a proactive regulatory framework.",
+    "sources": [
+      "https://richmondbizsense.com/2026/02/17/new-kent-county-proposes-1800-acre-technology-overlay-district/"
+    ],
+    "acreage": 1800,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "virginia-hb-507-tier-iv-generators-2026-03",
+    "jurisdiction": "Virginia (HB 507)",
+    "state": "VA",
+    "county": null,
+    "lat": 37.5407,
+    "lng": -77.436,
+    "action_type": "legislation",
+    "date": "2026-03-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "HB 507 - Tier IV Generator Mandate",
+    "summary": "First state law mandating Tier IV emission standards for data center backup generators after July 2026. Passed both chambers of the Virginia General Assembly; awaiting Governor Spanberger's signature. Sponsored by Del. John McAuliff (D-Loudoun).",
+    "sources": [
+      "https://virginiamercury.com/2026/03/17/data-center-bills-dominated-this-years-general-assembly-heres-what-passed/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "virginia-sb-94-hb-153-siting-2026-03",
+    "jurisdiction": "Virginia (SB 94 / HB 153 siting)",
+    "state": "VA",
+    "county": null,
+    "lat": 37.5407,
+    "lng": -77.436,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "SB 94 / HB 153 - Data Center Siting Requirements",
+    "summary": "Requires 100+ MW data center facilities to submit site assessments examining impacts on agriculture, parks, historic sites, and noise near homes/schools within 500 feet. Conference committee deadlocked over Senate's industrial-zone-only requirement.",
+    "sources": [
+      "https://cardinalnews.org/2026/03/13/bills-on-data-center-siting-and-water-usage-remain-unresolved-as-general-assembly-session-winds-down/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "virginia-sb-553-water-disclosure-2026-03",
+    "jurisdiction": "Virginia (SB 553 water disclosure)",
+    "state": "VA",
+    "county": null,
+    "lat": 37.5407,
+    "lng": -77.436,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "SB 553 - Data Center Water Disclosure",
+    "summary": "First water transparency requirement for Virginia data centers. Requires water utilities to report aggregate data center water usage. Cleared both chambers; in conference committee or awaiting governor's action.",
+    "sources": [
+      "https://cardinalnews.org/2026/03/13/bills-on-data-center-siting-and-water-usage-remain-unresolved-as-general-assembly-session-winds-down/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "middletown-de-st-georges-2026",
+    "jurisdiction": "Middletown (St. Georges Business Park)",
+    "state": "DE",
+    "county": "New Castle County",
+    "lat": 39.4496,
+    "lng": -75.7163,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "ongoing",
+    "scope": "local",
+    "summary": "Proposed data center conversion of St. Georges Business Park in Middletown, Delaware. Part of the broader wave of data center interest in New Castle County.",
+    "sources": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
   }
 ]

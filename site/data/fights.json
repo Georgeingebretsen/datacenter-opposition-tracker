@@ -16046,7 +16046,7 @@
     "lng": -106.669,
     "action_type": "zoning_restriction",
     "date": "2026-02-11",
-    "status": "active",
+    "status": "enacted",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -16070,7 +16070,7 @@
       "https://citydesk.org/2026/02/11/bernco-commission-oks-data-center-restrictions/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-18",
     "scope": "local",
     "county_lean": "D"
   },
@@ -30097,6 +30097,160 @@
     "summary": "Application IC-SE-01-2026 for a data center in Irwinville was withdrawn by the applicant as of the March 2 Irwin County Commission meeting.",
     "sources": [
       "https://wwals.net/2026/03/16/irwinville-data-center-withdrawn-by-applicant-irwin-county-commission-2026-03-02/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "logan-county-co-regulations-2026-02",
+    "jurisdiction": "Logan County (regulations adopted)",
+    "state": "CO",
+    "county": "Logan County",
+    "lat": 40.7246,
+    "lng": -103.2218,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-18",
+    "status": "enacted",
+    "scope": "local",
+    "company": "Granite Renewables",
+    "summary": "Logan County adopted new data center regulations on Feb 18, lifting its moratorium. Granite Renewables' $15B, 2GW project on 4,198 acres can proceed under new rules with setbacks, noise limits, and water use requirements.",
+    "sources": [
+      "https://www.sterlingjournal-advocate.com/2026/02/18/logan-county-commissioners-adopt-data-center-regulations/"
+    ],
+    "energy_mw": 2000,
+    "investment_usd": 15000000000,
+    "acreage": 4198,
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "colorado-hb-1030-tax-breaks-2026",
+    "jurisdiction": "Colorado (HB 1030)",
+    "state": "CO",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "HB 26-1030",
+    "summary": "20-30 year sales tax exemptions for data centers investing $250M+. Estimated $29M/year revenue loss. Environmental coalition opposed.",
+    "sources": [
+      "https://leg.colorado.gov/bills/HB26-1030"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "idaho-hb-874-rate-protection-2026",
+    "jurisdiction": "Idaho (HB 874)",
+    "state": "ID",
+    "lat": 43.615,
+    "lng": -116.2023,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "HB 874",
+    "summary": "Prevents data centers (20+ MW) from raising utility rates for existing customers. Requires PUC approval before utilities can serve new large loads.",
+    "sources": [
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0874/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "kuna-diode-ventures-lawsuit-id-2026",
+    "jurisdiction": "Kuna (Diode Ventures)",
+    "state": "ID",
+    "county": "Ada County",
+    "lat": 43.4918,
+    "lng": -116.4204,
+    "action_type": "lawsuit",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "local",
+    "company": "Diode Ventures",
+    "acreage": 620,
+    "summary": "Farmer lawsuit challenging the 620-acre Gemstone Technology Park rezone approved in a 3-2 tie-breaking vote. Plaintiff alleges council member conflict of interest.",
+    "sources": [
+      "https://www.idahostatesman.com/news/local/community/boise/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "montana-northwestern-1400mw-2026",
+    "jurisdiction": "Montana (statewide demand)",
+    "state": "MT",
+    "lat": 46.5891,
+    "lng": -112.0391,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "statewide",
+    "energy_mw": 1400,
+    "summary": "Eleven data center developers in talks with NorthWestern Energy, projecting 1,400 MW total demand by 2030 \u2014 more than double Montana's current peak load. A 7-organization coalition is organizing statewide opposition.",
+    "sources": [
+      "https://montanafreepress.org/2026/02/14/data-centers-northwestern-energy-montana/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "utah-hb-76-water-disclosure-2026",
+    "jurisdiction": "Utah (HB 76)",
+    "state": "UT",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "action_type": "legislation",
+    "date": "2026-02-01",
+    "status": "pending",
+    "scope": "statewide",
+    "bill_name": "HB 76 - Water Disclosure",
+    "summary": "Passed both chambers; requires new data centers to report water use with $10K/day fines. Awaiting Governor Cox's signature by March 26.",
+    "sources": [
+      "https://le.utah.gov/~2026/bills/static/HB0076.html"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "lyon-county-monarch-nv-2025-12",
+    "jurisdiction": "Lyon County (Monarch)",
+    "state": "NV",
+    "county": "Lyon County",
+    "lat": 38.9824,
+    "lng": -119.1443,
+    "action_type": "zoning_restriction",
+    "date": "2025-12-07",
+    "status": "approved",
+    "scope": "local",
+    "company": "Monarch Data Center LLC",
+    "energy_mw": 1000,
+    "investment_usd": 11000000000,
+    "acreage": 505,
+    "summary": "$11B, 1,000 MW data center on 505 acres rezoned from agriculture. Lyon County Commission approved 4-1 despite 13-4 public opposition. Pyramid Lake Paiute Tribe raised water and cultural concerns.",
+    "sources": [
+      "https://thisisreno.com/2025/12/lyon-county-approves-11-billion-data-center/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18"
+  },
+  {
+    "id": "dona-ana-county-air-permits-nm-2026",
+    "jurisdiction": "Dona Ana County (air permits)",
+    "state": "NM",
+    "county": "Dona Ana County",
+    "lat": 32.3199,
+    "lng": -106.7637,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "local",
+    "summary": "5,200+ public comments on Project Jupiter air quality permits. Potential 14M tons CO2/year. Two lawsuits pending. State decision due April 22. Shaping 2026 county commissioner elections.",
+    "sources": [
+      "https://www.lcsun-news.com/story/news/local/community/2026/02/15/project-jupiter-air-permit-comments/"
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-18"

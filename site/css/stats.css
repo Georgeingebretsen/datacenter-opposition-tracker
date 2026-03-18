@@ -328,6 +328,79 @@
 }
 td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
+/* Sigs vs Jobs comparison */
+.sigs-jobs-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.sigs-jobs-row {
+  display: grid;
+  grid-template-columns: 180px 1fr 80px;
+  gap: 0.8rem;
+  align-items: center;
+}
+.sigs-jobs-label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sigs-jobs-bars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 28px;
+}
+.sigs-bar {
+  height: 100%;
+  background: #66800B;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: white;
+  min-width: 2px;
+}
+.jobs-bar {
+  height: 100%;
+  background: #AF3029;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: white;
+  min-width: 2px;
+}
+.sigs-jobs-ratio {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.sigs-jobs-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .stats-hero {

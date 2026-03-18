@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderHyperscalerScorecard(fights);
   renderStateRankings(fights, petitionData);
   renderPartisan(fights);
+  renderSigsVsJobs(fights);
+  renderGroupsTimeline(fights);
   renderTopPetitions(fights, petitionData);
 
   // Last updated
@@ -529,6 +531,113 @@ function renderPartisan(fights) {
       <span>Statewide / no county data</span>
     </div>
   `;
+}
+
+// --- Petition Signatures vs Jobs Promised ---
+
+function renderSigsVsJobs(fights) {
+  // Extract entries where we can find job numbers in the summary AND have petition signatures
+  const pairs = [];
+  fights.forEach(f => {
+    if (!f.petition_signatures || f.petition_signatures < 50) return;
+    const s = f.summary || '';
+    // Match patterns like "X permanent jobs", "X jobs", "X full-time jobs"
+    const matches = s.match(/(\d[\d,]*)\s*(?:permanent|full.time|ongoing|operations?)?\s*jobs?\b/gi);
+    if (!matches) return;
+    // Take the smallest number that looks like permanent jobs (not construction)
+    const jobNums = matches.map(m => parseInt(m.replace(/[^\d]/g, ''))).filter(n => n >= 10 && n <= 2000);
+    if (jobNums.length === 0) return;
+    const jobs = Math.min(...jobNums);
+    if (f.petition_signatures > jobs) {
+      pairs.push({ jurisdiction: f.jurisdiction, state: f.state, sigs: f.petition_signatures, jobs, ratio: f.petition_signatures / jobs });
+    }
+  });
+
+  pairs.sort((a, b) => b.ratio - a.ratio);
+  const display = pairs.slice(0, 10);
+  if (display.length === 0) { document.getElementById('sigs-vs-jobs').innerHTML = '<p>Insufficient data</p>'; return; }
+
+  const maxSigs = Math.max(...display.map(d => d.sigs));
+
+  let html = `<div class="sigs-jobs-legend">
+    <span><span class="legend-dot" style="background:#66800B"></span>Petition signatures opposing</span>
+    <span><span class="legend-dot" style="background:#AF3029"></span>Permanent jobs promised</span>
+  </div><div class="sigs-jobs-grid">`;
+
+  display.forEach(d => {
+    const sigsW = (d.sigs / maxSigs) * 85; // % width
+    const jobsW = (d.jobs / maxSigs) * 85;
+    const label = `${d.jurisdiction}, ${d.state}`;
+    html += `<div class="sigs-jobs-row">
+      <span class="sigs-jobs-label" title="${label}">${label}</span>
+      <div class="sigs-jobs-bars">
+        <div class="sigs-bar" style="width:${sigsW}%">${d.sigs.toLocaleString()}</div>
+        <div class="jobs-bar" style="width:${Math.max(jobsW, 1.5)}%">${d.jobs}</div>
+      </div>
+      <span class="sigs-jobs-ratio">${Math.round(d.ratio)}x</span>
+    </div>`;
+  });
+
+  html += '</div>';
+  document.getElementById('sigs-vs-jobs').innerHTML = html;
+}
+
+// --- Opposition Group Growth Timeline ---
+
+function renderGroupsTimeline(fights) {
+  // Count new opposition groups appearing per month (based on fight date)
+  const byMonth = {};
+  fights.forEach(f => {
+    const groups = f.opposition_groups || [];
+    const date = f.date || '';
+    if (groups.length > 0 && date.length >= 7) {
+      const m = date.slice(0, 7);
+      byMonth[m] = (byMonth[m] || 0) + groups.length;
+    }
+  });
+
+  const months = Object.keys(byMonth).sort();
+  const display = months.slice(-15); // last 15 months
+  const values = display.map(m => byMonth[m]);
+  const maxVal = Math.max(...values, 1);
+
+  const container = document.getElementById('groups-timeline');
+  const W = container.clientWidth || 800;
+  const H = 260;
+  const padL = 45, padR = 15, padT = 25, padB = 55;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  const barW = Math.max(8, (chartW / display.length) - 4);
+  const gap = (chartW - barW * display.length) / (display.length + 1);
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+
+  // Gridlines
+  for (let i = 0; i <= 4; i++) {
+    const y = padT + (chartH / 4) * i;
+    const val = Math.round(maxVal * (1 - i / 4));
+    svg += `<line x1="${padL}" y1="${y}" x2="${W - padR}" y2="${y}" class="timeline-gridline"/>`;
+    svg += `<text x="${padL - 8}" y="${y + 4}" text-anchor="end" class="timeline-label">${val}</text>`;
+  }
+
+  display.forEach((m, i) => {
+    const v = byMonth[m];
+    const barH = (v / maxVal) * chartH;
+    const x = padL + gap + i * (barW + gap);
+    const y = padT + chartH - barH;
+
+    svg += `<rect x="${x}" y="${y}" width="${barW}" height="${barH}" rx="3" fill="#66800B" opacity="0.8">
+      <title>${m}: ${v} groups</title>
+    </rect>`;
+    if (v > 0) svg += `<text x="${x + barW / 2}" y="${y - 5}" text-anchor="middle" class="timeline-value">${v}</text>`;
+
+    const showLabel = display.length <= 12 || i % 2 === 0;
+    if (showLabel) svg += `<text x="${x + barW / 2}" y="${padT + chartH + 18}" text-anchor="middle" class="timeline-label">${m.slice(2)}</text>`;
+  });
+
+  svg += `<line x1="${padL}" y1="${padT + chartH}" x2="${W - padR}" y2="${padT + chartH}" class="timeline-axis"/>`;
+  svg += '</svg>';
+  container.innerHTML = svg;
 }
 
 // --- Top Petitions ---

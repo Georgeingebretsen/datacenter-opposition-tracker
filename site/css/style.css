@@ -68,6 +68,7 @@ a:hover {
 header {
   background: var(--header-bg);
   position: relative;
+  overflow: hidden;
 }
 .hero-image {
   position: relative;
@@ -95,7 +96,7 @@ header {
   max-width: 100%;
   margin: 0 auto;
   position: relative;
-  padding: 0 1.5rem 0.6rem;
+  padding: 0 1.5rem 0.8rem;
   margin-top: -100px;
   z-index: 1;
   text-align: center;

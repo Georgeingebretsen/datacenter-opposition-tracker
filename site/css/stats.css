@@ -1,0 +1,283 @@
+/* Stats page styles */
+
+.stats-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+/* Hero stats */
+.stats-hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 2rem 0 0.5rem;
+}
+.stats-hero-secondary {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.hero-stat {
+  text-align: center;
+  padding: 1.2rem 0.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.hero-number {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.1;
+}
+.stats-hero-secondary .hero-number {
+  font-size: 1.6rem;
+}
+.hero-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 0.3rem;
+}
+
+/* Sections */
+.stats-section {
+  margin: 3rem 0;
+}
+.stats-section h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.3rem;
+}
+.stats-section h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Timeline chart */
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+.chart-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Bar charts (horizontal) */
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.bar-label {
+  min-width: 140px;
+  text-align: right;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bar-track {
+  flex: 1;
+  height: 22px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s ease;
+  min-width: 2px;
+}
+.bar-value {
+  min-width: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* Outcomes grid */
+.outcomes-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
+  align-items: start;
+}
+.outcomes-bars .bar-label {
+  min-width: 100px;
+}
+
+/* Donut chart */
+.donut-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1rem;
+}
+.donut-container svg {
+  width: 100%;
+  height: 100%;
+}
+.donut-center-text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  fill: var(--text);
+}
+.donut-center-label {
+  font-size: 12px;
+  fill: var(--text-muted);
+}
+
+/* State grid */
+.state-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.state-grid .bar-label {
+  min-width: 30px;
+}
+
+/* Partisan bar */
+.partisan-strip {
+  margin-top: 2rem;
+}
+.partisan-bar-container {
+  margin-top: 0.5rem;
+}
+.partisan-bar-outer {
+  width: 100%;
+  height: 36px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+.partisan-bar-outer .bar-r {
+  background: #AF3029;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: white;
+}
+.partisan-bar-outer .bar-d {
+  background: #4385BE;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: white;
+}
+.partisan-bar-outer .bar-none {
+  background: var(--border);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.partisan-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Hyperscaler brand colors */
+.bar-fill.hyp-amazon { background: #FF9900; }
+.bar-fill.hyp-google { background: #4285F4; }
+.bar-fill.hyp-meta { background: #0668E1; }
+.bar-fill.hyp-microsoft { background: #00A4EF; }
+.bar-fill.hyp-openai { background: #10A37F; }
+.bar-fill.hyp-coreweave { background: #6C63FF; }
+.bar-fill.hyp-xai { background: #1DA1F2; }
+.bar-fill.hyp-default { background: var(--accent); }
+
+/* Status colors for outcomes */
+.bar-fill.status-active { background: #66800B; }
+.bar-fill.status-cancelled { background: #66800B; }
+.bar-fill.status-defeated { background: #66800B; }
+.bar-fill.status-enacted { background: #66800B; }
+.bar-fill.status-ongoing { background: #AD8301; }
+.bar-fill.status-pending { background: #BC5215; }
+.bar-fill.status-delayed { background: #BC5215; }
+.bar-fill.status-approved { background: #AF3029; }
+.bar-fill.status-expired { background: #878580; }
+.bar-fill.status-mixed { background: #878580; }
+
+/* Generic fills */
+.bar-fill.fill-accent { background: var(--accent); }
+.bar-fill.fill-blue { background: #4385BE; }
+.bar-fill.fill-green { background: #66800B; }
+.bar-fill.fill-warm { background: #BC5215; }
+.bar-fill.fill-muted { background: #878580; }
+
+/* Timeline bar colors */
+.timeline-bar { fill: var(--accent); opacity: 0.85; }
+.timeline-bar:hover { opacity: 1; }
+.timeline-label { fill: var(--text-muted); font-size: 10px; }
+.timeline-value { fill: var(--text); font-size: 10px; font-weight: 600; }
+.timeline-axis { stroke: var(--border); stroke-width: 1; }
+.timeline-gridline { stroke: var(--border); stroke-width: 0.5; stroke-dasharray: 3 3; }
+
+/* Petition chart labels wider */
+#petitions-chart .bar-label {
+  min-width: 220px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .stats-hero {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-number {
+    font-size: 1.6rem;
+  }
+  .outcomes-grid {
+    grid-template-columns: 1fr;
+  }
+  .state-grid {
+    grid-template-columns: 1fr;
+  }
+  .bar-label {
+    min-width: 80px !important;
+    font-size: 0.75rem;
+  }
+  #petitions-chart .bar-label {
+    min-width: 120px !important;
+  }
+  .chart-container {
+    height: 220px;
+  }
+}

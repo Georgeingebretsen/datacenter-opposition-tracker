@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stats — US Datacenter Fights</title>
+  <meta name="description" content="Analytics and statistics on datacenter opposition across the United States.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/stats.css" />
+</head>
+<body>
+  <header>
+    <div class="hero-image">
+      <img src="img/hero.jpg" alt="Aerial view of a massive datacenter construction site" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="header-inner">
+      <h1>Tracking American AI Datacenter Opposition</h1>
+      <p class="last-updated" id="last-updated"></p>
+    </div>
+  </header>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-link">Datacenter Fights</a>
+    <a href="legislation.html" class="nav-link">Legislation Tracker</a>
+    <a href="stats.html" class="nav-link active">Stats</a>
+  </nav>
+
+  <main class="stats-page">
+
+    <!-- Hero stats -->
+    <section class="stats-hero">
+      <div class="hero-stat">
+        <span class="hero-number" id="s-total">—</span>
+        <span class="hero-label">fights tracked</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-number" id="s-states">—</span>
+        <span class="hero-label">states</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-number" id="s-groups">—</span>
+        <span class="hero-label">opposition groups</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-number" id="s-signatures">—</span>
+        <span class="hero-label">petition signatures</span>
+      </div>
+    </section>
+
+    <section class="stats-hero stats-hero-secondary">
+      <div class="hero-stat">
+        <span class="hero-number" id="s-investment">—</span>
+        <span class="hero-label">investment being contested</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-number" id="s-blocked">—</span>
+        <span class="hero-label">in projects blocked</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-number" id="s-moratoria">—</span>
+        <span class="hero-label">active moratoria</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-number" id="s-petitions">—</span>
+        <span class="hero-label">unique petitions</span>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="stats-section">
+      <h2>The Acceleration</h2>
+      <p class="section-subtitle">New datacenter opposition fights per month</p>
+      <div class="chart-container" id="timeline-chart"></div>
+    </section>
+
+    <!-- Outcomes -->
+    <section class="stats-section">
+      <h2>What Happens to These Fights?</h2>
+      <div class="outcomes-grid">
+        <div class="outcomes-bars" id="outcomes-chart"></div>
+        <div class="outcomes-detail">
+          <h3>Moratorium Success Rate</h3>
+          <div class="donut-container" id="moratorium-donut"></div>
+          <p class="section-subtitle" id="moratorium-subtitle"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hyperscalers -->
+    <section class="stats-section">
+      <h2>Who's Being Targeted?</h2>
+      <p class="section-subtitle">Number of opposition fights by hyperscaler</p>
+      <div class="bar-chart" id="hyperscaler-chart"></div>
+    </section>
+
+    <!-- State rankings -->
+    <section class="stats-section">
+      <h2>Where It's Happening</h2>
+      <div class="state-grid">
+        <div>
+          <h3>Top States by Fight Count</h3>
+          <div class="bar-chart" id="state-count-chart"></div>
+        </div>
+        <div>
+          <h3>Top States by Petition Signatures</h3>
+          <div class="bar-chart" id="state-sigs-chart"></div>
+        </div>
+      </div>
+      <div class="partisan-strip">
+        <h3>Partisan Breakdown</h3>
+        <p class="section-subtitle">County lean based on 2024 presidential results</p>
+        <div class="partisan-bar-container" id="partisan-bar"></div>
+      </div>
+    </section>
+
+    <!-- Top petitions -->
+    <section class="stats-section">
+      <h2>Largest Petitions</h2>
+      <p class="section-subtitle">Top community petition drives by signature count</p>
+      <div class="bar-chart" id="petitions-chart"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>Last updated March 2026.</p>
+      <p class="license-notice">
+        Data licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Free to download, share, and reuse with attribution.
+        Code licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/stats.js"></script>
+</body>
+</html>

@@ -256,6 +256,78 @@
   min-width: 220px;
 }
 
+/* Callout stats */
+.callout-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+.callout-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.4rem;
+  text-align: center;
+}
+.callout-number {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0.3rem;
+}
+.callout-number.accent { color: var(--accent); }
+.callout-number.red { color: #AF3029; }
+.callout-number.green { color: #66800B; }
+.callout-number.blue { color: #4385BE; }
+.callout-label {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+/* Hyperscaler scorecard */
+.scorecard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.scorecard-table th {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 2px solid var(--border);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+.scorecard-table td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+.scorecard-table tr:hover {
+  background: var(--border);
+}
+.scorecard-company {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.scorecard-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.scorecard-bar {
+  height: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .stats-hero {
@@ -279,5 +351,11 @@
   }
   .chart-container {
     height: 220px;
+  }
+  .callout-grid {
+    grid-template-columns: 1fr;
+  }
+  .scorecard-table {
+    font-size: 0.78rem;
   }
 }

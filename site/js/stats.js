@@ -9,9 +9,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   const petitionData = dedupePetitions(fights);
 
   renderHeroStats(fights, petitionData);
+  renderCallouts(fights, petitionData);
   renderTimeline(fights);
   renderOutcomes(fights);
-  renderHyperscalers(fights);
+  renderHyperscalerScorecard(fights);
   renderStateRankings(fights, petitionData);
   renderPartisan(fights);
   renderTopPetitions(fights, petitionData);
@@ -307,9 +308,120 @@ function renderOutcomes(fights) {
   document.getElementById('moratorium-donut').innerHTML = donutSvg;
 }
 
-// --- Hyperscalers ---
+// --- Callout Cards (shocking stats) ---
 
-function renderHyperscalers(fights) {
+function renderCallouts(fights, petitionData) {
+  const blocked = fights.filter(f => ['cancelled', 'defeated'].includes(f.status));
+  const blockedInv = blocked.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const totalInv = fights.reduce((s, f) => s + (f.investment_usd || 0), 0);
+
+  // 96% started since 2025
+  const since2025 = fights.filter(f => (f.date || '') >= '2025-01-01').length;
+  const pctRecent = Math.round((since2025 / fights.length) * 100);
+
+  // David vs Goliath: investment per petition signature
+  const petFights = fights.filter(f => f.petition_signatures > 0 && f.investment_usd > 0);
+  const avgInvPerSig = petFights.length > 0
+    ? petFights.reduce((s,f) => s + f.investment_usd, 0) / petFights.reduce((s,f) => s + f.petition_signatures, 0)
+    : 0;
+
+  // Moratoriums per day in peak month
+  const byMonth = {};
+  fights.forEach(f => {
+    if (f.action_type === 'moratorium' && f.date && f.date.length >= 7)
+      byMonth[f.date.slice(0,7)] = (byMonth[f.date.slice(0,7)] || 0) + 1;
+  });
+  const peakMorMonth = Object.entries(byMonth).sort((a,b) => b[1]-a[1])[0];
+  const morPerDay = peakMorMonth ? (peakMorMonth[1] / 28).toFixed(1) : '?';
+
+  // R vs D moratorium comparison
+  const rMor = fights.filter(f => f.action_type === 'moratorium' && f.county_lean === 'R').length;
+  const dMor = fights.filter(f => f.action_type === 'moratorium' && f.county_lean === 'D').length;
+
+  const cards = [
+    { number: formatBigNumber(blockedInv), color: 'green', label: 'in projects successfully blocked or defeated by community opposition' },
+    { number: pctRecent + '%', color: 'red', label: 'of all fights started since January 2025 — this movement barely existed before then' },
+    { number: '$' + formatNumber(Math.round(avgInvPerSig)), color: 'accent', label: 'in investment contested per petition signature — grassroots vs. Big Tech' },
+    { number: morPerDay + '/day', color: 'blue', label: 'new moratoriums in the peak month (' + (peakMorMonth ? peakMorMonth[0] : '?') + ')' },
+    { number: rMor + ' R vs ' + dMor + ' D', color: 'accent', label: 'moratoriums by county lean — this is a bipartisan movement' },
+    { number: '657', color: 'green', label: 'unique opposition groups have formed nationwide to fight data centers' },
+  ];
+
+  // Recompute groups dynamically
+  const groups = new Set();
+  fights.forEach(f => (f.opposition_groups || []).forEach(g => groups.add(g)));
+  cards[5].number = groups.size.toLocaleString();
+
+  document.getElementById('callout-grid').innerHTML = cards.map(c => `
+    <div class="callout-card">
+      <span class="callout-number ${c.color}">${c.number}</span>
+      <span class="callout-label">${c.label}</span>
+    </div>
+  `).join('');
+}
+
+// --- Hyperscaler Scorecard ---
+
+function renderHyperscalerScorecard(fights) {
+  const normalize = {
+    'Amazon/AWS': 'Amazon / AWS', 'Amazon': 'Amazon / AWS', 'AWS': 'Amazon / AWS',
+    'Google': 'Google', 'Meta': 'Meta', 'Microsoft': 'Microsoft',
+    'OpenAI': 'OpenAI', 'CoreWeave': 'CoreWeave', 'xAI': 'xAI', 'Nebius': 'Nebius', 'Oracle': 'Oracle',
+  };
+  const colors = {
+    'Amazon / AWS': '#FF9900', 'Google': '#4285F4', 'Meta': '#0668E1',
+    'Microsoft': '#00A4EF', 'OpenAI': '#10A37F', 'CoreWeave': '#6C63FF',
+    'xAI': '#1DA1F2', 'Nebius': '#E040FB', 'Oracle': '#F80000',
+  };
+
+  const stats = {};
+  fights.forEach(f => {
+    const h = normalize[f.hyperscaler] || f.hyperscaler;
+    if (!h) return;
+    if (!stats[h]) stats[h] = { fights: 0, blocked: 0, approved: 0, investment: 0, petitions: 0, moratoria: 0 };
+    stats[h].fights++;
+    if (['cancelled','defeated'].includes(f.status)) stats[h].blocked++;
+    if (f.status === 'approved') stats[h].approved++;
+    stats[h].investment += f.investment_usd || 0;
+    stats[h].petitions += f.petition_signatures || 0;
+    if (f.action_type === 'moratorium') stats[h].moratoria++;
+  });
+
+  const sorted = Object.entries(stats).filter(([,s]) => s.fights >= 3).sort((a,b) => b[1].fights - a[1].fights);
+  const maxFights = sorted[0]?.[1].fights || 1;
+
+  let html = `<table class="scorecard-table">
+    <thead><tr>
+      <th>Company</th><th>Fights</th><th></th><th class="num">Blocked</th><th class="num">Approved</th><th class="num">At Stake</th><th class="num">Petition Sigs</th>
+    </tr></thead><tbody>`;
+
+  sorted.forEach(([name, s]) => {
+    const color = colors[name] || '#878580';
+    const barW = (s.fights / maxFights) * 100;
+    const blockedW = s.fights > 0 ? (s.blocked / s.fights) * barW : 0;
+    const approvedW = s.fights > 0 ? (s.approved / s.fights) * barW : 0;
+    const ongoingW = barW - blockedW - approvedW;
+
+    html += `<tr>
+      <td><span class="scorecard-company"><span class="scorecard-dot" style="background:${color}"></span>${name}</span></td>
+      <td class="num">${s.fights}</td>
+      <td style="width:200px">
+        <span class="scorecard-bar" style="width:${blockedW}%;background:#66800B" title="${s.blocked} blocked"></span><span class="scorecard-bar" style="width:${ongoingW}%;background:${color};opacity:0.5" title="ongoing"></span><span class="scorecard-bar" style="width:${approvedW}%;background:#AF3029" title="${s.approved} approved"></span>
+      </td>
+      <td class="num" style="color:#66800B;font-weight:600">${s.blocked}</td>
+      <td class="num" style="color:#AF3029">${s.approved}</td>
+      <td class="num">${s.investment > 0 ? formatBigNumber(s.investment) : '—'}</td>
+      <td class="num">${s.petitions > 0 ? s.petitions.toLocaleString() : '—'}</td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById('hyperscaler-scorecard').innerHTML = html;
+}
+
+// --- (old hyperscalers function replaced by scorecard above) ---
+
+function _unusedRenderHyperscalers(fights) {
   // Normalize hyperscaler names
   const normalize = {
     'Amazon/AWS': 'Amazon / AWS',

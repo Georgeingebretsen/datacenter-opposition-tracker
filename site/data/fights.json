@@ -29283,5 +29283,171 @@
     "last_updated": "2026-03-17",
     "scope": "local",
     "county_lean": null
+  },
+  {
+    "id": "frenchtown-township-mi-2025-11-17",
+    "jurisdiction": "Frenchtown Township",
+    "state": "MI",
+    "county": "Monroe County",
+    "lat": 41.9267,
+    "lng": -83.3882,
+    "action_type": "other",
+    "date": "2025-11-17",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Cloverleaf Infrastructure",
+    "summary": "Houston-based Cloverleaf Infrastructure is proposing 'Project Cherry Blossom,' a $1B+ data center on roughly 200 acres of the former River Raisin Golf Course near I-75 and North Dixie Highway. Dozens of residents protested in January 2026. Protect Frenchtown launched a petition drive to collect 1,200 signatures to place a zoning challenge on the November ballot.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/cloverleaf-targets-200-acre-data-center-development-in-michigan/",
+      "https://www.fox2detroit.com/news/frenchtown-township-community-voices-concerns-over-proposed-ai-data-center"
+    ],
+    "opposition_groups": [
+      "Protect Frenchtown",
+      "Good Trouble Monroe"
+    ],
+    "opposition_website": "https://www.protectfrenchtown.org",
+    "acreage": 200,
+    "investment_usd": 1000000000,
+    "county_lean": "R",
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "southfield-mi-2025-12-15",
+    "jurisdiction": "Southfield",
+    "state": "MI",
+    "county": "Oakland County",
+    "lat": 42.4734,
+    "lng": -83.2219,
+    "action_type": "other",
+    "date": "2025-12-15",
+    "status": "approved",
+    "scope": "local",
+    "company": "Metrobloks",
+    "summary": "Southfield City Council voted 5-2 on Dec. 15, 2025 to approve a $500M, 100MW data center by LA-based Metrobloks on 13 acres near Inkster Road and I-696, despite nearly six hours of resident opposition. Rep. Rashida Tlaib issued a statement opposing the project. Developer still needs to secure full funding within 18 months.",
+    "sources": [
+      "https://planetdetroit.org/2025/12/southfield-data-center-approval/",
+      "https://tlaib.house.gov/posts/tlaib-statement-on-ai-data-center-vote-in-southfield"
+    ],
+    "opposition_groups": [
+      "Southfield Community for Growth Coalition"
+    ],
+    "energy_mw": 100,
+    "investment_usd": 500000000,
+    "acreage": 13,
+    "county_lean": "D",
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "wilmington-ardent-oh-2026-02-20",
+    "jurisdiction": "Wilmington (Ardent/TAC)",
+    "state": "OH",
+    "county": "Clinton County",
+    "lat": 39.4453,
+    "lng": -83.8285,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-20",
+    "status": "approved",
+    "scope": "local",
+    "company": "Ardent Technologies / TAC Data Centers",
+    "summary": "Wilmington City Council voted 5-2 on Feb 20 to rezone 545 acres from rural residential to light industrial for a second data center campus by Ardent Technologies (affiliated with TAC Data Centers), a $6 billion project promising 125-150 jobs. This is in addition to the existing 471-acre AWS campus, bringing total data center-zoned land in Wilmington to ~1,000 acres.",
+    "sources": [
+      "https://www.wnewsj.com/2026/02/20/council-approves-rezonings-in-a-split-vote-amid-data-center-debate/",
+      "https://www.whio.com/news/local/another-500-acres-land-zoned-second-data-center-wilmington/KXXP722G6ZD4LMQV2Z6U4UJUQE/"
+    ],
+    "opposition_groups": [
+      "Wilmington Residents for Responsible Development (WRRD)"
+    ],
+    "investment_usd": 6000000000,
+    "acreage": 545,
+    "county_lean": "R",
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "brown-county-constitutional-petition-oh-2026-03-01",
+    "jurisdiction": "Brown County (statewide constitutional petition)",
+    "state": "OH",
+    "county": "Brown County",
+    "lat": 38.9352,
+    "lng": -83.8783,
+    "action_type": "other",
+    "date": "2026-03-01",
+    "status": "active",
+    "scope": "statewide",
+    "summary": "Brown County-based group launched a petition for an Ohio constitutional amendment to ban data centers over 25 megawatts statewide, collecting ~1,800 signatures in eight days. Petition submitted to AG Dave Yost's office. Would need ~413,000 signatures by July for November ballot. Originated from backlash over a secretive 1,000-acre mega site in Mt. Orab.",
+    "sources": [
+      "https://local12.com/news/local/brown-county-group-seeks-constitutional-ban-certain-data-centers-petition-petitions-amendment-amend-constitution-ohio-hamilton-county-cincinnati-construction-prohibit-banned-banning-signatrues-mount-orab-mega-site"
+    ],
+    "petition_signatures": 1800,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "coal-city-il-2026-02-01",
+    "jurisdiction": "Coal City",
+    "state": "IL",
+    "county": "Grundy County",
+    "lat": 41.2878,
+    "lng": -88.2856,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Aligned Data Centers",
+    "summary": "Aligned Data Centers is proposing 11 buildings on 300 acres near Reed Road/Carbon Hill Road. An open house was held at Coal City High School in February 2026. Part of the Will/Grundy County data center cluster alongside Joliet, Minooka, and Essex.",
+    "sources": [
+      "https://www.shawlocal.com/morris-herald-news/2026/02/13/open-house-being-held-tuesday-on-potential-data-center-in-coal-city/"
+    ],
+    "acreage": 300,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "minooka-il-2025-10-01",
+    "jurisdiction": "Minooka",
+    "state": "IL",
+    "county": "Grundy County",
+    "lat": 41.4553,
+    "lng": -88.2617,
+    "action_type": "zoning_restriction",
+    "date": "2025-10-01",
+    "status": "approved",
+    "scope": "local",
+    "company": "Equinix",
+    "summary": "Equinix approved for a $2B, 340-acre, 700MW campus requiring 3M gallons/day of water \u2014 roughly 30% of the municipality's Lake Michigan pipeline allocation. Already approved but concerns persist about water and energy impacts.",
+    "sources": [
+      "https://www.wcsjnews.com/news/local/progress-update-on-equinix-data-center-in-minooka/article_a83b2af7-f341-4bf8-a050-cb64e461edba.html"
+    ],
+    "energy_mw": 700,
+    "investment_usd": 2000000000,
+    "acreage": 340,
+    "water_gallons_per_day": 3000000,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "logan-county-il-2025-12-01",
+    "jurisdiction": "Logan County",
+    "state": "IL",
+    "county": "Logan County",
+    "lat": 40.1246,
+    "lng": -89.3651,
+    "action_type": "zoning_restriction",
+    "date": "2025-12-01",
+    "status": "ongoing",
+    "scope": "local",
+    "company": "Hut 8 Corp.",
+    "summary": "Hut 8 Corp. proposed a $4-5B, 500MW data center on 200 acres near Latham. Public outcry forced a withdrawal of the rezoning request in Dec 2025. The company rescheduled as a conditional permitted use; county board vote scheduled for April 21, 2026.",
+    "sources": [
+      "https://www.illinoistimes.com/news/logan-county-data-center-plans-delayed/",
+      "https://newschannel20.com/news/local/hut-8s-4-5-billion-data-center-proposal-in-logan-county-faces-public-scrutiny"
+    ],
+    "energy_mw": 500,
+    "investment_usd": 4500000000,
+    "acreage": 200,
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
   }
 ]

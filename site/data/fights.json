@@ -29449,5 +29449,143 @@
     "acreage": 200,
     "data_source": "web_research",
     "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-federal-warren-investigation-2025-12-15",
+    "jurisdiction": "U.S. Senate (Federal Investigation)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2025-12-15",
+    "status": "ongoing",
+    "scope": "federal",
+    "company": "Google, Microsoft, Amazon, Meta, CoreWeave, Digital Realty, Equinix",
+    "hyperscaler": "Multiple",
+    "summary": "Sens. Warren, Van Hollen, and Blumenthal opened an investigation into Big Tech data centers driving up consumer electricity costs, sending letters to Google, Microsoft, Amazon, Meta, CoreWeave, Digital Realty, and Equinix. Companies responded but refused to disclose contracts with utility companies or actual rates paid. Senators noted some regions saw electricity costs rise 267% over five years.",
+    "sources": [
+      "https://www.warren.senate.gov/newsroom/press-releases/senator-warren-lawmakers-open-investigation-into-big-tech-data-centers-role-in-driving-up-families-utility-costs",
+      "https://www.warren.senate.gov/newsroom/press-releases/warren-senators-secure-new-commitments-from-big-tech-on-electricity-costs-but-companies-dodge-accountability-for-hiking-families-utility-bills"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-federal-epa-clean-air-data-centers-2025-12-11",
+    "jurisdiction": "EPA (Federal Agency)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2025-12-11",
+    "status": "active",
+    "scope": "federal",
+    "summary": "EPA launched Clean Air Act Resources hub for data centers and redefined 'begin actual construction' under New Source Review, allowing developers to build foundations, structural steel, and walls before receiving air permits. Final rule expected by September 2026. Also prioritized data center chemical reviews under TSCA.",
+    "sources": [
+      "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+      "https://www.epa.gov/newsreleases/epa-unveils-clean-air-act-related-resource-provide-transparency-data-center-developers"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-federal-army-corps-nwp39-2026-03-15",
+    "jurisdiction": "Army Corps of Engineers (Federal Agency)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2026-03-15",
+    "status": "active",
+    "scope": "federal",
+    "summary": "Army Corps finalized 2026 Nationwide Permits explicitly expanding NWP 39 to include data centers, creating a fast-track pathway for construction affecting wetlands and waterways without project-specific environmental review. Effective March 15, 2026 through March 15, 2031. NRDC criticized the permits as endangering streams and wetlands.",
+    "sources": [
+      "https://www.eenews.net/articles/army-corps-to-offer-streamlined-water-permits-for-data-centers/",
+      "https://www.nrdc.org/press-releases/army-corps-reissues-fast-track-permits-endanger-streams-and-wetlands"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-national-fww-moratorium-report-2026-03-04",
+    "jurisdiction": "National (Food & Water Watch)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2026-03-04",
+    "status": "ongoing",
+    "scope": "federal",
+    "summary": "Food & Water Watch released 'The Urgent Case Against Data Centers,' the first comprehensive national report making the case for a nationwide moratorium. Key findings: by 2028, data centers could consume 720 billion gallons of water annually and 580 TWh of energy (12% of national demand). Virginia data centers created just 1 permanent job per $54M invested. 230+ organizations support the moratorium call.",
+    "sources": [
+      "https://www.foodandwaterwatch.org/2026/03/04/comprehensive-report-lays-out-case-for-nationwide-halt-on-new-data-centers/"
+    ],
+    "opposition_groups": [
+      "Food & Water Watch"
+    ],
+    "opposition_website": "https://www.foodandwaterwatch.org/2026/03/04/comprehensive-report-lays-out-case-for-nationwide-halt-on-new-data-centers/",
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-national-sierra-club-policy-framework-2026-01",
+    "jurisdiction": "National (Sierra Club)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "federal",
+    "summary": "Sierra Club released its 2026 state policy framework with four guardrails: ratepayer protections preventing cross-subsidization, clean energy requirements, water efficiency standards, and community engagement mandates. Active campaigns in MI, GA, NJ, MA, CO, TN, WI. Called the White House ratepayer pledge 'baby steps.'",
+    "sources": [
+      "https://www.sierraclub.org/issues/climate/data-centers"
+    ],
+    "opposition_groups": [
+      "Sierra Club"
+    ],
+    "opposition_website": "https://www.sierraclub.org/issues/climate/data-centers",
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-national-data-center-watch-report-2026-03",
+    "jurisdiction": "National (Data Center Watch Report)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2026-03-01",
+    "status": "active",
+    "scope": "federal",
+    "summary": "Data Center Watch reported $98B in data center projects blocked or delayed by grassroots opposition in Q2 2025 alone. Identified 142 active advocacy organizations across 28 states. Opposition is bipartisan: Republicans cite tax incentive concerns; Democrats focus on environmental impacts. Total tracked disruptions reached $64B ($18B blocked, $46B delayed).",
+    "sources": [
+      "https://www.datacenterwatch.org/report",
+      "https://www.datacenterdynamics.com/en/news/group-claims-64bn-in-us-data-center-projects-impacted-by-local-opposition-in-last-two-years/"
+    ],
+    "opposition_groups": [
+      "Data Center Watch"
+    ],
+    "opposition_website": "https://www.datacenterwatch.org/",
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
+  },
+  {
+    "id": "us-national-industry-lobbying-blitz-2026-02",
+    "jurisdiction": "National (Industry Response)",
+    "state": "DC",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "action_type": "other",
+    "date": "2026-02-01",
+    "status": "ongoing",
+    "scope": "federal",
+    "summary": "Big Tech is conducting an unprecedented PR and lobbying campaign. Meta running multimillion-dollar TV ads in DC and 9 state capitals. Data Center Coalition nearly tripled lobbying spend. NAIA (National AI Association, est. Jan 2025) organizing Congressional field trips. Only 28% of voters support data centers near their homes (Heatmap poll). At least 16 local governments placed bans in 2026 alone.",
+    "sources": [
+      "https://www.commondreams.org/news/ai-data-center-propaganda-blitz",
+      "https://www.spotlightpa.org/news/2026/01/data-centers-tech-industry-lobby-energy-federal-government/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-17"
   }
 ]

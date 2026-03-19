@@ -1486,7 +1486,7 @@
     "date": "2025-02-05",
     "status": "active",
     "company": null,
-    "hyperscaler": null,
+    "hyperscaler": "Meta",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -1506,7 +1506,7 @@
       "https://adacounty.id.gov/developmentservices/administration/data-center-zoning-ordinance-amendment/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -1768,7 +1768,7 @@
     "date": "2025-04-01",
     "status": "ongoing",
     "company": "Forgelight Ventures",
-    "hyperscaler": null,
+    "hyperscaler": "Google",
     "project_name": null,
     "investment_million_usd": 1000,
     "megawatts": null,
@@ -1791,7 +1791,7 @@
       "https://arkansasadvocate.com/2025/12/12/fear-of-missing-out-on-data-center-boom-leads-arkansas-officials-to-ignore-hard-questions/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -9422,7 +9422,7 @@
     "opposition_groups": [
       "Michiganders Against Data Centers"
     ],
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "opposition_facebook": [
       "https://www.facebook.com/groups/1370478521101998"
     ],
@@ -9431,7 +9431,8 @@
     "scope": "local",
     "opposition_facebook_members": 2600,
     "county": "Livingston County",
-    "county_lean": "R"
+    "county_lean": "R",
+    "hyperscaler": "Meta"
   },
   {
     "id": "baldwin-county-stockton-al-2025-12-02",
@@ -10154,7 +10155,7 @@
     "date": "2025-12-17",
     "status": "active",
     "company": "Undisclosed (data center representatives approaching landowners)",
-    "hyperscaler": null,
+    "hyperscaler": "Meta",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -10184,7 +10185,7 @@
       "https://www.13abc.com/2025/11/18/waterville-township-leaders-clear-up-data-center-confusion/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -10390,7 +10391,7 @@
       "Sierra Club (New Jersey Chapter)",
       "New Jersey Environmental Justice Alliance (NJEJA)"
     ],
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-19",
     "company": "DataOne / Nebius Group",
     "megawatts": 300,
     "building_sq_ft": 2400000,
@@ -10401,7 +10402,8 @@
     "county_lean": "R",
     "bill_name": "Vineland Ordinance 2026-3 (PILOT Agreement)",
     "bill_url": "https://www.thevinelandvoice.com/news/vineland-residents-raise-concerns-over-300-megawatt-ai-data-center-project/article_a51ed7b1-249e-4897-8803-6c62d54e846f.html",
-    "opposition_website": "https://pinelandsalliance.org/"
+    "opposition_website": "https://pinelandsalliance.org/",
+    "hyperscaler": "Nebius"
   },
   {
     "id": "frederick-county-md-2025-12-24",
@@ -12017,7 +12019,7 @@
     "date": "2026-01-13",
     "status": "active",
     "company": "Nebius",
-    "hyperscaler": null,
+    "hyperscaler": "Nebius",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": 300,
@@ -12058,7 +12060,7 @@
       "https://1819news.com/news/item/data-center-company-nebius-buys-79-acres-in-birmingham-in-90-million-deal"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -15800,7 +15802,7 @@
     "date": "2026-02-10",
     "status": "active",
     "company": "Nebius",
-    "hyperscaler": null,
+    "hyperscaler": "Nebius",
     "project_name": null,
     "investment_million_usd": 6600,
     "megawatts": 1200,
@@ -15833,7 +15835,7 @@
       "https://www.kcur.org/politics-elections-and-government/2026-03-12/independence-residents-sue-tax-breaks-data-center"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "opposition_facebook_members": 66000,
     "scope": "local",
     "county_lean": "D",
@@ -17080,7 +17082,7 @@
     "date": "2026-02-17",
     "status": "active",
     "company": null,
-    "hyperscaler": null,
+    "hyperscaler": "Meta",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -17107,7 +17109,7 @@
       "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -17377,7 +17379,7 @@
     "date": "2026-02-18",
     "status": "active",
     "company": null,
-    "hyperscaler": null,
+    "hyperscaler": "Meta",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -17404,7 +17406,7 @@
       "https://toledofreepress.com/data-center-protestors-pack-monclova-meeting/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -19318,7 +19320,7 @@
     "date": "2026-02-27",
     "status": "pending",
     "company": null,
-    "hyperscaler": null,
+    "hyperscaler": "Microsoft",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -19338,7 +19340,7 @@
       "https://portcitydaily.com/latest-news/2026/02/27/leland-braces-for-ai-surge-with-strict-proposed-data-center-rules/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -27162,7 +27164,7 @@
     "action_type": "zoning_restriction",
     "date": "2026-03-04",
     "status": "pending",
-    "company": null,
+    "company": "Starwood Digital Ventures",
     "concerns": [
       "electricity_rates",
       "environment",
@@ -27502,7 +27504,8 @@
     "data_source": "news",
     "last_updated": "2026-03-19",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "hyperscaler": "Meta"
   },
   {
     "id": "apex-nc-withdrawal-2026-03",
@@ -27814,7 +27817,8 @@
     "data_source": "news",
     "last_updated": "2026-03-19",
     "scope": "local",
-    "county_lean": "R"
+    "county_lean": "R",
+    "hyperscaler": "xAI"
   },
   {
     "id": "goodyear-529-acre-withdrawal-az-2024",
@@ -28762,7 +28766,7 @@
     "date": "2026-03-10",
     "status": "active",
     "scope": "statewide",
-    "company": null,
+    "company": "Amazon Web Services",
     "hyperscaler": "AWS",
     "summary": "Governor Josh Shapiro announced GRID (Governor's Responsible Infrastructure Development) standards for data centers, offering expedited 'Fast Track' permitting in exchange for commitments to water conservation, local hiring, and independent power generation. Two Amazon data centers in Salem Township and Falls Township are the first projects in the program. Separately, the PA House Energy Committee advanced two bills along party lines on March 9: one requiring annual water and energy use reporting, another creating model zoning guidelines for municipalities. Environmental advocates expressed concern about the voluntary nature of GRID and the lack of enforcement mechanisms without legislative cooperation from the GOP-controlled Senate.",
     "sources": [
@@ -28773,7 +28777,7 @@
     ],
     "opposition_groups": [],
     "data_source": "web_research",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "wisconsin-nda-ban-senate-committee-wi-2026-03",
@@ -29851,7 +29855,8 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-19",
-    "county_lean": "R"
+    "county_lean": "R",
+    "company": "PowerHouse Industries"
   },
   {
     "id": "tva-affordability-tn-2026",

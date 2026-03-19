@@ -384,7 +384,7 @@
     "lng": -121.955,
     "action_type": "permit_denial",
     "date": "2024-03-06",
-    "status": "approved",
+    "status": "enacted",
     "company": "GI Partners",
     "hyperscaler": null,
     "project_name": null,
@@ -407,7 +407,7 @@
       "https://www.datacenterdynamics.com/en/news/gi-partners-secures-planning-permission-for-72mw-data-center-in-santa-clara-california/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -1148,7 +1148,7 @@
     "county": "Tarrant County",
     "lat": 32.6602,
     "lng": -97.3032,
-    "action_type": "other",
+    "action_type": "zoning_restriction",
     "date": "2025-01-01",
     "status": "ongoing",
     "company": "Black Mountain Power LLC",
@@ -1178,7 +1178,7 @@
       "https://www.govtech.com/infrastructure/fort-worth-data-center-approved-over-residents-opposition"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -1274,7 +1274,7 @@
     "county": "Washoe County",
     "lat": 39.5296,
     "lng": -119.8138,
-    "action_type": "lawsuit",
+    "action_type": "permit_denial",
     "date": "2025-01-22",
     "status": "approved",
     "company": "Webb Data Center",
@@ -1304,7 +1304,7 @@
       "https://thisisreno.com/2025/01/city-council-denies-north-valleys-data-center-appeal-after-multiple-messy-meetings/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D",
     "energy_mw": 650,
@@ -4582,7 +4582,7 @@
     "lat": 33.2468,
     "lng": -84.2641,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2025-09-01",
     "summary": "Griffin City Council unanimously passed a 180-day moratorium on data centers and other technological facilities. The moratorium was enacted so city planning staff can study current codes and ordinances for potential data center regulations. Officials noted the Unified Development Code currently does not specifically allow 'Technological Facilities' within the city, either by right or special use permit.",
     "sources": [
@@ -4592,7 +4592,7 @@
     "opposition_groups": [
       "Save Rural Spalding"
     ],
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Spalding County",
     "county_lean": "R",
@@ -4625,11 +4625,9 @@
     "petition_url": null,
     "petition_signatures": null,
     "summary": "Red Willow County passed a 1-year moratorium on data center development via resolution in September 2025.",
-    "sources": [
-      "https://www.mccookgazette.com/story/3266922.html"
-    ],
+    "sources": [],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -4797,7 +4795,7 @@
     "lng": -85.7585,
     "action_type": "moratorium",
     "date": "2025-09-11",
-    "status": "approved",
+    "status": "enacted",
     "company": "Poe Companies / PowerHouse Data Centers (approved project)",
     "hyperscaler": null,
     "project_name": null,
@@ -4826,7 +4824,7 @@
       "https://www.whas11.com/article/news/local/louisville-data-center-opposition-oldham-county/417-ea453d81-9b43-400b-908f-6de40793098f"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -5430,7 +5428,7 @@
     "lng": -83.5633,
     "action_type": "moratorium",
     "date": "2025-10-01",
-    "status": "active",
+    "status": "enacted",
     "company": "EagleRock Partners",
     "hyperscaler": null,
     "project_name": "Crooked Creek Technology Park",
@@ -5458,7 +5456,7 @@
       "https://peachbytesolutions.com/blog/how-community-action-in-jones-county-halted-a-major-data-center-plan"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R"
@@ -5921,7 +5919,7 @@
     "lng": -94.5133,
     "action_type": "moratorium",
     "date": "2025-10-01",
-    "status": "approved",
+    "status": "enacted",
     "company": "Jimmer Pinjuv / Wildwood Ranch",
     "hyperscaler": null,
     "project_name": "Wildwood Ranch Data Center",
@@ -5953,7 +5951,7 @@
       "https://www.joplinglobe.com/news/joplin-city-council-to-take-action-on-data-center-petitions/article_99f21708-b615-4a29-9a91-f2d26d70720a.html"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 100,
@@ -6486,14 +6484,14 @@
     "lat": 34.4839,
     "lng": -84.874,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2025-10-01",
     "summary": "Gordon County enacted a preemptive data center moratorium, despite no active data center proposals. County officials studied ordinances in Jackson, Spalding, and Wayne counties to develop regulations for the design, construction, operation, and remediation of data centers. Officials said the goal is to ensure that 'when data centers come, we will get the benefits of them, but not the burdens.' The county near Calhoun determined it needs specific regulations before any data center development can proceed.",
     "sources": [
       "https://www.northwestgeorgianews.com/calhoun_times/news/local/gordon-county-enacts-preemptive-data-center-moratorium/article_aee14801-6dd3-4b94-a453-2a3e684a8318.html"
     ],
     "opposition_groups": [],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Gordon County",
     "county_lean": "R"
@@ -7874,7 +7872,7 @@
     "lat": 41.0292,
     "date": "2025-11-03",
     "action_type": "moratorium",
-    "status": "active",
+    "status": "enacted",
     "summary": "Norton City Council introduced a 180-day moratorium on data center zoning certificates after rejecting Quantum HPC's proposed 485,000 sq ft data center ('Project Triton') at the former PPG limestone mine. On October 20, council voted 5-0 to block the project after the company's founder was found to have made false statements about his education and litigation history. Quantum HPC withdrew their proposal.",
     "sources": [
       "https://www.akron.com/articles/city-of-norton-introduces-moratorium-on-data-centers/",
@@ -7890,7 +7888,7 @@
     "lng": -81.6382,
     "county_lean": "D",
     "scope": "local",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "petition_url": "https://www.change.org/p/stop-construction-of-project-triton-in-norton-and-barberton-residential-areas",
     "petition_signatures": 1680,
     "energy_mw": 5,
@@ -8120,11 +8118,10 @@
     "petition_signatures": null,
     "summary": "Mitchell County approved moratoriums on utility-scale solar (Resolution #1326-25, Nov 12, 2025, unanimous) and data centers until Dec 31, 2026 (Resolution #1336-25, Nov 25, 2025, 4-1 vote). Supervisor Wherry was the key proponent. The county also has ongoing disputes about the Salt Creek Wind project.",
     "sources": [
-      "https://www.northtamatelegraph.com/news/local-news/2025/11/21/last-weeks-tama-county-supervisors-meeting/",
       "https://mitchellcounty.iowa.gov/wp-content/uploads/Board-Proceedings-11-12-25.pdf"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -8455,13 +8452,12 @@
     "petition_signatures": null,
     "summary": "Amazon announced a $3 billion data center campus near the Port of Vicksburg on Nov 20, 2025, after 2.5 years of secret development. Community forums revealed widespread concern about transparency, water usage, and environmental impacts. Named one of 2025's 'Worst Economic Development Deals.'",
     "sources": [
-      "https://economicaccountability.org/2025/12/29/mississippi-data-center-project-named-2025s-worst-economic-development-deal-of-the-year-by-the-center-for-economic-accountability/",
       "https://mississippitoday.org/2025/11/20/amazon-data-center-warren-county-mississippi/",
       "https://www.datacenterdynamics.com/en/news/amazon-to-build-3bn-data-center-campus-in-vicksburg-mississippi/",
       "https://www.entergy.com/news/next-phase-of-superpower-mississippi-builds-highly-efficient-more-cost-effective-power-generation-source-in-vicksburg"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-18",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 754
@@ -8694,7 +8690,7 @@
     "lng": -83.9177,
     "action_type": "moratorium",
     "date": "2025-12-01",
-    "status": "active",
+    "status": "enacted",
     "company": "Otis Ingram (Bolingbroke Technology Campus)",
     "hyperscaler": null,
     "project_name": null,
@@ -8723,7 +8719,7 @@
       "https://www.sierraclub.org/georgia/datacenters"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -11859,7 +11855,7 @@
     "lat": 34.0232,
     "lng": -84.3616,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2026-01-12",
     "summary": "Roswell City Council approved a 90-day emergency moratorium on new data centers (through April 12) as one of its first acts under a new mayor and three new council members. The Community Development Department will use the pause to create zoning and land use standards related to data centers, utility usage, and environmental issues. Roswell joins Atlanta, DeKalb County, Troup County, Social Circle, LaGrange, and Coweta County in the growing list of metro Atlanta area data center moratoriums.",
     "sources": [
@@ -11871,7 +11867,7 @@
     "opposition_groups": [
       "Roswell residents"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "acreage": 10,
     "building_sq_ft": 50800,
     "scope": "local",
@@ -11971,7 +11967,7 @@
     "lng": -89.4012,
     "action_type": "moratorium",
     "date": "2026-01-13",
-    "status": "active",
+    "status": "enacted",
     "company": "QTS Data Centers",
     "hyperscaler": null,
     "project_name": null,
@@ -12003,7 +11999,7 @@
       "https://dailyreporter.com/2026/01/29/deforest-cancels-qts-data-center/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "D",
@@ -12956,7 +12952,7 @@
     "lng": -83.8602,
     "action_type": "moratorium",
     "date": "2026-01-20",
-    "status": "active",
+    "status": "enacted",
     "company": "Multiple",
     "hyperscaler": "Meta",
     "project_name": null,
@@ -12979,7 +12975,7 @@
       "https://www.covnews.com/news/cities/city-covington-enacts-moratorium-moves-reject-two-annexation-requests/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -13546,7 +13542,7 @@
     "lng": -90.0715,
     "action_type": "moratorium",
     "date": "2026-01-28",
-    "status": "approved",
+    "status": "enacted",
     "company": "MS Solar Grid Data",
     "hyperscaler": null,
     "project_name": null,
@@ -13578,7 +13574,7 @@
       "https://dscej.org/2026/01/26/new-orleans-east-data-center/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -14309,7 +14305,7 @@
     "lat": 39.9539,
     "lng": -82.8819,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2026-02-01",
     "summary": "Washington Township, in the Columbus metro area, passed a moratorium on data center development as part of the broader wave of Ohio municipalities pushing back against rapid data center growth. The township is one of approximately 18 Ohio municipalities that have considered or enacted moratoriums pausing construction and approval of data centers, driven by concerns about rising electricity prices and infrastructure strain in communities that are experiencing the state's data center boom.",
     "sources": [
@@ -14319,7 +14315,7 @@
     "opposition_groups": [
       "Washington Township trustees (moratorium)"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Franklin County",
     "county_lean": "D"
@@ -14636,7 +14632,7 @@
     "lng": -82.95,
     "action_type": "permit_denial",
     "date": "2026-02-02",
-    "status": "approved",
+    "status": "enacted",
     "company": "EdgeConneX",
     "hyperscaler": null,
     "project_name": null,
@@ -14668,7 +14664,7 @@
       "https://www.circlevilleherald.com/comment/protect-pickaway-alliance-calls-meeting-for-sunday/article_978ce97d-f7d1-4119-80ad-2befa2b5a22b.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -14875,7 +14871,7 @@
     "lng": -83.0302,
     "action_type": "moratorium",
     "date": "2026-02-03",
-    "status": "approved",
+    "status": "enacted",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -14908,7 +14904,7 @@
       "https://www.change.org/p/ban-ai-data-centers-in-michigan"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "opposition_facebook_members": 2600,
     "county_lean": "R"
@@ -16948,7 +16944,7 @@
     "lng": -93.1669,
     "action_type": "moratorium",
     "date": "2026-02-17",
-    "status": "approved",
+    "status": "enacted",
     "company": "Oppidan Investment Co. / Connect Data Centers",
     "hyperscaler": null,
     "project_name": null,
@@ -16976,7 +16972,7 @@
       "https://www.fox9.com/news/mn-data-center-cryptocurrency-ban-eagan-approved-feb-17-2026"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "D"
@@ -17218,7 +17214,7 @@
     "lat": 42.2808,
     "lng": -83.743,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2026-02-17",
     "summary": "Ann Arbor Township Board of Trustees passed a 12-month moratorium on data centers. No developer has approached township officials about a data center; the moratorium is a proactive measure reflecting concerns about water, energy demand, and environmental impacts seen in neighboring communities.",
     "sources": [
@@ -17236,7 +17232,7 @@
       "Stop the Data Center",
       "Economic Development Responsibility Alliance of Michigan (EDRA of MI)"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "opposition_website": "https://edraofmi.org/",
     "opposition_facebook": [
       "https://www.facebook.com/edraofmi/"
@@ -17419,7 +17415,7 @@
     "lat": 43.55,
     "lng": -83.57,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2026-02-18",
     "summary": "Elmwood Township Board unanimously approved a 9-month moratorium on data centers (reduced from originally proposed 12 months). No known data center plans exist for the county; the moratorium is precautionary. The board tabled the measure at its January 21 meeting before passing the amended version in February.",
     "sources": [
@@ -17429,7 +17425,7 @@
     "opposition_groups": [
       "Economic Development Responsibility Alliance of Michigan (EDRA of MI)"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Tuscola County",
     "county_lean": "R",
@@ -17529,7 +17525,7 @@
     "lng": -74.4518,
     "action_type": "permit_denial",
     "date": "2026-02-19",
-    "status": "approved",
+    "status": "enacted",
     "company": "Amzak Capital Management",
     "hyperscaler": null,
     "project_name": null,
@@ -18474,7 +18470,7 @@
     "lng": -84.9408,
     "action_type": "moratorium",
     "date": "2026-02-25",
-    "status": "approved",
+    "status": "enacted",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -18500,7 +18496,7 @@
       "https://www.wcpo.com/news/local-news/finding-solutions/you-have-your-moratorium-what-comes-after-critical-vote-on-solar-farms-data-centers-in-dearborn-county"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -19145,7 +19141,7 @@
     "lng": -81.9278,
     "action_type": "permit_denial",
     "date": "2026-03-07",
-    "status": "active",
+    "status": "defeated",
     "company": "TigerDC",
     "hyperscaler": null,
     "project_name": "Project Spero",
@@ -19184,7 +19180,7 @@
       "https://www.wrdw.com/2026/03/08/ai-is-anti-human-sc-protestors-express-concerns-regarding-data-centers/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R"
@@ -20157,7 +20153,7 @@
     "lat": 40.1084,
     "lng": -83.7527,
     "action_type": "moratorium",
-    "status": "approved",
+    "status": "enacted",
     "date": "2026-03-04",
     "summary": "Urbana City Council voted 6-1 to approve a 12-month moratorium on data centers over 10,000 sq ft, halting a proposed 460,000 sq ft Thor Equities facility off Routes 55 and 68. Over 40 citizens spoke at the meeting. The site consists of three parcels purchased for $5 million. Concerns center on impacts to Cedar Bog, water, electricity, noise, and property values. The only dissenting vote came from the mayor's wife. Urbana city council passed a 12-month moratorium on March 3, 2026 by a 6-1 vote, blocking any new data center over 10,000 sq ft. Thor Equities' proposed $1B Urbana Technology Hub (460,000 sq ft near Ohio 55 and US 68) is now in limbo. Over 4,000 online signatures were collected opposing data centers in Champaign County within two weeks.",
     "sources": [
@@ -20175,7 +20171,7 @@
     "opposition_groups": [
       "No Data Centers In Urbana, OH"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "company": "Thor Equities",
     "megawatts": 400,
     "investment_million_usd": 1000,
@@ -21015,13 +21011,13 @@
     "lng": -82.98,
     "action_type": "moratorium",
     "date": "2026-03-06",
-    "status": "active",
+    "status": "enacted",
     "summary": "Trustees enacted 12-month moratorium while overhauling zoning code that has no data center language. Rejected shorter 6-month proposal.",
     "opposition_groups": [
       "Protect Pickaway Alliance"
     ],
     "opposition_facebook": "https://www.facebook.com/people/Protect-Pickaway-Alliance/61583713468844/",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21186,7 +21182,7 @@
     "lng": -75.99,
     "action_type": "permit_denial",
     "date": "2025-11-18",
-    "status": "active",
+    "status": "defeated",
     "summary": "Board unanimously rejected 1,280-acre, 15-building 'Project Hazelnut' data center campus after 200+ residents packed the meeting. Would use electricity for 90,000 homes. Developer still pursuing state DEP permits despite local rejection.",
     "acreage": 1280,
     "opposition_groups": [
@@ -21194,7 +21190,7 @@
     ],
     "opposition_website": "https://www.alliancetostoptheline.org/",
     "opposition_facebook": "https://www.facebook.com/alliancetostoptheline",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -22522,7 +22518,6 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.pasadenastarnews.com/2025/02/18/el-monte-residents-push-for-data-center-moratorium/",
       "https://www.sgvtribune.com/2026/03/12/in-el-monte-verbal-altercation-in-city-council-chambers-postpones-debate-on-data-centers-and-sanctuary-law/"
     ],
     "company": "",
@@ -22546,7 +22541,7 @@
     "date": "2025-02-18",
     "status": "pending",
     "summary": "On March 12, 2026, the City Council postponed action on data center moratorium evaluation after a verbal altercation during public comment led police to evacuate the chamber. Debate rescheduled to March 18, 2026.",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -23037,10 +23032,10 @@
     "county": "Seneca County",
     "lat": 42.77,
     "lng": -76.82,
-    "action_type": "other",
+    "action_type": "lawsuit",
     "date": "2026-03-13",
     "status": "ongoing",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "summary": "The Seneca County Board of Supervisors voted unanimously in March 2026 to join Tompkins County in asking the New York DEC to reject TeraWulf's modified water permit for its proposed 400MW AI data center at a former coal plant site on Cayuga Lake in Lansing. TeraWulf seeks to withdraw over one million gallons of water per day for cooling, with returned water at elevated temperatures that critics say would encourage harmful algal blooms threatening drinking water and tourism. Local groups have also filed a lawsuit against TeraWulf and the Lansing zoning board."
   },
   {
@@ -24138,9 +24133,9 @@
     "lng": -82.9527,
     "action_type": "moratorium",
     "date": "2025-12-20",
-    "status": "active",
+    "status": "enacted",
     "opposition_facebook": "https://www.facebook.com/people/Protect-Pickaway-Alliance/61583713468844/",
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-19",
     "summary": "Ashville Village Council unanimously passed a 180-day emergency moratorium on December 20, 2025, in response to EdgeConneX's proposal on 680 acres including an on-site 200-megawatt natural gas power plant. Residents lined yards with 'No Data Center' signs. EdgeConneX withdrew its annexation application but reportedly already holds land zoned for data center use."
   },
   {
@@ -24369,7 +24364,7 @@
     "lng": -93.843,
     "action_type": "permit_denial",
     "date": "2025-12-03",
-    "status": "approved",
+    "status": "enacted",
     "company": "Franks Investment Company LLC",
     "hyperscaler": null,
     "project_name": "Resilient Technology Park Data Center",
@@ -24396,7 +24391,7 @@
       "https://www.ksla.com/2025/12/18/shreveport-city-council-hearing-appeal-data-center-thurs-afternoon/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -25606,8 +25601,8 @@
     "lng": -96.3698,
     "action_type": "zoning_restriction",
     "date": "2026-02-25",
-    "status": "pending",
-    "last_updated": "2026-03-16",
+    "status": "enacted",
+    "last_updated": "2026-03-19",
     "summary": "Bryan City Council proactively annexed 162 acres near the RELLIS campus and adopted a Planned Development zoning district allowing data centers with stricter-than-normal standards including increased setbacks, noise requirements, and screening specifications. No data center project has been formally proposed yet."
   },
   {
@@ -25635,8 +25630,8 @@
     "lng": -75.0635,
     "action_type": "moratorium",
     "date": "2026-03-12",
-    "status": "pending",
-    "last_updated": "2026-03-17",
+    "status": "enacted",
+    "last_updated": "2026-03-19",
     "summary": "The Oneonta Town Board passed a 12-month moratorium on AI data centers in March 2026 after residents presented more than 700 signatures, prompted by Eco-Yotta Inc.'s plans to rezone 150 acres of farmland. This came weeks after the nearby Town of Dryden instituted an outright ban following its own 18-month moratorium."
   },
   {
@@ -26606,7 +26601,7 @@
     "lng": -119.8813,
     "action_type": "permit_denial",
     "date": "2025-01-15",
-    "status": "approved",
+    "status": "enacted",
     "company": "Oppidan",
     "hyperscaler": null,
     "summary": "Reno Planning Commission denied Oppidan's 5 MW evaporative-cooling data center on Stead Blvd in a 4-2 vote. City Council unanimously overturned the denial in March 2025. Sierra Club Toiyabe Chapter opposed, concerned about precedent for evaporative-cooling water consumption.",
@@ -26622,7 +26617,7 @@
       "Sierra Club Toiyabe Chapter"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "santaquin-ut-opposition-2025-12",
@@ -28304,7 +28299,7 @@
     "county": "Prince William County",
     "lat": 38.7508,
     "lng": -77.4783,
-    "action_type": "other",
+    "action_type": "zoning_restriction",
     "date": "2026-03-04",
     "status": "approved",
     "company": null,
@@ -28326,7 +28321,7 @@
       "https://protectpwc.org/2026/02/28/13682/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -29647,7 +29642,7 @@
     "county": "Lee County",
     "lat": 30.4632,
     "lng": -97.0821,
-    "action_type": "other",
+    "action_type": "permit_denial",
     "date": "2026-01-01",
     "status": "active",
     "scope": "local",
@@ -29754,7 +29749,7 @@
     "lng": -77.436,
     "action_type": "legislation",
     "date": "2026-03-01",
-    "status": "pending",
+    "status": "approved",
     "scope": "statewide",
     "bill_name": "HB 507 - Tier IV Generator Mandate",
     "summary": "First state law mandating Tier IV emission standards for data center backup generators after July 2026. Passed both chambers of the Virginia General Assembly; awaiting Governor Spanberger's signature. Sponsored by Del. John McAuliff (D-Loudoun).",
@@ -29762,7 +29757,7 @@
       "https://virginiamercury.com/2026/03/17/data-center-bills-dominated-this-years-general-assembly-heres-what-passed/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "virginia-sb-94-hb-153-siting-2026-03",
@@ -30103,7 +30098,7 @@
     "lng": -111.891,
     "action_type": "legislation",
     "date": "2026-02-01",
-    "status": "pending",
+    "status": "approved",
     "scope": "statewide",
     "bill_name": "HB 76 - Water Disclosure",
     "summary": "Passed both chambers; requires new data centers to report water use with $10K/day fines. Awaiting Governor Cox's signature by March 26.",
@@ -30111,7 +30106,7 @@
       "https://le.utah.gov/~2026/bills/static/HB0076.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-18"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "lyon-county-monarch-nv-2025-12",

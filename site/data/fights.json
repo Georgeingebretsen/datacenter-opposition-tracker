@@ -3611,10 +3611,11 @@
       "https://www.constructiondive.com/news/openai-oracle-stargate-data-center-site-wisconsin/804031/",
       "https://www.wpr.org/news/port-washington-data-center-campus-openai-oracle-stargate-chatgpt",
       "https://wtmj.com/news/2026/02/17/attempt-to-recall-port-washington-mayor-by-anti-data-center-group-fails-according-to-city/",
-      "https://urbanmilwaukee.com/2026/02/14/community-group-files-suit-against-port-washingtons-data-center/"
+      "https://urbanmilwaukee.com/2026/02/14/community-group-files-suit-against-port-washingtons-data-center/",
+      "https://www.wpr.org/news/data-center-opponents-launch-recall-of-port-washington-mayor"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "opposition_instagram_followers": 2078,
     "county_lean": "R",
@@ -11590,43 +11591,6 @@
     "county_lean": "D"
   },
   {
-    "id": "new-hampshire-statewide-sb-439-nh-2026-01-07",
-    "jurisdiction": "New Hampshire (statewide)",
-    "state": "NH",
-    "county": null,
-    "lat": 43.2147,
-    "lng": -71.5301,
-    "action_type": "legislation",
-    "date": "2026-01-07",
-    "status": "enacted",
-    "company": null,
-    "hyperscaler": null,
-    "project_name": "SB 439",
-    "investment_million_usd": null,
-    "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
-    "opposition_instagram": null,
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "Enables local planning boards to adopt regulations on data centers, which would be allowed in commercial and industrial zones. Original version included specific noise limits and buffer requirements but was amended to remove state mandates in favor of local control.",
-    "sources": [
-      "https://legiscan.com/NH/bill/SB439/2026"
-    ],
-    "data_source": "news",
-    "last_updated": "2026-03-06",
-    "scope": "statewide",
-    "bill_name": "SB 439",
-    "bill_url": "https://legiscan.com/NH/bill/SB439/2026",
-    "county_lean": "R"
-  },
-  {
     "id": "federal-cotton-data-act-2026-01-08",
     "jurisdiction": "Federal (Cotton DATA Act)",
     "state": "DC",
@@ -15766,7 +15730,7 @@
       "https://www.wnep.com/article/news/local/montour-county/data-center-talen-energy-montour-preserve-rezoning-vote/523-bd9d45bc-58b7-4590-80a1-1d2b30351550"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R"
@@ -16198,7 +16162,7 @@
       "https://legiscan.com/NH/bill/SB439/2026"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 1265",
     "bill_url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1685&inflect=2"
@@ -16702,49 +16666,6 @@
     "opposition_groups": []
   },
   {
-    "id": "round-rock-tx-2026-02-12",
-    "jurisdiction": "Round Rock",
-    "state": "TX",
-    "county": "Williamson County",
-    "lat": 30.5083,
-    "lng": -97.6789,
-    "action_type": "zoning_restriction",
-    "date": "2026-02-12",
-    "status": "approved",
-    "company": "Skybox",
-    "hyperscaler": null,
-    "project_name": "Skybox Data Center",
-    "investment_million_usd": null,
-    "megawatts": 60,
-    "acreage": 30,
-    "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": null,
-    "opposition_groups": [
-      "Protect Round Rock",
-      "Public Citizen Texas",
-      "Climate Justice San Antonio",
-      "Texas Data Center Rebellion"
-    ],
-    "opposition_website": "https://protectroundrock.org",
-    "opposition_facebook": null,
-    "opposition_instagram": "https://www.instagram.com/protectroundrock/",
-    "opposition_twitter": null,
-    "petition_url": "https://www.change.org/p/say-no-to-the-skybox-data-center-and-substation-in-round-rock-tx",
-    "petition_signatures": 3384,
-    "summary": "Round Rock City Council voted unanimously on February 12, 2026 to approve rezoning for Skybox's 60MW AI data center on 30 acres along Old Settlers Boulevard, despite hours of public opposition. Over 50 speakers opposed the project at a December 2025 hearing. Residents raised concerns about water consumption during drought conditions, 24/7 industrial noise within 2.5 miles of homes and schools, and power grid strain. The Protect Round Rock coalition collected over 3,200 petition signatures. This is Round Rock's 9th approved data center.",
-    "sources": [
-      "https://protectroundrock.org",
-      "https://www.change.org/p/say-no-to-the-skybox-data-center-and-substation-in-round-rock-tx"
-    ],
-    "bill_name": null,
-    "bill_url": null,
-    "data_source": "web_research",
-    "last_updated": "2026-03-07",
-    "scope": "local",
-    "county_lean": "D"
-  },
-  {
     "id": "chatham-county-nc-2026-02-13",
     "jurisdiction": "Chatham County",
     "state": "NC",
@@ -17089,10 +17010,11 @@
       "https://communityimpact.com/austin/san-marcos-buda-kyle/development/2025/05/21/new-data-center-planned-near-new-braunfels-and-san-marcos-sparks-debate/",
       "https://communityimpact.com/austin/san-marcos-buda-kyle/government/2026/02/18/san-marcos-council-denies-map-change-stops-data-center-development/",
       "https://deceleration.news/san-marcos-data-centers-drought-vote/",
-      "https://www.tpr.org/news/2026-02-27/with-5-data-centers-on-the-horizon-hays-county-water-advocates-see-the-fight-as-just-beginning"
+      "https://www.tpr.org/news/2026-02-27/with-5-data-centers-on-the-horizon-hays-county-water-advocates-see-the-fight-as-just-beginning",
+      "https://cbsaustin.com/news/local/san-marcos-city-council-votes-5-2-to-deny-ai-data-center-proposal"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -17635,7 +17557,7 @@
       "https://www.dailytargum.com/article/new-brunswick-city-council-cancels-data-center-plans-in-response-to-protest-20260219"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -20866,7 +20788,9 @@
       "https://deceleration.news/round-rock-texas-approves-ninth-data-center-over-strong-community-resistance/",
       "https://www.citizen.org/news/community-ignored-as-another-data-center-is-approved-in-round-rock/",
       "http://protectroundrock.org/",
-      "https://communityimpact.com/austin/round-rock/development/2026/02/09/round-rock-officials-weigh-neighborhood-compatibility-for-skybox-data-center/"
+      "https://communityimpact.com/austin/round-rock/development/2026/02/09/round-rock-officials-weigh-neighborhood-compatibility-for-skybox-data-center/",
+      "https://protectroundrock.org",
+      "https://www.change.org/p/say-no-to-the-skybox-data-center-and-substation-in-round-rock-tx"
     ],
     "company": "Skybox Datacenters",
     "hyperscaler": "",
@@ -20890,7 +20814,7 @@
     ],
     "opposition_website": "https://protectroundrock.org/",
     "petition_url": "https://www.change.org/p/say-no-to-the-skybox-data-center-and-substation-in-round-rock-tx",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21169,8 +21093,8 @@
     "action_type": "moratorium",
     "date": "2026-02-01",
     "status": "active",
-    "summary": "Adopted 180-day moratorium on data center applications (Resolution #26-705).",
-    "last_updated": "2026-03-16"
+    "summary": "Dexter Township adopted a 180-day moratorium on data center applications via Resolution #26-705, joining at least 19 Michigan communities that have paused data center development. Residents and officials raised concerns about massive water and energy demands, potential cost increases for existing ratepayers, and industrialization of rural landscapes. The moratorium gives the township time to study impacts and draft appropriate zoning regulations.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -26486,11 +26410,13 @@
     "status": "pending",
     "scope": "statewide",
     "sources": [
-      "https://legiscan.com/NH/text/HB1724/2026"
+      "https://legiscan.com/NH/text/HB1724/2026",
+      "https://legiscan.com/NH/bill/HB1724/2026"
     ],
     "bill_name": "HB 1724 - Data Center Utility Reporting",
     "bill_url": "https://legiscan.com/NH/text/HB1724/2026",
-    "summary": "Requires utilities to report on costs and capacity related to data center electricity demands."
+    "summary": "HB 1724, sponsored by Rep. Wendy Thomas, requires public utilities to submit annual reports detailing transmission costs, wholesale electricity market impacts, and generation capacity adequacy, with specific analysis of data center-related demand. Mandates public hearings and review by the state energy agency. Referred to the House Science, Technology and Energy Committee with a public hearing held February 10, 2026.",
+    "last_updated": "2026-03-19"
   },
   {
     "county": "",
@@ -26776,41 +26702,14 @@
     "status": "enacted",
     "company": null,
     "hyperscaler": null,
-    "summary": "12-month moratorium enacted on data center development.",
+    "summary": "Scioto Township trustees in Pickaway County enacted a 12-month moratorium on data center development after a heated public meeting. Trustees debated duration, ultimately agreeing a full year was necessary to craft legally sound zoning regulations. Concerns centered on rising residential electricity costs, environmental strain from water usage, and noise pollution. Part of a broader wave across Ohio where generous sales tax exemptions made rural communities prime targets.",
     "sources": [
       "https://www.sciotopost.com/scioto-township-enacts-12-month-data-center-moratorium-amid-statewide-tech-surge/"
     ],
     "scope": "local",
     "county_lean": "R",
     "data_source": "agent_research",
-    "last_updated": "2026-03-14"
-  },
-  {
-    "id": "san-marcos-tx-denial-2026-02",
-    "jurisdiction": "San Marcos",
-    "state": "TX",
-    "county": "Hays County",
-    "lat": 29.8833,
-    "lng": -97.9414,
-    "action_type": "permit_denial",
-    "date": "2026-02-17",
-    "status": "defeated",
-    "company": null,
-    "hyperscaler": null,
-    "investment_usd": 1500000000,
-    "summary": "City Council voted 5-2 to deny a $1.5B data center campus proposal.",
-    "sources": [
-      "https://www.kut.org/energy-environment/2026-02-18/san-marcos-city-council-blocks-proposed-data-center",
-      "https://cbsaustin.com/news/local/san-marcos-city-council-votes-5-2-to-deny-ai-data-center-proposal"
-    ],
-    "scope": "local",
-    "county_lean": "D",
-    "data_source": "agent_research",
-    "last_updated": "2026-03-17",
-    "opposition_groups": [
-      "Data Center Action Coalition"
-    ],
-    "opposition_website": "https://linktr.ee/data.center.action.coalition"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "deforest-wi-cancelled-2026-01",
@@ -26825,89 +26724,15 @@
     "company": "QTS",
     "hyperscaler": null,
     "investment_usd": 12000000000,
-    "summary": "Cancelled $12B QTS data center proposal.",
+    "summary": "The Village of DeForest announced on January 27 that QTS Data Centers' proposed $12 billion data center was 'not feasible.' The project required annexing 1,600 acres from the Town of Vienna, but a state Department of Administration report concluded the annexation was not in the public interest, citing concerns about water and sewer services. Village staff recommended rejection and QTS subsequently withdrew.",
     "sources": [
-      "https://wisconsinwatch.org/2026/01/deforest-wisconsin-data-center-project-village-board-government/"
+      "https://wisconsinwatch.org/2026/01/deforest-wisconsin-data-center-project-village-board-government/",
+      "https://www.wpr.org/energy/deforest-wont-move-forward-data-center"
     ],
     "scope": "local",
     "county_lean": "D",
     "data_source": "agent_research",
-    "last_updated": "2026-03-14"
-  },
-  {
-    "id": "montour-county-pa-denial-2026-02",
-    "jurisdiction": "Montour County",
-    "state": "PA",
-    "county": "Montour County",
-    "lat": 41.027,
-    "lng": -76.659,
-    "action_type": "permit_denial",
-    "date": "2026-02-01",
-    "status": "defeated",
-    "company": null,
-    "hyperscaler": null,
-    "summary": "County commissioners denied rezoning for a proposed data center.",
-    "sources": [
-      "https://penncapital-star.com/energy-environment/montour-county-denies-rezoning-plan-that-would-have-allowed-a-data-center/"
-    ],
-    "scope": "local",
-    "county_lean": "R",
-    "data_source": "agent_research",
-    "last_updated": "2026-03-17",
-    "opposition_groups": [
-      "Concerned Citizens of Montour County"
-    ],
-    "opposition_facebook": "https://www.facebook.com/p/Concerned-Citizens-of-Montour-County-100064748140999/",
-    "petition_signatures": 3000
-  },
-  {
-    "id": "new-brunswick-nj-denial-2026-02",
-    "jurisdiction": "New Brunswick",
-    "state": "NJ",
-    "county": "Middlesex County",
-    "lat": 40.4862,
-    "lng": -74.4518,
-    "action_type": "permit_denial",
-    "date": "2026-02-19",
-    "status": "defeated",
-    "company": null,
-    "hyperscaler": null,
-    "summary": "City Council killed a data center plan on Feb 19, deciding to build a park instead.",
-    "sources": [
-      "https://patch.com/new-jersey/newbrunswick/new-brunswick-city-council-kills-proposal-build-ai-data-center-100-jersey"
-    ],
-    "scope": "local",
-    "county_lean": "D",
-    "data_source": "agent_research",
-    "last_updated": "2026-03-17",
-    "opposition_groups": [
-      "NJ Build Up Resistance Now (NJ B.U.R.N.)",
-      "Climate Revolution Action Network"
-    ],
-    "opposition_website": "https://www.climaterevolutionnj.org",
-    "petition_signatures": 5000
-  },
-  {
-    "id": "port-washington-wi-recall-2026-02",
-    "jurisdiction": "Port Washington",
-    "state": "WI",
-    "county": "Ozaukee County",
-    "lat": 43.3872,
-    "lng": -87.8756,
-    "action_type": "other",
-    "date": "2026-02-17",
-    "status": "active",
-    "company": "OpenAI / Oracle",
-    "hyperscaler": null,
-    "investment_usd": 15000000000,
-    "summary": "Opponents of the $15B OpenAI/Oracle Stargate data center filed a recall petition against the mayor on Feb 17, 2026.",
-    "sources": [
-      "https://www.wpr.org/news/data-center-opponents-launch-recall-of-port-washington-mayor"
-    ],
-    "scope": "local",
-    "county_lean": "R",
-    "data_source": "agent_research",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "monroe-township-nj-2025-12-01",

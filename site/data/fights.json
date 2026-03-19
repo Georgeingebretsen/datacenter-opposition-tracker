@@ -816,10 +816,11 @@
     "sources": [
       "https://theminermag.com/news/2024-10-11/thorndale-bitcoin-mine-oppose",
       "https://www.kxxv.com/news/local-news/in-your-neighborhood/thorndale-residents-voice-concerns-over-proposed-bitcoin-mining-company",
-      "https://www.change.org/p/halt-data-factory-austin-s-proposed-bitcoin-factory-in-thorndale"
+      "https://www.change.org/p/halt-data-factory-austin-s-proposed-bitcoin-factory-in-thorndale",
+      "https://www.texasobserver.org/crypto-energy-grid-texas-bitcoin-water/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -8332,7 +8333,7 @@
     "opposition_groups": [
       "Michiganders Against Data Centers"
     ],
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "opposition_facebook": [
       "https://www.facebook.com/groups/1370478521101998"
     ],
@@ -13877,10 +13878,11 @@
       "https://www.wcia.com/news/sangamon-county/hearing-on-proposed-sangamon-co-data-center-brings-hundreds-of-supporters-opposers/",
       "https://www.sierraclub.org/illinois/sangamon-valley/about-us",
       "https://www.illinoistimes.com/news/data-center-project-moves-forward/",
-      "https://www.sangamonreporter.com/post/zoning-board-advances-data-center-permit-to-county-board"
+      "https://www.sangamonreporter.com/post/zoning-board-advances-data-center-permit-to-county-board",
+      "https://www.foxillinois.com/news/local/county-board-members-to-issue-moratorium-on-data-center-vote/article_f260660f-772f-40d9-9edd-6a3046ae736e.html"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 636,
@@ -13978,7 +13980,7 @@
       "https://myrgv.com/local-news/2026/02/13/harlingen-mayor-raises-questions-after-data-center-meeting/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -14163,7 +14165,7 @@
     "state": "OH",
     "lat": 41.2356,
     "lng": -80.662,
-    "action_type": "zoning_restriction",
+    "action_type": "moratorium",
     "status": "active",
     "date": "2026-02-01",
     "summary": "Vienna Township in northeast Ohio is using a pause on data centers to develop lasting zoning changes rather than a temporary moratorium. Trustee Phil Pegg requested zoning to place a limit of 85 decibels at the property line, and if a data center uses more than 5 megawatts of power, they must produce anything in excess on site or an adjacent site. All water usage and discharge must meet Ohio EPA regulations.",
@@ -14174,7 +14176,7 @@
     "opposition_groups": [
       "Vienna Township trustees (preemptive zoning)"
     ],
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Trumbull County",
     "county_lean": "R"
@@ -22285,7 +22287,9 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.statenews.org/government-politics/2026-03-05/ohio-gop-leaders-plan-override-of-dewines-veto-restoring-data-center-tax-break"
+      "https://www.statenews.org/government-politics/2026-03-05/ohio-gop-leaders-plan-override-of-dewines-veto-restoring-data-center-tax-break",
+      "https://ofbf.org/2026/03/18/ohio-farm-bureau-action-alert-repeal-the-data-center-tax-break/",
+      "https://signalcleveland.org/ohio-republicans-teeing-up-override-of-dewine-veto-protecting-data-center-tax-break/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22300,7 +22304,8 @@
     "status": "active",
     "summary": "Bipartisan effort to override Gov. DeWine's line-item veto of the data center sales tax exemption repeal in budget bill HB 96. Current exemptions cost $140M+/year in lost revenue. Override requires 60 House + 20 Senate votes. Google, Microsoft, Amazon, Meta oppose override.",
     "bill_name": "HB 96 Veto Override",
-    "bill_url": "https://www.legislature.ohio.gov/legislation/136/hb96"
+    "bill_url": "https://www.legislature.ohio.gov/legislation/136/hb96",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -25699,7 +25704,8 @@
       "https://www.datacenterdynamics.com/en/news/joliet-illinois-data-center/",
       "https://www.shawlocal.com/the-herald-news/2026/03/06/joliet-data-center-moving-forward-fast-after-plan-commission-ok/",
       "https://therealdeal.com/chicago/2026/03/17/joliet-delays-vote-on-hillwood-data-center/",
-      "https://www.shawlocal.com/the-herald-news/2026/03/17/joliet-city-council-moves-vote-on-data-center-to-thursday/"
+      "https://www.shawlocal.com/the-herald-news/2026/03/17/joliet-city-council-moves-vote-on-data-center-to-thursday/",
+      "https://www.chicagotribune.com/2026/03/17/joliet-city-council-data-center-vote/"
     ],
     "company": "Hillwood/PowerHouse Data Centers",
     "hyperscaler": "Microsoft",
@@ -25722,7 +25728,7 @@
     "date": "2026-01-20",
     "status": "active",
     "summary": "795-acre data center (Hillwood/PowerHouse) on south Joliet farmland above depleting aquifer. Plan Commission approved 7-1 despite 4+ hours of opposition testimony. Hundreds packed City Hall. Would be largest data center in Illinois. Plan Commission approved 7-1 on March 5. At the March 17 City Council meeting, a marathon 6.5-hour public hearing forced a recess -- vote delayed to Thursday March 19 due to election day restrictions. Developers promise $100M community contribution, 7,000-10,000 construction jobs, and 700 permanent jobs. Would be the largest data center in Illinois at $20B, 1.8GW, 795 acres.",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "investment_million_usd": 20000,
     "megawatts": 1800
   },
@@ -28895,17 +28901,18 @@
     "lng": -78.8784,
     "action_type": "zoning_restriction",
     "date": "2026-03-05",
-    "status": "enacted",
+    "status": "cancelled",
     "scope": "local",
     "company": "CHI Acquisitions LP",
-    "summary": "Fayetteville City Council voted in early March 2026 to remove data centers as a permitted use from ALL zoning categories within city limits. A pending application by CHI Acquisitions LP for a 300,000 sq ft facility on 37 acres was denied by the Planning and Zoning Commission. CHI appealed; the City Council will make a final decision on March 19. The CHI Acquisitions LP appeal hearing was scheduled for March 19 at 6 PM at City Hall. CHI's application predates the zoning ban so it remains eligible for consideration.",
+    "summary": "Fayetteville City Council voted in early March 2026 to remove data centers as a permitted use from ALL zoning categories within city limits. A pending application by CHI Acquisitions LP for a 300,000 sq ft facility on 37 acres was denied by the Planning and Zoning Commission. CHI appealed; the City Council will make a final decision on March 19. The CHI Acquisitions LP appeal hearing was scheduled for March 19 at 6 PM at City Hall. CHI's application predates the zoning ban so it remains eligible for consideration. CHI Acquisitions/Crow Holdings withdrew their appeal on March 18, one day before the council vote. Councilman Emmett Spurlock called it \"the power of the people.\"",
     "sources": [
       "https://thecitizen.com/2026/03/16/data-center-decision-comes-thursday-for-fayetteville-council/",
-      "https://www.cityviewnc.com/stories/fayetteville-council-clashes-over-who-should-shape-citys-data-center-rules/"
+      "https://www.cityviewnc.com/stories/fayetteville-council-clashes-over-who-should-shape-citys-data-center-rules/",
+      "https://thecitizen.com/2026/03/19/data-center-appeal-withdrawn-in-fayetteville-the-power-of-the-people/"
     ],
     "acreage": 37,
     "data_source": "web_research",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "washington-township-macomb-mi-2026",
@@ -29766,12 +29773,13 @@
     "date": "2026-03-17",
     "status": "pending",
     "scope": "local",
-    "summary": "Franklin County Planning & Zoning Commission is considering county-wide data center regulations including 1,000-ft setbacks from residential/parks/agriculture, max 800-acre site limit, 10% open space requirement, and sound limits of 60dB daytime/50dB nighttime. On the same agenda as two major rezoning requests (Gateway Digital and Beltline Energy).",
+    "summary": "Franklin County Planning & Zoning Commission is considering county-wide data center regulations including 1,000-ft setbacks from residential/parks/agriculture, max 800-acre site limit, 10% open space requirement, and sound limits of 60dB daytime/50dB nighttime. On the same agenda as two major rezoning requests (Gateway Digital and Beltline Energy). The March 17 P&Z meeting lasted nearly 11 hours (6 p.m. to 4:39 a.m.) with 850+ attendees and ~174 speakers, overwhelmingly opposed. No votes were taken \u2014 all items tabled to April.",
     "sources": [
-      "https://www.firstalert4.com/2026/03/14/franklin-county-data-center-projects-return-planning-commission-tuesday-with-frustration-about-process/"
+      "https://www.firstalert4.com/2026/03/14/franklin-county-data-center-projects-return-planning-commission-tuesday-with-frustration-about-process/",
+      "https://www.datacenterdynamics.com/en/news/two-data-center-projects-debated-for-11-hours-at-planning-meeting-in-franklin-county-missouri/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "meade-county-ky-moratorium-2026-01",

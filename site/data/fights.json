@@ -384,7 +384,7 @@
     "lng": -121.955,
     "action_type": "permit_denial",
     "date": "2024-03-06",
-    "status": "enacted",
+    "status": "approved",
     "company": "GI Partners",
     "hyperscaler": null,
     "project_name": null,
@@ -12981,7 +12981,7 @@
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
-    "county_lean": "R",
+    "county_lean": "D",
     "investment_usd": 5000000000,
     "water_gallons_per_day": 500000
   },
@@ -25610,7 +25610,7 @@
   {
     "scope": "local",
     "data_source": "agent_research",
-    "county_lean": "D",
+    "county_lean": "R",
     "sources": [
       "https://www.wbng.com/2026/03/12/oneonta-town-board-introduces-12-month-moratorium-ai-data-centers/",
       "https://www.thedailystar.com/news/local_news/oneonta-town-board-sets-public-hearing-on-data-center-moratorium/article_369cff18-b2d9-465e-ac44-211dd075f1b8.html"
@@ -29618,7 +29618,7 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-19",
-    "county_lean": "D"
+    "county_lean": "R"
   },
   {
     "id": "stokes-county-nc-primary-2026-03",

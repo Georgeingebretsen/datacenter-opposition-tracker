@@ -8129,7 +8129,8 @@
     "petition_url": "https://www.change.org/p/stop-construction-of-project-triton-in-norton-and-barberton-residential-areas",
     "petition_signatures": 1680,
     "energy_mw": 5,
-    "investment_usd": 2000000000
+    "investment_usd": 2000000000,
+    "acreage": 90
   },
   {
     "id": "mitchell-county-ia-2025-02-01",
@@ -20474,7 +20475,8 @@
       "https://www.wdrb.com/news/large-scale-louisville-data-center-project-advances-despite-community-protest/article_843c2208-7581-4d72-872c-b0e74418165e.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05"
+    "last_updated": "2026-03-19",
+    "acreage": 153
   },
   {
     "id": "georgia-sb-410-ga-2026-03-06",
@@ -20968,10 +20970,11 @@
     "energy_mw": 400,
     "water_gallons_per_day": 5000000,
     "petition_signatures": 6000,
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "opposition_groups": [
       "Lake Whitney area residents"
-    ]
+    ],
+    "acreage": 270
   },
   {
     "scope": "local",
@@ -21122,7 +21125,8 @@
     "opposition_groups": [
       "Food & Water Watch"
     ],
-    "last_updated": "2026-03-19"
+    "last_updated": "2026-03-19",
+    "acreage": 1016
   },
   {
     "scope": "local",
@@ -21279,7 +21283,8 @@
     "opposition_groups": [
       "Sunrise Spartans (MSU)"
     ],
-    "last_updated": "2026-03-19"
+    "last_updated": "2026-03-19",
+    "acreage": 2.7
   },
   {
     "scope": "local",
@@ -21714,7 +21719,8 @@
     "summary": "$10B hyperscale campus named '2025 Worst Economic Development Deal of the Year.' 66% property tax break for 30 years plus state tax exemptions. 500MW at full capacity. Mississippi Power delayed coal plant closure to fuel campus.",
     "investment_usd": 10000000000,
     "energy_mw": 500,
-    "last_updated": "2026-03-19"
+    "last_updated": "2026-03-19",
+    "acreage": 303
   },
   {
     "scope": "local",
@@ -22052,7 +22058,8 @@
     "opposition_groups": [
       "Cedar Creek area residents"
     ],
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19",
+    "acreage": 140
   },
   {
     "scope": "local",
@@ -22287,7 +22294,8 @@
       "No Data Centers in Spartanburg"
     ],
     "opposition_website": "https://stopprojectspero.com",
-    "last_updated": "2026-03-18"
+    "last_updated": "2026-03-19",
+    "acreage": 868
   },
   {
     "scope": "local",
@@ -22312,7 +22320,8 @@
     "summary": "Hut 8's $10B River Bend AI data center campus received zoning approval. Phase I: 245 MW facility, operations expected Q2 2027. Near decommissioned River Bend Nuclear Station. 75 direct + 193 indirect jobs.",
     "investment_usd": 10000000000,
     "energy_mw": 245,
-    "last_updated": "2026-03-19"
+    "last_updated": "2026-03-19",
+    "acreage": 611
   },
   {
     "scope": "local",
@@ -22799,7 +22808,7 @@
     "hyperscaler": "",
     "energy_mw": null,
     "investment_usd": 5500000000,
-    "acreage": null,
+    "acreage": 315,
     "water_gallons_per_day": null,
     "petition_signatures": null,
     "opposition_groups": [
@@ -22816,7 +22825,7 @@
     "date": "2025-01-28",
     "status": "active",
     "summary": "CalEthos, a Tustin-based startup, is planning a hyperscale data center campus in Imperial County along Highway 111 between Niland and Calipatria, while a separate project by Imperial Valley Computer Manufacturing (IVCM) proposes a 330MW, 950,000-square-foot facility nearby. The city of Imperial filed a petition for writ of mandate in December 2025 to force environmental review, and a grassroots group called NIMBY Imperial has gathered thousands of opposing signatures with roughly 50 volunteers. Community concerns center on the facility's potential consumption of 750,000 gallons of water per day, its 330MW energy demand representing nearly 30% of the Imperial Irrigation District's available supply, and the developers' attempts to bypass CEQA environmental review.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23371,7 +23380,7 @@
     "hyperscaler": "",
     "energy_mw": 600,
     "investment_usd": null,
-    "acreage": null,
+    "acreage": 300,
     "water_gallons_per_day": null,
     "petition_signatures": null,
     "opposition_groups": [
@@ -23388,7 +23397,7 @@
     "date": "2026-02-25",
     "status": "ongoing",
     "summary": "Red Post Energy Group signed a letter of intent with Wise Innovation Hub Venture (OASIS) to develop the Maverick Project \u2014 a phased natural gas power plant for a data center complex adjacent to Lonesome Pine Regional Industrial Facility. The project comprises nine buildings totaling 2 million sq ft with 600 MW capacity and an on-site gas power plant. Appalachian Voices opposes the project. The complex would create 500-700 construction jobs and 30-50 operations jobs per building.",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -25565,7 +25574,7 @@
     "hyperscaler": "",
     "energy_mw": 75,
     "investment_usd": null,
-    "acreage": null,
+    "acreage": 15,
     "water_gallons_per_day": 805000,
     "petition_signatures": null,
     "opposition_groups": [
@@ -25582,7 +25591,7 @@
     "date": "2026-02-23",
     "status": "ongoing",
     "summary": "CoreSite is building a 600,000-square-foot data center in Elyria-Swansea, one of the most polluted zip codes in the country (80216), which proceeded as a by-right use without community review. Hundreds packed a February 2026 meeting demanding transparency, and delivered a 'Good Neighbor' proposal. Denver's mayor subsequently joined calls for a moratorium.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -26942,7 +26951,8 @@
     "energy_mw": 100,
     "petition_signatures": 1350,
     "data_source": "agent_research",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19",
+    "acreage": 243
   },
   {
     "id": "lowell-ma-moratorium-2026-03",
@@ -27040,7 +27050,8 @@
     "scope": "local",
     "county_lean": "D",
     "data_source": "agent_research",
-    "last_updated": "2026-03-19"
+    "last_updated": "2026-03-19",
+    "acreage": 1600
   },
   {
     "id": "monroe-township-nj-2025-12-01",
@@ -28206,7 +28217,8 @@
     "scope": "local",
     "county_lean": "R",
     "data_source": "agent_research",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19",
+    "acreage": 470
   },
   {
     "id": "wa-governor-data-center-workgroup-2025",
@@ -28813,7 +28825,7 @@
     "status": "ongoing",
     "company": "Dominion Energy",
     "hyperscaler": null,
-    "acreage": null,
+    "acreage": 95,
     "opposition_groups": [
       "Friends of Chesterfield",
       "Chesterfield NAACP",
@@ -28836,7 +28848,7 @@
       "https://virginiamercury.com/briefs/scc-declines-to-reconsider-chesterfield-gas-plant-approval-advocacy-groups-appeal-air-permit/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D",
     "energy_mw": 944
@@ -29990,7 +30002,8 @@
     "energy_mw": 1200,
     "data_source": "web_research",
     "last_updated": "2026-03-19",
-    "county_lean": "R"
+    "county_lean": "R",
+    "acreage": 3300
   },
   {
     "id": "permian-basin-transmission-tx-2026",
@@ -30309,7 +30322,8 @@
     "energy_mw": 10,
     "data_source": "web_research",
     "last_updated": "2026-03-19",
-    "county_lean": "R"
+    "county_lean": "R",
+    "acreage": 6.74
   },
   {
     "id": "irwinville-ga-withdrawal-2026-03",

@@ -897,10 +897,11 @@
     "petition_signatures": null,
     "summary": "Jones County enacted a moratorium on data center development circa October 2024. The moratorium was replaced by a permanent Cryptocurrency and Data Center Ordinance restricting such facilities to agricultural, commercial, and industrial zoning districts via Special Permitted Use application.",
     "sources": [
-      "https://www.jonescountyiowa.gov/files/land_use/jones_county_cryptocurrency_and_data_center_ordinance_78407.pdf"
+      "https://www.jonescountyiowa.gov/files/land_use/jones_county_cryptocurrency_and_data_center_ordinance_78407.pdf",
+      "https://insideclimatenews.org/news/01032026/iowa-county-data-center-ordinance/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -1011,10 +1012,13 @@
     "petition_signatures": null,
     "summary": "A $3-4 billion, 2.7M sq ft hyperscale data center campus proposed at 199 Servistar Industrial Way. State legislature passed a 20-year sales tax exemption. By Dec 2025, developers appear to have abandoned the project. Conservation Law Foundation raised concerns about insufficient environmental safeguards.",
     "sources": [
-      "https://theshoestring.org/2025/12/30/ai-hallucination-proposed-westfield-data-center-appears-abandoned-by-developers/"
+      "https://theshoestring.org/2025/12/30/ai-hallucination-proposed-westfield-data-center-appears-abandoned-by-developers/",
+      "https://www.bostonglobe.com/2024/11/20/business/data-center-western-mass/",
+      "https://www.datacenterdynamics.com/en/news/data-center-campus-proposed-in-westfield-massachusetts/",
+      "https://www.nepm.org/regional-news/2025-08-26/westfield-planning-4m-data-center-with-help-from-state-tax-breaks"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -1132,10 +1136,12 @@
     "petition_signatures": null,
     "summary": "Requires AI data center owners and operators to submit quarterly reports to the Commissioner of Energy and Environmental Protection on energy and water consumption. Authorizes commissioner to adopt regulations concerning water and energy efficiency standards for data centers.",
     "sources": [
-      "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB1292&which_year=2025"
+      "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB1292&which_year=2025",
+      "https://legiscan.com/CT/bill/SB01292/2025",
+      "https://environmentamerica.org/connecticut/resources/the-case-for-water-and-energy-efficiency-standards-for-data-centers/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "SB 1292",
     "bill_url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB1292&which_year=2025",
@@ -1213,10 +1219,13 @@
     "petition_signatures": null,
     "summary": "Originally introduced to create a state siting process for large electricity users (50+ MW). Significantly amended \u2014 siting process stripped and replaced with mandate for interim legislative study on impact of large energy consumers on the state's electrical grid. Passed House 89-3, Senate 46-0. Signed April 28, 2025.",
     "sources": [
-      "https://www.grandforksherald.com/news/north-dakota/utilities-push-back-on-proposed-regulations-for-big-north-dakota-power-users-data-centers"
+      "https://www.grandforksherald.com/news/north-dakota/utilities-push-back-on-proposed-regulations-for-big-north-dakota-power-users-data-centers",
+      "https://www.inforum.com/news/north-dakota/utilities-push-back-on-proposed-regulations-for-big-north-dakota-power-users-data-centers",
+      "https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1579.html",
+      "https://fastdemocracy.com/bill-search/nd/69/bills/NDB00006528/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "HB 1579",
@@ -1503,7 +1512,10 @@
     "petition_signatures": null,
     "summary": "Ada County initiated a Data Center Zoning Ordinance Amendment to develop standards regulating data centers, protecting neighboring property owners and the environment. Prompted by Meta's Kuna campus and the broader Treasure Valley data center boom.",
     "sources": [
-      "https://adacounty.id.gov/developmentservices/administration/data-center-zoning-ordinance-amendment/"
+      "https://adacounty.id.gov/developmentservices/administration/data-center-zoning-ordinance-amendment/",
+      "https://www.waypointidaho.com/blog/meta-kuna-data-center-impact-guide-2025/",
+      "https://datacenters.atmeta.com/wp-content/uploads/2025/02/Meta_s-Kuna-Data-Center.pdf",
+      "https://boisedev.com/news/2025/04/03/kuna-data-center-diode-ventures/"
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-19",
@@ -1653,10 +1665,11 @@
     "petition_signatures": null,
     "summary": "A 341,273 sq ft data center proposed on 143-acre former Princeton Nurseries site along Route 1. Residents raised concerns about electricity consumption, cooling noise, property values, and few permanent jobs.",
     "sources": [
-      "https://patch.com/new-jersey/southbrunswick/massive-data-center-proposed-route-1-south-brunswick"
+      "https://patch.com/new-jersey/southbrunswick/massive-data-center-proposed-route-1-south-brunswick",
+      "https://www.datacenterdynamics.com/en/news/former-nursery-site-in-new-jersey-could-host-data-center/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "D"
   },
@@ -1677,10 +1690,12 @@
       "Kootenai County residents"
     ],
     "sources": [
-      "https://www.khq.com/news/kootenai-county-imposes-moratorium-on-data-center-building-permits/article_f622e15a-f79e-11ef-87ed-1bd380bdd67e.html"
+      "https://www.khq.com/news/kootenai-county-imposes-moratorium-on-data-center-building-permits/article_f622e15a-f79e-11ef-87ed-1bd380bdd67e.html",
+      "https://cdapress.com/news/2025/mar/02/kootenai-county-commissioners-approve-temporary-data-center-moratorium/",
+      "https://www.spokanepublicradio.org/regional-news/2025-10-02/avoiding-ai-kootenai-county-works-towards-total-ban-against-data-centers"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "grant-county-pud-wa-2025-03-25",
@@ -1823,10 +1838,12 @@
     "petition_signatures": null,
     "summary": "Nautilus cancelled its $300M, 60MW data center at the former paper mill (announced 2021). Could not secure the AI customer needed because the facility couldn't produce enough power. The mill site closed permanently in 2008.",
     "sources": [
-      "https://www.bangordailynews.com/2025/04/09/mainefocus/mainefocus-business/300m-data-center-former-millinocket-paper-mill-canceled/"
+      "https://www.bangordailynews.com/2025/04/09/mainefocus/mainefocus-business/300m-data-center-former-millinocket-paper-mill-canceled/",
+      "https://www.wabi.tv/2025/04/09/planned-data-center-project-former-millinocket-paper-mill-cancelled/",
+      "https://www.datacenterdynamics.com/en/news/nautilus-to-build-300m-land-based-data-center-in-maine/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -1840,11 +1857,14 @@
     "status": "pending",
     "summary": "HB 1002 ('Rate Payer Protection Act') prohibits charging residential ratepayers for data center electricity costs (100+ MW threshold) and creates a Special Commission for Data Center Planning. HB 638 ('Equitable Escalation of Electricity Demand Act') requires data centers needing dispatchable power to secure it independently rather than drawing from the existing grid.",
     "sources": [
-      "https://www.ncleg.gov/Legislation/Bills/Summaries/2025/H1002"
+      "https://www.ncleg.gov/Legislation/Bills/Summaries/2025/H1002",
+      "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1002v0.pdf",
+      "https://www.energync.org/blog/building-out-data-centers-equitably-requires-thoughtful-policy-intervention/",
+      "https://ncnewsline.com/2026/03/16/apex-weighs-pause-on-data-centers-as-resistance-spreads-across-nc/"
     ],
     "bill_name": "HB 1002",
     "bill_url": "https://www.ncleg.gov/BillLookUp/2025/H1002",
-    "last_updated": "2026-02-01",
+    "last_updated": "2026-03-19",
     "lat": 35.7796,
     "lng": -78.6382,
     "opposition_groups": []
@@ -2347,10 +2367,11 @@
     "date": "2025-06-01",
     "summary": "Clark Township enacted a 1-year moratorium on data center development in June 2025, making it one of the earliest communities in Michigan to take preemptive action, months before the broader wave that grew to at least 27 communities. The statewide backlash culminated in bipartisan House Bills 5594-5596 proposing a construction halt through April 2027.",
     "sources": [
-      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
+      "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/"
     ],
     "opposition_groups": [],
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Chippewa County",
     "county_lean": "R"
@@ -2499,10 +2520,12 @@
     "petition_signatures": null,
     "summary": "Stax proposes a 50MW Bitcoin mining operation at Franklin Bluffs on the Dalton Highway, with plans to scale to 1GW. Would burn natural gas. Environmentalists and academics slam the proposal for industrializing the sensitive Arctic.",
     "sources": [
-      "https://alaskabeacon.com/2025/06/03/new-alaska-bitcoin-mine-would-use-as-much-power-as-the-states-largest-coal-plant-produces/"
+      "https://alaskabeacon.com/2025/06/03/new-alaska-bitcoin-mine-would-use-as-much-power-as-the-states-largest-coal-plant-produces/",
+      "https://www.ktoo.org/2025/06/04/new-alaska-bitcoin-mine-would-use-as-much-power-as-the-states-largest-coal-plant-produces/",
+      "https://www.adn.com/business-economy/2025/06/05/new-alaska-bitcoin-mine-would-use-as-much-power-as-the-states-largest-coal-plant-produces/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -2618,10 +2641,12 @@
     "petition_signatures": null,
     "summary": "Comprehensive data center regulation. Defines 'qualified large-scale data centers' (25,000+ sq ft, $250M+ investment). Eliminates electricity sales tax exemption. Extends IT equipment exemption from 20 to 35 years. Imposes $2M-$5M annual fees based on peak electrical demand. Requires prevailing wages. Passed House 85-43, Senate 40-26.",
     "sources": [
-      "https://www.house.mn.gov/sessiondaily/Story/18838"
+      "https://www.house.mn.gov/sessiondaily/Story/18838",
+      "https://www.revisor.mn.gov/bills/94/2025/1/HF/16/versions/0/",
+      "https://climate-xchange.org/2026/01/lessons-learned-for-data-center-regulation-a-conversation-with-minnesota-advocates/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "HF 16 (Data Center Regulation Act)",
@@ -2679,11 +2704,14 @@
     "status": "enacted",
     "summary": "SB 6, signed by Governor Abbott on June 20, 2025, imposes major data center regulations: facilities with 75+ MW must shoulder grid connection costs, maintain remote disconnect capability, disclose on-site backup generation capable of meeting 50% of site demand to ERCOT, and demonstrate financial commitment. The PUCT is implementing through multiple rulemaking dockets throughout 2026.",
     "sources": [
-      "https://www.datacenterfrontier.com/energy/article/55298872/texas-senate-bill-6-a-bellwether-on-how-states-may-approach-data-center-energy-use"
+      "https://www.datacenterfrontier.com/energy/article/55298872/texas-senate-bill-6-a-bellwether-on-how-states-may-approach-data-center-energy-use",
+      "https://www.mcguirewoods.com/client-resources/alerts/2025/7/texas-senate-bill-6-significantly-expands-regulatory-oversight-over-large-loads-in-ercot/",
+      "https://datacenterfrontier.com/energy/article/55298872/texas-senate-bill-6-a-bellwether-on-how-states-may-approach-data-center-energy-use",
+      "https://www.pillsburylaw.com/en/news-and-insights/texas-sb6-transmission-fees-interconnected-standards-large-load-customers-colocated-loads.html"
     ],
     "bill_name": "SB 6",
     "bill_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB6",
-    "last_updated": "2025-06-20",
+    "last_updated": "2026-03-19",
     "lat": 30.2672,
     "lng": -97.7431,
     "opposition_groups": []
@@ -4985,10 +5013,13 @@
     "petition_signatures": null,
     "summary": "Social Circle approved a 90-day moratorium on new data center applications after being overwhelmed with seven applications. Despite the moratorium, the council approved a controversial rezoning for 151 acres, drawing resident opposition. Part of a statewide wave of Georgia moratoriums.",
     "sources": [
-      "https://www.wsbtv.com/news/local/walton-county/city-social-circle-bans-new-data-center-applications-90-days/JGRPK34JC5AGRA5V5KH6YCXVWA/"
+      "https://www.wsbtv.com/news/local/walton-county/city-social-circle-bans-new-data-center-applications-90-days/JGRPK34JC5AGRA5V5KH6YCXVWA/",
+      "https://www.covnews.com/news/cities/social-circle-enacts-90-day-moratorium-data-centers-vote-annexations/",
+      "https://www.covnews.com/news/cities/social-circle-council-lifts-moratorium-new-data-center-requests/",
+      "https://www.rockdalenewtoncitizen.com/news/social-circle-enacts-moratorium-on-data-centers/article_4b9299ba-d144-4af8-a695-57c4a6a99e23.html"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -6488,7 +6519,9 @@
     "date": "2025-10-01",
     "summary": "Gordon County enacted a preemptive data center moratorium, despite no active data center proposals. County officials studied ordinances in Jackson, Spalding, and Wayne counties to develop regulations for the design, construction, operation, and remediation of data centers. Officials said the goal is to ensure that 'when data centers come, we will get the benefits of them, but not the burdens.' The county near Calhoun determined it needs specific regulations before any data center development can proceed.",
     "sources": [
-      "https://www.northwestgeorgianews.com/calhoun_times/news/local/gordon-county-enacts-preemptive-data-center-moratorium/article_aee14801-6dd3-4b94-a453-2a3e684a8318.html"
+      "https://www.northwestgeorgianews.com/calhoun_times/news/local/gordon-county-enacts-preemptive-data-center-moratorium/article_aee14801-6dd3-4b94-a453-2a3e684a8318.html",
+      "https://www.northwestgeorgianews.com/calhoun_times/news/local/gordon-county-extends-stop-on-data-centers-as-zoning-language-is-updated/article_e989102c-da68-4047-8989-78fc5ad79e1c.html",
+      "https://www.gpb.org/news/2025/10/22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they"
     ],
     "opposition_groups": [],
     "last_updated": "2026-03-19",
@@ -6526,10 +6559,13 @@
     "petition_signatures": null,
     "summary": "Albemarle County proposed a zoning overlay for data centers that would designate five areas as appropriate. The Piedmont Environmental Council raised concerns. The county paused the process in October 2025 to evaluate potential legislation from the 2026 Virginia General Assembly session.",
     "sources": [
-      "https://www.crozetgazette.com/2025/10/03/county-supervisors-consider-data-center-regulations/"
+      "https://www.crozetgazette.com/2025/10/03/county-supervisors-consider-data-center-regulations/",
+      "https://www.wmra.org/2025-09-17/data-centers-boom-or-bust-for-albemarle-county",
+      "https://c-ville.com/albemarle-county-weighs-regulation-on-data-center-development/",
+      "https://www.cvilletomorrow.org/how-should-albemarle-county-regulate-data-centers-officials-want-to-hear-what-residents-think/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -8074,7 +8110,10 @@
     "status": "active",
     "summary": "Barberton City Council approved an indefinite moratorium on data centers, prompted by Quantum HPC's proposed data center at the former PPG limestone mine in neighboring Norton. The moratorium remains in place while Barberton completes its updated development code, which will formally define data center regulations.",
     "sources": [
-      "https://www.akron.com/articles/barberton-approves-open-ended-moratorium-on-data-centers/"
+      "https://www.akron.com/articles/barberton-approves-open-ended-moratorium-on-data-centers/",
+      "https://www.wkyc.com/article/news/local/summit-county/norton-residents-push-back-proposed-data-center-quantum-hpc/95-bded910f-b3ba-496f-8a62-f41b5a0506c0",
+      "https://www.thebarbertongazette.com/2025/10/17/norton-data-center-proposal-withdrawn/",
+      "https://www.akron.com/articles/norton-city-council-rejects-data-centers/"
     ],
     "company": "Quantum HPC",
     "opposition_groups": [
@@ -8084,7 +8123,7 @@
     "lng": -81.6051,
     "county_lean": "D",
     "scope": "local",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "petition_url": "https://www.change.org/p/stop-construction-of-project-triton-in-norton-and-barberton-residential-areas",
     "petition_signatures": 1680,
     "energy_mw": 5,
@@ -8118,7 +8157,9 @@
     "petition_signatures": null,
     "summary": "Mitchell County approved moratoriums on utility-scale solar (Resolution #1326-25, Nov 12, 2025, unanimous) and data centers until Dec 31, 2026 (Resolution #1336-25, Nov 25, 2025, 4-1 vote). Supervisor Wherry was the key proponent. The county also has ongoing disputes about the Salt Creek Wind project.",
     "sources": [
-      "https://mitchellcounty.iowa.gov/wp-content/uploads/Board-Proceedings-11-12-25.pdf"
+      "https://mitchellcounty.iowa.gov/wp-content/uploads/Board-Proceedings-11-12-25.pdf",
+      "https://mitchellcounty.iowa.gov/wp-content/uploads/Board-Proceedings-11-25-25.pdf",
+      "https://insideclimatenews.org/news/01032026/iowa-county-data-center-ordinance/"
     ],
     "data_source": "ssrn_moratorium_nation",
     "last_updated": "2026-03-19",
@@ -8199,10 +8240,12 @@
     "petition_signatures": null,
     "summary": "TAC Data Centers pulled out of its option to lease 569 acres in Great Falls. The project would have demanded 600MW by 2030 \u2014 approximately 88% of what Montana's existing customers use.",
     "sources": [
-      "https://dailymontanan.com/2025/11/17/data-center-pulls-out-of-great-falls-group-says-others-charge-ahead/"
+      "https://dailymontanan.com/2025/11/17/data-center-pulls-out-of-great-falls-group-says-others-charge-ahead/",
+      "https://theelectricgf.com/2025/06/17/gfda-announces-1-billion-proposed-data-center-project/",
+      "https://montanafreepress.org/2025/06/24/for-massive-great-falls-data-center-proposal-energy-supply-is-crucial-to-push-project-forward/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -9818,10 +9861,12 @@
     "petition_signatures": 200,
     "summary": "A $25B, 1.5 GW AI data center campus planned on 2,000 acres near Tonopah, backed by Chamath Palihapitiya. Maricopa County Board unanimously approved industrial rezoning in December 2025 despite ~200 petition signatures from rural residents concerned about water, noise, and property values. Featured in Fortune investigation.",
     "sources": [
-      "https://fortune.com/2025/12/27/ai-data-centers-arizona-hassayampa-ranch/"
+      "https://fortune.com/2025/12/27/ai-data-centers-arizona-hassayampa-ranch/",
+      "https://berryriddell.com/25b-data-center-planned-west-of-phoenix-wins-key-approval-from-county/",
+      "https://www.datacenterdynamics.com/en/news/arizona-land-consulting-buys-land-for-potential-15gw-data-center/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -10982,10 +11027,13 @@
     "petition_signatures": null,
     "summary": "Encourages data centers and large load facilities to participate in demand response energy programs. Incentivizes large electricity users to shift or reduce peak usage to minimize impact on residential and non-industrial customers.",
     "sources": [
-      "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0596?ys=2026RS"
+      "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0596?ys=2026RS",
+      "https://natureforward.org/data-center-bills-for-mdga2026/",
+      "https://marylandmatters.org/2026/01/03/data-center-regulations-2026/",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "SB 596 / HB 940",
     "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0596?ys=2026RS",
@@ -11019,10 +11067,13 @@
     "petition_signatures": null,
     "summary": "Reduces existing data center sales and use tax exemptions to cover only replacement equipment and repairs, rather than new construction. Significantly narrows the scope of Virginia's signature data center incentive program.",
     "sources": [
-      "https://lis.virginia.gov/bill-details/20261/HB961"
+      "https://lis.virginia.gov/bill-details/20261/HB961",
+      "https://insideclimatenews.org/news/18022026/virginia-data-center-tax-exemption/",
+      "https://virginiamercury.com/2026/03/17/data-center-bills-dominated-this-years-general-assembly-heres-what-passed/",
+      "https://www.pecva.org/region/regional-state-national-region/2026-data-center-reform-legislation/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 961",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB961",
@@ -11094,10 +11145,13 @@
     "petition_signatures": null,
     "summary": "Filed by House Speaker Kyle Hilbert. Ends data center eligibility for the state property tax exemption program (first five years free) for facilities not operational by January 1, 2027.",
     "sources": [
-      "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
+      "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/",
+      "https://legiscan.com/OK/bill/HB4424/2026",
+      "https://www.readfrontier.org/stories/from-limiting-tax-breaks-to-moratoriums-oklahoma-legislators-eye-new-rules-for-data-centers/",
+      "https://www.okhouse.gov/posts/news-20260217_6"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 4424",
     "bill_url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB4424&session=2600",
@@ -11513,10 +11567,12 @@
       "Economic Development Responsibility Alliance of Michigan (EDRA of MI)"
     ],
     "sources": [
-      "https://planetdetroit.org/2026/01/data-center-moratorium-northville/"
+      "https://planetdetroit.org/2026/01/data-center-moratorium-northville/",
+      "https://www.wxyz.com/news/data-centers/northville-city-council-unanimously-approves-12-month-data-center-moratorium",
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-06"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "henry-county-ga-2026-01-06",
@@ -11549,10 +11605,12 @@
     "petition_signatures": null,
     "summary": "Henry County began drafting strict data center regulations including 200-foot buffers, 1,000-foot residential setbacks, noise limits of 55/45 dBA day/night, a ban on open evaporative cooling, and 30% open space preservation. First public hearing held January 6, 2026.",
     "sources": [
-      "https://www.atlantanewsfirst.com/2026/01/06/henry-county-commissioners-look-put-guardrails-any-future-data-centers/"
+      "https://www.atlantanewsfirst.com/2026/01/06/henry-county-commissioners-look-put-guardrails-any-future-data-centers/",
+      "https://www.fox5atlanta.com/news/henry-county-weighs-new-rules-data-centers-after-public-hearing",
+      "https://www.datacenterdynamics.com/en/news/another-data-center-campus-is-being-planned-outside-atlanta-georgia-hampton-technology-park-owner-llc-has-filed-a-developments-of-regional-impact-dri-application-with-the-georgia-department-of-community-affairs-for-a-new-campus-in-the-city-of-hampto/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -12551,10 +12609,13 @@
       "Yukon residents"
     ],
     "sources": [
-      "https://okcfox.com/news/project-oklahoma/new-data-center-coming-to-yukon-generating-contention"
+      "https://okcfox.com/news/project-oklahoma/new-data-center-coming-to-yukon-generating-contention",
+      "https://www.news9.com/story/68dc6593b59e144c5aa9c263/yukon-weighs-data-center-deal-amid-water-power-and-resident-concern",
+      "https://www.okenergytoday.com/2026/01/yukon-city-council-approves-another-step-toward-data-center/",
+      "https://www.okenergytoday.com/2025/12/proposed-yukon-data-center-not-a-done-deal/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "utah-statewide-hb-76-ut-2026-01-15",
@@ -12584,10 +12645,12 @@
     "petition_signatures": null,
     "summary": "Data Center Water Transparency Amendments. Requires data centers (10,000+ sq ft) to notify Division of Water Quality, Division of Water Rights, and water providers of intent to construct. Must report projected water usage, discharge types, treatment methods, and conservation efforts. Passed House 72-0, now in Senate.",
     "sources": [
-      "https://le.utah.gov/~2026/bills/static/HB0076.html"
+      "https://le.utah.gov/~2026/bills/static/HB0076.html",
+      "https://www.abc4.com/news/politics/ut-house-committee-advances-hb-76/",
+      "https://www.upr.org/politics/2026-03-17/how-utahs-2026-legislative-session-reshaped-water-policy"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 76",
     "bill_url": "https://le.utah.gov/~2026/bills/static/HB0076.html",
@@ -12936,10 +12999,12 @@
     "petition_signatures": null,
     "summary": "Establishes moratorium on data center construction from July 1, 2026 to December 31, 2028. Creates 14-member Data Center Impact Commission to conduct three-year study of impacts on energy, environment, water, health, and housing. Report due October 1, 2029.",
     "sources": [
-      "https://legiscan.com/GA/bill/HB1059/2025"
+      "https://legiscan.com/GA/bill/HB1059/2025",
+      "https://georgiarecorder.com/2026/01/20/outrage-over-surge-of-data-centers-in-georgia-inspires-wave-of-bipartisan-bills/",
+      "https://www.wabe.org/georgia-lawmakers-debating-data-center-moratorium-and-regulation-bills-in-legislature/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 1059",
     "bill_url": "https://legiscan.com/GA/bill/HB1059/2025",
@@ -13013,10 +13078,12 @@
     "petition_signatures": null,
     "summary": "A six-building, 5.1M sq ft data center campus proposed on 410 acres directly across from Parkland High School. All residents who spoke at the LVPC meeting opposed it, citing noise, emissions, power grid strain, and sinkholes across the site.",
     "sources": [
-      "https://www.mcall.com/2026/01/20/i-do-not-want-this-in-my-backyard-south-whitehall-residents-push-back-against-proposed-data-center-at-lehigh-valley-planners-meeting/"
+      "https://www.mcall.com/2026/01/20/i-do-not-want-this-in-my-backyard-south-whitehall-residents-push-back-against-proposed-data-center-at-lehigh-valley-planners-meeting/",
+      "https://www.lehighvalleynews.com/parkland/5-1-million-square-foot-atlas-industrial-data-center-could-be-built-across-from-parkland-high-school",
+      "https://www.wfmz.com/news/area/lehighvalley/review-of-massive-data-center-complex-near-parkland-high-school-delayed/article_ff6b9e12-71c7-4e1f-b400-714609fc8ace.html"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -13190,10 +13257,12 @@
       "Economic Development Responsibility Alliance of Michigan (EDRA of MI)"
     ],
     "sources": [
-      "https://www.detroitnews.com/story/news/local/oakland-county/2026/01/21/pontiac-latest-community-to-pass-data-center-moratorium/88286730007/"
+      "https://www.detroitnews.com/story/news/local/oakland-county/2026/01/21/pontiac-latest-community-to-pass-data-center-moratorium/88286730007/",
+      "https://planetdetroit.org/2026/03/lawmakers-propose-michigan-data-center-moratorium/",
+      "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "sylvan-township-mi-2026-01-22",
@@ -13475,10 +13544,13 @@
     "petition_signatures": null,
     "summary": "Originally revoked data center sales tax exemptions; amended to impose 1% sales tax on data centers with proceeds going to host local governments. Includes controversial provision removing local zoning control for less-desirable agricultural land. Passed House 54-45, stalled in Senate.",
     "sources": [
-      "https://indianapublicradio.org/news/2026/03/at-a-pivotal-moment-for-data-centers-indiana-lawmakers-take-little-action/"
+      "https://indianapublicradio.org/news/2026/03/at-a-pivotal-moment-for-data-centers-indiana-lawmakers-take-little-action/",
+      "https://www.ipm.org/news/2026-02-04/house-bill-could-provide-benefit-to-communities-that-host-data-centers",
+      "https://indianaeconomicdigest.net/Content/Default/Top-Story/Article/Indiana-House-Bill-1333-would-give-local-governments-slice-of-data-centers-tax-break/-3/5309/120948",
+      "https://www.wfyi.org/news/articles/data-center-legislation-indiana-general-assembly-2026"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 1333",
     "bill_url": "https://iga.in.gov/pdf-documents/124/2026/house/bills/HB1333/HB1333.03.COMH.pdf",
@@ -14332,11 +14404,14 @@
     "status": "pending",
     "summary": "Requires data center owners to pay full infrastructure costs (SB 2128), establishes data center impact reviews (SB 2653), addresses tariff structures (SB 1999), amends qualified data center tax provisions (SB 2584), and ties WARN Act/labor compliance to tax credits (HB 2047). Multiple bills pending in the 114th General Assembly, deferred to Senate Commerce and Labor Committee hearing March 10, 2026.",
     "sources": [
-      "https://legiscan.com/TN/bill/SB2128/2025"
+      "https://legiscan.com/TN/bill/SB2128/2025",
+      "https://www.fox13memphis.com/news/proposed-legislation-in-tennessee-requires-data-centers-to-pay-for-increased-energy-costs/article_15971aee-39e5-4a61-96ea-8e8e13c99fea.html",
+      "https://servercountry.org/policy/tennessee/",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
     ],
     "bill_name": "SB 2128",
     "bill_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2128&GA=114",
-    "last_updated": "2026-02-01",
+    "last_updated": "2026-03-19",
     "lat": 36.1627,
     "lng": -86.7816,
     "opposition_groups": []
@@ -14351,11 +14426,13 @@
     "status": "active",
     "summary": "HB 2756 protects retail electricity customers from data center grid connection costs. Additional bills HB 2795 (preempts counties from preventing SMR construction near data centers) also advanced. Several other proposals (HB 2452, HB 4009, HB 2457) were killed or failed.",
     "sources": [
-      "https://www.multistate.us/insider/2026/3/3/local-government-data-center-oversight-becomes-flashpoint-in-state-capitols"
+      "https://www.multistate.us/insider/2026/3/3/local-government-data-center-oversight-becomes-flashpoint-in-state-capitols",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues",
+      "https://www.azce.org/news/arizona-utilities-push-14-rate-hikes-as-data-centers-drive-soaring-energy-demand"
     ],
     "bill_name": "HB 2756",
     "bill_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2756P.pdf",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-19",
     "lat": 33.4484,
     "lng": -112.074,
     "opposition_groups": []
@@ -14388,10 +14465,12 @@
     "petition_signatures": null,
     "summary": "Prohibits utilities from serving data centers with 100+ MW aggregate contract capacity unless the Public Service Commission approves a specific tariff with minimum requirements including contract durations, early termination fees, load ramp terms, and financial assurances.",
     "sources": [
-      "https://apps.legislature.ky.gov/record/26rs/HB544.html"
+      "https://apps.legislature.ky.gov/record/26rs/HB544.html",
+      "https://www.lpm.org/news/2026-02-12/gop-bill-seeks-guardrails-for-new-data-centers-to-pay-their-own-way-in-kentucky",
+      "https://www.datacenterdynamics.com/en/news/kentucky-house-proposes-new-rate-class-for-large-load-data-centers/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 544",
     "bill_url": "https://apps.legislature.ky.gov/record/26rs/HB544.html",
@@ -21688,7 +21767,8 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.wfyi.org/news/articles/data-center-legislation-indiana-general-assembly-2026"
+      "https://www.wfyi.org/news/articles/data-center-legislation-indiana-general-assembly-2026",
+      "https://legiscan.com/IN/bill/HB1210/2026?guid=6RlGlEywQZTA71LnwuwEq"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21703,7 +21783,8 @@
     "status": "enacted",
     "summary": "Omnibus DLGF bill with data center provision requiring companies receiving future sales tax exemptions to pay up to 1% of electricity bill savings each quarter to local governments. Passed House 91-3, Senate 48-0. Signed by Gov. Braun on March 12, 2026.",
     "bill_name": "HB 1210",
-    "bill_url": "https://iga.in.gov/legislative/2026/bills/house/1210"
+    "bill_url": "https://iga.in.gov/legislative/2026/bills/house/1210",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -21767,7 +21848,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.kcbd.com/2026/01/16/lubbock-data-center-proposal-heads-city-council-after-planning-commission-rejection/"
+      "https://www.kcbd.com/2026/01/16/lubbock-data-center-proposal-heads-city-council-after-planning-commission-rejection/",
+      "https://www.datacenterdynamics.com/en/news/936-acre-data-center-could-come-to-lubbock-texas/"
     ],
     "company": "Texas Solar Works",
     "hyperscaler": "",
@@ -21785,7 +21867,7 @@
     "opposition_groups": [
       "Lubbock Compact"
     ],
-    "last_updated": "2026-03-18"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21875,7 +21957,8 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.wzzm13.com/article/news/local/cascade-township-board-unanimously-approves-6-month-moratorium-data-center-approvals/69-77ed781c-e14a-4390-b8e4-cbe0234416a7"
+      "https://www.wzzm13.com/article/news/local/cascade-township-board-unanimously-approves-6-month-moratorium-data-center-approvals/69-77ed781c-e14a-4390-b8e4-cbe0234416a7",
+      "https://www.fox17online.com/news/local-news/east-grand-rapids-forest-hills-cascade/cascade-township-pauses-data-center-development-for-six-months"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21888,7 +21971,8 @@
     "action_type": "moratorium",
     "date": "2026-02-26",
     "status": "active",
-    "summary": "Township Board voted unanimously for 6-month moratorium on data center permits. Preemptive action \u2014 no proposal pending. Created subcommittee to study zoning amendments."
+    "summary": "Township Board voted unanimously for 6-month moratorium on data center permits. Preemptive action \u2014 no proposal pending. Created subcommittee to study zoning amendments.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21969,7 +22053,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.13wmaz.com/article/news/local/forsyth-monroe/monroe-county-passes-data-center-moratorium-will-review-potential-limitations/93-195cbb55-5a2a-4f29-879f-c0f3f859aef2"
+      "https://www.13wmaz.com/article/news/local/forsyth-monroe/monroe-county-passes-data-center-moratorium-will-review-potential-limitations/93-195cbb55-5a2a-4f29-879f-c0f3f859aef2",
+      "https://www.gpb.org/news/2025/08/06/despite-the-promise-of-millions-of-dollars-every-year-monroe-county-says-no-data"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21989,7 +22074,7 @@
     "opposition_facebook": "https://www.facebook.com/groups/savehighfallslake/",
     "petition_url": "https://www.change.org/p/protect-high-falls-lake-the-towaliga-watershed-from-data-center-industrial-development",
     "petition_signatures": 14000,
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -22107,7 +22192,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center"
+      "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center",
+      "https://www.theadvocate.com/baton_rouge/news/business/hut8-funds-west-feliciana-water-improvements/article_25863a2c-70ff-459c-8c39-420f748130f9.html",
+      "https://www.datacenterdynamics.com/en/news/hut-8-plans-12bn-ai-data-center-in-west-feliciana-parish-louisiana/"
     ],
     "company": "Hut 8",
     "hyperscaler": "",
@@ -22122,7 +22209,8 @@
     "status": "approved",
     "summary": "Hut 8's $10B River Bend AI data center campus received zoning approval. Phase I: 245 MW facility, operations expected Q2 2027. Near decommissioned River Bend Nuclear Station. 75 direct + 193 indirect jobs.",
     "investment_usd": 10000000000,
-    "energy_mw": 245
+    "energy_mw": 245,
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -22156,7 +22244,9 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.congress.gov/bill/119th-congress/house-bill/6984"
+      "https://www.congress.gov/bill/119th-congress/house-bill/6984",
+      "https://www.congress.gov/bill/119th-congress/house-bill/6984/text",
+      "https://menendez.house.gov/media/press-releases/-menendez-casar-introduce-groundbreaking-legislation-to-protect-americans-from-financial-and-environmental-impacts-of-ai-data-centers"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22171,14 +22261,17 @@
     "status": "pending",
     "summary": "Requires EPA to collect and report quarterly on data center water consumption, water reuse, pollutants, and impacts on local water systems. Requires EIA to collect data every 6 months on total energy consumed by each US data center.",
     "bill_name": "H.R. 6984 - Data Center Transparency Act",
-    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6984"
+    "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6984",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.legis.ga.gov/legislation/73559"
+      "https://www.legis.ga.gov/legislation/73559",
+      "https://www.gpb.org/news/2026/01/28/resistance-data-centers-fuels-flood-of-georgia-bills-targeting-the-industry",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22193,14 +22286,17 @@
     "status": "pending",
     "summary": "Moves the sunset date for the high-technology data center equipment sales and use tax exemption from December 31, 2031 to December 31, 2026, effectively ending the exemption program. The exemption has cost the state an estimated $778M/year.",
     "bill_name": "HB 559 - Data Center Equipment Tax Exemption Sunset",
-    "bill_url": "https://www.legis.ga.gov/legislation/70171"
+    "bill_url": "https://www.legis.ga.gov/legislation/70171",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.legis.ga.gov/legislation/73808"
+      "https://www.legis.ga.gov/legislation/73808",
+      "https://www.13wmaz.com/article/news/local/forsyth-monroe/georgias-data-center-boom-could-be-coming-for-your-electric-bill-new-law/93-cd660002-ab1b-4117-8c1d-62ddb5362c18",
+      "https://www.ajc.com/business/2026/03/georgia-senate-votes-to-claw-back-data-center-tax-breaks/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22215,14 +22311,17 @@
     "status": "pending",
     "summary": "Moves sunset date for data center sales tax exemption from January 1, 2032 to January 1, 2027. Functionally identical in intent to HB 559.",
     "bill_name": "SB 408 - Data Center Tax Exemption Sunset",
-    "bill_url": "https://www.legis.ga.gov/legislation/70803"
+    "bill_url": "https://www.legis.ga.gov/legislation/70803",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/"
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/",
+      "https://boisedev.com/news/2026/02/09/bipartisan-bill-would-limit-tax-exemptions-for-data-centers-add-new-requirements-for-water-power-usage/",
+      "https://idahofreedom.org/house-bill-820-tax-exemptions-data-centers/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22238,14 +22337,16 @@
     "summary": "Revises data center sales tax and property tax exemptions. Requires qualifying businesses to receive electricity under rate schedules that fully recover all utility costs. Mandates written notice to local water providers and Department of Water Resources detailing anticipated water consumption needs.",
     "bill_name": "H 820 - Data Center Tax Exemption Reform",
     "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://legislature.idaho.gov/sessioninfo/2026/legislation/HB756/"
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/HB756/",
+      "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0756/",
+      "https://idahofreedom.org/house-bill-756-electric-new-large-loads/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22261,14 +22362,16 @@
     "summary": "Addresses state tax incentives for data centers created by House Bill 521 in 2020. Part of legislative efforts to rein in data center tax exemptions and curb impact on power and water resources.",
     "bill_name": "HB 756 - Data Center Regulation",
     "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0756/",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.flsenate.gov/Session/Bill/2026/1517"
+      "https://www.flsenate.gov/Session/Bill/2026/1517",
+      "https://www.hklaw.com/en/insights/publications/2026/02/proposed-florida-legislation-creates-new-regulatory-framework",
+      "https://floridapolitics.com/archives/774983-senate-panel-advances-new-data-center-rules-as-critics-warn-of-local-problems-regulatory-red-tape/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22283,7 +22386,8 @@
     "status": "defeated",
     "summary": "Requires data center developers to disclose projected energy, water, carbon emissions, noise, and environmental impacts at application stage. Imposes penalties for noncompliance. Session ended without committee hearing.",
     "bill_name": "HB 1517 - Florida Data Center Transparency Act",
-    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1517"
+    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1517",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -22409,7 +22513,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.fredericknewspost.com/news/continuing_coverage/data_centers/pippy-proposes-data-center-moratorium-bill-for-frederick-county/article_a31f3fc5-5c63-5255-9dae-2077932ea181.html"
+      "https://www.fredericknewspost.com/news/continuing_coverage/data_centers/pippy-proposes-data-center-moratorium-bill-for-frederick-county/article_a31f3fc5-5c63-5255-9dae-2077932ea181.html",
+      "https://www.bayjournal.com/news/energy/maryland-counties-to-data-center-industry-slow-down/article_c8362372-9a29-4ef9-925a-c81840390a95.html"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22425,7 +22530,7 @@
     "summary": "House Minority Whip Jesse Pippy (R) proposed a county-specific moratorium on new data centers until the statewide impact study (due Sept. 1, 2026) is completed. Separate from the county council's unanimous Feb. 2 vote to pause permitting and the citizen referendum drive (15,000+ signatures).",
     "bill_name": "Pippy Frederick County Data Center Moratorium",
     "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0120?ys=2026RS",
-    "last_updated": "2026-03-15"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -22520,7 +22625,9 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.sgvtribune.com/2026/03/12/in-el-monte-verbal-altercation-in-city-council-chambers-postpones-debate-on-data-centers-and-sanctuary-law/"
+      "https://www.sgvtribune.com/2026/03/12/in-el-monte-verbal-altercation-in-city-council-chambers-postpones-debate-on-data-centers-and-sanctuary-law/",
+      "https://www.whittierdailynews.com/2026/03/12/in-el-monte-verbal-altercation-in-city-council-chambers-postpones-debate-on-data-centers-and-sanctuary-law/",
+      "https://www.sgvtribune.com/2026/03/17/el-monte-city-council-set-to-meet-again-after-verbal-altercation-ended-last-meeting/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22550,7 +22657,9 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB978"
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB978",
+      "https://sd25.senate.ca.gov/news/senator-perez-introduces-legislation-protect-communities-amid-unprecedented-growth-data",
+      "https://www.datacenterdynamics.com/en/news/californian-senator-proposes-bill-to-create-new-rate-class-for-large-load-data-centers/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22572,7 +22681,8 @@
     "status": "pending",
     "bill_name": "SB 978 - Data Center Community Accountability Act",
     "bill_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB978",
-    "summary": "Bans backup diesel generators at data centers, prevents data centers from placing electricity costs onto ratepayers, directs PUC to establish a special rate structure for large-scale energy users (75+ MW), ensures hyperscale data center construction uses local skilled workforce and pays prevailing wages. Introduced by Sen. Sasha Ren\u00e9e P\u00e9rez (D-Pasadena)."
+    "summary": "Bans backup diesel generators at data centers, prevents data centers from placing electricity costs onto ratepayers, directs PUC to establish a special rate structure for large-scale energy users (75+ MW), ensures hyperscale data center construction uses local skilled workforce and pays prevailing wages. Introduced by Sen. Sasha Ren\u00e9e P\u00e9rez (D-Pasadena).",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -22643,7 +22753,9 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.oregonlive.com/politics/2025/03/oregon-governor-creates-advisory-committee-on-data-center-growth.html"
+      "https://www.oregonlive.com/politics/2025/03/oregon-governor-creates-advisory-committee-on-data-center-growth.html",
+      "https://www.opb.org/article/2026/01/20/oregon-data-center-advisory-committee/",
+      "https://oregoncapitalchronicle.com/2026/01/20/oregon-governor-forms-new-committee-to-advise-on-massive-data-center-growth/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22664,7 +22776,8 @@
     "date": "2025-03-01",
     "status": "active",
     "bill_name": "Gov. Kotek Data Center Advisory Committee",
-    "summary": "Gov. Tina Kotek created a seven-member Data Center Advisory Committee to develop policy recommendations for data center expansion aligned with the state's 'Prosperity Roadmap.' Committee chaired by Margaret Hoffmann and Michael Jung, with policy recommendations due to Legislature by October 2026."
+    "summary": "Gov. Tina Kotek created a seven-member Data Center Advisory Committee to develop policy recommendations for data center expansion aligned with the state's 'Prosperity Roadmap.' Committee chaired by Margaret Hoffmann and Michael Jung, with policy recommendations due to Legislature by October 2026.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "federal",
@@ -22731,7 +22844,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.houstonpublicmedia.org/articles/technology/2026/02/09/542911/texas-water-use-data-center-study-puct/"
+      "https://www.houstonpublicmedia.org/articles/technology/2026/02/09/542911/texas-water-use-data-center-study-puct/",
+      "https://www.kxan.com/news/texas/texas-regulators-will-ask-data-centers-to-begin-reporting-their-water-usage/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22752,7 +22866,8 @@
     "date": "2026-02-09",
     "status": "active",
     "bill_name": "PUCT Data Center Water Use Survey",
-    "summary": "Public Utility Commission of Texas conducting a survey of water use by data centers and virtual currency mining facilities. Authorized by state budget rider from Rep. Armando Walle. Survey asks about direct water use, cooling technology, and indirect water use. Results shared with Texas Water Development Board and TCEQ, due to legislature by end of 2026. Texas has 464 data centers with 70+ under development."
+    "summary": "Public Utility Commission of Texas conducting a survey of water use by data centers and virtual currency mining facilities. Authorized by state budget rider from Rep. Armando Walle. Survey asks about direct water use, cooling technology, and indirect water use. Results shared with Texas Water Development Board and TCEQ, due to legislature by end of 2026. Texas has 464 data centers with 70+ under development.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -22792,7 +22907,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://myrgv.com/local-news/2026/02/19/harlingen-drafting-ordinance-aimed-at-data-centers/"
+      "https://myrgv.com/local-news/2026/02/19/harlingen-drafting-ordinance-aimed-at-data-centers/",
+      "https://www.rgvbusinessjournal.com/news/28/02/2026/harlingen-data-center-regulation-eneus-energy/"
     ],
     "company": "Eneus Energy",
     "hyperscaler": "",
@@ -22813,7 +22929,7 @@
     "date": "2026-02-26",
     "status": "pending",
     "summary": "Harlingen city officials are drafting ordinances to regulate data center development in response to Eneus Energy's proposed 1,785-acre data center on Cameron County land near Valley International Airport. Two parallel approaches are being developed: Mayor Norma Sepulveda and City Attorney Mark Sossi are drafting zoning-based regulations, while Commissioner Daniel Lopez's proposed ordinance focuses on natural resource preservation. Concerns were heightened after the Harlingen WaterWorks System board entered into an agreement to potentially supply the data center with up to 4.6 million gallons of sewer water per day.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -22887,7 +23003,8 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.tapinto.net/towns/east-windsor-hightstown/articles/a-packed-planning-board-hearing-debated-the-future-of-an-east-windsor-data-center-expansion"
+      "https://www.tapinto.net/towns/east-windsor-hightstown/articles/a-packed-planning-board-hearing-debated-the-future-of-an-east-windsor-data-center-expansion",
+      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/business-and-finance/articles/data-center-company-looking-to-expand-east-windsor-location-if-approved-by-planning-board"
     ],
     "company": "QTS Data Centers",
     "hyperscaler": "",
@@ -22908,7 +23025,7 @@
     "date": "2026-03-09",
     "status": "ongoing",
     "summary": "QTS Data Centers is undertaking a multi-phase expansion of its 194-acre East Windsor campus on Princeton Hightstown Road, formerly occupied by McGraw-Hill, with plans for 554,000 square feet of modernized facilities. Residents from the Twin Rivers community packed Planning Board hearings to challenge the expansion, raising concerns about water consumption, energy grid strain, and environmental risks from the facility's growing footprint.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "federal",
@@ -22946,7 +23063,9 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.congress.gov/bill/119th-congress/house-bill/6529"
+      "https://www.congress.gov/bill/119th-congress/house-bill/6529",
+      "https://www.congress.gov/bill/119th-congress/house-bill/6529/text",
+      "https://www.benton.org/headlines/reps-landsman-beyer-introduce-bill-protect-residents-rising-costs-caused-ai-data-centers"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22968,7 +23087,8 @@
     "status": "pending",
     "bill_name": "H.R. 6529 - Protecting Families from AI Data Center Energy Costs Act",
     "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6529",
-    "summary": "Directs FERC to convene a technical conference within 90 days on how large electricity loads \u2014 especially AI data centers \u2014 affect residential and small commercial customers' bills. FERC must submit a report with recommendations to Congressional energy committees within 180 days."
+    "summary": "Directs FERC to convene a technical conference within 90 days on how large electricity loads \u2014 especially AI data centers \u2014 affect residential and small commercial customers' bills. FERC must submit a report with recommendations to Congressional energy committees within 180 days.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23296,7 +23416,9 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://legiscan.com/RI/bill/S2346/2026"
+      "https://legiscan.com/RI/bill/S2346/2026",
+      "https://legiscan.com/RI/bill/S2346/2026?guid=5O0yHYZColggVTQNUMF0xW",
+      "https://www.bostonglobe.com/2026/03/12/metro/ri-bills-tax-incentives-data-centers/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23320,14 +23442,17 @@
     "status": "defeated",
     "bill_name": "S 2346 - Data Center Tax Incentives",
     "bill_url": "https://webserver.rilegislature.gov/BillText/BillText26/SenateText26/S2346.pdf",
-    "summary": "Establishes property, tangible, sales and use tax exemptions as incentives for qualified data centers locating in Rhode Island. Senate Commerce Committee recommended held for further study on March 10."
+    "summary": "Establishes property, tangible, sales and use tax exemptions as incentives for qualified data centers locating in Rhode Island. Senate Commerce Committee recommended held for further study on March 10.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://legiscan.com/RI/bill/S2776/2026"
+      "https://legiscan.com/RI/bill/S2776/2026",
+      "https://legiscan.com/RI/bill/S2776/2026?guid=6TLvo0JczIYjOLHFli4UeK",
+      "https://pbn.com/legislation-would-regulate-data-centers-in-r-i/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23349,14 +23474,16 @@
     "status": "pending",
     "bill_name": "S 2776 - Data Center Infrastructure Costs",
     "bill_url": "https://legiscan.com/RI/bill/S2776/2026",
-    "summary": "Requires data centers needing large amounts of electricity to fund the cost of necessary infrastructure improvements to supply that electricity. Senate Commerce Committee recommended held for further study."
+    "summary": "Requires data centers needing large amounts of electricity to fund the cost of necessary infrastructure improvements to supply that electricity. Senate Commerce Committee recommended held for further study.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.mainepublic.org/climate/2026-03-12/maine-bill-blocks-data-centers-from-state-tax-breaks"
+      "https://www.mainepublic.org/climate/2026-03-12/maine-bill-blocks-data-centers-from-state-tax-breaks",
+      "https://www.newsfromthestates.com/article/amid-mounting-concerns-maine-considers-excluding-data-centers-tax-breaks"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23380,7 +23507,8 @@
     "status": "pending",
     "bill_name": "LD 713 - Exclude Data Centers from Tax Exemptions",
     "bill_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=713&snum=132",
-    "summary": "Excludes data centers from Maine's Business Equipment Tax Exemption (BETE) program (100% property tax break) and the Dirigo Business Incentives Programs. Also requires the Maine DECD to study other state incentives data centers may benefit from. Presented to Taxation Committee March 12, 2026."
+    "summary": "Excludes data centers from Maine's Business Equipment Tax Exemption (BETE) program (100% property tax break) and the Dirigo Business Incentives Programs. Also requires the Maine DECD to study other state incentives data centers may benefit from. Presented to Taxation Committee March 12, 2026.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23416,7 +23544,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.pressherald.com/2026/02/18/new-details-emerge-about-proposed-southern-maine-data-center/"
+      "https://www.pressherald.com/2026/02/18/new-details-emerge-about-proposed-southern-maine-data-center/",
+      "https://sanfordspringvalenews.com/company-eyes-sanford-site-for-data-center/"
     ],
     "company": "Northern New England Energy Company",
     "hyperscaler": "",
@@ -23437,14 +23566,16 @@
     "date": "2026-02-13",
     "status": "delayed",
     "summary": "Northern New England Energy Company is proposing the 'Sanford Woods Industrial and Technical Campus,' a 100-300MW data center covering over 1,000 acres along the Mousam River in Sanford. The developer claims the facility would generate its own power using fuel cells, solar, and battery storage without burdening Maine's grid. The project is threatened by LD 307, a proposed state moratorium on data centers above 20MW. Local residents have raised concerns about noise, environmental damage, and the significant changes a facility of this scale would bring.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://hartfordbusiness.com/article/legislation-would-codify-bring-your-own-power-mandate-for-data-centers-large-power-users/"
+      "https://hartfordbusiness.com/article/legislation-would-codify-bring-your-own-power-mandate-for-data-centers-large-power-users/",
+      "https://hartfordbusiness.com/article/ct-considers-bring-your-own-power-model-for-data-center-development/",
+      "https://www.wshu.org/connecticut-news/2026-02-27/ct-ai-data-centers-regulations"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23467,7 +23598,7 @@
     "bill_name": "CT BYOP Mandate",
     "summary": "Would codify a 'bring your own power' mandate effective July 1, 2026. Generators supplying electricity to large customers (20+ MW) via private connection must obtain a PURA license and produce 100% of projected demand plus reserve margin using new generation. Large customers must post financial guarantees covering 85% of requested service for 10+ years.",
     "bill_url": "https://hartfordbusiness.com/article/legislation-would-codify-bring-your-own-power-mandate-for-data-centers-large-power-users/",
-    "last_updated": "2026-03-15"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23506,7 +23637,8 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.alreporter.com/2026/03/13/alabama-senate-passes-bill-to-rein-in-data-center-tax-incentives/"
+      "https://www.alreporter.com/2026/03/13/alabama-senate-passes-bill-to-rein-in-data-center-tax-incentives/",
+      "https://www.wbrc.com/2026/02/05/alabama-senate-bills-target-data-center-incentives-utility-regulation/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23528,14 +23660,17 @@
     "status": "active",
     "bill_name": "SB 265 - Data Center Tax Incentive Reform",
     "bill_url": "https://legiscan.com/AL/bill/SB265/2026",
-    "summary": "Limits data center abatement periods to 20 years starting Jan 1, 2027. Mandates large-scale data centers using 100+ MW pay state sales and use taxes. Governor may waive taxes for economically struggling counties. Passed Senate March 13, 2026."
+    "summary": "Limits data center abatement periods to 20 years starting Jan 1, 2027. Mandates large-scale data centers using 100+ MW pay state sales and use taxes. Governor may waive taxes for economically struggling counties. Passed Senate March 13, 2026.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.alreporter.com/2026/03/12/bill-to-pause-new-solar-developments-advances-to-alabama-senate-for-vote/"
+      "https://www.alreporter.com/2026/03/12/bill-to-pause-new-solar-developments-advances-to-alabama-senate-for-vote/",
+      "https://pv-magazine-usa.com/2026/03/16/alabama-senator-seeks-statewide-ban-on-solar-installations/",
+      "https://heatmap.news/energy/meta-solar-alabama"
     ],
     "company": "",
     "hyperscaler": "Meta",
@@ -23557,7 +23692,8 @@
     "status": "active",
     "bill_name": "SB 354 - Solar Farm Moratorium",
     "bill_url": "https://legiscan.com/AL/bill/SB354/2026",
-    "summary": "Imposes a one-year moratorium on construction of new large-scale solar power facilities, prompted by opposition to a 4,500-acre solar project in Stockton meant to power Meta's Montgomery data center expansion. Exempts TVA solar capacity and projects already under construction."
+    "summary": "Imposes a one-year moratorium on construction of new large-scale solar power facilities, prompted by opposition to a 4,500-acre solar project in Stockton meant to power Meta's Montgomery data center expansion. Exempts TVA solar capacity and projects already under construction.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23627,7 +23763,9 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://flsenate.gov/Session/Bill/2026/1118"
+      "https://flsenate.gov/Session/Bill/2026/1118",
+      "https://floridapolitics.com/archives/780766-senate-data-center-bills-advance-to-floor-vote-with-sustained-concerns-about-privacy-issues/",
+      "https://www.cfpublic.org/politics/2026-01-20/bill-to-regulate-ai-data-centers-advances-in-florida-senate"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23649,7 +23787,8 @@
     "status": "enacted",
     "bill_name": "CS/SB 1118 - Public Records/Data Centers",
     "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1118",
-    "summary": "Creates public records exemption allowing local governments to keep data center siting plans confidential for up to 12 months. Includes 5-year sunset provision (Oct 2031). Companion to SB 484."
+    "summary": "Creates public records exemption allowing local governments to keep data center siting plans confidential for up to 12 months. Includes 5-year sunset provision (Oct 2031). Companion to SB 484.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23722,7 +23861,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://cclocalnews.org/2024/10/29/despite-resident-objections-data-center-gains-preliminary-ok/"
+      "https://cclocalnews.org/2024/10/29/despite-resident-objections-data-center-gains-preliminary-ok/",
+      "https://bringmethenews.com/minnesota-business/cloudhq-to-invest-over-1-billion-in-new-chaska-data-center"
     ],
     "company": "CloudHQ",
     "hyperscaler": "",
@@ -23743,14 +23883,15 @@
     "date": "2024-10-21",
     "status": "ongoing",
     "summary": "Virginia-based CloudHQ received preliminary approval from the Chaska City Council in October 2024 for a 1.4-million-square-foot data center at the West Creek Corporate Center off Engler Boulevard, despite vocal opposition from residents of the adjacent Clover Ridge neighborhood. Residents objected during a three-hour council meeting, citing the building's height at 72 feet (double the 36-foot zoning limit requiring a variance), construction noise, and the facility's incompatibility with the residential surroundings. The council voted 4-1 in favor.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.warrencountyrecord.com/stories/aldermen-approve-data-center-site-plan,181278"
+      "https://www.warrencountyrecord.com/stories/aldermen-approve-data-center-site-plan,181278",
+      "https://www.datacenterdynamics.com/en/news/crusoe-data-center-could-be-built-west-of-st-louis-missouri/"
     ],
     "company": "Crusoe",
     "hyperscaler": "",
@@ -23771,7 +23912,7 @@
     "date": "2026-01-20",
     "status": "approved",
     "summary": "The Warrenton Board of Aldermen voted unanimously in January 2026 to approve a conditional use permit for a Crusoe data center on a 340-acre parcel, consisting of two 805,000-square-foot buildings and a 40,000-square-foot administration building. More than 40 residents spoke both for and against the proposal, with opponents raising concerns about noise, light pollution, water supply impacts on aquifers, and the pace of the approval process.",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23839,7 +23980,8 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://flatwaterfreepress.org/google-proposes-nebraska-data-center-requiring-more-power-than-all-of-lincoln/"
+      "https://flatwaterfreepress.org/google-proposes-nebraska-data-center-requiring-more-power-than-all-of-lincoln/",
+      "https://update.legislature.ne.gov/?p=39863"
     ],
     "company": "Google",
     "hyperscaler": "Google",
@@ -23861,7 +24003,7 @@
     "status": "pending",
     "bill_name": "LB 1261",
     "summary": "Would allow privately built power generation facilities (1,000+ MW) to serve large industrial customers like data centers, with eminent domain protections. Drafted to enable Google's proposed fourth Nebraska data center requiring 1,000-3,000 MW of power, powered by a privately built natural gas plant.",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "bill_url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63375"
   },
   {
@@ -23869,7 +24011,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.timestribunenews.com/2026/03/13/troy-planning-commission-approves-six-month-moratorium-on-data-processing-centers/"
+      "https://www.timestribunenews.com/2026/03/13/troy-planning-commission-approves-six-month-moratorium-on-data-processing-centers/",
+      "https://www.timestribunenews.com/2026/03/18/troy-city-council-approves-six-month-moratorium-on-data-processing-centers/",
+      "https://www.firstalert4.com/2026/02/11/hundreds-pack-troy-data-center-meeting-held-by-developer-residents-push-back-controversial-project/"
     ],
     "company": "Cloverleaf Infrastructure",
     "hyperscaler": "",
@@ -23892,7 +24036,7 @@
     "date": "2026-03-12",
     "status": "enacted",
     "summary": "The Troy Planning Commission approved a six-month moratorium on data processing centers in March 2026, following the collapse of Cloverleaf Infrastructure's proposal for a 1.4-million-square-foot hyperscale data center sited less than a mile from neighborhoods, daycares, and senior living facilities. Hundreds of residents packed a meeting at Triad High School in February to oppose the project. The moratorium prevents new data center applications while the planning commission strengthens zoning ordinances. Troy Planning Commission approved a six-month moratorium on data processing centers on March 13, after Cloverleaf Infrastructure's 500MW proposal collapsed following massive public opposition. Hundreds of residents packed Triad High School in February. City Council final passage expected March 16.",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "opposition_facebook": "https://www.facebook.com/TroyResidentsForResponsibleGrowth/"
   },
   {
@@ -23900,7 +24044,8 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.nbcchicago.com/news/local/chicago-politics/development-of-ai-data-center-in-chicagos-south-loop-shrouded-in-mystery/3907693/"
+      "https://www.nbcchicago.com/news/local/chicago-politics/development-of-ai-data-center-in-chicagos-south-loop-shrouded-in-mystery/3907693/",
+      "https://www.hydravault.com/press/chicago-approves-construction-of-hydravaults-20-mw-data-center-in-south-loop"
     ],
     "company": "HydraVault",
     "hyperscaler": "",
@@ -23923,7 +24068,7 @@
     "date": "2026-02-17",
     "status": "ongoing",
     "summary": "HydraVault received a full building permit from Chicago to construct a 76,000-square-foot, 20-megawatt AI data center at 2538 S. Wabash Avenue in the South Loop. Residents reported opposition due to energy consumption, water use, and the lack of public hearings \u2014 the project was classified as a 'minor change' by zoning officials, bypassing community review.",
-    "last_updated": "2026-03-16"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -23961,7 +24106,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.stlpr.org/government-politics-issues/2026-02-22/edwardsville-data-center-city-emails-cloverleaf"
+      "https://www.stlpr.org/government-politics-issues/2026-02-22/edwardsville-data-center-city-emails-cloverleaf",
+      "https://illinoisanswers.org/2026/02/21/edwardsville-officials-assured-residents-on-facebook-the-city-had-no-formal-proposal-for-a-data-center-but-city-emails-tell-a-fuller-story/"
     ],
     "company": "Cloverleaf Infrastructure",
     "hyperscaler": "",
@@ -23983,7 +24129,7 @@
     "action_type": "other",
     "date": "2026-02-22",
     "status": "ongoing",
-    "last_updated": "2026-03-18",
+    "last_updated": "2026-03-19",
     "summary": "Cloverleaf Infrastructure has been in detailed discussions with Edwardsville officials since mid-2025 about a data center south of New Poag Road. Obtained emails revealed extensive behind-the-scenes planning despite public assurances of 'no formal proposal.' Residents for Responsible Growth organized a meeting of nearly 300 people in March 2026."
   },
   {
@@ -24054,7 +24200,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.foodandwaterwatch.org/2026/02/26/sprigg-township-oh-passes-data-center-moratorium/"
+      "https://www.foodandwaterwatch.org/2026/02/26/sprigg-township-oh-passes-data-center-moratorium/",
+      "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success"
     ],
     "company": "",
     "hyperscaler": "",
@@ -24084,7 +24231,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.foodandwaterwatch.org/2026/03/09/monroe-township-oh-unanimously-passes-data-center-moratorium/"
+      "https://www.foodandwaterwatch.org/2026/03/09/monroe-township-oh-unanimously-passes-data-center-moratorium/",
+      "https://www.wcpo.com/news/local-news/i-team/adams-county-data-center-gets-federal-permit-as-voters-sign-petitions-to-block-it"
     ],
     "company": "",
     "hyperscaler": "",
@@ -24114,7 +24262,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.nbc4i.com/news/local-news/pickaway-county/after-public-pushback-pickaway-county-village-enacts-data-center-pause/"
+      "https://www.nbc4i.com/news/local-news/pickaway-county/after-public-pushback-pickaway-county-village-enacts-data-center-pause/",
+      "https://www.circlevilleherald.com/news/ashville-village-council-votes-to-impose-180-day-moratorium-on-data-center-zoning/article_dd0358a7-dc90-4d1f-8641-ad0e3b6e3901.html"
     ],
     "company": "EdgeConneX",
     "hyperscaler": "",
@@ -24145,7 +24294,8 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.wosu.org/politics-government/2026-03-11/columbus-city-council-to-hold-hearing-on-data-center-growth-in-central-ohio"
+      "https://www.wosu.org/politics-government/2026-03-11/columbus-city-council-to-hold-hearing-on-data-center-growth-in-central-ohio",
+      "https://abc6onyourside.com/news/local/columbus-city-council-hearing-spotlights-debate-over-data-center-expansion"
     ],
     "company": "",
     "hyperscaler": "",
@@ -24168,14 +24318,15 @@
     "date": "2026-03-12",
     "status": "ongoing",
     "summary": "Columbus City Council held hearings in March 2026 examining rapid data center growth in central Ohio, with large facilities potentially requiring up to 5 million gallons of water per day. Of 130 data centers in the area, only 18 fall within city limits, limiting regulatory authority. Some councilmembers called for a moratorium though no legislation has been introduced.",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.wpr.org/news/new-bill-ban-nondisclosure-agreements-wisconsin-data-centers-nda"
+      "https://www.wpr.org/news/new-bill-ban-nondisclosure-agreements-wisconsin-data-centers-nda",
+      "https://wisconsinwatch.org/2026/01/wisconsin-data-center-secrecy-deals-nda-nondisclosure-agreement/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -24199,7 +24350,8 @@
     "status": "pending",
     "bill_name": "SB 969 / AB 969 (NDA Ban)",
     "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/SB969",
-    "summary": "Bipartisan bill prohibiting NDAs between data center companies and municipalities. Still allows withholding genuine trade secrets. Prompted by revelation that at least 4 Wisconsin communities signed secrecy deals. Passed Senate Committee 4-1."
+    "summary": "Bipartisan bill prohibiting NDAs between data center companies and municipalities. Still allows withholding genuine trade secrets. Prompted by revelation that at least 4 Wisconsin communities signed secrecy deals. Passed Senate Committee 4-1.",
+    "last_updated": "2026-03-19"
   },
   {
     "id": "walla-walla-wallula-gap-wa-2026",

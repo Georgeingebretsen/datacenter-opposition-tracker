@@ -14495,10 +14495,13 @@
       "Citrus County residents"
     ],
     "sources": [
-      "https://www.chronicleonline.com/news/local/data-center-debate-heads-to-planning-board/article_c998935f-03bb-5f47-8592-bc118bb1cdcd.html"
+      "https://www.chronicleonline.com/news/local/data-center-debate-heads-to-planning-board/article_c998935f-03bb-5f47-8592-bc118bb1cdcd.html",
+      "https://www.fox13news.com/news/citrus-county-residents-commissioners-battle-over-potential-data-center-holder",
+      "https://www.wusf.org/environment/2026-02-16/proposals-massive-data-centers-across-florida-are-local-governments-prepared",
+      "https://www.tampabay.com/news/business/2026/02/26/florida-data-center-desantis-amazon-meta-ai-chatgpt-citrus-polk/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-07"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "saugatuck-township-mi-2026-02-01",
@@ -14528,10 +14531,11 @@
     "petition_signatures": null,
     "summary": "Saugatuck Township in Allegan County passed a resolution enacting a moratorium on data center development in February 2026.",
     "sources": [
-      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
+      "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county_lean": "R"
   },
@@ -14563,10 +14567,13 @@
     "petition_signatures": null,
     "summary": "Would permanently ban data centers from using Mahomet Aquifer groundwater, the sole-source drinking water for ~1 million people across 14 counties. Also prohibits local governments from entering NDAs with data center companies and requires transparency in water usage.",
     "sources": [
-      "https://www.wcia.com/news/champaign-county/new-package-of-energy-bills-would-impose-moratorium-on-data-centers-built-on-mahomet-aquifer/"
+      "https://www.wcia.com/news/champaign-county/new-package-of-energy-bills-would-impose-moratorium-on-data-centers-built-on-mahomet-aquifer/",
+      "https://www.news-gazette.com/business/ammons-rose-tout-bills-on-data-centers-and-energy/article_33da2629-19fb-4b76-9814-5f0ff4183205.html",
+      "https://ipmnewsroom.org/illinois-democrats-republicans-introduce-competing-packages-regulate-data-centers-concerns-over-power-and-water-usage/",
+      "https://www.centralillinoisproud.com/news/national/new-package-of-energy-bills-would-impose-moratorium-on-data-centers-built-on-mahomet-aquifer/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "SB 4004",
@@ -15271,10 +15278,12 @@
     "petition_signatures": null,
     "summary": "Would revoke existing data center tax incentives established in 2021, which exempted qualifying data centers from state property and other taxes. Part of broader legislative push to reconsider data center tax breaks.",
     "sources": [
-      "https://legiscan.com/CT/bill/SB00245/2026"
+      "https://legiscan.com/CT/bill/SB00245/2026",
+      "https://www.wshu.org/connecticut-news/2026-02-27/ct-ai-data-centers-regulations",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "SB 245",
     "bill_url": "https://legiscan.com/CT/bill/SB00245/2026",
@@ -15726,10 +15735,13 @@
     "petition_signatures": null,
     "summary": "Requires electric utilities and new data centers (100+ MWH peak annual demand) to agree on contract terms that shield other power customers from construction and operation costs. Includes minimum billing requirements, performance/credit provisions, and termination protections. Passed Georgia House 159-5, now in Senate.",
     "sources": [
-      "https://www.legis.ga.gov/legislation/72365"
+      "https://www.legis.ga.gov/legislation/72365",
+      "https://capitol-beat.org/2026/02/bill-limiting-data-center-costs-from-being-passed-on-to-residents-clears-georgia-house/",
+      "https://www.datacenterdynamics.com/en/news/georgia-considering-bill-that-could-shield-ratepayers-from-data-center-related-increases/",
+      "https://georgiarecorder.com/2026/02/26/data-center-bill-stalls-after-last-minute-change-opposed-by-industry-finds-support/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "HB 1063",
     "bill_url": "https://www.legis.ga.gov/legislation/72365",
@@ -15763,10 +15775,13 @@
     "petition_signatures": null,
     "summary": "Suspends new sales and use tax exemptions for data centers from July 1, 2026 through June 30, 2027. Prohibits local governments from entering into nondisclosure agreements related to data center water and electricity usage.",
     "sources": [
-      "https://www.legis.ga.gov/legislation/69736"
+      "https://www.legis.ga.gov/legislation/69736",
+      "https://senatepress.net/sen-jaha-howard-introduces-legislation-to-press-pause-on-data-centers.html",
+      "https://www.wabe.org/georgia-lawmakers-debating-data-center-moratorium-and-regulation-bills-in-legislature/",
+      "https://www.alston.com/en/insights/publications/2026/02/georgia-sales-tax-exemptions-data-centers"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "SB 436",
     "bill_url": "https://www.legis.ga.gov/legislation/69736",
@@ -19171,10 +19186,12 @@
       "Indivisible Hall"
     ],
     "sources": [
-      "https://www.wsbtv.com/news/local/hall-county/hall-county-commission-debating-180-day-data-center-moratorium/OOHPTCO4TJEL3H7MBY2FIVJZQM/"
+      "https://www.wsbtv.com/news/local/hall-county/hall-county-commission-debating-180-day-data-center-moratorium/OOHPTCO4TJEL3H7MBY2FIVJZQM/",
+      "https://www.wsbtv.com/news/local/hall-county/plans-12b-data-center-abandoned-hall-county/3T36FITZWRBMXD5USUERFBILRY/",
+      "https://accesswdun.com/news/hall-commissioner-plans-motion-to-table-proposed-data-center"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "massachusetts-statewide-h5151-ma-2026-02-26",
@@ -19204,10 +19221,13 @@
     "petition_signatures": null,
     "summary": "Comprehensive energy affordability bill that passed the House 128-27. Includes data center provisions to protect ratepayers from subsidizing data center energy costs. Also addresses clean energy procurement, nuclear energy restrictions, and offshore wind deadlines. Now in Senate.",
     "sources": [
-      "https://malegislature.gov/Bills/194/H5151"
+      "https://malegislature.gov/Bills/194/H5151",
+      "https://solarbuildermag.com/policy/massachusetts-state-house-passes-comprehensive-energy-reform-bill/",
+      "https://pv-magazine-usa.com/2026/03/02/massachusetts-house-advances-climate-bill-with-1-billion-cut-to-energy-efficiency-program/",
+      "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "H.5151",
     "bill_url": "https://malegislature.gov/Bills/194/H5151",
@@ -19416,7 +19436,8 @@
     "petition_signatures": null,
     "summary": "The Town of Leland initiated a preemptive text amendment to regulate data center facilities, requiring closed-loop cooling systems, a 60% renewable energy mandate, and restricting data centers to heavy industrial districts via conditional rezoning only. No data center has been proposed within town boundaries, but staff acted proactively given rapid regional growth of the industry, particularly nearby Microsoft plans for a 1,385-acre campus in North Carolina. A public hearing and final decision by Leland Town Council is scheduled for March 19, 2026.",
     "sources": [
-      "https://portcitydaily.com/latest-news/2026/02/27/leland-braces-for-ai-surge-with-strict-proposed-data-center-rules/"
+      "https://portcitydaily.com/latest-news/2026/02/27/leland-braces-for-ai-surge-with-strict-proposed-data-center-rules/",
+      "https://spectrumlocalnews.com/nc/charlotte/news/2026/02/26/microsoft-makes-plans-for-datacenter-in-north-carolina"
     ],
     "data_source": "news",
     "last_updated": "2026-03-19",
@@ -19693,10 +19714,13 @@
       "South Florida Wildlands Association"
     ],
     "sources": [
-      "https://www.wptv.com/news/region-martin-county/indiantown/proposed-data-center-in-indiantown-would-impact-wetlands-and-protected-species-records-show"
+      "https://www.wptv.com/news/region-martin-county/indiantown/proposed-data-center-in-indiantown-would-impact-wetlands-and-protected-species-records-show",
+      "https://www.wflx.com/2026/03/03/proposed-data-center-indiantown-would-impact-wetlands-protected-species-records-show/",
+      "https://www.wflx.com/2026/02/24/whos-behind-massive-data-center-planned-indiantown/",
+      "https://cbs12.com/news/local/ai-data-center-treasure-coast-undeveloped-land-indiantown-florida-power-light-florida-news"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-07"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "hollenback-township-pa-2026-03-02",
@@ -20127,12 +20151,13 @@
     "date": "2026-03-03",
     "summary": "Delta County Planning Commission considered a resolution to suspend data center and cryptocurrency mining projects for 12 months while a zoning ordinance is developed. Commission Chair Amy Berglund said no known data center plans exist for the county but cited concerns over utility demand and water usage. Final decision expected in April 2026.",
     "sources": [
-      "https://www.uppermichiganssource.com/2026/03/03/delta-county-could-prevent-data-center-development-year/"
+      "https://www.uppermichiganssource.com/2026/03/03/delta-county-could-prevent-data-center-development-year/",
+      "https://gandernewsroom.com/2026/03/02/how-many-ai-data-centers-are-planned-in-michigan-we-counted/"
     ],
     "opposition_groups": [
       "Delta County residents"
     ],
-    "last_updated": "2026-03-04",
+    "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Delta County",
     "county_lean": "R"
@@ -20183,10 +20208,13 @@
       "Mercer County residents"
     ],
     "sources": [
-      "https://www.kfyrtv.com/2026/03/04/mercer-county-issues-moratorium-data-centers/"
+      "https://www.kfyrtv.com/2026/03/04/mercer-county-issues-moratorium-data-centers/",
+      "https://www.inforum.com/news/north-dakota/data-center-concerns-rise-in-2nd-western-north-dakota-county-as-nextera-basin-eye-project",
+      "https://www.dakotanewsnetwork.com/2026/03/04/mercer-county-commission-holds-meeting-on-data-centers",
+      "https://bismarcktribune.com/news/state-regional/government-politics/article_564db95a-eb0d-4750-9ec4-629b1b70c102.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-05"
+    "last_updated": "2026-03-19"
   },
   {
     "id": "calvert-county-md-2026-03-03",
@@ -20363,10 +20391,12 @@
     "petition_signatures": null,
     "summary": "Requires data centers to be located on land zoned for industrial or manufacturing uses (or unzoned as of July 1, 2025) to qualify for the SB 98 sales tax exemption.",
     "sources": [
-      "https://legiscan.com/KS/bill/SB526/2025"
+      "https://legiscan.com/KS/bill/SB526/2025",
+      "https://legiscan.com/KS/bill/SB526/2025?guid=4gs4zxc5fRgM64pXcptHwK",
+      "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-03-19",
     "scope": "statewide",
     "bill_name": "SB 526",
     "bill_url": "https://legiscan.com/KS/bill/SB526/2025",
@@ -20527,7 +20557,10 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.chathamstargazette.com/news/pittsylvania-supervisors-deny-data-center-natural-gas-plant"
+      "https://www.chathamstargazette.com/news/pittsylvania-supervisors-deny-data-center-natural-gas-plant",
+      "https://www.datacenterdynamics.com/en/news/950-acre-data-center-campus-proposed-in-pittsylvania-county-virginia/",
+      "https://wset.com/news/local/pittsylvania-county-updates-plan-to-manage-data-center-growth-after-local-pushback-november-2025",
+      "https://cardinalnews.org/2025/04/10/data-centers-can-bring-high-paying-jobs-and-millions-in-tax-revenue-is-that-what-southside-will-get/"
     ],
     "id": "pittsylvania-county-va-2025-04-01",
     "jurisdiction": "Pittsylvania County",
@@ -20550,7 +20583,7 @@
       "Appalachian Voices"
     ],
     "petition_url": "https://www.change.org/p/prevent-the-construction-of-the-proposed-power-plant-and-data-centers-in-chatham-va",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -20738,7 +20771,10 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.culpeperstar.com/news/stack-noise-complaints-data-center"
+      "https://www.culpeperstar.com/news/stack-noise-complaints-data-center",
+      "https://www.insidenova.com/culpeper/culpeper-town-council-secures-data-center-revenue-agreements-one-worth-millions/article_3cdde938-e054-453d-a266-9d4df9a28b61.html",
+      "https://www.pecva.org/region/culpeper/culpeper-quarterly-update-culpeper-puts-guardrails-on-data-centers/",
+      "https://virginiabusiness.com/culpeper-tech-zone-attracts-data-centers/"
     ],
     "id": "culpeper-town-va-2025-05-01",
     "jurisdiction": "Town of Culpeper",
@@ -20760,14 +20796,16 @@
     "opposition_website": "https://www.pecva.org/",
     "opposition_instagram": "@piedmontenviron",
     "opposition_instagram_followers": 5825,
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.sovanow.com/mecklenburg-data-center-moratorium"
+      "https://www.sovanow.com/mecklenburg-data-center-moratorium",
+      "https://www.sovanow.com/articles/data-center-expansion-request-put-on-hold-until-january/",
+      "https://cardinalnews.org/2026/03/05/some-rural-legislators-worry-that-ending-tax-incentives-for-data-centers-would-also-end-rural-virginias-opportunity-to-cash-in/"
     ],
     "id": "mecklenburg-county-va-2025-03-01",
     "jurisdiction": "Mecklenburg County",
@@ -20785,14 +20823,17 @@
       "Friends of the Meherrin River",
       "Sierra Club Virginia Chapter"
     ],
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.orangereview.com/news/county-adopts-data-center-zoning-rules"
+      "https://www.orangereview.com/news/county-adopts-data-center-zoning-rules",
+      "https://www.pecva.org/region/orange/orange-county-proposes-new-technology-zoning-district/",
+      "https://byrdstreet.substack.com/p/orange-county-planning-commission",
+      "https://www.battlefields.org/give/save-battlefields/dont-let-data-centers-destroy-wilderness"
     ],
     "id": "orange-county-va-2025-09-01",
     "jurisdiction": "Orange County",
@@ -20811,14 +20852,16 @@
       "Virginia Data Center Reform Coalition"
     ],
     "opposition_website": "https://www.pecva.org/region/orange/orange-county-residents-demand-commonsense-data-center-regulation/",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.dailyprogress.com/news/fluvanna-data-center-moratorium"
+      "https://www.dailyprogress.com/news/fluvanna-data-center-moratorium",
+      "https://fluvannareview.com/2025/11/commission-backs-data-center-restrictions/",
+      "https://citizenportal.ai/articles/7011680/Fluvanna-County/Virginia/Fluvanna-supervisors-ask-planning-commission-for-clearer-plan-on-Technology-Zone-and-moratorium-options"
     ],
     "id": "fluvanna-county-va-2025-07-01",
     "jurisdiction": "Fluvanna County",
@@ -20837,7 +20880,7 @@
       "Piedmont Environmental Council"
     ],
     "opposition_website": "https://chesapeakeclimate.org/virginia/stop-tenaskas-fluvanna-gas-plant/",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21030,7 +21073,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.foodandwaterwatch.org/2026/03/09/monroe-township-oh-unanimously-passes-data-center-moratorium/"
+      "https://www.foodandwaterwatch.org/2026/03/09/monroe-township-oh-unanimously-passes-data-center-moratorium/",
+      "https://www.wcpo.com/news/local-news/i-team/adams-county-data-center-gets-federal-permit-as-voters-sign-petitions-to-block-it",
+      "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21055,7 +21100,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.foodandwaterwatch.org/2026/02/26/sprigg-township-oh-passes-data-center-moratorium/"
+      "https://www.foodandwaterwatch.org/2026/02/26/sprigg-township-oh-passes-data-center-moratorium/",
+      "https://www.wcpo.com/news/local-news/i-team/adams-county-data-center-could-be-one-of-ohios-biggest-power-guzzlers",
+      "https://www.fox19.com/2026/02/19/manchester-residents-voice-concerns-over-potential-data-center-construction/"
     ],
     "company": "68 Yards LLC",
     "hyperscaler": "",
@@ -21080,7 +21127,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.sciotopost.com/scioto-township-enacts-12-month-data-center-moratorium-amid-statewide-tech-surge/"
+      "https://www.sciotopost.com/scioto-township-enacts-12-month-data-center-moratorium-amid-statewide-tech-surge/",
+      "https://www.thetelegramnews.com/articles/scioto-township-residents-concerned-about-potential-data-center/",
+      "https://www.axios.com/local/columbus/2026/03/04/ohio-data-center-boom-moratorium-laws"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21185,7 +21234,8 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.fox17online.com/news/local-news/holland-zeeland/zeeland-township-approves-data-center-moratorium-as-solar-farm-debate-continues"
+      "https://www.fox17online.com/news/local-news/holland-zeeland/zeeland-township-approves-data-center-moratorium-as-solar-farm-debate-continues",
+      "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21198,14 +21248,18 @@
     "action_type": "moratorium",
     "date": "2026-01-01",
     "status": "active",
-    "summary": "Planning commission approved one-year moratorium on data center applications while developing regulations for large-scale energy projects."
+    "summary": "Planning commission approved one-year moratorium on data center applications while developing regulations for large-scale energy projects.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://michiganadvance.com/2026/03/04/lansing-city-planning-commission-recommends-rezoning-for-data-center/"
+      "https://michiganadvance.com/2026/03/04/lansing-city-planning-commission-recommends-rezoning-for-data-center/",
+      "https://michiganadvance.com/2026/02/23/demystifying-deep-greens-proposed-data-center-near-downtown-lansing/",
+      "https://www.wilx.com/2026/02/10/deep-green-data-center-proposal-faces-pushback-lansing-city-council/",
+      "https://www.wilx.com/2026/03/05/lansing-planning-commission-approves-rezoning-deep-green-data-center/"
     ],
     "company": "Deep Green",
     "hyperscaler": "",
@@ -21223,7 +21277,7 @@
     "opposition_groups": [
       "Sunrise Spartans (MSU)"
     ],
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21251,7 +21305,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.foodandwaterwatch.org/2025/11/18/hazle-township-pa-unanimously-rejects-data-center-campus/"
+      "https://www.foodandwaterwatch.org/2025/11/18/hazle-township-pa-unanimously-rejects-data-center-campus/",
+      "https://www.wvia.org/news/local/2026-02-18/residents-raise-questions-as-developer-describes-hazle-twp-data-center-plans-at-dep-hearing",
+      "https://www.datacenterdynamics.com/en/news/northpoint-proposes-15-building-1280-acre-data-center-campus-in-pennsylvania/"
     ],
     "company": "NorthPoint Development",
     "hyperscaler": "",
@@ -21278,7 +21334,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.wnep.com/article/news/local/schuylkill-county/schuylkill-county-frackville-data-center-new-castle-krnl-zoning/523-1e14d019-77cd-4b00-ab8e-b4cbbbaeba93"
+      "https://www.wnep.com/article/news/local/schuylkill-county/schuylkill-county-frackville-data-center-new-castle-krnl-zoning/523-1e14d019-77cd-4b00-ab8e-b4cbbbaeba93",
+      "https://www.republicanherald.com/2025/09/10/frackville-residents-ask-new-castle-twp-officials-to-block-data-center/",
+      "https://www.spotlightpa.org/news/2025/10/pennsylvania-data-centers-community-opposition-ai-development-environment/"
     ],
     "company": "KRNL Data Centers",
     "hyperscaler": "",
@@ -21295,14 +21353,17 @@
     "opposition_groups": [
       "Save Frackville"
     ],
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.alleghenyfront.org/pennsylvania-luzerne-dorrance-data-center-zoning/"
+      "https://www.alleghenyfront.org/pennsylvania-luzerne-dorrance-data-center-zoning/",
+      "https://www.standardspeaker.com/2025/08/17/dorrance-twp-supervisors-look-at-blocking-data-centers-2/",
+      "https://www.alleghenyfront.org/pennsylvania-luzern/",
+      "https://www.datacenterdynamics.com/en/news/municipal-leaders-debate-data-center-zoning-ordinance-in-dorrance-township-pennsylvania/"
     ],
     "company": "Brewster Land Company LLC",
     "hyperscaler": "",
@@ -21321,14 +21382,16 @@
     ],
     "opposition_website": "https://www.alliancetostoptheline.org/",
     "opposition_facebook": "https://www.facebook.com/alliancetostoptheline",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.thetimes-tribune.com/2026/02/03/judge-tosses-settlement-between-clifton-twp-data-center-developer/"
+      "https://www.thetimes-tribune.com/2026/02/03/judge-tosses-settlement-between-clifton-twp-data-center-developer/",
+      "https://www.thetimes-tribune.com/2025/07/10/developer-looks-to-build-30-plus-data-centers-in-north-pocono/",
+      "https://www.wvia.org/news/local/2026-01-03/clifton-twp-supervisors-settle-with-data-center-developer-residents-promise-litigation"
     ],
     "company": "1778 Rich Pike LLC / Quantm Group",
     "hyperscaler": "",
@@ -21349,14 +21412,17 @@
     ],
     "opposition_facebook": "https://www.facebook.com/people/Concerned-Clifton-Citizens/61573264090890/",
     "opposition_website": "https://nodatacenter.net/",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.timesleader.com/news/1731917/data-center-zoning-amendment-proposed-for-20-luzerne-county-covered-municipalities"
+      "https://www.timesleader.com/news/1731917/data-center-zoning-amendment-proposed-for-20-luzerne-county-covered-municipalities",
+      "https://www.citizensvoice.com/2026/03/12/luzerne-county-continues-work-on-zoning-plan-for-data-centers/",
+      "https://www.wnep.com/article/news/local/luzerne-county/luzerne-county-drafts-zoning-rules-to-manage-potential-data-center-influx-northeastern-central-pennsylvania/523-ca8c448a-ce59-4dd4-aa94-ed206182a395",
+      "https://www.timesleader.com/news/1735244/officials-still-revising-proposed-data-center-zoning-ordinance-covering-19-luzerne-county-municipalities"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21376,14 +21442,17 @@
     "opposition_website": "https://www.alliancetostoptheline.org/",
     "opposition_facebook": "https://www.facebook.com/alliancetostoptheline",
     "petition_signatures": 1100,
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://www.yorkdispatch.com/story/news/local/2025/10/24/east-manchester-township-york-county-data-centers-pennsylvania-artificial-intelligence/86857203007/"
+      "https://www.yorkdispatch.com/story/news/local/2025/10/24/east-manchester-township-york-county-data-centers-pennsylvania-artificial-intelligence/86857203007/",
+      "https://www.yorkdispatch.com/story/news/local/2025/12/24/east-manchester-township-farm-data-center-zoning-york-county-pennsylvania/87901879007/",
+      "https://www.datacenterdynamics.com/en/news/east-manchester-township-pennsylvania-considering-data-center-rezoning-proposal/",
+      "https://keystonenewsroom.com/2025/11/19/york-county-residents-wrestle-with-prospective-data-center/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21396,14 +21465,17 @@
     "action_type": "zoning_restriction",
     "date": "2025-10-14",
     "status": "delayed",
-    "summary": "Supervisors paused data center zoning revisions after massive public opposition. So many residents turned out crowd spilled into parking lot, forcing postponement. Golf course property removed from consideration after pushback."
+    "summary": "Supervisors paused data center zoning revisions after massive public opposition. So many residents turned out crowd spilled into parking lot, forcing postponement. Golf course property removed from consideration after pushback.",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.cityandstatepa.com/policy/2026/03/pa-house-committee-advances-data-center-bills/411812/"
+      "https://www.cityandstatepa.com/policy/2026/03/pa-house-committee-advances-data-center-bills/411812/",
+      "https://www.wesa.fm/politics-government/2026-03-09/lawmakers-bill-data-center-construction",
+      "https://www.fox43.com/article/news/local/pa-house-energy-committee-advance-two-bills-regulating-data-centers-politics-dauphin-county/521-7f7c709e-92dd-4eda-84ff-3c169b0d647f"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21418,14 +21490,18 @@
     "status": "pending",
     "summary": "Requires data centers to submit annual energy and water consumption reports to DEP, including measures undertaken to improve efficiency. Passed House Energy Committee 14-12 on party-line vote.",
     "bill_name": "HB 2150 - Data Center Energy and Water Reporting Act",
-    "bill_url": "https://www.palegis.us/legislation/bills/2025/hb2150"
+    "bill_url": "https://www.palegis.us/legislation/bills/2025/hb2150",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/government/articles/east-windsor-council-votes-down-redevelopment-plan-after-rambunctious-residents-raise-questions-about-data-center-component"
+      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/government/articles/east-windsor-council-votes-down-redevelopment-plan-after-rambunctious-residents-raise-questions-about-data-center-component",
+      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/government/articles/a-packed-planning-board-hearing-debated-the-future-of-an-east-windsor-data-center-expansion",
+      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/business-and-finance/articles/economic-boost-or-energy-zapper-the-data-center-discussion-comes-to-east-windsor",
+      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/government/articles/east-windsor-council-postpones-votes-on-redevelopment-plans-involving-potential-data-center-light-manufacturing"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21439,14 +21515,16 @@
     "date": "2026-02-01",
     "status": "cancelled",
     "summary": "Council voted down redevelopment plan after raucous residents raised questions about data center component. Standing-room-only meeting featured Twin Rivers community residents warning of grid strain.",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.sierraclub.org/new-jersey/blog/2026/02/key-legislation-ensure-data-center-transparency-and-energy-affordability"
+      "https://www.sierraclub.org/new-jersey/blog/2026/02/key-legislation-ensure-data-center-transparency-and-energy-affordability",
+      "https://newjerseymonitor.com/2026/02/13/committees-approve-bill-aimed-at-data-centers-power-usage/",
+      "https://www.datacenterdynamics.com/en/news/new-jersey-general-assembly-proposes-bill-to-apply-special-rate-for-large-load-data-centers/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21461,7 +21539,8 @@
     "status": "pending",
     "summary": "Requires data center operators to submit semi-annual water and energy usage reports to the Board of Public Utilities for three years. Senate Environment and Energy Committee reported favorably (3-1-1).",
     "bill_name": "S3379 - Data Center Water and Energy Reporting",
-    "bill_url": "https://legiscan.com/NJ/bill/S3379/2026"
+    "bill_url": "https://legiscan.com/NJ/bill/S3379/2026",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21501,7 +21580,10 @@
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
-      "https://marylandmatters.org/2026/03/04/bge-pause-underground-transmission-ferguson/"
+      "https://marylandmatters.org/2026/03/04/bge-pause-underground-transmission-ferguson/",
+      "https://www.thebanner.com/politics-power/state-government/bge-maryland-data-center-exelon-ONPTWQJLCVFURA45AYA2L4MRMI/",
+      "https://marylandmatters.org/2026/01/03/data-center-regulations-2026/",
+      "https://www.baltimoresun.com/2026/02/06/baltimore-county-data-center/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21517,7 +21599,7 @@
     "summary": "Senate President Bill Ferguson introduced legislation banning data center construction on land benefiting from tax increment financing (TIF) in Baltimore City, targeting Baltimore Peninsula. Also requires PSC oversight of transmission line projects. BGE subsequently paused its $537M South Baltimore transmission upgrade.",
     "bill_name": "Ferguson Data Center TIF Ban",
     "bill_url": "https://marylandmatters.org/2026/03/02/ferguson-embry-power-line-psc-bills/",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21611,7 +21693,9 @@
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
-      "https://economicaccountability.org/2025/12/29/mississippi-data-center-project-named-2025s-worst-economic-development-deal-of-the-year-by-the-center-for-economic-accountability/"
+      "https://economicaccountability.org/2025/12/29/mississippi-data-center-project-named-2025s-worst-economic-development-deal-of-the-year-by-the-center-for-economic-accountability/",
+      "https://mississippitoday.org/2025/01/09/meridian-data-center-mississippi-compass-tate-reeves/",
+      "https://msindy.org/p/mississippis-data-center-boom-and"
     ],
     "company": "Compass Datacenters",
     "hyperscaler": "",
@@ -21626,7 +21710,8 @@
     "status": "approved",
     "summary": "$10B hyperscale campus named '2025 Worst Economic Development Deal of the Year.' 66% property tax break for 30 years plus state tax exemptions. 500MW at full capacity. Mississippi Power delayed coal plant closure to fuel campus.",
     "investment_usd": 10000000000,
-    "energy_mw": 500
+    "energy_mw": 500,
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "local",
@@ -21655,7 +21740,10 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://www.wusf.org/politics-issues/2026-02-25/florida-house-advances-rules-massive-data-centers"
+      "https://www.wusf.org/politics-issues/2026-02-25/florida-house-advances-rules-massive-data-centers",
+      "https://www.hklaw.com/en/insights/publications/2026/02/proposed-florida-legislation-creates-new-regulatory-framework",
+      "https://floridianpress.com/2026/03/aif-announces-opposition-to-data-center-bill-proposed-by-florida-lawmakers/",
+      "https://www.flhouse.gov/Sections/Bills/billsdetail.aspx?BillId=83648"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21670,7 +21758,8 @@
     "status": "defeated",
     "summary": "Establishes restrictive regulatory framework for hyperscale data centers (25+ MW). Bans data centers from agricultural zoning districts, requires 500-foot setbacks, bans economic incentives, imposes water permitting restrictions. Session ended without committee action.",
     "bill_name": "HB 1007 - Hyperscale Data Centers",
-    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1007"
+    "bill_url": "https://www.flsenate.gov/Session/Bill/2026/1007",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
@@ -21701,7 +21790,10 @@
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://legiscan.com/TN/bill/SB2653/2025"
+      "https://legiscan.com/TN/bill/SB2653/2025",
+      "https://legiscan.com/TN/bill/SB2653/2025?guid=7fXFKUPCzg3Wa5n0NNu0xW",
+      "https://www.wsmv.com/2026/03/16/tn-legislators-considering-bill-that-would-require-local-government-approval-data-mining-facilities/",
+      "https://servercountry.org/policy/tennessee/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21716,14 +21808,17 @@
     "status": "pending",
     "summary": "Creates the Tennessee Data Center Impact Review Act establishing formal review process for data center impacts on communities, environment, and infrastructure. Deferred in Senate Commerce and Labor Committee to March 17, 2026.",
     "bill_name": "SB 2653 - Data Center Impact Review Act",
-    "bill_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2653&GA=114"
+    "bill_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2653&GA=114",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://wisconsinexaminer.com/2026/01/21/assembly-passes-gop-bill-to-regulate-data-centers-in-wisconsin/"
+      "https://wisconsinexaminer.com/2026/01/21/assembly-passes-gop-bill-to-regulate-data-centers-in-wisconsin/",
+      "https://www.wispolitics.com/2026/wisconsin-conservation-voters-ab-840-would-shift-data-center-energy-costs-to-wisconsin-residents/",
+      "https://urbanmilwaukee.com/pressrelease/rep-oconnor-supports-bill-putting-wisconsinites-first/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21738,14 +21833,17 @@
     "status": "active",
     "summary": "Republican bill directing PSC to ensure data center utility costs are not passed to other ratepayers. Requires renewable energy facilities serving data center load to be on data center property. Requires hiring Wisconsin workers. Passed Assembly 53-44.",
     "bill_name": "AB 840 / SB 843",
-    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/ab840"
+    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/ab840",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "",
     "sources": [
-      "https://wisconsinexaminer.com/2026/02/18/non-disclosure-agreements-energy-costs-focus-of-data-center-hearing/"
+      "https://wisconsinexaminer.com/2026/02/18/non-disclosure-agreements-energy-costs-focus-of-data-center-hearing/",
+      "https://urbanmilwaukee.com/2026/02/18/wi-senate-debates-competing-data-center-bills/",
+      "https://wisconsinrivers.org/data-center-bills/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -21760,7 +21858,8 @@
     "status": "pending",
     "summary": "Democratic bill creating new 'very large customer' electric rate class for data centers. To qualify for tax exemption, data centers must derive at least 70% of energy from renewables and pay prevailing wages. Establishes water usage reporting requirements.",
     "bill_name": "SB 729 / AB 722",
-    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/sb729"
+    "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/sb729",
+    "last_updated": "2026-03-19"
   },
   {
     "scope": "statewide",

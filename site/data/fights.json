@@ -7258,55 +7258,6 @@
     "county_lean": "D"
   },
   {
-    "id": "prince-william-county-va-2024-01-12",
-    "jurisdiction": "Prince William County",
-    "state": "VA",
-    "county": "Prince William County",
-    "lat": 38.6581,
-    "lng": -77.2819,
-    "action_type": "lawsuit",
-    "date": "2025-11-01",
-    "status": "ongoing",
-    "company": "QTS Data Centers",
-    "hyperscaler": "Amazon/AWS",
-    "project_name": "PW Digital Gateway",
-    "investment_million_usd": 24700,
-    "megawatts": 862,
-    "acreage": 2100,
-    "building_sq_ft": 18000000,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": 5048,
-    "opposition_groups": [
-      "Coalition to Protect Prince William County",
-      "American Battlefield Trust",
-      "Piedmont Environmental Council",
-      "Sierra Club",
-      "National Parks Conservation Association",
-      "Virginia Data Center Reform Coalition"
-    ],
-    "opposition_website": "https://protectpwc.org/",
-    "opposition_facebook": [],
-    "opposition_instagram": null,
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "The PW Digital Gateway proposes rezoning 2,100+ acres near Manassas Battlefield for up to 22 million sq ft of data centers (by Compass and QTS), supporting thousands of jobs. A judge voided the rezoning approvals in August 2025, finding procedural defects in the public notice process. The Virginia Court of Appeals barred construction until the legal challenge is resolved. Oral arguments were expected in late February 2026. The county has spent over $1.66 million on legal expenses and approved an additional $400K in December 2025 to fund its appeal. The Coalition to Protect Prince William County has led opposition efforts.",
-    "sources": [
-      "https://www.princewilliamtimes.com/news/breaking-judge-overturns-prince-william-digital-gateway/article_951d6362-1bbd-416f-89c5-ff322bf49fa8.html",
-      "https://www.pwcva.gov/news/prince-william-county-launches-interactive-data-center-map-improve-public-access-development",
-      "https://www.princewilliamtimes.com/news/report-prince-william-county-has-44-data-centers-15-more-on-the-way/article_f0518174-bd23-49ee-ab92-3b04a0936f16.html",
-      "https://www.datacenterfrontier.com/site-selection/article/21437363/prince-william-digital-gateway",
-      "https://protectpwc.org/about-us/about-the-coalition-to-protect-pwc/",
-      "https://virginiamercury.com/2025/05/21/report-highlights-community-pushback-stalling-64-billion-in-data-center-development-nationwide/",
-      "https://wtop.com/prince-william-county/2025/11/digital-gateway-data-center-builders-barred-from-beginning-construction-until-legal-challenge-plays-out/",
-      "https://www.princewilliamtimes.com/localnews/supervisors-vote-to-spend-another-400k-to-defend-the-pw-digital-gateway/article_79abd8cb-bf32-5c46-8a7d-ba39bb676c57.html"
-    ],
-    "data_source": "dcw",
-    "last_updated": "2026-03-06",
-    "scope": "local",
-    "county_lean": "D"
-  },
-  {
     "id": "putnam-county-in-2025-11-01",
     "jurisdiction": "Putnam County",
     "state": "IN",
@@ -9840,7 +9791,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "White Tank Mountains Conservancy"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -9854,7 +9807,7 @@
       "https://www.datacenterdynamics.com/en/news/arizona-land-consulting-buys-land-for-potential-15gw-data-center/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-23",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -13751,7 +13704,12 @@
       "Wyndham community residents",
       "Wyndham Board of Directors Smart Development Task Force",
       "Goochland Residents Alliance",
-      "Stop Hanover Data Centers"
+      "Stop Hanover Data Centers",
+      "Wyndham Smart Development Task Force",
+      "Neighbors For Change",
+      "Hanover County residents",
+      "Henrico County residents",
+      "Goochland County residents"
     ],
     "opposition_website": "https://smartdevtaskforce.com/",
     "opposition_facebook": [
@@ -13775,10 +13733,12 @@
       "https://www.vpm.org/news/2026-01-20/hanover-hunting-hawk-data-center-hhhunt-wyndham-ashland-road-clark",
       "https://www.wtvr.com/news/local-news/hanover-data-center-proposal-sept-8-2025",
       "https://richmondbizsense.com/2026/02/20/hanover-planning-commission-defers-vote-on-430-acre-data-center-project/",
-      "https://www.12onyourside.com/2026/02/05/community-meeting-draws-critics-mountain-road-data-center-plan/"
+      "https://www.12onyourside.com/2026/02/05/community-meeting-draws-critics-mountain-road-data-center-plan/",
+      "https://www.wtvr.com/news/local-news/hhhunt-withdraws-data-center-application-jan-28-2026",
+      "https://richmondbizsense.com/2026/01/16/hanover-planning-commission-rejects-hhhunt-data-center-project-near-wyndham/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-23",
     "scope": "local",
     "county_lean": "R",
     "opposition_facebook_members": 774
@@ -13953,56 +13913,6 @@
     "energy_mw": 636,
     "investment_usd": 500000000,
     "water_gallons_per_day": 2800
-  },
-  {
-    "id": "oklahoma-statewide-ok-2026-02-01",
-    "jurisdiction": "Oklahoma (statewide)",
-    "state": "OK",
-    "county": "Oklahoma County",
-    "lat": 35.4676,
-    "lng": -97.5164,
-    "action_type": "legislation",
-    "date": "2026-02-01",
-    "status": "defeated",
-    "company": null,
-    "hyperscaler": null,
-    "project_name": "SB 1488",
-    "investment_million_usd": null,
-    "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
-    "jobs_promised": null,
-    "opposition_groups": [
-      "Oklahoma ratepayer advocates",
-      "Stop Data Colonialism",
-      "Honor the Earth"
-    ],
-    "opposition_website": "https://www.honorearth.org/nodatacenters",
-    "opposition_facebook": null,
-    "opposition_instagram": "https://www.instagram.com/stopdatacolonialism/",
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "Imposes a moratorium on new data center construction with electrical loads greater than 100MW until November 1, 2029. Directs the Oklahoma Corporation Commission to study impacts on water supply, utility rates, property values, and optimal siting practices. This would be a three-year moratorium \u2014 one of the longest proposed in any state. Filed by Sen. Kendal Sacchieri (R-Blanchard); awaits committee referral.",
-    "sources": [
-      "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/",
-      "https://kfor.com/news/local/time-is-ticking-on-effort-to-halt-data-centers-in-ok-for-three-years/",
-      "https://oklahomawatch.org/2026/02/20/republicans-push-back-on-data-centers-in-oklahoma-other-states/",
-      "https://oksenate.gov/press-releases/senator-sacchieri-files-legislation-address-unknown-impacts-data-centers-oklahoma",
-      "https://www.datacenterdynamics.com/en/news/oklahoma-senator-proposes-three-year-data-center-moratorium-in-the-state/",
-      "https://www.govtech.com/products/oklahoma-bill-would-put-3-year-pause-on-data-centers",
-      "https://www.okenergytoday.com/2026/01/senator-says-data-center-moratorium-would-give-assurances-to-ratepayers/",
-      "https://www.okenergytoday.com/2026/02/another-data-center-bill-wins-house-committee-approval/",
-      "https://www.okhouse.gov/posts/news-20260108_2",
-      "https://www.okhouse.gov/posts/news-20260217_6"
-    ],
-    "data_source": "news",
-    "last_updated": "2026-03-05",
-    "scope": "statewide",
-    "bill_name": "SB 1488",
-    "bill_url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=sb1488&Session=2600",
-    "county_lean": "R"
   },
   {
     "id": "cameron-county-tx-2026-02-01",
@@ -23044,7 +22954,9 @@
       "https://www.delawarepublic.org/politics-government/2026-03-11/new-castle-county-council-unanimously-approves-data-center-regulations-after-hours-long-meeting",
       "https://whyy.org/articles/new-castle-county-delaware-data-center-zoning/",
       "https://spotlightdelaware.org/2026/03/11/after-months-of-debate-the-new-castle-county-council-agrees-to-regulate-the-data-center-industry/",
-      "https://www.delawarepublic.org/science-health-tech/2026-02-25/starwood-appeals-denial-of-permit-for-data-center-in-ncc"
+      "https://www.delawarepublic.org/science-health-tech/2026-02-25/starwood-appeals-denial-of-permit-for-data-center-in-ncc",
+      "https://spotlightdelaware.org/2026/03/04/data-center-regulations-in-ncc-may-see-final-vote-council-makes-compromises/",
+      "https://spotlightdelaware.org/2026/03/09/last-minute-amendment-aims-to-exempt-more-data-center-plans-from-regulation/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -23068,7 +22980,7 @@
     "date": "2026-03-11",
     "status": "active",
     "summary": "UPDATE: New Castle County Council voted 12-0 on March 11 to approve comprehensive data center regulations after 7 months of deliberation. Key provisions: 1,000-foot buffer from residential zones (500 ft with noise study), ban on open-loop cooling (unless using reclaimed water), mandatory use of energy-efficient generators, site restoration requirement. Regulations will NOT apply retroactively to projects already in the pipeline. Separately, Starwood Digital Ventures' appeal of its Coastal Zone permit denial is scheduled for hearing March 24, 2026.",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-23"
   },
   {
     "scope": "statewide",
@@ -23331,37 +23243,6 @@
     "status": "ongoing",
     "summary": "Developer Tract proposed the Mountain Road Tech Park \u2014 a 427-acre, 900-MW data center campus along Route 33 and Mountain Road near the Hanover-Henrico line. The project would include five buildings, requiring up to 600,000 gallons/day of water. The Planning Commission unanimously deferred the proposal. It is being reconsidered at the March 19, 2026 meeting.",
     "last_updated": "2026-03-23"
-  },
-  {
-    "scope": "local",
-    "data_source": "agent_research",
-    "county_lean": "R",
-    "sources": [
-      "https://cardinalnews.org/2026/03/10/73-billion-project-at-pittsylvania-megasite-would-be-largest-in-southside-history/",
-      "https://virginiabusiness.com/berry-hill-megasite-data-center-stack-infrastructure/",
-      "https://cardinalnews.org/2026/03/11/2050-jobs-at-80500-headed-for-pittsylvania-county-that-could-complicate-data-center-tax-talks-and-vindicate-youngkin/"
-    ],
-    "company": "Stack Infrastructure",
-    "hyperscaler": "",
-    "energy_mw": null,
-    "investment_usd": 73000000000,
-    "acreage": 2990,
-    "water_gallons_per_day": null,
-    "petition_signatures": null,
-    "opposition_groups": [],
-    "opposition_facebook_members": null,
-    "id": "pittsylvania-county-megasite-va-2026",
-    "jurisdiction": "Pittsylvania County",
-    "state": "VA",
-    "county": "Pittsylvania County",
-    "lat": 36.71,
-    "lng": -79.46,
-    "action_type": "other",
-    "date": "2026-03-09",
-    "status": "ongoing",
-    "jobs_promised": 2050,
-    "summary": "The Danville-Pittsylvania Regional Industrial Facilities Authority unanimously approved the sale of 2,990 acres at the Berry Hill Megasite to SAC III Acquisition Co. (Stack Infrastructure affiliate) for $238,000/acre. Expected to create 2,050 jobs (avg salary $80,500) and $73B investment over 30 years \u2014 Southside Virginia's largest project ever. First phase closing by June 2027. In January 2026, Pittsylvania created the M-SVMS heavy industry zoning district providing by-right data center zoning at the megasite. Local economic development officials have urged the state to preserve data center tax incentives, warning their elimination would end rural Virginia's opportunity to benefit.",
-    "last_updated": "2026-03-14"
   },
   {
     "scope": "local",
@@ -24563,7 +24444,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Oklahoma ratepayer advocates",
+      "Stop Data Colonialism",
+      "Honor the Earth"
+    ],
     "opposition_website": null,
     "opposition_facebook": [],
     "opposition_instagram": null,
@@ -24574,10 +24459,18 @@
     "sources": [
       "https://www.okenergytoday.com/2026/01/senator-says-data-center-moratorium-would-give-assurances-to-ratepayers/",
       "https://www.datacenterdynamics.com/en/news/oklahoma-senator-proposes-three-year-data-center-moratorium-in-the-state/",
-      "https://www.multistate.us/insider/2026/3/13/local-data-center-regulations-gain-ground-as-state-bills-falter"
+      "https://www.multistate.us/insider/2026/3/13/local-data-center-regulations-gain-ground-as-state-bills-falter",
+      "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/",
+      "https://kfor.com/news/local/time-is-ticking-on-effort-to-halt-data-centers-in-ok-for-three-years/",
+      "https://oklahomawatch.org/2026/02/20/republicans-push-back-on-data-centers-in-oklahoma-other-states/",
+      "https://oksenate.gov/press-releases/senator-sacchieri-files-legislation-address-unknown-impacts-data-centers-oklahoma",
+      "https://www.govtech.com/products/oklahoma-bill-would-put-3-year-pause-on-data-centers",
+      "https://www.okenergytoday.com/2026/02/another-data-center-bill-wins-house-committee-approval/",
+      "https://www.okhouse.gov/posts/news-20260108_2",
+      "https://www.okhouse.gov/posts/news-20260217_6"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-23",
     "scope": "statewide",
     "county_lean": "R",
     "bill_name": "SB 1488",
@@ -25198,7 +25091,9 @@
       "Clean Water for North Carolina",
       "Stokes County Historical Society",
       "No Data Centers in Stokes County",
-      "Occaneechi Band of the Saponi Nation"
+      "Occaneechi Band of the Saponi Nation",
+      "Southern Environmental Law Center",
+      "Stokes County NAACP"
     ],
     "opposition_website": "https://cwfnc.org/stokes/",
     "opposition_facebook": null,
@@ -25211,10 +25106,11 @@
       "https://www.africanelements.org/news/why-walnut-cove-is-suing-to-stop-project-delta-ai-centers/",
       "https://www.wsoctv.com/news/local/nc-neighbors-suing-protect-farmland-rezoning-data-center/4FMVUKUJ7VBAJBV46OBDT75SYU/",
       "https://journalnow.com/news/local/government-politics/article_e3217294-5ef8-4039-881e-8e2fb1818e16.html",
-      "https://cwfnc.org/stokes/"
+      "https://cwfnc.org/stokes/",
+      "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-23",
     "scope": "local",
     "county_lean": "R"
   },
@@ -26379,40 +26275,6 @@
     "last_updated": "2026-03-16"
   },
   {
-    "scope": "local",
-    "data_source": "agent_research",
-    "county_lean": "R",
-    "sources": [
-      "https://cwfnc.org/stokes/",
-      "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/"
-    ],
-    "company": "Meta",
-    "hyperscaler": "Meta",
-    "energy_mw": null,
-    "investment_usd": null,
-    "acreage": 1800,
-    "water_gallons_per_day": null,
-    "petition_signatures": null,
-    "opposition_groups": [
-      "Clean Water for North Carolina",
-      "Southern Coalition for Social Justice",
-      "Southern Environmental Law Center",
-      "Stokes County NAACP"
-    ],
-    "opposition_facebook_members": null,
-    "id": "stokes-county-nc-lawsuit-2026-02",
-    "jurisdiction": "Stokes County",
-    "state": "NC",
-    "county": "Stokes County",
-    "lat": 36.4013,
-    "lng": -80.2358,
-    "action_type": "lawsuit",
-    "date": "2026-02-14",
-    "status": "active",
-    "summary": "Community groups represented by the Southern Coalition for Social Justice and SELC filed a lawsuit challenging the January 2026 rezoning of 1,845 acres of residential-agricultural land on the Dan River for 'Project Delta.' Hundreds chanted 'we don't want this' at the approval meeting, citing threats to the Dan River and the region's rural character.",
-    "last_updated": "2026-03-16"
-  },
-  {
     "scope": "federal",
     "data_source": "agent_research",
     "county_lean": "",
@@ -26843,38 +26705,6 @@
     "acreage": 40.6,
     "data_source": "agent_research",
     "last_updated": "2026-03-19"
-  },
-  {
-    "id": "hassayampa-ranch-az-2025-12",
-    "jurisdiction": "Hassayampa Ranch (unincorporated Maricopa County)",
-    "state": "AZ",
-    "county": "Maricopa County",
-    "lat": 33.425,
-    "lng": -112.725,
-    "action_type": "zoning_restriction",
-    "date": "2025-12-05",
-    "status": "approved",
-    "company": "Arizona Land Consulting",
-    "hyperscaler": null,
-    "summary": "Maricopa County Board of Supervisors unanimously approved industrial rezoning of 2,000 acres at Hassayampa Ranch for a $25B, 1.5 GW data center park despite hundreds of neighboring residents signing petitions opposing the project.",
-    "sources": [
-      "https://fortune.com/2025/12/27/ai-data-centers-arizona-hassayampa-ranch/",
-      "https://berryriddell.com/25b-data-center-planned-west-of-phoenix-wins-key-approval-from-county/"
-    ],
-    "scope": "local",
-    "county_lean": "R",
-    "energy_mw": 1500,
-    "investment_usd": 25000000000,
-    "acreage": 2000,
-    "data_source": "agent_research",
-    "last_updated": "2026-03-18",
-    "petition_url": "https://www.change.org/p/oppose-the-major-cpa-seeking-to-remove-2-077-acres-of-hassayampa-ranch-for-industrial-use",
-    "petition_signatures": 500,
-    "opposition_groups": [
-      "White Tank Mountains Conservancy"
-    ],
-    "opposition_website": "https://www.wtmconservancy.org",
-    "opposition_facebook": "https://www.facebook.com/WhiteTankMountains/"
   },
   {
     "id": "buckeye-az-tract-2025-06",
@@ -27475,35 +27305,6 @@
     "county_lean": "D"
   },
   {
-    "id": "new-castle-county-de-zoning-2026-03-04",
-    "jurisdiction": "New Castle County (Zoning Ordinance)",
-    "state": "DE",
-    "county": "New Castle County",
-    "lat": 39.5776,
-    "lng": -75.632,
-    "action_type": "zoning_restriction",
-    "date": "2026-03-04",
-    "status": "pending",
-    "company": "Starwood Digital Ventures",
-    "concerns": [
-      "electricity_rates",
-      "environment",
-      "water",
-      "community_character"
-    ],
-    "opposition_groups": [],
-    "petition_signatures": 1500,
-    "summary": "New Castle County Council is debating data center zoning regulations amid backlash to the Starwood Digital Ventures 'Project Washington' (a 1.2 GW, 580-acre proposal in Delaware City denied by DNREC as heavy industry incompatible with the Coastal Zone). Over 1,500 people voiced support for strong guardrails, but community advocates said the ordinance was 'watered down' to get necessary votes. Seven council members voiced opposition to the rules.",
-    "sources": [
-      "https://spotlightdelaware.org/2026/03/04/data-center-regulations-in-ncc-may-see-final-vote-council-makes-compromises/",
-      "https://spotlightdelaware.org/2026/03/09/last-minute-amendment-aims-to-exempt-more-data-center-plans-from-regulation/"
-    ],
-    "data_source": "news",
-    "last_updated": "2026-03-19",
-    "scope": "local",
-    "county_lean": "D"
-  },
-  {
     "id": "st-charles-mo-permanent-ban-2026-02-01",
     "jurisdiction": "St. Charles (Permanent Ban)",
     "state": "MO",
@@ -27973,44 +27774,6 @@
     "county_lean": "R"
   },
   {
-    "id": "hanover-va-hunting-hawk-2026-01",
-    "jurisdiction": "Hanover County (Hunting Hawk)",
-    "state": "VA",
-    "county": "Hanover County",
-    "lat": 37.759,
-    "lng": -77.4758,
-    "action_type": "other",
-    "date": "2026-01-28",
-    "status": "cancelled",
-    "company": "HHHunt",
-    "project_name": "Hunting Hawk Technology Center",
-    "megawatts": 900,
-    "acreage": 400,
-    "opposition_groups": [
-      "Wyndham Smart Development Task Force",
-      "Neighbors For Change"
-    ],
-    "concerns": [
-      "traffic",
-      "water",
-      "noise",
-      "environment",
-      "community_character"
-    ],
-    "summary": "HHHunt withdrew plans for a 400-acre, 900 MW, 10-building data center campus near the Wyndham community on Jan 28, 2026 after the Hanover County Planning Commission voted against it, determining it 'did not fit Hanover's rural character.' Hundreds of residents from Hanover, Henrico, and Goochland counties packed South Anna Elementary School to voice opposition about traffic, water use, noise, and environmental impacts.",
-    "sources": [
-      "https://www.vpm.org/news/2025-11-18/hanover-hunting-hawk-data-center-hhhunt-wyndham-banton-mendelson-cheeley",
-      "https://www.vpm.org/news/2026-01-20/hanover-hunting-hawk-data-center-hhhunt-wyndham-ashland-road-clark",
-      "https://virginiabusiness.com/developer-withdraws-hanover-data-center-campus-proposal/",
-      "https://www.wtvr.com/news/local-news/hhhunt-withdraws-data-center-application-jan-28-2026"
-    ],
-    "data_source": "news",
-    "last_updated": "2026-03-19",
-    "scope": "local",
-    "opposition_website": "https://smartdevtaskforce.com",
-    "county_lean": "R"
-  },
-  {
     "id": "prince-william-va-digital-gateway-void-2025-08",
     "jurisdiction": "Prince William County (Digital Gateway voided)",
     "state": "VA",
@@ -28025,7 +27788,11 @@
     "investment_million_usd": null,
     "opposition_groups": [
       "Coalition to Protect Prince William County",
-      "American Battlefield Trust"
+      "American Battlefield Trust",
+      "Piedmont Environmental Council",
+      "Sierra Club",
+      "National Parks Conservation Association",
+      "Virginia Data Center Reform Coalition"
     ],
     "concerns": [
       "community_character",
@@ -28036,10 +27803,18 @@
     "sources": [
       "https://www.beankinney.com/data-center-infrastructure-under-siege-lessons-from-virginias-digital-gateway-decision/",
       "https://virginiaindependentnews.com/infrastructure/data-center-cancellations-pile-up-as-virginians-voice-opposition/",
-      "https://www.insidenova.com/headlines/prince-william-s-digital-gateway-data-center-hearings-zero-in-on-public-notice/article_2dc98d69-5a46-4adf-90da-c5042b4a3833.html"
+      "https://www.insidenova.com/headlines/prince-william-s-digital-gateway-data-center-hearings-zero-in-on-public-notice/article_2dc98d69-5a46-4adf-90da-c5042b4a3833.html",
+      "https://www.princewilliamtimes.com/news/breaking-judge-overturns-prince-william-digital-gateway/article_951d6362-1bbd-416f-89c5-ff322bf49fa8.html",
+      "https://www.pwcva.gov/news/prince-william-county-launches-interactive-data-center-map-improve-public-access-development",
+      "https://www.princewilliamtimes.com/news/report-prince-william-county-has-44-data-centers-15-more-on-the-way/article_f0518174-bd23-49ee-ab92-3b04a0936f16.html",
+      "https://www.datacenterfrontier.com/site-selection/article/21437363/prince-william-digital-gateway",
+      "https://protectpwc.org/about-us/about-the-coalition-to-protect-pwc/",
+      "https://virginiamercury.com/2025/05/21/report-highlights-community-pushback-stalling-64-billion-in-data-center-development-nationwide/",
+      "https://wtop.com/prince-william-county/2025/11/digital-gateway-data-center-builders-barred-from-beginning-construction-until-legal-challenge-plays-out/",
+      "https://www.princewilliamtimes.com/localnews/supervisors-vote-to-spend-another-400k-to-defend-the-pw-digital-gateway/article_79abd8cb-bf32-5c46-8a7d-ba39bb676c57.html"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-23",
     "scope": "local",
     "county_lean": "D"
   },
@@ -28439,16 +28214,22 @@
     "hyperscaler": null,
     "acreage": 1800,
     "opposition_groups": [
-      "Clean Water for North Carolina"
+      "Clean Water for North Carolina",
+      "Walnut Cove residents"
     ],
     "summary": "Clean Water for North Carolina and Walnut Cove residents filed lawsuit challenging the 3-2 rezoning vote from January 12, alleging commissioners did not adequately consider environmental impacts on 1,800-acre Project Delta site.",
     "sources": [
-      "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/"
+      "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/",
+      "https://www.wsoctv.com/news/local/nc-neighbors-suing-protect-farmland-rezoning-data-center/4FMVUKUJ7VBAJBV46OBDT75SYU/",
+      "https://journalnow.com/news/local/business/development/article_ecd6167b-aac8-4828-81e1-3d50a447416d.html",
+      "https://cwfnc.org/stokes/",
+      "https://www.selc.org/press-release/community-groups-residents-file-lawsuit-over-stokes-county-data-center-rezoning/",
+      "https://www.wunc.org/2026-03-16/developer-responds-to-lawsuit-challenging-stokes-data-center"
     ],
     "scope": "local",
     "county_lean": "R",
     "data_source": "agent_research",
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-23"
   },
   {
     "id": "washington-county-west-finley-pa-2026-03-12",
@@ -28484,47 +28265,6 @@
     ],
     "data_source": "web_research",
     "last_updated": "2026-03-14"
-  },
-  {
-    "id": "stokes-county-lawsuit-nc-2026-03-13",
-    "jurisdiction": "Stokes County (Walnut Cove lawsuit)",
-    "state": "NC",
-    "county": "Stokes County",
-    "county_lean": "R",
-    "lat": 36.2954,
-    "lng": -80.1413,
-    "action_type": "lawsuit",
-    "date": "2026-03-13",
-    "status": "active",
-    "scope": "local",
-    "company": null,
-    "hyperscaler": null,
-    "acreage": 1800,
-    "jobs_promised": null,
-    "opposition_groups": [
-      "Clean Water for North Carolina",
-      "Walnut Cove residents"
-    ],
-    "opposition_website": "https://cwfnc.org/stokes/",
-    "concerns": [
-      "water",
-      "air_quality",
-      "noise",
-      "agricultural_land",
-      "environment",
-      "community_character"
-    ],
-    "summary": "Environmental groups and Walnut Cove neighbors filed a lawsuit on March 13, 2026, challenging Stokes County commissioners' 3-2 vote to rezone 1,800 acres of farmland near the Dan River for an AI data center. The suit alleges commissioners approved the project without considering environmental impacts including air quality, water usage, and noise. The rezoning was originally approved January 12 despite majority public opposition at hearings. Developer responded to the lawsuit on March 16. No ruling yet from Stokes County Superior Court. Plaintiffs asking judge to void the county's January rezoning decision.",
-    "sources": [
-      "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/",
-      "https://www.wsoctv.com/news/local/nc-neighbors-suing-protect-farmland-rezoning-data-center/4FMVUKUJ7VBAJBV46OBDT75SYU/",
-      "https://journalnow.com/news/local/business/development/article_ecd6167b-aac8-4828-81e1-3d50a447416d.html",
-      "https://cwfnc.org/stokes/",
-      "https://www.selc.org/press-release/community-groups-residents-file-lawsuit-over-stokes-county-data-center-rezoning/",
-      "https://www.wunc.org/2026-03-16/developer-responds-to-lawsuit-challenging-stokes-data-center"
-    ],
-    "data_source": "web_research",
-    "last_updated": "2026-03-17"
   },
   {
     "id": "brazoria-county-nightpeak-tax-denial-tx-2026-03",
@@ -28663,44 +28403,6 @@
     "county_lean": "D"
   },
   {
-    "id": "hanover-county-va-hunting-hawk-2026-01",
-    "jurisdiction": "Hanover County (Hunting Hawk / Wyndham)",
-    "state": "VA",
-    "county": "Hanover County",
-    "lat": 37.7282,
-    "lng": -77.5036,
-    "action_type": "permit_denial",
-    "date": "2026-01-15",
-    "status": "cancelled",
-    "company": "HHHunt",
-    "hyperscaler": null,
-    "acreage": 400,
-    "opposition_groups": [
-      "Hanover County residents",
-      "Wyndham community residents",
-      "Henrico County residents",
-      "Goochland County residents"
-    ],
-    "opposition_website": null,
-    "opposition_facebook": null,
-    "opposition_instagram": null,
-    "opposition_twitter": null,
-    "petition_url": null,
-    "petition_signatures": null,
-    "summary": "Hanover County's Planning Commission voted against recommending HHHunt's proposed 10-building, 400-acre data center campus near the Wyndham community, determining it 'did not fit Hanover's rural character.' The campus would have supported up to 900 MW. Hundreds of residents packed a community meeting in November 2025, and residents from Hanover, Henrico, and Goochland counties raised concerns about traffic, water use, noise, and environmental impacts. HHHunt withdrew its application on January 28, 2026, two weeks after the Planning Commission rejection.",
-    "sources": [
-      "https://www.vpm.org/news/2026-01-20/hanover-hunting-hawk-data-center-hhhunt-wyndham-ashland-road-clark",
-      "https://virginiabusiness.com/developer-withdraws-hanover-data-center-campus-proposal/",
-      "https://richmondbizsense.com/2026/01/16/hanover-planning-commission-rejects-hhhunt-data-center-project-near-wyndham/",
-      "https://www.wtvr.com/news/local-news/hhhunt-withdraws-data-center-application-jan-28-2026"
-    ],
-    "data_source": "agent_research",
-    "last_updated": "2026-03-14",
-    "scope": "local",
-    "county_lean": "R",
-    "energy_mw": 900
-  },
-  {
     "id": "pittsylvania-county-va-berry-hill-stack-2026-03",
     "jurisdiction": "Pittsylvania County (Berry Hill Megasite)",
     "state": "VA",
@@ -28725,10 +28427,11 @@
       "https://cardinalnews.org/2026/03/10/73-billion-project-at-pittsylvania-megasite-would-be-largest-in-southside-history/",
       "https://virginiabusiness.com/berry-hill-megasite-data-center-stack-infrastructure/",
       "https://www.datacenterdynamics.com/en/news/stack-set-to-acquire-site-in-pittsylvania-county-virginia/",
-      "https://www.wsls.com/news/local/2026/03/11/new-73-billion-investment-could-revolutionize-pittsylvania-county-but-concerns-over-data-centers-remain/"
+      "https://www.wsls.com/news/local/2026/03/11/new-73-billion-investment-could-revolutionize-pittsylvania-county-but-concerns-over-data-centers-remain/",
+      "https://cardinalnews.org/2026/03/11/2050-jobs-at-80500-headed-for-pittsylvania-county-that-could-complicate-data-center-tax-talks-and-vindicate-youngkin/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-23",
     "scope": "local",
     "county_lean": "R",
     "investment_usd": 73000000000

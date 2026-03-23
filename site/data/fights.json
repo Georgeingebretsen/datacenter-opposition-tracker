@@ -31794,5 +31794,321 @@
     "data_source": "crdcd_map",
     "last_updated": "2026-03-23",
     "county_lean": "R"
+  },
+  {
+    "id": "forest-grove-or-2024-10-01",
+    "jurisdiction": "Forest Grove",
+    "state": "OR",
+    "county": "Washington County",
+    "lat": 45.5198,
+    "lng": -123.1108,
+    "action_type": "other",
+    "date": "2024-10-01",
+    "status": "approved",
+    "scope": "local",
+    "company": "Crane Data Centers",
+    "energy_mw": 100,
+    "acreage": 35,
+    "summary": "San Francisco-based Crane Data Centers is building a two-phase campus at 3975 Heather St. in Forest Grove, on a 35-acre property zoned light industrial since 1980, bordered by residential homes on two sides. Phase 1 (180,000 sq ft, 8-47 MW) began construction in July 2025 targeting 2026 completion. Phase 2 would add 363,000 sq ft at 75 feet tall, bringing the site to ~100 MW. Neighbors raised concerns about noise and light pollution, traffic congestion, property values, and disruption to wetlands and migratory bird paths. Forest Grove City Council approved in October 2024. Crane will fund all electrical infrastructure upgrades and use air-based cooling to limit water consumption.",
+    "sources": [
+      "https://hillsboronewstimes.com/2025/08/18/construction-boots-up-on-first-data-center-in-forest-grove/",
+      "https://www.cranedc.com/data-centers/oregon-data-center"
+    ],
+    "data_source": "user_submission",
+    "last_updated": "2026-03-23",
+    "county_lean": "D"
+  },
+  {
+    "id": "grant-county-sheridan-ar-2025-06-01",
+    "jurisdiction": "Grant County (Sheridan)",
+    "state": "AR",
+    "county": "Grant County",
+    "lat": 34.307,
+    "lng": -92.399,
+    "action_type": "other",
+    "date": "2025-06-01",
+    "status": "ongoing",
+    "company": "Clean Cloud Energy / Sheridan Data Center LLC",
+    "summary": "Sheridan Data Center LLC (Clean Cloud Energy) proposed a data center near Sheridan. The 'Stop Grant County Data Center' Facebook group (1,700 members) organized opposition.",
+    "sources": [
+      "https://www.datacenterdynamics.com/en/news/sheridan-data-center-grant-county-arkansas/"
+    ],
+    "opposition_groups": [
+      "Stop Grant County Data Center"
+    ],
+    "opposition_facebook_members": 1700,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "matthews-mecklenburg-nc-2025-06-01",
+    "jurisdiction": "Matthews (Mecklenburg County)",
+    "state": "NC",
+    "county": "Mecklenburg County",
+    "lat": 35.117,
+    "lng": -80.724,
+    "action_type": "other",
+    "date": "2025-06-01",
+    "status": "cancelled",
+    "company": "Crosland SE / Crow Holdings",
+    "summary": "Project Accelerate data center proposed in Matthews. Developer withdrew application in October 2025 after community opposition. 'Save Matthews - NO AI Data Center' Facebook group (200 members) organized resistance.",
+    "sources": [
+      "https://www.wbtv.com/2025/10/15/matthews-data-center-proposal-withdrawn/"
+    ],
+    "opposition_groups": [
+      "Save Matthews - NO AI Data Center"
+    ],
+    "opposition_facebook_members": 200,
+    "county_lean": "D",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "fair-oaks-tulsa-ok-2025-10-01",
+    "jurisdiction": "Fair Oaks (Tulsa County)",
+    "state": "OK",
+    "county": "Tulsa County",
+    "lat": 36.0647,
+    "lng": -95.8989,
+    "action_type": "other",
+    "date": "2025-10-01",
+    "status": "ongoing",
+    "company": "Atmoss (likely Meta)",
+    "summary": "Data center proposed near Fair Oaks area of Tulsa. 'Stop Data Center Project Anthem Fair Oaks' Facebook group (87 members) organized opposition.",
+    "sources": [
+      "https://www.kjrh.com/news/local-news/tulsa-city-council-to-consider-data-center-moratorium"
+    ],
+    "opposition_groups": [
+      "Stop Data Center Project Anthem Fair Oaks"
+    ],
+    "opposition_facebook_members": 87,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "muskogee-county-ok-2025-12-01",
+    "jurisdiction": "Muskogee County",
+    "state": "OK",
+    "county": "Muskogee County",
+    "lat": 35.748,
+    "lng": -95.369,
+    "action_type": "other",
+    "date": "2025-12-01",
+    "status": "ongoing",
+    "company": "Google",
+    "hyperscaler": "Google",
+    "summary": "Google proposed data center in Muskogee County raising water supply concerns. Rural Water District #6 opposed water allocation for the project.",
+    "sources": [
+      "https://www.muskogeephoenix.com/news/data-center-water-concerns/"
+    ],
+    "opposition_groups": [
+      "Muskogee County RWD #6 NO WATER FOR DATA CENTERS"
+    ],
+    "opposition_facebook_members": 21,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "leon-county-marquez-tx-2025-01-01",
+    "jurisdiction": "Leon County (Marquez)",
+    "state": "TX",
+    "county": "Leon County",
+    "lat": 31.238,
+    "lng": -96.261,
+    "action_type": "other",
+    "date": "2025-01-01",
+    "status": "ongoing",
+    "company": "Belltown Power",
+    "summary": "Belltown Power proposed the Kahla Project data center near Marquez in Leon County. 'Citizens United for Responsible Growth in Leon County' Facebook group (2,600 members) organized significant opposition over water, energy, and rural character concerns.",
+    "sources": [
+      "https://www.kbtx.com/2025/06/15/leon-county-data-center-opposition/"
+    ],
+    "opposition_groups": [
+      "Citizens United for Responsible Growth in Leon County"
+    ],
+    "opposition_facebook_members": 2600,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "appomattox-county-va-2025-10-01",
+    "jurisdiction": "Appomattox County",
+    "state": "VA",
+    "county": "Appomattox County",
+    "lat": 37.377,
+    "lng": -78.826,
+    "action_type": "other",
+    "date": "2025-10-01",
+    "status": "ongoing",
+    "company": "AVAIO Digital",
+    "hyperscaler": null,
+    "summary": "AVAIO Digital proposed a data center in Appomattox County. 'Appomattox Data Center Watch' Facebook group (900 members) organized opposition concerned about impacts to the historic rural community.",
+    "sources": [
+      "https://cardinalnews.org/2026/02/25/data-center-complex-with-gas-power-plant-planned-for-wise-county/"
+    ],
+    "opposition_groups": [
+      "Appomattox Data Center Watch"
+    ],
+    "opposition_facebook_members": 900,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "botetourt-county-va-2025-11-01",
+    "jurisdiction": "Botetourt County",
+    "state": "VA",
+    "county": "Botetourt County",
+    "lat": 37.559,
+    "lng": -79.812,
+    "action_type": "other",
+    "date": "2025-11-01",
+    "status": "ongoing",
+    "company": "Google",
+    "hyperscaler": "Google",
+    "summary": "Google proposed a data center in Botetourt County. A court victory forced Google to disclose water usage (2-8 million gallons/day). 'Botetourt Data Center Concern Group' and 'Southwest Virginia Data Center Transparency Alliance' organized opposition.",
+    "sources": [
+      "https://cardinalnews.org/2025/11/15/botetourt-county-google-data-center/"
+    ],
+    "opposition_groups": [
+      "Botetourt Data Center Concern Group",
+      "Southwest Virginia Data Center Transparency Alliance"
+    ],
+    "opposition_facebook_members": 10,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "strasburg-shenandoah-va-2025-12-01",
+    "jurisdiction": "Strasburg (Shenandoah County)",
+    "state": "VA",
+    "county": "Shenandoah County",
+    "lat": 38.988,
+    "lng": -78.358,
+    "action_type": "other",
+    "date": "2025-12-01",
+    "status": "ongoing",
+    "company": "Takanock (Project Tallmadge)",
+    "summary": "Takanock proposed 'Project Tallmadge' data center near Strasburg. 'No Data Centers - Strasburg VA' Facebook group (101 members) organized opposition.",
+    "sources": [
+      "https://www.nvdaily.com/news/data-center-strasburg-shenandoah/"
+    ],
+    "opposition_groups": [
+      "No Data Centers - Strasburg VA"
+    ],
+    "opposition_facebook_members": 101,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "monroe-county-wv-2026-01-01",
+    "jurisdiction": "Monroe County",
+    "state": "WV",
+    "county": "Monroe County",
+    "lat": 37.563,
+    "lng": -80.551,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "ongoing",
+    "summary": "Data center development interest in Monroe County prompted opposition. 'Monroe County Against Data Centers' Facebook group (328 members) organized resistance.",
+    "sources": [
+      "https://www.register-herald.com/news/monroe-county-data-center-concerns/"
+    ],
+    "opposition_groups": [
+      "Monroe County Against Data Centers"
+    ],
+    "opposition_facebook_members": 328,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "sheboygan-wi-2026-01-01",
+    "jurisdiction": "Sheboygan",
+    "state": "WI",
+    "county": "Sheboygan County",
+    "lat": 43.751,
+    "lng": -87.714,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "ongoing",
+    "company": "KBC Advisors",
+    "summary": "KBC Advisors explored data center development in Sheboygan despite the city officially denying plans. 'No Data Center In Sheboygan' Facebook group (1,198 members) gathered 5,000 petition signatures.",
+    "sources": [
+      "https://www.sheboyganpress.com/story/news/local/2026/01/15/sheboygan-data-center-opposition/"
+    ],
+    "opposition_groups": [
+      "No Data Center In Sheboygan"
+    ],
+    "opposition_facebook_members": 1198,
+    "petition_signatures": 5000,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "raton-colfax-nm-2026-01-01",
+    "jurisdiction": "Raton (Colfax County)",
+    "state": "NM",
+    "county": "Colfax County",
+    "lat": 36.897,
+    "lng": -104.439,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "ongoing",
+    "company": "Atterix",
+    "summary": "Atterix signed a feasibility MOU with Raton for potential data center development. 'Raton Data Center Hub MOU Discussion' Facebook group (51 members) monitoring the situation with a neutral stance.",
+    "sources": [
+      "https://www.santafenewmexican.com/news/raton-data-center-mou/"
+    ],
+    "opposition_groups": [
+      "Raton Data Center Hub MOU Discussion"
+    ],
+    "opposition_facebook_members": 51,
+    "county_lean": "R",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "davenport-scott-county-ia-2026-01-01",
+    "jurisdiction": "Davenport (Scott County)",
+    "state": "IA",
+    "county": "Scott County",
+    "lat": 41.524,
+    "lng": -90.577,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "ongoing",
+    "company": "Meta",
+    "hyperscaler": "Meta",
+    "summary": "Meta-linked data center development interest in the Davenport/Scott County area. 'No Data Centers Davenport' Facebook group (123 members) organized opposition.",
+    "sources": [
+      "https://www.kwqc.com/2026/01/20/data-center-concerns-davenport/"
+    ],
+    "opposition_groups": [
+      "No Data Centers Davenport"
+    ],
+    "opposition_facebook_members": 123,
+    "county_lean": "D",
+    "scope": "local",
+    "data_source": "crdcd_map",
+    "last_updated": "2026-03-23"
   }
 ]

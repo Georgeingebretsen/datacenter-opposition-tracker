@@ -55,7 +55,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   initMap();
   populateFilters();
+
+  // Apply URL params before first render
+  applyUrlParams();
+
   render();
+
+  // If URL has ?id=, open that fight's detail panel
+  const urlId = new URLSearchParams(window.location.search).get('id');
+  if (urlId) {
+    const fight = fights.find(f => f.id === urlId);
+    if (fight) {
+      setTimeout(() => openDetail(fight), 300);
+    }
+  }
 
   // Show last updated from most recent entry
   const dates = fights.map(f => f.last_updated || f.date).filter(Boolean).sort();
@@ -363,6 +376,8 @@ function render() {
   updateMap(filtered);
   updateTable(filtered);
   updateSortIndicators();
+  // Update URL to reflect current filters (skip on initial load)
+  if (typeof updateUrlFromFilters === 'function') updateUrlFromFilters();
 }
 
 function updateStats(filtered) {
@@ -843,6 +858,11 @@ function openDetail(f) {
   const panel = document.getElementById('detail-panel');
   const content = document.getElementById('detail-content');
 
+  // Update URL with ?id= for shareable links
+  const url = new URL(window.location);
+  url.searchParams.set('id', f.id);
+  history.replaceState(null, '', url.pathname + url.search);
+
   // Build opposition groups with links
   let groupsHtml;
   if (f.opposition_groups && f.opposition_groups.length) {
@@ -954,6 +974,47 @@ function openDetail(f) {
 
 function closePanel() {
   document.getElementById('detail-panel').classList.remove('open');
+  // Remove ?id= from URL
+  const url = new URL(window.location);
+  if (url.searchParams.has('id')) {
+    url.searchParams.delete('id');
+    history.replaceState(null, '', url.pathname + (url.search || ''));
+  }
+}
+
+// --- Shareable URL support ---
+
+function applyUrlParams() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('state')) document.getElementById('filter-state').value = params.get('state');
+  if (params.get('type')) document.getElementById('filter-type').value = params.get('type');
+  if (params.get('year')) document.getElementById('filter-year').value = params.get('year');
+  if (params.get('lean')) document.getElementById('filter-lean').value = params.get('lean');
+  if (params.get('status')) document.getElementById('filter-status').value = params.get('status');
+  if (params.get('search')) document.getElementById('search-input').value = params.get('search');
+}
+
+function updateUrlFromFilters() {
+  const url = new URL(window.location);
+  const filters = {
+    state: document.getElementById('filter-state').value,
+    type: document.getElementById('filter-type').value,
+    year: document.getElementById('filter-year').value,
+    lean: document.getElementById('filter-lean').value,
+    status: document.getElementById('filter-status').value,
+    search: document.getElementById('search-input').value,
+  };
+
+  // Remove id param when filtering
+  url.searchParams.delete('id');
+
+  for (const [key, val] of Object.entries(filters)) {
+    if (val) url.searchParams.set(key, val);
+    else url.searchParams.delete(key);
+  }
+
+  const newUrl = url.pathname + (url.search || '');
+  history.replaceState(null, '', newUrl);
 }
 
 function clearFilters() {

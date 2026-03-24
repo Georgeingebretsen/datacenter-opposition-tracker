@@ -485,11 +485,12 @@
       "https://www.abc15.com/news/region-west-valley/community-concerned-over-major-new-data-center-project"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-24",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R",
-    "energy_mw": 1000
+    "energy_mw": 1000,
+    "investment_usd": 14000000000
   },
   {
     "id": "town-of-chesterton-in-2024-06-01",
@@ -3786,11 +3787,12 @@
       "https://www.sierraclub.org/sierra/rural-louisiana-meta-s-new-data-center-promises-growth-what-cost"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 2000,
-    "water_gallons_per_day": 5000000
+    "water_gallons_per_day": 5000000,
+    "investment_usd": 10000000000
   },
   {
     "id": "lakeville-mn-2025-08-01",
@@ -4700,10 +4702,11 @@
       "https://www.loganbanner.com/news/local-residents-file-federal-lawsuit-to-block-major-data-center-project-near-wharncliffe/article_c89961af-2c6d-4a86-9e05-7619e775b21e.html"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
-    "energy_mw": 2400
+    "energy_mw": 2400,
+    "investment_usd": 3000000000
   },
   {
     "id": "jerome-township-oh-2025-09-03",
@@ -6625,10 +6628,11 @@
       "https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
-    "energy_mw": 800
+    "energy_mw": 800,
+    "investment_usd": 10000000000
   },
   {
     "id": "dundee-township-mi-2025-10-02",
@@ -11673,10 +11677,11 @@
       "https://www.cnbc.com/2026/01/09/openai-and-softbank-group-announce-1-billion-investment-in-sb-energy-.html"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
-    "energy_mw": 1200
+    "energy_mw": 1200,
+    "investment_usd": 3000000000
   },
   {
     "id": "ironton-oh-2026-01-09",
@@ -13956,10 +13961,11 @@
       "https://myrgv.com/local-news/2026/02/13/harlingen-mayor-raises-questions-after-data-center-meeting/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
-    "energy_mw": 1000
+    "energy_mw": 1000,
+    "investment_usd": 14000000000
   },
   {
     "id": "carroll-county-md-2026-02-01",
@@ -20584,7 +20590,8 @@
       "Piedmont Environmental Council"
     ],
     "opposition_website": "https://protectfauquier.com/",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-24",
+    "investment_usd": 3067000000
   },
   {
     "scope": "local",
@@ -22118,7 +22125,8 @@
     ],
     "opposition_website": "https://safeandsound.info",
     "petition_signatures": 900,
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-24",
+    "investment_usd": 20000000000
   },
   {
     "scope": "local",
@@ -26732,7 +26740,8 @@
     "acreage": 2069,
     "petition_signatures": 100,
     "data_source": "agent_research",
-    "last_updated": "2026-03-19"
+    "last_updated": "2026-03-24",
+    "investment_usd": 20000000000
   },
   {
     "id": "reno-oppidan-nv-2025-01",
@@ -28553,10 +28562,11 @@
       "https://virginiamercury.com/briefs/scc-declines-to-reconsider-chesterfield-gas-plant-approval-advocacy-groups-appeal-air-permit/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "D",
-    "energy_mw": 944
+    "energy_mw": 944,
+    "investment_usd": 1470000000
   },
   {
     "id": "virginia-deq-diesel-generators-2025-12",
@@ -29707,9 +29717,10 @@
     "opposition_website": "https://movethegasplant.org",
     "energy_mw": 1200,
     "data_source": "web_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-24",
     "county_lean": "R",
-    "acreage": 3300
+    "acreage": 3300,
+    "investment_usd": 1200000000
   },
   {
     "id": "permian-basin-transmission-tx-2026",

@@ -13872,7 +13872,7 @@
     "lng": -89.6501,
     "action_type": "moratorium",
     "date": "2026-02-01",
-    "status": "ongoing",
+    "status": "delayed",
     "company": "CyrusOne",
     "hyperscaler": null,
     "project_name": null,
@@ -13894,7 +13894,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "CyrusOne (Dallas-based) proposed a 636 MW, 1.4 million sq ft data center complex on 230 acres of farmland in Talkington Township, near Waverly, ~14 miles southwest of Springfield. Investment estimated at $500M. The zoning committee voted 5-3 against a six-month moratorium, then the ZBA recommended CyrusOne receive conditional permitted use. Union members in orange were the project's most vocal supporters. Sierra Club raised concerns about lack of transparency. The Sangamon County Board will vote March 23, 2026. County Assessor Byron Deaner estimated ~$5M/year in new property taxes. ZBA voted 5-0 on Feb. 19 to recommend approval of CyrusOne project. County Board final vote scheduled March 23 at BOS Center. Project would generate $5-6M/year in new property taxes and create 100 permanent jobs (avg. $83K salary) plus 500+ construction jobs. County rejected a proposed 6-month moratorium by 5-3 vote.",
+    "summary": "CyrusOne (Dallas-based) proposed a 636 MW, 1.4 million sq ft data center complex on 230 acres of farmland in Talkington Township, near Waverly, ~14 miles southwest of Springfield. Investment estimated at $500M. The zoning committee voted 5-3 against a six-month moratorium, then the ZBA recommended CyrusOne receive conditional permitted use. Union members in orange were the project's most vocal supporters. Sierra Club raised concerns about lack of transparency. The Sangamon County Board will vote March 23, 2026. County Assessor Byron Deaner estimated ~$5M/year in new property taxes. ZBA voted 5-0 on Feb. 19 to recommend approval of CyrusOne project. County Board final vote scheduled March 23 at BOS Center. Project would generate $5-6M/year in new property taxes and create 100 permanent jobs (avg. $83K salary) plus 500+ construction jobs. County rejected a proposed 6-month moratorium by 5-3 vote. County board voted 15-13 to TABLE the vote on March 23 after nearly four hours of public testimony. No new vote date set.",
     "sources": [
       "https://www.wcia.com/news/sangamon-county/sangamon-county-will-not-adopt-6-month-moratorium-on-data-centers/",
       "https://www.illinoistimes.com/news/both-data-center-plans-move-forward/",
@@ -13904,10 +13904,11 @@
       "https://www.sierraclub.org/illinois/sangamon-valley/about-us",
       "https://www.illinoistimes.com/news/data-center-project-moves-forward/",
       "https://www.sangamonreporter.com/post/zoning-board-advances-data-center-permit-to-county-board",
-      "https://www.foxillinois.com/news/local/county-board-members-to-issue-moratorium-on-data-center-vote/article_f260660f-772f-40d9-9edd-6a3046ae736e.html"
+      "https://www.foxillinois.com/news/local/county-board-members-to-issue-moratorium-on-data-center-vote/article_f260660f-772f-40d9-9edd-6a3046ae736e.html",
+      "https://www.nprillinois.org/sangamon-county/2026-03-23/the-sangamon-county-board-tables-a-vote-on-a-massive-data-center"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 636,
@@ -22021,7 +22022,8 @@
       "https://www.wusf.org/politics-issues/2026-02-26/florida-senate-unanimously-passes-restrictions-large-scale-data-centers",
       "https://www.flsenate.gov/Session/Bill/2026/484",
       "https://floridaphoenix.com/2026/03/13/florida-senate-half-heartedly-agrees-to-final-ok-for-weakened-data-center-bill/",
-      "https://www.theinvadingsea.com/2026/03/13/data-centers-florida-legislature-sb-484-desantis-ai-non-disclosure-agreements-psc-utilities/"
+      "https://www.theinvadingsea.com/2026/03/13/data-centers-florida-legislature-sb-484-desantis-ai-non-disclosure-agreements-psc-utilities/",
+      "https://www.clickorlando.com/news/florida/2026/03/24/heres-what-to-know-after-gov-desantis-signed-floridas-newest-law/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22034,10 +22036,10 @@
     "action_type": "legislation",
     "date": "2026-02-26",
     "status": "enacted",
-    "summary": "Establishes regulatory framework for hyperscale data centers. Requires PSC to ensure data centers pay their own utility costs. Prohibits certain NDAs. Preserves local government land use authority. Passed both chambers March 13, 2026 in weakened form; signed by Governor DeSantis, effective July 1, 2026. Major provisions include separate utility rate class and transparency requirements.",
+    "summary": "Establishes regulatory framework for hyperscale data centers. Requires PSC to ensure data centers pay their own utility costs. Prohibits certain NDAs. Preserves local government land use authority. Passed both chambers March 13, 2026 in weakened form; signed by Governor DeSantis, effective July 1, 2026. Major provisions include separate utility rate class and transparency requirements. Governor DeSantis signed SB 484 on March 24. Effective July 1, 2026.",
     "bill_name": "CS/CS/SB 484 - Data Centers",
     "bill_url": "https://www.flsenate.gov/Session/Bill/2026/484",
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-24"
   },
   {
     "scope": "local",
@@ -22642,7 +22644,8 @@
     "sources": [
       "https://www.sgvtribune.com/2026/03/12/in-el-monte-verbal-altercation-in-city-council-chambers-postpones-debate-on-data-centers-and-sanctuary-law/",
       "https://www.whittierdailynews.com/2026/03/12/in-el-monte-verbal-altercation-in-city-council-chambers-postpones-debate-on-data-centers-and-sanctuary-law/",
-      "https://www.sgvtribune.com/2026/03/17/el-monte-city-council-set-to-meet-again-after-verbal-altercation-ended-last-meeting/"
+      "https://www.sgvtribune.com/2026/03/17/el-monte-city-council-set-to-meet-again-after-verbal-altercation-ended-last-meeting/",
+      "https://www.sgvtribune.com/2026/03/19/data-center-moratorium-sanctuary-city-rules-pass-in-el-monte/"
     ],
     "company": "",
     "hyperscaler": "",
@@ -22663,9 +22666,9 @@
     "lng": -118.0276,
     "action_type": "moratorium",
     "date": "2025-02-18",
-    "status": "pending",
-    "summary": "On March 12, 2026, the City Council postponed action on data center moratorium evaluation after a verbal altercation during public comment led police to evacuate the chamber. Debate rescheduled to March 18, 2026.",
-    "last_updated": "2026-03-19"
+    "status": "enacted",
+    "summary": "On March 12, 2026, the City Council postponed action on data center moratorium evaluation after a verbal altercation during public comment led police to evacuate the chamber. Debate rescheduled to March 18, 2026. City Council unanimously passed a 45-day moratorium on March 19, 2026.",
+    "last_updated": "2026-03-24"
   },
   {
     "scope": "statewide",
@@ -31471,5 +31474,24 @@
     "data_source": "user_submission",
     "last_updated": "2026-03-23",
     "county_lean": "D"
+  },
+  {
+    "id": "boone-nc-moratorium-2026-03-23",
+    "jurisdiction": "Town of Boone",
+    "state": "NC",
+    "county": "Watauga County",
+    "lat": 36.2168,
+    "lng": -81.6746,
+    "action_type": "moratorium",
+    "date": "2026-03-23",
+    "status": "enacted",
+    "scope": "local",
+    "summary": "Boone Town Council unanimously approved a one-year moratorium on data center and crypto mining development on March 23, 2026. Watauga County may follow with a public hearing on April 21.",
+    "sources": [
+      "https://www.wfdd.org/politics-government/2026-03-23/boone-approves-data-center-development-moratorium"
+    ],
+    "county_lean": "D",
+    "data_source": "web_research",
+    "last_updated": "2026-03-24"
   }
 ]

@@ -1167,6 +1167,64 @@ h1 {
   color: var(--text);
 }
 
+/* Detail panel toolbar */
+.detail-toolbar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.btn-share, .btn-expand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.btn-share:hover, .btn-expand:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+.share-label { font-weight: 500; }
+
+/* Fullscreen detail panel */
+.detail-panel.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1000;
+  border-radius: 0;
+  overflow-y: auto;
+  padding: 2rem;
+}
+.detail-panel.fullscreen #detail-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.detail-panel.fullscreen .close-panel {
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  z-index: 1001;
+  font-size: 2rem;
+}
+body.detail-fullscreen main,
+body.detail-fullscreen header,
+body.detail-fullscreen nav,
+body.detail-fullscreen footer {
+  display: none;
+}
+
 /* Footer */
 footer {
   border-top: 1px solid var(--border);

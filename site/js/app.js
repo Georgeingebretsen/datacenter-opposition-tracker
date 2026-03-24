@@ -61,12 +61,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   render();
 
-  // If URL has ?id=, open that fight's detail panel
+  // If URL has ?id=, open that fight's detail panel in fullscreen
   const urlId = new URLSearchParams(window.location.search).get('id');
   if (urlId) {
     const fight = fights.find(f => f.id === urlId);
     if (fight) {
-      setTimeout(() => openDetail(fight), 300);
+      setTimeout(() => {
+        openDetail(fight);
+        toggleFullscreen(fight.id);
+      }, 300);
     }
   }
 
@@ -933,6 +936,15 @@ function openDetail(f) {
   }
 
   content.innerHTML = `
+    <div class="detail-toolbar">
+      <button class="btn-share" onclick="copyShareLink()" title="Copy link to this fight">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H3a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-3M9 1h6m0 0v6m0-6L8 8"/></svg>
+        <span class="share-label">Share</span>
+      </button>
+      <button class="btn-expand" onclick="toggleFullscreen('${f.id}')" title="Full screen view">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4"/></svg>
+      </button>
+    </div>
     <h2>${f.jurisdiction}, ${f.state}</h2>
     ${f.county ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
     <div class="detail-meta">
@@ -974,11 +986,39 @@ function openDetail(f) {
 
 function closePanel() {
   document.getElementById('detail-panel').classList.remove('open');
+  document.getElementById('detail-panel').classList.remove('fullscreen');
+  document.body.classList.remove('detail-fullscreen');
   // Remove ?id= from URL
   const url = new URL(window.location);
   if (url.searchParams.has('id')) {
     url.searchParams.delete('id');
     history.replaceState(null, '', url.pathname + (url.search || ''));
+  }
+}
+
+function copyShareLink() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.querySelector('.btn-share .share-label');
+    if (btn) {
+      const orig = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = orig; }, 1500);
+    }
+  });
+}
+
+function toggleFullscreen(fightId) {
+  const panel = document.getElementById('detail-panel');
+  const isFs = panel.classList.toggle('fullscreen');
+  document.body.classList.toggle('detail-fullscreen', isFs);
+
+  // Swap expand icon to back arrow when fullscreen
+  const btn = panel.querySelector('.btn-expand');
+  if (btn) {
+    btn.innerHTML = isFs
+      ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 2L4 8l6 6"/></svg>'
+      : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4"/></svg>';
   }
 }
 

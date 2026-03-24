@@ -554,7 +554,7 @@
     "lng": -85.832,
     "action_type": "zoning_restriction",
     "date": "2024-06-01",
-    "status": "active",
+    "status": "expired",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -574,10 +574,11 @@
     "summary": "DeKalb County Commission adopted 5,000-foot distance requirements for cryptocurrency mining, quarries, landfills, and other nuisance uses under the Tennessee County Powers Act. Prompted by a crypto mining operation near Smithville and inquiry about a nuclear-powered data center.",
     "sources": [
       "https://www.wjle.com/news/county-establishes-5000-foot-distance-requirements-for-land-uses-such-as-quarries-cryptocurrency-mining-landfills-and-others-under-county-powers-act/",
-      "https://www.wjle.com/county-commission-to-renew-discussion-about-proposed-data-center-regulations-view-video-here/"
+      "https://www.wjle.com/county-commission-to-renew-discussion-about-proposed-data-center-regulations-view-video-here/",
+      "https://www.wjle.com/dekalb-location-regulations-on-quarries-and-other-operations-now-unenforceable-after-state-supreme-court-ruling-in-grundy-county-case/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R"
   },
@@ -590,7 +591,7 @@
     "lng": -90.534,
     "action_type": "moratorium",
     "date": "2024-06-10",
-    "status": "expired",
+    "status": "active",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -614,7 +615,7 @@
       "https://www.clintonherald.com/news/local_news/county-adopts-new-wind-turbine-rules-developer-warns-of-litigation/article_c8dbdae2-84ed-43e4-a7f0-1f14eeef93b7.html"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R"
   },
@@ -659,7 +660,7 @@
       "https://www.bondbuyer.com/news/data-center-developments-in-atlanta-draw-questions-opposition"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "D"
   },
@@ -20928,7 +20929,8 @@
       "https://www.nbcdfw.com/news/local/controversy-surrounds-worlds-largest-bitcoin-mining-operation-to-be-built-near-corsicana/3011474/",
       "https://prospect.org/2025/05/09/2025-05-09-crypto-racket-texas-bitcoin-mining/",
       "https://thenavcochronicle.com/riot-platforms-construction-continues-amid-scrutiny-2/",
-      "https://www.dlnews.com/articles/people-culture/bitcoin-miners-megadeal-stumbles-as-texans-sour-on-industry/"
+      "https://www.dlnews.com/articles/people-culture/bitcoin-miners-megadeal-stumbles-as-texans-sour-on-industry/",
+      "https://www.riotplatforms.com/riot-platforms-launches-formal-evaluation-of-potential-ai-hpc-uses-for-remaining-600-mw-of-power-capacity-at-corsicana-facility/"
     ],
     "company": "Riot Platforms",
     "hyperscaler": "",
@@ -20953,7 +20955,7 @@
     ],
     "opposition_facebook": "https://www.facebook.com/groups/concernedcitizensofnavarrocounty/",
     "petition_signatures": 850,
-    "last_updated": "2026-03-14"
+    "last_updated": "2026-03-24"
   },
   {
     "scope": "local",
@@ -30356,10 +30358,11 @@
     "sources": [
       "https://www.datacenterdynamics.com/en/news/340-acre-data-center-campus-planned-in-tulsa-oklahoma/",
       "https://www.publicradiotulsa.org/local-regional/2025-07-17/tulsa-county-commissioners-approve-data-center-zoning-despite-boisterous-public-opposition",
-      "https://www.fox23.com/news/in-depth-tulsa-leaders-consider-pause-on-new-data-centers-as-debate-grows-across-green/article_b2038fa2-74d4-4adc-9cfa-e8b5b0a041af.html"
+      "https://www.fox23.com/news/in-depth-tulsa-leaders-consider-pause-on-new-data-centers-as-debate-grows-across-green/article_b2038fa2-74d4-4adc-9cfa-e8b5b0a041af.html",
+      "https://tulsaflyer.org/2026/03/19/government/post/east-tulsa-data-center-rezoning-for-project-anthem-delayed/"
     ],
     "data_source": "crdcd_map",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-24",
     "scope": "local",
     "county_lean": "R",
     "opposition_facebook_members": 87
@@ -30833,7 +30836,9 @@
       "https://www.datacenterdynamics.com/en/news/indiana-approves-expanding-googles-fort-wayne-data-center-campus-onto-protected-wetlands-despite-local-opposition/",
       "https://www.wfyi.org/news/articles/googles-data-center-what-the-build-could-mean-for-fort-wayne",
       "https://www.hecweb.org/2025/10/07/hecs-public-comments-on-the-isolated-wetland-permit-for-project-zodiac-data-center/",
-      "https://www.wane.com/top-stories/google-confirms-its-the-business-behind-project-zodiac-data-center-project-in-fort-wayne/"
+      "https://www.wane.com/top-stories/google-confirms-its-the-business-behind-project-zodiac-data-center-project-in-fort-wayne/",
+      "https://www.datacenterdynamics.com/en/news/googles-2bn-data-center-now-operational-in-fort-wayne-indiana/",
+      "https://www.wane.com/top-stories/google-data-centers-third-phase-under-environmental-review/"
     ],
     "opposition_groups": [
       "Stop FW Data Center Campus"
@@ -30844,7 +30849,7 @@
     "petition_url": null,
     "petition_signatures": null,
     "data_source": "crdcd_map",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-24",
     "county_lean": "R"
   },
   {
@@ -30954,7 +30959,7 @@
     "petition_url": null,
     "petition_signatures": null,
     "data_source": "crdcd_map",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-24",
     "county_lean": "R"
   },
   {
@@ -30980,7 +30985,8 @@
       "https://wsbt.com/news/local/laporte-county-dispels-data-center-rumors-as-microsoft-project-advances-community-local-indiana-legal-pushback-land",
       "https://www.govtech.com/products/residents-push-indiana-community-toward-halt-on-data-centers",
       "https://cityoflaporte.com/news/gov-holcomb-announces-plans-for-new-1b-microsoft-data-center-in-northwest-indiana",
-      "https://indianaeconomicdigest.net/MobileContent/Most-Recent/Health-Care/Article/LaPorte-County-backs-limits-on-data-centers-amid-farmland-concerns/31/91/120326"
+      "https://indianaeconomicdigest.net/MobileContent/Most-Recent/Health-Care/Article/LaPorte-County-backs-limits-on-data-centers-amid-farmland-concerns/31/91/120326",
+      "https://www.wndu.com/2026/03/03/laporte-microsoft-data-center-deal-direct-revenue-local-schools/"
     ],
     "opposition_groups": [
       "Say No to Data Centers in LaPorte County"
@@ -30991,7 +30997,7 @@
     "petition_url": null,
     "petition_signatures": null,
     "data_source": "crdcd_map",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-24",
     "county_lean": "R"
   },
   {

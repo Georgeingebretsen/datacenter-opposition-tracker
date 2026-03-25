@@ -66,10 +66,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (urlId) {
     const fight = fights.find(f => f.id === urlId);
     if (fight) {
-      setTimeout(() => {
+      // Use requestAnimationFrame to ensure DOM is ready
+      requestAnimationFrame(() => {
         openDetail(fight);
-        toggleFullscreen(fight.id);
-      }, 300);
+        requestAnimationFrame(() => {
+          toggleFullscreen(fight.id);
+        });
+      });
     }
   }
 

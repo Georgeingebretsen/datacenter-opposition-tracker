@@ -1218,11 +1218,15 @@ h1 {
   z-index: 1001;
   font-size: 2rem;
 }
-body.detail-fullscreen main,
 body.detail-fullscreen header,
 body.detail-fullscreen nav,
-body.detail-fullscreen footer {
-  display: none;
+body.detail-fullscreen footer,
+body.detail-fullscreen .about-section,
+body.detail-fullscreen .stats-strip,
+body.detail-fullscreen .outcome-bar,
+body.detail-fullscreen .map-container,
+body.detail-fullscreen .fights-list {
+  display: none !important;
 }
 
 /* Footer */

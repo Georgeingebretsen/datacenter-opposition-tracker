@@ -57,22 +57,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   populateFilters();
 
   // Apply URL params before first render
-  applyUrlParams();
+  // Read ?id= BEFORE render() which clears it
+  const urlId = new URLSearchParams(window.location.search).get('id');
 
+  applyUrlParams();
   render();
 
-  // If URL has ?id=, open that fight's detail panel in fullscreen
-  const urlId = new URLSearchParams(window.location.search).get('id');
+  // If URL had ?id=, open that fight's detail panel in fullscreen
   if (urlId) {
     const fight = fights.find(f => f.id === urlId);
     if (fight) {
-      // Use requestAnimationFrame to ensure DOM is ready
-      requestAnimationFrame(() => {
+      setTimeout(() => {
         openDetail(fight);
-        requestAnimationFrame(() => {
-          toggleFullscreen(fight.id);
-        });
-      });
+        toggleFullscreen(fight.id);
+      }, 100);
     }
   }
 

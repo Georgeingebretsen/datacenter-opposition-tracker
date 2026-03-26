@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('filter-year').addEventListener('change', render);
   document.getElementById('filter-lean').addEventListener('change', render);
   document.getElementById('filter-status').addEventListener('change', render);
+  document.getElementById('filter-issue').addEventListener('change', render);
   document.getElementById('filter-hyperscaler').addEventListener('change', render);
   document.getElementById('size-by').addEventListener('change', render);
   document.getElementById('clear-filters').addEventListener('click', clearFilters);
@@ -350,13 +351,15 @@ function getFiltered() {
   const hyperscaler = document.getElementById('filter-hyperscaler').value;
   const search = document.getElementById('search-input').value.toLowerCase();
 
+  const issue = document.getElementById('filter-issue').value;
+
   const base = fights.filter(f => {
-    if (f.scope === 'statewide' || f.scope === 'federal') return false;
     if (state && f.state !== state) return false;
     if (type && f.action_type !== type) return false;
     if (year && !f.date.startsWith(year)) return false;
     if (lean && f.county_lean !== lean) return false;
     if (status && f.status !== status) return false;
+    if (issue && !(f.issue_category || []).includes(issue)) return false;
     if (hyperscaler && f.hyperscaler !== hyperscaler) return false;
     if (selectedHyperscalers.size > 0 && !selectedHyperscalers.has(f.hyperscaler)) return false;
     if (search) {
@@ -380,8 +383,27 @@ function render() {
   updateMap(filtered);
   updateTable(filtered);
   updateSortIndicators();
+  updateSizeLegend(filtered);
   // Update URL to reflect current filters (skip on initial load)
   if (typeof updateUrlFromFilters === 'function') updateUrlFromFilters();
+}
+
+function updateSizeLegend(filtered) {
+  const sizeBy = document.getElementById('size-by').value;
+  const metric = SIZE_METRICS[sizeBy] || SIZE_METRICS.energy;
+  const values = filtered.map(f => metric.getValue(f)).filter(v => v != null && v > 0);
+  const legend = document.getElementById('size-legend');
+  if (!legend || values.length === 0) { if (legend) legend.textContent = ''; return; }
+
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const fmt = (v) => {
+    if (v >= 1e9) return '$' + (v/1e9).toFixed(0) + 'B';
+    if (v >= 1e6) return '$' + (v/1e6).toFixed(0) + 'M';
+    if (v >= 1e3) return (v/1e3).toFixed(0) + 'K';
+    return v.toLocaleString();
+  };
+  legend.innerHTML = `<span class="legend-range">${metric.label}: ${fmt(min)} – ${fmt(max)} (${values.length} entries)</span>`;
 }
 
 function updateStats(filtered) {
@@ -956,6 +978,12 @@ function openDetail(f) {
       ${formatDate(f.date)}
     </div>
 
+    ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p style="font-weight:600;font-size:1.05rem;">${f.objective}</p></div>` : ''}
+
+    ${f.issue_category && f.issue_category.length ? `<div class="detail-section"><h3>Issue Categories</h3><div class="issue-tags">${f.issue_category.map(c => `<span class="issue-tag">${c.replace(/_/g, ' ')}</span>`).join('')}</div></div>` : ''}
+
+    ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p>${f.authority_level.replace(/_/g, ' ')}</p></div>` : ''}
+
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 
     ${f.bill_url ? `<div class="detail-section bill-link-section"><h3>Official Bill</h3><a href="${f.bill_url}" target="_blank" class="bill-link">${f.bill_name || 'View Bill Text'} ↗</a></div>` : ''}
@@ -1032,6 +1060,7 @@ function applyUrlParams() {
   if (params.get('year')) document.getElementById('filter-year').value = params.get('year');
   if (params.get('lean')) document.getElementById('filter-lean').value = params.get('lean');
   if (params.get('status')) document.getElementById('filter-status').value = params.get('status');
+  if (params.get('issue')) document.getElementById('filter-issue').value = params.get('issue');
   if (params.get('search')) document.getElementById('search-input').value = params.get('search');
 }
 
@@ -1043,6 +1072,7 @@ function updateUrlFromFilters() {
     year: document.getElementById('filter-year').value,
     lean: document.getElementById('filter-lean').value,
     status: document.getElementById('filter-status').value,
+    issue: document.getElementById('filter-issue').value,
     search: document.getElementById('search-input').value,
   };
 
@@ -1064,6 +1094,7 @@ function clearFilters() {
   document.getElementById('filter-year').value = '';
   document.getElementById('filter-lean').value = '';
   document.getElementById('filter-status').value = '';
+  document.getElementById('filter-issue').value = '';
   document.getElementById('filter-hyperscaler').value = '';
   selectedHyperscalers.clear();
   document.getElementById('size-by').value = 'petitions';

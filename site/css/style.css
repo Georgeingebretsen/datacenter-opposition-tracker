@@ -1167,6 +1167,33 @@ h1 {
   color: var(--text);
 }
 
+/* Size legend */
+.size-legend {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: 0.5rem;
+}
+.legend-range {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Issue category tags */
+.issue-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.issue-tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: var(--border);
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text);
+  text-transform: capitalize;
+}
+
 /* Detail panel toolbar */
 .detail-toolbar {
   display: flex;

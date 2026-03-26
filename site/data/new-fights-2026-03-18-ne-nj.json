@@ -1,0 +1,98 @@
+[
+  {
+    "id": "nj-s680-clean-energy-nj-2026-01-13",
+    "jurisdiction": "New Jersey (S680 Clean Energy Mandate)",
+    "state": "NJ",
+    "county": null,
+    "lat": 40.2206,
+    "lng": -74.7699,
+    "action_type": "legislation",
+    "date": "2026-01-13",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "S680 (Smith/McKeon) requires new AI data centers and crypto mining facilities to source 100% of electricity from new Class I renewables (solar, wind, hydro, geothermal) or new nuclear. Facilities must submit energy plans to BPU for certification. Senate Environment and Energy Committee reported favorably 3-2 on March 16, 2026. Now referred to Senate Budget and Appropriations Committee. NJBIA opposed, calling mandate impractical. Key caveat: requirements would not take effect until most other PJM states adopt similar measures. Companion bill A4710 in Assembly.",
+    "sources": [
+      "https://legiscan.com/NJ/bill/S680/2026",
+      "https://www.roi-nj.com/2026/03/17/industry/energy-utilities/bills-addressing-energy-demand-from-ai-data-centers-clear-committee/",
+      "https://www.njspotlightnews.org/2026/03/nj-senate-panel-backs-bill-forcing-data-centers-to-use-own-clean-power/",
+      "https://njbia.org/njbia-mandating-100-renewable-power-for-data-centers-not-practical/"
+    ],
+    "bill_name": "S680 - Data Center Clean Energy Mandate",
+    "bill_url": "https://legiscan.com/NJ/bill/S680/2026",
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18",
+    "county_lean": "D"
+  },
+  {
+    "id": "west-deptford-nj-2026-01-01",
+    "jurisdiction": "West Deptford",
+    "state": "NJ",
+    "county": "Gloucester County",
+    "lat": 39.8532,
+    "lng": -75.1846,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Residents and local officials held a town hall in January 2026 to discuss concerns about a proposed data center and its impact on local resources. West Deptford is among the 27+ NJ municipalities hosting operational or planned data centers. Community opposition focused on environmental impacts, energy consumption, and water usage. Specific project details not yet public.",
+    "sources": [
+      "https://jerseyvindicator.org/2026/03/15/the-ai-data-center-boom-is-the-next-environmental-crisis-and-its-already-starting/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18",
+    "county_lean": "D"
+  },
+  {
+    "id": "warren-county-model-ordinance-nj-2026-01",
+    "jurisdiction": "Warren County (Model Ordinance)",
+    "state": "NJ",
+    "county": "Warren County",
+    "lat": 40.7572,
+    "lng": -75.0081,
+    "action_type": "other",
+    "date": "2026-01-01",
+    "status": "active",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Warren County Commissioner James R. Kern III (also incoming NJAC president) distributed a model data center siting ordinance to all mayors and governing bodies in Warren County. The advisory document is designed to help municipalities evaluate large-scale data center proposals against master plans, zoning objectives, and community priorities. Covers impacts on infrastructure, environment, and community character. Follows Phillipsburg's data center ban in the same county.",
+    "sources": [
+      "https://www.tapinto.net/towns/phillipsburg/categories/press-releases/articles/commissioner-kern-shares-model-ordinance-to-assist-municipalities-in-evaluating-data-center-siting",
+      "https://wrnjradio.com/warren-county-commissioner-shares-model-ordinance-on-data-center-siting/"
+    ],
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18",
+    "county_lean": "R"
+  },
+  {
+    "id": "nj-a6181-nda-ban-nj-2026",
+    "jurisdiction": "New Jersey (A6181 NDA Ban)",
+    "state": "NJ",
+    "county": null,
+    "lat": 40.2206,
+    "lng": -74.7699,
+    "action_type": "legislation",
+    "date": "2026-01-01",
+    "status": "pending",
+    "scope": "statewide",
+    "company": null,
+    "hyperscaler": null,
+    "summary": "Assembly Bill 6181 would prohibit applicants for data center development approvals under the Municipal Land Use Law from entering non-disclosure agreements with approving authorities or municipal agencies that would conceal project details or limit public review. Aims to increase transparency in local data center siting decisions.",
+    "sources": [
+      "https://servercountry.org/policy/new-jersey/"
+    ],
+    "bill_name": "A6181 - Data Center NDA Prohibition",
+    "bill_url": null,
+    "opposition_groups": [],
+    "data_source": "web_research",
+    "last_updated": "2026-03-18",
+    "county_lean": "D"
+  }
+]

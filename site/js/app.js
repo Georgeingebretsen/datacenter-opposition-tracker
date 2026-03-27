@@ -741,11 +741,12 @@ function updateTable(filtered) {
         <td>${f.county || ''}</td>
         <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
+        <td class="issue-cell">${(f.issue_category || []).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ')}</td>
+        <td class="objective-cell" title="${escapeHtml(f.objective || '')}">${f.objective || ''}</td>
         <td class="petition-cell">${petition}</td>
         <td class="links-cell">${links.join(' ')}</td>
         <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700' : ''}">${f.hyperscaler || ''}</td>
         <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
-        <td class="truncate-cell" title="${escapeHtml(f.project_name || '')}">${f.project_name || ''}</td>
         <td>${formatInvestment(f.investment_million_usd)}</td>
         <td>${formatPower(f.megawatts)}</td>
         <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
@@ -776,13 +777,14 @@ function updateSpreadsheetHeader() {
     <th data-sort="jurisdiction">Jurisdiction</th>
     <th data-sort="state">State</th>
     <th data-sort="county">County</th>
-    <th data-sort="action_type">Mechanism</th>
+    <th data-sort="action_type">Action</th>
     <th data-sort="status">Status</th>
+    <th>Issue</th>
+    <th>Objective</th>
     <th data-sort="petition_signatures">Petition</th>
     <th>Links</th>
     <th data-sort="hyperscaler">Company</th>
     <th data-sort="company">Developer</th>
-    <th data-sort="project_name">Project</th>
     <th data-sort="investment_million_usd">Investment</th>
     <th data-sort="megawatts">Power</th>
     <th data-sort="acreage">Acres</th>
@@ -802,13 +804,14 @@ function updateSpreadsheetHeader() {
       { key: 'jurisdiction', ph: 'Filter...' }, // Jurisdiction
       { key: 'state', ph: 'ST' },            // State
       { key: 'county', ph: 'County...' },    // County
-      { key: 'action_type', ph: 'Type...' }, // Mechanism
+      { key: 'action_type', ph: 'Type...' }, // Action
       { key: 'status', ph: 'Status...' },    // Status
+      { key: 'issue_category', ph: 'Issue...' }, // Issue
+      { key: 'objective', ph: 'Objective...' }, // Objective
       { key: '', ph: '' },                   // Petition
       { key: '', ph: '' },                   // Links
       { key: 'hyperscaler', ph: 'Company...' }, // Company
       { key: 'company', ph: 'Dev...' },      // Developer
-      { key: 'project_name', ph: 'Project...' }, // Project
       { key: '', ph: '' },                   // Investment
       { key: 'megawatts_filter', ph: 'Min MW' }, // Power
       { key: '', ph: '' },                   // Acres
@@ -868,6 +871,11 @@ function applyColumnFilters(rows) {
       } else if (col === 'groups') {
         const groupText = (f.opposition_groups || []).join(' ').toLowerCase();
         if (!groupText.includes(val)) return false;
+      } else if (col === 'issue_category') {
+        const issueText = (f.issue_category || []).join(' ').toLowerCase();
+        if (!issueText.includes(val)) return false;
+      } else if (col === 'objective') {
+        if (!(f.objective || '').toLowerCase().includes(val)) return false;
       } else if (col === 'summary') {
         if (!(f.summary || '').toLowerCase().includes(val)) return false;
       } else {

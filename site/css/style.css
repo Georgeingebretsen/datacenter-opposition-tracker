@@ -1177,7 +1177,28 @@ h1 {
   font-variant-numeric: tabular-nums;
 }
 
-/* Issue category tags */
+/* Issue category tags (table view) */
+.issue-cell { max-width: 150px; }
+.issue-tag-sm {
+  display: inline-block;
+  padding: 0.1rem 0.35rem;
+  background: var(--border);
+  border-radius: 8px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: capitalize;
+  white-space: nowrap;
+  margin: 1px 0;
+}
+.objective-cell {
+  max-width: 200px;
+  font-size: 0.78rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Issue category tags (detail panel) */
 .issue-tags {
   display: flex;
   flex-wrap: wrap;

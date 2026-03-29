@@ -990,7 +990,9 @@ function openDetail(f) {
 
     ${f.issue_category && f.issue_category.length ? `<div class="detail-section"><h3>Issue Categories</h3><div class="issue-tags">${f.issue_category.map(c => `<span class="issue-tag">${c.replace(/_/g, ' ')}</span>`).join('')}</div></div>` : ''}
 
-    ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p>${f.authority_level.replace(/_/g, ' ')}</p></div>` : ''}
+    ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p style="text-transform:capitalize">${f.authority_level.replace(/_/g, ' ')}</p></div>` : ''}
+
+    ${f.community_outcome ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'win_withdrawal' ? 'Developer Withdrew' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'partial' ? 'Delayed' : f.community_outcome === 'expired' ? 'Expired' : 'Pending'}</span></p></div>` : ''}
 
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 

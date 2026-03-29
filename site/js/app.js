@@ -10,10 +10,18 @@ let selectedHyperscalers = new Set();
 
 const ACTION_LABELS = {
   moratorium: 'Moratorium',
-  zoning_restriction: 'Zoning Restriction',
-  lawsuit: 'Lawsuit',
-  permit_denial: 'Permit Denial',
   legislation: 'Legislation',
+  zoning_restriction: 'Zoning Restriction',
+  community_opposition: 'Community Opposition',
+  lawsuit: 'Lawsuit',
+  petition: 'Petition',
+  permit_denial: 'Permit Denial',
+  protest: 'Protest',
+  project_withdrawal: 'Project Withdrawal',
+  infrastructure_opposition: 'Infrastructure',
+  regulatory_action: 'Regulatory Action',
+  executive_action: 'Executive Action',
+  study_or_report: 'Study / Report',
   other: 'Other',
 };
 

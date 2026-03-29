@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderHyperscalerScorecard(fights);
   renderStateRankings(fights, petitionData);
   renderPartisan(fights);
+  renderWinRateByTool(fights);
+  renderIssueCategoryChart(fights);
   renderSigsVsJobs(fights);
   renderGroupsTimeline(fights);
   renderTopPetitions(fights, petitionData);
@@ -531,6 +533,91 @@ function renderPartisan(fights) {
       <span>Statewide / no county data</span>
     </div>
   `;
+}
+
+// --- Win Rate by Tool (Action Type) ---
+
+function renderWinRateByTool(fights) {
+  const ACTION_NAMES = {
+    moratorium: 'Moratorium', legislation: 'Legislation', zoning_restriction: 'Zoning Restriction',
+    community_opposition: 'Community Opposition', lawsuit: 'Lawsuit', petition: 'Petition',
+    permit_denial: 'Permit Denial', protest: 'Protest', project_withdrawal: 'Project Withdrawal',
+    infrastructure_opposition: 'Infrastructure', regulatory_action: 'Regulatory', executive_action: 'Executive',
+    study_or_report: 'Study/Report',
+  };
+
+  const stats = {};
+  fights.forEach(f => {
+    const at = f.action_type || 'other';
+    if (!stats[at]) stats[at] = { total: 0, wins: 0, losses: 0, pending: 0 };
+    stats[at].total++;
+    const o = f.community_outcome || 'pending';
+    if (o === 'win' || o === 'win_withdrawal') stats[at].wins++;
+    else if (o === 'loss') stats[at].losses++;
+    else stats[at].pending++;
+  });
+
+  // Only show types with 5+ entries
+  const display = Object.entries(stats)
+    .filter(([, s]) => s.total >= 5)
+    .sort((a, b) => (b[1].wins / b[1].total) - (a[1].wins / a[1].total));
+
+  let html = '<table class="scorecard-table"><thead><tr><th>Action Type</th><th class="num">Total</th><th class="num">Won</th><th class="num">Lost</th><th class="num">Win Rate</th><th></th></tr></thead><tbody>';
+
+  display.forEach(([at, s]) => {
+    const winPct = s.total > 0 ? Math.round((s.wins / s.total) * 100) : 0;
+    const lossPct = s.total > 0 ? Math.round((s.losses / s.total) * 100) : 0;
+    const pendPct = 100 - winPct - lossPct;
+    const name = ACTION_NAMES[at] || at;
+
+    html += `<tr>
+      <td style="font-weight:600">${name}</td>
+      <td class="num">${s.total}</td>
+      <td class="num" style="color:#66800B;font-weight:600">${s.wins}</td>
+      <td class="num" style="color:#AF3029">${s.losses}</td>
+      <td class="num" style="font-weight:700">${winPct}%</td>
+      <td style="width:150px">
+        <span class="scorecard-bar" style="width:${winPct}%;background:#66800B"></span><span class="scorecard-bar" style="width:${pendPct}%;background:#AD8301;opacity:0.3"></span><span class="scorecard-bar" style="width:${lossPct}%;background:#AF3029"></span>
+      </td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById('winrate-chart').innerHTML = html;
+}
+
+// --- Issue Category Breakdown ---
+
+function renderIssueCategoryChart(fights) {
+  const ISSUE_NAMES = {
+    land_use: 'Land Use', water: 'Water', environmental: 'Environmental',
+    community_impact: 'Community Impact', grid_energy: 'Grid / Energy',
+    permitting: 'Permitting', noise_nuisance: 'Noise / Nuisance',
+    ratepayer_protection: 'Ratepayer Protection', transparency: 'Transparency',
+    tax_incentive: 'Tax / Incentive', design_standards: 'Design Standards', health: 'Health',
+  };
+
+  const counts = {};
+  fights.forEach(f => {
+    (f.issue_category || []).forEach(c => {
+      counts[c] = (counts[c] || 0) + 1;
+    });
+  });
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const maxVal = sorted[0]?.[1] || 1;
+
+  document.getElementById('issue-chart').innerHTML = sorted.map(([cat, count]) => {
+    const name = ISSUE_NAMES[cat] || cat.replace(/_/g, ' ');
+    const pct = Math.round((count / fights.length) * 100);
+    return `<div class="bar-row">
+      <span class="bar-label">${name}</span>
+      <div class="bar-track">
+        <div class="bar-fill fill-accent" style="width: ${(count / maxVal) * 100}%"></div>
+      </div>
+      <span class="bar-value">${count} (${pct}%)</span>
+    </div>`;
+  }).join('');
 }
 
 // --- Petition Signatures vs Jobs Promised ---

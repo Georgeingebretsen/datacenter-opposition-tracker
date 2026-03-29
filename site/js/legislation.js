@@ -149,6 +149,7 @@ function renderLegCard(f) {
         <span class="leg-date">${formatDate(f.date)}</span>
       </div>
       <div class="leg-card-title">${title}</div>
+      ${f.sponsors && f.sponsors.length ? `<div class="leg-card-sponsors">${f.sponsors.join(', ')}</div>` : ''}
       <div class="leg-card-summary">${summary}</div>
       ${f.bill_url ? `<a href="${f.bill_url}" target="_blank" class="leg-card-bill" onclick="event.stopPropagation()">${f.bill_name || 'View Bill'} ↗</a>` : ''}
     </div>
@@ -210,6 +211,10 @@ function openDetail(f) {
       &nbsp;&middot;&nbsp;
       ${formatDate(f.date)}
     </div>
+
+    ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p style="font-weight:600">${f.objective}</p></div>` : ''}
+
+    ${f.sponsors && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><p>${f.sponsors.join('<br>')}</p></div>` : ''}
 
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 

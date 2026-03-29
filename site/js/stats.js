@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderPartisan(fights);
   renderWinRateByTool(fights);
   renderIssueCategoryChart(fights);
+  renderPartisanWinRate(fights);
   renderSigsVsJobs(fights);
   renderGroupsTimeline(fights);
   renderTopPetitions(fights, petitionData);
@@ -618,6 +619,38 @@ function renderIssueCategoryChart(fights) {
       <span class="bar-value">${count} (${pct}%)</span>
     </div>`;
   }).join('');
+}
+
+// --- Partisan Win Rate ---
+
+function renderPartisanWinRate(fights) {
+  const stats = { R: { total: 0, wins: 0, losses: 0 }, D: { total: 0, wins: 0, losses: 0 } };
+
+  fights.forEach(f => {
+    const lean = f.county_lean;
+    if (!lean || !stats[lean]) return;
+    const resolved = ['win', 'win_withdrawal', 'loss'].includes(f.community_outcome);
+    if (!resolved) return;
+    stats[lean].total++;
+    if (f.community_outcome === 'win' || f.community_outcome === 'win_withdrawal') stats[lean].wins++;
+    else if (f.community_outcome === 'loss') stats[lean].losses++;
+  });
+
+  const rWinPct = stats.R.total > 0 ? Math.round((stats.R.wins / stats.R.total) * 100) : 0;
+  const dWinPct = stats.D.total > 0 ? Math.round((stats.D.wins / stats.D.total) * 100) : 0;
+
+  document.getElementById('partisan-winrate').innerHTML = `
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;text-align:center;">
+      <div class="callout-card">
+        <span class="callout-number red">${rWinPct}%</span>
+        <span class="callout-label">win rate in Republican counties<br><small style="color:var(--text-muted)">${stats.R.wins} won, ${stats.R.losses} lost of ${stats.R.total} resolved</small></span>
+      </div>
+      <div class="callout-card">
+        <span class="callout-number blue">${dWinPct}%</span>
+        <span class="callout-label">win rate in Democratic counties<br><small style="color:var(--text-muted)">${stats.D.wins} won, ${stats.D.losses} lost of ${stats.D.total} resolved</small></span>
+      </div>
+    </div>
+  `;
 }
 
 // --- Petition Signatures vs Jobs Promised ---

@@ -7316,7 +7316,7 @@
     "lng": -75.5363,
     "action_type": "lawsuit",
     "date": "2025-11-01",
-    "status": "ongoing",
+    "status": "defeated",
     "company": "Wildcat Ridge Data Center Campus",
     "hyperscaler": null,
     "project_name": null,
@@ -7335,7 +7335,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/oppose-archbald-borough-data-centers-limit-the-number-of-data-centers-in-archbald",
     "petition_signatures": 630,
-    "summary": "Wildcat Ridge proposed a $2.1 billion, 17.2M sq ft data center campus in Archbald. Borough Council approved a zoning amendment expanding data center eligibility from 4 to 9 districts. Residents filed a land use appeal in Lackawanna County Court, alleging the ordinance was drafted at developers' expense. Three data center developers intervened to defend the zoning. On March 18-19, Archbald Borough Council underwent a leadership coup driven by data center opposition \u2014 members voted to remove the president and VP. A 7th data center proposal (Project Green, Stavola Quarry) emerged.",
+    "summary": "Wildcat Ridge proposed a $2.1 billion, 17.2M sq ft data center campus in Archbald. Borough Council approved a zoning amendment expanding data center eligibility from 4 to 9 districts. Residents filed a land use appeal in Lackawanna County Court, alleging the ordinance was drafted at developers' expense. Three data center developers intervened to defend the zoning. On March 18-19, Archbald Borough Council underwent a leadership coup driven by data center opposition \u2014 members voted to remove the president and VP. A 7th data center proposal (Project Green, Stavola Quarry) emerged.  Borough Council unanimously DENIED the 18-building data center campus on March 27, after a regime change ousted three council leaders on March 19.",
     "sources": [
       "https://www.wvia.org/news/local/2025-11-25/crammed-angered-archbald-residents-express-disapproval-as-council-approves-controversial-data-center-zoning-amendment",
       "https://www.thetimes-tribune.com/2026/01/18/wildcat-ridge-data-center-in-archbald-to-use-huge-amounts-of-power-water/",
@@ -7347,10 +7347,11 @@
       "https://www.wnep.com/article/news/local/lackawanna-county/data-center-lackawanna-county-archbald-blakely-jessup-council-votes/523-627d1d15-f8e2-436e-be39-732ec3ee3b26",
       "https://www.wvia.org/news/local/2026-02-04/data-centers-residents-fear-negative-impacts-on-water-resources-as-data-centers-are-proposed-across-northeast-pa",
       "https://www.wvia.org/news/local/2026-01-29/archbald-council-hears-from-data-center-developer-eyeing-500-acre-site-possible-mine-water-use",
-      "https://www.wvia.org/news/local/2026-03-19/data-center-concerns-prompt-regime-change-in-archbald"
+      "https://www.wvia.org/news/local/2026-03-19/data-center-concerns-prompt-regime-change-in-archbald",
+      "https://www.thetimes-tribune.com/2026/03/27/archbald-council-unanimously-denies-data-center-campus/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "D"
@@ -19784,16 +19785,16 @@
     "lat": 44.9429,
     "lng": -123.0351,
     "action_type": "legislation",
-    "status": "pending",
+    "status": "enacted",
     "date": "2026-03-02",
-    "summary": "Oregon legislators added a provision to Governor Kotek's HB 4084 blocking new data center projects from eligibility for Enterprise Zone property tax breaks until summer 2027. Data centers reaped over $45 million in enterprise zone tax benefits last year and $85 million this year. Sen. Jeff Golden (D-Ashland) pushed the amendment after threatening to propose a full bar on data center and crypto mining tax breaks. Oregon has roughly 125 data centers, mostly in the Portland area and near Columbia River hydroelectric dams. This is a distinct legislative action from the existing Oregon (statewide) entry which covers earlier regulatory discussion. HB 4084 extends the enterprise zone tax break program from 5 to 10 years but was amended to temporarily bar data centers from receiving the expanded tax breaks until summer 2027. Data centers currently account for the majority of enterprise zone tax breaks ($85M in 2026). Kotek supports the amendment. The 2026 short session has ended; bill awaits governor's signature.",
+    "summary": "Oregon legislators added a provision to Governor Kotek's HB 4084 blocking new data center projects from eligibility for Enterprise Zone property tax breaks until summer 2027. Data centers reaped over $45 million in enterprise zone tax benefits last year and $85 million this year. Sen. Jeff Golden (D-Ashland) pushed the amendment after threatening to propose a full bar on data center and crypto mining tax breaks. Oregon has roughly 125 data centers, mostly in the Portland area and near Columbia River hydroelectric dams. This is a distinct legislative action from the existing Oregon (statewide) entry which covers earlier regulatory discussion. HB 4084 extends the enterprise zone tax break program from 5 to 10 years but was amended to temporarily bar data centers from receiving the expanded tax breaks until summer 2027. Data centers currently account for the majority of enterprise zone tax breaks ($85M in 2026). Kotek supports the amendment. The 2026 short session has ended; bill awaits governor's signature.  Governor Kotek signed HB 4084. Data centers blocked from Enterprise Zone tax breaks until summer 2027.",
     "sources": [
       "https://www.opb.org/article/2026/03/02/data-centers-cut-bill-expanding-oregon-tax-breaks/",
       "https://oregoncapitalchronicle.com/2026/03/02/oregon-would-temporarily-bar-expanded-tax-benefits-for-data-centers-under-changes-to-governors-bill/",
       "https://www.kgw.com/article/news/local/oregon-lawmakers-one-year-tax-break-moratorium-data-centers/283-d6721ffe-abf8-4213-8477-0365a6fea35e"
     ],
     "opposition_groups": [],
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county": "Marion County",
     "county_lean": "R",
@@ -23259,8 +23260,8 @@
     "action_type": "other",
     "date": "2026-02-19",
     "status": "ongoing",
-    "summary": "Developer Tract proposed the Mountain Road Tech Park \u2014 a 427-acre, 900-MW data center campus along Route 33 and Mountain Road near the Hanover-Henrico line. The project would include five buildings, requiring up to 600,000 gallons/day of water. The Planning Commission unanimously deferred the proposal. It is being reconsidered at the March 19, 2026 meeting.",
-    "last_updated": "2026-03-23"
+    "summary": "Developer Tract proposed the Mountain Road Tech Park \u2014 a 427-acre, 900-MW data center campus along Route 33 and Mountain Road near the Hanover-Henrico line. The project would include five buildings, requiring up to 600,000 gallons/day of water. The Planning Commission unanimously deferred the proposal. It is being reconsidered at the March 19, 2026 meeting.  Planning Commission deferred again on March 19 (second deferral). Rescheduled to April 16.",
+    "last_updated": "2026-03-28"
   },
   {
     "scope": "local",
@@ -28878,7 +28879,7 @@
     "company": "Nebius",
     "hyperscaler": "Nebius",
     "acreage": 400,
-    "summary": "Independence City Council approved $6.26 billion in tax breaks over 20 years for Nebius on March 3, 2026, including a 98% real property tax abatement, 90% personal property tax abatement, and sales tax exemptions. On March 5, the city rejected a referendum petition citing charter Section 7.2 (excluding referendums on immediately-effective ordinances). On March 12, three residents (Gonzalez, Vaughn, Magers) filed a lawsuit in Jackson County court to force the City Clerk to certify the petition and allow a public vote, potentially by August 2026. The 'Stop the AI Data Center in Independence' Facebook group has ~3,000 members. Good Jobs First published an open letter criticizing the deal. No court ruling as of March 17.",
+    "summary": "Independence City Council approved $6.26 billion in tax breaks over 20 years for Nebius on March 3, 2026, including a 98% real property tax abatement, 90% personal property tax abatement, and sales tax exemptions. On March 5, the city rejected a referendum petition citing charter Section 7.2 (excluding referendums on immediately-effective ordinances). On March 12, three residents (Gonzalez, Vaughn, Magers) filed a lawsuit in Jackson County court to force the City Clerk to certify the petition and allow a public vote, potentially by August 2026. The 'Stop the AI Data Center in Independence' Facebook group has ~3,000 members. Good Jobs First published an open letter criticizing the deal. No court ruling as of March 17.  Judge Phillips denied residents' referendum petition on March 25, ruling the tax break ordinance is outside the reach of referendum.",
     "sources": [
       "https://www.kcur.org/politics-elections-and-government/2026-03-03/independence-gives-billions-in-tax-breaks-for-a-massive-data-center-despite-outcry-from-residents",
       "https://www.kcur.org/politics-elections-and-government/2026-03-12/independence-residents-sue-tax-breaks-data-center",
@@ -28893,7 +28894,7 @@
     "petition_url": "https://www.change.org/p/stop-the-massive-nebius-data-center-in-independence-mo",
     "petition_signatures": 800,
     "data_source": "web_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "investment_usd": 6600000000,
     "county_lean": "D"
   },

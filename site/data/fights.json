@@ -2131,7 +2131,7 @@
     "hyperscaler": "Google",
     "project_name": null,
     "investment_million_usd": 1000,
-    "megawatts": null,
+    "megawatts": 100,
     "acreage": null,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -2886,7 +2886,7 @@
     "hyperscaler": null,
     "project_name": "Project Lincoln",
     "investment_million_usd": 6000,
-    "megawatts": null,
+    "megawatts": 600,
     "acreage": 267,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -4455,7 +4455,7 @@
     "hyperscaler": "Meta",
     "project_name": "Hyperion",
     "investment_million_usd": 27000,
-    "megawatts": null,
+    "megawatts": 2200,
     "acreage": 3650,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -5491,7 +5491,7 @@
     "hyperscaler": null,
     "project_name": "Taurus",
     "investment_million_usd": 6000,
-    "megawatts": null,
+    "megawatts": 116,
     "acreage": null,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -7792,7 +7792,7 @@
     "hyperscaler": "Google",
     "project_name": "Project Pyramid",
     "investment_million_usd": 4000,
-    "megawatts": null,
+    "megawatts": 600,
     "acreage": 1178,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -10550,7 +10550,7 @@
     "company": "Fermi America",
     "hyperscaler": null,
     "project_name": "Project Matador / Trump Advanced Energy and Intelligence Campus",
-    "investment_million_usd": null,
+    "investment_million_usd": 60000,
     "megawatts": 11000,
     "acreage": 6000,
     "building_sq_ft": 18000000,
@@ -19379,7 +19379,7 @@
     "hyperscaler": null,
     "project_name": "LD 307 Moratorium Amendment",
     "investment_million_usd": null,
-    "megawatts": null,
+    "megawatts": 26,
     "acreage": null,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -22128,7 +22128,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Block Stonebridge rezoning of 1330 acres in Fort Meade",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 2700
   },
   {
     "id": "city-of-kings-mountain-nc-2026-02-26",
@@ -24225,7 +24226,8 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Oppose Poe Companies data center in Louisville",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 400
   },
   {
     "id": "georgia-sb-410-ga-2026-03-06",
@@ -24358,7 +24360,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny Uranium (proposed), various 3500MW data center permit in Pittsylvania County",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "megawatts": 3500
   },
   {
     "scope": "local",
@@ -24476,7 +24479,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny Gigaland 600MW data center permit in Fauquier County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 600
   },
   {
     "scope": "local",
@@ -24769,7 +24773,8 @@
       "Chapel Creek Neighborhood Association"
     ],
     "opposition_website": "https://www.2871community.org/",
-    "opposition_facebook": "https://www.facebook.com/FortWorthDataCenter/"
+    "opposition_facebook": "https://www.facebook.com/FortWorthDataCenter/",
+    "investment_million_usd": 10000
   },
   {
     "scope": "local",
@@ -24935,7 +24940,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Rally against Riot Platforms data center in Corsicana",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 600
   },
   {
     "scope": "local",
@@ -25041,7 +25047,8 @@
     ],
     "authority_level": "township_board",
     "objective": "Halt data centers in Sprigg Township after 68 Yards proposal",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 1300
   },
   {
     "scope": "local",
@@ -25244,7 +25251,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Block Deep Green rezoning of 2.7 acres in Lansing",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 24
   },
   {
     "scope": "local",
@@ -25274,7 +25282,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose CoreWeave data center in Lancaster City",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 6000
   },
   {
     "scope": "local",
@@ -25419,7 +25428,8 @@
     ],
     "authority_level": "court",
     "objective": "Legal challenge to 1778 Rich Pike / Quantm Group data center in Clifton Township",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 14250
   },
   {
     "scope": "local",
@@ -25696,7 +25706,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Voters reject officials who approved data center in Forsyth",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "investment_million_usd": 21000
   },
   {
     "scope": "local",
@@ -25768,7 +25779,9 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose WHP Development data center over water in Childersburg",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 500,
+    "investment_million_usd": 6000
   },
   {
     "scope": "local",
@@ -25801,7 +25814,9 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose tax incentives for Compass Datacenters in Meridian",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 500,
+    "investment_million_usd": 10000
   },
   {
     "scope": "local",
@@ -26241,7 +26256,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose EdgeConneX data center over noise in Bastrop County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 1440
   },
   {
     "scope": "local",
@@ -26475,7 +26491,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Amazon/AWS data center in Canton / Idlebriar",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 10000
   },
   {
     "scope": "statewide",
@@ -26510,7 +26527,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Investigate Meta sale of data center stake to protect ratepayers",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 27000
   },
   {
     "scope": "local",
@@ -26547,7 +26565,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "4000-signature petition opposing TigerDC data center",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "investment_million_usd": 3000
   },
   {
     "scope": "local",
@@ -26580,7 +26599,9 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Hut 8 data center in West Feliciana",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 245,
+    "investment_million_usd": 10000
   },
   {
     "scope": "local",
@@ -26614,7 +26635,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Mobilize opposition to Stream Data Centers data center in Marion County",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "investment_million_usd": 2400
   },
   {
     "scope": "federal",
@@ -26903,7 +26925,9 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Oppose tax incentives for CoreWeave in Kenilworth",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 250,
+    "investment_million_usd": 1800
   },
   {
     "scope": "statewide",
@@ -27065,7 +27089,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose EdgeCore data center in City of Industry",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 10
   },
   {
     "scope": "local",
@@ -27226,7 +27251,8 @@
     ],
     "authority_level": "court",
     "objective": "Petition to block CalEthos data center in Imperial Valley",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 330
   },
   {
     "scope": "local",
@@ -27741,7 +27767,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose STREAM Data Centers data center over noise in Genesee County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 19500
   },
   {
     "scope": "local",
@@ -27785,7 +27812,8 @@
     ],
     "authority_level": "court",
     "objective": "Challenge TeraWulf for treaty rights violations",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 400
   },
   {
     "scope": "local",
@@ -27905,7 +27933,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Red Post Energy Group data center in Wise County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 600
   },
   {
     "scope": "local",
@@ -28215,7 +28244,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Oppose tax incentives for Sentinel Data Centers in Jay",
-    "community_outcome": "partial"
+    "community_outcome": "partial",
+    "megawatts": 20
   },
   {
     "scope": "local",
@@ -28252,7 +28282,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose Northern New England Energy data center over noise in Sanford",
-    "community_outcome": "partial"
+    "community_outcome": "partial",
+    "megawatts": 300
   },
   {
     "scope": "statewide",
@@ -28330,7 +28361,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose data center over water concerns in Butts County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 10000
   },
   {
     "scope": "statewide",
@@ -28608,7 +28640,8 @@
     ],
     "authority_level": "court",
     "objective": "Legal challenge to Tract data center in Farmington",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 5000
   },
   {
     "scope": "local",
@@ -28760,7 +28793,9 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Alcove Development data center over water in Osawatomie",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 150,
+    "investment_million_usd": 1000
   },
   {
     "scope": "statewide",
@@ -28798,7 +28833,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Prohibit eminent domain for data center land acquisition",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 3000
   },
   {
     "scope": "local",
@@ -28840,7 +28876,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in Troy after Cloverleaf Infrastructure proposal",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "megawatts": 500
   },
   {
     "scope": "local",
@@ -29072,7 +29109,8 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 12-month data centers moratorium in Sprigg Township",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 1300
   },
   {
     "scope": "local",
@@ -29244,7 +29282,7 @@
     "hyperscaler": "Amazon",
     "project_name": "Wallula Gap Data Center Campus",
     "investment_million_usd": 4800,
-    "megawatts": null,
+    "megawatts": 320,
     "acreage": 553,
     "building_sq_ft": 3400000,
     "water_usage_gallons_per_day": null,
@@ -30556,7 +30594,8 @@
     ],
     "authority_level": "court",
     "objective": "Sue Pima County over Open Meeting Law violations (Beale rezoning)",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 286
   },
   {
     "scope": "local",
@@ -30677,7 +30716,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose data center over water concerns in Pinal County",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "investment_million_usd": 33000
   },
   {
     "scope": "local",
@@ -30795,7 +30835,8 @@
     ],
     "authority_level": "court",
     "objective": "Sue over open meeting violations in OpenAI approval",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 165000
   },
   {
     "scope": "statewide",
@@ -30874,7 +30915,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "6000-signature petition opposing data center in Hill County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 750
   },
   {
     "scope": "local",
@@ -31380,7 +31422,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Amazon data center over noise in Madison County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 2000
   },
   {
     "scope": "local",
@@ -31576,7 +31619,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose data center development in Fauquier County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 3000
   },
   {
     "scope": "federal",
@@ -32222,7 +32266,8 @@
       "Santaquin Community (ad hoc)"
     ],
     "opposition_website": null,
-    "opposition_facebook": null
+    "opposition_facebook": null,
+    "megawatts": 100
   },
   {
     "id": "lowell-ma-moratorium-2026-03",
@@ -32354,7 +32399,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Community pressure forces QTS to withdraw in DeForest",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "investment_million_usd": 12000
   },
   {
     "id": "monroe-township-nj-2025-12-01",
@@ -32757,7 +32803,9 @@
     ],
     "authority_level": "voters",
     "objective": "Put Viridian data center to public vote",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 800,
+    "investment_million_usd": 8000
   },
   {
     "id": "south-lyon-mi-2026-02-10",
@@ -33418,7 +33466,8 @@
     ],
     "authority_level": "court",
     "objective": "Legal challenge to Eagle Rock Partners data center in Colleton County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 6000
   },
   {
     "id": "johnson-city-tn-2025-05",
@@ -33631,7 +33680,8 @@
     ],
     "authority_level": "court",
     "objective": "Challenge xAI (MZX Tech) air quality permits in court",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 1200
   },
   {
     "id": "goodyear-529-acre-withdrawal-az-2024",
@@ -33958,7 +34008,8 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Deny NOVEC 300MW data center permit in Prince William",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "megawatts": 300
   },
   {
     "id": "beloit-wi-opposition-2026-03",
@@ -34118,7 +34169,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny Nightpeak Energy data center on 158 acres in Brazoria County",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "investment_million_usd": 3500
   },
   {
     "id": "texas-puct-large-load-rulemaking-2026-03",
@@ -34203,7 +34255,8 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Deny Penzance Development 600MW data center permit in Fredericksburg",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "megawatts": 600
   },
   {
     "id": "prince-william-hornbaker-va-2026-03",
@@ -34285,7 +34338,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Stack Infrastructure data center over environmental harm",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "investment_million_usd": 73000
   },
   {
     "id": "virginia-budget-tax-exemption-stalemate-2026-03",
@@ -34669,7 +34723,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Deny B+F Timpanogos Tech rezoning of 9 acres in City of Provo",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "megawatts": 30
   },
   {
     "id": "minnesota-nda-ban-bill-mn-2026-03-12",
@@ -34843,7 +34898,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Challenge $6.26B in Nebius tax breaks approved by Independence",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 6600
   },
   {
     "id": "wyoming-evanston-prometheus-wy-2026",
@@ -35418,7 +35474,8 @@
     ],
     "authority_level": "voters",
     "objective": "1200-signature petition opposing Cloverleaf Infrastructure data center",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 1000
   },
   {
     "id": "southfield-mi-2025-12-15",
@@ -35453,7 +35510,9 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose Metrobloks data center in Southfield",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 100,
+    "investment_million_usd": 500
   },
   {
     "id": "wilmington-ardent-oh-2026-02-20",
@@ -35487,7 +35546,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Block Ardent Technologies rezoning of 545 acres in Wilmington",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "investment_million_usd": 6000
   },
   {
     "id": "brown-county-constitutional-petition-oh-2026-03-01",
@@ -35575,7 +35635,9 @@
     ],
     "authority_level": "village_board",
     "objective": "Restrict Equinix 340-acre data center in Minooka",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 700,
+    "investment_million_usd": 2000
   },
   {
     "id": "logan-county-il-2025-12-01",
@@ -35606,7 +35668,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Block Hut 8 rezoning of 200 acres in Logan County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 500
   },
   {
     "id": "us-federal-warren-investigation-2025-12-15",
@@ -35854,7 +35917,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose QTS Technology Services data center over water in Blakely",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "investment_million_usd": 290
   },
   {
     "id": "stokes-county-nc-primary-2026-03",
@@ -35914,7 +35978,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny Sandow Lakes Energy Co. 1200MW data center permit in Lee County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "megawatts": 1200
   },
   {
     "id": "permian-basin-transmission-tx-2026",
@@ -36325,7 +36390,8 @@
     ],
     "authority_level": "developer",
     "objective": "Deny JRE Strategies rezoning of 6.74 acres in Ardmore",
-    "community_outcome": "win_withdrawal"
+    "community_outcome": "win_withdrawal",
+    "megawatts": 10
   },
   {
     "id": "irwinville-ga-withdrawal-2026-03",
@@ -36382,7 +36448,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Restrict Granite Renewables 4198-acre data center in Logan County",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "investment_million_usd": 15000
   },
   {
     "id": "colorado-hb-1030-tax-breaks-2026",
@@ -36543,7 +36610,9 @@
     ],
     "authority_level": "county_commission",
     "objective": "Block Monarch Data Center rezoning of 505 acres in Lyon County",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 1000,
+    "investment_million_usd": 11000
   },
   {
     "id": "dona-ana-county-air-permits-nm-2026",
@@ -36829,7 +36898,7 @@
     "company": "Stream Data Centers / Headwaters Site Development",
     "hyperscaler": null,
     "project_name": "Project Saltworks",
-    "investment_million_usd": null,
+    "investment_million_usd": 1250,
     "megawatts": 600,
     "acreage": 867,
     "building_sq_ft": null,
@@ -37405,7 +37474,7 @@
     "company": "Jumping Bison LLC",
     "hyperscaler": null,
     "investment_million_usd": 800,
-    "megawatts": null,
+    "megawatts": 300,
     "acreage": 550,
     "water_usage_gallons_per_day": null,
     "summary": "Jumping Bison LLC proposed a 550-acre hyperscale data center campus near Greensburg. The City Council approved a 10-year, 60% real property tax abatement in December 2024 and annexed 340 acres. The Coalition to Protect Decatur County Against AI Data Center formed in response, launching a Change.org petition that gathered over 950 signatures. Opposition centers on lack of transparency about environmental and health risks, farmland loss, and water/power impacts. The fight has attracted statewide support from other anti-data-center groups.",
@@ -37497,7 +37566,7 @@
     "company": "Microsoft",
     "hyperscaler": "Microsoft",
     "investment_million_usd": 1000,
-    "megawatts": null,
+    "megawatts": 538,
     "acreage": null,
     "water_usage_gallons_per_day": null,
     "summary": "Microsoft announced a $1B data center for the City of LaPorte, approved in 2024 but not yet broken ground. While the city project has some support (15% of property taxes directed to schools), broader county opposition has grown significantly. Commissioner Joe Haney publicly took a stance against data centers, citing massive electricity demands, water consumption, light pollution, and diesel generators. A Fortune 100 company began purchasing farmland for potential data center development in unincorporated county areas, prompting officials to move to restrict where data centers can be built. The 'Say No to Data Centers in LaPorte County' Facebook group (1,155 members) has organized opposition.",
@@ -38137,7 +38206,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose Crane Data Centers campus adjacent to residential homes",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "megawatts": 100
   },
   {
     "id": "boone-nc-moratorium-2026-03-23",

@@ -741,6 +741,7 @@ function updateTable(filtered) {
         <td>${f.county || ''}</td>
         <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
+        <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${f.community_outcome === 'win' ? 'Won' : f.community_outcome === 'win_withdrawal' ? 'Withdrew' : f.community_outcome === 'loss' ? 'Lost' : f.community_outcome === 'partial' ? 'Delayed' : f.community_outcome === 'expired' ? 'Expired' : 'Pending'}</span></td>
         <td class="issue-cell">${(f.issue_category || []).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ')}</td>
         <td class="objective-cell" title="${escapeHtml(f.objective || '')}">${f.objective || ''}</td>
         <td class="petition-cell">${petition}</td>
@@ -779,6 +780,7 @@ function updateSpreadsheetHeader() {
     <th data-sort="county">County</th>
     <th data-sort="action_type">Action</th>
     <th data-sort="status">Status</th>
+    <th data-sort="community_outcome">Outcome</th>
     <th>Issue</th>
     <th>Objective</th>
     <th data-sort="petition_signatures">Petition</th>
@@ -806,6 +808,7 @@ function updateSpreadsheetHeader() {
       { key: 'county', ph: 'County...' },    // County
       { key: 'action_type', ph: 'Type...' }, // Action
       { key: 'status', ph: 'Status...' },    // Status
+      { key: 'community_outcome', ph: 'Win/Loss' }, // Outcome
       { key: 'issue_category', ph: 'Issue...' }, // Issue
       { key: 'objective', ph: 'Objective...' }, // Objective
       { key: '', ph: '' },                   // Petition

@@ -405,13 +405,55 @@ function updateSizeLegend(filtered) {
 
   const min = Math.min(...values);
   const max = Math.max(...values);
+  const noData = filtered.length - values.length;
   const fmt = (v) => {
-    if (v >= 1e9) return '$' + (v/1e9).toFixed(0) + 'B';
+    if (v >= 1e9) return '$' + (v/1e9).toFixed(1) + 'B';
     if (v >= 1e6) return '$' + (v/1e6).toFixed(0) + 'M';
     if (v >= 1e3) return (v/1e3).toFixed(0) + 'K';
     return v.toLocaleString();
   };
-  legend.innerHTML = `<span class="legend-range">${metric.label}: ${fmt(min)} – ${fmt(max)} (${values.length} entries)</span>`;
+
+  // Pick 3 reference values: small, medium, large
+  const sorted = values.slice().sort((a, b) => a - b);
+  const refSmall = sorted[Math.floor(sorted.length * 0.1)];
+  const refMid = sorted[Math.floor(sorted.length * 0.5)];
+  const refLarge = sorted[Math.floor(sorted.length * 0.9)];
+
+  // Calculate radii for reference values using same logic as getMarkerRadius
+  const calcR = (val) => {
+    if (val == null || val <= 0) return 5;
+    if (metric.logScale) {
+      const logVal = Math.log10(Math.max(val, 1));
+      const logMax = Math.log10(Math.max(max, 10));
+      return metric.minR + (logVal / logMax) * (metric.maxR - metric.minR);
+    }
+    return metric.minR + (val / 1) * (metric.maxR - metric.minR);
+  };
+
+  const circles = [
+    { val: refSmall, r: calcR(refSmall) },
+    { val: refMid, r: calcR(refMid) },
+    { val: refLarge, r: calcR(refLarge) },
+  ];
+
+  legend.innerHTML = `
+    <div class="size-legend-visual">
+      <span class="size-legend-title">${metric.label}</span>
+      <div class="size-legend-circles">
+        ${circles.map(c => `
+          <div class="size-legend-item">
+            <span class="size-legend-circle" style="width:${c.r * 2}px;height:${c.r * 2}px"></span>
+            <span class="size-legend-label">${fmt(c.val)}</span>
+          </div>
+        `).join('')}
+        <div class="size-legend-item">
+          <span class="size-legend-circle size-legend-nodata" style="width:10px;height:10px"></span>
+          <span class="size-legend-label">no data</span>
+        </div>
+      </div>
+      <span class="size-legend-count">${values.length} of ${filtered.length} entries have data</span>
+    </div>
+  `;
 }
 
 function updateStats(filtered) {

@@ -8711,7 +8711,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/oppose-archbald-borough-data-centers-limit-the-number-of-data-centers-in-archbald",
     "petition_signatures": 630,
-    "summary": "Wildcat Ridge proposed a $2.1 billion, 17.2M sq ft data center campus in Archbald. Borough Council approved a zoning amendment expanding data center eligibility from 4 to 9 districts. Residents filed a land use appeal in Lackawanna County Court, alleging the ordinance was drafted at developers' expense. Three data center developers intervened to defend the zoning. On March 18-19, Archbald Borough Council underwent a leadership coup driven by data center opposition \u2014 members voted to remove the president and VP. A 7th data center proposal (Project Green, Stavola Quarry) emerged.  Borough Council unanimously DENIED the 18-building data center campus on March 27, after a regime change ousted three council leaders on March 19.",
+    "summary": "Wildcat Ridge proposed a $2.1 billion, 17.2M sq ft data center campus in Archbald. Borough Council approved a zoning amendment expanding data center eligibility from 4 to 9 districts. Residents filed a land use appeal in Lackawanna County Court, alleging the ordinance was drafted at developers' expense. Three data center developers intervened to defend the zoning. On March 18-19, Archbald Borough Council underwent a leadership coup driven by data center opposition \u2014 members voted to remove the president and VP. A 7th data center proposal (Project Green, Stavola Quarry) emerged.  Borough Council unanimously DENIED the 18-building data center campus on March 27, after a regime change ousted three council leaders on March 19.  Post-denial: Council member Aniska resigned. Denial was procedural (incomplete record) \u2014 developer could refile.",
     "sources": [
       "https://www.wvia.org/news/local/2025-11-25/crammed-angered-archbald-residents-express-disapproval-as-council-approves-controversial-data-center-zoning-amendment",
       "https://www.thetimes-tribune.com/2026/01/18/wildcat-ridge-data-center-in-archbald-to-use-huge-amounts-of-power-water/",
@@ -8727,7 +8727,7 @@
       "https://www.thetimes-tribune.com/2026/03/27/archbald-council-unanimously-denies-data-center-campus/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-28",
+    "last_updated": "2026-03-29",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "D",
@@ -14830,7 +14830,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-data-center-f340a791-4f7e-4da8-a997-b0b2ce26319a",
     "petition_signatures": 2058,
-    "summary": "Google's $9B Project Spring proposed on 827 acres of land annexed by Sand Springs. City Council voted 6-1 on Feb 3 to approve rezoning. The Protect Sand Springs Alliance launched a recall effort against the entire city council, gathering 130+ signatures per council member in just four hours. They need 344-541 signatures per ward and are holding collection events throughout March for a potential June 16 recall election. The Alliance's annexation lawsuit (CV-2026-00002) was moved from Osage County to Tulsa County District Court. The Osage Mineral Council is reviewing sovereignty implications as the site sits partially in Osage County.",
+    "summary": "Google's $9B Project Spring proposed on 827 acres of land annexed by Sand Springs. City Council voted 6-1 on Feb 3 to approve rezoning. The Protect Sand Springs Alliance launched a recall effort against the entire city council, gathering 130+ signatures per council member in just four hours. They need 344-541 signatures per ward and are holding collection events throughout March for a potential June 16 recall election. The Alliance's annexation lawsuit (CV-2026-00002) was moved from Osage County to Tulsa County District Court. The Osage Mineral Council is reviewing sovereignty implications as the site sits partially in Osage County.  Recall effort at ~50% of required signatures (March 31 deadline). Annexation lawsuit and conservation easement dispute also active.",
     "sources": [
       "https://ktul.com/news/local/sand-springs-residents-sue-city-to-stop-annexation-for-data-center",
       "https://www.newson6.com/tulsa-oklahoma-news/sand-springs-council-approves-rezoning-for-massive-google-data-center",
@@ -14848,7 +14848,7 @@
       "https://osagenews.org/proposed-sand-springs-data-center-raises-water-and-sovereignty-concerns/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-29",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -38732,5 +38732,25 @@
     "authority_level": "city_council",
     "objective": "Pause data centers and crypto mining in Town of Boone pending regulations",
     "community_outcome": "win"
+  },
+  {
+    "id": "washington-county-tn-moratorium-2026-03-23",
+    "jurisdiction": "Washington County",
+    "state": "TN",
+    "county": "Washington County",
+    "lat": 36.2974,
+    "lng": -82.4943,
+    "action_type": "moratorium",
+    "date": "2026-03-23",
+    "status": "enacted",
+    "scope": "local",
+    "community_outcome": "win",
+    "summary": "Washington County Commission enacted a moratorium on data center development on March 23, 2026.",
+    "sources": [
+      "https://www.wjhl.com/news/local/washington-county-tn-data-center-moratorium/"
+    ],
+    "county_lean": "R",
+    "data_source": "web_research",
+    "last_updated": "2026-03-29"
   }
 ]

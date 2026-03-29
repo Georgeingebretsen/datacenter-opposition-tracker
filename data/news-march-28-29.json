@@ -1,0 +1,258 @@
+{
+  "description": "Datacenter opposition news research for March 28-29, 2026. Updates to existing entries and new developments discovered via web search.",
+  "generated": "2026-03-29",
+  "status_updates": [
+    {
+      "id": "denver-co-2026-02-24",
+      "update": "No new developments beyond what was captured in news-march-26-28.json. The moratorium introduction at City Council remains expected as early as March 31, 2026. Mayor Johnston and council are aligned on the pause. Colorado state-level bills (SB26-102 and HB26-1030) remain in negotiation with environmental and labor groups still split. No pre-vote surprises or schedule changes found.",
+      "new_status": "pending",
+      "sources": [
+        "https://coloradosun.com/2026/03/26/labor-environmental-groups-split-data-centers/",
+        "https://www.cpr.org/2026/03/25/data-centers-colorado-labor-unions-environment/"
+      ]
+    },
+    {
+      "id": "champaign-county-il-2025-12-01",
+      "update": "No new developments since last update. The ZBA advanced the 12-month moratorium; it next goes to the Environmental Land Use Committee (potentially April 9) before a full County Board vote later in April. The Data Center Activities Task Force continues developing zoning/permitting standards. Full board has NOT yet voted on the moratorium.",
+      "new_status": "pending",
+      "sources": [
+        "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/",
+        "https://www.champaigncountyil.gov/CountyBoard/meetings_DataCenter.php"
+      ]
+    },
+    {
+      "id": "washington-sb-6231-wa-2026-01-01",
+      "update": "No formal signing confirmation found for ESSB 6231 as of March 29. The bill was enrolled March 13 and delivered to Governor Ferguson. Ferguson requested the bill via OFM, it is part of the supplemental budget, and passage is considered certain. The bill repeals the sales tax exemption for data center equipment refurbishment/replacement at existing facilities effective July 1, 2026. Revenue impact: $63M this biennium, $140.5M next. Industry reaction negative -- Data Center Coalition VP called it a 'self-inflicted hit to the state's economy.' Comprehensive data center legislation (SB 5575) was punted to next year.",
+      "new_status": "enacted",
+      "sources": [
+        "https://www.geekwire.com/2026/big-tech-dodged-washington-states-data-center-rules-but-didnt-escape-a-sales-tax-bill/",
+        "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/03/washington-legislature-delays-data-center-bill",
+        "https://www.washingtonpolicy.org/publications/detail/legislature-agrees-to-increased-spending-in-supplemental-budget"
+      ]
+    },
+    {
+      "id": "sanders-national-moratorium-federal-dc-2026-02-23",
+      "update": "No new co-sponsors announced since the March 25 introduction. Media coverage continued through March 28-29. Sen. Mark Warner (D-VA) called the proposed moratorium 'idiocy' on Fox Baltimore, adding another Democratic senator publicly opposing alongside Fetterman. The Center for Data Innovation and ITIF continued publishing rebuttals. Food & Water Watch and 230+ orgs remain in support. The bill has zero chance of advancing in the current Republican Congress.",
+      "new_status": "pending",
+      "sources": [
+        "https://foxbaltimore.com/news/nation-world/senator-mark-warner-proposed-ai-technology-data-center-moratorium-construction-idiocy",
+        "https://datainnovation.org/2026/03/the-sanders-aoc-data-center-moratorium-doesnt-add-up/",
+        "https://www.foodandwaterwatch.org/2026/03/25/sanders-aoc-ai-data-center-moratorium-act-is-desperately-needed-as-americans-energy-bills-skyrocket/"
+      ]
+    },
+    {
+      "id": "joliet-il-2026-03-19",
+      "update": "No new post-approval developments since the March 19 City Council vote (8-1) approving the 795-acre Hillwood/HW Technology Park campus. Developer says construction could begin early 2027 with full operations by 2030. The Illinois Commerce Commission separately approved ComEd's proposal requiring large data center developers to pay larger deposits ($500K above the standard $1M for projects 50MW+). The project is approved and moving forward.",
+      "new_status": "approved",
+      "sources": [
+        "https://www.shawlocal.com/the-herald-news/2026/03/20/joliet-oks-controversial-795-acre-data-center/",
+        "https://www.bisnow.com/chicago/news/data-center-development/joliet-oks-20b-data-center-as-illinois-seeks-to-make-large-developers-pay-more-for-projects-133777",
+        "https://abc7chicago.com/post/data-centers-illinois-city-council-approves-plans-joliet-center-bernhard-rowell-east-speedway/18737463/"
+      ]
+    },
+    {
+      "id": "archbald-pa-wildcat-ridge-2026-01-01",
+      "update": "Post-denial fallout continues. After the 5-0 denial on March 27, Council member Tom Aniska resigned citing health concerns. The solicitor's written decision stated the record was incomplete (applicant presented only two witnesses, no opportunity for public evidence). This means the denial was procedural, not on the merits -- the developer could potentially refile. This was the first of six proposed data center campuses in Archbald to receive a formal denial. PPL Electric Utilities held an open house on planned transmission upgrades in the area.",
+      "new_status": "denied",
+      "sources": [
+        "https://www.wvia.org/news/local/2026-03-27/archbald-denies-18-building-data-center-campus-during-special-friday-afternoon-meeting",
+        "https://fox56.com/news/local/archbald-denies-conditional-use-application-for-data-center",
+        "https://www.wnep.com/article/news/local/lackawanna-county/archbald-votes-no-on-data-center-project-lackawanna-county-staback-park/523-2e60ba4b-3a05-42d9-a1ac-8d5961f2b44f"
+      ]
+    },
+    {
+      "id": "tulsa-ok-moratorium-2026",
+      "update": "Post-approval developments: The Tulsa Metropolitan Area Planning Commission is set to decide on Project Anthem's second construction phase on April 1. East Tulsa residents continue raising questions about Project Anthem specifically. The 9-month moratorium (through Dec 31, 2026) is in effect but exempts Project Anthem phases 1-2 and Project Clydesdale. Councilor Dutton reiterated concerns that data centers disproportionately impact underserved communities in her and Hall-Harper's north Tulsa districts.",
+      "new_status": "enacted",
+      "sources": [
+        "https://tulsaflyer.org/2026/03/27/news/post/project-anthem-east-tulsa/",
+        "https://www.kosu.org/tulsa-data-centers-paused",
+        "https://www.kjrh.com/news/local-news/data-center-moratorium-tulsa-city-councilors-pump-brakes-on-new-centers-for-2026"
+      ]
+    },
+    {
+      "id": "south-dakota-statewide-sb-135-sd-2026-01-26",
+      "update": "No new developments since Governor Rhoden signed SB 135 on March 25. The law is in effect: data centers 10+ MW must pay for own power infrastructure, obey water usage limits, file semi-annual reports, and local governments retain authority to regulate/limit/prohibit. It was the only data center bill to pass in Pierre this session.",
+      "new_status": "enacted",
+      "sources": [
+        "https://www.kwit.org/podcast/spm-news/2026-03-25/south-dakota-governor-rhoden-signs-data-center-bill-into-law",
+        "https://www.dakotanewsnow.com/2026/03/28/every-bill-governor-rhoden-has-signed-into-law-2026/"
+      ]
+    },
+    {
+      "id": "indiana-hea-1210-data-center-incentive-2026",
+      "update": "Governor Braun signed HEA 1210 on March 12. The final incentive was drastically reduced from earlier proposals after private lobbying by data center companies. A large data center with a $500M annual electric bill would pay a maximum $350,000/year to local government -- roughly one-fourteenth of the $5M minimum the Senate had endorsed days earlier. Governor also signed HB 1406 requiring the Indiana Finance Authority and IEDC to study costs of data center tax incentives. Status: enacted but widely criticized as watered down.",
+      "new_status": "enacted",
+      "sources": [
+        "https://indianacapitalchronicle.com/2026/03/26/that-1-incentive-to-encourage-data-center-approvals-final-deal-watered-it-down/",
+        "https://dailyjournal.net/2026/03/13/braun-signs-bills-for-data-center-payments-iedc-tax-credits-rental-caps/",
+        "https://www.wishtv.com/news/indiana-news/indiana-legislature-data-center-incentives/"
+      ]
+    },
+    {
+      "id": "sand-springs-ok-google-2026",
+      "update": "Multiple legal challenges mount against the Google data center project on 827 acres outside Sand Springs. (1) Recall effort: residents have collected roughly 50% of the ~5,000 signatures needed across six wards by March 31 deadline to recall the entire City Council including Mayor Jim Spoon. (2) Annexation lawsuit: plaintiffs allege the legal basis for annexation (touching a 1966 strip) was voided by a 1970s ordinance. (3) Conservation easement dispute: Land Legacy alleges the Ringle family deal violated a 2013 conservation easement that provided a $3.8M federal tax writeoff. Council approved rezoning 6-1 in February.",
+      "new_status": "active",
+      "sources": [
+        "https://www.nbcnews.com/news/us-news/oklahoma-city-council-members-welcomed-google-data-center-now-face-rec-rcna264726",
+        "https://tulsaflyer.org/2026/03/24/government/post/lawsuit-challenges-sand-springs-data-center-land-deal/",
+        "https://www.okenergytoday.com/2026/03/lawsuit-could-stop-a-data-center-near-sand-springs/"
+      ]
+    },
+    {
+      "id": "virginia-data-center-bills-2026",
+      "update": "Four data center bills remain on Governor Spanberger's desk. She has until April 13 to sign, amend, or veto. Key bills: HB 507 (Tier IV generator mandate after July 2026), SB 553 (water usage reporting), site assessment bill (noise/water/forest/farmland impact studies), SB 253 (SCC authority to shift costs onto data centers, weatherization program extension). Meanwhile, the sales tax exemption debate continues -- it was not resolved this session. No signature or veto action as of March 29.",
+      "new_status": "pending",
+      "sources": [
+        "https://www.wsls.com/news/local/2026/03/20/four-data-center-bills-await-governors-signature-as-southwest-virginia-projects-spark-debate/",
+        "https://virginiamercury.com/2026/03/17/data-center-bills-dominated-this-years-general-assembly-heres-what-passed/",
+        "https://wjla.com/news/local/what-next-for-virginia-data-center-oversight-bills-as-spanberger-weighs-action-by-apr-13-march-2026",
+        "https://www.whsv.com/2026/03/25/sales-tax-exemption-continues-shape-legislative-debate-over-data-center-growth-virginia/"
+      ]
+    },
+    {
+      "id": "independence-mo-tax-breaks-approved-2026-03-03",
+      "update": "No new developments since the March 25 court ruling killed the referendum effort. Judge Phillips denied the declaratory judgment, ruling the Nebius tax incentive ordinance took effect immediately under city charter Section 7.2. The Nebius data center project moves forward without a public vote. Community opposition effort is effectively defeated.",
+      "new_status": "defeated",
+      "sources": [
+        "https://www.kctv5.com/2026/03/25/court-kills-residents-bid-vote-nebius-ai-data-center-tax-deal/",
+        "https://www.kcur.org/politics-elections-and-government/2026-03-25/judge-says-independence-residents-cant-force-vote-on-data-center-tax-breaks"
+      ]
+    },
+    {
+      "id": "detroit-mi-moratorium-2026",
+      "update": "No new developments since the March 17 City Council resolution (6-2) asking Mayor Sheffield for a two-year moratorium. The mayor's office said she will 'fully vet the request.' A 14.4-acre east side data center proposal on city-owned land remains pending. Detroit joins ~20 Michigan communities with moratorium actions. No decision from the mayor as of March 29.",
+      "new_status": "pending",
+      "sources": [
+        "https://planetdetroit.org/2026/03/detroit-data-center-moratorium/",
+        "https://www.michiganpublic.org/environment-climate-change/2026-03-18/detroit-city-council-asks-mayor-to-consider-data-center-moratorium",
+        "https://www.detroitnews.com/story/news/local/detroit-city/2026/03/23/data-center-proposed-detroit-eastside-moratorium-jeep/89211269007/"
+      ]
+    },
+    {
+      "id": "sangamon-county-il-2026-02-01",
+      "update": "No new developments since the March 23 tabling vote (15-13). The CyrusOne conditional use permit remains tabled with no new vote date scheduled. Board meets again in April. 700+ residents attended the March 23 meeting.",
+      "new_status": "delayed",
+      "sources": [
+        "https://www.nprillinois.org/sangamon-county/2026-03-23/the-sangamon-county-board-tables-a-vote-on-a-massive-data-center",
+        "https://capitolcitynow.com/news/248842-county-board-tables-data-center-vote/"
+      ]
+    },
+    {
+      "id": "florida-sb-484-data-center-bill-2026",
+      "update": "SB 484 passed both chambers and awaits Governor DeSantis's signature. The bill establishes Florida's first data center regulatory framework: data centers must pay for own utility costs (no ratepayer shifting), but the House weakened transparency requirements before final passage -- state agencies can now sign NDAs with data center companies for up to one year. The bill was shaped by compromise with the Trump administration after White House contacted the Florida House to oppose over-regulation of AI. Electric providers must file compliance plans with the PSC by Oct. 1. Inside Climate News reported skepticism about enforcement strength.",
+      "new_status": "pending",
+      "sources": [
+        "https://insideclimatenews.org/news/27032026/florida-data-center-costs-legislation/",
+        "https://floridaphoenix.com/2026/03/13/florida-senate-half-heartedly-agrees-to-final-ok-for-weakened-data-center-bill/",
+        "https://floridapolitics.com/archives/777998-data-center-bill-advances-unanimously-protecting-ratepayers-in-the-process/",
+        "https://www.wlrn.org/government-politics/2026-03-12/florida-house-weakens-transparency-requirement-in-data-center-bill-sends-to-senate"
+      ]
+    }
+  ],
+  "new_fights": [
+    {
+      "id": "colorado-springs-co-raeden-2026-03-28",
+      "update": "NEW: Oakland-based Raeden planning a data center at a former Intel microchip manufacturing plant at 1565 High Tech Way along Garden of the Gods Road in Colorado Springs. Approximately 450,000 sq ft facility using up to 50MW of power. Water usage expected to be minimal. Three smaller buildings on campus will be demolished for generators and chiller units. Raeden has been working with the city for over a year. Neighborhood meeting held March 28 at Hyatt Place hotel. No formal opposition reported yet but comes amid Denver's moratorium push and statewide legislative debate.",
+      "new_status": "proposed",
+      "sources": [
+        "https://gazette.com/2026/03/28/large-data-center-may-be-heading-to-former-computer-chip-facility-in-colorado-springs/"
+      ]
+    },
+    {
+      "id": "appomattox-county-va-avaio-2026-03",
+      "update": "NEW: Avaio (Connecticut-based) proposing 'Project Hercules' -- a $3 billion, 452-acre, 6-building data center campus in Appomattox County, VA. Would bring 200-250 jobs and $65M+ in new tax revenue. Community divided: Economic Development Authority chair supports it for jobs and tax relief; residents concerned about water usage (1-6 million gallons/day initially requested), noise, and lack of transparency. Nearly 100 people attended a March 24 community meeting. County has few existing industries. No formal vote scheduled yet.",
+      "new_status": "proposed",
+      "sources": [
+        "https://www.wsls.com/news/local/2026/03/24/data-centers-spark-protests-in-appomattox-county/",
+        "https://wset.com/news/local/appomattox-county-residents-press-developers-on-3b-data-center-campus-economic-development-authority-new-jobs-tax-revenue-local-resources-community-march-2026",
+        "https://www.wsls.com/news/local/2026/03/26/proposed-appomattox-data-center-could-reshape-county-economy-residents-question-impact/",
+        "https://www.wsls.com/news/local/2026/03/25/proposed-appomattox-data-center-promises-jobs-but-sparks-water-usage-fears/"
+      ]
+    },
+    {
+      "id": "yorkville-il-project-steel-2026-03-24",
+      "update": "NEW: Yorkville City Council approved annexation, rezoning, and PUD for the 540-acre 'Project Steel' data center by Prologis on March 24. Includes 16 two-story warehouses. Developer paying $40M upfront ($30M to Yorkville School District 115). Air-cooled system using 25,000-42,400 gallons/day. 100-foot landscaped buffer with 8-foot berm. Approval came after 4+ hour meeting with significant resident opposition. Residents quoted saying 'nobody wants to live in data center row.' This is in addition to a previously approved Yorkville data center that is downsizing from original plans.",
+      "new_status": "approved",
+      "sources": [
+        "https://www.shawlocal.com/kendall-county-now/2026/03/26/nobody-wants-to-live-in-data-center-row-residents-speak-out-after-yorkville-approves-540-acre-data-center/",
+        "https://www.shawlocal.com/kendall-county-now/2026/03/23/yorkville-could-approve-2-more-data-center-projects-including-540-acre-project-steel/",
+        "https://www.wcsjnews.com/news/wspynews/city-council-gives-green-light-to-550-acre-data-center-campus/article_9777a777-d22c-57d2-8c28-2baae542e772.html"
+      ]
+    },
+    {
+      "id": "boone-nc-moratorium-2026-03-23",
+      "update": "NEW: Boone Town Council unanimously approved a one-year moratorium on data centers and cryptocurrency mining on March 23. Capacity crowd cheered the decision. Watauga County commissioners agreed to hold a public hearing on a potential county-wide moratorium on April 21. Part of a broader wave of NC moratoriums.",
+      "new_status": "enacted",
+      "sources": [
+        "https://www.wunc.org/2026-03-23/boone-approves-data-center-development-moratorium",
+        "https://www.wfdd.org/politics-government/2026-03-23/boone-approves-data-center-development-moratorium"
+      ]
+    },
+    {
+      "id": "washington-county-tn-moratorium-2026-03-23",
+      "update": "NEW: Washington County, TN commissioners voted 13-2 on March 23 to approve a one-year moratorium on the construction, operation, and permitting of data centers including cryptocurrency mines. Effective immediately through June 30, 2027. Gives commissioners time to update zoning regulations.",
+      "new_status": "enacted",
+      "sources": [
+        "https://www.wjhl.com/news/local/washington-county-commission-approves-data-center-moratorium/",
+        "https://www.supertalk929.com/2026/03/24/washington-county-tn-approves-1-year-moratorium-on-data-centers/"
+      ]
+    },
+    {
+      "id": "baltimore-city-md-moratorium-2026-03-23",
+      "update": "NEW: Baltimore City Council President Zeke Cohen introduced a one-year moratorium on data centers with 10MW+ electrical demand on March 23. Would classify such facilities as a prohibited zoning use citywide for one year. Motivated by surging BGE bills and community health concerns. Baltimore County had already approved a separate moratorium. The bill has been introduced but not yet voted on.",
+      "new_status": "pending",
+      "sources": [
+        "https://www.cbsnews.com/baltimore/news/baltimore-city-data-center-bill-energy-moratorium/",
+        "https://baltimorebrew.com/2026/03/24/trying-to-get-in-front-of-an-issue-thats-dogged-him-cohen-calls-for-a-one-year-ban-on-data-centers/",
+        "https://www.baltimoresun.com/2026/03/23/data-center-moratorium/"
+      ]
+    }
+  ],
+  "notable_context": {
+    "sanders_moratorium_opposition_grows": {
+      "headline": "Democratic senators now publicly opposing Sanders-AOC moratorium: Fetterman AND Warner",
+      "details": "Sen. Mark Warner (D-VA) called the proposed moratorium 'idiocy' on Fox Baltimore, joining Sen. Fetterman's earlier rejection. This means at least two Democratic senators have publicly broken from the bill, making its political isolation even clearer. The bill has zero path forward in the current Congress.",
+      "sources": [
+        "https://foxbaltimore.com/news/nation-world/senator-mark-warner-proposed-ai-technology-data-center-moratorium-construction-idiocy"
+      ]
+    },
+    "indiana_incentive_gutted": {
+      "headline": "Indiana data center incentive for local governments gutted by industry lobbying",
+      "details": "The final HEA 1210 signed by Gov. Braun requires data centers to pay just 1% of abatement amounts to local governments. Private meetings between legislators and data center lobbyists cut potential payments to roughly one-fourteenth of the Senate-endorsed level. A $500M/year data center would pay at most $350K/year to locals vs. the $5M minimum the Senate had approved days earlier.",
+      "sources": [
+        "https://indianacapitalchronicle.com/2026/03/26/that-1-incentive-to-encourage-data-center-approvals-final-deal-watered-it-down/"
+      ]
+    },
+    "florida_white_house_intervention": {
+      "headline": "White House intervened in Florida data center bill, resulting in weakened transparency requirements",
+      "details": "The Trump White House reportedly contacted the Florida House to oppose over-regulation of AI, leading to a last-minute compromise that allowed state agencies to sign NDAs with data center companies for up to one year. The original bill had stronger disclosure requirements. The Senate agreed to the weakened version reluctantly ('half-heartedly').",
+      "sources": [
+        "https://floridaphoenix.com/2026/03/13/florida-senate-half-heartedly-agrees-to-final-ok-for-weakened-data-center-bill/",
+        "https://insideclimatenews.org/news/27032026/florida-data-center-costs-legislation/"
+      ]
+    },
+    "sand_springs_triple_legal_threat": {
+      "headline": "Google's Sand Springs data center faces recall, annexation lawsuit, and conservation easement dispute simultaneously",
+      "details": "The 827-acre Google project outside Sand Springs, OK faces three simultaneous legal/political threats: (1) recall petition at ~50% of needed signatures with March 31 deadline, (2) lawsuit challenging the annexation's legal basis, (3) Land Legacy alleging conservation easement violation tied to a $3.8M federal tax writeoff. NBC News covered the recall nationally.",
+      "sources": [
+        "https://www.nbcnews.com/news/us-news/oklahoma-city-council-members-welcomed-google-data-center-now-face-rec-rcna264726",
+        "https://tulsaflyer.org/2026/03/24/government/post/lawsuit-challenges-sand-springs-data-center-land-deal/"
+      ]
+    },
+    "pennsylvania_hb_1834_senate_uncertain": {
+      "headline": "Pennsylvania's first-ever data center regulatory framework (HB 1834) passed House 104-95 on party lines; faces uncertain Senate path",
+      "details": "HB 1834 prohibits utilities from shifting data center costs onto ratepayers, requires data centers to cover grid upgrade costs, and mandates clean energy (10% by 2027, 14.5% by 2030, 32% by 2035). Passed with unanimous Democratic support and near-uniform Republican opposition (only two R's voted yes). Now heads to the Republican-controlled Senate where passage is uncertain.",
+      "sources": [
+        "https://www.cityandstatepa.com/policy/2026/03/pa-house-lawmakers-approve-data-center-regulation-bill/412346/",
+        "https://pecpa.org/news/pec-hb1834/",
+        "https://klehr.com/publications/state-house-approves-commonwealths-first-major-data-center-regulatory-framework-measure-faces-uncertain-path-in-senate/"
+      ]
+    }
+  },
+  "searches_with_no_new_results": {
+    "denver_march_31_vote": "No pre-vote surprises or schedule changes found. The moratorium introduction remains expected as early as March 31. Nothing new beyond the March 26-28 reporting.",
+    "washington_essb_6231_signing": "Still no formal signing confirmation. The bill was enrolled March 13 and delivered to Ferguson. Expected to be signed since it was his proposal and is part of the supplemental budget.",
+    "data_center_opposition_cancelled_withdrawn": "No new data center opposition efforts cancelled or withdrawn found for March 28-29. The New Brunswick, NJ cancellation (February 2026) was the most recent major project withdrawal."
+  }
+}

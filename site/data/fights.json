@@ -39,7 +39,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "county_commission",
+    "authority_level": "utility_commission",
     "objective": "Pause crypto mining in Chelan County PUD pending regulations",
     "community_outcome": "expired"
   },
@@ -7887,7 +7887,7 @@
     "issue_category": [
       "community_impact"
     ],
-    "authority_level": "city_council",
+    "authority_level": "township_board",
     "objective": "Impose 90-day data centers moratorium in Dundee Township (Cloverleaf Infrastructure)",
     "community_outcome": "pending"
   },
@@ -7981,7 +7981,7 @@
     "issue_category": [
       "tax_incentive"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Petition to block Microsoft data center in Village of Caledonia",
     "community_outcome": "win"
   },
@@ -10596,7 +10596,7 @@
       "grid_energy",
       "water"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "governor",
     "objective": "Challenge Fermi America's 7.65 GW air permit for 93 gas-fired turbines near Amarillo",
     "community_outcome": "loss"
   },
@@ -13779,7 +13779,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_legislature",
     "objective": "Exempt self-powered data centers from FERC rate regulation",
     "community_outcome": "pending",
     "sponsors": [
@@ -15327,7 +15327,7 @@
     "issue_category": [
       "community_impact"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Impose 180-day data centers moratorium in Village of Godfrey",
     "community_outcome": "pending"
   },
@@ -15849,7 +15849,7 @@
     "issue_category": [
       "environmental"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Pause data centers in Village of Romeo pending regulations",
     "community_outcome": "pending"
   },
@@ -17611,7 +17611,7 @@
       "environmental",
       "farmland"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Deny QTS Data Centers 1600MW data center permit in Village of DeForest",
     "community_outcome": "win"
   },
@@ -19742,7 +19742,7 @@
       "transparency",
       "water"
     ],
-    "authority_level": "utility_commission",
+    "authority_level": "state_legislature",
     "objective": "Ban data center development NDAs via SB 1061",
     "community_outcome": "pending",
     "sponsors": [
@@ -20884,7 +20884,7 @@
       "transparency",
       "water"
     ],
-    "authority_level": "city_council",
+    "authority_level": "township_board",
     "objective": "Demand transparency on Meta's $800M data center under construction in Middleton Township",
     "community_outcome": "pending"
   },
@@ -20992,7 +20992,7 @@
       "transparency",
       "water"
     ],
-    "authority_level": "utility_commission",
+    "authority_level": "state_legislature",
     "objective": "Create separate utility rate class for large data centers in IA",
     "community_outcome": "pending",
     "sponsors": [
@@ -23536,7 +23536,7 @@
     ],
     "data_source": "news",
     "last_updated": "2026-03-05",
-    "scope": "local",
+    "scope": "statewide",
     "county_lean": "D",
     "issue_category": [
       "environmental",
@@ -23617,7 +23617,7 @@
     ],
     "opposition_groups": [],
     "last_updated": "2026-03-28",
-    "scope": "local",
+    "scope": "statewide",
     "county": "Marion County",
     "county_lean": "R",
     "bill_name": "HB 4084",
@@ -26103,7 +26103,7 @@
       "environmental",
       "ratepayer"
     ],
-    "authority_level": "utility_commission",
+    "authority_level": "state_legislature",
     "objective": "Shield residential ratepayers from data center costs in WI",
     "community_outcome": "pending",
     "sponsors": []
@@ -26802,7 +26802,7 @@
       "transparency",
       "water"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_legislature",
     "objective": "Require data center energy and water reports in DC",
     "community_outcome": "pending",
     "sponsors": [
@@ -27200,7 +27200,7 @@
       "transparency",
       "water"
     ],
-    "authority_level": "state_legislature",
+    "authority_level": "governor",
     "objective": "Oppose data center over water concerns in Pennsylvania",
     "community_outcome": "pending"
   },
@@ -27485,7 +27485,7 @@
     "issue_category": [
       "community_impact"
     ],
-    "authority_level": "state_legislature",
+    "authority_level": "governor",
     "objective": "Oppose data center development in Oregon",
     "community_outcome": "pending"
   },
@@ -27523,7 +27523,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_legislature",
     "objective": "Create dedicated FERC interconnection queues for data centers",
     "community_outcome": "pending",
     "sponsors": [
@@ -27723,7 +27723,7 @@
     "lng": -75.7502,
     "action_type": "zoning_restriction",
     "date": "2026-03-11",
-    "status": "active",
+    "status": "enacted",
     "summary": "UPDATE: New Castle County Council voted 12-0 on March 11 to approve comprehensive data center regulations after 7 months of deliberation. Key provisions: 1,000-foot buffer from residential zones (500 ft with noise study), ban on open-loop cooling (unless using reclaimed water), mandatory use of energy-efficient generators, site restoration requirement. Regulations will NOT apply retroactively to projects already in the pipeline. Separately, Starwood Digital Ventures' appeal of its Coastal Zone permit denial is scheduled for hearing March 24, 2026.",
     "last_updated": "2026-03-23",
     "issue_category": [
@@ -27734,7 +27734,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Ban data centers in designated zones in New Castle County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "scope": "statewide",
@@ -27851,7 +27851,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_executive",
     "objective": "Regulate data center development in United States",
     "community_outcome": "pending"
   },
@@ -27890,7 +27890,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_legislature",
     "objective": "Direct FERC technical conference on data center rate impacts",
     "community_outcome": "pending",
     "sponsors": [
@@ -30130,7 +30130,7 @@
       "tax_incentive",
       "transparency"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_executive",
     "objective": "Require data centers to report energy consumption in US",
     "community_outcome": "loss"
   },
@@ -32023,7 +32023,7 @@
       "community_impact",
       "grid_energy"
     ],
-    "authority_level": "federal_agency",
+    "authority_level": "federal_legislature",
     "objective": "Commission legislative study on data center impacts in US",
     "community_outcome": "pending",
     "sponsors": [
@@ -33721,7 +33721,7 @@
     "issue_category": [
       "noise"
     ],
-    "authority_level": "city_council",
+    "authority_level": "utility_commission",
     "objective": "Pause data centers and crypto mining in Johnson City pending regulations",
     "community_outcome": "pending"
   },
@@ -35025,7 +35025,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "utility_commission",
+    "authority_level": "state_legislature",
     "objective": "Shield ratepayers from data center costs via SB270",
     "community_outcome": "pending",
     "sponsors": [
@@ -38584,6 +38584,7 @@
     "issue_category": [
       "community_impact",
       "zoning"
-    ]
+    ],
+    "authority_level": "county_commission"
   }
 ]

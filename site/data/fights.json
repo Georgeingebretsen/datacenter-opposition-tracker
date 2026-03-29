@@ -1756,7 +1756,7 @@
     "lng": -119.814,
     "action_type": "moratorium",
     "date": "2025-02-05",
-    "status": "defeated",
+    "status": "approved",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -15015,7 +15015,7 @@
     "lng": -111.891,
     "action_type": "legislation",
     "date": "2026-01-15",
-    "status": "active",
+    "status": "enacted",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 76",
@@ -15051,7 +15051,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require data center water usage notification and reporting in Utah",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Rep. Jill Koford (R-UT)"
     ]
@@ -26656,7 +26656,7 @@
     "lng": -85.6,
     "action_type": "zoning_restriction",
     "date": "2026-03-03",
-    "status": "ongoing",
+    "status": "cancelled",
     "summary": "Microsoft seeking to rezone 356 acres (purchased from Steelcase for $45.3M) for data center. Dec 2025 hearing canceled when 250+ overflowed venue. Microsoft terminated NDAs with Gaines and 3 other West MI communities in March 2026. Planning Commission hearing expected April.",
     "acreage": 356,
     "petition_url": "https://www.change.org/p/stop-the-microsoft-data-center-in-gaines-township",
@@ -26668,7 +26668,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Block Microsoft rezoning of 356 acres in Gaines Charter",
-    "community_outcome": "pending",
+    "community_outcome": "win_withdrawal",
     "petition_signatures": 401
   },
   {
@@ -26918,7 +26918,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "4000-signature petition opposing TigerDC data center",
-    "community_outcome": "win",
+    "community_outcome": "win_withdrawal",
     "investment_million_usd": 3000,
     "petition_url": "https://www.change.org/p/stop-data-centers-coming-to-upstate-sc"
   },
@@ -27508,7 +27508,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Rally against data center in City of Oakley",
-    "community_outcome": "win"
+    "community_outcome": "win_withdrawal"
   },
   {
     "scope": "local",
@@ -34347,7 +34347,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Oppose transmission lines for Portland General Electric data center",
-    "community_outcome": "pending"
+    "community_outcome": "partial"
   },
   {
     "id": "the-dalles-hr-655-federal-land-or-2026",

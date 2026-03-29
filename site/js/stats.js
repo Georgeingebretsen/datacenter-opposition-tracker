@@ -17,7 +17,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderPartisan(fights);
   renderWinRateByTool(fights);
   renderIssueCategoryChart(fights);
+  renderAuthorityLevel(fights);
+  renderCommunityOutcome(fights);
   renderPartisanWinRate(fights);
+  renderTopSponsors(fights);
   renderSigsVsJobs(fights);
   renderGroupsTimeline(fights);
   renderTopPetitions(fights, petitionData);
@@ -758,6 +761,130 @@ function renderGroupsTimeline(fights) {
   svg += `<line x1="${padL}" y1="${padT + chartH}" x2="${W - padR}" y2="${padT + chartH}" class="timeline-axis"/>`;
   svg += '</svg>';
   container.innerHTML = svg;
+}
+
+// --- Authority Level Breakdown ---
+
+function renderAuthorityLevel(fights) {
+  const AUTHORITY_NAMES = {
+    city_council: 'City Council', county_commission: 'County Commission',
+    township_board: 'Township Board', village_board: 'Village Board',
+    planning_commission: 'Planning Commission', state_legislature: 'State Legislature',
+    governor: 'Governor', utility_commission: 'Utility Commission',
+    federal_legislature: 'Federal Legislature', federal_executive: 'Federal Executive',
+    federal_agency: 'Federal Agency', court: 'Court',
+    voters: 'Voters / Referendum', developer: 'Developer Decision',
+    advocacy_org: 'Advocacy Organization', tribal_government: 'Tribal Government',
+  };
+
+  const counts = {};
+  fights.forEach(f => {
+    const al = f.authority_level;
+    if (al) counts[al] = (counts[al] || 0) + 1;
+  });
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const maxVal = sorted[0]?.[1] || 1;
+
+  // Group into tiers for coloring
+  const localAuthorities = ['city_council', 'county_commission', 'township_board', 'village_board', 'planning_commission'];
+  const stateAuthorities = ['state_legislature', 'governor', 'utility_commission'];
+  const federalAuthorities = ['federal_legislature', 'federal_executive', 'federal_agency'];
+
+  document.getElementById('authority-chart').innerHTML = sorted.map(([auth, count]) => {
+    const name = AUTHORITY_NAMES[auth] || auth.replace(/_/g, ' ');
+    let fillClass = 'fill-accent';
+    if (stateAuthorities.includes(auth)) fillClass = 'fill-blue';
+    else if (federalAuthorities.includes(auth)) fillClass = 'fill-green';
+    else if (['court', 'voters', 'developer', 'advocacy_org', 'tribal_government'].includes(auth)) fillClass = 'fill-muted';
+    return `<div class="bar-row">
+      <span class="bar-label">${name}</span>
+      <div class="bar-track">
+        <div class="bar-fill ${fillClass}" style="width: ${(count / maxVal) * 100}%"></div>
+      </div>
+      <span class="bar-value">${count}</span>
+    </div>`;
+  }).join('');
+}
+
+// --- Community Outcome Summary ---
+
+function renderCommunityOutcome(fights) {
+  const outcomes = { win: 0, win_withdrawal: 0, loss: 0, partial: 0, pending: 0, expired: 0 };
+  fights.forEach(f => {
+    const o = f.community_outcome || 'pending';
+    outcomes[o] = (outcomes[o] || 0) + 1;
+  });
+
+  const total = fights.length;
+  const resolved = outcomes.win + outcomes.win_withdrawal + outcomes.loss + outcomes.partial;
+  const winTotal = outcomes.win + outcomes.win_withdrawal;
+  const winRate = resolved > 0 ? Math.round((winTotal / resolved) * 100) : 0;
+
+  const segments = [
+    { val: outcomes.win, color: '#66800B', label: 'Community Won' },
+    { val: outcomes.win_withdrawal, color: '#879A39', label: 'Developer Withdrew' },
+    { val: outcomes.partial, color: '#AD8301', label: 'Partial Win' },
+    { val: outcomes.loss, color: '#AF3029', label: 'Community Lost' },
+    { val: outcomes.expired, color: '#878580', label: 'Expired' },
+    { val: outcomes.pending, color: '#B7B5AC', label: 'Pending' },
+  ].filter(s => s.val > 0);
+
+  // Horizontal stacked bar
+  let barHtml = '<div class="outcome-stack">';
+  segments.forEach(seg => {
+    const pct = (seg.val / total) * 100;
+    barHtml += `<div class="outcome-segment" style="width:${pct}%;background:${seg.color}" title="${seg.label}: ${seg.val} (${Math.round(pct)}%)"></div>`;
+  });
+  barHtml += '</div>';
+
+  // Legend
+  barHtml += '<div class="outcome-legend">';
+  segments.forEach(seg => {
+    barHtml += `<span class="outcome-legend-item"><span class="legend-dot" style="background:${seg.color}"></span>${seg.label}: ${seg.val}</span>`;
+  });
+  barHtml += '</div>';
+
+  // Win rate callout
+  barHtml += `<div class="outcome-winrate"><span class="callout-number green">${winRate}%</span><span class="callout-label">community win rate (${winTotal} wins of ${resolved} resolved fights)</span></div>`;
+
+  document.getElementById('outcome-summary').innerHTML = barHtml;
+}
+
+// --- Top Legislative Sponsors ---
+
+function renderTopSponsors(fights) {
+  const sponsorCounts = {};
+  fights.forEach(f => {
+    (f.sponsors || []).forEach(s => {
+      sponsorCounts[s] = (sponsorCounts[s] || 0) + 1;
+    });
+  });
+
+  const sorted = Object.entries(sponsorCounts).sort((a, b) => b[1] - a[1]);
+  const withSponsors = fights.filter(f => f.sponsors && f.sponsors.length > 0).length;
+
+  if (sorted.length === 0) {
+    document.getElementById('sponsors-chart').innerHTML = '<p style="color:var(--text-muted)">No sponsor data available</p>';
+    return;
+  }
+
+  const display = sorted.slice(0, 15);
+  const maxVal = display[0][1];
+
+  document.getElementById('sponsors-chart').innerHTML = display.map(([name, count]) => {
+    // Try to detect party from name pattern (R-XX) or (D-XX)
+    let fillClass = 'fill-accent';
+    if (/\(R[- ]/.test(name)) fillClass = 'fill-red';
+    else if (/\(D[- ]/.test(name)) fillClass = 'fill-blue';
+    return `<div class="bar-row">
+      <span class="bar-label" title="${name}">${name}</span>
+      <div class="bar-track">
+        <div class="bar-fill ${fillClass}" style="width: ${(count / maxVal) * 100}%"></div>
+      </div>
+      <span class="bar-value">${count}</span>
+    </div>`;
+  }).join('');
 }
 
 // --- Top Petitions ---

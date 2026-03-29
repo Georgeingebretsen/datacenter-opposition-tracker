@@ -216,6 +216,8 @@ function openDetail(f) {
 
     ${f.sponsors && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><p>${f.sponsors.join('<br>')}</p></div>` : ''}
 
+    ${f.issue_category && f.issue_category.length ? `<div class="detail-section"><h3>Issues Addressed</h3><div class="issue-tags">${f.issue_category.map(c => `<span class="issue-tag">${c.replace(/_/g, ' ')}</span>`).join('')}</div></div>` : ''}
+
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 
     ${f.bill_url ? `<div class="detail-section bill-link-section"><h3>Official Bill</h3><a href="${f.bill_url}" target="_blank" class="bill-link">${f.bill_name || 'View Bill Text'} ↗</a></div>` : ''}

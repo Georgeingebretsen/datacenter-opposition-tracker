@@ -4505,7 +4505,7 @@
     "megawatts": 2200,
     "acreage": 3650,
     "building_sq_ft": null,
-    "water_usage_gallons_per_day": null,
+    "water_usage_gallons_per_day": 23000000,
     "jobs_promised": null,
     "opposition_groups": [
       "Alliance for Affordable Energy",
@@ -12291,7 +12291,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Restrict Eneus Energy 1000MW data center in Hidalgo County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "water_usage_gallons_per_day": 4600000
   },
   {
     "id": "vineland-nj-2025-12-23",
@@ -23518,7 +23519,8 @@
     ],
     "authority_level": "township_board",
     "objective": "Rally against Carlisle Development Partners data center in Middlesex Township",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "water_usage_gallons_per_day": 400000
   },
   {
     "id": "stillwater-county-mt-2026-03-01",
@@ -25244,7 +25246,8 @@
     "authority_level": "city_council",
     "objective": "Rally against Riot Platforms data center in Corsicana",
     "community_outcome": "loss",
-    "megawatts": 600
+    "megawatts": 600,
+    "water_usage_gallons_per_day": 1500000
   },
   {
     "scope": "local",
@@ -26013,7 +26016,8 @@
     "authority_level": "city_council",
     "objective": "Voters reject officials who approved data center in Forsyth",
     "community_outcome": "loss",
-    "investment_million_usd": 21000
+    "investment_million_usd": 21000,
+    "water_usage_gallons_per_day": 1500000
   },
   {
     "scope": "local",
@@ -27595,7 +27599,8 @@
     "authority_level": "court",
     "objective": "Petition to block CalEthos data center in Imperial Valley",
     "community_outcome": "pending",
-    "megawatts": 330
+    "megawatts": 330,
+    "water_usage_gallons_per_day": 750000
   },
   {
     "scope": "local",
@@ -27872,7 +27877,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Restrict Eneus Energy 1785-acre data center in Harlingen",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "water_usage_gallons_per_day": 4600000
   },
   {
     "scope": "local",
@@ -28168,7 +28174,8 @@
     "authority_level": "court",
     "objective": "Challenge TeraWulf for treaty rights violations",
     "community_outcome": "pending",
-    "megawatts": 400
+    "megawatts": 400,
+    "water_usage_gallons_per_day": 1008000
   },
   {
     "scope": "local",
@@ -28249,7 +28256,8 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Rally against Tract data center in Hanover County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "water_usage_gallons_per_day": 600000
   },
   {
     "scope": "local",
@@ -28722,7 +28730,8 @@
     "authority_level": "county_commission",
     "objective": "Oppose data center over water concerns in Butts County",
     "community_outcome": "pending",
-    "investment_million_usd": 10000
+    "investment_million_usd": 10000,
+    "water_usage_gallons_per_day": 4500000
   },
   {
     "scope": "statewide",
@@ -29159,7 +29168,8 @@
     "objective": "Oppose Alcove Development data center over water in Osawatomie",
     "community_outcome": "pending",
     "megawatts": 150,
-    "investment_million_usd": 1000
+    "investment_million_usd": 1000,
+    "water_usage_gallons_per_day": 1000000
   },
   {
     "scope": "statewide",
@@ -31550,7 +31560,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Rally against Hillwood data center in Joliet",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "water_usage_gallons_per_day": 150000
   },
   {
     "scope": "local",
@@ -33239,7 +33250,8 @@
     "objective": "Put Viridian data center to public vote",
     "community_outcome": "pending",
     "megawatts": 800,
-    "investment_million_usd": 8000
+    "investment_million_usd": 8000,
+    "water_usage_gallons_per_day": 70400
   },
   {
     "id": "south-lyon-mi-2026-02-10",
@@ -36098,7 +36110,8 @@
     "objective": "Restrict Equinix 340-acre data center in Minooka",
     "community_outcome": "loss",
     "megawatts": 700,
-    "investment_million_usd": 2000
+    "investment_million_usd": 2000,
+    "water_usage_gallons_per_day": 3000000
   },
   {
     "id": "logan-county-il-2025-12-01",

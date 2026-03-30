@@ -544,8 +544,8 @@ function renderPartisan(fights) {
 function renderWinRateByTool(fights) {
   const ACTION_NAMES = {
     moratorium: 'Moratorium', legislation: 'Legislation', zoning_restriction: 'Zoning Restriction',
-    other_opposition: 'Other Opposition', lawsuit: 'Lawsuit', petition: 'Petition',
-    permit_denial: 'Permit Denial', protest: 'Protest', project_withdrawal: 'Project Withdrawal',
+    other_opposition: 'Other Opposition', lawsuit: 'Lawsuit',
+    permit_denial: 'Permit Denial', project_withdrawal: 'Project Withdrawal',
     infrastructure_opposition: 'Infrastructure', regulatory_action: 'Regulatory', executive_action: 'Executive',
     study_or_report: 'Study/Report',
   };

@@ -944,7 +944,7 @@
     "lng": -97.2053,
     "action_type": "legislation",
     "date": "2024-10-01",
-    "status": "ongoing",
+    "status": "approved",
     "company": "Data Factory Austin",
     "hyperscaler": null,
     "project_name": null,
@@ -963,7 +963,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/halt-data-factory-austin-s-proposed-bitcoin-factory-in-thorndale",
     "petition_signatures": 1084,
-    "summary": "Thorndale passed a formal resolution opposing a proposed 15MW bitcoin mining facility by Data Factory Austin on County Road 437 in Milam County. Dozens of residents expressed concerns about noise, water supply, and energy consumption (15MW equals about 10,500 homes' daily electricity). Residents referenced noise complaints from Data Factory's existing 10MW mine near Rockdale, where noise peaked at 99 decibels \u2014 louder than a subway. The city signed the resolution to show solidarity with citizens and sent it to local and state leaders to prevent construction.",
+    "summary": "Data Factory Austin proceeded with bitcoin mining near Thorndale despite city opposition. The city passed a resolution opposing the 15 MW facility, and residents launched a Change.org petition. However, Data Factory leased a 10-acre site 2.5 miles north of Thorndale on FM 486 and began operations. Existing noise complaints from a 10 MW Data Factory mine near Rockdale peaked at 99 decibels. The company plans to expand from 15 MW to 35 MW by 2026 and add GPU-powered data centers. Thorndale lacks jurisdiction over the site outside city limits.",
     "sources": [
       "https://theminermag.com/news/2024-10-11/thorndale-bitcoin-mine-oppose",
       "https://www.kxxv.com/news/local-news/in-your-neighborhood/thorndale-residents-voice-concerns-over-proposed-bitcoin-mining-company",
@@ -971,7 +971,7 @@
       "https://www.texasobserver.org/crypto-energy-grid-texas-bitcoin-water/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -982,7 +982,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Pass resolution opposing Data Factory Austin bitcoin mine",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "city-of-peculiar-mo-2024-10-01",
@@ -1810,7 +1810,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Ada County initiated a Data Center Zoning Ordinance Amendment to develop standards regulating data centers, protecting neighboring property owners and the environment. Prompted by Meta's Kuna campus and the broader Treasure Valley data center boom.",
+    "summary": "Ada County is proactively developing data center zoning standards following Meta's data center in nearby Kuna. The county launched a Data Center Zoning Ordinance Amendment project to create regulations protecting neighboring property owners and the environment. A broader zoning ordinance update was adopted in November 2025 with provisions for managing various land uses. The county cited the Urban Land Institute's 2025 report projecting data centers as one of the largest property types within a decade.",
     "sources": [
       "https://adacounty.id.gov/developmentservices/administration/data-center-zoning-ordinance-amendment/",
       "https://www.waypointidaho.com/blog/meta-kuna-data-center-impact-guide-2025/",
@@ -1818,7 +1818,7 @@
       "https://boisedev.com/news/2025/04/03/kuna-data-center-diode-ventures/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -2818,7 +2818,7 @@
     "opposition_twitter": "https://x.com/OUSCofficial",
     "petition_url": "https://actionnetwork.org/petitions/petition-to-stop-the-data-center-from-being-built-in-p-35",
     "petition_signatures": 2241,
-    "summary": "Oakland University's Board of Trustees approved plans for a data center on Parking Lot 35, located behind Hillcrest Residence Hall near the Native American Heritage Site, biological preserve, and nature trail. Student Congress led opposition efforts through an Action Network petition. Students and community members cite concerns about water usage, chemical pollution, and impacts on nearby dorm residents.",
+    "summary": "Oakland University's Board of Trustees approved initial stages for a data center on Parking Lot P-35 in June 2025, adjacent to a DTE Energy substation with 26 MW capacity. A petition from students, faculty, staff, and community members formally opposes the project, citing negative impacts on sustainability, the campus Native American Heritage Site, and the biological preserve. In December 2025, state legislation was introduced to rescind a $100M grant from Michigan Strategic Fund for the project. Opposition continues but the university has issued an RFP seeking private-sector data center partners.",
     "sources": [
       "https://actionnetwork.org/petitions/petition-to-stop-the-data-center-from-being-built-in-p-35",
       "https://www.clickondetroit.com/news/local/2026/02/19/oakland-university-debates-ai-institute-data-center-proposal-for-parking-lot-35/",
@@ -2827,7 +2827,7 @@
       "https://www.datacenterdynamics.com/en/news/michigans-oakland-university-puts-out-call-for-data-center-proposals/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -2877,9 +2877,9 @@
     "lat": 39.7665,
     "lng": -82.9649,
     "action_type": "permit_denial",
-    "status": "active",
+    "status": "enacted",
     "date": "2025-06-01",
-    "summary": "Change.org petition with 67 signatures opposing data center construction in Commercial Point and Scioto Township. The Commercial Point Data Campus is a proposed 152-acre facility marketed by JLL, featuring 1.75 million square feet of space with an initial 75,000 sq ft expanding to 220,000 sq ft. It includes a 1.3 GW natural gas plant and solar array, with 450 MW of grid-connected power planned by 2029. Not affiliated with nearby AWS facilities. Pickaway County Commissioners voted unanimously to deny a 344-acre annexation petition in April 2025. Teays Valley Against Overgrowth (TVAO), founded by Cory Wasmus, is the primary opposition group, citing traffic, noise, and environmental impacts from fossil fuel reliance.",
+    "summary": "Scioto Township enacted a 12-month moratorium on data center developments in 2025. K-NOVA LLC's proposal for the Rickenbacker Exchange development in Commercial Point stalled when a related ordinance 'died due to a lack of motion' in the Village Council. K-NOVA's attorney presented a proposal to drill test wells for a water wellfield in October 2025, and a separate Major Site Plan was approved for a lot in Rickenbacker Exchange. The moratorium provides time to assess impacts while some site planning continues.",
     "sources": [
       "https://www.sciotopost.com/proposed-152-acre-data-center-campus-in-commercial-point-borders-housing-development-in-pickaway-county/",
       "https://www.circlevilleherald.com/community/townhouses-voted-against-nda-won-t-renew-in-july/article_599b482c-f9b6-48ce-b951-464119fd7752.html",
@@ -2888,7 +2888,7 @@
     "opposition_groups": [
       "Teays Valley Against Overgrowth"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-28",
     "megawatts": 450,
     "petition_signatures": 727,
     "acreage": 152,
@@ -2906,7 +2906,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny K-NOVA 450MW data center permit in Commercial Point /",
-    "community_outcome": "pending",
+    "community_outcome": "partial",
     "opposition_facebook": "https://www.facebook.com/p/Teays-Valley-Against-Overgrowth-61575731036915/"
   },
   {
@@ -3304,7 +3304,7 @@
     "lng": -93.784,
     "action_type": "moratorium",
     "date": "2025-06-23",
-    "status": "active",
+    "status": "enacted",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -3321,13 +3321,13 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Clarke County Board of Supervisors approved an indefinite moratorium on data center development on June 23, 2025. Supervisor Randy Dunbar cited lack of existing zoning ordinances. Concerns included water consumption. The county already had wind and solar moratoriums. Applied Digital had proposed a 200MW facility in adjacent Adair County.",
+    "summary": "Clarke County Board of Supervisors approved a temporary moratorium on data center construction in unincorporated areas in June 2025. Supervisor Randy Dunbar cited the absence of county zoning ordinances pertaining to data centers as the reason, saying the county needed to act before data centers appeared without oversight. The moratorium follows similar actions for commercial wind farms (since June 2023) and solar farms (since December 2024).",
     "sources": [
       "https://www.osceolaiowa.com/news/local/2025/06/26/temporary-moratorium-placed-on-data-centers/",
       "https://clarkecounty.iowa.gov/wp-content/uploads/2025/07/6-23-2025.pdf"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -3336,7 +3336,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose indefinite data centers and solar moratorium in Clarke County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "town-of-warrenton-va-2025-07-01",
@@ -24852,10 +24852,10 @@
     "lng": -77.99,
     "action_type": "community_opposition",
     "date": "2025-05-01",
-    "status": "ongoing",
+    "status": "approved",
     "company": "STACK Infrastructure",
     "hyperscaler": "",
-    "summary": "STACK Infrastructure's 2+ million sq ft Culpeper Technology Campus, straddling the Town/County line near McDevitt Drive with 13 warehouse-like buildings, generated organized opposition over persistent noise from 24/7 cooling systems. The campus sits adjacent to Culpeper National Cemetery, Madison Crossing Townhomes, and the South East Street Historic District. STACK and Peterson Co. sought to weaken noise standards agreed upon in original 2023 proffers, prompting demands for better sound mitigation and noise ordinance updates.",
+    "summary": "Town of Culpeper approved data center agreements with STACK Infrastructure in October 2025, including an electric service premise agreement and a minimum revenue agreement guaranteeing $1.5M per building per year for 15 years. The Coalition to Save Culpeper organized opposition citing lack of transparency, limited public disclosure, and concerns about the minimum revenue amount. Despite advocacy including Lobby Day in Richmond, the town moved forward with STACK's plans for Culpeper Technology Campus and Cooper Ridge data centers.",
     "opposition_groups": [
       "Piedmont Environmental Council"
     ],
@@ -24864,14 +24864,14 @@
     "opposition_website": "https://www.pecva.org/",
     "opposition_instagram": "@piedmontenviron",
     "opposition_instagram_followers": 5825,
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "issue_category": [
       "community_impact",
       "noise"
     ],
     "authority_level": "city_council",
     "objective": "Organize coalition against STACK Infrastructure data center in Town of Culpeper",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "scope": "local",
@@ -25120,7 +25120,7 @@
     "action_type": "lawsuit",
     "date": "2024-10-04",
     "status": "ongoing",
-    "summary": "Residents of Mitchell Bend outside Granbury have been fighting Marathon Digital Holdings' (MARA) bitcoin mine since 2022, alleging 'permanent hearing loss, lack of sleep, headaches, tinnitus, and vertigo' from 24/7 noise. Earthjustice represents plaintiffs in a nuisance lawsuit; a court denied MARA's motion to dismiss and plaintiffs filed a motion to compel discovery. Residents attempted to incorporate Mitchell Bend as a city to gain municipal regulatory authority over the mine, drawing national attention. MARA counter-sued to block the incorporation vote. A judge allowed the vote to proceed but voters ultimately rejected incorporation. A third power plant near the mine was under judicial review in September 2025. MARA's counter-lawsuit alleged officials kept incorporation secret.",
+    "summary": "Residents filed an Earthjustice-backed lawsuit against MARA Holdings in October 2024 alleging noise nuisance from the 24/7 bitcoin mining operation. In 2025, residents attempted to incorporate Mitchell Bend to gain regulatory power over the mine. MARA sued to block the November 4 election, but a federal judge denied the injunction. Voters rejected incorporation 86-52 on November 5, 2025. MARA filed a motion to compel in the noise lawsuit seeking key facility data. The Earthjustice noise lawsuit remains active and ongoing.",
     "energy_mw": 300,
     "opposition_groups": [
       "Citizens Concerned About Wolf Hollow",
@@ -25128,7 +25128,7 @@
       "Earthjustice"
     ],
     "opposition_facebook": "https://www.facebook.com/groups/bitcoinoisehoodcounty/",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-28",
     "issue_category": [
       "grid_energy",
       "noise",
@@ -27395,9 +27395,9 @@
     "lng": -117.9587,
     "action_type": "zoning_restriction",
     "date": "2025-01-15",
-    "status": "active",
-    "summary": "City of Industry's City Council approved zoning amendments on December 17, 2025 allowing data centers citywide. Plans submitted in January 2026 outline converting the mostly vacant Puente Hills Mall into an industrial complex with a potential 10 MW data center. Other proposed sites include Alfred S. Madrid Middle School and IBC Building 10. The Bassett Unified School District unanimously voted on January 27, 2026 to oppose the zoning changes. LA County residents expressed alarm about data centers being proposed without community engagement.",
-    "last_updated": "2026-03-17",
+    "status": "approved",
+    "summary": "City of Industry's Planning Commission voted in December 2025 to recommend zoning changes allowing data centers citywide. City Manager Joshua Nelson wrote in May 2025 that the city was 'working on a change to our code to pretty much allow data centers anywhere.' With fewer than 300 residents, the city faced minimal public opposition. Majestic Realty pitched the Industry Business Center campus for mid-sized (20-80 MW) data centers. A formal proposal for IBC Building 10 was submitted in late 2025.",
+    "last_updated": "2026-03-28",
     "issue_category": [
       "community_impact",
       "grid_energy",
@@ -27406,7 +27406,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose City of Industry zoning amendments enabling data center conversion of Puente Hills Mall",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "megawatts": 10
   },
   {
@@ -27561,8 +27561,8 @@
     "action_type": "lawsuit",
     "date": "2025-01-28",
     "status": "active",
-    "summary": "CalEthos, a Tustin-based startup, is planning a hyperscale data center campus in Imperial County along Highway 111 between Niland and Calipatria, while a separate project by Imperial Valley Computer Manufacturing (IVCM) proposes a 330MW, 950,000-square-foot facility nearby. The city of Imperial filed a petition for writ of mandate in December 2025 to force environmental review, and a grassroots group called NIMBY Imperial has gathered thousands of opposing signatures with roughly 50 volunteers. Community concerns center on the facility's potential consumption of 750,000 gallons of water per day, its 330MW energy demand representing nearly 30% of the Imperial Irrigation District's available supply, and the developers' attempts to bypass CEQA environmental review.",
-    "last_updated": "2026-03-19",
+    "summary": "Multiple lawsuits surround data center development in Imperial Valley. The City of Imperial sued Imperial County in late 2025, alleging CEQA violations for approving ministerial permits that bypassed environmental review. A Superior Court ruled in February 2026 that the city's CEQA claims were insufficient. The developer (Imperial Valley Computer Manufacturing LLC) counter-sued the City of Imperial in federal court alleging 'economic sabotage.' State lawmaker called on county officials to halt the project in February 2026. The project could require 750,000 gallons of water per day.",
+    "last_updated": "2026-03-28",
     "issue_category": [
       "environmental",
       "water"
@@ -27602,8 +27602,8 @@
     "action_type": "lawsuit",
     "date": "2025-02-05",
     "status": "active",
-    "summary": "Amazon's Boardman/Morrow County data centers alleged to have worsened a nitrate water contamination crisis. Amazon uses polluted groundwater for cooling; wastewater sprayed on farmland infiltrates the aquifer. Wastewater nitrate levels averaged 56 ppm \u2014 8x Oregon's safety limit. Of 70 wells tested, 68 violated federal limits. Rolling Stone investigation linked data centers to cancer clusters. Class-action RCRA lawsuit filed. Amazon fined $10,000 by DEQ in Oct 2025.",
-    "last_updated": "2026-03-14",
+    "summary": "Federal class action lawsuit advancing against Port of Morrow and agricultural operators over nitrate contamination of 97%+ of residential wells. In December 2025, U.S. District Judge Michael Simon partially denied defendants' motions to dismiss, allowing claims to proceed. Oregon DEQ fined Amazon $10,000 for air/water quality violations at Boardman and Hermiston data centers. Oregon Attorney General filed a separate corruption lawsuit in July 2025 against local officials related to Amazon's business interests. Legal team filed additional complaint in December 2025 against PGE and Tillamook Creamery subsidiary.",
+    "last_updated": "2026-03-28",
     "issue_category": [
       "environmental",
       "farmland",
@@ -33506,7 +33506,7 @@
     "lng": -86.9544,
     "action_type": "lawsuit",
     "date": "2025-04-14",
-    "status": "ongoing",
+    "status": "approved",
     "company": "Logistics Land Investments",
     "project_name": "Project Marvel (expansion)",
     "investment_million_usd": 14500,
@@ -33529,7 +33529,7 @@
       "noise",
       "environment"
     ],
-    "summary": "After Bessemer City Council approved rezoning 700 acres from agricultural to industrial in Nov 2025, the Planning & Zoning Commission recommended rezoning an additional 914 acres. Residents filed a lawsuit challenging the original rezoning as arbitrary spot zoning. A final hearing is scheduled for March 19, 2026. The project would be one of the largest data centers in the world at 4.5 million sq ft across 18 buildings.",
+    "summary": "Bessemer City Council approved rezoning of 914+ acres from Agricultural to Light Industrial for a $14.5B hyperscale data center on November 18, 2025. Community members filed a lawsuit alleging inadequate public notice and 'arbitrary and capricious spot zoning.' Judge David Hobdy temporarily enjoined the city in August 2025, but the council proceeded with approval. The proposed campus expanded to 1,600 acres in updated plans (February 2026). ALDOT warned of conflicts with Northern Beltline highway plans. The case had a final hearing scheduled March 19, 2026.",
     "sources": [
       "https://insideclimatenews.org/news/11052025/bessemer-alabama-proposed-data-center/",
       "https://abc3340.com/news/abc-3340-news-iteam/bessemer-rezoning-fight-continues-over-proposed-data-center-court-hearing-complaint-motion-to-dismiss-response-legal-ruling-complaint-amendment-dispute-follow-up",
@@ -33537,7 +33537,7 @@
       "https://insideclimatenews.org/news/14012026/bessemer-alabama-data-center-to-ask-for-additional-900-acres/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -33547,7 +33547,7 @@
     ],
     "authority_level": "court",
     "objective": "Challenge Logistics Land Investments rezoning in Bessemer in court",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "forsyth-ga-2026-02-03",
@@ -34076,7 +34076,7 @@
     "lng": -77.4083,
     "action_type": "community_opposition",
     "date": "2025-06-01",
-    "status": "ongoing",
+    "status": "enacted",
     "company": "Vantage Data Centers / Stack Infrastructure",
     "project_name": null,
     "building_sq_ft": 7000000,
@@ -34089,14 +34089,14 @@
       "process_fairness",
       "noise"
     ],
-    "summary": "Stafford County has three data center projects under construction totaling over 7 million sq ft. The nonprofit Protect Stafford formed after the county received a large number of applications to rezone residential/agricultural land to industrial uses. The group's president warns Stafford could become the next Data Center Alley, saying officials were unprepared for the volume of applications.",
+    "summary": "Protect Stafford, led by Erin Sanzero, achieved major zoning victories in 2025. After an initial setback in March (4-3 vote against conditional-use permit requirements), the Board of Supervisors adopted comprehensive data center regulations on October 21, 2025, including a 750-foot setback from residential property lines \u2014 the largest in Virginia, a 650-foot increase over the previous 100-foot setback. The board also adopted updated Comprehensive Plan guidelines. However, five pre-existing data center projects were grandfathered in December 2025, including Vantage's $2B VA4 campus.",
     "sources": [
       "https://virginiabusiness.com/stafford-data-center-growth-i95-2025/",
       "https://www.fredericksburgfreepress.com/2025/10/22/a-home-run-for-data-center-critics-stafford-supervisors-adopt-750-foot-setback/",
       "https://www.potomaclocal.com/2025/05/21/stafford-residents-push-back-on-data-centers-county-promises-stricter-rules/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -34106,7 +34106,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Organize coalition against data center in Stafford County",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "investment_million_usd": 2200
   },
   {
@@ -34313,7 +34313,7 @@
       "Columbia Riverkeeper",
       "Sierra Club"
     ],
-    "summary": "Gov. Ferguson signed executive order forming workgroup to evaluate data centers' impact on energy, taxes, and jobs. Preliminary report delivered Dec 2025. ProPublica investigation found Washington gives data centers some of the state's largest corporate tax breaks while they threaten clean energy goals.",
+    "summary": "Governor Ferguson issued Executive Order 25-05 on February 3, 2025 creating the Data Center Workgroup. The 33-member group held its first meeting May 9, 2025 and delivered a preliminary report December 1, 2025 with 31 findings and 8 recommendations. The workgroup found that access to clean/affordable energy, tax incentives, and efficient permitting drive WA data center growth. The final report is pending completion of tribal consultation. The Washington legislature deferred comprehensive data center legislation to the next session based on workgroup progress.",
     "sources": [
       "https://www.propublica.org/article/data-centers-clean-energy-washington-state",
       "https://governor.wa.gov/news/2025/governor-bob-ferguson-signs-executive-order-establishing-data-center-workgroup",
@@ -34322,7 +34322,7 @@
     "scope": "statewide",
     "county_lean": null,
     "data_source": "agent_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "issue_category": [
       "environmental",
       "grid_energy",
@@ -38783,7 +38783,7 @@
     "megawatts": null,
     "acreage": 100,
     "water_usage_gallons_per_day": null,
-    "summary": "Two major data center projects are proposed in Floyd County. Atlas Development purchased 100 acres of the former Battey Complex (NW Georgia Regional Hospital site) from the Rome-Floyd Development Authority for $5.7M, planning a 2.395M sq ft, 7-building campus with rezoning to heavy industrial approved by Floyd County Commission on May 27, 2025 (over a 4-3 planning commission recommendation). Microsoft separately purchased 347 acres on Huffaker Road in 2023 for $1B. The 'Oppose Atlas Data Center Battey' group gathered 440+ Change.org signatures and filed Open Meetings Act complaints with the GA Attorney General. The Floyd County Libertarians also condemned the commission's decision. Concerns include noise, rising power rates, use of taxpayer-purchased land, and lack of permanent jobs.",
+    "summary": "Atlas Development filed plans for a 2.4M sq ft data center campus near Rome, the fifth major project it proposed in Georgia in 2025. The Rome-Floyd County Development Authority approved selling the Battey Business Complex to Atlas for $50,000/acre ($5.7M total). 'Oppose Atlas Data Center Battey' gathered 440+ petition signatures on Change.org demanding the sale be voided, alleging violations of open meetings law due to NDA requirements and lack of public notice. The petition calls on Rome Commissioners to nullify all Development Authority actions.",
     "sources": [
       "https://www.northwestgeorgianews.com/rome/news/local/group-opposing-rome-data-center-gathers-signatures-for-petition/article_e2ebac25-d140-4c55-94e6-5f1f8bbdd624.html",
       "https://www.datacenterdynamics.com/en/news/atlas-plans-24-million-sq-ft-data-center-campus-outside-rome-georgia/",
@@ -38801,7 +38801,7 @@
     "petition_url": "https://www.change.org/p/we-say-no-to-atlas-development-s-data-center-battey-complex",
     "petition_signatures": 1950,
     "data_source": "crdcd_map",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-28",
     "county_lean": "R",
     "issue_category": [
       "farmland",

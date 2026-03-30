@@ -1161,7 +1161,10 @@
     "opposition_instagram_followers": null,
     "county_lean": "R",
     "issue_category": [
-      "noise"
+      "noise",
+      "grid_energy",
+      "water",
+      "community_impact"
     ],
     "authority_level": "planning_commission",
     "objective": "Ban commercial crypto mining in Gilmer County",
@@ -1308,7 +1311,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers and crypto mining in Oliver County after Applied Digital proposal",
@@ -2109,7 +2113,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "water"
+      "environmental"
     ],
     "authority_level": "county_commission",
     "objective": "Propose battery energy storage systems moratorium in Nassau County",
@@ -2831,7 +2835,8 @@
     "county": "Chippewa County",
     "county_lean": "R",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "zoning"
     ],
     "authority_level": "township_board",
     "objective": "Impose 1-year data centers moratorium in Clark Township",
@@ -3351,7 +3356,9 @@
     "county_lean": "R",
     "energy_mw": 30,
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact",
+      "transparency"
     ],
     "authority_level": "city_council",
     "objective": "Ban data centers in designated zones in Town of Warrenton",
@@ -3607,7 +3614,8 @@
     "county_lean": "R",
     "energy_mw": 198,
     "issue_category": [
-      "zoning"
+      "zoning",
+      "grid_energy"
     ],
     "authority_level": "city_council",
     "objective": "Require use permit for CyrusOne data center in Mesa",
@@ -4757,7 +4765,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "grid_energy"
+      "grid_energy",
+      "community_impact"
     ],
     "authority_level": "city_council",
     "objective": "Petition to block NorthPoint Development data center in Wilsonville",
@@ -7979,7 +7988,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "tax_incentive"
+      "tax_incentive",
+      "community_impact"
     ],
     "authority_level": "village_board",
     "objective": "Petition to block Microsoft data center in Village of Caledonia",
@@ -38642,7 +38652,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact"
     ]
   },
   {
@@ -38679,7 +38690,9 @@
     "data_source": "dcw",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "transparency",
+      "water",
+      "grid_energy"
     ]
   },
   {
@@ -38723,7 +38736,8 @@
     "data_source": "dcw",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact"
     ]
   },
   {
@@ -38765,7 +38779,9 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "environmental"
     ]
   },
   {
@@ -38805,7 +38821,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact"
     ]
   },
   {
@@ -38845,7 +38862,8 @@
     "data_source": "dcw",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact"
     ]
   },
   {
@@ -38889,7 +38907,9 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "community_impact"
     ]
   },
   {
@@ -38935,7 +38955,11 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "environmental",
+      "noise",
+      "farmland"
     ]
   },
   {
@@ -38982,7 +39006,10 @@
     "data_source": "web_research",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "farmland",
+      "community_impact",
+      "tax_incentive"
     ]
   },
   {
@@ -39021,7 +39048,9 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "noise",
+      "environmental"
     ]
   },
   {
@@ -39065,7 +39094,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "transparency",
+      "community_impact"
     ]
   },
   {
@@ -39110,7 +39140,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "environmental"
     ]
   },
   {
@@ -39147,7 +39178,10 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "ratepayer",
+      "community_impact"
     ]
   },
   {
@@ -39186,7 +39220,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "transparency"
     ]
   },
   {
@@ -39231,7 +39266,9 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "environmental",
+      "grid_energy"
     ]
   },
   {
@@ -39278,7 +39315,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "environmental"
     ]
   },
   {
@@ -39320,7 +39358,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "ratepayer"
     ]
   },
   {
@@ -39366,7 +39405,8 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact"
     ]
   },
   {
@@ -39415,7 +39455,10 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "environmental",
+      "transparency",
+      "water"
     ]
   },
   {
@@ -39459,7 +39502,9 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "transparency",
+      "water"
     ]
   },
   {
@@ -39496,6 +39541,7 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
+      "grid_energy",
       "zoning"
     ]
   },
@@ -39627,7 +39673,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact",
+      "grid_energy"
     ],
     "authority_level": "municipal",
     "objective": "block_project",
@@ -39676,7 +39724,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "ratepayer",
+      "community_impact"
     ],
     "authority_level": "municipal",
     "objective": "moratorium",
@@ -39724,7 +39774,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "noise",
+      "grid_energy"
     ],
     "authority_level": "municipal",
     "objective": "block_project",
@@ -39774,7 +39826,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "environmental",
+      "community_impact"
     ],
     "authority_level": "municipal",
     "objective": "block_project",
@@ -39824,7 +39878,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "community_impact",
+      "grid_energy"
     ],
     "authority_level": "municipal",
     "objective": "block_project",
@@ -39873,7 +39929,10 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "community_impact",
+      "tax_incentive"
     ],
     "authority_level": "municipal",
     "objective": "block_project",
@@ -39923,7 +39982,11 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "noise",
+      "transparency",
+      "community_impact"
     ],
     "authority_level": "county",
     "objective": "block_project",
@@ -39976,7 +40039,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "tax_incentive",
+      "community_impact"
     ],
     "authority_level": "county",
     "objective": "block_project",
@@ -40130,7 +40195,11 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "water",
+      "ratepayer",
+      "noise",
+      "community_impact"
     ],
     "authority_level": "municipal",
     "objective": "block_project",
@@ -40179,7 +40248,10 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "farmland",
+      "transparency",
+      "ratepayer"
     ],
     "authority_level": "county",
     "objective": "block_project",
@@ -40230,7 +40302,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning"
+      "ratepayer",
+      "grid_energy",
+      "environmental"
     ],
     "authority_level": "state",
     "objective": "regulate",

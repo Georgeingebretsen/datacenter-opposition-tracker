@@ -13,7 +13,7 @@ const ACTION_LABELS = {
   legislation: 'Legislation',
   ordinance: 'Ordinance',
   zoning_restriction: 'Zoning Restriction',
-  community_opposition: 'Community Opposition',
+  other_opposition: 'Other Opposition',
   community_benefit_agreement: 'Community Benefit Agreement',
   lawsuit: 'Lawsuit',
   petition: 'Petition',

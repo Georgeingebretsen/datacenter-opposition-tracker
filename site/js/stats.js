@@ -599,7 +599,7 @@ function renderIssueCategoryChart(fights) {
     noise: 'Noise', transparency: 'Transparency', permitting: 'Permitting',
     ratepayer: 'Ratepayer', tax_incentive: 'Tax / Incentive', farmland: 'Farmland',
     traffic: 'Traffic', design_standards: 'Design Standards',
-    contract_guarantees: 'Contract Guarantees',
+    contract_guarantees: 'Contract Guarantees', anti_ai: 'Anti-AI',
   };
 
   const counts = {};

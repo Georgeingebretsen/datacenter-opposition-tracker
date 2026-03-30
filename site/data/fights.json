@@ -10396,7 +10396,7 @@
       "farmland",
       "transparency"
     ],
-    "authority_level": "city_council",
+    "authority_level": "township_board",
     "objective": "Force Cloverleaf Infrastructure to scrap data center plans in Carlton after public opposition",
     "community_outcome": "win"
   },
@@ -10514,7 +10514,7 @@
       "farmland",
       "grid_energy"
     ],
-    "authority_level": "city_council",
+    "authority_level": "county_commission",
     "objective": "Petition to block Infrakey data center in McLennan County",
     "community_outcome": "pending"
   },
@@ -12169,7 +12169,7 @@
     "issue_category": [
       "zoning"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Impose 180-day data centers moratorium in South Bloomfield",
     "community_outcome": "pending"
   },
@@ -12213,7 +12213,7 @@
     "issue_category": [
       "ratepayer"
     ],
-    "authority_level": "state_legislature",
+    "authority_level": "utility_commission",
     "objective": "Shield residential ratepayers from data center costs in LA",
     "community_outcome": "loss"
   },
@@ -15970,7 +15970,7 @@
       "transparency",
       "water"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Ban data center development NDAs via SB 135",
     "community_outcome": "win",
     "sponsors": [
@@ -17467,7 +17467,7 @@
     "issue_category": [
       "grid_energy"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Deny EdgeConneX 1800MW data center permit in Ashville",
     "community_outcome": "win"
   },
@@ -18383,7 +18383,7 @@
       "ratepayer",
       "water"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Enact statewide data center moratorium in NY",
     "community_outcome": "pending",
     "sponsors": [
@@ -18455,7 +18455,7 @@
       "water",
       "zoning"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Ban data center development NDAs via SB 4016",
     "community_outcome": "pending",
     "sponsors": [
@@ -20548,7 +20548,7 @@
     "issue_category": [
       "water"
     ],
-    "authority_level": "city_council",
+    "authority_level": "county_commission",
     "objective": "Propose data centers moratorium after CloudBurst Data Centers proposal",
     "community_outcome": "loss"
   },
@@ -22553,7 +22553,7 @@
       "grid_energy",
       "water"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Require closed-loop cooling for data centers in MO",
     "community_outcome": "pending",
     "sponsors": [
@@ -38837,7 +38837,8 @@
     "last_updated": "2026-03-06",
     "issue_category": [
       "zoning"
-    ]
+    ],
+    "authority_level": "court"
   },
   {
     "id": "goodyear-buckeye-az-2024-05-01",
@@ -38884,7 +38885,8 @@
     "issue_category": [
       "zoning",
       "community_impact"
-    ]
+    ],
+    "authority_level": "developer"
   },
   {
     "id": "new-jersey-statewide-nj-2025-09-01",
@@ -38923,7 +38925,8 @@
       "transparency",
       "water",
       "grid_energy"
-    ]
+    ],
+    "authority_level": "governor"
   },
   {
     "id": "franklin-township-in-2025-09-22",
@@ -38970,7 +38973,8 @@
     "issue_category": [
       "zoning",
       "community_impact"
-    ]
+    ],
+    "authority_level": "developer"
   },
   {
     "id": "st-charles-mo-2025-11-01",
@@ -39016,7 +39020,8 @@
       "zoning",
       "water",
       "environmental"
-    ]
+    ],
+    "authority_level": "city_council"
   },
   {
     "id": "crown-point-northwest-indiana-in-2025-11-01",
@@ -39057,7 +39062,8 @@
     "issue_category": [
       "zoning",
       "community_impact"
-    ]
+    ],
+    "authority_level": "advocacy_org"
   },
   {
     "id": "plymouth-township-pa-2025-11-17",
@@ -39098,7 +39104,8 @@
     "issue_category": [
       "zoning",
       "community_impact"
-    ]
+    ],
+    "authority_level": "developer"
   },
   {
     "id": "muhlenberg-township-oh-2025-12-01",
@@ -39144,7 +39151,8 @@
       "zoning",
       "water",
       "community_impact"
-    ]
+    ],
+    "authority_level": "township_board"
   },
   {
     "id": "lacy-lakeview-tx-2025-12-03",
@@ -39197,7 +39205,8 @@
       "noise",
       "farmland"
     ],
-    "county_lean": "R"
+    "county_lean": "R",
+    "authority_level": "city_council"
   },
   {
     "id": "lacy-lakeview-waco-area-tx-2025-12-03",
@@ -39249,7 +39258,8 @@
       "farmland",
       "community_impact",
       "tax_incentive"
-    ]
+    ],
+    "authority_level": "city_council"
   },
   {
     "id": "lowell-ma-2026-01-16",
@@ -39290,7 +39300,8 @@
       "zoning",
       "noise",
       "environmental"
-    ]
+    ],
+    "authority_level": "city_council"
   },
   {
     "id": "marion-county-project-liberty-sc-2026-01-22",
@@ -39338,7 +39349,8 @@
       "transparency",
       "community_impact"
     ],
-    "county_lean": "D"
+    "county_lean": "D",
+    "authority_level": "county_commission"
   },
   {
     "id": "franklin-ky-2026-01-28",
@@ -39385,7 +39397,8 @@
       "zoning",
       "environmental"
     ],
-    "county_lean": "R"
+    "county_lean": "R",
+    "authority_level": "court"
   },
   {
     "id": "oklahoma-statewide-ok-2026-02-01",
@@ -39425,7 +39438,8 @@
       "water",
       "ratepayer",
       "community_impact"
-    ]
+    ],
+    "authority_level": "state_legislature"
   },
   {
     "id": "south-dakota-statewide-sd-2026-02-01",
@@ -39465,7 +39479,8 @@
     "issue_category": [
       "zoning",
       "transparency"
-    ]
+    ],
+    "authority_level": "state_legislature"
   },
   {
     "id": "delaware-city-de-2026-02-04",
@@ -39513,7 +39528,8 @@
       "environmental",
       "grid_energy"
     ],
-    "county_lean": "D"
+    "county_lean": "D",
+    "authority_level": "governor"
   },
   {
     "id": "new-york-statewide-moratorium-bill-ny-2026-02-06",
@@ -39561,7 +39577,8 @@
     "issue_category": [
       "zoning",
       "environmental"
-    ]
+    ],
+    "authority_level": "state_legislature"
   },
   {
     "id": "south-dakota-moratorium-bill-sb-232-sd-2026-02-19",
@@ -39604,7 +39621,8 @@
     "issue_category": [
       "zoning",
       "ratepayer"
-    ]
+    ],
+    "authority_level": "state_legislature"
   },
   {
     "id": "denver-citywide-moratorium-co-2026-02-23",
@@ -39652,7 +39670,8 @@
       "zoning",
       "community_impact"
     ],
-    "county_lean": "D"
+    "county_lean": "D",
+    "authority_level": "city_council"
   },
   {
     "id": "denver-elyria-swansea-co-2026-02-25",
@@ -39704,7 +39723,8 @@
       "environmental",
       "transparency",
       "water"
-    ]
+    ],
+    "authority_level": "advocacy_org"
   },
   {
     "id": "columbia-county-lawsuit-ga-2026-02-25",
@@ -39751,7 +39771,8 @@
       "transparency",
       "water"
     ],
-    "county_lean": "R"
+    "county_lean": "R",
+    "authority_level": "court"
   },
   {
     "id": "connecticut-federal-ct-2026-02-26",
@@ -39789,7 +39810,8 @@
     "issue_category": [
       "grid_energy",
       "zoning"
-    ]
+    ],
+    "authority_level": "federal_legislature"
   },
   {
     "id": "michigan-statewide-moratorium-bills-mi-2026-02-26",
@@ -39833,7 +39855,8 @@
     "last_updated": "2026-03-06",
     "issue_category": [
       "zoning"
-    ]
+    ],
+    "authority_level": "state_legislature"
   },
   {
     "id": "henrico-county-varina-va-2026-02-27",
@@ -39876,7 +39899,8 @@
     "last_updated": "2026-03-06",
     "issue_category": [
       "zoning"
-    ]
+    ],
+    "authority_level": "planning_commission"
   },
   {
     "id": "apex-nc-2026-03-05",
@@ -39923,7 +39947,7 @@
       "community_impact",
       "grid_energy"
     ],
-    "authority_level": "municipal",
+    "authority_level": "developer",
     "objective": "block_project",
     "community_outcome": "victory",
     "sponsors": null,
@@ -39974,7 +39998,7 @@
       "ratepayer",
       "community_impact"
     ],
-    "authority_level": "municipal",
+    "authority_level": "city_council",
     "objective": "moratorium",
     "community_outcome": "pending",
     "sponsors": "Council President Zeke Cohen",
@@ -40027,7 +40051,7 @@
       "noise",
       "grid_energy"
     ],
-    "authority_level": "municipal",
+    "authority_level": "planning_commission",
     "objective": "block_project",
     "community_outcome": "victory",
     "sponsors": null,
@@ -40079,7 +40103,7 @@
       "environmental",
       "community_impact"
     ],
-    "authority_level": "municipal",
+    "authority_level": "developer",
     "objective": "block_project",
     "community_outcome": "victory",
     "sponsors": null,
@@ -40131,7 +40155,7 @@
       "community_impact",
       "grid_energy"
     ],
-    "authority_level": "municipal",
+    "authority_level": "city_council",
     "objective": "block_project",
     "community_outcome": "defeat",
     "sponsors": null,
@@ -40185,7 +40209,7 @@
       "community_impact",
       "tax_incentive"
     ],
-    "authority_level": "municipal",
+    "authority_level": "city_council",
     "objective": "block_project",
     "community_outcome": "defeat",
     "sponsors": null,
@@ -40239,7 +40263,7 @@
       "transparency",
       "community_impact"
     ],
-    "authority_level": "county",
+    "authority_level": "county_commission",
     "objective": "block_project",
     "community_outcome": "pending",
     "sponsors": null,
@@ -40299,7 +40323,7 @@
       "tax_incentive",
       "community_impact"
     ],
-    "authority_level": "county",
+    "authority_level": "city_council",
     "objective": "block_project",
     "community_outcome": "pending",
     "sponsors": null,
@@ -40351,7 +40375,7 @@
     "issue_category": [
       "zoning"
     ],
-    "authority_level": "state",
+    "authority_level": "voters",
     "objective": "full_ban",
     "community_outcome": "pending",
     "sponsors": "Ohioans for Responsible Development",
@@ -40401,7 +40425,7 @@
     "issue_category": [
       "zoning"
     ],
-    "authority_level": "township",
+    "authority_level": "township_board",
     "objective": "moratorium",
     "community_outcome": "victory",
     "sponsors": null,
@@ -40460,7 +40484,7 @@
       "noise",
       "community_impact"
     ],
-    "authority_level": "municipal",
+    "authority_level": "city_council",
     "objective": "block_project",
     "community_outcome": "pending",
     "sponsors": null,
@@ -40514,7 +40538,7 @@
       "transparency",
       "ratepayer"
     ],
-    "authority_level": "county",
+    "authority_level": "county_commission",
     "objective": "block_project",
     "community_outcome": "pending",
     "sponsors": null,
@@ -40567,7 +40591,7 @@
       "grid_energy",
       "environmental"
     ],
-    "authority_level": "state",
+    "authority_level": "state_legislature",
     "objective": "regulate",
     "community_outcome": "pending",
     "sponsors": "PA House Democrats",
@@ -40614,7 +40638,7 @@
     "issue_category": [
       "zoning"
     ],
-    "authority_level": "county",
+    "authority_level": "county_commission",
     "objective": "regulate",
     "community_outcome": "pending",
     "sponsors": null,

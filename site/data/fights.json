@@ -4624,7 +4624,7 @@
     "megawatts": 600,
     "acreage": 290,
     "building_sq_ft": 2000000,
-    "water_usage_gallons_per_day": null,
+    "water_usage_gallons_per_day": 1784000,
     "jobs_promised": null,
     "opposition_groups": [
       "No Desert Data Center",
@@ -32669,7 +32669,8 @@
     ],
     "opposition_website": null,
     "opposition_facebook": null,
-    "petition_url": "https://www.change.org/p/halt-approval-of-water-hungry-data-centers-in-buckeye"
+    "petition_url": "https://www.change.org/p/halt-approval-of-water-hungry-data-centers-in-buckeye",
+    "water_usage_gallons_per_day": 1784000
   },
   {
     "id": "reno-oppidan-nv-2025-01",
@@ -38952,7 +38953,8 @@
       "community_impact",
       "zoning"
     ],
-    "authority_level": "county_commission"
+    "authority_level": "county_commission",
+    "objective": "Pause data center and crypto mining construction in Washington County, TN pending impact study"
   },
   {
     "id": "prince-william-county-va-2024-01-12",
@@ -39001,7 +39003,9 @@
     "issue_category": [
       "zoning"
     ],
-    "authority_level": "court"
+    "authority_level": "court",
+    "objective": "Overturn rezoning of 2,133 acres for Prince William Digital Gateway near Manassas Battlefield",
+    "community_outcome": "pending"
   },
   {
     "id": "goodyear-buckeye-az-2024-05-01",
@@ -39049,7 +39053,9 @@
       "zoning",
       "community_impact"
     ],
-    "authority_level": "developer"
+    "authority_level": "developer",
+    "objective": "Block Tract's $14B 'Project Range' data center campus near Goodyear and Buckeye, AZ",
+    "community_outcome": "win_withdrawal"
   },
   {
     "id": "new-jersey-statewide-nj-2025-09-01",
@@ -39089,7 +39095,9 @@
       "water",
       "grid_energy"
     ],
-    "authority_level": "governor"
+    "authority_level": "governor",
+    "objective": "Require quarterly public disclosure of data center water and electricity consumption in New Jersey",
+    "community_outcome": "pending"
   },
   {
     "id": "franklin-township-in-2025-09-22",
@@ -39137,7 +39145,9 @@
       "zoning",
       "community_impact"
     ],
-    "authority_level": "developer"
+    "authority_level": "developer",
+    "objective": "Block Google's 468-acre 'Project Flo' data center in Franklin Township, IN",
+    "community_outcome": "win_withdrawal"
   },
   {
     "id": "st-charles-mo-2025-11-01",
@@ -39184,7 +39194,9 @@
       "water",
       "environmental"
     ],
-    "authority_level": "city_council"
+    "authority_level": "city_council",
+    "objective": "Ban data centers for one year in St. Charles to protect wellhead drinking water zone",
+    "community_outcome": "pending"
   },
   {
     "id": "crown-point-northwest-indiana-in-2025-11-01",
@@ -39228,7 +39240,9 @@
       "zoning",
       "community_impact"
     ],
-    "authority_level": "advocacy_org"
+    "authority_level": "advocacy_org",
+    "objective": "Oppose cumulative data center buildout across Northwest Indiana communities",
+    "community_outcome": "pending"
   },
   {
     "id": "plymouth-township-pa-2025-11-17",
@@ -39270,7 +39284,9 @@
       "zoning",
       "community_impact"
     ],
-    "authority_level": "developer"
+    "authority_level": "developer",
+    "objective": "Block conversion of Cleveland-Cliffs steel mill into 2M sq ft AI data center in Plymouth Township",
+    "community_outcome": "win_withdrawal"
   },
   {
     "id": "muhlenberg-township-oh-2025-12-01",
@@ -39319,7 +39335,9 @@
       "water",
       "community_impact"
     ],
-    "authority_level": "township_board"
+    "authority_level": "township_board",
+    "objective": "Impose 12-month data center moratorium in Muhlenberg Township to protect wells and schools",
+    "community_outcome": "win"
   },
   {
     "id": "lacy-lakeview-tx-2025-12-03",
@@ -39373,7 +39391,9 @@
       "farmland"
     ],
     "county_lean": "R",
-    "authority_level": "city_council"
+    "authority_level": "city_council",
+    "objective": "Stop Infrakey's $10B data center on 520 acres of farmland near Lacy Lakeview, TX",
+    "community_outcome": "pending"
   },
   {
     "id": "lacy-lakeview-waco-area-tx-2025-12-03",
@@ -39426,7 +39446,9 @@
       "community_impact",
       "tax_incentive"
     ],
-    "authority_level": "city_council"
+    "authority_level": "city_council",
+    "objective": "Stop Infrakey's $10B data center and block Lacy Lakeview annexation of 520-acre site near Waco",
+    "community_outcome": "pending"
   },
   {
     "id": "lowell-ma-2026-01-16",
@@ -39468,7 +39490,9 @@
       "noise",
       "environmental"
     ],
-    "authority_level": "city_council"
+    "authority_level": "city_council",
+    "objective": "Impose one-year moratorium on data center construction and expansion in Lowell, MA",
+    "community_outcome": "win"
   },
   {
     "id": "marion-county-project-liberty-sc-2026-01-22",
@@ -39517,7 +39541,9 @@
       "community_impact"
     ],
     "county_lean": "D",
-    "authority_level": "county_commission"
+    "authority_level": "county_commission",
+    "objective": "Demand transparency on secretly approved $2.4B 'Project Liberty' data center in Marion County, SC",
+    "community_outcome": "pending"
   },
   {
     "id": "franklin-ky-2026-01-28",
@@ -39565,7 +39591,9 @@
       "environmental"
     ],
     "county_lean": "R",
-    "authority_level": "court"
+    "authority_level": "court",
+    "objective": "Reject TenKey LandCo's data center rezoning and defend zoning ordinance in Franklin, KY",
+    "community_outcome": "pending"
   },
   {
     "id": "oklahoma-statewide-ok-2026-02-01",
@@ -39606,7 +39634,9 @@
       "ratepayer",
       "community_impact"
     ],
-    "authority_level": "state_legislature"
+    "authority_level": "state_legislature",
+    "objective": "Establish statewide data center moratorium in Oklahoma until November 2029 pending impact study",
+    "community_outcome": "pending"
   },
   {
     "id": "south-dakota-statewide-sd-2026-02-01",
@@ -39647,7 +39677,9 @@
       "zoning",
       "transparency"
     ],
-    "authority_level": "state_legislature"
+    "authority_level": "state_legislature",
+    "objective": "Impose one-year moratorium on hyperscale data centers in South Dakota via SB 232",
+    "community_outcome": "loss"
   },
   {
     "id": "delaware-city-de-2026-02-04",
@@ -39696,7 +39728,9 @@
       "grid_energy"
     ],
     "county_lean": "D",
-    "authority_level": "governor"
+    "authority_level": "governor",
+    "objective": "Deny Starwood's 6M sq ft data center near Delaware City under Coastal Zone Act",
+    "community_outcome": "pending"
   },
   {
     "id": "new-york-statewide-moratorium-bill-ny-2026-02-06",
@@ -39746,7 +39780,8 @@
       "environmental"
     ],
     "authority_level": "state_legislature",
-    "objective": "Enact three-year statewide data center permitting moratorium via S.9144 in New York"
+    "objective": "Enact three-year statewide data center permitting moratorium via S.9144 in New York",
+    "community_outcome": "pending"
   },
   {
     "id": "south-dakota-moratorium-bill-sb-232-sd-2026-02-19",
@@ -39791,7 +39826,8 @@
       "ratepayer"
     ],
     "authority_level": "state_legislature",
-    "objective": "Enact statewide data center moratorium via SB 232 in South Dakota (defeated 10-2)"
+    "objective": "Enact statewide data center moratorium via SB 232 in South Dakota (defeated 10-2)",
+    "community_outcome": "loss"
   },
   {
     "id": "denver-citywide-moratorium-co-2026-02-23",
@@ -39841,7 +39877,8 @@
     ],
     "county_lean": "D",
     "authority_level": "city_council",
-    "objective": "Impose one-year citywide moratorium on new data center construction in Denver"
+    "objective": "Impose one-year citywide moratorium on new data center construction in Denver",
+    "community_outcome": "pending"
   },
   {
     "id": "denver-elyria-swansea-co-2026-02-25",
@@ -39895,7 +39932,8 @@
       "water"
     ],
     "authority_level": "advocacy_org",
-    "objective": "Deliver 'Good Neighbor Proposal' demanding transparency from CoreSite's DE3 expansion in Elyria-Swansea, Denver"
+    "objective": "Deliver 'Good Neighbor Proposal' demanding transparency from CoreSite's DE3 expansion in Elyria-Swansea, Denver",
+    "community_outcome": "pending"
   },
   {
     "id": "columbia-county-lawsuit-ga-2026-02-25",
@@ -39946,7 +39984,8 @@
     ],
     "county_lean": "R",
     "authority_level": "court",
-    "objective": "Challenge Columbia County data center rezonings for White Oak Business Park and Pumpkin Center via judicial review"
+    "objective": "Challenge Columbia County data center rezonings for White Oak Business Park and Pumpkin Center via judicial review",
+    "community_outcome": "pending"
   },
   {
     "id": "connecticut-federal-ct-2026-02-26",
@@ -39986,7 +40025,8 @@
       "zoning"
     ],
     "authority_level": "federal_legislature",
-    "objective": "Require off-grid power for data centers via Sen. Blumenthal's bipartisan GRID Act with $1M/day fines"
+    "objective": "Require off-grid power for data centers via Sen. Blumenthal's bipartisan GRID Act with $1M/day fines",
+    "community_outcome": "pending"
   },
   {
     "id": "michigan-statewide-moratorium-bills-mi-2026-02-26",
@@ -40032,7 +40072,8 @@
       "zoning"
     ],
     "authority_level": "state_legislature",
-    "objective": "Halt new data center approvals in Michigan until April 2027 via three-bill Data Center Regulation Act"
+    "objective": "Halt new data center approvals in Michigan until April 2027 via three-bill Data Center Regulation Act",
+    "community_outcome": "pending"
   },
   {
     "id": "henrico-county-varina-va-2026-02-27",
@@ -40077,7 +40118,8 @@
       "zoning"
     ],
     "authority_level": "planning_commission",
-    "objective": "Deny Centra Logistics' 1M sq ft data center vested-rights appeal on Darbytown Road in Henrico"
+    "objective": "Deny Centra Logistics' 1M sq ft data center vested-rights appeal on Darbytown Road in Henrico",
+    "community_outcome": "win"
   },
   {
     "id": "apex-nc-2026-03-05",

@@ -13,6 +13,27 @@ const STATUS_TOOLTIPS = {
   pending: 'A decision is pending — awaiting vote or ruling',
 };
 
+const ACTION_TOOLTIPS = {
+  moratorium: 'A temporary ban or pause on data center development, usually 6-12 months, to allow time for study or policy development',
+  legislation: 'A bill introduced in a state legislature or Congress — distinct from local ordinances',
+  ordinance: 'A local law passed by a city council, county commission, or township board',
+  zoning_restriction: 'A change to local zoning codes — overlay districts, conditional use requirements, setbacks, or removing data centers from permitted uses',
+  community_benefit_agreement: 'A negotiated agreement between a developer and the community, including host fees, impact payments, or performance guarantees',
+  other_opposition: 'Organized community pushback that hasn\'t yet resulted in a specific formal government or legal action',
+  lawsuit: 'A legal challenge — land use appeals, CEQA suits, Clean Air Act actions, conservation easement disputes',
+  permit_denial: 'A government body denied a permit, rezoning application, or site plan',
+  project_withdrawal: 'The developer voluntarily withdrew or cancelled the project, usually due to community pressure',
+  infrastructure_opposition: 'Opposition to supporting infrastructure — transmission lines, substations, gas plants built to power data centers',
+  regulatory_action: 'A decision by a regulatory agency (utility commission, PUC, FERC) — not legislation, but administrative proceedings by appointed officials',
+  executive_action: 'An executive order or action by a governor or president',
+  study_or_report: 'A commissioned study, environmental review, or federal impact assessment',
+};
+
+function getActionTooltip(action) {
+  if (!action) return '';
+  return ACTION_TOOLTIPS[action] || action.replace(/_/g, ' ');
+}
+
 function capitalize(s) {
   return s ? s.charAt(0).toUpperCase() + s.slice(1).replace(/_/g, ' ') : '';
 }

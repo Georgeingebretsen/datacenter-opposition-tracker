@@ -789,7 +789,7 @@ function updateTable(filtered) {
         <td><strong>${f.jurisdiction}</strong></td>
         <td>${f.state}</td>
         <td>${f.county || ''}</td>
-        <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
+        <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span></td>
         <td class="issue-cell">${(f.issue_category || []).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ')}</td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
         <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${f.community_outcome === 'win' ? 'Won' : f.community_outcome === 'win_withdrawal' ? 'Withdrew' : f.community_outcome === 'loss' ? 'Lost' : f.community_outcome === 'partial' ? 'Partial' : f.community_outcome === 'expired' ? 'Expired' : 'Pending'}</span></td>
@@ -1032,7 +1032,7 @@ function openDetail(f) {
     <h2>${f.jurisdiction}, ${f.state}</h2>
     ${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
     <div class="detail-meta">
-      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span>
+      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span>
       &nbsp;&middot;&nbsp;
       <span class="status-badge status-${f.status}">${capitalize(f.status)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span>
       &nbsp;&middot;&nbsp;

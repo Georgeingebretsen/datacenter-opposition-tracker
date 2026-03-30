@@ -705,7 +705,7 @@
     "action_type": "moratorium",
     "date": "2024-06-10",
     "status": "active",
-    "company": null,
+    "company": "NextEra Energy / Clinton County Wind LLC",
     "hyperscaler": null,
     "project_name": null,
     "investment_million_usd": null,
@@ -3305,11 +3305,11 @@
     "action_type": "moratorium",
     "date": "2025-06-23",
     "status": "enacted",
-    "company": null,
+    "company": "Applied Digital",
     "hyperscaler": null,
     "project_name": null,
-    "investment_million_usd": null,
-    "megawatts": null,
+    "investment_million_usd": 1500,
+    "megawatts": 200,
     "acreage": null,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
@@ -16966,7 +16966,8 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Solon Township",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "company": "The Right Place (site broker)"
   },
   {
     "id": "dickerson-montgomery-county-md-2026-02-01",
@@ -22876,7 +22877,8 @@
     "community_outcome": "pending",
     "sponsors": [
       "Rep. Bill Hager (R-SC)"
-    ]
+    ],
+    "company": "TigerDC (Project Spero cited)"
   },
   {
     "id": "hall-county-ga-2026-02-26",
@@ -29693,8 +29695,8 @@
     "action_type": "moratorium",
     "date": "2026-03-11",
     "status": "enacted",
-    "company": null,
-    "hyperscaler": null,
+    "company": "Meta / Beale Infrastructure",
+    "hyperscaler": "Meta",
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -32960,7 +32962,7 @@
     "action_type": "community_opposition",
     "date": "2026-03-11",
     "status": "ongoing",
-    "company": null,
+    "company": "Hillwood / PowerHouse Data Centers",
     "concerns": [
       "electricity_rates",
       "air_quality",
@@ -33428,7 +33430,7 @@
     "action_type": "moratorium",
     "date": "2026-02-01",
     "status": "pending",
-    "company": null,
+    "company": "CRG (Clayco) / Spark Innovations",
     "concerns": [
       "water",
       "electricity_rates",
@@ -33455,7 +33457,9 @@
     "objective": "Convert St. Charles moratorium into permanent citywide ban",
     "community_outcome": "pending",
     "petition_url": "https://www.change.org/p/stop-the-hazardous-data-center-in-st-charles-protect-our-water-health-and-community",
-    "petition_signatures": 8024
+    "petition_signatures": 8024,
+    "hyperscaler": "Google",
+    "project_name": "Project Cumulus"
   },
   {
     "id": "lowell-ma-360-day-moratorium-2026-03-13",
@@ -33678,7 +33682,7 @@
     "action_type": "moratorium",
     "date": "2025-11-01",
     "status": "active",
-    "company": null,
+    "company": "SC Infrastructure / Technology Park Atlanta",
     "project_name": null,
     "opposition_groups": [
       "Sierra Club Georgia Chapter"
@@ -33702,7 +33706,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Pause data centers in Newton County pending regulations",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "hyperscaler": "Meta"
   },
   {
     "id": "griffin-ga-2026-01-13",
@@ -34243,7 +34248,7 @@
     "action_type": "zoning_restriction",
     "date": "2026-01-01",
     "status": "pending",
-    "company": null,
+    "company": "Beale Infrastructure",
     "hyperscaler": null,
     "opposition_groups": [
       "No Desert Data Center Coalition",
@@ -34264,7 +34269,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Require conditional use permits in Pima County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "project_name": "Project Blue"
   },
   {
     "id": "quincy-wa-data-center-hub-2025",
@@ -35385,7 +35391,7 @@
     "date": "2026-03-12",
     "status": "pending",
     "scope": "statewide",
-    "company": null,
+    "company": "Cambrin LLC / Vantage",
     "hyperscaler": null,
     "summary": "A bipartisan bill banning non-disclosure agreements between municipalities and data center developers cleared the Wisconsin Senate committee with bipartisan support. Authored by Sen. Andre Jacque, the bill reflects growing anger over secretive data center deals in communities like Beloit, Port Washington, and other Wisconsin towns where residents learned of massive projects only after NDAs prevented elected officials from discussing them publicly.",
     "sources": [
@@ -36127,7 +36133,9 @@
     ],
     "authority_level": "state_legislature",
     "objective": "1800-signature petition opposing data center in Brown County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "company": "DB STU LLC",
+    "acreage": 1018
   },
   {
     "id": "coal-city-il-2026-02-01",
@@ -36576,7 +36584,8 @@
     "opposition_groups": [
       "Hill Country Preservation Coalition"
     ],
-    "opposition_website": "https://www.preservethehillcountry.com/"
+    "opposition_website": "https://www.preservethehillcountry.com/",
+    "company": "AEP Texas / LCRA / Oncor"
   },
   {
     "id": "texas-srec-resolution-2026",
@@ -36796,7 +36805,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Block rezoning of 800 acres in Franklin County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "company": "Provident Data Centers / Beltline Energy"
   },
   {
     "id": "meade-county-ky-moratorium-2026-01",
@@ -37213,7 +37223,8 @@
       "Golden Triangle Resource Council",
       "Helena Interfaith Climate Advocates",
       "Honor the Earth"
-    ]
+    ],
+    "company": "Sabey DC / Atlas Power / Quantica / TAC Data Centers"
   },
   {
     "id": "utah-hb-76-water-disclosure-2026",
@@ -38374,7 +38385,7 @@
     "date": "2025-11-01",
     "status": "ongoing",
     "scope": "local",
-    "company": null,
+    "company": "Cornerstone Alliance (site marketer)",
     "hyperscaler": null,
     "investment_million_usd": 3000,
     "megawatts": null,
@@ -38599,7 +38610,7 @@
     "date": "2025-10-01",
     "status": "ongoing",
     "scope": "local",
-    "company": null,
+    "company": "Danberry National Ltd. (realtor)",
     "hyperscaler": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -39226,13 +39237,13 @@
     "action_type": "project_withdrawal",
     "date": "2025-11-17",
     "status": "resolved",
-    "company": null,
+    "company": "Brian O'Neill Properties",
     "hyperscaler": null,
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
-    "acreage": null,
-    "building_sq_ft": null,
+    "acreage": 66,
+    "building_sq_ft": 2000000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
@@ -39893,7 +39904,7 @@
     "action_type": "lawsuit",
     "date": "2026-02-25",
     "status": "ongoing",
-    "company": null,
+    "company": "Trammell Crow (CBRE) / Cloverleaf Infrastructure",
     "hyperscaler": null,
     "project_name": "White Oak Business Park / Pumpkin Center",
     "investment_million_usd": null,
@@ -40610,12 +40621,12 @@
     "action_type": "protest",
     "date": "2026-03-24",
     "status": "ongoing",
-    "company": null,
+    "company": "Habitat Partners / Atlas Development",
     "hyperscaler": null,
     "project_name": "Project Ruby",
     "investment_million_usd": 5000,
     "megawatts": 900,
-    "acreage": 900,
+    "acreage": 987,
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
@@ -41524,6 +41535,145 @@
     "authority_level": "voters",
     "objective": "Recall entire Sand Springs City Council over Google data center rezoning approval",
     "community_outcome": "pending",
+    "sponsors": null
+  },
+  {
+    "id": "pemberton-township-nj-2026-02-20",
+    "jurisdiction": "Pemberton Township",
+    "state": "NJ",
+    "county": "Burlington County",
+    "lat": 39.9712,
+    "lng": -74.6832,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-20",
+    "status": "enacted",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Pinelands Alliance"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Pemberton Township became the first municipality in New Jersey to outright ban data centers when it passed Ordinance 10-2026 on February 20, 2026, prohibiting the construction and operation of data centers throughout the township. Officials said they were motivated by the rapid warehouse development the town had already experienced and wanted to get ahead of potential data center proposals. The township is located in the New Jersey Pinelands, a federally protected ecological reserve. The ban has been cited as a model for other NJ communities; Green Township (Sussex County) and Phillipsburg (Warren County) are reportedly considering similar measures, and Monroe Township (Gloucester County) announced plans to remove data centers as a permitted use from its Hexa Redevelopment Plan.",
+    "sources": [
+      "https://pinelandsalliance.org/data-center-victories-local-actions-drive-regional-change/",
+      "https://snjtoday.com/sign-petition-ask-governor-for-moratorium-on-data-centers/",
+      "https://www.pemberton-twp.com/government/minutes_ordinances/ordinances.php"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-28",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "zoning",
+      "environmental",
+      "community_impact"
+    ],
+    "authority_level": "township_council",
+    "objective": "Ban data center construction and operation throughout Pemberton Township",
+    "community_outcome": "win",
+    "sponsors": null
+  },
+  {
+    "id": "huron-county-farmland-opposition-mi-2026-02",
+    "jurisdiction": "Huron County",
+    "state": "MI",
+    "county": "Huron County",
+    "lat": 43.8353,
+    "lng": -83.0475,
+    "action_type": "community_opposition",
+    "date": "2026-02-04",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "A grassroots coalition of farmers and rural residents in Huron County, Michigan organized against potential data center and renewable energy developments on prime agricultural land as county officials weighed zoning amendments. The group formed after residents spoke at county meetings opposing data centers, solar farms, wind turbines, and battery storage facilities. The Huron County Planning Commission made a zoning amendment recommendation on February 4, 2026, with the County Board of Commissioners scheduled to review on February 24. Opponents linked data center opposition to food security and generational land stewardship, a narrative resonating strongly in Michigan's agricultural Thumb region.",
+    "sources": [
+      "https://datacenterwatch.substack.com/p/briefing-02272026",
+      "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-28",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "farmland",
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Preserve agricultural farmland from data center and energy facility development in Huron County",
+    "community_outcome": "pending",
+    "sponsors": null
+  },
+  {
+    "id": "lawton-ok-zoning-ordinance-2026-02-24",
+    "jurisdiction": "Lawton",
+    "state": "OK",
+    "county": "Comanche County",
+    "lat": 34.6036,
+    "lng": -98.3959,
+    "action_type": "zoning_restriction",
+    "date": "2026-02-24",
+    "status": "enacted",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": 2,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Lawton City Council voted 5-3 on February 24, 2026 to approve a zoning ordinance amendment setting one of the most restrictive data center limits in the country: data centers with peak electrical demand of 2 megawatts or less are permitted by right in Industrial-1 (restricted manufacturing and warehouse) districts only, while anything larger requires City Council review and approval through two public hearings. The 2MW limit is the most restrictive threshold allowed under Oklahoma state statute. The ordinance applies only within Lawton city limits and does not extend to surrounding Comanche County. The vote came amid growing statewide concern about data center impacts on water, energy, and communities.",
+    "sources": [
+      "https://www.kswo.com/2026/02/25/divided-city-council-passes-data-center-zoning-ordinance/",
+      "https://www.lawtonok.gov/m/newsflash/home/detail/173",
+      "https://www.southwestledger.news/news/temporary-bans-data-centers-proposed-12-states-lawton-imposed-limits"
+    ],
+    "data_source": "web_research",
+    "last_updated": "2026-03-28",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "grid_energy",
+      "water"
+    ],
+    "authority_level": "city_council",
+    "objective": "Restrict data center development to 2MW by-right limit with council review for larger facilities",
+    "community_outcome": "win",
     "sponsors": null
   }
 ]

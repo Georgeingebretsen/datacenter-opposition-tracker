@@ -1257,7 +1257,11 @@ h1 {
 .outcome-badge-sm.outcome-expired { background: rgba(135,133,128,0.15); color: #878580; }
 
 /* Issue category tags (table view) */
-.issue-cell { max-width: 150px; }
+.issue-cell {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .issue-tag-sm {
   display: inline-block;
   padding: 0.1rem 0.35rem;

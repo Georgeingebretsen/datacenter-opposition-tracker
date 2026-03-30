@@ -594,10 +594,12 @@ function renderWinRateByTool(fights) {
 
 function renderIssueCategoryChart(fights) {
   const ISSUE_NAMES = {
-    zoning: 'Zoning', water: 'Water', environmental: 'Environmental',
+    zoning: 'Zoning / Land Use', water: 'Water', environmental: 'Environmental',
     community_impact: 'Community Impact', grid_energy: 'Grid / Energy',
-    noise: 'Noise', transparency: 'Transparency', ratepayer: 'Ratepayer',
-    tax_incentive: 'Tax / Incentive', farmland: 'Farmland', traffic: 'Traffic',
+    noise: 'Noise', transparency: 'Transparency', permitting: 'Permitting',
+    ratepayer: 'Ratepayer', tax_incentive: 'Tax / Incentive', farmland: 'Farmland',
+    traffic: 'Traffic', design_standards: 'Design Standards',
+    contract_guarantees: 'Contract Guarantees',
   };
 
   const counts = {};

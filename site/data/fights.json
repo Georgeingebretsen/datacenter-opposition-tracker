@@ -1382,7 +1382,8 @@
     "county_lean": null,
     "issue_category": [
       "transparency",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "state_legislature",
     "objective": "Require quarterly energy and water reports in Connecticut",
@@ -1545,7 +1546,8 @@
       "environmental",
       "grid_energy",
       "tax_incentive",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Oppose Lancium / Crusoe Energy data center over water in Abilene",
@@ -2705,7 +2707,8 @@
     "issue_category": [
       "grid_energy",
       "transparency",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Block Google rezoning of 760 acres in Little Rock",
@@ -2812,7 +2815,8 @@
     "water_gallons_per_day": 500000,
     "issue_category": [
       "environmental",
-      "farmland"
+      "farmland",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Rally against University of Michigan data center in Ypsilanti Township",
@@ -3635,7 +3639,8 @@
     "energy_mw": 49,
     "issue_category": [
       "environmental",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Ban data centers in designated zones in Gilroy",
@@ -3801,7 +3806,8 @@
     "issue_category": [
       "noise",
       "tax_incentive",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Rally against Quantica Infrastructure data center in Broadview",
@@ -4201,7 +4207,8 @@
     "issue_category": [
       "community_impact",
       "grid_energy",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Ban NDAs concealing Applied Digital development in Ellendale",
@@ -4267,7 +4274,8 @@
     "issue_category": [
       "community_impact",
       "environmental",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Sue xAI for unpermitted gas turbines in Memphis",
@@ -4435,7 +4443,8 @@
     "investment_usd": 15000000000,
     "issue_category": [
       "community_impact",
-      "tax_incentive"
+      "tax_incentive",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Recall officials who approved data center in Port Washington",
@@ -4596,7 +4605,8 @@
       "community_impact",
       "environmental",
       "grid_energy",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "utility_commission",
     "objective": "Oppose transmission lines for Meta data center",
@@ -5000,7 +5010,8 @@
     "county_lean": "D",
     "issue_category": [
       "environmental",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Challenge BorderPlex Digital Assets air quality permits in court",
@@ -7341,7 +7352,8 @@
     "investment_usd": 3000000000,
     "issue_category": [
       "transparency",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 180-day data centers moratorium in Lordstown (Bristolville 25 Developer)",
@@ -7390,7 +7402,8 @@
     "issue_category": [
       "community_impact",
       "noise",
-      "ratepayer"
+      "ratepayer",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "2000-signature petition opposing Ohio Industrial Realty Group data center",
@@ -7577,7 +7590,8 @@
       "environmental",
       "farmland",
       "grid_energy",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Sue over open meeting violations in OpenAI / Oracle approval",
@@ -7902,7 +7916,8 @@
     "issue_category": [
       "community_impact",
       "transparency",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "tribal_government",
     "objective": "Deny Undisclosed data center on 5500 acres in Muscogee",
@@ -8148,7 +8163,8 @@
     "investment_usd": 1500000000,
     "issue_category": [
       "community_impact",
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "utility_commission",
     "objective": "Commission legislative study on data center impacts in WI",
@@ -8248,7 +8264,8 @@
       "community_impact",
       "farmland",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Deny Thomas A. Hobbs Living Trust rezoning of 138 acres of farmland",
@@ -8287,7 +8304,8 @@
     "county": "Washtenaw County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 2-year data centers moratorium in Manchester Township",
@@ -8908,7 +8926,8 @@
     "county_lean": "R",
     "issue_category": [
       "grid_energy",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Deny Amp Z 175MW data center permit in Lufkin",
@@ -9942,7 +9961,8 @@
     "county": "Washtenaw County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Pittsfield Township",
@@ -10309,7 +10329,8 @@
       "water",
       "contract_guarantees",
       "permitting",
-      "design_standards"
+      "design_standards",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Require use permit for Amazon/AWS data center in Wilmington",
@@ -10553,7 +10574,8 @@
     "county_lean": "R",
     "issue_category": [
       "grid_energy",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Ban data centers in Big Rapids Township's airport industrial park",
@@ -10618,7 +10640,8 @@
     "county_lean": "R",
     "issue_category": [
       "farmland",
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Infrakey data center in McLennan County",
@@ -10727,7 +10750,8 @@
     "issue_category": [
       "environmental",
       "grid_energy",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "governor",
     "objective": "Challenge Fermi America's 7.65 GW air permit for 93 gas-fired turbines near Amarillo",
@@ -11049,7 +11073,8 @@
     "issue_category": [
       "community_impact",
       "environmental",
-      "traffic"
+      "traffic",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Lawrence County after Strata Expanse proposal",
@@ -11207,7 +11232,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Pause data centers and solar in Breckinridge County pending regulations",
@@ -11244,7 +11270,8 @@
     "hyperscaler": "Meta",
     "issue_category": [
       "community_impact",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Tyrone Township",
@@ -11447,7 +11474,8 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Legal challenge to Imperial Valley Computer data center in Imperial County",
@@ -11547,7 +11575,8 @@
     "county_lean": "D",
     "issue_category": [
       "noise",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Halt data centers in Green Charter after Undisclosed proposal",
@@ -11667,7 +11696,8 @@
       "traffic",
       "water",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Deny PBA Holdings / TPA Group data center on 202 acres in Palm Beach County",
@@ -11716,7 +11746,8 @@
     "issue_category": [
       "noise",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block AV Squared data center in Tonopah",
@@ -11770,7 +11801,8 @@
       "community_impact",
       "grid_energy",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Deny Active Infrastructure 150MW data center permit in City of Chandler",
@@ -11949,7 +11981,8 @@
     "issue_category": [
       "community_impact",
       "grid_energy",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Deny MillCompute 24MW data center permit in Lewiston",
@@ -12518,7 +12551,8 @@
     "opposition_facebook_members": 2600,
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Halt battery energy storage systems in Oshtemo Township after Undisclosed proposal",
@@ -12845,7 +12879,8 @@
     "issue_category": [
       "community_impact",
       "farmland",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Block Elysian Partners rezoning of farmland in Conewago Township",
@@ -12914,7 +12949,8 @@
     "county_lean": "D",
     "issue_category": [
       "transparency",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 1-year data centers moratorium in City of Taylor",
@@ -12994,7 +13030,8 @@
     "county_lean": "D",
     "issue_category": [
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Caledonia Township",
@@ -13393,7 +13430,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Urban Story Ventures data center in Chattanooga",
@@ -13747,7 +13785,8 @@
     "county_lean": null,
     "issue_category": [
       "environmental",
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "state_legislature",
     "objective": "Enact statewide moratorium on crypto mining in VT",
@@ -13902,7 +13941,8 @@
     "county": "Oakland County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Springfield Township",
@@ -14007,7 +14047,8 @@
     "issue_category": [
       "tax_incentive",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Ban data centers in designated zones in Milam County",
@@ -14042,7 +14083,8 @@
     "issue_category": [
       "community_impact",
       "transparency",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in Ironton after Strata Expanse proposal",
@@ -14144,7 +14186,8 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in City of Saline after Related Digital proposal",
@@ -14212,7 +14255,8 @@
       "environmental",
       "farmland",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Ban data centers in designated zones in Stokes County",
@@ -14347,7 +14391,8 @@
     "issue_category": [
       "community_impact",
       "farmland",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Legal challenge to Cloverleaf Infrastructure data center in Village of Greenleaf",
@@ -14464,7 +14509,8 @@
     "county_lean": "D",
     "issue_category": [
       "grid_energy",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 180-day data centers moratorium in Birmingham (Nebius)",
@@ -14601,7 +14647,8 @@
     "county": "Saginaw County",
     "county_lean": "R",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 6-month data centers moratorium in City of Saginaw",
@@ -14798,7 +14845,8 @@
     "county": "Macomb County",
     "county_lean": "R",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Armada Township",
@@ -14888,7 +14936,8 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Petition to block Beale Infrastructure data center in Claremore",
@@ -15046,7 +15095,8 @@
     "issue_category": [
       "farmland",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Ban data centers in designated zones in Villa Ridge",
@@ -15346,7 +15396,8 @@
       "grid_energy",
       "water",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Restrict Multiple 700MW data center in Kansas City",
@@ -15804,7 +15855,8 @@
     "county_lean": "D",
     "issue_category": [
       "environmental",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in City of Pontiac after Concord Infrastructure proposal",
@@ -15841,7 +15893,8 @@
     "county": "Genesee County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 1-year data centers moratorium in Grand Blanc Township",
@@ -15909,7 +15962,8 @@
     "county": "Washtenaw County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Sylvan Township",
@@ -16046,7 +16100,8 @@
     "county": "Macomb County",
     "county_lean": "R",
     "issue_category": [
-      "environmental"
+      "environmental",
+      "anti_ai"
     ],
     "authority_level": "village_board",
     "objective": "Pause data centers in Village of Romeo pending regulations",
@@ -16992,7 +17047,8 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Petition to block Solstice data center in Allen Park",
@@ -17350,7 +17406,8 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "community_impact",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Block Deltona Corp rezoning of 813 acres in Citrus County",
@@ -17690,7 +17747,8 @@
     "county": "Macomb County",
     "county_lean": "R",
     "issue_category": [
-      "environmental"
+      "environmental",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 4-month data centers moratorium in Lenox Township",
@@ -17940,7 +17998,8 @@
     "opposition_facebook_members": 2600,
     "county_lean": "R",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Propose data centers moratorium in Sterling Heights",
@@ -17975,7 +18034,8 @@
     "county": "Washtenaw County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Lodi Township",
@@ -19092,7 +19152,8 @@
     "issue_category": [
       "ratepayer",
       "tax_incentive",
-      "contract_guarantees"
+      "contract_guarantees",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Force public vote on Nebius 1.2GW data center in Independence",
@@ -19178,7 +19239,8 @@
     "county": "Charlevoix County",
     "county_lean": "R",
     "issue_category": [
-      "tax_incentive"
+      "tax_incentive",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Hayes Township",
@@ -19214,7 +19276,8 @@
     "county": "Oakland County",
     "county_lean": "D",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 12-month data centers moratorium in City of South Lyon",
@@ -19250,7 +19313,8 @@
     "county": "Monroe County",
     "county_lean": "R",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Pause data centers in Erie Township pending regulations",
@@ -19766,7 +19830,8 @@
     "issue_category": [
       "ratepayer",
       "water",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "state_legislature",
     "objective": "Pause data center permits for study via LD 307",
@@ -20080,7 +20145,8 @@
     "county_lean": "D",
     "issue_category": [
       "grid_energy",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in York Township (Sansone Group)",
@@ -20250,7 +20316,8 @@
       "community_impact",
       "environmental",
       "grid_energy",
-      "tax_incentive"
+      "tax_incentive",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Challenge xAI / MZX Tech air quality permits in court",
@@ -20957,7 +21024,8 @@
       "grid_energy",
       "noise",
       "transparency",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Sue xAI for unpermitted turbines in Southaven DeSoto County",
@@ -21195,7 +21263,8 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Deny Amzak Capital Management data center on 22 acres in New Brunswick",
@@ -21488,7 +21557,8 @@
     "issue_category": [
       "community_impact",
       "environmental",
-      "ratepayer"
+      "ratepayer",
+      "anti_ai"
     ],
     "authority_level": "federal_legislature",
     "objective": "Call for national moratorium on data center construction",
@@ -21566,7 +21636,8 @@
     "bill_url": "https://www.wusf.org/politics-issues/2026-02-26/florida-senate-unanimously-passes-restrictions-large-scale-data-centers",
     "issue_category": [
       "environmental",
-      "farmland"
+      "farmland",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Force withdrawal of 15M sq ft Sentinel Grove data center in Fort Pierce via HB 1007 restrictions",
@@ -22192,7 +22263,8 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Pause battery energy storage systems in City of Portage pending regulations",
@@ -22591,7 +22663,8 @@
     "bill_url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5594",
     "county_lean": null,
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "state_legislature",
     "objective": "Enact statewide data center moratorium in MI",
@@ -22755,7 +22828,8 @@
     "issue_category": [
       "grid_energy",
       "water",
-      "design_standards"
+      "design_standards",
+      "anti_ai"
     ],
     "authority_level": "state_legislature",
     "objective": "Require closed-loop cooling for data centers in MO",
@@ -22863,7 +22937,8 @@
       "grid_energy",
       "ratepayer",
       "water",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "state_legislature",
     "objective": "Prevent data center cost pass-through to residential rates in MO",
@@ -23162,7 +23237,8 @@
     "issue_category": [
       "environmental",
       "tax_incentive",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Deny TigerDC 400MW data center permit in Spartanburg County",
@@ -23309,7 +23385,8 @@
     "issue_category": [
       "farmland",
       "transparency",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Restrict Global AI 438-acre data center in Weld County",
@@ -23407,7 +23484,8 @@
     "issue_category": [
       "environmental",
       "noise",
-      "traffic"
+      "traffic",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Amazon's $10B, 1,713-acre data center campus with 700+ diesel generators in Canton",
@@ -23694,7 +23772,8 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "environmental",
-      "farmland"
+      "farmland",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Rally against Silver Fox 606 data center in Martin County",
@@ -24036,7 +24115,8 @@
     "issue_category": [
       "community_impact",
       "transparency",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Lyon Township (Verrus)",
@@ -24135,7 +24215,8 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "voters",
     "objective": "Ban commercial crypto mining in Royalton",
@@ -25462,7 +25543,8 @@
     "opposition_facebook": "https://www.facebook.com/people/Protect-Pickaway-Alliance/61583713468844/",
     "last_updated": "2026-03-19",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 12-month moratorium on data centers in Scioto Township while overhauling zoning code",
@@ -26550,7 +26632,8 @@
     "last_updated": "2026-03-17",
     "petition_signatures": 3000,
     "issue_category": [
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Sue over concealment in MSB Global approval process",
@@ -26584,7 +26667,8 @@
     "issue_category": [
       "community_impact",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "planning_commission",
     "objective": "Deny Texas Solar Works data center on 936 acres in Lubbock",
@@ -26616,7 +26700,8 @@
       "grid_energy",
       "noise",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Adopt data center zoning standards in San Antonio",
@@ -26909,7 +26994,8 @@
     "investment_usd": 20000000000,
     "issue_category": [
       "community_impact",
-      "environmental"
+      "environmental",
+      "anti_ai"
     ],
     "authority_level": "federal_agency",
     "objective": "Rally against xAI / MZX Tech data center in Southaven",
@@ -27059,7 +27145,8 @@
     "last_updated": "2026-03-19",
     "acreage": 611,
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Hut 8's $10B River Bend AI data center campus with 245MW Phase I in West Feliciana",
@@ -28253,7 +28340,8 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "grid_energy",
-      "ratepayer"
+      "ratepayer",
+      "anti_ai"
     ],
     "authority_level": "federal_legislature",
     "objective": "Direct FERC technical conference on data center rate impacts",
@@ -28344,7 +28432,8 @@
     "summary": "The Seneca County Board of Supervisors voted unanimously in March 2026 to join Tompkins County in asking the New York DEC to reject TeraWulf's modified water permit for its proposed 400MW AI data center at a former coal plant site on Cayuga Lake in Lansing. TeraWulf seeks to withdraw over one million gallons of water per day for cooling, with returned water at elevated temperatures that critics say would encourage harmful algal blooms threatening drinking water and tourism. Local groups have also filed a lawsuit against TeraWulf and the Lansing zoning board.",
     "issue_category": [
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Challenge TeraWulf for treaty rights violations",
@@ -29446,7 +29535,8 @@
     "issue_category": [
       "grid_energy",
       "transparency",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Oppose HydraVault data center over water in Chicago South Loop",
@@ -30770,7 +30860,8 @@
       "farmland",
       "noise",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Challenge Engineered Land Solutions air quality permits in court",
@@ -31357,7 +31448,8 @@
       "environmental",
       "farmland",
       "noise",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Rezone 4,400+ acres from agricultural for Creekstone Energy solar farm powering AI data centers",
@@ -31599,7 +31691,8 @@
     "issue_category": [
       "community_impact",
       "farmland",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 12-month data centers moratorium in Oneonta (Eco-Yotta)",
@@ -31851,7 +31944,8 @@
     "last_updated": "2026-03-16",
     "summary": "Thomas County Board of Commissioners unanimously approved a 12-month moratorium on AI data center construction in January 2026. Commission Chair Mark NeSmith said the board was 'certainly not anti-data centers' but preferred to be proactive in protecting the community while gathering more information.",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Impose 12-month data centers moratorium in Thomas County",
@@ -32429,7 +32523,8 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "community_impact",
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "federal_legislature",
     "objective": "Commission legislative study on data center impacts in US",
@@ -33418,7 +33513,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Mishicot",
@@ -33506,7 +33602,8 @@
     "county_lean": "D",
     "issue_category": [
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 12-month data centers moratorium in South Lyon",
@@ -33544,7 +33641,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Impose 6-month data centers moratorium in Saginaw",
@@ -34072,7 +34170,8 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
-      "grid_energy"
+      "grid_energy",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "4000-signature petition opposing NorthMark Strategies data center",
@@ -34342,7 +34441,8 @@
       "noise",
       "transparency",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "court",
     "objective": "Challenge xAI (MZX Tech) air quality permits in court",
@@ -34374,7 +34474,8 @@
     "issue_category": [
       "water",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "developer",
     "objective": "Developers withdraw 529-acre data center rezoning near Goodyear",
@@ -35433,7 +35534,8 @@
       "environmental",
       "grid_energy",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Deny B+F Timpanogos Tech rezoning of 9 acres in City of Provo",
@@ -35621,7 +35723,8 @@
     "county_lean": "D",
     "issue_category": [
       "tax_incentive",
-      "contract_guarantees"
+      "contract_guarantees",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Challenge $6.26B in Nebius tax breaks approved by Independence",
@@ -36639,7 +36742,8 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
-      "water"
+      "water",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Rally against Deep River Data data center in Lee County",
@@ -37664,7 +37768,8 @@
     "issue_category": [
       "community_impact",
       "zoning",
-      "permitting"
+      "permitting",
+      "anti_ai"
     ],
     "authority_level": "developer",
     "objective": "Community pressure forces withdrawal of 123-acre Project Accelerate rezoning in Matthews",
@@ -38102,7 +38207,8 @@
     "opposition_facebook_members": 1198,
     "issue_category": [
       "community_impact",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Oppose KBC Advisors data center in Sheboygan",
@@ -38384,7 +38490,8 @@
       "tax_incentive",
       "transparency",
       "water",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "950-signature petition opposing Jumping Bison data center",
@@ -38702,7 +38809,8 @@
       "environmental",
       "noise",
       "transparency",
-      "zoning"
+      "zoning",
+      "anti_ai"
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Hyperscale Data data center in Cass County",
@@ -39454,7 +39562,8 @@
     "last_updated": "2026-03-06",
     "issue_category": [
       "zoning",
-      "community_impact"
+      "community_impact",
+      "anti_ai"
     ],
     "authority_level": "developer",
     "objective": "Block conversion of Cleveland-Cliffs steel mill into 2M sq ft AI data center in Plymouth Township",
@@ -41080,7 +41189,8 @@
       "water",
       "grid_energy",
       "community_impact",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "city_council",
     "objective": "Terminate city contracts with Meta and halt $10B data center expansion in El Paso",
@@ -41415,7 +41525,8 @@
       "grid_energy",
       "ratepayer",
       "farmland",
-      "transparency"
+      "transparency",
+      "anti_ai"
     ],
     "authority_level": "utility_commission",
     "objective": "Block Duke Energy turbine expansion tied to data center development in Rowan County",

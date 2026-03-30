@@ -1843,9 +1843,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_groups": [
+      "Coalition for Responsible Data Center Development"
+    ],
+    "opposition_website": "https://www.datacenterresponsibility.com",
+    "opposition_facebook": "https://www.facebook.com/groups/1244766996510704",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -2841,7 +2843,9 @@
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
       "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Economic Development Responsibility Alliance of Michigan"
+    ],
     "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Chippewa County",
@@ -2852,7 +2856,9 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 1-year data centers moratorium in Clark Township",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_website": "https://edraofmi.org/",
+    "opposition_facebook": "https://www.facebook.com/edraofmi"
   },
   {
     "id": "commercial-point-scioto-township-pickaway-county-oh-2025-06-01",
@@ -13039,8 +13045,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -13087,8 +13096,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -17195,9 +17207,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_groups": [
+      "Economic Development Responsibility Alliance of Michigan"
+    ],
+    "opposition_website": "https://edraofmi.org/",
+    "opposition_facebook": "https://www.facebook.com/edraofmi",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -18642,7 +18656,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -24425,7 +24441,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -25359,7 +25377,12 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Pause data centers in Zeeland Township pending regulations",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "Economic Development Responsibility Alliance of Michigan"
+    ],
+    "opposition_website": "https://edraofmi.org/",
+    "opposition_facebook": "https://www.facebook.com/edraofmi"
   },
   {
     "scope": "local",
@@ -26253,6 +26276,9 @@
     "sponsors": [
       "Rep. Gary Click (R-OH)",
       "Rep. Kellie Deeter (R-OH)"
+    ],
+    "opposition_groups": [
+      "Ohioans for Responsible Development"
     ]
   },
   {
@@ -26467,7 +26493,12 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Cascade Township",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "Economic Development Responsibility Alliance of Michigan"
+    ],
+    "opposition_website": "https://edraofmi.org/",
+    "opposition_facebook": "https://www.facebook.com/edraofmi"
   },
   {
     "scope": "local",
@@ -26567,7 +26598,10 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 30-day data centers moratorium in Newton County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ]
   },
   {
     "scope": "local",
@@ -26712,7 +26746,12 @@
     "authority_level": "state_legislature",
     "objective": "Investigate Meta sale of data center stake to protect ratepayers",
     "community_outcome": "pending",
-    "investment_million_usd": null
+    "investment_million_usd": null,
+    "opposition_groups": [
+      "Alliance for Affordable Energy",
+      "Earthjustice",
+      "Union of Concerned Scientists"
+    ]
   },
   {
     "scope": "local",
@@ -27070,6 +27109,9 @@
     "community_outcome": "pending",
     "sponsors": [
       "Rep. Brian Stewart (R-OH)"
+    ],
+    "opposition_groups": [
+      "Ohioans for Responsible Development"
     ]
   },
   {
@@ -27267,7 +27309,11 @@
     ],
     "authority_level": "governor",
     "objective": "Criticize PA governor's voluntary data center permitting program as lacking enforcement",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "FracTracker Alliance",
+      "Concerned Citizens of Montour County"
+    ]
   },
   {
     "scope": "local",
@@ -30257,8 +30303,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -30304,8 +30353,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -30559,8 +30611,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -30794,8 +30848,12 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council",
+      "Good Jobs First"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -32940,7 +32998,9 @@
       "community_character",
       "noise"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Ohioans for Responsible Development"
+    ],
     "summary": "Washington Township in northwestern Franklin County passed a 90-day moratorium on data centers in unincorporated parts of the township on December 8, 2025. The township also asked the city of Dublin, which the township encompasses, to adopt a moratorium as well. The action follows the broader wave of Central Ohio communities pushing back against the data center boom centered on New Albany.",
     "sources": [
       "https://www.statenews.org/section/the-ohio-newsroom/2026-02-26/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success",
@@ -33043,7 +33103,9 @@
       "electricity_rates",
       "community_character"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Mishicot-area residents and family farms (ad hoc coalition)"
+    ],
     "summary": "Two Creeks, along with Two Rivers and Mishicot, held a joint town board meeting and approved identical resolutions calling on Manitowoc County to adopt a one-year moratorium on data center permits and construction, with option to extend 6 months. These three northeast Wisconsin towns acted proactively to prevent data center siting in their communities.",
     "sources": [
       "https://www.wpr.org/news/northeast-wisconsin-towns-1-year-moratorium-data-centers",
@@ -33076,7 +33138,9 @@
       "electricity_rates",
       "community_character"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Mishicot-area residents and family farms (ad hoc coalition)"
+    ],
     "summary": "Two Rivers joined Two Creeks and Mishicot in approving identical resolutions at a joint town board meeting calling for a one-year moratorium on data center permits and construction in Manitowoc County, with option for 6-month extension.",
     "sources": [
       "https://www.wpr.org/news/northeast-wisconsin-towns-1-year-moratorium-data-centers",
@@ -33109,7 +33173,9 @@
       "electricity_rates",
       "community_character"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Mishicot-area residents and family farms (ad hoc coalition)"
+    ],
     "summary": "Mishicot joined Two Creeks and Two Rivers in approving identical resolutions at a joint town board meeting calling for a one-year moratorium on data center permits and construction in Manitowoc County, with option for 6-month extension.",
     "sources": [
       "https://www.wpr.org/news/northeast-wisconsin-towns-1-year-moratorium-data-centers",
@@ -33144,7 +33210,9 @@
       "community_character",
       "process_fairness"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "No Janesville Data Center"
+    ],
     "summary": "In Janesville, Viridian Partners' proposal to redevelop the retired GM/JATCO plant into an $8B, 800 MW data center campus will go directly to voters on the November 3, 2026 ballot. The referendum would require voter approval for any development exceeding $450M on the site. A Marquette Law School poll found 70% of Wisconsin voters now say data center costs outweigh benefits (up from 55% in October 2025), with water use the #1 concern (52%).",
     "sources": [
       "https://isthmus.com/news/news/what-to-do-if-a-large-data-center-comes-knocking/",
@@ -33166,7 +33234,9 @@
     "community_outcome": "pending",
     "megawatts": 800,
     "investment_million_usd": 8000,
-    "water_usage_gallons_per_day": 70400
+    "water_usage_gallons_per_day": 70400,
+    "opposition_facebook": "https://www.facebook.com/p/No-Janesville-Data-Center-61580624576545",
+    "petition_url": "https://www.change.org/p/no-janesville-data-center"
   },
   {
     "id": "south-lyon-mi-2026-02-10",
@@ -33225,7 +33295,10 @@
       "electricity_rates",
       "community_character"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Economic Development Responsibility Alliance of Michigan",
+      "Sierra Club Michigan Chapter"
+    ],
     "summary": "Saginaw City Council unanimously approved a 6-month moratorium on data center development in January 2026, joining at least 27 Michigan communities enacting temporary pauses. Council Member Carly Rose Hammond said data centers 'consume enormous amounts of resources coming into communities with seemingly no warning,' emphasizing the need for proactive regulation. The city aims to finalize a comprehensive data center policy within the moratorium period.",
     "sources": [
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
@@ -33241,7 +33314,9 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose 6-month data centers moratorium in Saginaw",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_website": "https://edraofmi.org/",
+    "opposition_facebook": "https://www.facebook.com/edraofmi"
   },
   {
     "id": "archbald-pa-wildcat-ridge-2026-01-01",
@@ -33479,7 +33554,9 @@
     "status": "active",
     "company": null,
     "project_name": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "concerns": [
       "water",
       "community_character"
@@ -33513,7 +33590,9 @@
     "status": "active",
     "company": null,
     "project_name": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "concerns": [
       "water",
       "electricity_rates",
@@ -33547,7 +33626,9 @@
     "status": "active",
     "company": null,
     "project_name": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "concerns": [
       "water",
       "electricity_rates",
@@ -33581,7 +33662,9 @@
     "status": "active",
     "company": null,
     "project_name": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter"
+    ],
     "concerns": [
       "electricity_rates",
       "water",
@@ -35219,7 +35302,10 @@
       "https://www.wesa.fm/politics-government/2026-03-09/lawmakers-bill-data-center-construction",
       "https://radio.wpsu.org/2026-03-10/shapiro-wants-to-incentivize-data-centers-to-be-better-neighbors-will-that-work"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "FracTracker Alliance",
+      "Concerned Citizens of Montour County"
+    ],
     "data_source": "web_research",
     "last_updated": "2026-03-19",
     "issue_category": [
@@ -35686,7 +35772,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Concerned Citizens of Montour County",
+      "FracTracker Alliance"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -36494,7 +36583,12 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Amazon Data Services data center in Loudoun County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Coalition to Protect Prince William County"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters"
   },
   {
     "id": "new-kent-county-va-tod-2026-02",
@@ -39042,9 +39136,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_groups": [
+      "No Data Centers Hobart Indiana"
+    ],
+    "opposition_website": "https://hobartdatacenters.org/",
+    "opposition_facebook": "https://www.facebook.com/groups/hobartnodatacenters",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-data-center-developments-in-northwest-indiana",
@@ -39126,7 +39222,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Muhlenberg TWP and Community Against Data Center (petition group)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -39749,7 +39847,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Columbia County residents (Gregory P. Guido Jr., petitioner)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -39929,8 +40029,10 @@
     "building_sq_ft": 800000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": 5800,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Protect Wake County Coalition"
+    ],
+    "opposition_website": "https://protectwakecounty.org/",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -40243,8 +40345,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": 250,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -40625,8 +40730,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -41004,7 +41111,9 @@
     "building_sq_ft": 880000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": 140,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Woodsdale and Trenton Environmental Resistance (W.A.T.E.R.)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -41038,7 +41147,7 @@
     "county": "Jefferson County",
     "lat": 38.2206,
     "lng": -90.3959,
-    "action_type": "community_opposition",
+    "action_type": "petition",
     "date": "2026-03-20",
     "status": "active",
     "company": "CRG",
@@ -41050,9 +41159,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Wake Up JeffCo"
+    ],
     "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_facebook": "https://www.facebook.com/WakeUpJeffCo",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -41269,7 +41380,7 @@
     "county": "Rowan County",
     "lat": 35.6367,
     "lng": -80.5245,
-    "action_type": "community_opposition",
+    "action_type": "petition",
     "date": "2026-03-25",
     "status": "active",
     "company": "Duke Energy / Edged (EDC Charlotte LLC)",
@@ -41281,12 +41392,14 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Stop AI Data Center on Long Ferry Rd. (community group)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
-    "petition_url": null,
+    "petition_url": "https://www.change.org/p/stop-ai-data-center-construction-on-long-ferry-rd",
     "petition_signatures": 3000,
     "summary": "At a North Carolina Utilities Commission public hearing on March 25, 2026 at the Rowan County Courthouse, residents railed against Duke Energy's plan to build new combustion turbines at the Buck Energy Complex on the Yadkin River, which they believe is being built to support AI data centers. Commissioners had quietly rezoned ~400 acres on Long Ferry Road (former Carlton Farms) in October 2025, and the property sold for $174 million to EDC Charlotte LLC (linked to Edged). Nearly 3,000 residents signed a petition opposing the project. The petition will be presented to County Commissioners on April 20. No data center has been formally proposed yet, but residents oppose preemptive infrastructure changes.",
     "sources": [

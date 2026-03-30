@@ -2246,7 +2246,9 @@
     "last_updated": "2026-03-19",
     "lat": 35.7796,
     "lng": -78.6382,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "NC Environmental Justice Network"
+    ],
     "issue_category": [
       "grid_energy",
       "ratepayer"
@@ -2258,7 +2260,8 @@
       "Rep. Pricey Harrison (D-NC)",
       "Rep. Donnie Loftis (R-NC)",
       "Rep. Maria Cervania (D-NC)"
-    ]
+    ],
+    "opposition_website": "https://ncejn.org/"
   },
   {
     "id": "west-virginia-statewide-wv-2026-01-01",
@@ -3284,7 +3287,9 @@
     "last_updated": "2026-03-19",
     "lat": 30.2672,
     "lng": -97.7431,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Public Citizen Texas"
+    ],
     "issue_category": [
       "grid_energy",
       "ratepayer"
@@ -3295,7 +3300,8 @@
     "sponsors": [
       "Sen. Phil King (R-TX)",
       "Sen. Charles Schwertner (R-TX)"
-    ]
+    ],
+    "opposition_website": "https://www.citizen.org/"
   },
   {
     "id": "clarke-county-ia-2025-06-01",
@@ -7742,7 +7748,9 @@
       "https://www.northwestgeorgianews.com/calhoun_times/news/local/gordon-county-extends-stop-on-data-centers-as-zoning-language-is-updated/article_e989102c-da68-4047-8989-78fc5ad79e1c.html",
       "https://www.gpb.org/news/2025/10/22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Gordon County Board of Commissioners (preemptive)"
+    ],
     "last_updated": "2026-03-19",
     "scope": "local",
     "county": "Gordon County",
@@ -12985,7 +12993,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter",
+      "Science for Georgia"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -13124,7 +13135,7 @@
     "lng": -77.412,
     "action_type": "legislation",
     "date": "2026-01-01",
-    "status": "active",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 897",
@@ -13144,7 +13155,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Requires data centers to use emission-free (non-diesel) backup generators and demonstrate commitment to clean energy to qualify for sales and use tax exemptions. Passed House 61-34. Conditions incentives on high energy efficiency standards and carbon-free energy purchasing.",
+    "summary": "Requires data centers to use emission-free (non-diesel) backup generators and demonstrate commitment to clean energy to qualify for sales and use tax exemptions. Passed House 61-34 and passed the full General Assembly. Awaiting Governor Spanberger's signature, amendment, or veto by April 14, 2026. Conditions incentives on high energy efficiency standards and carbon-free energy purchasing. HB 507, a related bill mandating Tier IV generators for new data center air permits after July 2026, also passed the legislature.",
     "sources": [
       "https://lis.virginia.gov/bill-details/20261/HB897",
       "https://virginiamercury.com/2026/02/20/halfway-through-the-2026-legislative-session-theres-still-no-consensus-on-data-center-bills/"
@@ -13277,7 +13288,7 @@
     "lng": -85.31,
     "action_type": "petition",
     "date": "2026-01-01",
-    "status": "ongoing",
+    "status": "approved",
     "company": "Urban Story Ventures",
     "hyperscaler": null,
     "project_name": "Jailhouse Studios",
@@ -13296,7 +13307,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/demand-public-input-opportunity-for-new-data-center-venture-in-downtown-chattanooga",
     "petition_signatures": 1139,
-    "summary": "Urban Story Ventures proposed converting the old Hamilton County jail into 'Jailhouse Studios' with an AI data center in the basement. Over 1,000 residents signed a petition opposing the data center component, with a rally held outside. Hamilton County Commission must vote to approve the lease.",
+    "summary": "Urban Story Ventures proposed converting the old Hamilton County jail into 'Jailhouse Studios' with an AI data center in the basement. Over 1,000 residents signed a petition opposing the data center component, with a rally held outside. Despite opposition, Hamilton County Commission voted unanimously on March 18, 2026 to approve a 35-year lease with Urban Story Ventures at $375,000/year with 3% annual increases. 1.5% of net profits go to workforce development programs via the Songbirds Foundation.",
     "sources": [
       "https://newschannel9.com/news/local/residents-rally-against-proposed-ai-data-center-inside-old-hamilton-county-jail",
       "https://www.timesfreepress.com/news/2026/feb/07/hamilton-county-residents-artists-concerned-about/"
@@ -13310,7 +13321,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Urban Story Ventures data center in Chattanooga",
-    "community_outcome": "pending"
+    "community_outcome": "lost"
   },
   {
     "id": "washington-sb-6231-wa-2026-01-01",
@@ -13429,8 +13440,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Piedmont Environmental Council",
+      "Virginia Data Center Reform Coalition"
+    ],
+    "opposition_website": "https://www.pecva.org/region/regional-state-national-region/2026-data-center-reform-legislation/",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -14064,7 +14078,7 @@
     "lng": -80.234,
     "action_type": "zoning_restriction",
     "date": "2026-01-12",
-    "status": "ongoing",
+    "status": "approved",
     "company": "Engineered Land Solutions",
     "hyperscaler": null,
     "project_name": "Project Delta",
@@ -14086,7 +14100,7 @@
     "opposition_twitter": null,
     "petition_url": "https://actionnetwork.org/petitions/no-data-center-in-stokes-county/",
     "petition_signatures": 3721,
-    "summary": "Project Delta by Engineered Land Solutions proposes an 1,800-acre AI data center campus in Walnut Cove near the Dan River, with 998 acres to be developed and the rest as floodplain. The campus would total 'several hundred megawatts' with a new dedicated substation. The county would collect an estimated $20 million in annual property taxes (current tax bill is under $8,000). Stokes County Board of Commissioners approved the rezoning 3-2 in January 2026 despite opposition from Clean Water for North Carolina and a local No Data Centers petition. In March 2026, the Southern Coalition for Social Justice filed a lawsuit (Hairston Clan v. Stokes County) in Stokes County Superior Court to stop the project, arguing commissioners ignored environmental and cultural impacts. The land includes sites significant to the Occaneechi Band of the Saponi Nation and historically Black farming communities. Developer (Engineered Land Solutions) responded to the SELC/SCSJ lawsuit in mid-March, but no ruling yet. Stokes County primary voters rejected pro-datacenter incumbents in March 3 vote.",
+    "summary": "Project Delta by Engineered Land Solutions proposes an 1,800-acre AI data center campus in Walnut Cove near the Dan River, with 998 acres to be developed and the rest as floodplain. The campus would total 'several hundred megawatts' with a new dedicated substation. Stokes County Commissioners approved the rezoning 3-2 in January 2026 despite strong public opposition. In March 2026, community groups and residents filed a lawsuit in Stokes County Superior Court, represented by Southern Environmental Law Center and Southern Coalition for Social Justice, challenging the rezoning as unlawful.",
     "sources": [
       "https://www.wfae.org/energy-environment/2026-01-07/matthews-data-center-developer-pivots-to-stokes-county-near-duke-coal-plant",
       "https://www.datacenterdynamics.com/en/news/proposal-filed-for-1800-acre-data-center-campus-outside-greensboro-north-carolina/",
@@ -14121,7 +14135,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Ban data centers in designated zones in Stokes County",
-    "community_outcome": "pending"
+    "community_outcome": "lost"
   },
   {
     "id": "roswell-ga-2026-01-12",
@@ -14349,7 +14363,7 @@
     "opposition_twitter": null,
     "petition_url": "https://alabamarivers.org/bcc/",
     "petition_signatures": null,
-    "summary": "Birmingham City Council unanimously approved a 180-day moratorium on applications for new or expanding hyperscale data centers on March 3, 2026. Facilities under 20 megawatts are exempt. Two existing projects (Nebius Oxmoor AI Factory at 300MW and one other) that filed before the vote are exempt. The moratorium is now active and in effect.",
+    "summary": "Birmingham City Council unanimously approved a 180-day moratorium on applications for new or expanding hyperscale data centers on March 3, 2026. Facilities under 20 megawatts are exempt. Two existing projects (Nebius Oxmoor AI Factory at 300MW and one other) that filed before the vote are exempt. The moratorium gives the city time to develop comprehensive zoning and land use regulations for large-scale data center facilities. Nebius submitted its building permit on Jan. 29, weeks before the vote, and is not affected.",
     "sources": [
       "https://www.birminghamal.gov/news/city-birmingham-proposes-temporary-pause-new-data-center-applications",
       "https://birminghamwatch.org/2026/01/13/birmingham-leaders-weigh-180-day-moratorium-on-data-centers-amid-power-and-water-concerns/",
@@ -14372,7 +14386,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose 180-day data centers moratorium in Birmingham (Nebius)",
-    "community_outcome": "pending",
+    "community_outcome": "won",
     "opposition_facebook_members": 14000
   },
   {
@@ -14624,7 +14638,7 @@
     "lng": -105.9378,
     "action_type": "legislation",
     "date": "2026-01-14",
-    "status": "active",
+    "status": "inactive",
     "company": "Project Jupiter (Dona Ana County data center development)",
     "hyperscaler": null,
     "project_name": "Steinborn Microgrid Regulation Bill",
@@ -14641,7 +14655,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 235 (Microgrid Oversight Act) requires the Public Regulation Commission to develop rules for any microgrid producing more than 20 MW, grants regulators oversight over approval and operation of microgrids, and requires proof of ability to meet state renewable energy standards for microgrids coming online after May 2026. Annual reports required after 2027 detailing power generation, water usage, and compliance. Largely driven by concerns about Project Jupiter in Dona Ana County, which proposed self-reliant 'microgrids' to power multi-billion dollar data centers. Passed NM Senate 22-20.",
+    "summary": "SB 235 (Microgrid Oversight Act) would have required the Public Regulation Commission to develop rules for any microgrid producing more than 20 MW, granted regulators oversight over approval and operation of microgrids, and required proof of ability to meet state renewable energy standards for microgrids coming online after May 2026. The bill passed the New Mexico Senate 22-20 but did not advance in the House before the session ended, effectively dying. The bill was motivated by concerns about data center 'microgrids' circumventing the state's Energy Transition Act requirements, particularly regarding Project Jupiter in Dona Ana County.",
     "sources": [
       "https://sourcenm.com/2026/01/14/nm-lawmaker-proposes-more-oversight-regulations-for-data-center-microgrids/",
       "https://sourcenm.com/2025/12/05/data-center-project-jupiters-greenhouse-gas-emissions-could-rival-nms-largest-cities/",
@@ -14661,7 +14675,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require PRC oversight of 20MW+ microgrids serving data centers",
-    "community_outcome": "pending",
+    "community_outcome": "lost",
     "sponsors": [
       "Sen. Jeff Steinborn (D-NM)",
       "Sen. Antoinette Sedillo Lopez (D-NM)"
@@ -14713,9 +14727,9 @@
     "lat": 33.2818,
     "lng": -84.2836,
     "action_type": "community_opposition",
-    "status": "active",
+    "status": "approved",
     "date": "2026-01-14",
-    "summary": "Despite vocal opposition from dozens of residents, Spalding County Commissioners unanimously approved a $3.9 billion, 5 million sq ft data center complex by Wallace Jackson LLC spanning 190 acres along Interstate 75, consisting of ten separate buildings (roughly three times the size of Lenox Square Mall). Residents cited concerns over environmental pollution, loss of generational agricultural land, and the project generating few permanent jobs relative to its scale. A second $3.7B project was proposed shortly after by a different developer.",
+    "summary": "Despite vocal opposition from dozens of residents, Spalding County Commissioners unanimously approved a $3.9 billion, 5 million sq ft data center complex by Wallace Jackson LLC spanning 190 acres along Interstate 75, consisting of ten separate buildings (roughly three times the size of Lenox Square Mall). The vote took place on January 22, 2026. Officials claimed the project will lower resident tax burdens without leaving taxpayers responsible for development costs. Residents opposed the plan citing environmental pollution concerns and loss of generational agricultural land. Full build-out could be reached by 2035.",
     "sources": [
       "https://www.fox5atlanta.com/news/spalding-county-data-center-vote",
       "https://www.ajc.com/business/2026/01/whats-37b-and-larger-than-3-malls-georgias-next-potential-data-center/",
@@ -14741,7 +14755,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Contest Wallace Jackson 900MW data center despite community opposition",
-    "community_outcome": "pending"
+    "community_outcome": "lost"
   },
   {
     "id": "claremore-ok-2026-01-15",
@@ -15435,7 +15449,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter",
+      "Science for Georgia"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -15483,9 +15500,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Stanton Springs Data Center (opposition Facebook page)"
+    ],
     "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_facebook": "https://www.facebook.com/StantonSpringsDataCenter/",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -16096,8 +16115,12 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Citizens Action Coalition",
+      "Hoosier Action",
+      "Hoosier Environmental Council"
+    ],
+    "opposition_website": "https://www.citact.org/ai-data-centers",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -18759,7 +18782,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Georgia Chapter",
+      "Science for Georgia"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -20269,7 +20295,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Ohio Consumers' Counsel"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -21902,7 +21930,9 @@
       "https://centralbucksnews.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
       "https://www.thereporteronline.com/2026/02/23/west-rockhill-supervisors-advance-data-center-regulations/"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Better Path Coalition"
+    ],
     "last_updated": "2026-03-05",
     "scope": "local",
     "county": "Bucks County",
@@ -21913,7 +21943,8 @@
     ],
     "authority_level": "township_board",
     "objective": "Restrict data centers to industrial zones in West Rockhill",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_facebook": "https://www.facebook.com/betterpathpage/"
   },
   {
     "id": "east-rockhill-township-bucks-county-pa-2026-02-24",
@@ -21929,7 +21960,9 @@
       "https://centralbucksnews.com/news/2026/mar/03/east-rockhill-supervisors-discuss-data-center-ordinance/",
       "https://www.thereporteronline.com/2026/02/27/east-rockhill-supervisors-discuss-data-center-ordinance/"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Better Path Coalition"
+    ],
     "last_updated": "2026-03-05",
     "scope": "local",
     "county": "Bucks County",
@@ -21940,7 +21973,8 @@
     ],
     "authority_level": "township_board",
     "objective": "Restrict data centers to industrial zones in East Rockhill",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_facebook": "https://www.facebook.com/betterpathpage/"
   },
   {
     "id": "hilliard-oh-2026-02-24",
@@ -23734,9 +23768,12 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Better Path Coalition",
+      "Concerned Citizens of Montour County"
+    ],
     "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_facebook": "https://www.facebook.com/betterpathpage/",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -27736,7 +27773,9 @@
     "acreage": null,
     "water_gallons_per_day": null,
     "petition_signatures": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Public Citizen Texas"
+    ],
     "opposition_facebook_members": null,
     "id": "texas-puct-water-survey-2026",
     "jurisdiction": "Texas",
@@ -29946,7 +29985,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Michigan Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -30403,8 +30444,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
-    "opposition_website": null,
+    "opposition_groups": [
+      "Piedmont Environmental Council",
+      "Virginia Data Center Reform Coalition"
+    ],
+    "opposition_website": "https://www.pecva.org/region/regional-state-national-region/2026-data-center-reform-legislation/",
     "opposition_facebook": null,
     "opposition_instagram": null,
     "opposition_twitter": null,
@@ -31501,7 +31545,10 @@
     "acreage": 160,
     "water_gallons_per_day": null,
     "petition_signatures": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Citizens Action Coalition",
+      "Hoosier Action"
+    ],
     "opposition_facebook_members": null,
     "id": "lake-county-in-zoning-2026-02",
     "jurisdiction": "Lake County",
@@ -31522,7 +31569,8 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 55 dB noise limit on data centers in Lake County",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "opposition_website": "https://www.hoosieraction.org/datacenter"
   },
   {
     "scope": "statewide",
@@ -31539,7 +31587,9 @@
     "acreage": null,
     "water_gallons_per_day": null,
     "petition_signatures": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Ohio Consumers' Counsel"
+    ],
     "opposition_facebook_members": null,
     "id": "ohio-senate-dems-package-2026",
     "jurisdiction": "Ohio",
@@ -31583,7 +31633,9 @@
     "acreage": null,
     "water_gallons_per_day": null,
     "petition_signatures": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Thomas County residents"
+    ],
     "opposition_facebook_members": null,
     "id": "thomas-county-ga-moratorium-2026-01",
     "jurisdiction": "Thomas County",
@@ -34584,7 +34636,9 @@
     "company": null,
     "hyperscaler": null,
     "acreage": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Public Citizen Texas"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -34632,7 +34686,9 @@
     "company": "Penzance Development / 1500 Gateway LLC",
     "hyperscaler": null,
     "acreage": 84,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Fredericksburg residents (Great Oaks Lane neighborhood)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -34712,9 +34768,11 @@
     "company": "Stack Infrastructure (SAC III Acquisition Co.)",
     "hyperscaler": null,
     "acreage": 2990,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Coalition for the Protection of Pittsylvania County"
+    ],
     "opposition_website": null,
-    "opposition_facebook": null,
+    "opposition_facebook": "https://www.facebook.com/p/Coalition-for-the-Protection-of-Pittsylvania-County-61573111780700/",
     "opposition_instagram": null,
     "opposition_twitter": null,
     "petition_url": null,
@@ -35616,7 +35674,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Archbald Neighborhood Association"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -35843,7 +35903,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Archbald Neighborhood Association"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -39733,7 +39795,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Rural Michigan Defense Fund",
+      "Sierra Club Michigan Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -39780,7 +39845,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "New Market Village residents"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40465,7 +40532,11 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "MountainTrue",
+      "Watauga Riverkeeper",
+      "Upper New River Riverkeeper"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40606,7 +40677,9 @@
     "building_sq_ft": 300000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Fayetteville Freedom for All"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40893,7 +40966,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Fayetteville Freedom for All"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -41130,7 +41205,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Rural Michigan Defense Fund"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,

@@ -1277,6 +1277,23 @@ h1 {
   text-overflow: ellipsis;
 }
 
+/* Sponsor badges (detail panel) */
+.sponsors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.sponsor-badge {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  background: rgba(67,133,190,0.12);
+  border: 1px solid rgba(67,133,190,0.25);
+  border-radius: 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
 /* Issue category tags (detail panel) */
 .issue-tags {
   display: flex;

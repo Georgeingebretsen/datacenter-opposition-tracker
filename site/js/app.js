@@ -1030,7 +1030,7 @@ function openDetail(f) {
       </button>
     </div>
     <h2>${f.jurisdiction}, ${f.state}</h2>
-    ${f.county ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
+    ${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
     <div class="detail-meta">
       <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span>
       &nbsp;&middot;&nbsp;
@@ -1038,6 +1038,8 @@ function openDetail(f) {
       &nbsp;&middot;&nbsp;
       ${formatDate(f.date)}
     </div>
+
+    ${f.sponsors && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><div class="sponsors-list">${f.sponsors.map(s => `<span class="sponsor-badge">${escapeHtml(s)}</span>`).join('')}</div></div>` : ''}
 
     ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p style="font-weight:600;font-size:1.05rem;">${f.objective}</p></div>` : ''}
 

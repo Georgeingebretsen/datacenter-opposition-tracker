@@ -1429,6 +1429,7 @@
     "county_lean": "R",
     "investment_usd": 10000000000,
     "issue_category": [
+      "environmental",
       "grid_energy",
       "noise",
       "water",
@@ -2052,6 +2053,7 @@
     "data_source": "web_research",
     "last_updated": "2026-03-19",
     "issue_category": [
+      "environmental",
       "water",
       "zoning"
     ],
@@ -3119,6 +3121,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "environmental",
       "grid_energy"
     ],
     "authority_level": "city_council",
@@ -3675,9 +3678,10 @@
     "county_lean": "R",
     "energy_mw": 198,
     "issue_category": [
-      "zoning",
+      "design_standards",
+      "environmental",
       "grid_energy",
-      "design_standards"
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Require use permit for CyrusOne data center in Mesa",
@@ -3861,6 +3865,7 @@
     "county_lean": "R",
     "water_gallons_per_day": 5000000,
     "issue_category": [
+      "environmental",
       "transparency",
       "water"
     ],
@@ -4140,8 +4145,9 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
-      "zoning",
-      "noise"
+      "environmental",
+      "noise",
+      "zoning"
     ],
     "authority_level": "developer",
     "objective": "Force withdrawal of $1B Diode Ventures rezoning in Charles City County through resident organizing",
@@ -5174,6 +5180,7 @@
     "energy_mw": 820,
     "investment_usd": 5000000000,
     "issue_category": [
+      "environmental",
       "transparency",
       "zoning"
     ],
@@ -6112,6 +6119,7 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
+      "environmental",
       "noise",
       "transparency"
     ],
@@ -10080,6 +10088,7 @@
     "county_lean": "R",
     "energy_mw": 754,
     "issue_category": [
+      "environmental",
       "transparency",
       "water"
     ],
@@ -11661,6 +11670,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "environmental",
       "noise",
       "traffic",
       "water",
@@ -13787,7 +13797,8 @@
     "county_lean": "D",
     "opposition_website": "https://edraofmi.org/",
     "issue_category": [
-      "community_impact"
+      "community_impact",
+      "environmental"
     ],
     "authority_level": "city_council",
     "objective": "Impose 12-month data centers moratorium in City of Northville",
@@ -14253,6 +14264,7 @@
     "county": "Fulton County",
     "county_lean": "D",
     "issue_category": [
+      "environmental",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -17158,6 +17170,7 @@
     "opposition_website": "https://sugarloafcitizens.org/",
     "issue_category": [
       "community_impact",
+      "environmental",
       "grid_energy",
       "water"
     ],
@@ -19524,6 +19537,7 @@
     "bill_name": "HB 1265",
     "bill_url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1685&inflect=2",
     "issue_category": [
+      "environmental",
       "grid_energy",
       "tax_incentive"
     ],
@@ -22691,6 +22705,7 @@
     "bill_url": "https://www.flsenate.gov/Session/Bill/2026/484",
     "county_lean": null,
     "issue_category": [
+      "environmental",
       "water",
       "zoning"
     ],
@@ -24994,9 +25009,10 @@
     "opposition_website": "https://protectfauquier.com/",
     "last_updated": "2026-03-14",
     "issue_category": [
-      "zoning",
+      "environmental",
+      "noise",
       "water",
-      "noise"
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Deny Headwaters Site Development data center on 67 acres in Fauquier County",
@@ -25180,9 +25196,10 @@
     "opposition_website": "https://www.pecva.org/region/orange/orange-county-residents-demand-commonsense-data-center-regulation/",
     "last_updated": "2026-03-23",
     "issue_category": [
+      "design_standards",
+      "environmental",
       "noise",
-      "zoning",
-      "design_standards"
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Adopt data center setback and noise-limit standards in Orange County",
@@ -25713,8 +25730,9 @@
     "last_updated": "2026-03-19",
     "acreage": 2.7,
     "issue_category": [
-      "zoning",
-      "water"
+      "environmental",
+      "water",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Block Deep Green rezoning of 2.7 acres in Lansing",
@@ -25968,6 +25986,7 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "community_impact",
+      "environmental",
       "zoning"
     ],
     "authority_level": "township_board",
@@ -26037,6 +26056,7 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "community_impact",
+      "environmental",
       "grid_energy"
     ],
     "authority_level": "city_council",
@@ -26330,6 +26350,7 @@
     "acreage": 34,
     "issue_category": [
       "community_impact",
+      "environmental",
       "transparency"
     ],
     "authority_level": "city_council",
@@ -26662,9 +26683,10 @@
     ],
     "last_updated": "2026-03-19",
     "issue_category": [
+      "anti_ai",
       "community_impact",
-      "zoning",
-      "anti_ai"
+      "environmental",
+      "zoning"
     ],
     "authority_level": "planning_commission",
     "objective": "Deny Texas Solar Works data center on 936 acres in Lubbock",
@@ -28280,6 +28302,7 @@
     "summary": "QTS Data Centers is undertaking a multi-phase expansion of its 194-acre East Windsor campus on Princeton Hightstown Road, formerly occupied by McGraw-Hill, with plans for 554,000 square feet of modernized facilities. Residents from the Twin Rivers community packed Planning Board hearings to challenge the expansion, raising concerns about water consumption, energy grid strain, and environmental risks from the facility's growing footprint.",
     "last_updated": "2026-03-19",
     "issue_category": [
+      "environmental",
       "grid_energy",
       "water"
     ],
@@ -28693,6 +28716,7 @@
     "bill_url": "https://legislature.vermont.gov/bill/status/2026/H.727",
     "summary": "Vermont H.727, the Sustainable Data Centers Act, sponsored by Rep. Laura Sibilia (I-Dover), regulates 'factory-sized developments' requiring 20+ MW power capacity. Focuses on proper siting, environmental protections, and ratepayer cost controls but applies the same requirements to all data centers regardless of technology or environmental footprint. A companion Senate bill, S.205, would ban data centers over 100 MW until July 2030 pending a Public Utility Commission study.",
     "issue_category": [
+      "environmental",
       "grid_energy",
       "ratepayer"
     ],
@@ -28900,6 +28924,7 @@
     "summary": "Northern New England Energy Company is proposing the 'Sanford Woods Industrial and Technical Campus,' a 100-300MW data center covering over 1,000 acres along the Mousam River in Sanford. The developer claims the facility would generate its own power using fuel cells, solar, and battery storage without burdening Maine's grid. The project is threatened by LD 307, a proposed state moratorium on data centers above 20MW. Local residents have raised concerns about noise, environmental damage, and the significant changes a facility of this scale would bring.",
     "last_updated": "2026-03-19",
     "issue_category": [
+      "environmental",
       "grid_energy",
       "noise"
     ],
@@ -28982,6 +29007,7 @@
     "summary": "A massive estimated $10 billion data center project backed by Georgia Lt. Gov. Burt Jones and his family is proposed for Butts County as part of the Highway 16 Interstate Health Development near I-75, which would include 11 million square feet of data centers. The project is expected to consume over 4.5 million gallons of water per day, more than tripling Butts County's current water usage. Georgia Attorney General Chris Carr accused Jones of using his office to benefit his family's property interests, and environmental advocates have flagged the lack of available information about the facility's cooling technology and energy demands.",
     "last_updated": "2026-03-17",
     "issue_category": [
+      "environmental",
       "transparency",
       "water"
     ],
@@ -29968,6 +29994,7 @@
     "county_lean": "R",
     "energy_mw": 320,
     "issue_category": [
+      "environmental",
       "farmland",
       "water"
     ],
@@ -32480,6 +32507,7 @@
     "summary": "The PRICE Act (Preventing Rate Inflation in Consumer Energy), HR6983, introduced by Reps. Rob Menendez (D-NJ) and Greg Casar (D-TX), would require data center operators to generate all electricity on-site rather than drawing from the grid. The bill mandates 75% renewable energy by 2035 and 100% by 2040, with civil penalties up to $100,000 per day for violations. Endorsed by the Consumer Federation of America and Evergreen Action, the companion Data Center Transparency Act (HR6984) would require EPA and EIA to collect quarterly environmental and energy data from every US data center.",
     "last_updated": "2026-03-19",
     "issue_category": [
+      "environmental",
       "grid_energy",
       "ratepayer"
     ],
@@ -33126,8 +33154,9 @@
     "opposition_facebook": "https://www.facebook.com/p/Indivisible-Downriver-United-734-61579457515345/",
     "issue_category": [
       "community_impact",
-      "zoning",
-      "ratepayer"
+      "environmental",
+      "ratepayer",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in Gibraltar after Raeden proposal",
@@ -35198,6 +35227,7 @@
     "county_lean": "R",
     "investment_usd": 73000000000,
     "issue_category": [
+      "environmental",
       "tax_incentive",
       "zoning"
     ],
@@ -36600,10 +36630,11 @@
     "last_updated": "2026-03-19",
     "county_lean": "R",
     "issue_category": [
+      "environmental",
       "farmland",
       "grid_energy",
-      "zoning",
-      "ratepayer"
+      "ratepayer",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Block Hut 8 rezoning of 200 acres in Logan County",
@@ -37247,8 +37278,9 @@
     "county_lean": "R",
     "company": "PowerHouse Industries",
     "issue_category": [
-      "zoning",
-      "water"
+      "environmental",
+      "water",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Meade County after PowerHouse Industries proposal",
@@ -37539,6 +37571,7 @@
     "bill_url": "https://leg.colorado.gov/bills/HB26-1030",
     "issue_category": [
       "community_impact",
+      "environmental",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
@@ -37809,9 +37842,10 @@
     "data_source": "web_research",
     "last_updated": "2026-03-19",
     "issue_category": [
-      "zoning",
+      "environmental",
+      "noise",
       "water",
-      "noise"
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Pause data centers in Detroit pending regulations",
@@ -38005,6 +38039,7 @@
     "opposition_facebook_members": 21,
     "issue_category": [
       "community_impact",
+      "environmental",
       "water"
     ],
     "authority_level": "county_commission",
@@ -39714,11 +39749,12 @@
     "issue_category": [
       "anti_ai",
       "community_impact",
+      "environmental",
       "grid_energy",
       "noise",
+      "ratepayer",
       "water",
-      "zoning",
-      "ratepayer"
+      "zoning"
     ],
     "authority_level": "developer",
     "objective": "Block conversion of Cleveland-Cliffs steel mill into 2M sq ft AI data center in Plymouth Township",
@@ -39826,12 +39862,13 @@
     "data_source": "web_research",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "zoning",
-      "farmland",
       "community_impact",
+      "environmental",
+      "farmland",
+      "noise",
       "tax_incentive",
       "water",
-      "noise"
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Stop Infrakey's $10B data center and block Lacy Lakeview annexation of 520-acre site near Waco",
@@ -39880,8 +39917,9 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "transparency",
-      "community_impact"
+      "community_impact",
+      "environmental",
+      "transparency"
     ],
     "county_lean": "D",
     "authority_level": "county_commission",
@@ -40623,11 +40661,12 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning",
-      "water",
+      "community_impact",
+      "environmental",
       "noise",
       "transparency",
-      "community_impact"
+      "water",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Block Avaio Digital's $3B, 300MW, 452-acre Project Hercules data center in Appomattox County",
@@ -40847,11 +40886,12 @@
     "data_source": "web_research",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "zoning",
-      "water",
-      "ratepayer",
+      "community_impact",
+      "environmental",
       "noise",
-      "community_impact"
+      "ratepayer",
+      "water",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Block $5B, 900MW Project Ruby data center on 900+ acres in Muscogee County",

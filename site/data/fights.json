@@ -1781,7 +1781,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Toiyabe Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -16981,9 +16983,9 @@
     "county": "Champaign County",
     "lat": 40.1084,
     "lng": -83.7524,
-    "action_type": "other_opposition",
+    "action_type": "moratorium",
     "date": "2026-02-01",
-    "status": "ongoing",
+    "status": "enacted",
     "company": "Thor Equities",
     "hyperscaler": null,
     "project_name": "Champaign County Data Center",
@@ -17002,7 +17004,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/no-data-centers-in-champaign-county-ohio",
     "petition_signatures": 5311,
-    "summary": "Thor Equities proposed a $1 billion, 500MW data center on 48 acres in Champaign County near Urbana. Business owners and citizens oppose the project due to its proximity to a new school, local nursing home, and condominium residences. Cedar Bog Nature Preserve has publicly supported the opposition effort. A petition highlights quality of life impacts including noise, air quality, and traffic concerns.",
+    "summary": "Thor Equities proposed a $1 billion, 500MW data center (Urbana Technology Hub) on 48+ acres in Champaign County near Urbana. On March 3, 2026, the Urbana City Council voted 6-1 to approve a 12-month moratorium on data centers over 10,000 sq ft, halting the project. Residents organized rapidly with 4,000+ online petition signatures within two weeks, citing threats to Cedar Bog Nature Preserve, noise, air quality, and water impacts. CyrusOne was also attached to the project. The moratorium takes effect immediately and gives the city time to study potential impacts.",
     "sources": [
       "https://www.change.org/p/no-data-centers-in-champaign-county-ohio",
       "https://www.cedarbognp.org/say-no-to-data-centers-please-sign-the-petition/",
@@ -17015,7 +17017,7 @@
       "https://wysu.org/ohio-news/2026-03-04/urbana-passes-moratorium-on-new-data-centers-leaving-1b-proposal-in-limbo"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "R",
     "investment_usd": 1000000000,
@@ -17026,7 +17028,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Thor Equities data center in Champaign County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "allen-park-mi-2026-02-01",
@@ -24606,7 +24608,7 @@
     "lng": -82.4613,
     "action_type": "other_opposition",
     "date": "2026-03-04",
-    "status": "pending",
+    "status": "approved",
     "company": "Williams Brothers Development",
     "hyperscaler": null,
     "project_name": "Project Azalea",
@@ -24625,14 +24627,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "McDuffie County Planning Commission recommended approval (5-1) of Project Azalea, a proposed data center development including up to six buildings across 200 acres on Randall Hunt Road near a large electrical substation. The facility would require 400 megawatts of energy and represent over $1 billion in investment. Residents raised concerns about lack of transparency, water and environmental impacts, with one resident noting she learned of the proposal through social media after purchasing a home specifically to escape data centers in neighboring Columbia County. A public hearing before the Board of Commissioners is scheduled for March 17, 2026.",
+    "summary": "McDuffie County Commission voted 3-1 on March 17, 2026 to approve Project Azalea, a $1 billion data center development by Williams Brothers Development. The project includes up to six buildings across 200 acres on Randall Hunt Road near a Georgia Power substation, requiring 400MW of energy from Jefferson Energy. Expected to bring 125 full-time jobs and $25 million in annual tax revenue. Despite community pushback over transparency, water consumption from Clarks Hill Lake, potential power bill increases, noise pollution, and insufficient energy supply, commissioners approved the rezoning with conditions including sound barriers and generator restrictions.",
     "sources": [
       "https://www.wrdw.com/2026/03/04/mcduffie-county-planning-panel-recommends-data-centers-approval/",
       "https://www.wrdw.com/2026/03/03/meeting-focus-plans-mcduffie-county-data-center/",
       "https://www.wrdw.com/2026/01/14/another-data-center-proposed-this-time-mcduffie-county/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-28",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -24645,7 +24647,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Oppose 400MW Project Azalea data center on 200 acres in McDuffie County",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "kansas-statewide-sb-526-ks-2026-03-04",
@@ -26191,10 +26193,10 @@
     "county": "Frederick County",
     "lat": 39.41,
     "lng": -77.41,
-    "action_type": "other_opposition",
+    "action_type": "legislation",
     "date": "2026-01-26",
     "status": "ongoing",
-    "summary": "After County Council voted 5-2 to adopt 2,615-acre 'Critical Digital Infrastructure' overlay zone, residents formed referendum committee. Board of Elections approved petition Jan 26; two-thirds of ~15,000 signatures gathered by early March. Backed by 13+ nonprofits including Farm Bureau. The DCRC submitted 22,169 petition signatures to the Board of Elections by the March 20 deadline, exceeding the ~15,000 required. Signatures must now be validated.",
+    "summary": "After the County Council voted 5-2 to adopt a 2,615-acre Critical Digital Infrastructure overlay zone in December 2025, residents formed the Frederick County Data Center Referendum Committee (DCRC). The Board of Elections approved the petition form on Jan 26, 2026. By the March 20 deadline, 22,169 petition signatures were submitted — well above the ~15,000 required (10% of registered voters). Backed by 13+ nonprofits including the Farm Bureau. Election officials have 20 days to verify signatures. The county attorney argues the zoning ordinance may not be eligible for referendum under the county charter. If signatures are validated and legal challenges fail, the referendum would appear on the November 2026 ballot.",
     "opposition_groups": [
       "Frederick County Data Center Referendum Committee",
       "Envision Frederick County",
@@ -26202,7 +26204,7 @@
     ],
     "opposition_website": "https://fcdcreferendum.org/",
     "petition_signatures": 22169,
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "petition_url": "https://fcdcreferendum.org/",
     "issue_category": [
       "community_impact",
@@ -26394,7 +26396,10 @@
     "objective": "Oppose tax incentives for Compass Datacenters in Meridian",
     "community_outcome": "loss",
     "megawatts": 500,
-    "investment_million_usd": 10000
+    "investment_million_usd": 10000,
+    "opposition_groups": [
+      "Center for Economic Accountability"
+    ]
   },
   {
     "scope": "local",
@@ -26944,7 +26949,11 @@
     "authority_level": "planning_commission",
     "objective": "Block Microsoft rezoning of 356 acres in Gaines Charter",
     "community_outcome": "win",
-    "petition_signatures": 415
+    "petition_signatures": 415,
+    "opposition_groups": [
+      "Gaines Township residents (ad hoc)",
+      "Michigan Economic Development Responsibility Alliance"
+    ]
   },
   {
     "scope": "statewide",
@@ -32117,10 +32126,10 @@
     "county": "Irwin County",
     "lat": 31.6002,
     "lng": -83.2767,
-    "action_type": "other_opposition",
+    "action_type": "project_withdrawal",
     "date": "2026-02-05",
-    "status": "active",
-    "summary": "Google proposing 1GW data center on 546 acres near Irwinville in agricultural zone. Planning Commission voted to recommend approval Feb 26. Residents concerned about water (1M+ gallons/day), noise, air pollution, and farmland loss. Change.org petition active. Opposition was led by Suwannee Riverkeeper and WWALS Watershed Coalition. A petition gathered 587 signatures. The outcome remains pending.",
+    "status": "withdrawn",
+    "summary": "Google proposed a 1GW data center on 546 acres near Irwinville in an agricultural zone. The Irwin County Planning Commission voted to recommend approval on Feb 26, 2026. However, the applicant withdrew the application on March 2, 2026 before the County Commission could vote, without prejudice to filing a similar application in the future. Opposition was led by Suwannee Riverkeeper/WWALS Watershed Coalition and concerned residents who raised alarms about water usage (1M+ gallons/day), impacts on the Alapaha River, noise, and farmland loss. Following the withdrawal, Irwin County began developing a data center ordinance, with a public hearing held March 17.",
     "opposition_website": "https://wwals.net/",
     "petition_url": "https://www.change.org/p/protect-irwin-county-from-data-centers",
     "last_updated": "2026-03-28",
@@ -32132,7 +32141,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Petition to block Google data center in Irwin County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "scope": "local",
@@ -33265,7 +33274,10 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 12-month data centers moratorium in Scioto Township",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "opposition_groups": [
+      "Scioto Township residents (ad hoc)"
+    ]
   },
   {
     "id": "deforest-wi-cancelled-2026-01",
@@ -33297,7 +33309,11 @@
     "authority_level": "city_council",
     "objective": "Community pressure forces QTS to withdraw in DeForest",
     "community_outcome": "win",
-    "investment_million_usd": 12000
+    "investment_million_usd": 12000,
+    "opposition_groups": [
+      "No Data Centers in DeForest"
+    ],
+    "opposition_facebook": "https://www.facebook.com/groups/nodatacentersdeforest"
   },
   {
     "id": "monroe-township-nj-2025-12-01",
@@ -34963,7 +34979,11 @@
     "authority_level": "planning_commission",
     "objective": "Deny NOVEC 300MW data center permit in Prince William",
     "community_outcome": "win",
-    "megawatts": 300
+    "megawatts": 300,
+    "opposition_groups": [
+      "Coalition to Protect Prince William County"
+    ],
+    "opposition_website": "https://protectpwc.org"
   },
   {
     "id": "beloit-wi-opposition-2026-03",
@@ -35705,7 +35725,9 @@
       "https://www.heraldextra.com/news/2026/mar/11/provo-city-council-denies-rezoning-request-for-data-center-at-east-bay/",
       "https://www.datacenterdynamics.com/en/news/city-council-of-provo-utah-votes-against-data-center-rezoning-proposal/"
     ],
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Provo East District residents (ad hoc)"
+    ],
     "data_source": "web_research",
     "last_updated": "2026-03-19",
     "energy_mw": 30,
@@ -36074,7 +36096,10 @@
     ],
     "authority_level": "city_council",
     "objective": "Ban data centers in all zones in Fayetteville",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "opposition_groups": [
+      "Fayetteville Freedom for All"
+    ]
   },
   {
     "id": "washington-township-macomb-mi-2026",
@@ -36642,7 +36667,10 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose Aligned Data Centers data center in Coal City",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "Coal City residents (ad hoc)"
+    ]
   },
   {
     "id": "minooka-il-2025-10-01",
@@ -36679,7 +36707,11 @@
     "community_outcome": "loss",
     "megawatts": 700,
     "investment_million_usd": 2000,
-    "water_usage_gallons_per_day": 3000000
+    "water_usage_gallons_per_day": 3000000,
+    "opposition_groups": [
+      "Minooka residents (ad hoc)"
+    ],
+    "petition_url": "https://www.change.org/p/no-data-centers-in-minooka-il"
   },
   {
     "id": "logan-county-il-2025-12-01",
@@ -36714,7 +36746,10 @@
     "authority_level": "county_commission",
     "objective": "Block Hut 8 rezoning of 200 acres in Logan County",
     "community_outcome": "pending",
-    "megawatts": 500
+    "megawatts": 500,
+    "opposition_groups": [
+      "Logan County residents (ad hoc)"
+    ]
   },
   {
     "id": "us-federal-warren-investigation-2025-12-15",
@@ -36941,12 +36976,12 @@
     "county": "Lee County",
     "lat": 35.4738,
     "lng": -79.1803,
-    "action_type": "other_opposition",
+    "action_type": "moratorium",
     "date": "2026-03-16",
     "status": "pending",
     "scope": "local",
     "company": "Deep River Data",
-    "summary": "Lee County residents packed a commissioners meeting on March 16 demanding a moratorium on data centers. Deep River Data plans to power an AI data center with fracked natural gas from Butler Well #3 — which would be a first for North Carolina. The gas well is approximately 2,700 feet deep with fractures known to travel up to 2,000 feet, raising groundwater contamination concerns. SELC attorney Brooks Rainey urged commissioners to adopt a moratorium.",
+    "summary": "Lee County commissioners voted 6-1 on March 16, 2026 to begin drafting a moratorium on data centers and cryptomining, following a packed public meeting where capacity crowds demanded action. Deep River Data plans to power an AI data center with fracked natural gas from Butler Well #3, which would be a first for North Carolina. Concerns center on groundwater contamination risks from the 2,700-foot well with fractures known to travel up to 2,000 feet. An Action Network petition calls for a moratorium. The moratorium language will be reviewed at an April workshop, with a public hearing to follow before a final vote.",
     "sources": [
       "https://www.wunc.org/2026-03-17/lee-county-residents-ask-for-a-data-center-moratorium",
       "https://sandhills.news/2026/01/06/lee-county-nc-fracking-and-data-center/",
@@ -36957,7 +36992,7 @@
       "Southern Environmental Law Center"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-03-28",
     "county_lean": "R",
     "issue_category": [
       "anti_ai",
@@ -36997,7 +37032,10 @@
     "authority_level": "county_commission",
     "objective": "Oppose QTS Technology Services data center over water in Blakely",
     "community_outcome": "pending",
-    "investment_million_usd": 290
+    "investment_million_usd": 290,
+    "opposition_groups": [
+      "Early County residents (ad hoc)"
+    ]
   },
   {
     "id": "stokes-county-nc-primary-2026-03",
@@ -37028,7 +37066,15 @@
     "community_outcome": "win",
     "company": "Engineered Land Solutions / Blue Ridge Companies",
     "acreage": 1800,
-    "project_name": "Project Delta"
+    "project_name": "Project Delta",
+    "opposition_groups": [
+      "National Hairston Clan",
+      "CleanAIRE NC",
+      "Dan River Basin Association",
+      "7 Directions of Service",
+      "Southern Environmental Law Center",
+      "Southern Coalition for Social Justice"
+    ]
   },
   {
     "id": "lee-county-tx-sandow-2026",
@@ -37203,7 +37249,10 @@
     ],
     "authority_level": "county_commission",
     "objective": "Create data center overlay zone in New Kent County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "New Kent County residents (ad hoc)"
+    ]
   },
   {
     "id": "virginia-hb-507-tier-iv-generators-2026-03",
@@ -37329,7 +37378,12 @@
     "authority_level": "county_commission",
     "objective": "Block rezoning of 800 acres in Franklin County",
     "community_outcome": "pending",
-    "company": "Provident Data Centers / Beltline Energy"
+    "company": "Provident Data Centers / Beltline Energy",
+    "opposition_groups": [
+      "Franklin County Rural Coalition",
+      "Labadie Environmental Organization",
+      "No AI Data Centers in Franklin County (Facebook group)"
+    ]
   },
   {
     "id": "meade-county-ky-moratorium-2026-01",
@@ -37587,7 +37641,11 @@
     "objective": "Community pressure forces withdrawal in Irwinville",
     "community_outcome": "win",
     "company": "Marcus D Fletcher Trust",
-    "acreage": 546
+    "acreage": 546,
+    "opposition_groups": [
+      "WWALS Watershed Coalition (Suwannee Riverkeeper)"
+    ],
+    "opposition_website": "https://wwals.net"
   },
   {
     "id": "logan-county-co-regulations-2026-02",
@@ -37723,7 +37781,10 @@
     ],
     "authority_level": "court",
     "objective": "Challenge TIF financing for Diode Ventures data center",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "opposition_groups": [
+      "Kuna area farmers (lawsuit plaintiffs)"
+    ]
   },
   {
     "id": "montana-northwestern-1400mw-2026",
@@ -37831,7 +37892,10 @@
     "objective": "Block Monarch Data Center rezoning of 505 acres in Lyon County",
     "community_outcome": "loss",
     "megawatts": 1000,
-    "investment_million_usd": 11000
+    "investment_million_usd": 11000,
+    "opposition_groups": [
+      "Lyon County residents (ad hoc)"
+    ]
   },
   {
     "id": "dona-ana-county-air-permits-nm-2026",
@@ -37867,7 +37931,12 @@
     "megawatts": 800,
     "investment_million_usd": 50000,
     "acreage": 1400,
-    "project_name": "Project Jupiter"
+    "project_name": "Project Jupiter",
+    "opposition_groups": [
+      "Empowerment Congress of Dona Ana County",
+      "New Mexico Environmental Law Center",
+      "Sierra Club Rio Grande Chapter"
+    ]
   },
   {
     "id": "east-lansing-mi-moratorium-2026-03-17",
@@ -37895,7 +37964,10 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose 6-month data centers moratorium in East Lansing",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "opposition_groups": [
+      "Michigan Economic Development Responsibility Alliance"
+    ]
   },
   {
     "id": "detroit-mi-moratorium-2026-03-18",
@@ -37925,7 +37997,11 @@
     ],
     "authority_level": "city_council",
     "objective": "Pause data centers in Detroit pending regulations",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "opposition_groups": [
+      "Michigan Economic Development Responsibility Alliance",
+      "Michigan Sierra Club"
+    ]
   },
   {
     "id": "grant-county-ar-2025-10-01",
@@ -38853,7 +38929,7 @@
     "lng": -85.776,
     "action_type": "other_opposition",
     "date": "2026-01-01",
-    "status": "defeated",
+    "status": "approved",
     "scope": "local",
     "company": "Prologis",
     "hyperscaler": null,
@@ -38861,7 +38937,7 @@
     "megawatts": null,
     "acreage": 429,
     "water_usage_gallons_per_day": null,
-    "summary": "Prologis proposed annexing and rezoning 429 acres east of the SR 44 and I-74 interchange from agricultural to industrial for a data center campus of up to 13 buildings across three phases. After a five-hour meeting on January 7, 2026, the Shelbyville Plan Commission gave an 'unfavorable' recommendation. Over 6,700 people signed a petition organized by the 'Shelby County citizens against data centers' group (2,400 Facebook members). Residents cited concerns about noise, water usage, and tax incentives. The City Council subsequently tabled the annexation vote. This was at least the third Indiana data center rejection in four months.",
+    "summary": "Prologis proposed annexing and rezoning 429 acres east of the SR 44 and I-74 interchange from agricultural to industrial for a data center campus of up to 13 buildings. After a five-hour meeting on January 7, 2026, the Shelbyville Plan Commission gave an 'unfavorable' recommendation. Over 6,700 people signed a petition organized by 'Shelbyville Citizens Against Data Centers.' Despite the plan commission rejection and overwhelming public opposition, the City Council voted 5-1 (one abstention) to approve the annexation in February 2026. The council subsequently tabled and then approved the annexation after a 30-day delay for environmental review.",
     "sources": [
       "https://www.wrtv.com/news/local-news/shelby-county/shelbyville/opposition-grows-against-proposed-data-center-in-shelby-county",
       "https://www.wthr.com/article/news/local/shelbyville-plan-commission-says-no-429-acre-data-center-project-local-news-construction/531-17a451a1-64e7-4023-b5bf-fdeee3f26f4f",
@@ -38878,7 +38954,7 @@
     "petition_url": null,
     "petition_signatures": 6700,
     "data_source": "crdcd_map",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-03-28",
     "county_lean": "R",
     "issue_category": [
       "farmland",
@@ -38889,7 +38965,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Petition to block Prologis data center in Shelby County",
-    "community_outcome": "win"
+    "community_outcome": "loss"
   },
   {
     "id": "warrick-county-in-2025-12-01",
@@ -39462,7 +39538,10 @@
     "authority_level": "city_council",
     "objective": "Oppose Crane Data Centers campus adjacent to residential homes",
     "community_outcome": "loss",
-    "megawatts": 100
+    "megawatts": 100,
+    "opposition_groups": [
+      "Forest Grove neighbors (ad hoc)"
+    ]
   },
   {
     "id": "boone-nc-moratorium-2026-03-23",
@@ -39530,7 +39609,10 @@
       "zoning"
     ],
     "authority_level": "county_commission",
-    "objective": "Impose moratorium on data centers and crypto mining in Washington County through June 2027"
+    "objective": "Impose moratorium on data centers and crypto mining in Washington County through June 2027",
+    "opposition_groups": [
+      "Washington County Planning Commission"
+    ]
   },
   {
     "id": "prince-william-county-va-2024-01-12",
@@ -40021,7 +40103,9 @@
     "building_sq_ft": 600000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Franklin residents (ad hoc)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40159,7 +40243,9 @@
     "building_sq_ft": 6000000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Sierra Club Delaware Chapter"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40307,7 +40393,9 @@
     "building_sq_ft": 180000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "GES Coalition"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40606,7 +40694,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Nature Forward",
+      "Gunpowder Riverkeeper"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -40647,7 +40738,7 @@
     "lng": -88.4473,
     "action_type": "other_opposition",
     "date": "2026-03-24",
-    "status": "ongoing",
+    "status": "approved",
     "company": "Prologis",
     "hyperscaler": null,
     "project_name": "Project Steel",
@@ -41152,7 +41243,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Boulder City Climate Action Group"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -41297,7 +41390,10 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Coalition for Responsible Data Center Development",
+      "Apple Valley Eco Advocates"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -41588,7 +41684,9 @@
     "building_sq_ft": 568800,
     "water_usage_gallons_per_day": null,
     "jobs_promised": 30,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Stop the AI Data Center in Independence (Facebook group)"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,
@@ -41733,7 +41831,9 @@
     "building_sq_ft": null,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
-    "opposition_groups": [],
+    "opposition_groups": [
+      "Deep South Center for Environmental Justice"
+    ],
     "opposition_website": null,
     "opposition_facebook": null,
     "opposition_instagram": null,

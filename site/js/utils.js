@@ -29,6 +29,30 @@ const ACTION_TOOLTIPS = {
   study_or_report: 'A commissioned study, environmental review, or federal impact assessment',
 };
 
+const AUTHORITY_TOOLTIPS = {
+  city_council: 'City or town council — elected municipal governing body',
+  county_commission: 'County board of commissioners or supervisors',
+  township_board: 'Township board of trustees — governs unincorporated townships',
+  village_board: 'Village council or board of trustees',
+  planning_commission: 'Appointed planning or zoning board that reviews land use applications',
+  state_legislature: 'State senate and/or house of representatives',
+  governor: 'State governor — executive orders, vetoes, bill signings',
+  utility_commission: 'Public utility/service commission (PSC, PUC, FERC) — appointed regulators',
+  federal_legislature: 'U.S. Congress — Senate and House bills',
+  federal_executive: 'President — executive orders and proclamations',
+  federal_agency: 'Federal agency (EPA, Army Corps, FERC) — administrative rulings',
+  court: 'State or federal court — lawsuits, injunctions, appeals',
+  voters: 'Direct democracy — ballot initiatives, referendums, recall elections',
+  developer: 'The developer themselves — voluntary withdrawal or cancellation',
+  advocacy_org: 'Advocacy organization or coalition leading the action',
+  tribal_government: 'Tribal nation government exercising sovereignty',
+};
+
+function getAuthorityTooltip(authority) {
+  if (!authority) return '';
+  return AUTHORITY_TOOLTIPS[authority] || authority.replace(/_/g, ' ');
+}
+
 function getActionTooltip(action) {
   if (!action) return '';
   return ACTION_TOOLTIPS[action] || action.replace(/_/g, ' ');

@@ -558,7 +558,7 @@ function updateHyperscalerBar(filtered) {
 // Size-by metric configuration
 const SIZE_METRICS = {
   energy: {
-    getValue: f => f.megawatts || (f.investment_million_usd ? f.investment_million_usd * 0.5 : null),
+    getValue: f => f.megawatts,
     minR: 4, maxR: 26, logScale: true,
     label: 'project power',
     formatTip: (f) => f.megawatts ? formatPower(f.megawatts) : (f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null),
@@ -1162,7 +1162,7 @@ function clearFilters() {
   document.getElementById('filter-issue').value = '';
   document.getElementById('filter-hyperscaler').value = '';
   selectedHyperscalers.clear();
-  document.getElementById('size-by').value = 'petitions';
+  document.getElementById('size-by').value = 'investment';
   document.getElementById('search-input').value = '';
   document.querySelectorAll('.col-filter-input').forEach(inp => { inp.value = ''; });
   render();

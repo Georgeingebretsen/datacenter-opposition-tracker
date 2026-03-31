@@ -3917,7 +3917,8 @@
       "farmland",
       "grid_energy",
       "noise",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "township_board",
     "objective": "Force public referendum on Thor Equities data center in Augusta Charter",
@@ -4520,7 +4521,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/preservingboonecounty",
     "petition_signatures": 2581,
-    "summary": "Meta's $10B+, 1 GW data center campus on 1,500 acres in Lebanon's LEAP District. Uses ~5M gallons/day. Wabash Valley Power Alliance increasing transmission spending by 1,300% ($627M) primarily for Meta, with costs likely passed to ratepayers. 200+ people rallied in Feb 2026. The project involves $10 billion in investment, 1500 acres. The facility would consume approximately 5 million gallons per day. Opposition was led by Boone County Preservation Group and Citizens Action Coalition. A petition gathered 2,581 signatures.",
+    "summary": "Meta's $10B+, 1 GW data center campus on 1,500 acres in Lebanon's LEAP District. Uses ~5M gallons/day. Wabash Valley Power Alliance increasing transmission spending by 1,300% ($627M) primarily for Meta, with costs likely passed to ratepayers. 200+ people rallied in Feb 2026. Opposition was led by Boone County Preservation Group and Citizens Action Coalition. A petition gathered 2,581 signatures.",
     "sources": [
       "https://www.wfyi.org/news/articles/indiana-data-center-protest-lebanon-meta",
       "https://www.datacenterdynamics.com/en/news/meta-announces-1gw-data-center-campus-in-indiana/",
@@ -4595,7 +4596,8 @@
       "environmental",
       "grid_energy",
       "water",
-      "anti_ai"
+      "anti_ai",
+      "ratepayer"
     ],
     "authority_level": "utility_commission",
     "objective": "Oppose transmission lines for Meta data center",
@@ -6943,7 +6945,8 @@
       "environmental",
       "noise",
       "transparency",
-      "water"
+      "water",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Organize coalition against Prologis data center in Butler County",
@@ -7050,6 +7053,7 @@
     "issue_category": [
       "ratepayer",
       "tax_incentive",
+      "transparency",
       "water"
     ],
     "authority_level": "county_commission",
@@ -7615,6 +7619,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "transparency",
       "water",
       "zoning"
     ],
@@ -7670,7 +7675,8 @@
     "issue_category": [
       "community_impact",
       "farmland",
-      "noise"
+      "noise",
+      "ratepayer"
     ],
     "authority_level": "township_board",
     "objective": "Petition to block Thor Equities data center in Milan",
@@ -8017,7 +8023,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "The City of Bristol enacted a 2-year moratorium on data processing centers in October 2025, passing unanimously on both readings (Sep 9 and Oct 7). The city had no existing zoning regulations for data centers. Part of a wave of moratoria in the Tri-Cities region of northeast Tennessee. Key concerns driving this action include community impacts. The outcome remains pending as of 2025-10-07.",
+    "summary": "The City of Bristol enacted a 2-year moratorium on data processing centers in October 2025, passing unanimously on both readings (Sep 9 and Oct 7). The city had no existing zoning regulations for data centers. Part of a wave of moratoria in the Tri-Cities region of northeast Tennessee. Key concerns driving this action include community impacts. The outcome remains pending.",
     "sources": [
       "https://www.wjhl.com/news/local/data-center-moratorium-approved-by-bristol-tn-city-council/",
       "https://heraldcourier.com/news/local/government-politics/article_6d17d036-28fb-484d-9f0d-b28e4310216d.html"
@@ -8252,7 +8258,7 @@
     "action_type": "moratorium",
     "status": "active",
     "date": "2025-10-14",
-    "summary": "Manchester Township enacted a 2-year moratorium on data center development on October 14, 2025 -- one of the longest moratorium durations among Michigan communities. The township is located in Washtenaw County near several other communities that have also enacted moratoria. Opposition was led by Michiganders Against Data Centers and Economic Development Responsibility Alliance of Michigan. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2025-10-14.",
+    "summary": "Manchester Township enacted a 2-year moratorium on data center development on October 14, 2025 -- one of the longest moratorium durations among Michigan communities. The township is located in Washtenaw County near several other communities that have also enacted moratoria. Opposition was led by Michiganders Against Data Centers and Economic Development Responsibility Alliance of Michigan. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
       "https://themanchestermirror.com/2026/02/09/data-center-moratoriums-pile-up-in-michigan-no-one-knows-if-theyll-work/",
@@ -8560,7 +8566,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Stafford County adopted strict data center regulations including a 750-foot setback from residences, 55 dB noise cap, and 50-200 foot vegetative buffers after a 9+ hour board meeting. The county has 18 data center proposals in the pipeline with five grandfathered projects. The Multiple (Vantage, Stack, Amazon/AWS) project involves 82 acres. Opposition was led by Protect Stafford. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2025-10-22.",
+    "summary": "Stafford County adopted strict data center regulations including a 750-foot setback from residences, 55 dB noise cap, and 50-200 foot vegetative buffers after a 9+ hour board meeting. The county has 18 data center proposals in the pipeline with five grandfathered projects. The Multiple (Vantage, Stack, Amazon/AWS) project involves 82 acres. Opposition was led by Protect Stafford. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.fredericksburgfreepress.com/2025/10/22/a-home-run-for-data-center-critics-stafford-supervisors-adopt-750-foot-setback/",
       "https://www.vedp.org/press-release/2025-11/vantage-stafford"
@@ -9102,7 +9108,8 @@
     "issue_category": [
       "community_impact",
       "zoning",
-      "water"
+      "water",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Whitmore & Blackwell data center in Kokomo",
@@ -9344,7 +9351,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Jonesborough enacted a 2-year moratorium on data processing centers and cryptocurrency operations, passing unanimously (first reading Oct 13, final Nov 3, 2025). Mayor Kelly Wolfe said the town was \"wholly unprepared\" for cryptocurrency mines. Expires Oct 13, 2027. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2025-11-03.",
+    "summary": "Jonesborough enacted a 2-year moratorium on data processing centers and cryptocurrency operations, passing unanimously (first reading Oct 13, final Nov 3, 2025). Mayor Kelly Wolfe said the town was \"wholly unprepared\" for cryptocurrency mines. Expires Oct 13, 2027. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://wcyb.com/news/local/jonesborough-approves-data-center-moratorium-and-cannabis-distribution-changes",
       "https://www.wjhl.com/news/local/jonesborough-bma-passes-data-center-moratorium/",
@@ -9583,7 +9590,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Tama County Board of Supervisors approved moratoriums on both data mining/centers and battery storage on November 10, 2025. Applies to all proposed facilities regardless of size, technology, or location. Typo corrections made in follow-up meetings Nov 17-18. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2025-11-10.",
+    "summary": "Tama County Board of Supervisors approved moratoriums on both data mining/centers and battery storage on November 10, 2025. Applies to all proposed facilities regardless of size, technology, or location. Typo corrections made in follow-up meetings Nov 17-18. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.northtamatelegraph.com/news/local-news/2025/11/21/last-weeks-tama-county-supervisors-meeting/",
       "https://www.tamatoledonews.com/news/local-news/2025/11/21/fixing-typos-this-weeks-tama-county-supervisors-meeting/",
@@ -10525,7 +10532,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/ban-ai-data-centers-in-michigan",
     "petition_signatures": 11077,
-    "summary": "Big Rapids Township passed an ordinance banning data centers in its 120-acre airport industrial park, part of a wave of at least 27 Michigan communities enacting moratoria or zoning restrictions on data center development amid concerns about grid strain and inadequate local zoning codes. Opposition was led by Michiganders Against Data Centers and Economic Development Responsibility Alliance of Michigan. A petition gathered 11,077 signatures. The outcome remains pending as of 2025-12-01.",
+    "summary": "Big Rapids Township passed an ordinance banning data centers in its 120-acre airport industrial park, part of a wave of at least 27 Michigan communities enacting moratoria or zoning restrictions on data center development amid concerns about grid strain and inadequate local zoning codes. Opposition was led by Michiganders Against Data Centers and Economic Development Responsibility Alliance of Michigan. A petition gathered 11,077 signatures. The outcome remains pending.",
     "sources": [
       "https://www.bigrapidsnews.com/news/article/new-ordinance-bans-data-centers-big-rapids-21225421.php",
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
@@ -11197,7 +11204,8 @@
     "county_lean": "R",
     "issue_category": [
       "zoning",
-      "anti_ai"
+      "anti_ai",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Pause data centers and solar in Breckinridge County pending regulations",
@@ -11212,7 +11220,7 @@
     "action_type": "moratorium",
     "status": "active",
     "date": "2025-12-02",
-    "summary": "Tyrone Township (Livingston County) enacted a 6-month moratorium on data center development on December 2, 2025. The township is located near Howell Township, where a major $1 billion Meta data center proposal generated significant community opposition. Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2025-12-02.",
+    "summary": "Tyrone Township (Livingston County) enacted a 6-month moratorium on data center development on December 2, 2025. The township is located near Howell Township, where a major $1 billion Meta data center proposal generated significant community opposition. Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
       "https://titletrackmichigan.org/datacenters/",
@@ -14584,7 +14592,7 @@
     "action_type": "moratorium",
     "status": "active",
     "date": "2026-01-13",
-    "summary": "Saginaw City Council unanimously approved a resolution enacting a 6-month blanket prohibition of data centers on January 13, 2026. Council members aim to finalize a comprehensive data center policy within that timeframe to ensure responsible development that benefits the community long term. Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2026-01-13.",
+    "summary": "Saginaw City Council unanimously approved a resolution enacting a 6-month blanket prohibition of data centers on January 13, 2026. Council members aim to finalize a comprehensive data center policy within that timeframe to ensure responsible development that benefits the community long term. Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.wnem.com/2026/01/13/city-saginaw-placing-moratorium-data-centers/",
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
@@ -14778,7 +14786,7 @@
     "action_type": "moratorium",
     "status": "active",
     "date": "2026-01-14",
-    "summary": "Armada Township enacted a 180-day moratorium on data center development starting January 14, 2026. The moratorium gives the township time to review zoning, infrastructure capacity, and land use impacts before any data center applications can proceed. Opposition was led by Michiganders Against Data Centers and Stop Washington Township Data Center. A petition gathered 11,077 signatures. The outcome remains pending as of 2026-01-14.",
+    "summary": "Armada Township enacted a 180-day moratorium on data center development starting January 14, 2026. The moratorium gives the township time to review zoning, infrastructure capacity, and land use impacts before any data center applications can proceed. Opposition was led by Michiganders Against Data Centers and Stop Washington Township Data Center. A petition gathered 11,077 signatures. The outcome remains pending.",
     "sources": [
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
       "https://titletrackmichigan.org/datacenters/",
@@ -15084,7 +15092,8 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "water",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "planning_commission",
     "objective": "Block Gamma Resources rezoning of 295 acres in Yukon",
@@ -15332,7 +15341,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-massive-nebius-data-center-in-independence-mo",
     "petition_signatures": 142,
-    "summary": "Kansas City Council unanimously approved zoning changes reclassifying data centers as industrial facilities, limiting them to specific zoning districts, revoking by-right status for larger data centers, and requiring City Council approval and will-serve letters from water and electric utilities. Opposition was led by KC Data Center Watchdog and Stop the AI Data Center in Independence. A petition gathered 142 signatures. Key concerns driving this action include energy grid strain. The outcome remains pending as of 2026-01-16.",
+    "summary": "Kansas City Council unanimously approved zoning changes reclassifying data centers as industrial facilities, limiting them to specific zoning districts, revoking by-right status for larger data centers, and requiring City Council approval and will-serve letters from water and electric utilities. Opposition was led by KC Data Center Watchdog and Stop the AI Data Center in Independence. A petition gathered 142 signatures. Key concerns driving this action include energy grid strain. The outcome of these regulatory changes remains pending.",
     "sources": [
       "https://www.kcur.org/housing-development-section/2026-01-16/kansas-city-zoning-data-centers",
       "https://www.smartcitiesdive.com/news/data-centers-kansas-city-zoning-ordinance/811587/",
@@ -15553,7 +15562,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Establishes moratorium on data center construction from July 1, 2026 to December 31, 2028. Creates 14-member Data Center Impact Commission to conduct three-year study of impacts on energy, environment, water, health, and housing. Report due October 1, 2029. Opposition was led by Sierra Club Georgia Chapter and Science for Georgia. The outcome remains pending as of 2026-01-20.",
+    "summary": "Establishes moratorium on data center construction from July 1, 2026 to December 31, 2028. Creates 14-member Data Center Impact Commission to conduct three-year study of impacts on energy, environment, water, health, and housing. Report due October 1, 2029. Opposition was led by Sierra Club Georgia Chapter and Science for Georgia. The outcome remains pending.",
     "sources": [
       "https://legiscan.com/GA/bill/HB1059/2025",
       "https://georgiarecorder.com/2026/01/20/outrage-over-surge-of-data-centers-in-georgia-inspires-wave-of-bipartisan-bills/",
@@ -15896,7 +15905,7 @@
     "action_type": "moratorium",
     "status": "active",
     "date": "2026-01-22",
-    "summary": "Sylvan Township (near Chelsea, Washtenaw County) enacted a 6-month moratorium on data centers on January 22, 2026. Supervisor Amanda Nimke stated: 'We clearly can't stop them, but we can control them in a way that they're not going to be proposed in an area that will undermine a community.' Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending as of 2026-01-22.",
+    "summary": "Sylvan Township (near Chelsea, Washtenaw County) enacted a 6-month moratorium on data centers on January 22, 2026. Supervisor Amanda Nimke stated: 'We clearly can't stop them, but we can control them in a way that they're not going to be proposed in an area that will undermine a community.' Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include zoning concerns. The outcome remains pending.",
     "sources": [
       "https://thesuntimesnews.com/sylvan-township-decides-on-data-center-moratorium-and-new-computers/",
       "https://bridgemi.com/michigan-environment-watch/at-least-19-michigan-towns-pause-data-centers-no-one-knows-if-itll-work/",
@@ -16021,6 +16030,7 @@
     "issue_category": [
       "environmental",
       "grid_energy",
+      "transparency",
       "water"
     ],
     "authority_level": "city_council",
@@ -16036,7 +16046,7 @@
     "action_type": "moratorium",
     "status": "active",
     "date": "2026-01-26",
-    "summary": "The Village of Romeo enacted a data center moratorium on January 26, 2026, joining the wave of Macomb County communities (including nearby Armada Township, Lenox Township, and Sterling Heights) in pausing data center development while drafting appropriate regulations. Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include environmental impacts and zoning concerns. The outcome remains pending as of 2026-01-26.",
+    "summary": "The Village of Romeo enacted a data center moratorium on January 26, 2026, joining the wave of Macomb County communities (including nearby Armada Township, Lenox Township, and Sterling Heights) in pausing data center development while drafting appropriate regulations. Opposition was led by Michiganders Against Data Centers. A petition gathered 11,077 signatures. Key concerns driving this action include environmental impacts and zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact",
       "https://titletrackmichigan.org/datacenters/",
@@ -16181,7 +16191,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Larimer County Commissioners voted 3-0 for a 30-day moratorium on data center permit applications on January 27, 2026, extended to 6 months after Feb 9 public hearing. Spurred by inquiries from two data center developers. County developing specific land-use regulations for data centers. Key concerns driving this action include community impacts and zoning concerns. The outcome remains pending as of 2026-01-27.",
+    "summary": "Larimer County Commissioners voted 3-0 for a 30-day moratorium on data center permit applications on January 27, 2026, extended to 6 months after Feb 9 public hearing. Spurred by inquiries from two data center developers. County developing specific land-use regulations for data centers. Key concerns driving this action include community impacts and zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.reporterherald.com/2026/01/26/larimer-county-eyes-30-day-moratorium-on-data-center-permits/",
       "https://1310kfka.com/news/01/larimer-county-hits-pause-on-data-centers-consideration/",
@@ -16229,7 +16239,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Originally revoked data center sales tax exemptions; amended to impose 1% sales tax on data centers with proceeds going to host local governments. Includes controversial provision removing local zoning control for less-desirable agricultural land. Passed House 54-45, stalled in Senate. Opposition was led by Citizens Action Coalition, Hoosier Action, and Hoosier Environmental Council. The outcome remains pending as of 2026-01-27.",
+    "summary": "Originally revoked data center sales tax exemptions; amended to impose 1% sales tax on data centers with proceeds going to host local governments. Includes controversial provision removing local zoning control for less-desirable agricultural land. Passed House 54-45, stalled in Senate. Opposition was led by Citizens Action Coalition, Hoosier Action, and Hoosier Environmental Council. The outcome remains pending.",
     "sources": [
       "https://indianapublicradio.org/news/2026/03/at-a-pivotal-moment-for-data-centers-indiana-lawmakers-take-little-action/",
       "https://www.ipm.org/news/2026-02-04/house-bill-could-provide-benefit-to-communities-that-host-data-centers",
@@ -16657,7 +16667,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Creates Data Center Development Office. Establishes tiered permitting system (Tier 1: 1-10 MW; Tier 2: 11-50 MW; Tier 3: 50+ MW). Requires data centers to pay full infrastructure costs. Mandates water efficiency, noise controls, buffer zones, and decommissioning plans. Key concerns driving this action include community impacts and zoning concerns. The outcome remains pending as of 2026-01-29.",
+    "summary": "Creates Data Center Development Office. Establishes tiered permitting system (Tier 1: 1-10 MW; Tier 2: 11-50 MW; Tier 3: 50+ MW). Requires data centers to pay full infrastructure costs. Mandates water efficiency, noise controls, buffer zones, and decommissioning plans. Key concerns driving this action include community impacts and zoning concerns. The outcome remains pending.",
     "sources": [
       "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm",
       "https://www.fitsnews.com/2026/01/30/fitsforum-data-center-development-act-is-a-balanced-path-forward/"
@@ -17259,7 +17269,7 @@
     "date": "2026-02-01",
     "action_type": "legislation",
     "status": "active",
-    "summary": "HB 2756 protects retail electricity customers from data center grid connection costs. Additional bills HB 2795 (preempts counties from preventing SMR construction near data centers) also advanced. Several other proposals (HB 2452, HB 4009, HB 2457) were killed or failed. The outcome remains pending as of 2026-02-01. The community's stated objective was to require data centers to fund grid upgrades via HB 2756.",
+    "summary": "HB 2756 protects retail electricity customers from data center grid connection costs. Additional bills HB 2795 (preempts counties from preventing SMR construction near data centers) also advanced. Several other proposals (HB 2452, HB 4009, HB 2457) were killed or failed. The outcome remains pending. The community's stated objective was to require data centers to fund grid upgrades via HB 2756.",
     "sources": [
       "https://www.multistate.us/insider/2026/3/3/local-government-data-center-oversight-becomes-flashpoint-in-state-capitols",
       "https://www.multistate.us/insider/2026/2/20/state-data-center-legislation-in-2026-tackles-energy-and-tax-issues",
@@ -17309,7 +17319,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Prohibits utilities from serving data centers with 100+ MW aggregate contract capacity unless the Public Service Commission approves a specific tariff with minimum requirements including contract durations, early termination fees, load ramp terms, and financial assurances. Key concerns driving this action include ratepayer cost concerns. The outcome remains pending as of 2026-02-01.",
+    "summary": "Prohibits utilities from serving data centers with 100+ MW aggregate contract capacity unless the Public Service Commission approves a specific tariff with minimum requirements including contract durations, early termination fees, load ramp terms, and financial assurances. Key concerns driving this action include ratepayer cost concerns. The outcome remains pending.",
     "sources": [
       "https://apps.legislature.ky.gov/record/26rs/HB544.html",
       "https://www.lpm.org/news/2026-02-12/gop-bill-seeks-guardrails-for-new-data-centers-to-pay-their-own-way-in-kentucky",
@@ -17439,7 +17449,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Would permanently ban data centers from using Mahomet Aquifer groundwater, the sole-source drinking water for ~1 million people across 14 counties. Also prohibits local governments from entering NDAs with data center companies and requires transparency in water usage. The outcome remains pending as of 2026-02-01. The community's stated objective was to ban data center development NDAs in IL.",
+    "summary": "Would permanently ban data centers from using Mahomet Aquifer groundwater, the sole-source drinking water for ~1 million people across 14 counties. Also prohibits local governments from entering NDAs with data center companies and requires transparency in water usage. The outcome remains pending. The community's stated objective was to ban data center development NDAs in IL.",
     "sources": [
       "https://www.wcia.com/news/champaign-county/new-package-of-energy-bills-would-impose-moratorium-on-data-centers-built-on-mahomet-aquifer/",
       "https://www.news-gazette.com/business/ammons-rose-tout-bills-on-data-centers-and-energy/article_33da2629-19fb-4b76-9814-5f0ff4183205.html",
@@ -17987,7 +17997,8 @@
     "county_lean": "D",
     "issue_category": [
       "zoning",
-      "water"
+      "water",
+      "ratepayer"
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Lodi Township",
@@ -18381,7 +18392,8 @@
     "bill_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/867.htm",
     "issue_category": [
       "transparency",
-      "water"
+      "water",
+      "ratepayer"
     ],
     "authority_level": "state_legislature",
     "objective": "Mandate data center water usage disclosure in SC",
@@ -19887,7 +19899,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Blanchester Village Council unanimously approved a moratorium on Feb. 12, 2026, after AWS proposed a $3B data center in nearby Wilmington (which was tabled) and other projects emerged in Mt. Orab. Council cited concerns about being 'circled' by surrounding proposals. The Amazon/AWS project involves 471 acres. Opposition was led by Coalition Against Data Centers in South Ohio. Key concerns driving this action include zoning concerns and community impacts. The outcome remains pending as of 2026-02-12.",
+    "summary": "Blanchester Village Council unanimously approved a moratorium on Feb. 12, 2026, after AWS proposed a $3B data center in nearby Wilmington (which was tabled) and other projects emerged in Mt. Orab. Council cited concerns about being 'circled' by surrounding proposals. The Amazon/AWS project involves 471 acres. Opposition was led by Coalition Against Data Centers in South Ohio. Key concerns driving this action include zoning concerns and community impacts. The outcome remains pending.",
     "sources": [
       "https://www.alleghenyfront.org/ohio-towns-are-pushing-back-against-data-centers-to-varying-degrees-of-success/",
       "https://www.wyso.org/news/2025-12-02/amazon-proposes-4b-data-center-in-wilmington-seeks-tax-abatement",
@@ -22566,7 +22578,8 @@
     "issue_category": [
       "noise",
       "water",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in City of Kings after T5 Data Centers proposal",
@@ -22788,7 +22801,8 @@
       "grid_energy",
       "water",
       "design_standards",
-      "anti_ai"
+      "anti_ai",
+      "ratepayer"
     ],
     "authority_level": "state_legislature",
     "objective": "Require closed-loop cooling for data centers in MO",
@@ -23118,7 +23132,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Comprehensive energy affordability bill that passed the House 128-27. Includes data center provisions to protect ratepayers from subsidizing data center energy costs. Also addresses clean energy procurement, nuclear energy restrictions, and offshore wind deadlines. Now in Senate. The outcome remains pending as of 2026-02-26.",
+    "summary": "Comprehensive energy affordability bill that passed the House 128-27. Includes data center provisions to protect ratepayers from subsidizing data center energy costs. Also addresses clean energy procurement, nuclear energy restrictions, and offshore wind deadlines. Now in Senate. The outcome remains pending.",
     "sources": [
       "https://malegislature.gov/Bills/194/H5151",
       "https://solarbuildermag.com/policy/massachusetts-state-house-passes-comprehensive-energy-reform-bill/",
@@ -23199,7 +23213,8 @@
     "issue_category": [
       "environmental",
       "tax_incentive",
-      "anti_ai"
+      "anti_ai",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Deny TigerDC 400MW data center permit in Spartanburg County",
@@ -23494,6 +23509,7 @@
     "county_lean": "R",
     "issue_category": [
       "farmland",
+      "transparency",
       "water"
     ],
     "authority_level": "planning_commission",
@@ -24360,7 +24376,8 @@
     "issue_category": [
       "tax_incentive",
       "transparency",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Mercer County after NextEra Energy Resources proposal",
@@ -25091,7 +25108,8 @@
     "last_updated": "2026-03-28",
     "issue_category": [
       "community_impact",
-      "noise"
+      "noise",
+      "transparency"
     ],
     "authority_level": "city_council",
     "objective": "Organize coalition against STACK Infrastructure data center in Town of Culpeper",
@@ -25436,7 +25454,7 @@
     "action_type": "other_opposition",
     "date": "2026-01-13",
     "status": "ongoing",
-    "summary": "Sailfish proposed Comanche Circle: 2,600-acre, 5GW data center park near Comanche Peak nuclear plant. 'Protect the Paluxy Valley Inc.' opposes, citing threats to aquifer recharge zone and Dinosaur Valley State Park watershed. Commissioners gave conditional approval Jan 13, 2026. The Sailfish Digital Ventures project involves 2600 acres. Opposition was led by Protect The Paluxy Valley Inc. Key concerns driving this action include environmental impacts. The outcome remains pending as of 2026-01-13.",
+    "summary": "Sailfish proposed Comanche Circle: 2,600-acre, 5GW data center park near Comanche Peak nuclear plant. 'Protect the Paluxy Valley Inc.' opposes, citing threats to aquifer recharge zone and Dinosaur Valley State Park watershed. Commissioners gave conditional approval Jan 13, 2026. The Sailfish Digital Ventures project involves 2600 acres. Opposition was led by Protect The Paluxy Valley Inc. Key concerns driving this action include environmental impacts. The outcome remains pending.",
     "energy_mw": 5000,
     "acreage": 2600,
     "water_gallons_per_day": 50000,
@@ -25590,6 +25608,7 @@
     "issue_category": [
       "community_impact",
       "environmental",
+      "transparency",
       "water"
     ],
     "authority_level": "county_commission",
@@ -26279,7 +26298,8 @@
     "acreage": 303,
     "issue_category": [
       "grid_energy",
-      "tax_incentive"
+      "tax_incentive",
+      "transparency"
     ],
     "authority_level": "county_commission",
     "objective": "Oppose tax incentives for Compass Datacenters in Meridian",
@@ -26480,7 +26500,7 @@
     "action_type": "legislation",
     "date": "2026-01-01",
     "status": "pending",
-    "summary": "Democratic bill creating new 'very large customer' electric rate class for data centers. To qualify for tax exemption, data centers must derive at least 70% of energy from renewables and pay prevailing wages. Establishes water usage reporting requirements. Key concerns driving this action include community impacts and contract and accountability requirements. The outcome remains pending as of 2026-01-01.",
+    "summary": "Democratic bill creating new 'very large customer' electric rate class for data centers. To qualify for tax exemption, data centers must derive at least 70% of energy from renewables and pay prevailing wages. Establishes water usage reporting requirements. Key concerns driving this action include community impacts and contract and accountability requirements. The outcome remains pending.",
     "bill_name": "SB 729 / AB 722",
     "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/sb729",
     "last_updated": "2026-03-19",
@@ -27034,7 +27054,7 @@
     "action_type": "regulatory_action",
     "date": "2026-02-27",
     "status": "ongoing",
-    "summary": "LPSC refused to investigate Meta's sale of 80% of its $27B Richland Parish data center to Blue Owl Capital. Meta retains only 20% stake with a 4-year lease. Earthjustice/UCS warned ratepayers could be stuck paying for 3 new Entergy gas plants if Meta exits. The project involves 2250 acres. Opposition was led by Alliance for Affordable Energy and Union of Concerned Scientists. Key concerns driving this action include energy grid strain. The outcome remains pending as of 2026-02-27.",
+    "summary": "LPSC refused to investigate Meta's sale of 80% of its $27B Richland Parish data center to Blue Owl Capital. Meta retains only 20% stake with a 4-year lease. Earthjustice/UCS warned ratepayers could be stuck paying for 3 new Entergy gas plants if Meta exits. The project involves 2250 acres. Opposition was led by Alliance for Affordable Energy and Union of Concerned Scientists. Key concerns driving this action include energy grid strain. The outcome remains pending.",
     "investment_usd": 27000000000,
     "bill_name": "LPSC Meta/Blue Owl Financing Investigation",
     "bill_url": "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal",
@@ -27445,7 +27465,7 @@
     "action_type": "legislation",
     "date": "2026-02-12",
     "status": "pending",
-    "summary": "Reintroduced after Murphy pocket veto. Requires utilities to develop tariff for data centers using 100+ MW monthly. New large load customers must post financial guarantees for 85% of requested service for 10+ years. Reported from Senate Committee with amendments. Key concerns driving this action include ratepayer cost concerns. The outcome remains pending as of 2026-02-12.",
+    "summary": "Reintroduced after Murphy pocket veto. Requires utilities to develop tariff for data centers using 100+ MW monthly. New large load customers must post financial guarantees for 85% of requested service for 10+ years. Reported from Senate Committee with amendments. Key concerns driving this action include ratepayer cost concerns. The outcome remains pending.",
     "bill_name": "S731 / A796 - Large Load Data Center Tariff",
     "bill_url": "https://legiscan.com/NJ/text/S731/id/3312992",
     "issue_category": [
@@ -27487,7 +27507,8 @@
     "issue_category": [
       "community_impact",
       "tax_incentive",
-      "anti_ai"
+      "anti_ai",
+      "ratepayer"
     ],
     "authority_level": "state_legislature",
     "objective": "Oppose tax incentives for CoreWeave in Kenilworth",
@@ -27514,7 +27535,7 @@
     "action_type": "legislation",
     "date": "2026-03-10",
     "status": "pending",
-    "summary": "Requires large-scale data center operators to report environmental and resource impacts publicly. Mandates jurisdictions with 10,000+ residents create formal data center management plans by 2027. Includes $1,000/MW payment into EmPOWER program for low-income assistance. The outcome remains pending as of 2026-03-10. The community's stated objective was to mandate public environmental reporting from data centers (HB 1411).",
+    "summary": "Requires large-scale data center operators to report environmental and resource impacts publicly. Mandates jurisdictions with 10,000+ residents create formal data center management plans by 2027. Includes $1,000/MW payment into EmPOWER program for low-income assistance. The outcome remains pending. The community's stated objective was to mandate public environmental reporting from data centers (HB 1411).",
     "bill_name": "HB 1411 - Data Center Planning and Transparency Act",
     "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1411?ys=2026RS",
     "issue_category": [
@@ -27910,7 +27931,7 @@
     "date": "2025-03-01",
     "status": "active",
     "bill_name": "Gov. Kotek Data Center Advisory Committee",
-    "summary": "Gov. Tina Kotek created a seven-member Data Center Advisory Committee to develop policy recommendations for data center expansion aligned with the state's 'Prosperity Roadmap.' Committee chaired by Margaret Hoffmann and Michael Jung, with policy recommendations due to Legislature by October 2026. Key concerns driving this action include community impacts. The outcome remains pending as of 2025-03-01.",
+    "summary": "Gov. Tina Kotek created a seven-member Data Center Advisory Committee to develop policy recommendations for data center expansion aligned with the state's 'Prosperity Roadmap.' Committee chaired by Margaret Hoffmann and Michael Jung, with policy recommendations due to Legislature by October 2026. Key concerns driving this action include community impacts. The outcome remains pending.",
     "last_updated": "2026-03-19",
     "issue_category": [
       "community_impact"
@@ -28000,7 +28021,7 @@
     "status": "active",
     "bill_name": "Executive Order No. 2 - Utility Costs Emergency",
     "bill_url": "https://www.nj.gov/governor/news/2026/20260120a.shtml",
-    "summary": "Gov. Mikie Sherrill signed on her first day in office, declaring a state of emergency on utility costs. Directs BPU to require electric utilities to report on energy requests from data centers ('ghost loads'). Identifies data center demand surge as key driver of NJ's energy crisis. Key concerns driving this action include tax incentive policy and water consumption. The outcome remains pending as of 2026-01-20.",
+    "summary": "Gov. Mikie Sherrill signed on her first day in office, declaring a state of emergency on utility costs. Directs BPU to require electric utilities to report on energy requests from data centers ('ghost loads'). Identifies data center demand surge as key driver of NJ's energy crisis. Key concerns driving this action include tax incentive policy and water consumption. The outcome remains pending.",
     "issue_category": [
       "grid_energy",
       "ratepayer",
@@ -28216,7 +28237,7 @@
     "status": "pending",
     "bill_name": "SB 205 - Data Center PSC Certification",
     "bill_url": "https://legis.delaware.gov/BillDetail/142714",
-    "summary": "Requires businesses using 30+ MW of electricity to obtain a certificate to operate from the Delaware Public Service Commission, which may mandate grid modernization payments or additional energy generation commitments. Stalled in Senate Energy Committee amid union and Republican opposition. Opposition was led by DE-CLEAR and Delaware Sierra Club. Key concerns driving this action include tax incentive policy. The outcome remains pending as of 2025-09-29.",
+    "summary": "Requires businesses using 30+ MW of electricity to obtain a certificate to operate from the Delaware Public Service Commission, which may mandate grid modernization payments or additional energy generation commitments. Stalled in Senate Energy Committee amid union and Republican opposition. Opposition was led by DE-CLEAR and Delaware Sierra Club. Key concerns driving this action include tax incentive policy. The outcome remains pending.",
     "issue_category": [
       "grid_energy",
       "tax_incentive"
@@ -28338,7 +28359,7 @@
     "status": "pending",
     "bill_name": "H.R. 6529 - Protecting Families from AI Data Center Energy Costs Act",
     "bill_url": "https://www.congress.gov/bill/119th-congress/house-bill/6529",
-    "summary": "Directs FERC to convene a technical conference within 90 days on how large electricity loads — especially AI data centers — affect residential and small commercial customers' bills. FERC must submit a report with recommendations to Congressional energy committees within 180 days. The outcome remains pending as of 2025-12-09.",
+    "summary": "Directs FERC to convene a technical conference within 90 days on how large electricity loads — especially AI data centers — affect residential and small commercial customers' bills. FERC must submit a report with recommendations to Congressional energy committees within 180 days. The outcome remains pending.",
     "last_updated": "2026-03-19",
     "issue_category": [
       "grid_energy",
@@ -29043,7 +29064,7 @@
     "status": "active",
     "bill_name": "SB 354 - Solar Farm Moratorium",
     "bill_url": "https://legiscan.com/AL/bill/SB354/2026",
-    "summary": "Imposes a one-year moratorium on construction of new large-scale solar power facilities, prompted by opposition to a 4,500-acre solar project in Stockton meant to power Meta's Montgomery data center expansion. Exempts TVA solar capacity and projects already under construction. Opposition was led by Stockton Area Residents Against Solar. Key concerns driving this action include environmental impacts and loss of farmland. The outcome remains pending as of 2026-03-11.",
+    "summary": "Imposes a one-year moratorium on construction of new large-scale solar power facilities, prompted by opposition to a 4,500-acre solar project in Stockton meant to power Meta's Montgomery data center expansion. Exempts TVA solar capacity and projects already under construction. Opposition was led by Stockton Area Residents Against Solar. Key concerns driving this action include environmental impacts and loss of farmland. The outcome remains pending.",
     "last_updated": "2026-03-19",
     "issue_category": [
       "environmental",
@@ -30554,7 +30575,8 @@
     "county_lean": null,
     "issue_category": [
       "environmental",
-      "tax_incentive"
+      "tax_incentive",
+      "ratepayer"
     ],
     "authority_level": "federal_legislature",
     "objective": "Set federal emissions standards for data center electricity",
@@ -31632,7 +31654,8 @@
     "issue_category": [
       "environmental",
       "grid_energy",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "township_board",
     "objective": "Oppose Amazon data center in Falls Township",
@@ -31998,7 +32021,7 @@
     "action_type": "other_opposition",
     "date": "2026-02-05",
     "status": "active",
-    "summary": "Google proposing 1GW data center on 546 acres near Irwinville in agricultural zone. Planning Commission voted to recommend approval Feb 26. Residents concerned about water (1M+ gallons/day), noise, air pollution, and farmland loss. Change.org petition active. Opposition was led by Suwannee Riverkeeper and WWALS Watershed Coalition. A petition gathered 587 signatures. The outcome remains pending as of 2026-02-05.",
+    "summary": "Google proposing 1GW data center on 546 acres near Irwinville in agricultural zone. Planning Commission voted to recommend approval Feb 26. Residents concerned about water (1M+ gallons/day), noise, air pollution, and farmland loss. Change.org petition active. Opposition was led by Suwannee Riverkeeper and WWALS Watershed Coalition. A petition gathered 587 signatures. The outcome remains pending.",
     "opposition_website": "https://wwals.net/",
     "petition_url": "https://www.change.org/p/protect-irwin-county-from-data-centers",
     "last_updated": "2026-03-28",
@@ -32543,7 +32566,8 @@
     "issue_category": [
       "community_impact",
       "grid_energy",
-      "anti_ai"
+      "anti_ai",
+      "ratepayer"
     ],
     "authority_level": "federal_legislature",
     "objective": "Commission legislative study on data center impacts in US",
@@ -32627,7 +32651,8 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "environmental",
-      "grid_energy"
+      "grid_energy",
+      "ratepayer"
     ],
     "authority_level": "federal_agency",
     "objective": "Order PJM to develop data center colocation rules at power plants",
@@ -33101,7 +33126,8 @@
     "opposition_facebook": "https://www.facebook.com/p/Indivisible-Downriver-United-734-61579457515345/",
     "issue_category": [
       "community_impact",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in Gibraltar after Raeden proposal",
@@ -33132,7 +33158,8 @@
       "environmental",
       "noise",
       "tax_incentive",
-      "water"
+      "water",
+      "ratepayer"
     ],
     "authority_level": "township_board",
     "objective": "Impose 12-month data centers moratorium in Scioto Township",
@@ -33809,6 +33836,7 @@
     "issue_category": [
       "community_impact",
       "farmland",
+      "transparency",
       "zoning"
     ],
     "authority_level": "court",
@@ -34535,7 +34563,7 @@
       "Coalition for Sonoran Desert Protection"
     ],
     "opposition_website": "https://nodesertdatacenter.com/",
-    "summary": "Pima County proposed zoning code amendment requiring data centers to obtain Conditional Use Permits instead of by-right on industrially zoned land. Would mandate staff review, hearings, and public comment. Driven by backlash from Project Blue approvals. Opposition was led by No Desert Data Center Coalition and Coalition for Sonoran Desert Protection. Key concerns driving this action include community impacts. The outcome remains pending as of 2026-01-01.",
+    "summary": "Pima County proposed zoning code amendment requiring data centers to obtain Conditional Use Permits instead of by-right on industrially zoned land. Would mandate staff review, hearings, and public comment. Driven by backlash from Project Blue approvals. Opposition was led by No Desert Data Center Coalition and Coalition for Sonoran Desert Protection. Key concerns driving this action include community impacts. The outcome remains pending.",
     "sources": [
       "https://azbex.com/legislation-issues/pima-county-latest-to-amend-zoning-for-data-centers/",
       "https://www.kold.com/2025/08/19/pima-county-explores-zoning-amendments-data-centers/"
@@ -34566,7 +34594,7 @@
     "company": "Microsoft",
     "hyperscaler": "Microsoft",
     "energy_mw": 800,
-    "summary": "Quincy hosts 53 data centers from 11 providers, consuming 45% of Grant PUD's average load (~800 MW) and paying 75% of the city's property tax revenue. Former Mayor Patty Martin warned about long-term impacts. NPR/OPB reported concerns about hydropower sustainability as snowpack declines. The Microsoft project involves 470 acres. The outcome remains pending as of 2025-08-17.",
+    "summary": "Quincy hosts 53 data centers from 11 providers, consuming 45% of Grant PUD's average load (~800 MW) and paying 75% of the city's property tax revenue. Former Mayor Patty Martin warned about long-term impacts. NPR/OPB reported concerns about hydropower sustainability as snowpack declines. The Microsoft project involves 470 acres. The outcome remains pending.",
     "sources": [
       "https://www.opb.org/article/2026/01/17/quincy-washington-microsoft-data-center/",
       "https://www.npr.org/2025/08/17/nx-s1-5501579/washington-hydropower-data-center-boom-sustainability-climate-change"
@@ -36574,7 +36602,8 @@
     "issue_category": [
       "farmland",
       "grid_energy",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Block Hut 8 rezoning of 200 acres in Logan County",
@@ -37016,7 +37045,7 @@
     "scope": "local",
     "company": "Amazon/AWS",
     "hyperscaler": "Amazon/AWS",
-    "summary": "Amazon Data Services purchased GWU's 122-acre Ashburn campus for $427M. Loudoun County officials were 'blindsided' and are vowing to fight the data center conversion. Under new zoning rules, data centers require special exception review rather than by-right approval. Opposition was led by Virginia Data Center Reform Coalition and Coalition to Protect Prince William County. Key concerns driving this action include transparency requirements. The outcome remains pending as of 2026-03-10.",
+    "summary": "Amazon Data Services purchased GWU's 122-acre Ashburn campus for $427M. Loudoun County officials were 'blindsided' and are vowing to fight the data center conversion. Under new zoning rules, data centers require special exception review rather than by-right approval. Opposition was led by Virginia Data Center Reform Coalition and Coalition to Protect Prince William County. Key concerns driving this action include transparency requirements. The outcome remains pending.",
     "sources": [
       "https://wtop.com/loudoun-county/2026/03/loudoun-county-will-fight-to-keep-amazon-data-center-off-just-sold-gw-campus-in-ashburn/",
       "https://www.washingtontimes.com/news/2026/mar/3/amazon-data-services-buys-george-washington-universitys-virginia/",
@@ -37063,6 +37092,7 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
+      "transparency",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -37113,7 +37143,7 @@
     "status": "pending",
     "scope": "statewide",
     "bill_name": "SB 94 / HB 153 - Data Center Siting Requirements",
-    "summary": "Requires 100+ MW data center facilities to submit site assessments examining impacts on agriculture, parks, historic sites, and noise near homes/schools within 500 feet. Conference committee deadlocked over Senate's industrial-zone-only requirement. Key concerns driving this action include tax incentive policy. The outcome remains pending as of 2026-02-01.",
+    "summary": "Requires 100+ MW data center facilities to submit site assessments examining impacts on agriculture, parks, historic sites, and noise near homes/schools within 500 feet. Conference committee deadlocked over Senate's industrial-zone-only requirement. Key concerns driving this action include tax incentive policy. The outcome remains pending.",
     "sources": [
       "https://cardinalnews.org/2026/03/13/bills-on-data-center-siting-and-water-usage-remain-unresolved-as-general-assembly-session-winds-down/",
       "https://virginiamercury.com/2026/03/17/data-center-bills-dominated-this-years-general-assembly-heres-what-passed/",
@@ -37267,7 +37297,7 @@
     "status": "pending",
     "scope": "statewide",
     "bill_name": "HB 2631 - Data Center Tax Incentive Repeal",
-    "summary": "Governor Katie Hobbs called for repealing data center tax incentives which cost Arizona approximately $38.5 million per year. The bill would end the transaction privilege and use tax exemption for large data centers. Part of a broader national trend of states reconsidering data center tax breaks. The outcome remains pending as of 2026-02-01.",
+    "summary": "Governor Katie Hobbs called for repealing data center tax incentives which cost Arizona approximately $38.5 million per year. The bill would end the transaction privilege and use tax exemption for large data centers. Part of a broader national trend of states reconsidering data center tax breaks. The outcome remains pending.",
     "sources": [
       "https://www.azleg.gov/legtext/57leg/2R/bills/HB2631P.htm",
       "https://www.axios.com/local/phoenix/2026/01/14/arizona-data-center-tax-break-repeal",
@@ -38875,6 +38905,7 @@
       "environmental",
       "grid_energy",
       "noise",
+      "transparency",
       "water"
     ],
     "authority_level": "county_commission",
@@ -39384,7 +39415,8 @@
     "last_updated": "2026-03-29",
     "issue_category": [
       "community_impact",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "county_commission",
     "objective": "Impose moratorium on data centers and crypto mining in Washington County through June 2027"
@@ -39685,7 +39717,8 @@
       "grid_energy",
       "noise",
       "water",
-      "zoning"
+      "zoning",
+      "ratepayer"
     ],
     "authority_level": "developer",
     "objective": "Block conversion of Cleveland-Cliffs steel mill into 2M sq ft AI data center in Plymouth Township",

@@ -10761,7 +10761,7 @@
     ],
     "data_source": "news",
     "last_updated": "2026-03-19",
-    "scope": "local",
+    "scope": "statewide",
     "county_lean": "R",
     "energy_mw": 7650,
     "issue_category": [
@@ -12369,7 +12369,7 @@
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-15",
-    "scope": "statewide",
+    "scope": "local",
     "county_lean": null,
     "bill_name": "LPSC Lightning Amendment",
     "bill_url": "https://www.lpsc.louisiana.gov/docs/minutes/Dec_17_2025_Min.pdf",
@@ -13701,7 +13701,7 @@
     ],
     "data_source": "news",
     "last_updated": "2026-03-14",
-    "scope": "local",
+    "scope": "statewide",
     "county_lean": "R",
     "issue_category": [
       "community_impact",
@@ -19764,7 +19764,7 @@
     ],
     "data_source": "news",
     "last_updated": "2026-03-05",
-    "scope": "statewide",
+    "scope": "local",
     "bill_name": "PSC Docket 6630-TE-113",
     "bill_url": "https://apps.psc.wi.gov/APPS/dockets/content/detail.aspx?id=6630&case=TE&num=113",
     "county_lean": null,
@@ -27064,7 +27064,7 @@
     "community_outcome": "pending"
   },
   {
-    "scope": "local",
+    "scope": "federal",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
@@ -27585,7 +27585,7 @@
     ]
   },
   {
-    "scope": "local",
+    "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "D",
     "sources": [
@@ -28183,7 +28183,7 @@
     ]
   },
   {
-    "scope": "statewide",
+    "scope": "local",
     "data_source": "agent_research",
     "county_lean": null,
     "sources": [
@@ -28940,7 +28940,7 @@
     ]
   },
   {
-    "scope": "local",
+    "scope": "statewide",
     "data_source": "agent_research",
     "county_lean": "R",
     "sources": [
@@ -29151,7 +29151,7 @@
       "https://pv-magazine-usa.com/2026/03/16/alabama-senator-seeks-statewide-ban-on-solar-installations/",
       "https://heatmap.news/energy/meta-solar-alabama"
     ],
-    "company": "",
+    "company": "Meta",
     "hyperscaler": "Meta",
     "energy_mw": null,
     "investment_usd": null,
@@ -35188,7 +35188,7 @@
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-19",
-    "scope": "statewide",
+    "scope": "local",
     "county_lean": null,
     "bill_name": "SB 6 (89th Legislature)",
     "bill_url": "https://legiscan.com/TX/bill/SB6/2025",
@@ -35423,7 +35423,7 @@
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-17",
-    "scope": "regional",
+    "scope": "local",
     "county_lean": null,
     "investment_usd": 1000000000,
     "issue_category": [
@@ -36856,7 +36856,7 @@
     "action_type": "study_or_report",
     "date": "2026-03-04",
     "status": "ongoing",
-    "scope": "federal",
+    "scope": "local",
     "summary": "Food & Water Watch released 'The Urgent Case Against Data Centers,' the first comprehensive national report making the case for a nationwide moratorium. Key findings: by 2028, data centers could consume 720 billion gallons of water annually and 580 TWh of energy (12% of national demand). Virginia data centers created just 1 permanent job per $54M invested. 230+ organizations support the moratorium call.",
     "sources": [
       "https://www.foodandwaterwatch.org/2026/03/04/comprehensive-report-lays-out-case-for-nationwide-halt-on-new-data-centers/",
@@ -36889,7 +36889,7 @@
     "action_type": "study_or_report",
     "date": "2026-01-01",
     "status": "active",
-    "scope": "federal",
+    "scope": "local",
     "summary": "Sierra Club released its 2026 state policy framework with four guardrails: ratepayer protections preventing cross-subsidization, clean energy requirements, water efficiency standards, and community engagement mandates. Active campaigns in MI, GA, NJ, MA, CO, TN, WI. Called the White House ratepayer pledge 'baby steps.'",
     "sources": [
       "https://www.sierraclub.org/issues/climate/data-centers",
@@ -36923,7 +36923,7 @@
     "action_type": "study_or_report",
     "date": "2026-03-01",
     "status": "active",
-    "scope": "federal",
+    "scope": "local",
     "summary": "Data Center Watch reported $98B in data center projects blocked or delayed by grassroots opposition in Q2 2025 alone. Identified 142 active advocacy organizations across 28 states. Opposition is bipartisan: Republicans cite tax incentive concerns; Democrats focus on environmental impacts. Total tracked disruptions reached $64B ($18B blocked, $46B delayed).",
     "sources": [
       "https://www.datacenterwatch.org/report",
@@ -36955,7 +36955,7 @@
     "action_type": "study_or_report",
     "date": "2026-02-01",
     "status": "ongoing",
-    "scope": "federal",
+    "scope": "local",
     "summary": "Big Tech is conducting an unprecedented PR and lobbying campaign. Meta running multimillion-dollar TV ads in DC and 9 state capitals. Data Center Coalition nearly tripled lobbying spend. NAIA (National AI Association, est. Jan 2025) organizing Congressional field trips. Only 28% of voters support data centers near their homes (Heatmap poll). At least 16 local governments placed bans in 2026 alone.",
     "sources": [
       "https://www.commondreams.org/news/ai-data-center-propaganda-blitz",
@@ -39672,7 +39672,8 @@
     ],
     "authority_level": "court",
     "objective": "Void 2023 Digital Gateway rezoning of 2,133 acres in Prince William County",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "goodyear-buckeye-az-2024-05-01",
@@ -39724,7 +39725,8 @@
     ],
     "authority_level": "developer",
     "objective": "Block Tract's $14B 'Project Range' data center campus near Goodyear and Buckeye, AZ",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "scope": "local"
   },
   {
     "id": "franklin-township-in-2025-09-22",
@@ -39775,7 +39777,8 @@
     ],
     "authority_level": "developer",
     "objective": "Block Google's 468-acre 'Project Flo' data center in Franklin Township, IN",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "scope": "local"
   },
   {
     "id": "st-charles-mo-2025-11-01",
@@ -39824,7 +39827,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Ban data centers for one year in St. Charles to protect wellhead drinking water zone",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "crown-point-northwest-indiana-in-2025-11-01",
@@ -39836,7 +39840,7 @@
     "action_type": "other_opposition",
     "date": "2025-11-01",
     "status": "ongoing",
-    "company": "Amazon Web Services",
+    "company": "Amazon/AWS",
     "hyperscaler": "Amazon/AWS",
     "project_name": "Northwest Indiana Data Centers",
     "investment_million_usd": null,
@@ -39871,7 +39875,8 @@
     ],
     "authority_level": "advocacy_org",
     "objective": "Oppose cumulative data center buildout across Northwest Indiana communities",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "plymouth-township-pa-2025-11-17",
@@ -39922,7 +39927,8 @@
     ],
     "authority_level": "developer",
     "objective": "Block conversion of Cleveland-Cliffs steel mill into 2M sq ft AI data center in Plymouth Township",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "scope": "local"
   },
   {
     "id": "lacy-lakeview-tx-2025-12-03",
@@ -39978,7 +39984,8 @@
     "county_lean": "R",
     "authority_level": "city_council",
     "objective": "Stop Infrakey's $10B data center on 520 acres of farmland near Lacy Lakeview, TX",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "lacy-lakeview-waco-area-tx-2025-12-03",
@@ -40036,7 +40043,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Stop Infrakey's $10B data center and block Lacy Lakeview annexation of 520-acre site near Waco",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "marion-county-project-liberty-sc-2026-01-22",
@@ -40088,7 +40096,8 @@
     "county_lean": "D",
     "authority_level": "county_commission",
     "objective": "Demand transparency on secretly approved $2.4B 'Project Liberty' data center in Marion County, SC",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "franklin-ky-2026-01-28",
@@ -40140,7 +40149,8 @@
     "county_lean": "R",
     "authority_level": "court",
     "objective": "Reject TenKey LandCo's data center rezoning and defend zoning ordinance in Franklin, KY",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "oklahoma-statewide-ok-2026-02-01",
@@ -40184,7 +40194,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Establish statewide data center moratorium in Oklahoma until November 2029 pending impact study",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "statewide"
   },
   {
     "id": "south-dakota-statewide-sd-2026-02-01",
@@ -40228,7 +40239,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Impose one-year moratorium on hyperscale data centers in South Dakota via SB 232",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "scope": "statewide"
   },
   {
     "id": "delaware-city-de-2026-02-04",
@@ -40281,7 +40293,8 @@
     "county_lean": "D",
     "authority_level": "governor",
     "objective": "Deny Starwood's 6M sq ft data center near Delaware City under Coastal Zone Act",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "statewide"
   },
   {
     "id": "new-york-statewide-moratorium-bill-ny-2026-02-06",
@@ -40332,7 +40345,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Enact three-year statewide data center permitting moratorium via S.9144 in New York",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "statewide"
   },
   {
     "id": "south-dakota-moratorium-bill-sb-232-sd-2026-02-19",
@@ -40378,7 +40392,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Enact statewide data center moratorium via SB 232 in South Dakota (defeated 10-2)",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "scope": "statewide"
   },
   {
     "id": "denver-citywide-moratorium-co-2026-02-23",
@@ -40431,7 +40446,8 @@
     "county_lean": "D",
     "authority_level": "city_council",
     "objective": "Impose one-year citywide moratorium on new data center construction in Denver",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "columbia-county-lawsuit-ga-2026-02-25",
@@ -40483,7 +40499,8 @@
     "county_lean": "R",
     "authority_level": "court",
     "objective": "Challenge Columbia County data center rezonings for White Oak Business Park and Pumpkin Center via judicial review",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "local"
   },
   {
     "id": "connecticut-federal-ct-2026-02-26",
@@ -40525,7 +40542,8 @@
     ],
     "authority_level": "federal_legislature",
     "objective": "Require off-grid power for data centers via Sen. Blumenthal's bipartisan GRID Act with $1M/day fines",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "federal"
   },
   {
     "id": "michigan-statewide-moratorium-bills-mi-2026-02-26",
@@ -40576,7 +40594,8 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Halt new data center approvals in Michigan until April 2027 via three-bill Data Center Regulation Act",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "scope": "statewide"
   },
   {
     "id": "henrico-county-varina-va-2026-02-27",
@@ -40625,7 +40644,8 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Deny Centra Logistics' 1M sq ft data center vested-rights appeal on Darbytown Road in Henrico",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "scope": "local"
   },
   {
     "id": "apex-nc-2026-03-05",
@@ -40678,7 +40698,7 @@
     "objective": "Force Natelli Investments to withdraw 250MW New Hill Digital Campus after 5,000-signature petition in Apex",
     "community_outcome": "win",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "D"
   },
   {
@@ -40732,7 +40752,7 @@
     "objective": "Impose one-year moratorium on 10MW+ data centers as prohibited zoning use in Baltimore City",
     "community_outcome": "pending",
     "sponsors": "Council President Zeke Cohen",
-    "scope": "jurisdiction_wide",
+    "scope": "local",
     "county_lean": "D"
   },
   {
@@ -40787,7 +40807,7 @@
     "objective": "Block Prologis' 540-acre, 16-building Project Steel data center campus in Yorkville (approved after 4-hour opposition)",
     "community_outcome": "loss",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "R"
   },
   {
@@ -40845,7 +40865,7 @@
     "objective": "Block Avaio Digital's $3B, 300MW, 452-acre Project Hercules data center in Appomattox County",
     "community_outcome": "pending",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "R"
   },
   {
@@ -40905,7 +40925,7 @@
     "objective": "Block Stream Data Centers' 500MW, 2.2M sq ft data center at WNY STAMP park with $1.46B in tax breaks in Town of Alabama",
     "community_outcome": "pending",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "R"
   },
   {
@@ -40959,7 +40979,7 @@
     "objective": "Place constitutional amendment banning 25MW+ data centers on Ohio's November 2026 ballot",
     "community_outcome": "pending",
     "sponsors": "Ohioans for Responsible Development",
-    "scope": "jurisdiction_wide",
+    "scope": "local",
     "county_lean": null
   },
   {
@@ -41010,7 +41030,7 @@
     "objective": "Impose 12-month moratorium on data centers and small modular nuclear reactors in Monroe Township",
     "community_outcome": "win",
     "sponsors": null,
-    "scope": "jurisdiction_wide",
+    "scope": "local",
     "county_lean": "R"
   },
   {
@@ -41070,7 +41090,7 @@
     "objective": "Block $5B, 900MW Project Ruby data center on 900+ acres in Muscogee County",
     "community_outcome": "pending",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "D"
   },
   {
@@ -41124,7 +41144,7 @@
     "objective": "Challenge quiet rezoning of 400 acres of Carlton Farms farmland for data center in Rowan County",
     "community_outcome": "pending",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "R"
   },
   {
@@ -41177,7 +41197,7 @@
     "objective": "Pass Pennsylvania's first data center regulatory framework via HB 1834 (104-95) prohibiting ratepayer cost-shifting",
     "community_outcome": "pending",
     "sponsors": "PA House Democrats",
-    "scope": "jurisdiction_wide",
+    "scope": "statewide",
     "county_lean": null
   },
   {
@@ -41227,7 +41247,7 @@
     "objective": "Require conditional use permit for WestDulles' 430-acre data center in Chesterfield County",
     "community_outcome": "pending",
     "sponsors": null,
-    "scope": "single_project",
+    "scope": "local",
     "county_lean": "R"
   },
   {

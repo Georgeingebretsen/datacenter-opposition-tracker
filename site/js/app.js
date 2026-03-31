@@ -392,8 +392,45 @@ function render() {
   updateTable(filtered);
   updateSortIndicators();
   updateSizeLegend(filtered);
+  updateLegislationStrip();
   // Update URL to reflect current filters (skip on initial load)
   if (typeof updateUrlFromFilters === 'function') updateUrlFromFilters();
+}
+
+function updateLegislationStrip() {
+  const strip = document.getElementById('legislation-strip');
+  const state = document.getElementById('filter-state').value;
+  if (!state) { strip.style.display = 'none'; return; }
+
+  const bills = fights.filter(f => f.state === state && (f.scope === 'statewide' || f.scope === 'federal'));
+  if (bills.length === 0) { strip.style.display = 'none'; return; }
+
+  const enacted = bills.filter(b => b.status === 'enacted').length;
+  const pending = bills.filter(b => ['active', 'pending', 'ongoing'].includes(b.status)).length;
+  const defeated = bills.filter(b => ['defeated', 'cancelled'].includes(b.status)).length;
+
+  strip.style.display = '';
+  strip.innerHTML = `
+    <div class="leg-strip-inner">
+      <div class="leg-strip-summary">
+        <strong>${state} Legislation:</strong>
+        ${bills.length} bill${bills.length !== 1 ? 's' : ''} tracked
+        ${enacted ? `<span class="leg-strip-tag enacted">${enacted} enacted</span>` : ''}
+        ${pending ? `<span class="leg-strip-tag pending">${pending} pending</span>` : ''}
+        ${defeated ? `<span class="leg-strip-tag defeated">${defeated} defeated</span>` : ''}
+      </div>
+      <div class="leg-strip-bills">
+        ${bills.slice(0, 5).map(b => `
+          <span class="leg-strip-bill" onclick="event.stopPropagation(); const f = fights.find(x => x.id === '${b.id}'); if(f) openDetail(f);">
+            ${b.bill_name || b.objective?.slice(0, 50) || b.action_type}
+            <span class="leg-strip-status status-${(b.status || '').split(/[\s-]/)[0].toLowerCase()}">${capitalize((b.status || '').split(/[\s-]/)[0])}</span>
+          </span>
+        `).join('')}
+        ${bills.length > 5 ? `<a href="legislation.html" class="leg-strip-more">${bills.length - 5} more →</a>` : ''}
+      </div>
+      <a href="legislation.html" class="leg-strip-link">View all legislation →</a>
+    </div>
+  `;
 }
 
 function updateSizeLegend(filtered) {

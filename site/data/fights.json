@@ -9827,7 +9827,10 @@
     "authority_level": "governor",
     "objective": "File PSC complaint over NorthWestern shifting costs to residents",
     "community_outcome": "pending",
-    "opposition_facebook_members": 12088
+    "opposition_facebook_members": 12088,
+    "sponsors": [
+      "Earthjustice"
+    ]
   },
   {
     "id": "butte-mt-2025-11-18",
@@ -12317,7 +12320,10 @@
     ],
     "authority_level": "utility_commission",
     "objective": "Shield residential ratepayers from data center costs in LA",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "sponsors": [
+      "LPSC Commissioner Jean-Paul Coussan"
+    ]
   },
   {
     "id": "hidalgo-county-tx-2025-12-22",
@@ -13035,7 +13041,9 @@
     "authority_level": "state_legislature",
     "objective": "Regulate data center development in Kansas",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Senate Committee on Utilities"
+    ]
   },
   {
     "id": "georgia-statewide-sb-34-ga-2026-01-01",
@@ -13187,7 +13195,9 @@
     "authority_level": "state_legislature",
     "objective": "Reduce scope of data center tax exemptions in VA",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Del. Vivian Watts (D-VA)"
+    ]
   },
   {
     "id": "virginia-statewide-hb-897-va-2026-01-01",
@@ -18277,7 +18287,9 @@
     "authority_level": "state_legislature",
     "objective": "Repeal data center tax exemptions in CT",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Joint Committee on Finance, Revenue and Bonding"
+    ]
   },
   {
     "id": "south-dakota-sb-232-sd-2026-02-04",
@@ -18322,7 +18334,9 @@
     "authority_level": "state_legislature",
     "objective": "Enact statewide data center moratorium in SD",
     "community_outcome": "loss",
-    "sponsors": []
+    "sponsors": [
+      "Sen. Taffy Howard (R-SD)"
+    ]
   },
   {
     "id": "south-carolina-data-center-development-act-sc-2026-02-05",
@@ -19668,7 +19682,10 @@
     ],
     "authority_level": "utility_commission",
     "objective": "Oppose We Energies' 500MW+ data center rate class that shifts 25% of infrastructure costs to ratepayers",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Wisconsin Public Service Commission"
+    ]
   },
   {
     "id": "blumenthal-hawley-grid-act-federal-dc-2026-02-27",
@@ -21075,7 +21092,10 @@
     "authority_level": "governor",
     "objective": "Commission legislative study on data center impacts in IL",
     "community_outcome": "pending",
-    "bill_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5513&GAID=18&DocTypeID=HB&SessionID=114&GA=104"
+    "bill_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=5513&GAID=18&DocTypeID=HB&SessionID=114&GA=104",
+    "sponsors": [
+      "Gov. JB Pritzker (D-IL)"
+    ]
   },
   {
     "id": "middleton-township-oh-2025-04-01",
@@ -21951,7 +21971,10 @@
     "objective": "Halt data centers in Indiana after Meta proposal",
     "community_outcome": "pending",
     "opposition_facebook_members": 5096,
-    "bill_url": "https://iga.in.gov/legislative/2026/bills/house/1245"
+    "bill_url": "https://iga.in.gov/legislative/2026/bills/house/1245",
+    "sponsors": [
+      "Hoosier Action"
+    ]
   },
   {
     "id": "mooringsport-caddo-parish-la-2026-02-24",
@@ -23092,7 +23115,9 @@
     "authority_level": "state_legislature",
     "objective": "Shield residential ratepayers from data center costs in MA",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "House Committee on Ways and Means"
+    ]
   },
   {
     "id": "spartanburg-county-sc-2026-02-27",
@@ -23795,7 +23820,10 @@
     "objective": "Halt data centers in New York after Multiple proposal",
     "community_outcome": "pending",
     "bill_name": "S9144 / A10141 (Data Center Moratorium)",
-    "bill_url": "https://www.nysenate.gov/legislation/bills/2025/S9144"
+    "bill_url": "https://www.nysenate.gov/legislation/bills/2025/S9144",
+    "sponsors": [
+      "Food & Water Watch"
+    ]
   },
   {
     "id": "charles-county-md-2026-03-02",
@@ -23880,7 +23908,10 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Repeal data center tax exemptions via HB 4084",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "sponsors": [
+      "Sen. Jeff Golden (D-OR)"
+    ]
   },
   {
     "id": "pennsylvania-hb-2151-pa-2026-03-02",
@@ -24533,7 +24564,9 @@
     "authority_level": "state_legislature",
     "objective": "Require industrial or manufacturing zoning for data centers to qualify for SB 98 tax exemptions in Kansas",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Senate Committee on Utilities"
+    ]
   },
   {
     "id": "marion-county-sc-2025-01-22",
@@ -26973,6 +27006,9 @@
       "Alliance for Affordable Energy",
       "Earthjustice",
       "Union of Concerned Scientists"
+    ],
+    "sponsors": [
+      "Earthjustice"
     ]
   },
   {
@@ -27259,7 +27295,9 @@
     "authority_level": "state_legislature",
     "objective": "Create data center tax incentive program in ID",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "House State Affairs Committee"
+    ]
   },
   {
     "scope": "statewide",
@@ -27537,7 +27575,10 @@
       "FracTracker Alliance",
       "Concerned Citizens of Montour County"
     ],
-    "bill_url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-continues-effort-to-lower-pennsylvanians--elect"
+    "bill_url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-continues-effort-to-lower-pennsylvanians--elect",
+    "sponsors": [
+      "Gov. Josh Shapiro (D-PA)"
+    ]
   },
   {
     "scope": "local",
@@ -27824,7 +27865,10 @@
     "authority_level": "governor",
     "objective": "Establish seven-member Data Center Advisory Committee to develop policy recommendations in Oregon",
     "community_outcome": "pending",
-    "bill_url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-convenes-statewide-data-center-advisory-committee"
+    "bill_url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-convenes-statewide-data-center-advisory-committee",
+    "sponsors": [
+      "Gov. Tina Kotek (D-OR)"
+    ]
   },
   {
     "scope": "federal",
@@ -27912,7 +27956,10 @@
     ],
     "authority_level": "governor",
     "objective": "Require data centers to report energy consumption in NJ",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Gov. Mikie Sherrill (D-NJ)"
+    ]
   },
   {
     "scope": "statewide",
@@ -27951,7 +27998,10 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Study data center impacts on water resources in TX",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Rep. Armando Walle (D-TX)"
+    ]
   },
   {
     "scope": "statewide",
@@ -27993,7 +28043,10 @@
     "authority_level": "utility_commission",
     "objective": "Challenge protective order shielding NorthWestern data center deals",
     "community_outcome": "pending",
-    "bill_url": "https://earthjustice.org/press/2026/groups-challenge-montana-psc-order-that-shields-data-center-plans-from-public-view"
+    "bill_url": "https://earthjustice.org/press/2026/groups-challenge-montana-psc-order-that-shields-data-center-plans-from-public-view",
+    "sponsors": [
+      "Earthjustice"
+    ]
   },
   {
     "scope": "local",
@@ -28198,7 +28251,10 @@
     ],
     "authority_level": "federal_executive",
     "objective": "Regulate data center development in United States",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "President Donald Trump"
+    ]
   },
   {
     "scope": "federal",
@@ -28814,7 +28870,9 @@
     "authority_level": "state_legislature",
     "objective": "Codify bring-your-own-power mandate for data centers in Connecticut",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Joint Committee on Energy and Technology"
+    ]
   },
   {
     "scope": "local",
@@ -30486,7 +30544,10 @@
     ],
     "authority_level": "federal_executive",
     "objective": "Fast-track federal permitting for $500M+ data center and energy projects via EO 14318",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "sponsors": [
+      "President Donald Trump"
+    ]
   },
   {
     "id": "virginia-hb-784-va-2026-01-08",
@@ -30536,7 +30597,9 @@
     "authority_level": "state_legislature",
     "objective": "Mandate transparency and reporting from data centers in VA",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Del. Joshua Thomas (D-VA)"
+    ]
   },
   {
     "id": "virginia-sb-393-va-2026-01-08",
@@ -31089,7 +31152,10 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Accelerate data center tax exemption sunset in VA",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Sen. Louise Lucas (D-VA)"
+    ]
   },
   {
     "scope": "local",
@@ -32448,7 +32514,10 @@
     ],
     "authority_level": "federal_agency",
     "objective": "DOE order standardizing large-load grid interconnection rules",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "FERC"
+    ]
   },
   {
     "county": "",
@@ -32487,7 +32556,10 @@
     ],
     "authority_level": "federal_agency",
     "objective": "Order PJM to develop data center colocation rules at power plants",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "FERC"
+    ]
   },
   {
     "county": "",
@@ -32694,7 +32766,9 @@
     "authority_level": "state_legislature",
     "objective": "Authorize land sale for data center development in MS",
     "community_outcome": "loss",
-    "sponsors": []
+    "sponsors": [
+      "Mississippi State Senate"
+    ]
   },
   {
     "county": "",
@@ -32734,7 +32808,9 @@
     "authority_level": "state_legislature",
     "objective": "Redirect data center tax revenue to state fund",
     "community_outcome": "loss",
-    "sponsors": []
+    "sponsors": [
+      "Rep. Trey Lamar (R-MS)"
+    ]
   },
   {
     "id": "ahwatukee-az-opposition-2026-02",
@@ -34449,7 +34525,10 @@
     "objective": "Form state workgroup on data center policy in WA",
     "community_outcome": "pending",
     "bill_name": "Executive Order 25-05",
-    "bill_url": "https://governor.wa.gov/sites/default/files/exe_order/25-05%20-%20Data%20Center%20Workgroup.pdf"
+    "bill_url": "https://governor.wa.gov/sites/default/files/exe_order/25-05%20-%20Data%20Center%20Workgroup.pdf",
+    "sponsors": [
+      "Gov. Bob Ferguson (D-WA)"
+    ]
   },
   {
     "id": "oregon-pge-power-act-dispute-2026",
@@ -34485,7 +34564,10 @@
     "objective": "Oppose transmission lines for Portland General Electric data center",
     "community_outcome": "partial",
     "bill_name": "HB 3546 (POWER Act)",
-    "bill_url": "https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/HB3546"
+    "bill_url": "https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/HB3546",
+    "sponsors": [
+      "Oregon Citizens' Utility Board"
+    ]
   },
   {
     "id": "the-dalles-hr-655-federal-land-or-2026",
@@ -35041,7 +35123,10 @@
     "objective": "Reduce data center tax exemptions via SB 253",
     "community_outcome": "pending",
     "bill_name": "SB 253",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB253"
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB253",
+    "sponsors": [
+      "Sen. Louise Lucas (D-VA)"
+    ]
   },
   {
     "id": "valley-link-transmission-va-2026-02",
@@ -35183,7 +35268,10 @@
     "objective": "Ban diesel backup generators at data centers in VA",
     "community_outcome": "pending",
     "bill_name": "HB 507 (Tier IV Generator Requirement)",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB507"
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB507",
+    "sponsors": [
+      "Del. John McAuliff (D-VA)"
+    ]
   },
   {
     "id": "loudoun-county-va-golden-mars-transmission-2025-12",
@@ -35508,7 +35596,10 @@
     "objective": "Launch GRID fast-track permitting standards in Pennsylvania",
     "community_outcome": "pending",
     "bill_name": "HB 2150 (Data Center Energy and Water Reporting Act)",
-    "bill_url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2025&sind=0&body=H&type=B&bn=2150"
+    "bill_url": "https://www.legis.state.pa.us/cfdocs/billinfo/billinfo.cfm?syear=2025&sind=0&body=H&type=B&bn=2150",
+    "sponsors": [
+      "Gov. Josh Shapiro (D-PA)"
+    ]
   },
   {
     "id": "wisconsin-nda-ban-senate-committee-wi-2026-03",
@@ -35651,7 +35742,10 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Shield residential ratepayers from data center costs in WY",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Wyoming Outdoor Council"
+    ]
   },
   {
     "id": "nebraska-sarpy-county-tax-loss-ne-2026",
@@ -36275,7 +36369,10 @@
     "company": "DB STU LLC",
     "acreage": 1018,
     "bill_name": "Constitutional Amendment Petition (25 MW Ban)",
-    "bill_url": "https://ballotpedia.org/Ohio_Prohibition_of_Data_Center_Construction_Amendment_(2026)"
+    "bill_url": "https://ballotpedia.org/Ohio_Prohibition_of_Data_Center_Construction_Amendment_(2026)",
+    "sponsors": [
+      "Ohioans for Responsible Development"
+    ]
   },
   {
     "id": "coal-city-il-2026-02-01",
@@ -36398,7 +36495,10 @@
     ],
     "authority_level": "federal_legislature",
     "objective": "Senate investigation into Big Tech data centers driving up consumer electricity costs",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Sen. Elizabeth Warren (D-MA)"
+    ]
   },
   {
     "id": "us-federal-epa-clean-air-data-centers-2025-12-11",
@@ -36424,7 +36524,10 @@
     "objective": "EPA redefines construction rules allowing data center building before air permits",
     "community_outcome": "pending",
     "bill_name": "EPA Clean Air Act Data Center Resources",
-    "bill_url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers"
+    "bill_url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+    "sponsors": [
+      "Environmental Protection Agency"
+    ]
   },
   {
     "id": "us-federal-army-corps-nwp39-2026-03-15",
@@ -36451,7 +36554,10 @@
     "objective": "Army Corps expands NWP 39 fast-track permits for data center construction in wetlands",
     "community_outcome": "pending",
     "bill_name": "NWP 39 (2026 Nationwide Permits)",
-    "bill_url": "https://www.federalregister.gov/documents/2026/01/08/2026-00121/reissuance-and-modification-of-nationwide-permits"
+    "bill_url": "https://www.federalregister.gov/documents/2026/01/08/2026-00121/reissuance-and-modification-of-nationwide-permits",
+    "sponsors": [
+      "U.S. Army Corps of Engineers"
+    ]
   },
   {
     "id": "us-national-fww-moratorium-report-2026-03-04",
@@ -36481,7 +36587,10 @@
     ],
     "authority_level": "advocacy_org",
     "objective": "Food & Water Watch report argues for nationwide data center moratorium",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Food & Water Watch"
+    ]
   },
   {
     "id": "us-national-sierra-club-policy-framework-2026-01",
@@ -36512,7 +36621,10 @@
     ],
     "authority_level": "advocacy_org",
     "objective": "Sierra Club proposes state policy guardrails for data centers",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Sierra Club"
+    ]
   },
   {
     "id": "us-national-data-center-watch-report-2026-03",
@@ -36541,7 +36653,10 @@
     ],
     "authority_level": "advocacy_org",
     "objective": "Document $98B in data center projects blocked or delayed by grassroots opposition",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Data Center Watch"
+    ]
   },
   {
     "id": "us-national-industry-lobbying-blitz-2026-02",
@@ -36566,7 +36681,10 @@
     ],
     "authority_level": "advocacy_org",
     "objective": "Counter Big Tech lobbying blitz with multi-state data center opposition campaigns",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Data Center Coalition"
+    ]
   },
   {
     "id": "lee-county-nc-2026-03-16",
@@ -36732,7 +36850,10 @@
     "opposition_website": "https://www.preservethehillcountry.com/",
     "company": "AEP Texas / LCRA / Oncor",
     "bill_name": "PUCT Permian Basin Reliability Plan",
-    "bill_url": "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2025/PUCT_Approves_Plan_for_the_First_Extra_High_Voltage_Transmission_Lines_in_ERCOT_Region.pdf"
+    "bill_url": "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2025/PUCT_Approves_Plan_for_the_First_Extra_High_Voltage_Transmission_Lines_in_ERCOT_Region.pdf",
+    "sponsors": [
+      "Hill Country Alliance"
+    ]
   },
   {
     "id": "texas-srec-resolution-2026",
@@ -36761,6 +36882,9 @@
     "objective": "Republican party resolution opposing data center impacts in TX",
     "community_outcome": "pending",
     "opposition_groups": [
+      "Texas State Republican Executive Committee"
+    ],
+    "sponsors": [
       "Texas State Republican Executive Committee"
     ]
   },
@@ -37010,7 +37134,10 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Challenge TVA plans to power data centers in Tennessee Valley",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "sponsors": [
+      "Sierra Club"
+    ]
   },
   {
     "id": "arizona-hb-2631-tax-repeal-2026",
@@ -37304,7 +37431,9 @@
     "authority_level": "state_legislature",
     "objective": "Prevent data center cost pass-through to residential rates in ID",
     "community_outcome": "pending",
-    "sponsors": []
+    "sponsors": [
+      "Rep. Stephanie Mickelsen (R-ID)"
+    ]
   },
   {
     "id": "kuna-diode-ventures-lawsuit-id-2026",
@@ -37373,7 +37502,10 @@
       "Helena Interfaith Climate Advocates",
       "Honor the Earth"
     ],
-    "company": "Sabey DC / Atlas Power / Quantica / TAC Data Centers"
+    "company": "Sabey DC / Atlas Power / Quantica / TAC Data Centers",
+    "sponsors": [
+      "Montana Environmental Information Center"
+    ]
   },
   {
     "id": "utah-hb-76-water-disclosure-2026",

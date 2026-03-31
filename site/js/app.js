@@ -792,7 +792,7 @@ function updateTable(filtered) {
         <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span></td>
         <td class="issue-cell">${(f.issue_category || []).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ')}</td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
-        <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${f.community_outcome === 'win' ? 'Won' : f.community_outcome === 'win_withdrawal' ? 'Withdrew' : f.community_outcome === 'loss' ? 'Lost' : f.community_outcome === 'partial' ? 'Partial' : f.community_outcome === 'expired' ? 'Expired' : 'Pending'}</span></td>
+        <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${f.community_outcome === 'win' ? 'Won' : f.community_outcome === 'loss' ? 'Lost' : f.community_outcome === 'partial' ? 'Partial' : 'Pending'}</span></td>
         <td class="objective-cell" title="${escapeHtml(f.objective || '')}">${f.objective || ''}</td>
         <td class="petition-cell">${petition}</td>
         <td class="links-cell">${links.join(' ')}</td>
@@ -1047,7 +1047,7 @@ function openDetail(f) {
 
     ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p><span class="status-badge" style="text-transform:capitalize;background:var(--border);color:var(--text)">${f.authority_level.replace(/_/g, ' ')}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getAuthorityTooltip(f.authority_level))}</span></span></p></div>` : ''}
 
-    ${f.community_outcome ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'win_withdrawal' ? 'Developer Withdrew' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'partial' ? 'Partial Win' : f.community_outcome === 'expired' ? 'Expired' : 'Pending'}</span></p></div>` : ''}
+    ${f.community_outcome ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'partial' ? 'Partial Win' : 'Pending'}</span></p></div>` : ''}
 
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 

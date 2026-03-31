@@ -596,7 +596,7 @@ function renderIssueCategoryChart(fights) {
   const ISSUE_NAMES = {
     zoning: 'Zoning / Land Use', water: 'Water', environmental: 'Environmental',
     community_impact: 'Community Impact', grid_energy: 'Grid / Energy',
-    noise: 'Noise', transparency: 'Transparency', permitting: 'Permitting',
+    noise: 'Noise', transparency: 'Transparency',
     ratepayer: 'Ratepayer', tax_incentive: 'Tax / Incentive', farmland: 'Farmland',
     traffic: 'Traffic', design_standards: 'Design Standards',
     contract_guarantees: 'Contract Guarantees', anti_ai: 'Anti-AI',

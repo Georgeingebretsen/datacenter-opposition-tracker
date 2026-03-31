@@ -358,7 +358,7 @@ function renderCallouts(fights, petitionData) {
     { number: '$' + formatNumber(Math.round(avgInvPerSig)), color: 'accent', label: 'in investment contested per petition signature — grassroots vs. Big Tech' },
     { number: morPerDay + '/day', color: 'blue', label: 'new moratoriums in the peak month (' + (peakMorMonth ? peakMorMonth[0] : '?') + ')' },
     { number: rMor + ' R vs ' + dMor + ' D', color: 'accent', label: 'moratoriums by county lean — this is a bipartisan movement' },
-    { number: '657', color: 'green', label: 'unique opposition groups have formed nationwide to fight data centers' },
+    { number: '657', color: 'green', label: 'unique community groups have formed nationwide around datacenter development' },
   ];
 
   // Recompute groups dynamically
@@ -406,7 +406,7 @@ function renderHyperscalerScorecard(fights) {
 
   let html = `<table class="scorecard-table">
     <thead><tr>
-      <th>Company</th><th>Fights</th><th></th><th class="num">Blocked</th><th class="num">Approved</th><th class="num">At Stake</th><th class="num">Petition Sigs</th>
+      <th>Company</th><th>Actions</th><th></th><th class="num">Won</th><th class="num">Approved</th><th class="num">At Stake</th><th class="num">Petition Sigs</th>
     </tr></thead><tbody>`;
 
   sorted.forEach(([name, s]) => {
@@ -420,7 +420,7 @@ function renderHyperscalerScorecard(fights) {
       <td><span class="scorecard-company"><span class="scorecard-dot" style="background:${color}"></span>${name}</span></td>
       <td class="num">${s.fights}</td>
       <td style="width:200px">
-        <span class="scorecard-bar" style="width:${blockedW}%;background:#66800B" title="${s.blocked} blocked"></span><span class="scorecard-bar" style="width:${ongoingW}%;background:${color};opacity:0.5" title="ongoing"></span><span class="scorecard-bar" style="width:${approvedW}%;background:#AF3029" title="${s.approved} approved"></span>
+        <span class="scorecard-bar" style="width:${blockedW}%;background:#66800B" title="${s.blocked} won"></span><span class="scorecard-bar" style="width:${ongoingW}%;background:${color};opacity:0.5" title="ongoing"></span><span class="scorecard-bar" style="width:${approvedW}%;background:#AF3029" title="${s.approved} approved"></span>
       </td>
       <td class="num" style="color:#66800B;font-weight:600">${s.blocked}</td>
       <td class="num" style="color:#AF3029">${s.approved}</td>
@@ -852,7 +852,7 @@ function renderCommunityOutcome(fights) {
   barHtml += '</div>';
 
   // Win rate callout
-  barHtml += `<div class="outcome-winrate"><span class="callout-number green">${winRate}%</span><span class="callout-label">community win rate (${winTotal} wins of ${resolved} resolved fights)</span></div>`;
+  barHtml += `<div class="outcome-winrate"><span class="callout-number green">${winRate}%</span><span class="callout-label">community win rate (${winTotal} wins of ${resolved} resolved actions)</span></div>`;
 
   document.getElementById('outcome-summary').innerHTML = barHtml;
 }

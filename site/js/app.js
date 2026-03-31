@@ -1096,11 +1096,11 @@ function openDetail(f) {
     ${specs.length ? `<div class="detail-section"><h3>Project Specs</h3><ul>${specs.join('')}</ul></div>` : ''}
 
     <div class="detail-section">
-      <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Opposition Groups'}</h3>
+      <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Community Groups'}</h3>
       <div class="groups-container">${groupsHtml}</div>
     </div>
 
-    ${oppLinks.length ? `<div class="detail-section"><h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Advocacy Links' : 'Opposition Links'}</h3><div class="opp-links">${oppLinks.map(l => `<span class="opp-link">${l}</span>`).join('')}</div></div>` : ''}
+    ${oppLinks.length ? `<div class="detail-section"><h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Advocacy Links' : 'Community Links'}</h3><div class="opp-links">${oppLinks.map(l => `<span class="opp-link">${l}</span>`).join('')}</div></div>` : ''}
 
     <div class="detail-section">
       <h3>Sources</h3>

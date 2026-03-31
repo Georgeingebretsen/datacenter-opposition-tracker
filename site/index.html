@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tracking American AI Datacenter Opposition</title>
-  <meta name="description" content="An interactive map and database of grassroots opposition to datacenter development across the United States. 838 fights tracked across 50 states.">
+  <title>Tracking American AI Datacenter Community Response</title>
+  <meta name="description" content="An interactive map and database tracking community response to datacenter development across the United States. 913 fights tracked across 51 states.">
   <meta property="og:title" content="US Datacenter Fights">
-  <meta property="og:description" content="An interactive map tracking 838 community opposition fights against datacenter development across 50 US states.">
+  <meta property="og:description" content="An interactive map tracking 913 community responses to datacenter development across 51 US states.">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="US Datacenter Fights">
-  <meta name="twitter:description" content="838 community fights against datacenter development across 50 US states. Interactive map and open database.">
+  <meta name="twitter:description" content="913 community responses to datacenter development across 51 US states. Interactive map and open database.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,13 +25,14 @@
       <div class="hero-overlay"></div>
     </div>
     <div class="header-inner">
-      <h1>Tracking American AI Datacenter Opposition</h1>
+      <h1>Tracking American AI Datacenter Community Response</h1>
       <p class="last-updated" id="last-updated"></p>
     </div>
   </header>
   <nav class="site-nav">
     <a href="index.html" class="nav-link active">Datacenter Fights</a>
     <a href="legislation.html" class="nav-link">Legislation Tracker</a>
+    <a href="stats.html" class="nav-link">Stats</a>
   </nav>
 
   <main>
@@ -55,6 +56,7 @@
     </section>
 
     <div class="outcome-bar" id="outcome-bar"></div>
+    <div class="legislation-strip" id="legislation-strip" style="display:none"></div>
 
     <section class="map-container">
       <div class="filters">
@@ -62,13 +64,20 @@
           <option value="">All States</option>
         </select>
         <select id="filter-type">
-          <option value="">All Types</option>
+          <option value="">All Actions</option>
           <option value="moratorium">Moratorium</option>
+          <option value="ordinance">Ordinance</option>
+          <option value="legislation">Legislation</option>
           <option value="zoning_restriction">Zoning Restriction</option>
+          <option value="community_benefit_agreement">Community Benefit Agreement</option>
+          <option value="other_opposition">Other Opposition</option>
           <option value="lawsuit">Lawsuit</option>
           <option value="permit_denial">Permit Denial</option>
-          <option value="legislation">Legislation</option>
-          <option value="other">Other</option>
+          <option value="project_withdrawal">Project Withdrawal</option>
+          <option value="infrastructure_opposition">Infrastructure Opposition</option>
+          <option value="regulatory_action">Regulatory Action</option>
+          <option value="executive_action">Executive Action</option>
+          <option value="study_or_report">Study / Report</option>
         </select>
         <select id="filter-year">
           <option value="">All Years</option>
@@ -81,6 +90,23 @@
         <select id="filter-status">
           <option value="">All Statuses</option>
         </select>
+        <select id="filter-issue">
+          <option value="">All Issues</option>
+          <option value="zoning">Zoning / Land Use</option>
+          <option value="water">Water</option>
+          <option value="environmental">Environmental</option>
+          <option value="community_impact">Community Impact</option>
+          <option value="grid_energy">Grid / Energy</option>
+          <option value="transparency">Transparency</option>
+          <option value="ratepayer">Ratepayer</option>
+          <option value="noise">Noise</option>
+          <option value="tax_incentive">Tax / Incentive</option>
+          <option value="farmland">Farmland</option>
+          <option value="traffic">Traffic</option>
+          <option value="design_standards">Design Standards</option>
+          <option value="contract_guarantees">Contract Guarantees</option>
+          <option value="anti_ai">Anti-AI</option>
+        </select>
         <select id="filter-hyperscaler">
           <option value="">All Companies</option>
         </select>
@@ -90,16 +116,14 @@
         <label class="size-by-label">
           <span class="size-by-icon">⊙</span> Circle size:
           <select id="size-by" title="What determines dot size">
-            <option value="petitions">Petitions</option>
-            <option value="energy">Energy (MW)</option>
             <option value="investment">Investment ($)</option>
-            <option value="acreage">Land Usage</option>
-            <option value="water">Water Usage</option>
-            <option value="grassroots">Grassroots Support</option>
-            <option value="facebook">Facebook Members</option>
-            <option value="instagram">Instagram Followers</option>
+            <option value="energy">Energy Demand (MW)</option>
+            <option value="acreage">Land Area (acres)</option>
+            <option value="petitions">Petition Signatures</option>
+            <option value="grassroots">Community Support</option>
           </select>
         </label>
+        <span class="size-legend" id="size-legend"></span>
       </div>
       <div id="map"></div>
     </section>

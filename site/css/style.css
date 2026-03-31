@@ -243,6 +243,72 @@ h1 {
 }
 
 /* Outcome progress bar */
+/* Legislation strip (shows when state filtered) */
+.legislation-strip {
+  max-width: 1100px;
+  margin: 0.75rem auto 0;
+  padding: 0.75rem 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.82rem;
+}
+.leg-strip-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.leg-strip-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.leg-strip-tag {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.leg-strip-tag.enacted { background: rgba(102,128,11,0.15); color: #66800B; }
+.leg-strip-tag.pending { background: rgba(173,131,1,0.15); color: #AD8301; }
+.leg-strip-tag.defeated { background: rgba(135,133,128,0.15); color: #878580; }
+.leg-strip-bills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.leg-strip-bill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.leg-strip-bill:hover {
+  background: var(--surface-hover);
+}
+.leg-strip-status {
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+.leg-strip-more {
+  font-size: 0.75rem;
+  color: var(--accent);
+  padding: 0.25rem 0.6rem;
+}
+.leg-strip-link {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 .outcome-bar {
   max-width: 1100px;
   margin: 1rem auto 0;
@@ -658,6 +724,15 @@ h1 {
   font-weight: 600;
   color: var(--text);
   line-height: 1.3;
+}
+.leg-card-sponsors {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .leg-card-summary {
   font-size: 0.78rem;
@@ -1165,6 +1240,145 @@ h1 {
   font-size: 0.9rem;
   line-height: 1.6;
   color: var(--text);
+}
+
+/* Size legend */
+.size-legend {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: 0.5rem;
+}
+.size-legend-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.size-legend-title {
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.size-legend-circles {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+.size-legend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.size-legend-circle {
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.5;
+  border: 1px solid var(--accent);
+}
+.size-legend-circle.size-legend-nodata {
+  background: var(--text-muted);
+  opacity: 0.3;
+  border-color: var(--text-muted);
+}
+.size-legend-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.size-legend-count {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Community outcome badges */
+.outcome-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.outcome-win, .outcome-win_withdrawal { background: rgba(102,128,11,0.15); color: #66800B; }
+.outcome-loss { background: rgba(175,48,41,0.15); color: #AF3029; }
+.outcome-pending { background: rgba(173,131,1,0.15); color: #AD8301; }
+.outcome-partial { background: rgba(188,82,21,0.15); color: #BC5215; }
+.outcome-expired { background: rgba(135,133,128,0.15); color: #878580; }
+
+/* Outcome badges (table) */
+.outcome-badge-sm {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.outcome-badge-sm.outcome-win, .outcome-badge-sm.outcome-win_withdrawal { background: rgba(102,128,11,0.15); color: #66800B; }
+.outcome-badge-sm.outcome-loss { background: rgba(175,48,41,0.15); color: #AF3029; }
+.outcome-badge-sm.outcome-pending { background: rgba(173,131,1,0.15); color: #AD8301; }
+.outcome-badge-sm.outcome-partial { background: rgba(188,82,21,0.15); color: #BC5215; }
+.outcome-badge-sm.outcome-expired { background: rgba(135,133,128,0.15); color: #878580; }
+
+/* Issue category tags (table view) */
+.issue-cell {
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.issue-tag-sm {
+  display: inline-block;
+  padding: 0.1rem 0.35rem;
+  background: var(--border);
+  border-radius: 8px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: capitalize;
+  white-space: nowrap;
+  margin: 1px 0;
+}
+.objective-cell {
+  max-width: 200px;
+  font-size: 0.78rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Sponsor badges (detail panel) */
+.sponsors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.sponsor-badge {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  background: rgba(67,133,190,0.12);
+  border: 1px solid rgba(67,133,190,0.25);
+  border-radius: 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Issue category tags (detail panel) */
+.issue-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.issue-tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: var(--border);
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text);
+  text-transform: capitalize;
 }
 
 /* Detail panel toolbar */

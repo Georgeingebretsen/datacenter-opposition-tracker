@@ -1,0 +1,135 @@
+{
+  "description": "Status updates for NJ, CT, MA, NH, RI, VT fights based on web research March 18, 2026",
+  "generated": "2026-03-18",
+  "updates": [
+    {
+      "id": "phillipsburg-nj-2026-02-25",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "Phillipsburg Town Council passed the data center ban ordinance on second reading (March 10). On March 26, 2026 at 7:30 PM, the Land Use Board held a public hearing for consistency review of Ordinance 2026-08 to determine if the ban is consistent with the Master Plan and zoning ordinances. The ban is not yet finalized -- it depends on the consistency review outcome. Summary should be updated to reflect March 10 passage and March 26 consistency review hearing.",
+      "new_sources": [
+        "https://www.phillipsburgnj.org/consistency-review-notice-for-data-center-3-26-26/",
+        "https://phillipsburgnj.org/land-use-meeting-3-26-26-notice-of-public-hearing-for-consistnecy-review-prohibiting-data-centers/"
+      ]
+    },
+    {
+      "id": "nj-s3379-nj-2026-02-12",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "S3379 was advanced by the Senate Environment and Energy Committee (reported favorably 3-1-1). No change in status but should note committee passage. Both S3379 and S680 cleared committee on March 16, 2026 as part of Sen. Bob Smith's data center legislative package."
+    },
+    {
+      "id": "nj-s731-large-load-tariff-nj-2026-02-12",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "The Senate passed this bill. Should be updated to note Senate passage. Part of the broader NJ legislative push on data center energy costs."
+    },
+    {
+      "id": "vineland-nj-2025-12-23",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "DataOne/Nebius facility becoming a campaign issue: Democrat Bayly Winder running for NJ-2 congressional seat has made opposition to the Vineland data center a centerpiece of his campaign. Follow South Jersey published investigation (March 10) on how the project 'tore Vineland's public and government apart.' Pinelands Alliance continues to highlight aquifer risks. The project is tied to a reported $17.4 billion five-year deal to provide computing power to Microsoft.",
+      "new_sources": [
+        "https://followsouthjersey.com/2026/03/10/how-a-data-center-tore-vinelands-public-and-government-apart/",
+        "https://newjerseyglobe.com/campaigns/inside-the-battle-over-data-center-development-thats-quietly-reshaping-n-j-politics/"
+      ]
+    },
+    {
+      "id": "moorestown-nj-2025-12-01",
+      "current_status": "active",
+      "recommended_status": "cancelled",
+      "update_note": "Council opted out of data center development. The developer (New Urban LLC) returned a red-lined draft redevelopment agreement that materially changed the scope, removing all data center classification and the solar array component. South Jersey Media reported the council decided against proceeding. Status should change to cancelled/defeated since council abandoned the data center plan.",
+      "new_sources": [
+        "https://southjersey.media/moorestown-news/redevelopment-in-town/"
+      ]
+    },
+    {
+      "id": "monroe-township-gloucester-county-nj-2025-12-01",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Hexa Builders' 1.6M sq ft warehouse project received unanimous preliminary site plan approval from Monroe Township Planning Board on January 8, 2026. Residents continue to suspect the warehouses are actually a data center. The Pinelands Commission is reviewing application #1987-0276.012. Environmental concerns include wetlands, tributaries, residential wells, and wildlife habitat. No final plans or tenant identified yet.",
+      "new_sources": [
+        "https://pinelandsalliance.org/data-centers-invading-nj-through-redevelopment-loophole/",
+        "https://southjersey.media/williamstown-news/residents-unite-to-oppose-ai-data-center-project/"
+      ]
+    },
+    {
+      "id": "everett-ma-2026-02-24",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Significant escalation: Everett City Council approved an amendment adding data centers to the prohibited use table for the Everett Docklands Innovation District (~100 acre former ExxonMobil site). Planning Board continued their public hearing to April 6, 2026 to further define 'data center' and explore making the prohibition citywide (not just the Docklands district). This has evolved well beyond the initial petition -- it is now an active city government action. Action type could be changed from 'zoning_restriction' to 'ban' or kept as is.",
+      "new_sources": [
+        "https://www.sierraclub.org/massachusetts/blog/2026/03/your-community-ready-data-center",
+        "https://www.multistate.us/insider/2026/3/13/local-data-center-regulations-gain-ground-as-state-bills-falter"
+      ]
+    },
+    {
+      "id": "shutesbury-ma-2025-09-01",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Planning Board held a public hearing on March 9, 2026 regarding a proposed amendment to the Shutesbury Zoning Bylaws for data centers. The permanent zoning regulations will be presented at the Annual Town Meeting on May 9, 2026. The 9-month moratorium from September 2025 is still in effect while permanent rules are developed.",
+      "new_sources": [
+        "https://www.shutesbury.org/zoning-bylaw-maps-and-amendments"
+      ]
+    },
+    {
+      "id": "connecticut-statewide-byop-ct-2026",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "HB 5469 details now published: effective date July 1, 2026. Large customers (50+ MW peak demand) must contract with colocated generators or demonstrate equivalent new generation. Must produce 100% of projected demand plus reserve margin. Financial guarantees required covering 85% of requested service for minimum 10 years. Deposits required to protect ratepayers if project scales back. PURA to implement framework by January. Bill language reflects Governor Lamont's January address signaling 'slow down new data centers unless they add more generation.'",
+      "new_sources": [
+        "https://hartfordbusiness.com/article/legislation-would-codify-bring-your-own-power-mandate-for-data-centers-large-power-users/",
+        "https://www.wshu.org/connecticut-news/2026-02-27/ct-ai-data-centers-regulations"
+      ]
+    },
+    {
+      "id": "new-hampshire-statewide-nh-2026-02-11",
+      "current_status": "defeated",
+      "recommended_status": "defeated",
+      "update_note": "Confirmed killed: HB 1265 (moratorium) was voted down on consent calendar. HB 1722 (special rate class for large-energy-use facilities) also killed. Meanwhile, HB 1124 'Right to Compute' bill passed the House by voice vote on March 13, enshrining the right of NH residents to 'make use of computational tools.' The NH House took a decisively pro-industry posture. Summary should note all three outcomes: HB 1265 killed, HB 1722 killed, HB 1124 passed.",
+      "new_sources": [
+        "https://newhampshirebulletin.com/2026/03/13/right-to-compute-bill-passes-house-while-proposed-data-center-precautions-flop/"
+      ]
+    },
+    {
+      "id": "new-hampshire-hb-1724-nh-2026",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "HB 1724 (utility reporting on data center costs/capacity) status should be checked -- may have been killed alongside HB 1265 and HB 1722 in the same March 13 session. The NH Bulletin article says the House killed 'other safeguard proposals aimed at data centers.' If killed, status should change to defeated."
+    },
+    {
+      "id": "rhode-island-s2346-ri-2026",
+      "current_status": "defeated",
+      "recommended_status": "defeated",
+      "update_note": "Confirmed: S2346 (data center tax incentives) was recommended 'held for further study' by Senate Commerce Committee on March 10. This effectively shelves the pro-data-center incentives bill. Status correctly reflects defeat. Note the political context: last year's incentive legislation also failed, showing RI legislature's shifting stance from attracting to regulating data centers."
+    },
+    {
+      "id": "rhode-island-s2776-ri-2026",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "S2776 (requiring data centers to fund infrastructure improvements for their electricity needs) was also recommended 'held for further study' by Senate Commerce Committee. May need status change to 'stalled' if no further action expected this session."
+    },
+    {
+      "id": "vermont-statewide-vt-2026-01-15",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "S.205 (statewide moratorium through July 2030 on facilities >100 MW) remains pending. Sen. Becca White spoke at Royalton Town Meeting in support. Vermont Commissioner Johnson confirmed there are no active large-scale data center proposals in the state. The debate is largely preemptive. Divergent thresholds between S.205 (100 MW) and H.727 (20 MW) reflect ongoing debate about what scale warrants state intervention."
+    },
+    {
+      "id": "vermont-statewide-h727-vt-2026",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "H.727 (Vermont Sustainable Data Centers Act) by Rep. Laura Sibilia regulates facilities requiring 20+ MW. Focuses on siting criteria, environmental protections, and ratepayer cost controls. Referred to Committee on Energy and Digital Infrastructure. This is the regulatory approach compared to S.205's moratorium approach. Vermont's debate is notable for being entirely preemptive -- no proposals exist.",
+      "new_sources": [
+        "https://www.compassvermont.com/p/vermonts-data-center-debate-could",
+        "https://www.vermontpublic.org/show/vermont-edition/2026-03-04/vermont-looks-to-study-and-possibly-block-data-centers"
+      ]
+    },
+    {
+      "id": "royalton-vt-2026-03-03",
+      "current_status": "approved",
+      "recommended_status": "enacted",
+      "update_note": "Royalton voters approved the five-year moratorium at Town Meeting Day. The Planning Commission is writing the policy into the town plan for Selectboard approval. Status should change to 'enacted' since voters approved it by show of hands."
+    }
+  ]
+}

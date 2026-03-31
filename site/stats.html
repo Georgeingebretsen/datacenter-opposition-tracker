@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stats — US Datacenter Fights</title>
-  <meta name="description" content="Analytics and statistics on datacenter opposition across the United States.">
+  <meta name="description" content="Analytics and statistics on datacenter community response across the United States.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
       <div class="hero-overlay"></div>
     </div>
     <div class="header-inner">
-      <h1>Tracking American AI Datacenter Opposition</h1>
+      <h1>Tracking American AI Datacenter Community Response</h1>
       <p class="last-updated" id="last-updated"></p>
     </div>
   </header>
@@ -43,7 +43,7 @@
       </div>
       <div class="hero-stat">
         <span class="hero-number" id="s-groups">—</span>
-        <span class="hero-label">opposition groups</span>
+        <span class="hero-label">community groups</span>
       </div>
       <div class="hero-stat">
         <span class="hero-number" id="s-signatures">—</span>
@@ -58,7 +58,7 @@
       </div>
       <div class="hero-stat">
         <span class="hero-number" id="s-blocked">—</span>
-        <span class="hero-label">in projects blocked</span>
+        <span class="hero-label">in resolved community outcomes</span>
       </div>
       <div class="hero-stat">
         <span class="hero-number" id="s-moratoria">—</span>
@@ -78,7 +78,7 @@
     <!-- Timeline -->
     <section class="stats-section">
       <h2>The Acceleration</h2>
-      <p class="section-subtitle">New datacenter opposition fights per month</p>
+      <p class="section-subtitle">New datacenter community actions per month</p>
       <div class="chart-container" id="timeline-chart"></div>
     </section>
 
@@ -98,7 +98,7 @@
     <!-- Hyperscalers -->
     <section class="stats-section">
       <h2>The Scorecard</h2>
-      <p class="section-subtitle">Opposition fights by hyperscaler — and how many communities have successfully blocked them</p>
+      <p class="section-subtitle">Community actions by hyperscaler — and how communities have fared</p>
       <div id="hyperscaler-scorecard"></div>
     </section>
 
@@ -122,6 +122,48 @@
       </div>
     </section>
 
+    <!-- Win Rate by Tool -->
+    <section class="stats-section">
+      <h2>Which Tools Work?</h2>
+      <p class="section-subtitle">Community win rate by action type — which mechanisms are most effective?</p>
+      <div id="winrate-chart"></div>
+    </section>
+
+    <!-- Community Outcome Summary -->
+    <section class="stats-section">
+      <h2>The Scoreboard</h2>
+      <p class="section-subtitle">Overall community win/loss record across all resolved fights</p>
+      <div id="outcome-summary"></div>
+    </section>
+
+    <!-- Issue Category Breakdown -->
+    <section class="stats-section">
+      <h2>What's Driving the Fights?</h2>
+      <p class="section-subtitle">Issue categories across all community actions</p>
+      <div class="bar-chart" id="issue-chart"></div>
+    </section>
+
+    <!-- Authority Level -->
+    <section class="stats-section">
+      <h2>Who's Deciding?</h2>
+      <p class="section-subtitle">Which levels of government are taking action on datacenter proposals</p>
+      <div class="bar-chart" id="authority-chart"></div>
+    </section>
+
+    <!-- Win Rate by Partisan Lean -->
+    <section class="stats-section">
+      <h2>Does Politics Matter?</h2>
+      <p class="section-subtitle">Community win rate in Republican vs Democratic-leaning counties</p>
+      <div id="partisan-winrate"></div>
+    </section>
+
+    <!-- Top Sponsors -->
+    <section class="stats-section">
+      <h2>Legislative Champions</h2>
+      <p class="section-subtitle">Legislators sponsoring the most datacenter-related bills</p>
+      <div class="bar-chart" id="sponsors-chart"></div>
+    </section>
+
     <!-- Petitions vs Jobs -->
     <section class="stats-section">
       <h2>Petition Signatures vs. Jobs Promised</h2>
@@ -132,7 +174,7 @@
     <!-- Opposition group growth -->
     <section class="stats-section">
       <h2>The Grassroots Explosion</h2>
-      <p class="section-subtitle">New opposition groups appearing in the database per month</p>
+      <p class="section-subtitle">New community groups appearing in the database per month</p>
       <div class="chart-container" id="groups-timeline"></div>
     </section>
 

@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderHyperscalerScorecard(fights);
   renderStateRankings(fights, petitionData);
   renderPartisan(fights);
+  renderWinRateByTool(fights);
+  renderIssueCategoryChart(fights);
+  renderAuthorityLevel(fights);
+  renderCommunityOutcome(fights);
+  renderPartisanWinRate(fights);
+  renderTopSponsors(fights);
   renderSigsVsJobs(fights);
   renderGroupsTimeline(fights);
   renderTopPetitions(fights, petitionData);
@@ -28,6 +34,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // --- Utilities ---
+
+function getInvestment(f) {
+  if (f.investment_million_usd) return f.investment_million_usd * 1000000;
+  if (f.investment_usd) return f.investment_usd;
+  return 0;
+}
 
 function formatBigNumber(n) {
   if (n >= 1e12) return '$' + (n / 1e12).toFixed(1) + 'T';
@@ -125,9 +137,9 @@ function renderHeroStats(fights, petitionData) {
   const states = new Set(fights.map(f => f.state));
   const groups = new Set();
   fights.forEach(f => (f.opposition_groups || []).forEach(g => groups.add(g)));
-  const totalInv = fights.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const totalInv = fights.reduce((s, f) => s + (getInvestment(f) || 0), 0);
   const blocked = fights.filter(f => ['cancelled', 'defeated'].includes(f.status));
-  const blockedInv = blocked.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const blockedInv = blocked.reduce((s, f) => s + (getInvestment(f) || 0), 0);
   const activeMoratoria = fights.filter(f => f.action_type === 'moratorium' && ['active', 'enacted', 'approved'].includes(f.status)).length;
 
   document.getElementById('s-total').textContent = fights.length.toLocaleString();
@@ -314,17 +326,17 @@ function renderOutcomes(fights) {
 
 function renderCallouts(fights, petitionData) {
   const blocked = fights.filter(f => ['cancelled', 'defeated'].includes(f.status));
-  const blockedInv = blocked.reduce((s, f) => s + (f.investment_usd || 0), 0);
-  const totalInv = fights.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const blockedInv = blocked.reduce((s, f) => s + (getInvestment(f) || 0), 0);
+  const totalInv = fights.reduce((s, f) => s + (getInvestment(f) || 0), 0);
 
   // 96% started since 2025
   const since2025 = fights.filter(f => (f.date || '') >= '2025-01-01').length;
   const pctRecent = Math.round((since2025 / fights.length) * 100);
 
   // David vs Goliath: investment per petition signature
-  const petFights = fights.filter(f => f.petition_signatures > 0 && f.investment_usd > 0);
+  const petFights = fights.filter(f => f.petition_signatures > 0 && getInvestment(f) > 0);
   const avgInvPerSig = petFights.length > 0
-    ? petFights.reduce((s,f) => s + f.investment_usd, 0) / petFights.reduce((s,f) => s + f.petition_signatures, 0)
+    ? petFights.reduce((s,f) => s + getInvestment(f), 0) / petFights.reduce((s,f) => s + f.petition_signatures, 0)
     : 0;
 
   // Moratoriums per day in peak month
@@ -341,8 +353,8 @@ function renderCallouts(fights, petitionData) {
   const dMor = fights.filter(f => f.action_type === 'moratorium' && f.county_lean === 'D').length;
 
   const cards = [
-    { number: formatBigNumber(blockedInv), color: 'green', label: 'in projects successfully blocked or defeated by community opposition' },
-    { number: pctRecent + '%', color: 'red', label: 'of all fights started since January 2025 — this movement barely existed before then' },
+    { number: formatBigNumber(blockedInv), color: 'green', label: 'in projects where communities shaped the outcome' },
+    { number: pctRecent + '%', color: 'red', label: 'of all actions started since January 2025 — this movement barely existed before then' },
     { number: '$' + formatNumber(Math.round(avgInvPerSig)), color: 'accent', label: 'in investment contested per petition signature — grassroots vs. Big Tech' },
     { number: morPerDay + '/day', color: 'blue', label: 'new moratoriums in the peak month (' + (peakMorMonth ? peakMorMonth[0] : '?') + ')' },
     { number: rMor + ' R vs ' + dMor + ' D', color: 'accent', label: 'moratoriums by county lean — this is a bipartisan movement' },
@@ -384,7 +396,7 @@ function renderHyperscalerScorecard(fights) {
     stats[h].fights++;
     if (['cancelled','defeated'].includes(f.status)) stats[h].blocked++;
     if (f.status === 'approved') stats[h].approved++;
-    stats[h].investment += f.investment_usd || 0;
+    stats[h].investment += getInvestment(f) || 0;
     stats[h].petitions += f.petition_signatures || 0;
     if (f.action_type === 'moratorium') stats[h].moratoria++;
   });
@@ -533,6 +545,125 @@ function renderPartisan(fights) {
   `;
 }
 
+// --- Win Rate by Tool (Action Type) ---
+
+function renderWinRateByTool(fights) {
+  const ACTION_NAMES = {
+    moratorium: 'Moratorium', legislation: 'Legislation', ordinance: 'Ordinance',
+    zoning_restriction: 'Zoning Restriction', other_opposition: 'Other Opposition',
+    community_benefit_agreement: 'CBA', lawsuit: 'Lawsuit',
+    permit_denial: 'Permit Denial', project_withdrawal: 'Project Withdrawal',
+    infrastructure_opposition: 'Infrastructure', regulatory_action: 'Regulatory',
+    executive_action: 'Executive', study_or_report: 'Study/Report',
+  };
+
+  const stats = {};
+  fights.forEach(f => {
+    const at = f.action_type || 'other';
+    if (!stats[at]) stats[at] = { total: 0, wins: 0, losses: 0, pending: 0 };
+    stats[at].total++;
+    const o = f.community_outcome || 'pending';
+    if (o === 'win') stats[at].wins++;
+    else if (o === 'loss') stats[at].losses++;
+    else stats[at].pending++;
+  });
+
+  // Only show types with 5+ entries
+  const display = Object.entries(stats)
+    .filter(([, s]) => s.total >= 5)
+    .sort((a, b) => (b[1].wins / b[1].total) - (a[1].wins / a[1].total));
+
+  let html = '<table class="scorecard-table"><thead><tr><th>Action Type</th><th class="num">Total</th><th class="num">Won</th><th class="num">Lost</th><th class="num">Win Rate</th><th></th></tr></thead><tbody>';
+
+  display.forEach(([at, s]) => {
+    const winPct = s.total > 0 ? Math.round((s.wins / s.total) * 100) : 0;
+    const lossPct = s.total > 0 ? Math.round((s.losses / s.total) * 100) : 0;
+    const pendPct = 100 - winPct - lossPct;
+    const name = ACTION_NAMES[at] || at;
+
+    html += `<tr>
+      <td style="font-weight:600">${name}</td>
+      <td class="num">${s.total}</td>
+      <td class="num" style="color:#66800B;font-weight:600">${s.wins}</td>
+      <td class="num" style="color:#AF3029">${s.losses}</td>
+      <td class="num" style="font-weight:700">${winPct}%</td>
+      <td style="width:150px">
+        <span class="scorecard-bar" style="width:${winPct}%;background:#66800B"></span><span class="scorecard-bar" style="width:${pendPct}%;background:#AD8301;opacity:0.3"></span><span class="scorecard-bar" style="width:${lossPct}%;background:#AF3029"></span>
+      </td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById('winrate-chart').innerHTML = html;
+}
+
+// --- Issue Category Breakdown ---
+
+function renderIssueCategoryChart(fights) {
+  const ISSUE_NAMES = {
+    zoning: 'Zoning / Land Use', water: 'Water', environmental: 'Environmental',
+    community_impact: 'Community Impact', grid_energy: 'Grid / Energy',
+    noise: 'Noise', transparency: 'Transparency',
+    ratepayer: 'Ratepayer', tax_incentive: 'Tax / Incentive', farmland: 'Farmland',
+    traffic: 'Traffic', design_standards: 'Design Standards',
+    contract_guarantees: 'Contract Guarantees', anti_ai: 'Anti-AI',
+  };
+
+  const counts = {};
+  fights.forEach(f => {
+    (f.issue_category || []).forEach(c => {
+      counts[c] = (counts[c] || 0) + 1;
+    });
+  });
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const maxVal = sorted[0]?.[1] || 1;
+
+  document.getElementById('issue-chart').innerHTML = sorted.map(([cat, count]) => {
+    const name = ISSUE_NAMES[cat] || cat.replace(/_/g, ' ');
+    const pct = Math.round((count / fights.length) * 100);
+    return `<div class="bar-row">
+      <span class="bar-label">${name}</span>
+      <div class="bar-track">
+        <div class="bar-fill fill-accent" style="width: ${(count / maxVal) * 100}%"></div>
+      </div>
+      <span class="bar-value">${count} (${pct}%)</span>
+    </div>`;
+  }).join('');
+}
+
+// --- Partisan Win Rate ---
+
+function renderPartisanWinRate(fights) {
+  const stats = { R: { total: 0, wins: 0, losses: 0 }, D: { total: 0, wins: 0, losses: 0 } };
+
+  fights.forEach(f => {
+    const lean = f.county_lean;
+    if (!lean || !stats[lean]) return;
+    const resolved = ['win', 'loss', 'partial'].includes(f.community_outcome);
+    if (!resolved) return;
+    stats[lean].total++;
+    if (f.community_outcome === 'win') stats[lean].wins++;
+    else if (f.community_outcome === 'loss') stats[lean].losses++;
+  });
+
+  const rWinPct = stats.R.total > 0 ? Math.round((stats.R.wins / stats.R.total) * 100) : 0;
+  const dWinPct = stats.D.total > 0 ? Math.round((stats.D.wins / stats.D.total) * 100) : 0;
+
+  document.getElementById('partisan-winrate').innerHTML = `
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;text-align:center;">
+      <div class="callout-card">
+        <span class="callout-number red">${rWinPct}%</span>
+        <span class="callout-label">win rate in Republican counties<br><small style="color:var(--text-muted)">${stats.R.wins} won, ${stats.R.losses} lost of ${stats.R.total} resolved</small></span>
+      </div>
+      <div class="callout-card">
+        <span class="callout-number blue">${dWinPct}%</span>
+        <span class="callout-label">win rate in Democratic counties<br><small style="color:var(--text-muted)">${stats.D.wins} won, ${stats.D.losses} lost of ${stats.D.total} resolved</small></span>
+      </div>
+    </div>
+  `;
+}
+
 // --- Petition Signatures vs Jobs Promised ---
 
 function renderSigsVsJobs(fights) {
@@ -638,6 +769,128 @@ function renderGroupsTimeline(fights) {
   svg += `<line x1="${padL}" y1="${padT + chartH}" x2="${W - padR}" y2="${padT + chartH}" class="timeline-axis"/>`;
   svg += '</svg>';
   container.innerHTML = svg;
+}
+
+// --- Authority Level Breakdown ---
+
+function renderAuthorityLevel(fights) {
+  const AUTHORITY_NAMES = {
+    city_council: 'City Council', county_commission: 'County Commission',
+    township_board: 'Township Board', village_board: 'Village Board',
+    planning_commission: 'Planning Commission', state_legislature: 'State Legislature',
+    governor: 'Governor', utility_commission: 'Utility Commission',
+    federal_legislature: 'Federal Legislature', federal_executive: 'Federal Executive',
+    federal_agency: 'Federal Agency', court: 'Court',
+    voters: 'Voters / Referendum', developer: 'Developer Decision',
+    advocacy_org: 'Advocacy Organization', tribal_government: 'Tribal Government',
+  };
+
+  const counts = {};
+  fights.forEach(f => {
+    const al = f.authority_level;
+    if (al) counts[al] = (counts[al] || 0) + 1;
+  });
+
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const maxVal = sorted[0]?.[1] || 1;
+
+  // Group into tiers for coloring
+  const localAuthorities = ['city_council', 'county_commission', 'township_board', 'village_board', 'planning_commission'];
+  const stateAuthorities = ['state_legislature', 'governor', 'utility_commission'];
+  const federalAuthorities = ['federal_legislature', 'federal_executive', 'federal_agency'];
+
+  document.getElementById('authority-chart').innerHTML = sorted.map(([auth, count]) => {
+    const name = AUTHORITY_NAMES[auth] || auth.replace(/_/g, ' ');
+    let fillClass = 'fill-accent';
+    if (stateAuthorities.includes(auth)) fillClass = 'fill-blue';
+    else if (federalAuthorities.includes(auth)) fillClass = 'fill-green';
+    else if (['court', 'voters', 'developer', 'advocacy_org', 'tribal_government'].includes(auth)) fillClass = 'fill-muted';
+    return `<div class="bar-row">
+      <span class="bar-label">${name}</span>
+      <div class="bar-track">
+        <div class="bar-fill ${fillClass}" style="width: ${(count / maxVal) * 100}%"></div>
+      </div>
+      <span class="bar-value">${count}</span>
+    </div>`;
+  }).join('');
+}
+
+// --- Community Outcome Summary ---
+
+function renderCommunityOutcome(fights) {
+  const outcomes = { win: 0, loss: 0, partial: 0, pending: 0 };
+  fights.forEach(f => {
+    const o = f.community_outcome || 'pending';
+    outcomes[o] = (outcomes[o] || 0) + 1;
+  });
+
+  const total = fights.length;
+  const resolved = outcomes.win + outcomes.loss + outcomes.partial;
+  const winTotal = outcomes.win;
+  const winRate = resolved > 0 ? Math.round((winTotal / resolved) * 100) : 0;
+
+  const segments = [
+    { val: outcomes.win, color: '#66800B', label: 'Community Won' },
+    { val: outcomes.partial, color: '#AD8301', label: 'Partial Win' },
+    { val: outcomes.loss, color: '#AF3029', label: 'Community Lost' },
+    { val: outcomes.pending, color: '#B7B5AC', label: 'Pending' },
+  ].filter(s => s.val > 0);
+
+  // Horizontal stacked bar
+  let barHtml = '<div class="outcome-stack">';
+  segments.forEach(seg => {
+    const pct = (seg.val / total) * 100;
+    barHtml += `<div class="outcome-segment" style="width:${pct}%;background:${seg.color}" title="${seg.label}: ${seg.val} (${Math.round(pct)}%)"></div>`;
+  });
+  barHtml += '</div>';
+
+  // Legend
+  barHtml += '<div class="outcome-legend">';
+  segments.forEach(seg => {
+    barHtml += `<span class="outcome-legend-item"><span class="legend-dot" style="background:${seg.color}"></span>${seg.label}: ${seg.val}</span>`;
+  });
+  barHtml += '</div>';
+
+  // Win rate callout
+  barHtml += `<div class="outcome-winrate"><span class="callout-number green">${winRate}%</span><span class="callout-label">community win rate (${winTotal} wins of ${resolved} resolved fights)</span></div>`;
+
+  document.getElementById('outcome-summary').innerHTML = barHtml;
+}
+
+// --- Top Legislative Sponsors ---
+
+function renderTopSponsors(fights) {
+  const sponsorCounts = {};
+  fights.forEach(f => {
+    (f.sponsors || []).forEach(s => {
+      sponsorCounts[s] = (sponsorCounts[s] || 0) + 1;
+    });
+  });
+
+  const sorted = Object.entries(sponsorCounts).sort((a, b) => b[1] - a[1]);
+  const withSponsors = fights.filter(f => f.sponsors && f.sponsors.length > 0).length;
+
+  if (sorted.length === 0) {
+    document.getElementById('sponsors-chart').innerHTML = '<p style="color:var(--text-muted)">No sponsor data available</p>';
+    return;
+  }
+
+  const display = sorted.slice(0, 15);
+  const maxVal = display[0][1];
+
+  document.getElementById('sponsors-chart').innerHTML = display.map(([name, count]) => {
+    // Try to detect party from name pattern (R-XX) or (D-XX)
+    let fillClass = 'fill-accent';
+    if (/\(R[- ]/.test(name)) fillClass = 'fill-red';
+    else if (/\(D[- ]/.test(name)) fillClass = 'fill-blue';
+    return `<div class="bar-row">
+      <span class="bar-label" title="${name}">${name}</span>
+      <div class="bar-track">
+        <div class="bar-fill ${fillClass}" style="width: ${(count / maxVal) * 100}%"></div>
+      </div>
+      <span class="bar-value">${count}</span>
+    </div>`;
+  }).join('');
 }
 
 // --- Top Petitions ---

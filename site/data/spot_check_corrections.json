@@ -1,0 +1,86 @@
+[
+  {
+    "id": "platte-county-mo-2025-10-01",
+    "field": "energy_mw",
+    "current": 1800,
+    "correct": null,
+    "reason": "Summary says '1.8 million sq ft', not 1,800 MW. The MW value was misread from square footage. No power capacity figure is mentioned in the summary."
+  },
+  {
+    "id": "pecos-county-tx-2026-02-01",
+    "field": "energy_mw",
+    "current": 5000,
+    "correct": 7650,
+    "reason": "Summary explicitly states '7.65 GW' facility, which is 7,650 MW. The field listed 5,000 MW with no basis in the summary text."
+  },
+  {
+    "id": "amarillo-tx-2025-12-01",
+    "field": "energy_mw",
+    "current": 11000,
+    "correct": 7650,
+    "reason": "Summary states the project 'received a 7.65 GW air permit from TCEQ'. 7.65 GW = 7,650 MW. The 11,000 MW (11 GW) figure does not appear in the summary."
+  },
+  {
+    "id": "amarillo-tx-2025-12-01",
+    "field": "investment_usd",
+    "current": 60000,
+    "correct": null,
+    "reason": "No investment dollar figure appears anywhere in the summary. The $60B value is unsourced from the entry text."
+  },
+  {
+    "id": "hood-county-tx-2026-02-10",
+    "field": "energy_mw",
+    "current": 5000,
+    "correct": null,
+    "reason": "Summary mentions no MW figure at all. Hood County has 'at least five data center applications' but no aggregate or individual power capacity is stated."
+  },
+  {
+    "id": "hood-county-tx-2026-02-10",
+    "field": "investment_usd",
+    "current": 60000,
+    "correct": null,
+    "reason": "Summary mentions no investment dollar figure. The $60B value is unsourced from the entry text."
+  },
+  {
+    "id": "southaven-naacp-clean-air-act-lawsuit-ms-2026-02-13",
+    "field": "investment_usd",
+    "current": 20000,
+    "correct": null,
+    "reason": "Summary explicitly states 'This is a distinct action from the existing Southaven entry covering the $20B investment.' The $20B belongs to the main Southaven entry (southaven-ms-2026-02-18), not this lawsuit-specific entry."
+  },
+  {
+    "id": "forsyth-monroe-county-ga-2026-02-03",
+    "field": "investment_usd",
+    "current": 21000,
+    "correct": 8000,
+    "reason": "Summary mentions '21-building data center' but no total investment figure. The duplicate entry forsyth-ga-2026-02-03 for the same project correctly lists $8B. The 21000 ($21B) appears to have been confused with the 21 buildings."
+  },
+  {
+    "id": "mason-county-ky-2026-03-01",
+    "field": "energy_mw",
+    "current": 2200,
+    "correct": null,
+    "reason": "Summary mentions a '2,000-acre data center' but no MW capacity figure. The 2,200 MW value is unsourced from the entry text."
+  },
+  {
+    "id": "mason-county-ky-2026-03-01",
+    "field": "investment_usd",
+    "current": 1000,
+    "correct": null,
+    "reason": "Summary mentions no investment figure. The company is undisclosed, and no dollar amount is stated."
+  },
+  {
+    "id": "mingo-county-wv-2025-12-03",
+    "field": "energy_mw",
+    "current": 2457,
+    "correct": null,
+    "reason": "Summary mentions 'two data centers and two natural gas plants' but no specific MW capacity. The 2,457 MW figure does not appear in the summary and is unsourced."
+  },
+  {
+    "id": "mingo-county-wv-2025-12-03",
+    "field": "investment_usd",
+    "current": 3000,
+    "correct": null,
+    "reason": "Summary mentions no investment dollar figure. The $3B value is unsourced from the entry text."
+  }
+]

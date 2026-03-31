@@ -10,10 +10,18 @@ let selectedHyperscalers = new Set();
 
 const ACTION_LABELS = {
   moratorium: 'Moratorium',
+  legislation: 'Legislation',
+  ordinance: 'Ordinance',
   zoning_restriction: 'Zoning Restriction',
+  other_opposition: 'Other Opposition',
+  community_benefit_agreement: 'Community Benefit Agreement',
   lawsuit: 'Lawsuit',
   permit_denial: 'Permit Denial',
-  legislation: 'Legislation',
+  project_withdrawal: 'Project Withdrawal',
+  infrastructure_opposition: 'Infrastructure',
+  regulatory_action: 'Regulatory Action',
+  executive_action: 'Executive Action',
+  study_or_report: 'Study / Report',
   other: 'Other',
 };
 
@@ -86,6 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('filter-year').addEventListener('change', render);
   document.getElementById('filter-lean').addEventListener('change', render);
   document.getElementById('filter-status').addEventListener('change', render);
+  document.getElementById('filter-issue').addEventListener('change', render);
   document.getElementById('filter-hyperscaler').addEventListener('change', render);
   document.getElementById('size-by').addEventListener('change', render);
   document.getElementById('clear-filters').addEventListener('click', clearFilters);
@@ -350,13 +359,15 @@ function getFiltered() {
   const hyperscaler = document.getElementById('filter-hyperscaler').value;
   const search = document.getElementById('search-input').value.toLowerCase();
 
+  const issue = document.getElementById('filter-issue').value;
+
   const base = fights.filter(f => {
-    if (f.scope === 'statewide' || f.scope === 'federal') return false;
     if (state && f.state !== state) return false;
     if (type && f.action_type !== type) return false;
     if (year && !f.date.startsWith(year)) return false;
     if (lean && f.county_lean !== lean) return false;
     if (status && f.status !== status) return false;
+    if (issue && !(f.issue_category || []).includes(issue)) return false;
     if (hyperscaler && f.hyperscaler !== hyperscaler) return false;
     if (selectedHyperscalers.size > 0 && !selectedHyperscalers.has(f.hyperscaler)) return false;
     if (search) {
@@ -380,8 +391,106 @@ function render() {
   updateMap(filtered);
   updateTable(filtered);
   updateSortIndicators();
+  updateSizeLegend(filtered);
+  updateLegislationStrip();
   // Update URL to reflect current filters (skip on initial load)
   if (typeof updateUrlFromFilters === 'function') updateUrlFromFilters();
+}
+
+function updateLegislationStrip() {
+  const strip = document.getElementById('legislation-strip');
+  const state = document.getElementById('filter-state').value;
+  if (!state) { strip.style.display = 'none'; return; }
+
+  const bills = fights.filter(f => f.state === state && (f.scope === 'statewide' || f.scope === 'federal'));
+  if (bills.length === 0) { strip.style.display = 'none'; return; }
+
+  const enacted = bills.filter(b => b.status === 'enacted').length;
+  const pending = bills.filter(b => ['active', 'pending', 'ongoing'].includes(b.status)).length;
+  const defeated = bills.filter(b => ['defeated', 'cancelled'].includes(b.status)).length;
+
+  strip.style.display = '';
+  strip.innerHTML = `
+    <div class="leg-strip-inner">
+      <div class="leg-strip-summary">
+        <strong>${state} Legislation:</strong>
+        ${bills.length} bill${bills.length !== 1 ? 's' : ''} tracked
+        ${enacted ? `<span class="leg-strip-tag enacted">${enacted} enacted</span>` : ''}
+        ${pending ? `<span class="leg-strip-tag pending">${pending} pending</span>` : ''}
+        ${defeated ? `<span class="leg-strip-tag defeated">${defeated} defeated</span>` : ''}
+      </div>
+      <div class="leg-strip-bills">
+        ${bills.slice(0, 5).map(b => `
+          <span class="leg-strip-bill" onclick="event.stopPropagation(); const f = fights.find(x => x.id === '${b.id}'); if(f) openDetail(f);">
+            ${b.bill_name || b.objective?.slice(0, 50) || b.action_type}
+            <span class="leg-strip-status status-${(b.status || '').split(/[\s-]/)[0].toLowerCase()}">${capitalize((b.status || '').split(/[\s-]/)[0])}</span>
+          </span>
+        `).join('')}
+        ${bills.length > 5 ? `<a href="legislation.html" class="leg-strip-more">${bills.length - 5} more →</a>` : ''}
+      </div>
+      <a href="legislation.html" class="leg-strip-link">View all legislation →</a>
+    </div>
+  `;
+}
+
+function updateSizeLegend(filtered) {
+  const sizeBy = document.getElementById('size-by').value;
+  const metric = SIZE_METRICS[sizeBy] || SIZE_METRICS.energy;
+  const values = filtered.map(f => metric.getValue(f)).filter(v => v != null && v > 0);
+  const legend = document.getElementById('size-legend');
+  if (!legend || values.length === 0) { if (legend) legend.textContent = ''; return; }
+
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const noData = filtered.length - values.length;
+  const fmt = (v) => {
+    if (v >= 1e9) return '$' + (v/1e9).toFixed(1) + 'B';
+    if (v >= 1e6) return '$' + (v/1e6).toFixed(0) + 'M';
+    if (v >= 1e3) return (v/1e3).toFixed(0) + 'K';
+    return v.toLocaleString();
+  };
+
+  // Pick 3 reference values: small, medium, large
+  const sorted = values.slice().sort((a, b) => a - b);
+  const refSmall = sorted[Math.floor(sorted.length * 0.1)];
+  const refMid = sorted[Math.floor(sorted.length * 0.5)];
+  const refLarge = sorted[Math.floor(sorted.length * 0.9)];
+
+  // Calculate radii for reference values using same logic as getMarkerRadius
+  const calcR = (val) => {
+    if (val == null || val <= 0) return 5;
+    if (metric.logScale) {
+      const logVal = Math.log10(Math.max(val, 1));
+      const logMax = Math.log10(Math.max(max, 10));
+      return metric.minR + (logVal / logMax) * (metric.maxR - metric.minR);
+    }
+    return metric.minR + (val / 1) * (metric.maxR - metric.minR);
+  };
+
+  const circles = [
+    { val: refSmall, r: calcR(refSmall) },
+    { val: refMid, r: calcR(refMid) },
+    { val: refLarge, r: calcR(refLarge) },
+  ];
+
+  legend.innerHTML = `
+    <div class="size-legend-visual">
+      <span class="size-legend-title">${metric.label}</span>
+      <div class="size-legend-circles">
+        ${circles.map(c => `
+          <div class="size-legend-item">
+            <span class="size-legend-circle" style="width:${c.r * 2}px;height:${c.r * 2}px"></span>
+            <span class="size-legend-label">${fmt(c.val)}</span>
+          </div>
+        `).join('')}
+        <div class="size-legend-item">
+          <span class="size-legend-circle size-legend-nodata" style="width:10px;height:10px"></span>
+          <span class="size-legend-label">no data</span>
+        </div>
+      </div>
+      <span class="size-legend-count">${values.length} of ${filtered.length} entries have data</span>
+    </div>
+  `;
 }
 
 function updateStats(filtered) {
@@ -486,7 +595,7 @@ function updateHyperscalerBar(filtered) {
 // Size-by metric configuration
 const SIZE_METRICS = {
   energy: {
-    getValue: f => f.megawatts || (f.investment_million_usd ? f.investment_million_usd * 0.5 : null),
+    getValue: f => f.megawatts,
     minR: 4, maxR: 26, logScale: true,
     label: 'project power',
     formatTip: (f) => f.megawatts ? formatPower(f.megawatts) : (f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null),
@@ -717,13 +826,15 @@ function updateTable(filtered) {
         <td><strong>${f.jurisdiction}</strong></td>
         <td>${f.state}</td>
         <td>${f.county || ''}</td>
-        <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span></td>
+        <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span></td>
+        <td class="issue-cell">${(f.issue_category || []).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ')}</td>
         <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
+        <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${f.community_outcome === 'win' ? 'Won' : f.community_outcome === 'loss' ? 'Lost' : f.community_outcome === 'partial' ? 'Partial' : 'Pending'}</span></td>
+        <td class="objective-cell" title="${escapeHtml(f.objective || '')}">${f.objective || ''}</td>
         <td class="petition-cell">${petition}</td>
         <td class="links-cell">${links.join(' ')}</td>
         <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700' : ''}">${f.hyperscaler || ''}</td>
         <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
-        <td class="truncate-cell" title="${escapeHtml(f.project_name || '')}">${f.project_name || ''}</td>
         <td>${formatInvestment(f.investment_million_usd)}</td>
         <td>${formatPower(f.megawatts)}</td>
         <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
@@ -754,13 +865,15 @@ function updateSpreadsheetHeader() {
     <th data-sort="jurisdiction">Jurisdiction</th>
     <th data-sort="state">State</th>
     <th data-sort="county">County</th>
-    <th data-sort="action_type">Mechanism</th>
+    <th data-sort="action_type">Action</th>
+    <th>Issue</th>
     <th data-sort="status">Status</th>
+    <th data-sort="community_outcome">Outcome</th>
+    <th>Objective</th>
     <th data-sort="petition_signatures">Petition</th>
     <th>Links</th>
     <th data-sort="hyperscaler">Company</th>
     <th data-sort="company">Developer</th>
-    <th data-sort="project_name">Project</th>
     <th data-sort="investment_million_usd">Investment</th>
     <th data-sort="megawatts">Power</th>
     <th data-sort="acreage">Acres</th>
@@ -780,13 +893,15 @@ function updateSpreadsheetHeader() {
       { key: 'jurisdiction', ph: 'Filter...' }, // Jurisdiction
       { key: 'state', ph: 'ST' },            // State
       { key: 'county', ph: 'County...' },    // County
-      { key: 'action_type', ph: 'Type...' }, // Mechanism
+      { key: 'action_type', ph: 'Type...' }, // Action
+      { key: 'issue_category', ph: 'Issue...' }, // Issue
       { key: 'status', ph: 'Status...' },    // Status
+      { key: 'community_outcome', ph: 'Win/Loss' }, // Outcome
+      { key: 'objective', ph: 'Objective...' }, // Objective
       { key: '', ph: '' },                   // Petition
       { key: '', ph: '' },                   // Links
       { key: 'hyperscaler', ph: 'Company...' }, // Company
       { key: 'company', ph: 'Dev...' },      // Developer
-      { key: 'project_name', ph: 'Project...' }, // Project
       { key: '', ph: '' },                   // Investment
       { key: 'megawatts_filter', ph: 'Min MW' }, // Power
       { key: '', ph: '' },                   // Acres
@@ -846,6 +961,11 @@ function applyColumnFilters(rows) {
       } else if (col === 'groups') {
         const groupText = (f.opposition_groups || []).join(' ').toLowerCase();
         if (!groupText.includes(val)) return false;
+      } else if (col === 'issue_category') {
+        const issueText = (f.issue_category || []).join(' ').toLowerCase();
+        if (!issueText.includes(val)) return false;
+      } else if (col === 'objective') {
+        if (!(f.objective || '').toLowerCase().includes(val)) return false;
       } else if (col === 'summary') {
         if (!(f.summary || '').toLowerCase().includes(val)) return false;
       } else {
@@ -947,14 +1067,24 @@ function openDetail(f) {
       </button>
     </div>
     <h2>${f.jurisdiction}, ${f.state}</h2>
-    ${f.county ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
+    ${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
     <div class="detail-meta">
-      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span>
+      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span>
       &nbsp;&middot;&nbsp;
       <span class="status-badge status-${f.status}">${capitalize(f.status)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span>
       &nbsp;&middot;&nbsp;
       ${formatDate(f.date)}
     </div>
+
+    ${f.sponsors && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><div class="sponsors-list">${f.sponsors.map(s => `<span class="sponsor-badge">${escapeHtml(s)}</span>`).join('')}</div></div>` : ''}
+
+    ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p style="font-weight:600;font-size:1.05rem;">${f.objective}</p></div>` : ''}
+
+    ${f.issue_category && f.issue_category.length ? `<div class="detail-section"><h3>Issue Categories</h3><div class="issue-tags">${f.issue_category.map(c => `<span class="issue-tag">${c.replace(/_/g, ' ')}</span>`).join('')}</div></div>` : ''}
+
+    ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p><span class="status-badge" style="text-transform:capitalize;background:var(--border);color:var(--text)">${f.authority_level.replace(/_/g, ' ')}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getAuthorityTooltip(f.authority_level))}</span></span></p></div>` : ''}
+
+    ${f.community_outcome ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'partial' ? 'Partial Win' : 'Pending'}</span></p></div>` : ''}
 
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 
@@ -966,11 +1096,11 @@ function openDetail(f) {
     ${specs.length ? `<div class="detail-section"><h3>Project Specs</h3><ul>${specs.join('')}</ul></div>` : ''}
 
     <div class="detail-section">
-      <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Opposition Groups'}</h3>
+      <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Community Groups'}</h3>
       <div class="groups-container">${groupsHtml}</div>
     </div>
 
-    ${oppLinks.length ? `<div class="detail-section"><h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Advocacy Links' : 'Opposition Links'}</h3><div class="opp-links">${oppLinks.map(l => `<span class="opp-link">${l}</span>`).join('')}</div></div>` : ''}
+    ${oppLinks.length ? `<div class="detail-section"><h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Advocacy Links' : 'Community Links'}</h3><div class="opp-links">${oppLinks.map(l => `<span class="opp-link">${l}</span>`).join('')}</div></div>` : ''}
 
     <div class="detail-section">
       <h3>Sources</h3>
@@ -1032,6 +1162,7 @@ function applyUrlParams() {
   if (params.get('year')) document.getElementById('filter-year').value = params.get('year');
   if (params.get('lean')) document.getElementById('filter-lean').value = params.get('lean');
   if (params.get('status')) document.getElementById('filter-status').value = params.get('status');
+  if (params.get('issue')) document.getElementById('filter-issue').value = params.get('issue');
   if (params.get('search')) document.getElementById('search-input').value = params.get('search');
 }
 
@@ -1043,6 +1174,7 @@ function updateUrlFromFilters() {
     year: document.getElementById('filter-year').value,
     lean: document.getElementById('filter-lean').value,
     status: document.getElementById('filter-status').value,
+    issue: document.getElementById('filter-issue').value,
     search: document.getElementById('search-input').value,
   };
 
@@ -1064,9 +1196,10 @@ function clearFilters() {
   document.getElementById('filter-year').value = '';
   document.getElementById('filter-lean').value = '';
   document.getElementById('filter-status').value = '';
+  document.getElementById('filter-issue').value = '';
   document.getElementById('filter-hyperscaler').value = '';
   selectedHyperscalers.clear();
-  document.getElementById('size-by').value = 'petitions';
+  document.getElementById('size-by').value = 'investment';
   document.getElementById('search-input').value = '';
   document.querySelectorAll('.col-filter-input').forEach(inp => { inp.value = ''; });
   render();

@@ -1,0 +1,114 @@
+{
+  "description": "Status updates for existing Western state fights (CO, ID, MT, UT, NV, NM), based on web research March 18, 2026",
+  "generated": "2026-03-18",
+  "updates": [
+    {
+      "id": "denver-co-2026-02-24",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Denver moratorium ordinance expected to be introduced at a council meeting as early as March 31, 2026. The plan calls for a one-year moratorium on building data centers, starting this spring. Only CoreSite's DE3 data center is currently permitted and under construction. Mayor Mike Johnston and city council are aligned. Community meeting in Elyria-Swansea saw hundreds attend; developer CoreSite bailed on a meeting citing safety concerns. Strong momentum toward passage."
+    },
+    {
+      "id": "larimer-county-co-2026-01-01",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "Larimer County approved an initial 30-day moratorium in late January, then considered a longer 6-month moratorium following a Feb 9 public hearing. The moratorium was spurred by inquiries from two data center developers. Environmental planner Scott Benton confirmed the county is developing specific land-use regulations for data centers, which are currently not addressed in county code. Status remains active as the county develops permanent regulations."
+    },
+    {
+      "id": "logan-county-co-2025-10-01",
+      "current_status": "expired",
+      "recommended_status": "expired",
+      "update_note": "Logan County lifted its moratorium on Feb 18, 2026 after adopting new regulations for data centers, battery storage, and solar facilities. Granite Renewables' $15B data center project on 4,198 acres can now move forward under the new regulatory framework. A new entry (logan-county-co-regulations-2026-02-18) has been created to track the ongoing Granite Renewables project and community opposition."
+    },
+    {
+      "id": "colorado-statewide-co-2026-02-12",
+      "current_status": "pending",
+      "recommended_status": "pending",
+      "update_note": "SB 26-102 continues through the legislature alongside competing HB 26-1030. SB 102 would require 100% renewable energy matching for large-load data centers by Jan 1, 2031. A new entry for HB 1030 (tax breaks bill) has been created. Both bills remain under active consideration as of mid-March 2026. Earthjustice, NRDC, and Western Colorado Alliance back SB 102."
+    },
+    {
+      "id": "denver-elyria-swansea-co-2026",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "The Elyria-Swansea community fight against CoreSite's DE3 data center has intensified. Residents delivered a 'Good Neighbor' proposal to CoreSite with demands for transparency on energy, water use, generator plans, and safeguards against surveillance systems. CoreSite's 3-building facility will use 65-75 MW and up to 805,000 gallons/day of water. The permit was approved as use-by-right under Denver's I-B zoning, bypassing public input. Tensions ran high enough that CoreSite bailed on a community meeting. Consider adding water_usage_gallons_per_day: 805000 and megawatts: 75 to this entry."
+    },
+    {
+      "id": "kootenai-county-id-2025-03-02",
+      "current_status": "enacted",
+      "recommended_status": "active",
+      "update_note": "The original 182-day moratorium enacted in March 2025 has expired (it would have ended around September 2025). No evidence found that Kootenai County has converted it to a permanent ban. The county was studying zoning and permitting regulations during the moratorium, with focus on aquifer protection (the Spokane Valley-Rathdrum Prairie Aquifer, source of drinking water for the Coeur d'Alene and Spokane regions). Status should be updated based on whether new permanent regulations were adopted post-moratorium. Consider verifying with county records."
+    },
+    {
+      "id": "kuna-id-2026-02-03",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "This entry covers the Diode Ventures/Gemstone Technology Park lawsuit. Confirm this is the correct entry — if it covers the Meta-related disputes, a separate entry (kuna-diode-ventures-lawsuit-id-2026-02-03) has been created for the Diode Ventures lawsuit specifically. The farmer lawsuit argues a city council member should have recused. The city responded that the council member's employment by the plaintiff didn't constitute a direct economic conflict under Idaho law."
+    },
+    {
+      "id": "broadview-mt-2025-07-31",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "Quantica Infrastructure's 5,000-acre Big Sky Digital Infrastructure Campus near Broadview continues to face community opposition. Quantica has requested 1 GW of power from NorthWestern Energy by 2031. A Montana businessman filed a lawsuit in Yellowstone County District Court on Jan 9, 2026 alleging Quantica stole the data center deal after he sold land in Broadview. Broadview resident Cari Olson is traveling the state organizing opposition. Consider adding megawatts: 1000 and adding Cari Olson and MEIC to opposition_groups."
+    },
+    {
+      "id": "great-falls-mt-2025-11-17",
+      "current_status": "cancelled",
+      "recommended_status": "cancelled",
+      "update_note": "Confirmed: TAC Data Centers pulled out of its option to lease 569 acres in Great Falls in November 2025. The 'Project Cardinal' development is no longer moving forward. Status correctly marked as cancelled."
+    },
+    {
+      "id": "butte-mt-2025-11-18",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "Sabey Data Centers is pursuing the 606-acre purchase in Montana Connections Business Park. NorthWestern Energy has approved 50 MW starting in 2026 with expansion to 250 MW. The land sale closing deadline was Feb 11, 2026, but Sabey was expected to seek an extension. Community opposition includes concerns about energy bills from Butte commissioners, and resident Linda Trevenna accused Sabey of dodging public scrutiny with contradictory information. Sabey says it will use 'air-first cooling' with Silver Lake industrial water as backup. A Butte ad-hoc committee released a report on the proposed data center. Consider adding megawatts: 250 and jobs_promised: 200."
+    },
+    {
+      "id": "montana-psc-protective-order-challenge-2026",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "Seven nonprofits challenged the Montana PSC's December protective order shielding NorthWestern Energy's data center LOIs. Earthjustice is now representing the coalition. A Yale Climate Connections article highlighted that NorthWestern's data center electricity rates are redacted from public view. The challenge argues Montana's Constitution guarantees public right-to-know. The three data centers covered by LOIs are: Atlas Power Group, Sabey Data Center Properties, and Quantica Infrastructure."
+    },
+    {
+      "id": "eagle-mountain-ut-2025-06-01",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "Eagle Mountain City Council tabled the RTI Overlay Zone energy amendments on Jan 20, 2026 for additional review and public input. The Planning Commission had recommended denial 3-2. The city made two prior attempts in 2025 to adopt the ordinance, both failing. A Change.org petition opposes allowing nuclear reactors. Google has delayed its campus build due to Rocky Mountain Power's inability to meet energy demand. A new, more detailed entry (eagle-mountain-nuclear-zoning-ut-2026-01-20) has been created. Consider merging or cross-referencing."
+    },
+    {
+      "id": "utah-statewide-hb-76-ut-2026-01-15",
+      "current_status": "active",
+      "recommended_status": "enacted",
+      "update_note": "HB 76 passed both the Utah House and Senate in the 2026 General Session. The bill requires new data centers (10,000+ sq ft, 75+ acre-feet of water/year) to report water usage to the State Engineer. $10,000/day fine for noncompliance. After initially failing in the Senate by two votes, a provision limiting it to new data centers secured passage. Gov. Spenser Cox has until March 26 to sign or veto. Update status to enacted upon signature."
+    },
+    {
+      "id": "reno-nv-2025-01-10",
+      "current_status": "approved",
+      "recommended_status": "approved",
+      "update_note": "The Sierra Club Toiyabe appeal of the Webb Data Center was denied by Reno City Council on Jan 22, 2025. Subsequently, another data center (Oppidan/Oppaden) was denied by the Planning Commission for the North Valleys but the Reno City Council reversed that denial on March 12, 2025, approving the project despite ongoing public outcry. Commissioner Manny Becerra, who voted in opposition, argued for establishing a comprehensive framework rather than addressing data center applications piecemeal. A new entry has been created for the Webb Data Center fight specifically."
+    },
+    {
+      "id": "yerington-lyon-county-nv-2025-08-01",
+      "current_status": "approved",
+      "recommended_status": "approved",
+      "update_note": "The Lyon County Board of Commissioners approved the Monarch Data Center master plan amendment 4-1 on Dec 7, 2025. The $11B, 1,000 MW project on 505 acres of agricultural land in Mason Valley moves forward despite strong resident opposition (13 against, 4 in favor at the hearing). The Pyramid Lake Paiute Tribe expressed concern about water impacts. A new, more detailed entry (lyon-county-mason-valley-nv-2025-12-07) has been created. Consider merging if this entry covers the same fight."
+    },
+    {
+      "id": "dona-ana-county-nm-2025-08-27",
+      "current_status": "ongoing",
+      "recommended_status": "ongoing",
+      "update_note": "Project Jupiter opposition continues to escalate. Two lawsuits now filed by NM Environmental Law Center: (1) alleging Open Meetings Act violation for closed-door session during bond approval, (2) alleging vote on incomplete bond application. Oracle confirmed as tenant (for OpenAI infrastructure). 5,200+ public comments submitted on air quality permits. Greenhouse gas emissions could reach 14M tons/year. Doña Ana County agreed to hold a community meeting. The fight is now shaping 2026 county commissioner elections. A new detailed entry (dona-ana-county-nm-air-permits-2026-03) tracks the air permit fight specifically."
+    },
+    {
+      "id": "dona-ana-county-nm-lawsuit-2026-01",
+      "current_status": "active",
+      "recommended_status": "active",
+      "update_note": "A second lawsuit has been filed by NM Environmental Law Center, this one alleging the Open Meetings Act was violated during the Sept 19, 2025 meeting when commissioners went into closed session while discussing the $165B bond measure. The original lawsuit (alleging vote on incomplete application) is also still active. Both lawsuits are pending."
+    },
+    {
+      "id": "bernalillo-county-nm-2026-02-01",
+      "current_status": "active",
+      "recommended_status": "enacted",
+      "update_note": "The Bernalillo County Commission passed the 'Holding Data Center Projects Accountable' resolution on Feb 10/11, 2026, on a 4-1 vote. Sponsored by Commissioner Eric Olivas. Requirements include: 90% in-state construction workforce, permanent positions paying at least 160% of area median income or $75K (whichever higher), 100% renewable energy, water use offsets. Some speakers at the hearing called for a total ban on data centers. Status should be updated to enacted since the resolution passed."
+    }
+  ]
+}

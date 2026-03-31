@@ -35,6 +35,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // --- Utilities ---
 
+function getInvestment(f) {
+  if (f.investment_million_usd) return f.investment_million_usd * 1000000;
+  if (f.investment_usd) return f.investment_usd;
+  return 0;
+}
+
 function formatBigNumber(n) {
   if (n >= 1e12) return '$' + (n / 1e12).toFixed(1) + 'T';
   if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'B';
@@ -131,9 +137,9 @@ function renderHeroStats(fights, petitionData) {
   const states = new Set(fights.map(f => f.state));
   const groups = new Set();
   fights.forEach(f => (f.opposition_groups || []).forEach(g => groups.add(g)));
-  const totalInv = fights.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const totalInv = fights.reduce((s, f) => s + (getInvestment(f) || 0), 0);
   const blocked = fights.filter(f => ['cancelled', 'defeated'].includes(f.status));
-  const blockedInv = blocked.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const blockedInv = blocked.reduce((s, f) => s + (getInvestment(f) || 0), 0);
   const activeMoratoria = fights.filter(f => f.action_type === 'moratorium' && ['active', 'enacted', 'approved'].includes(f.status)).length;
 
   document.getElementById('s-total').textContent = fights.length.toLocaleString();
@@ -320,17 +326,17 @@ function renderOutcomes(fights) {
 
 function renderCallouts(fights, petitionData) {
   const blocked = fights.filter(f => ['cancelled', 'defeated'].includes(f.status));
-  const blockedInv = blocked.reduce((s, f) => s + (f.investment_usd || 0), 0);
-  const totalInv = fights.reduce((s, f) => s + (f.investment_usd || 0), 0);
+  const blockedInv = blocked.reduce((s, f) => s + (getInvestment(f) || 0), 0);
+  const totalInv = fights.reduce((s, f) => s + (getInvestment(f) || 0), 0);
 
   // 96% started since 2025
   const since2025 = fights.filter(f => (f.date || '') >= '2025-01-01').length;
   const pctRecent = Math.round((since2025 / fights.length) * 100);
 
   // David vs Goliath: investment per petition signature
-  const petFights = fights.filter(f => f.petition_signatures > 0 && f.investment_usd > 0);
+  const petFights = fights.filter(f => f.petition_signatures > 0 && getInvestment(f) > 0);
   const avgInvPerSig = petFights.length > 0
-    ? petFights.reduce((s,f) => s + f.investment_usd, 0) / petFights.reduce((s,f) => s + f.petition_signatures, 0)
+    ? petFights.reduce((s,f) => s + getInvestment(f), 0) / petFights.reduce((s,f) => s + f.petition_signatures, 0)
     : 0;
 
   // Moratoriums per day in peak month
@@ -347,8 +353,8 @@ function renderCallouts(fights, petitionData) {
   const dMor = fights.filter(f => f.action_type === 'moratorium' && f.county_lean === 'D').length;
 
   const cards = [
-    { number: formatBigNumber(blockedInv), color: 'green', label: 'in projects successfully blocked or defeated by community opposition' },
-    { number: pctRecent + '%', color: 'red', label: 'of all fights started since January 2025 — this movement barely existed before then' },
+    { number: formatBigNumber(blockedInv), color: 'green', label: 'in projects where communities shaped the outcome' },
+    { number: pctRecent + '%', color: 'red', label: 'of all actions started since January 2025 — this movement barely existed before then' },
     { number: '$' + formatNumber(Math.round(avgInvPerSig)), color: 'accent', label: 'in investment contested per petition signature — grassroots vs. Big Tech' },
     { number: morPerDay + '/day', color: 'blue', label: 'new moratoriums in the peak month (' + (peakMorMonth ? peakMorMonth[0] : '?') + ')' },
     { number: rMor + ' R vs ' + dMor + ' D', color: 'accent', label: 'moratoriums by county lean — this is a bipartisan movement' },
@@ -390,7 +396,7 @@ function renderHyperscalerScorecard(fights) {
     stats[h].fights++;
     if (['cancelled','defeated'].includes(f.status)) stats[h].blocked++;
     if (f.status === 'approved') stats[h].approved++;
-    stats[h].investment += f.investment_usd || 0;
+    stats[h].investment += getInvestment(f) || 0;
     stats[h].petitions += f.petition_signatures || 0;
     if (f.action_type === 'moratorium') stats[h].moratoria++;
   });
@@ -543,11 +549,12 @@ function renderPartisan(fights) {
 
 function renderWinRateByTool(fights) {
   const ACTION_NAMES = {
-    moratorium: 'Moratorium', legislation: 'Legislation', zoning_restriction: 'Zoning Restriction',
-    other_opposition: 'Other Opposition', lawsuit: 'Lawsuit',
+    moratorium: 'Moratorium', legislation: 'Legislation', ordinance: 'Ordinance',
+    zoning_restriction: 'Zoning Restriction', other_opposition: 'Other Opposition',
+    community_benefit_agreement: 'CBA', lawsuit: 'Lawsuit',
     permit_denial: 'Permit Denial', project_withdrawal: 'Project Withdrawal',
-    infrastructure_opposition: 'Infrastructure', regulatory_action: 'Regulatory', executive_action: 'Executive',
-    study_or_report: 'Study/Report',
+    infrastructure_opposition: 'Infrastructure', regulatory_action: 'Regulatory',
+    executive_action: 'Executive', study_or_report: 'Study/Report',
   };
 
   const stats = {};
@@ -556,7 +563,7 @@ function renderWinRateByTool(fights) {
     if (!stats[at]) stats[at] = { total: 0, wins: 0, losses: 0, pending: 0 };
     stats[at].total++;
     const o = f.community_outcome || 'pending';
-    if (o === 'win' || o === 'win_withdrawal') stats[at].wins++;
+    if (o === 'win') stats[at].wins++;
     else if (o === 'loss') stats[at].losses++;
     else stats[at].pending++;
   });
@@ -633,10 +640,10 @@ function renderPartisanWinRate(fights) {
   fights.forEach(f => {
     const lean = f.county_lean;
     if (!lean || !stats[lean]) return;
-    const resolved = ['win', 'win_withdrawal', 'loss'].includes(f.community_outcome);
+    const resolved = ['win', 'loss', 'partial'].includes(f.community_outcome);
     if (!resolved) return;
     stats[lean].total++;
-    if (f.community_outcome === 'win' || f.community_outcome === 'win_withdrawal') stats[lean].wins++;
+    if (f.community_outcome === 'win') stats[lean].wins++;
     else if (f.community_outcome === 'loss') stats[lean].losses++;
   });
 
@@ -811,23 +818,21 @@ function renderAuthorityLevel(fights) {
 // --- Community Outcome Summary ---
 
 function renderCommunityOutcome(fights) {
-  const outcomes = { win: 0, win_withdrawal: 0, loss: 0, partial: 0, pending: 0, expired: 0 };
+  const outcomes = { win: 0, loss: 0, partial: 0, pending: 0 };
   fights.forEach(f => {
     const o = f.community_outcome || 'pending';
     outcomes[o] = (outcomes[o] || 0) + 1;
   });
 
   const total = fights.length;
-  const resolved = outcomes.win + outcomes.win_withdrawal + outcomes.loss + outcomes.partial;
-  const winTotal = outcomes.win + outcomes.win_withdrawal;
+  const resolved = outcomes.win + outcomes.loss + outcomes.partial;
+  const winTotal = outcomes.win;
   const winRate = resolved > 0 ? Math.round((winTotal / resolved) * 100) : 0;
 
   const segments = [
     { val: outcomes.win, color: '#66800B', label: 'Community Won' },
-    { val: outcomes.win_withdrawal, color: '#879A39', label: 'Developer Withdrew' },
     { val: outcomes.partial, color: '#AD8301', label: 'Partial Win' },
     { val: outcomes.loss, color: '#AF3029', label: 'Community Lost' },
-    { val: outcomes.expired, color: '#878580', label: 'Expired' },
     { val: outcomes.pending, color: '#B7B5AC', label: 'Pending' },
   ].filter(s => s.val > 0);
 

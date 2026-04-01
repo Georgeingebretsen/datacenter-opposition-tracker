@@ -387,11 +387,12 @@ function getFiltered() {
 
 function render() {
   const filtered = getFiltered();
+  const localOnly = filtered.filter(f => f.scope !== 'statewide' && f.scope !== 'federal');
   updateStats(filtered);
-  updateMap(filtered);
+  updateMap(localOnly);
   updateTable(filtered);
   updateSortIndicators();
-  updateSizeLegend(filtered);
+  updateSizeLegend(localOnly);
   updateLegislationStrip();
   // Update URL to reflect current filters (skip on initial load)
   if (typeof updateUrlFromFilters === 'function') updateUrlFromFilters();

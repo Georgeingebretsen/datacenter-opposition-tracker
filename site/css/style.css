@@ -1563,6 +1563,10 @@ footer {
 
 /* Responsive — Mobile */
 @media (max-width: 768px) {
+  .info-icon,
+  .status-tip {
+    display: none !important;
+  }
   .hero-image {
     height: 160px;
   }

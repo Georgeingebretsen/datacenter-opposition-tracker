@@ -29251,7 +29251,6 @@
     "last_updated": "2026-03-16",
     "summary": "Following Governor Jeff Landry's announcement of Amazon's $12 billion investment in three interconnected data center campuses across Caddo, Louisiana, and Bossier parishes, Commissioner Chris Kracman proposed a one-year moratorium on developments using water from Caddo Lake, but the resolution failed to receive a second from any other commissioner. Amazon has pledged to limit cooling water use to less than 13% of the year and invest $400 million in public water systems in the Caddo-Bossier area.",
     "issue_category": [
-      "grid_energy",
       "water"
     ],
     "authority_level": "county_commission",
@@ -29415,7 +29414,7 @@
     "summary": "The Coalition for Responsible Data Center Development (370 members) and eight residents filed a lawsuit in Dakota County District Court to block Tract's approved plan to build up to 12 data centers across 343 acres, a $5 billion project on the former Fountain Valley Golf Club site. The lawsuit alleges the city failed to address Minnesota DNR concerns about groundwater impacts, risks to private wells, and cumulative water sustainability effects. Castle Rock Township separately sued Farmington for breach of the Orderly Annexation Agreement.",
     "last_updated": "2026-03-28",
     "issue_category": [
-      "farmland",
+      "community_impact",
       "water"
     ],
     "authority_level": "court",
@@ -29704,7 +29703,7 @@
     "summary": "HydraVault received a full building permit from Chicago, Illinois, to construct a 76,000-square-foot, 20-megawatt AI data center at 2538 S. Wabash Avenue in the South Loop. Residents reported opposition due to energy consumption, water use, and the lack of public hearings — the project was classified as a 'minor change' by zoning officials, bypassing community review.",
     "last_updated": "2026-03-19",
     "issue_category": [
-      "anti_ai",
+      "community_impact",
       "grid_energy",
       "transparency",
       "water"
@@ -29905,6 +29904,7 @@
     "last_updated": "2026-03-19",
     "summary": "Ashville, Ohio, Village Council unanimously passed a 180-day emergency moratorium on December 20, 2025, in response to EdgeConneX's proposal on 680 acres including an on-site 200-megawatt natural gas power plant. Residents lined yards with 'No Data Center' signs. EdgeConneX withdrew its annexation application but reportedly already holds land zoned for data center use.",
     "issue_category": [
+      "community_impact",
       "environmental",
       "grid_energy"
     ],
@@ -30444,9 +30444,7 @@
     "bill_url": "https://billstatus.ls.state.ms.us/2025/pdf/history/SB/SB3168.xml",
     "county_lean": null,
     "issue_category": [
-      "grid_energy",
-      "tax_incentive",
-      "transparency"
+      "tax_incentive"
     ],
     "authority_level": "state_legislature",
     "objective": "Create data center tax incentive program in MS",
@@ -30854,7 +30852,7 @@
     "bill_url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=2182&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
     "county_lean": null,
     "issue_category": [
-      "ratepayer",
+      "contract_guarantees",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
@@ -31009,7 +31007,6 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
-      "grid_energy",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -31057,7 +31054,7 @@
     "investment_usd": 2700000000,
     "energy_mw": 365,
     "issue_category": [
-      "tax_incentive",
+      "grid_energy",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -31302,7 +31299,6 @@
     "opposition_website": "https://stopbaccara.com/",
     "petition_url": "https://www.change.org/p/stop-project-baccara-on-the-southern-border-of-surprise-az-in-maricopa-county",
     "issue_category": [
-      "design_standards",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -31342,9 +31338,9 @@
     "summary": "In Colorado, coreSite is building a 600,000-square-foot data center in Elyria-Swansea, one of the most polluted zip codes in the country (80216), which proceeded as a by-right use without community review. Hundreds packed a February 2026 meeting demanding transparency, and delivered a 'Good Neighbor' proposal. Denver's mayor subsequently joined calls for a moratorium.",
     "last_updated": "2026-03-19",
     "issue_category": [
+      "community_impact",
       "environmental",
       "transparency",
-      "water",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -31507,7 +31503,7 @@
     "summary": "Millard County, Utah, Commission approved rezoning of 4,400+ acres from agricultural to forest/range for Creekstone Energy solar farm to power AI data centers, despite resident opposition. Concerns about ruining land's multipurpose use, visual impact, and long-term consequences. The project involves 4400 acres. Opposition was led by Millard County Residents Against Solar Farm. Key concerns driving this action include environmental impacts and noise impacts.",
     "last_updated": "2026-03-19",
     "issue_category": [
-      "anti_ai",
+      "community_impact",
       "environmental",
       "farmland",
       "noise",
@@ -31836,6 +31832,7 @@
     "summary": "Grant County Commissioners passed a 24-month moratorium on data centers on March 2, 2026. The Area Plan Commission began drafting ordinance language focusing on transparency, resource impacts, and local benefits, including questions about client disclosure and annual energy/water reporting. Opposition was led by Citizens Action Coalition of Indiana. The community successfully achieved its objective.",
     "opposition_website": "https://www.citact.org/",
     "issue_category": [
+      "grid_energy",
       "transparency",
       "water"
     ],
@@ -32182,6 +32179,7 @@
     "petition_url": "https://www.change.org/p/stop-the-nobles-county-mega-data-center-before-it-reshapes-our-rural-communities",
     "last_updated": "2026-03-28",
     "issue_category": [
+      "community_impact",
       "environmental",
       "farmland"
     ],
@@ -33042,6 +33040,7 @@
     "last_updated": "2026-03-19",
     "acreage": 243,
     "issue_category": [
+      "community_impact",
       "environmental",
       "noise",
       "transparency"
@@ -33192,8 +33191,8 @@
     "last_updated": "2026-03-19",
     "acreage": 1600,
     "issue_category": [
-      "environmental",
-      "water"
+      "water",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Community pressure forces QTS to withdraw in DeForest",
@@ -33276,7 +33275,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "grid_energy",
+      "community_impact",
       "transparency",
       "zoning"
     ],
@@ -33316,11 +33315,11 @@
     "opposition_website": "https://www.sierraclub.org/illinois/heart-illinois/concerns-mount-over-proposed-local-ai-data-centers",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "environmental",
       "grid_energy",
       "ratepayer",
-      "water",
-      "zoning"
+      "water"
     ],
     "authority_level": "city_council",
     "objective": "Regional forum raises alarm over data center water, power, and air quality impacts near Frankfort",
@@ -33470,8 +33469,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
-      "environmental",
-      "zoning"
+      "environmental"
     ],
     "authority_level": "developer",
     "objective": "Oppidan pauses Hampton data center over generator permitting delays",
@@ -33580,7 +33578,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "anti_ai",
+      "community_impact",
       "farmland",
       "zoning"
     ],
@@ -33666,7 +33664,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "anti_ai",
+      "community_impact",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -33706,6 +33704,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "transparency",
       "zoning"
     ],
@@ -33802,8 +33801,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "design_standards",
-      "water"
+      "water",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Ban commercial crypto mining in Forsyth County",
@@ -34387,7 +34386,6 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-19",
     "issue_category": [
-      "anti_ai",
       "community_impact",
       "water",
       "zoning"
@@ -34459,8 +34457,9 @@
     "last_updated": "2026-03-19",
     "acreage": 470,
     "issue_category": [
+      "community_impact",
       "grid_energy",
-      "tax_incentive"
+      "water"
     ],
     "authority_level": "city_council",
     "objective": "Oppose tax incentives for Microsoft in Quincy",
@@ -34612,6 +34611,8 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-19",
     "issue_category": [
+      "grid_energy",
+      "noise",
       "water",
       "zoning"
     ],
@@ -34710,6 +34711,7 @@
     "data_source": "agent_research",
     "last_updated": "2026-03-14",
     "issue_category": [
+      "community_impact",
       "farmland",
       "grid_energy",
       "noise"
@@ -35017,7 +35019,6 @@
     "county_lean": "R",
     "investment_usd": 73000000000,
     "issue_category": [
-      "environmental",
       "tax_incentive",
       "zoning"
     ],
@@ -35211,8 +35212,8 @@
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
-      "environmental",
-      "ratepayer"
+      "community_impact",
+      "environmental"
     ],
     "authority_level": "state_legislature",
     "objective": "Ban diesel backup generators at data centers in VA",

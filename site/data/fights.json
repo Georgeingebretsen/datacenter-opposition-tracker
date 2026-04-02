@@ -35444,7 +35444,7 @@
     "last_updated": "2026-03-16",
     "issue_category": [
       "community_impact",
-      "environmental",
+      "grid_energy",
       "ratepayer"
     ],
     "authority_level": "state_legislature",
@@ -35516,7 +35516,7 @@
     "county_lean": "R",
     "issue_category": [
       "anti_ai",
-      "environmental",
+      "community_impact",
       "grid_energy",
       "zoning"
     ],
@@ -35551,7 +35551,6 @@
     "bill_name": "HF 4077",
     "bill_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4077/",
     "issue_category": [
-      "farmland",
       "transparency"
     ],
     "authority_level": "state_legislature",
@@ -35667,8 +35666,8 @@
     "bill_name": "SB 969",
     "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/sb969",
     "issue_category": [
-      "transparency",
-      "zoning"
+      "community_impact",
+      "transparency"
     ],
     "authority_level": "state_legislature",
     "objective": "Advance data center NDA ban through Wisconsin Senate committee",
@@ -35847,8 +35846,9 @@
     "last_updated": "2026-03-19",
     "county_lean": "R",
     "issue_category": [
-      "noise",
-      "transparency"
+      "community_impact",
+      "grid_energy",
+      "noise"
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Meta data center over noise in Huntsville",
@@ -36043,7 +36043,9 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "environmental",
+      "noise",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -36383,7 +36385,7 @@
     "last_updated": "2026-03-17",
     "issue_category": [
       "community_impact",
-      "ratepayer",
+      "farmland",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -36532,6 +36534,7 @@
       "environmental",
       "farmland",
       "grid_energy",
+      "noise",
       "ratepayer",
       "zoning"
     ],
@@ -36565,7 +36568,8 @@
     "issue_category": [
       "community_impact",
       "grid_energy",
-      "ratepayer"
+      "ratepayer",
+      "transparency"
     ],
     "authority_level": "federal_legislature",
     "objective": "Senate investigation into Big Tech data centers driving up consumer electricity costs",
@@ -36592,8 +36596,7 @@
     "data_source": "web_research",
     "last_updated": "2026-03-17",
     "issue_category": [
-      "environmental",
-      "zoning"
+      "environmental"
     ],
     "authority_level": "federal_agency",
     "objective": "EPA redefines construction rules allowing data center building before air permits",
@@ -36658,8 +36661,8 @@
     "data_source": "web_research",
     "last_updated": "2026-03-17",
     "issue_category": [
-      "water",
-      "zoning"
+      "grid_energy",
+      "water"
     ],
     "authority_level": "advocacy_org",
     "objective": "Food & Water Watch report argues for nationwide data center moratorium",
@@ -36691,8 +36694,9 @@
     "data_source": "web_research",
     "last_updated": "2026-03-17",
     "issue_category": [
+      "community_impact",
+      "grid_energy",
       "ratepayer",
-      "tax_incentive",
       "water"
     ],
     "authority_level": "advocacy_org",
@@ -36928,6 +36932,7 @@
     "data_source": "web_research",
     "last_updated": "2026-03-17",
     "issue_category": [
+      "community_impact",
       "environmental",
       "grid_energy"
     ],
@@ -37072,7 +37077,6 @@
     "last_updated": "2026-03-28",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB507",
     "issue_category": [
-      "community_impact",
       "environmental"
     ],
     "authority_level": "governor",
@@ -37106,8 +37110,10 @@
     "last_updated": "2026-03-28",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/SB94",
     "issue_category": [
+      "environmental",
+      "farmland",
       "noise",
-      "tax_incentive"
+      "zoning"
     ],
     "authority_level": "governor",
     "objective": "Require site impact assessments for 100MW+ data centers near farms, parks, and homes",
@@ -37209,6 +37215,7 @@
     "company": "PowerHouse Industries",
     "issue_category": [
       "environmental",
+      "grid_energy",
       "water",
       "zoning"
     ],
@@ -37652,6 +37659,7 @@
     "last_updated": "2026-03-19",
     "county_lean": "R",
     "issue_category": [
+      "farmland",
       "water",
       "zoning"
     ],
@@ -37758,6 +37766,7 @@
     "last_updated": "2026-03-19",
     "issue_category": [
       "environmental",
+      "grid_energy",
       "noise",
       "water",
       "zoning"
@@ -37908,7 +37917,7 @@
     "opposition_facebook_members": 87,
     "issue_category": [
       "environmental",
-      "noise",
+      "tax_incentive",
       "water",
       "zoning"
     ],
@@ -37959,6 +37968,7 @@
     "issue_category": [
       "community_impact",
       "environmental",
+      "transparency",
       "water"
     ],
     "authority_level": "county_commission",
@@ -38008,7 +38018,6 @@
     "issue_category": [
       "community_impact",
       "grid_energy",
-      "tax_incentive",
       "water"
     ],
     "authority_level": "county_commission",
@@ -38056,9 +38065,9 @@
     "county_lean": "R",
     "opposition_facebook_members": 2600,
     "issue_category": [
+      "community_impact",
       "environmental",
       "noise",
-      "ratepayer",
       "water"
     ],
     "authority_level": "county_commission",
@@ -38450,7 +38459,7 @@
     "county_lean": "R",
     "opposition_facebook_members": 159,
     "issue_category": [
-      "environmental",
+      "community_impact",
       "zoning"
     ],
     "authority_level": "township_board",
@@ -38496,8 +38505,8 @@
     "last_updated": "2026-03-28",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "environmental",
-      "farmland",
       "noise"
     ],
     "authority_level": "county_commission",
@@ -38542,6 +38551,7 @@
     "county_lean": "R",
     "issue_category": [
       "farmland",
+      "grid_energy",
       "noise",
       "water",
       "zoning"
@@ -38687,6 +38697,7 @@
     "issue_category": [
       "environmental",
       "farmland",
+      "grid_energy",
       "noise",
       "water",
       "zoning"
@@ -38732,9 +38743,8 @@
     "last_updated": "2026-03-28",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "farmland",
-      "noise",
-      "tax_incentive",
       "water",
       "zoning"
     ],
@@ -38912,8 +38922,8 @@
     "last_updated": "2026-03-23",
     "county_lean": "R",
     "issue_category": [
-      "anti_ai",
       "environmental",
+      "grid_energy",
       "noise",
       "transparency",
       "zoning"
@@ -38962,7 +38972,6 @@
       "community_impact",
       "environmental",
       "grid_energy",
-      "traffic",
       "water",
       "zoning"
     ],
@@ -39097,8 +39106,8 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
-      "farmland",
       "noise",
+      "ratepayer",
       "transparency",
       "water"
     ],
@@ -39235,8 +39244,6 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "farmland",
-      "noise",
       "transparency",
       "zoning"
     ],
@@ -39384,6 +39391,7 @@
     "last_updated": "2026-03-28",
     "issue_category": [
       "community_impact",
+      "grid_energy",
       "ratepayer",
       "zoning"
     ],
@@ -39545,6 +39553,7 @@
     "last_updated": "2026-03-06",
     "issue_category": [
       "community_impact",
+      "grid_energy",
       "water",
       "zoning"
     ],
@@ -39845,7 +39854,7 @@
     "data_source": "news",
     "last_updated": "2026-03-06",
     "issue_category": [
-      "transparency",
+      "community_impact",
       "zoning"
     ],
     "authority_level": "state_legislature",
@@ -40042,7 +40051,7 @@
     "last_updated": "2026-03-06",
     "issue_category": [
       "grid_energy",
-      "zoning"
+      "ratepayer"
     ],
     "authority_level": "federal_legislature",
     "objective": "Require off-grid power for data centers via Sen. Blumenthal's bipartisan GRID Act with $1M/day fines",
@@ -41019,9 +41028,8 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "grid_energy",
-      "transparency",
-      "water"
+      "contract_guarantees",
+      "transparency"
     ],
     "authority_level": "city_council",
     "objective": "Block CRG $6B data center or force public vote on 10-year data center ban in Festus",

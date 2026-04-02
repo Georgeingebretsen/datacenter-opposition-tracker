@@ -215,6 +215,7 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
+      "grid_energy",
       "noise"
     ],
     "authority_level": "county_commission",
@@ -258,7 +259,9 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
-      "noise"
+      "grid_energy",
+      "noise",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Impose 60-day crypto mining moratorium in Henderson County",
@@ -350,6 +353,7 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
+      "transparency",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -901,7 +905,6 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "noise",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -1089,7 +1092,8 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "farmland"
+      "farmland",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Pause data centers and crypto mining in Jones County pending regulations",
@@ -1292,6 +1296,7 @@
     "issue_category": [
       "community_impact",
       "transparency",
+      "water",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -1385,6 +1390,7 @@
     "county_lean": null,
     "issue_category": [
       "anti_ai",
+      "grid_energy",
       "transparency",
       "water"
     ],
@@ -1723,7 +1729,8 @@
     "last_updated": "2026-03-07",
     "issue_category": [
       "community_impact",
-      "environmental"
+      "environmental",
+      "tax_incentive"
     ],
     "authority_level": "court",
     "objective": "Challenge STREAM Data Centers for treaty rights violations",
@@ -1810,6 +1817,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "grid_energy",
       "water",
       "zoning"
     ],
@@ -2047,7 +2055,7 @@
       "grid_energy",
       "noise"
     ],
-    "authority_level": "city_council",
+    "authority_level": "township_board",
     "objective": "Oppose data center over noise in South Brunswick",
     "community_outcome": "loss"
   },
@@ -2258,8 +2266,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "grid_energy",
-      "ratepayer"
+      "grid_energy"
     ],
     "authority_level": "developer",
     "objective": "Nautilus cancels Millinocket data center over insufficient power",
@@ -2514,7 +2521,8 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
-      "grid_energy"
+      "grid_energy",
+      "tax_incentive"
     ],
     "authority_level": "utility_commission",
     "objective": "Require certificate of need for Amazon data center generators",
@@ -2775,7 +2783,8 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "grid_energy"
+      "grid_energy",
+      "tax_incentive"
     ],
     "authority_level": "county_commission",
     "objective": "Restrict Cielo Digital Infrastructure 86-acre data center in Cherokee County",
@@ -2831,8 +2840,10 @@
     "water_gallons_per_day": 500000,
     "issue_category": [
       "anti_ai",
+      "community_impact",
       "environmental",
-      "farmland"
+      "farmland",
+      "tax_incentive"
     ],
     "authority_level": "township_board",
     "objective": "Rally against University of Michigan data center in Ypsilanti Township",
@@ -2880,9 +2891,10 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
-      "environmental"
+      "environmental",
+      "tax_incentive"
     ],
-    "authority_level": "city_council",
+    "authority_level": "developer",
     "objective": "Petition to block Oakland University data center in Oakland University",
     "community_outcome": "pending"
   },
@@ -3200,7 +3212,8 @@
     "county_lean": null,
     "issue_category": [
       "grid_energy",
-      "ratepayer"
+      "ratepayer",
+      "tax_incentive"
     ],
     "authority_level": "state_legislature",
     "objective": "Expand data center tax exemptions via HB 3546",
@@ -3387,7 +3400,6 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
-      "water",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -3822,6 +3834,7 @@
     "county_lean": "R",
     "issue_category": [
       "anti_ai",
+      "grid_energy",
       "noise",
       "tax_incentive",
       "water"
@@ -4298,6 +4311,7 @@
       "anti_ai",
       "community_impact",
       "environmental",
+      "grid_energy",
       "transparency",
       "water"
     ],
@@ -4520,6 +4534,7 @@
     "issue_category": [
       "farmland",
       "grid_energy",
+      "transparency",
       "water"
     ],
     "authority_level": "county_commission",
@@ -4574,6 +4589,8 @@
     "investment_usd": 10000000000,
     "water_gallons_per_day": 3000000,
     "issue_category": [
+      "farmland",
+      "grid_energy",
       "ratepayer",
       "water"
     ],
@@ -4725,8 +4742,8 @@
     "opposition_instagram_followers": 20300,
     "county_lean": "D",
     "issue_category": [
-      "ratepayer",
-      "water"
+      "water",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Deny Amazon 600MW data center permit in City of Tucson",
@@ -4928,6 +4945,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "noise",
       "ratepayer",
       "transparency"
@@ -6019,7 +6037,7 @@
       "traffic",
       "water"
     ],
-    "authority_level": "county_commission",
+    "authority_level": "city_council",
     "objective": "Reject 300MW Energy Storage Solutions data center permit in Tarboro by 7-1 vote",
     "community_outcome": "pending",
     "acreage": 52,
@@ -6467,6 +6485,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "grid_energy",
       "noise",
       "water"
     ],
@@ -6680,6 +6699,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "transparency",
       "zoning"
     ],
@@ -6780,7 +6800,8 @@
     "investment_usd": 10000000000,
     "energy_mw": 1000,
     "issue_category": [
-      "farmland",
+      "community_impact",
+      "transparency",
       "water"
     ],
     "authority_level": "city_council",
@@ -7674,6 +7695,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "transparency",
       "water",
       "zoning"
@@ -7729,9 +7751,11 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
+      "environmental",
       "farmland",
       "noise",
-      "ratepayer"
+      "ratepayer",
+      "zoning"
     ],
     "authority_level": "township_board",
     "objective": "Petition to block Thor Equities data center in Milan",
@@ -7819,6 +7843,8 @@
     "acreage": 700,
     "water_gallons_per_day": 4000,
     "issue_category": [
+      "community_impact",
+      "farmland",
       "grid_energy",
       "traffic",
       "water"
@@ -8000,6 +8026,7 @@
     "energy_mw": 800,
     "investment_usd": 10000000000,
     "issue_category": [
+      "community_impact",
       "grid_energy",
       "noise",
       "ratepayer",
@@ -8144,7 +8171,7 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "tax_incentive"
+      "grid_energy"
     ],
     "authority_level": "village_board",
     "objective": "Petition to block Microsoft data center in Village of Caledonia",
@@ -8200,7 +8227,6 @@
     "energy_mw": 902,
     "investment_usd": 1500000000,
     "issue_category": [
-      "anti_ai",
       "community_impact",
       "grid_energy"
     ],
@@ -8340,6 +8366,7 @@
     "county": "Washtenaw County",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "zoning"
     ],
     "authority_level": "township_board",
@@ -8388,6 +8415,7 @@
     "water_gallons_per_day": 152000,
     "issue_category": [
       "environmental",
+      "transparency",
       "water"
     ],
     "authority_level": "court",
@@ -8444,7 +8472,9 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "environmental",
+      "grid_energy",
       "transparency"
     ],
     "authority_level": "court",
@@ -8751,6 +8781,7 @@
     "issue_category": [
       "community_impact",
       "farmland",
+      "grid_energy",
       "transparency",
       "zoning"
     ],
@@ -8862,6 +8893,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "transparency",
       "zoning"
     ],
@@ -9015,6 +9047,7 @@
     "energy_mw": 1200,
     "investment_usd": 12000000000,
     "issue_category": [
+      "community_impact",
       "grid_energy",
       "transparency"
     ],
@@ -9068,7 +9101,8 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "farmland"
+      "farmland",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "784-signature petition opposing Oppidan Investment Co. data center",
@@ -9120,6 +9154,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
+      "farmland",
       "noise",
       "tax_incentive",
       "transparency"
@@ -9222,6 +9258,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "design_standards",
       "environmental",
       "noise",
@@ -9335,6 +9372,7 @@
     "county_lean": "R",
     "issue_category": [
       "environmental",
+      "grid_energy",
       "zoning"
     ],
     "authority_level": "planning_commission",
@@ -9387,7 +9425,7 @@
       "environmental",
       "grid_energy"
     ],
-    "authority_level": "county_commission",
+    "authority_level": "utility_commission",
     "objective": "5000-signature petition opposing Takanock data center",
     "community_outcome": "pending"
   },
@@ -9513,6 +9551,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "transparency",
       "zoning"
     ],
@@ -9802,7 +9841,7 @@
       "community_impact",
       "grid_energy"
     ],
-    "authority_level": "city_council",
+    "authority_level": "township_board",
     "objective": "Petition to block Logistix data center in Hamilton Township",
     "community_outcome": "pending"
   },
@@ -9906,7 +9945,7 @@
       "ratepayer",
       "transparency"
     ],
-    "authority_level": "governor",
+    "authority_level": "utility_commission",
     "objective": "File PSC complaint over NorthWestern shifting costs to residents",
     "community_outcome": "pending",
     "opposition_facebook_members": 12088,
@@ -9966,7 +10005,9 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "environmental",
+      "grid_energy",
       "noise",
       "ratepayer",
       "water"
@@ -10149,6 +10190,7 @@
     "county_lean": "R",
     "energy_mw": 754,
     "issue_category": [
+      "community_impact",
       "environmental",
       "transparency",
       "water"
@@ -10307,6 +10349,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "grid_energy",
       "water"
     ],
@@ -10375,8 +10418,10 @@
       "contract_guarantees",
       "design_standards",
       "environmental",
+      "grid_energy",
       "noise",
       "tax_incentive",
+      "transparency",
       "water"
     ],
     "authority_level": "city_council",
@@ -10465,6 +10510,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
+      "farmland",
       "traffic",
       "water"
     ],
@@ -10520,6 +10567,7 @@
     "issue_category": [
       "design_standards",
       "environmental",
+      "transparency",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -10803,7 +10851,7 @@
       "grid_energy",
       "water"
     ],
-    "authority_level": "governor",
+    "authority_level": "utility_commission",
     "objective": "Challenge Fermi America's 7.65 GW air permit for 93 gas-fired turbines near Amarillo",
     "community_outcome": "loss"
   },
@@ -10912,6 +10960,7 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
+      "grid_energy",
       "transparency"
     ],
     "authority_level": "city_council",
@@ -10967,6 +11016,7 @@
     "county_lean": "D",
     "issue_category": [
       "community_impact",
+      "grid_energy",
       "transparency"
     ],
     "authority_level": "city_council",
@@ -11027,6 +11077,7 @@
     "energy_mw": 400,
     "investment_usd": 1000000000,
     "issue_category": [
+      "community_impact",
       "environmental",
       "transparency"
     ],
@@ -11288,6 +11339,7 @@
     "county_lean": "R",
     "issue_category": [
       "anti_ai",
+      "grid_energy",
       "ratepayer",
       "zoning"
     ],
@@ -11425,7 +11477,8 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
-      "environmental"
+      "environmental",
+      "transparency"
     ],
     "authority_level": "court",
     "objective": "Challenge TransGas air quality permits in court",
@@ -11477,6 +11530,7 @@
     "issue_category": [
       "community_impact",
       "farmland",
+      "transparency",
       "zoning"
     ],
     "authority_level": "planning_commission",
@@ -11531,6 +11585,7 @@
     "county_lean": "R",
     "issue_category": [
       "anti_ai",
+      "community_impact",
       "environmental",
       "grid_energy"
     ],
@@ -11632,8 +11687,10 @@
     "opposition_facebook_members": 2600,
     "county_lean": "D",
     "issue_category": [
+      "grid_energy",
       "noise",
-      "water"
+      "water",
+      "zoning"
     ],
     "authority_level": "township_board",
     "objective": "Halt data centers in Green Charter after Undisclosed proposal",
@@ -11686,7 +11743,9 @@
     "county_lean": "D",
     "investment_usd": 11000000000,
     "issue_category": [
+      "community_impact",
       "farmland",
+      "grid_energy",
       "ratepayer",
       "transparency",
       "water",
@@ -11800,6 +11859,8 @@
     "county_lean": "R",
     "issue_category": [
       "anti_ai",
+      "community_impact",
+      "environmental",
       "noise",
       "traffic",
       "water",
@@ -11917,6 +11978,8 @@
     "water_gallons_per_day": 9000000,
     "issue_category": [
       "community_impact",
+      "farmland",
+      "grid_energy",
       "noise",
       "transparency",
       "water",
@@ -12137,6 +12200,7 @@
     "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0116?ys=2025RS",
     "issue_category": [
       "environmental",
+      "grid_energy",
       "transparency",
       "water"
     ],
@@ -12292,6 +12356,7 @@
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
+      "community_impact",
       "transparency",
       "water",
       "zoning"
@@ -12344,6 +12409,7 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "environmental",
       "farmland"
     ],
@@ -12459,6 +12525,7 @@
     "county": "Hidalgo County",
     "county_lean": "R",
     "issue_category": [
+      "grid_energy",
       "transparency",
       "water"
     ],
@@ -12511,6 +12578,7 @@
       "contract_guarantees",
       "environmental",
       "grid_energy",
+      "ratepayer",
       "transparency",
       "water"
     ],
@@ -12670,6 +12738,7 @@
     "water_gallons_per_day": 3600000,
     "energy_mw": 1000,
     "issue_category": [
+      "community_impact",
       "environmental",
       "grid_energy",
       "water"
@@ -12835,6 +12904,7 @@
     "bill_url": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7331.pdf",
     "county_lean": null,
     "issue_category": [
+      "environmental",
       "grid_energy",
       "ratepayer",
       "transparency",
@@ -13012,6 +13082,7 @@
     "county": "Wayne County",
     "county_lean": "D",
     "issue_category": [
+      "grid_energy",
       "transparency",
       "water"
     ],
@@ -13053,6 +13124,7 @@
     "county_lean": "R",
     "opposition_website": "https://edraofmi.org/",
     "issue_category": [
+      "community_impact",
       "farmland",
       "traffic",
       "transparency",
@@ -13545,7 +13617,6 @@
     "bill_name": "SB 6231 - Data Center Tax Exemption Repeal",
     "bill_url": "https://legiscan.com/WA/bill/SB6231/2025",
     "issue_category": [
-      "environmental",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
@@ -13972,7 +14043,9 @@
     "water_gallons_per_day": null,
     "issue_category": [
       "design_standards",
+      "environmental",
       "noise",
+      "water",
       "zoning"
     ],
     "authority_level": "county_commission",
@@ -14117,6 +14190,7 @@
     "investment_usd": 3000000000,
     "issue_category": [
       "anti_ai",
+      "grid_energy",
       "tax_incentive",
       "water",
       "zoning"
@@ -14258,7 +14332,8 @@
     "county_lean": "D",
     "issue_category": [
       "anti_ai",
-      "grid_energy"
+      "grid_energy",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Halt data centers in City of Saline after Related Digital proposal",
@@ -14582,7 +14657,8 @@
     "county_lean": "D",
     "issue_category": [
       "anti_ai",
-      "grid_energy"
+      "grid_energy",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Impose 180-day data centers moratorium in Birmingham (Nebius)",
@@ -14632,7 +14708,8 @@
     "county_lean": "R",
     "issue_category": [
       "farmland",
-      "water"
+      "water",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Pause data centers and crypto mining in Harvey County pending regulations",
@@ -14721,6 +14798,7 @@
     "county": "Saginaw County",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
       "zoning"
     ],
     "authority_level": "city_council",
@@ -14872,6 +14950,7 @@
     "bill_url": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegType=B&LegNo=235&year=26",
     "county_lean": null,
     "issue_category": [
+      "environmental",
       "grid_energy",
       "ratepayer",
       "transparency",
@@ -14955,7 +15034,8 @@
     "issue_category": [
       "community_impact",
       "environmental",
-      "farmland"
+      "farmland",
+      "zoning"
     ],
     "authority_level": "county_commission",
     "objective": "Contest Wallace Jackson 900MW data center despite community opposition",
@@ -15008,6 +15088,7 @@
     "county_lean": "R",
     "issue_category": [
       "community_impact",
+      "transparency",
       "water"
     ],
     "authority_level": "city_council",
@@ -15127,6 +15208,8 @@
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
+      "farmland",
       "transparency",
       "zoning"
     ],
@@ -15163,6 +15246,8 @@
     "county": "Franklin County",
     "county_lean": "R",
     "issue_category": [
+      "community_impact",
+      "environmental",
       "farmland",
       "water",
       "zoning"
@@ -29167,7 +29252,7 @@
       "ratepayer",
       "tax_incentive"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Limit data center tax abatements to 20 years in Alabama",
     "community_outcome": "pending",
     "sponsors": [
@@ -29908,7 +29993,7 @@
       "environmental",
       "grid_energy"
     ],
-    "authority_level": "city_council",
+    "authority_level": "village_board",
     "objective": "Impose 180-day data centers moratorium in Ashville (EdgeConneX)",
     "community_outcome": "win"
   },
@@ -29988,7 +30073,7 @@
       "transparency",
       "zoning"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Ban data center NDAs in Wisconsin (original bipartisan bill)",
     "community_outcome": "pending",
     "sponsors": [
@@ -34535,7 +34620,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "state_legislature",
+    "authority_level": "utility_commission",
     "objective": "Oppose transmission lines for Portland General Electric data center",
     "community_outcome": "partial",
     "bill_name": "HB 3546 (POWER Act)",
@@ -35469,7 +35554,7 @@
       "farmland",
       "transparency"
     ],
-    "authority_level": "governor",
+    "authority_level": "state_legislature",
     "objective": "Ban data center development NDAs via SF 4298",
     "community_outcome": "pending",
     "sponsors": [
@@ -36333,7 +36418,7 @@
       "transparency",
       "zoning"
     ],
-    "authority_level": "state_legislature",
+    "authority_level": "voters",
     "objective": "1800-signature petition opposing data center in Brown County",
     "community_outcome": "pending",
     "company": "DB STU LLC",
@@ -36817,7 +36902,7 @@
       "environmental",
       "grid_energy"
     ],
-    "authority_level": "county_commission",
+    "authority_level": "utility_commission",
     "objective": "Fight 1,200 MW Sandow Lakes gas plant serving data centers after TCEQ denied hearing request",
     "community_outcome": "pending",
     "megawatts": 1200
@@ -37155,7 +37240,7 @@
       "grid_energy",
       "ratepayer"
     ],
-    "authority_level": "state_legislature",
+    "authority_level": "federal_agency",
     "objective": "Challenge TVA plans to power data centers in Tennessee Valley",
     "community_outcome": "pending",
     "sponsors": [
@@ -41232,7 +41317,7 @@
       "environmental",
       "zoning"
     ],
-    "authority_level": "township_council",
+    "authority_level": "township_board",
     "objective": "Ban data center construction and operation throughout Pemberton Township",
     "community_outcome": "win",
     "sponsors": null

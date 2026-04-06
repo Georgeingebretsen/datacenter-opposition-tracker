@@ -15941,7 +15941,7 @@
     "lng": -88.1535,
     "action_type": "zoning_restriction",
     "date": "2026-01-21",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Karis Critical",
     "hyperscaler": null,
     "project_name": "Karis Data Center (Nokia/Lucent Campus)",
@@ -16583,7 +16583,7 @@
     "lng": -84.455,
     "action_type": "zoning_restriction",
     "date": "2026-01-28",
-    "status": "active",
+    "status": "passed",
     "company": "Corvus Investment Group",
     "hyperscaler": null,
     "project_name": null,
@@ -16617,7 +16617,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Block Corvus Investment Group rezoning of 240 acres in Fayetteville",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "carroll-county-ga-2026-01-28",

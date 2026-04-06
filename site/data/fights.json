@@ -8224,7 +8224,7 @@
     ],
     "authority_level": "utility_commission",
     "objective": "Commission legislative study on data center impacts in WI",
-    "community_outcome": "loss"
+    "community_outcome": "pending"
   },
   {
     "id": "california-sb-57-ca-2025-10-11",
@@ -9181,7 +9181,7 @@
     "lng": -86.1336,
     "action_type": "public_comment",
     "date": "2025-11-01",
-    "status": "cancelled",
+    "status": "active",
     "company": "Whitmore & Blackwell (developer) / Indiana Economic Development Corporation",
     "hyperscaler": null,
     "project_name": "Kokomo Data Center",
@@ -9220,7 +9220,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Whitmore & Blackwell data center in Kokomo",
-    "community_outcome": "win"
+    "community_outcome": "pending"
   },
   {
     "id": "south-strabane-township-pa-2025-11-01",
@@ -10645,7 +10645,7 @@
     "lng": -85.4837,
     "action_type": "zoning_restriction",
     "date": "2025-12-01",
-    "status": "active",
+    "status": "passed",
     "company": "Undisclosed",
     "hyperscaler": null,
     "project_name": null,
@@ -10687,7 +10687,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Ban data centers in Big Rapids Township's airport industrial park",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "mclennan-county-tx-2025-12-01",
@@ -13581,7 +13581,7 @@
     "lng": -85.31,
     "action_type": "public_comment",
     "date": "2026-01-01",
-    "status": "approved",
+    "status": "pending",
     "company": "Urban Story Ventures",
     "hyperscaler": null,
     "project_name": "Jailhouse Studios",
@@ -13615,7 +13615,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Urban Story Ventures data center in Chattanooga",
-    "community_outcome": "loss"
+    "community_outcome": "pending"
   },
   {
     "id": "washington-sb-6231-wa-2026-01-01",
@@ -14960,7 +14960,7 @@
     "lng": -105.9378,
     "action_type": "legislation",
     "date": "2026-01-14",
-    "status": "expired",
+    "status": "defeated",
     "company": "Project Jupiter (Dona Ana County data center development)",
     "hyperscaler": null,
     "project_name": "Steinborn Microgrid Regulation Bill",
@@ -15343,7 +15343,7 @@
     "lng": -111.891,
     "action_type": "legislation",
     "date": "2026-01-15",
-    "status": "passed",
+    "status": "pending",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 76",
@@ -15379,7 +15379,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require data center water usage notification and reporting in Utah",
-    "community_outcome": "win",
+    "community_outcome": "pending",
     "sponsors": [
       "Rep. Jill Koford (R-UT)"
     ]
@@ -33562,7 +33562,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose 180-day data centers moratorium in Covington",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "hyperscaler": "Amazon/AWS",
     "acreage": 430,
     "investment_usd": 36000000,
@@ -33577,7 +33577,7 @@
     "lng": -83.861,
     "action_type": "moratorium",
     "date": "2025-11-01",
-    "status": "active",
+    "status": "passed",
     "company": "SC Infrastructure / Technology Park Atlanta",
     "project_name": null,
     "opposition_groups": [
@@ -33604,7 +33604,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Pause data centers in Newton County pending regulations",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "hyperscaler": "Meta",
     "acreage": 317
   },

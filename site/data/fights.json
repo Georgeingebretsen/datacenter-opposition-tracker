@@ -96,7 +96,7 @@
     "lng": -86.0553,
     "action_type": "zoning_restriction",
     "date": "2022-04-01",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Red Dog Technologies",
     "hyperscaler": null,
     "project_name": "Bitcoin Mining Data Center",
@@ -190,7 +190,7 @@
     "lng": -83.748,
     "action_type": "zoning_restriction",
     "date": "2022-08-04",
-    "status": "approved",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -423,7 +423,7 @@
     "lng": -72.149,
     "action_type": "zoning_restriction",
     "date": "2024-01-09",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "NE Edge",
     "hyperscaler": null,
     "project_name": null,
@@ -3259,7 +3259,7 @@
     "lng": -76.2875,
     "action_type": "zoning_restriction",
     "date": "2025-06-17",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Doug Fuller / Emerald Lakes Estates",
     "hyperscaler": null,
     "project_name": null,
@@ -3658,7 +3658,7 @@
     "lng": -111.8315,
     "action_type": "zoning_restriction",
     "date": "2025-07-08",
-    "status": "approved",
+    "status": "passed",
     "company": "CyrusOne",
     "hyperscaler": null,
     "project_name": "CyrusOne Mesa Data Center",
@@ -4176,7 +4176,7 @@
     "lng": -98.5262,
     "action_type": "legislation",
     "date": "2025-08-01",
-    "status": "active",
+    "status": "approved",
     "company": "Applied Digital",
     "hyperscaler": "CoreWeave",
     "project_name": "Ellendale AI Data Center",
@@ -4221,7 +4221,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Ban NDAs concealing Applied Digital development in Ellendale",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "memphis-tn-2025-08-01",
@@ -4886,7 +4886,7 @@
     "lng": -96.6086,
     "action_type": "public_comment",
     "date": "2025-08-25",
-    "status": "active",
+    "status": "approved",
     "company": "Applied Digital",
     "hyperscaler": null,
     "project_name": "Polaris Forge 2",
@@ -4928,7 +4928,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Community pressure forces Applied Digital to withdraw in Harwood",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "fauquier-county-remington-va-2025-06-18",
@@ -5437,7 +5437,7 @@
     "lng": -76.9264,
     "action_type": "zoning_restriction",
     "date": "2025-09-01",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Undisclosed",
     "hyperscaler": null,
     "project_name": null,
@@ -5782,7 +5782,7 @@
     "lng": -86.8164,
     "action_type": "public_comment",
     "date": "2025-09-09",
-    "status": "active",
+    "status": "approved",
     "company": "RadiusDC",
     "hyperscaler": null,
     "project_name": "Nashville I",
@@ -5818,7 +5818,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose RadiusDC data center as environmental injustice",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "louisville-ky-2025-09-11",
@@ -5935,7 +5935,7 @@
     "lng": -96.3344,
     "action_type": "zoning_restriction",
     "date": "2025-09-12",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Priority Power",
     "hyperscaler": null,
     "project_name": null,
@@ -5988,7 +5988,7 @@
     "lat": 35.8968,
     "lng": -77.5358,
     "action_type": "zoning_restriction",
-    "status": "active",
+    "status": "defeated",
     "date": "2025-09-15",
     "summary": "The Tarboro Town Council rejected a Special Use Permit for Energy Storage Solutions' proposed 300MW, eight-phase data center on a 52-acre site near Anaconda and McNair roads by a 7-1 vote. The developer filed an appeal to Edgecombe Superior Court in November 2025, alleging the town committed 'errors of law.' A separate project proposed for the Kingsboro Business Park continues. Edgecombe County commissioners also voted down another ESS project. Residents cited concerns about traffic, water use, 24/7 noise, and proximity to the animal shelter. The project involves $6.4B investment.",
     "sources": [
@@ -6020,7 +6020,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Reject 300MW Energy Storage Solutions data center permit in Tarboro by 7-1 vote",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "acreage": 52,
     "water_usage_gallons_per_day": 500000
   },
@@ -6642,7 +6642,7 @@
     "lng": -83.4937,
     "action_type": "lawsuit",
     "date": "2025-10-01",
-    "status": "active",
+    "status": "approved",
     "company": "EagleRock Partners",
     "hyperscaler": null,
     "project_name": "Pine Ridge Technology Park",
@@ -6690,7 +6690,7 @@
     ],
     "authority_level": "court",
     "objective": "Challenge EagleRock Partners rezoning in Twiggs County in court",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "columbia-mo-2025-10-01",
@@ -6701,7 +6701,7 @@
     "lng": -92.3341,
     "action_type": "zoning_restriction",
     "date": "2025-10-01",
-    "status": "active",
+    "status": "defeated",
     "company": "Undisclosed",
     "hyperscaler": null,
     "project_name": "Columbia North Industrial Rezoning (potential data center)",
@@ -6738,7 +6738,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Block Undisclosed rezoning of 63 acres of farmland",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "page-az-2025-10-01",
@@ -6907,7 +6907,7 @@
     "lng": -84.649,
     "action_type": "zoning_restriction",
     "date": "2025-10-01",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Patrick Scanlon (developer)",
     "hyperscaler": null,
     "project_name": "PRSM Preble County",
@@ -7290,7 +7290,7 @@
     "lng": -86.3994,
     "action_type": "public_comment",
     "date": "2025-10-01",
-    "status": "active",
+    "status": "approved",
     "company": "RadiusDC",
     "hyperscaler": null,
     "project_name": "Plainfield Data Center",
@@ -7331,7 +7331,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Petition to block RadiusDC data center in Plainfield",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "lordstown-oh-2025-10-01",
@@ -17973,7 +17973,7 @@
     "lng": -89.3437,
     "action_type": "zoning_restriction",
     "date": "2026-02-03",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "QTS Data Centers",
     "hyperscaler": null,
     "project_name": null,
@@ -19141,7 +19141,7 @@
     "lng": -76.6592,
     "action_type": "zoning_restriction",
     "date": "2026-02-10",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Talen Energy / Amazon",
     "hyperscaler": "Amazon/AWS",
     "project_name": null,
@@ -20738,7 +20738,7 @@
     "lng": -97.9414,
     "action_type": "zoning_restriction",
     "date": "2026-02-17",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Highlander SC One LLC",
     "hyperscaler": null,
     "project_name": null,
@@ -33961,7 +33961,7 @@
     "lng": -90.0128,
     "action_type": "lawsuit",
     "date": "2026-02-17",
-    "status": "active",
+    "status": "approved",
     "company": "xAI (MZX Tech)",
     "project_name": "Colossus 2",
     "investment_million_usd": 20000,
@@ -33997,7 +33997,7 @@
     ],
     "authority_level": "court",
     "objective": "Challenge xAI (MZX Tech) air quality permits in court",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "megawatts": 1200
   },
   {
@@ -35390,7 +35390,7 @@
     "lng": -78.8784,
     "action_type": "zoning_restriction",
     "date": "2026-03-05",
-    "status": "cancelled",
+    "status": "passed",
     "scope": "local",
     "company": "CHI Acquisitions LP",
     "summary": "Fayetteville, North Carolina, City Council voted in early March 2026 to remove data centers as a permitted use from ALL zoning categories within city limits. A pending application by CHI Acquisitions LP for a 300,000 sq ft facility on 37 acres was denied by the Planning and Zoning Commission. CHI appealed; the City Council will make a final decision on March 19. The CHI Acquisitions LP appeal hearing was scheduled for March 19 at 6 PM at City Hall. CHI's application predates the zoning ban so it remains eligible for consideration. CHI Acquisitions/Crow Holdings withdrew their appeal on March 18, one day before the council vote. Councilman Emmett Spurlock called it \"the power of the people.\"",
@@ -36576,7 +36576,7 @@
     "lng": -77.436,
     "action_type": "legislation",
     "date": "2026-03-01",
-    "status": "approved",
+    "status": "passed",
     "scope": "statewide",
     "bill_name": "HB 507 - Tier IV Generator Mandate",
     "summary": "Virginia HB 507, sponsored by Del. John McAuliff (D-Fauquier), is the first state law mandating Tier IV emission standards for data center backup generators. The bill directs the Department of Environmental Quality to deny air permits for generators below Tier IV standards submitted after July 2026. Originally requiring battery storage as the primary backup source with siting and notification requirements, the bill was amended to focus solely on generator emission standards. Passed both chambers and awaits Governor Spanberger's signature, amendment, or veto by April 14, 2026. Legislators reconvene for a veto session on April 22.",
@@ -36608,7 +36608,7 @@
     "lng": -77.436,
     "action_type": "legislation",
     "date": "2026-02-01",
-    "status": "pending",
+    "status": "passed",
     "scope": "statewide",
     "bill_name": "SB 94 / HB 153 - Data Center Siting Requirements",
     "summary": "Virginia SB 94 / HB 153, sponsored by Sen. Danica Roem and Del. Josh Thomas, requires 100+ MW data center applicants seeking rezoning to submit site assessment reports examining impacts on agriculture, parks, historic sites, forestland, and noise near homes/schools. Passed both chambers of the General Assembly. Awaits Governor Spanberger's signature, amendment, or veto by April 14, 2026. Legislators reconvene for a veto session on April 22.",
@@ -36630,7 +36630,7 @@
     ],
     "authority_level": "governor",
     "objective": "Require site impact assessments for 100MW+ data centers near farms, parks, and homes",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Sen. Danica Roem (D-VA)",
       "Del. Josh Thomas (D-VA)"

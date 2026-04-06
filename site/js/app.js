@@ -496,7 +496,7 @@ function updateSizeLegend(filtered) {
 
 function updateStats(filtered) {
   document.getElementById('stat-total').textContent = filtered.length;
-  document.getElementById('stat-states').textContent = new Set(filtered.map(f => f.state)).size;
+  document.getElementById('stat-states').textContent = new Set(filtered.filter(f => f.state && f.state !== 'US').map(f => f.state)).size;
   const totalInvestment = filtered.filter(f => f.investment_million_usd).reduce((s, f) => s + f.investment_million_usd, 0);
   document.getElementById('stat-investment').textContent = totalInvestment > 0 ? formatInvestment(totalInvestment) : '—';
   document.getElementById('stat-moratoria').textContent = filtered.filter(f => f.action_type === 'moratorium').length;

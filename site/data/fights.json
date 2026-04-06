@@ -18223,7 +18223,7 @@
     "lng": -75.7502,
     "action_type": "zoning_restriction",
     "date": "2026-02-04",
-    "status": "cancelled",
+    "status": "active",
     "company": "Starwood Digital Ventures",
     "hyperscaler": null,
     "project_name": "Project Washington",
@@ -21051,7 +21051,7 @@
     "lat": 33.1782,
     "lng": -86.6064,
     "action_type": "zoning_restriction",
-    "status": "active",
+    "status": "passed",
     "date": "2026-02-17",
     "summary": "Columbiana City Council unanimously approved a new ordinance imposing zoning restrictions on future data centers, becoming the first Alabama municipality to pass such restrictions ($200M). Requirements include: 60 ft max height (including rooftop equipment), 300 ft setback from residentially zoned districts, 25 ft landscape buffer, sound study demonstrating facility does not exceed 67 dB, and full enclosure or screening/fencing. Future data centers require a special permit from the Board of Adjustments. The restrictions do not apply retroactively to the existing DigiPower X facility (22MW expanding to 55MW by 2027). Came after a packed town hall where residents voiced concerns about noise, water, and energy impacts.",
     "sources": [
@@ -21080,7 +21080,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose 300-foot data center setbacks in Columbiana",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "hillsboro-or-2026-02-17",

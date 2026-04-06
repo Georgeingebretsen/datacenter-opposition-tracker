@@ -7809,7 +7809,7 @@
     "lat": 31.0982,
     "lng": -97.3428,
     "action_type": "public_comment",
-    "status": "active",
+    "status": "approved",
     "date": "2025-10-01",
     "summary": "Change.org petition with 216 signatures voicing concerns about data centers in Temple. Rowan Digital Infrastructure received unanimous city council approval for a $700 million, 300 MW hyperscale data center campus on 700 acres along Bob White Road. Construction started fall 2025 with 12-18 month timeline. The facility borders Robinson Family Farm. Rowan says it will use a closed-loop cooling system with minimal water consumption (1-2 million gallons filled once, lasting 10-15 years). Meta also previously paused an $800 million data center project in Temple in 2022. Community concerns center on energy consumption and infrastructure impact.",
     "sources": [
@@ -7842,7 +7842,7 @@
     ],
     "authority_level": "city_council",
     "objective": "216-signature petition opposing Rowan Digital Infrastructure data center",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "petition_url": null
   },
   {
@@ -8178,7 +8178,7 @@
     "lng": -87.9538,
     "action_type": "legislation",
     "date": "2025-10-10",
-    "status": "approved",
+    "status": "pending",
     "company": "Vantage Data Centers",
     "hyperscaler": "OpenAI",
     "project_name": "Lighthouse / Stargate",
@@ -23726,7 +23726,7 @@
     "lng": -91.591,
     "action_type": "zoning_restriction",
     "date": "2026-03-01",
-    "status": "active",
+    "status": "passed",
     "company": "Google",
     "hyperscaler": "Google",
     "project_name": null,
@@ -23775,7 +23775,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 1000-foot data center setbacks in Linn County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "bartow-county-ga-2026-03-01",
@@ -24216,7 +24216,7 @@
     "lng": -86.26,
     "action_type": "moratorium",
     "date": "2026-03-03",
-    "status": "active",
+    "status": "passed",
     "company": "Decennial Group",
     "hyperscaler": null,
     "project_name": null,
@@ -24261,7 +24261,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Fulton County after Decennial Group proposal",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "lyon-township-mi-2026-03-03",
@@ -24270,7 +24270,7 @@
     "lat": 42.467,
     "lng": -83.629,
     "action_type": "moratorium",
-    "status": "active",
+    "status": "passed",
     "date": "2026-03-03",
     "summary": "Lyon Township, Michigan, (Oakland County) board voted unanimously to enact a 180-day moratorium on data centers and all proposed developments 100,000+ sq ft on March 3, 2026. The moratorium followed months of community opposition to 'Project Flex,' a $4 billion, 1.8 million sq ft AI data center by California-based developer Verrus approved by the planning commission in September 2025 on 172 acres zoned industrial. Residents didn't learn about the project until December. The moratorium does not affect Project Flex, only newly proposed data centers.",
     "sources": [
@@ -24307,7 +24307,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Lyon Township (Verrus)",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "city-of-ypsilanti-mi-2026-03-03",
@@ -24316,7 +24316,7 @@
     "lat": 42.2411,
     "lng": -83.6129,
     "action_type": "moratorium",
-    "status": "active",
+    "status": "passed",
     "date": "2026-03-03",
     "summary": "In City of Ypsilanti, Michigan, Ypsilanti City Council held a public hearing on March 3 to consider both a 60-day emergency moratorium and a separate 365-day resolution on data center zoning permits, Amid regional concerns about projects including the University of Michigan / Los Alamos National Laboratory's proposed $1.2 billion, 110MW facility on 124 acres. The 60-day measure comes from city administration as a preventive step, while the 365-day resolution was introduced by Ward 3 Council member Amber Fellows. Council approved both the 60-day emergency ordinance and the 365-day resolution. This is preemptive -- no active data center proposals in Ypsilanti city proper.",
     "sources": [
@@ -24344,7 +24344,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose 60-day emergency and 365-day moratorium on data center permits in Ypsilanti",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "acreage": 124
   },
   {
@@ -24524,7 +24524,7 @@
     "lat": 40.9601,
     "lng": -75.584,
     "action_type": "zoning_restriction",
-    "status": "active",
+    "status": "passed",
     "date": "2026-03-03",
     "summary": "Penn Forest Township, Pennsylvania, supervisors approved a comprehensive data center ordinance at a well-attended meeting at Penn's Peak (proposed by Mele Brothers Realty). The ordinance creates a new zoning overlay district covering 750 acres along Route 903, with requirements including: 30-acre minimum lot, 60 ft height cap plus 15 ft for rooftop equipment, noise and vibration standards, woodland protection (no more than 50% disturbance), Area of Influence water feasibility studies, and a decommissioning cost estimate from an independent engineer. Described as the 'least worst option' by community members who feared that without regulation, developers could exploit existing industrial zoning.",
     "sources": [
@@ -24552,7 +24552,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Ban data centers in designated zones in Penn Forest Township",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "mercer-county-nd-2026-03-03",
@@ -24564,7 +24564,7 @@
     "lng": -101.7844,
     "date": "2026-03-03",
     "action_type": "moratorium",
-    "status": "active",
+    "status": "passed",
     "scope": "local",
     "company": "NextEra Energy Resources",
     "acreage": 530,
@@ -24588,7 +24588,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Mercer County after NextEra Energy Resources proposal",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "calvert-county-md-2026-03-03",
@@ -25637,7 +25637,7 @@
     "lng": -83.651,
     "action_type": "moratorium",
     "date": "2026-03-02",
-    "status": "active",
+    "status": "passed",
     "summary": "Sprigg Township, Ohio, trustees in Adams County passed a one-year voluntary moratorium on data centers on March 2, 2026, targeting a proposed facility at the former Stuart power plant site (1,016 acres). The data center, backed by 68 Yards LLC, would start at 100 MW in 2028 and scale to 1,300 MW by 2032 — 31 times Adams County's total current electricity consumption. The U.S. Army Corps of Engineers has already issued a federal permit for the project with conditions to protect endangered bats, mussels, and butterflies, and residents have launched petitions for a statewide constitutional ban on data centers.",
     "energy_mw": 1300,
     "opposition_groups": [
@@ -25652,7 +25652,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Halt data centers in Sprigg Township after 68 Yards proposal",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "megawatts": 1300
   },
   {
@@ -25707,7 +25707,7 @@
     "lng": -84.51,
     "action_type": "zoning_restriction",
     "date": "2026-02-06",
-    "status": "active",
+    "status": "passed",
     "summary": "Cincinnati, Ohio, City Council enacted an interim development control overlay after discovering data centers are currently interpreted as 'self storage' under existing zoning code, meaning they could be built across six zoning districts containing over 22,000 parcels. The Planning Commission voted unanimously to extend the overlay nine months through February 2027. Mayor Aftab Pureval warned that 'new data centers pose the risk of exacerbating' the city's 'rapidly rising energy costs.' The Department of Planning and Engagement will study peer city practices and develop permanent zoning amendments.",
     "opposition_groups": [
       "Coalition Against Data Centers in South Ohio"
@@ -25719,7 +25719,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Create data center overlay zone in Cincinnati",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "scope": "local",
@@ -25780,7 +25780,7 @@
     "lng": -83.89,
     "action_type": "moratorium",
     "date": "2026-02-01",
-    "status": "active",
+    "status": "passed",
     "summary": "Dexter Township adopted a 180-day moratorium on data center applications via Resolution #26-705, joining at least 19 Michigan communities that have paused data center development. Residents and officials raised concerns about massive water and energy demands, potential cost increases for existing ratepayers, and industrialization of rural landscapes. The moratorium gives the township time to study impacts and draft appropriate zoning regulations.",
     "last_updated": "2026-03-19",
     "issue_category": [
@@ -25789,7 +25789,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 180-day data centers moratorium in Dexter Township",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_groups": [
       "Dexter Township Residents"
     ]
@@ -25812,7 +25812,7 @@
     "lng": -86.02,
     "action_type": "moratorium",
     "date": "2026-01-01",
-    "status": "active",
+    "status": "passed",
     "summary": "Zeeland Township's planning commission approved a one-year moratorium on data center applications in early 2026 while developing regulations for large-scale energy projects. The moratorium is part of Michigan's broader data center pushback, with at least 27 communities enacting temporary pauses. The township is simultaneously working on a renewable energy ordinance that must be finalized before any solar or data center permitting can begin.",
     "last_updated": "2026-03-19",
     "issue_category": [
@@ -25821,7 +25821,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Pause data centers in Zeeland Township pending regulations",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_groups": [
       "Economic Development Responsibility Alliance of Michigan"
     ],
@@ -26976,7 +26976,7 @@
     "lng": -85.52,
     "action_type": "moratorium",
     "date": "2026-02-26",
-    "status": "active",
+    "status": "passed",
     "summary": "Cascade Township Board voted unanimously on February 26, 2026 for a 6-month moratorium on data center permits, with an option for a 6-month extension. The action was preemptive — no data center proposal was pending — as a growing conversation about data center development spread across West Michigan. The board created a subcommittee to lead fact-finding on data center impacts and study zoning amendments, amid concerns the township lacked specific protections against large-scale data center facilities.",
     "last_updated": "2026-03-19",
     "issue_category": [
@@ -26985,7 +26985,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 6-month data centers moratorium in Cascade Township",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_groups": [
       "Economic Development Responsibility Alliance of Michigan"
     ],
@@ -27103,7 +27103,7 @@
     "lng": -83.86,
     "action_type": "moratorium",
     "date": "2026-01-20",
-    "status": "active",
+    "status": "passed",
     "summary": "In Newton County, Georgia, Board of Commissioners unanimously enacted 30-day moratorium on data center applications. Existing ordinance limits DCs to Stanton Springs overlay, but development creeping into incorporated areas. Moratorium extended through April 8, 2026 (originally 30 days). Staff reviewing development ordinances. Data centers have crept into incorporated areas like Covington, Social Circle, and Porterdale through city annexation.",
     "last_updated": "2026-03-17",
     "issue_category": [
@@ -27111,7 +27111,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 30-day data centers moratorium in Newton County",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_groups": [
       "Sierra Club Georgia Chapter"
     ],
@@ -29746,7 +29746,7 @@
     "lng": -83.651,
     "action_type": "moratorium",
     "date": "2026-02-24",
-    "status": "active",
+    "status": "passed",
     "summary": "Sprigg Township, Ohio, trustees passed a 12-month voluntary moratorium on data centers in late February 2026, in response to a proposed facility near the former Stuart power plant requiring 1,300 megawatts — 31 times Adams County's annual power consumption. First of two Adams County localities to act, followed by Monroe Township.",
     "last_updated": "2026-03-19",
     "issue_category": [
@@ -29756,7 +29756,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 12-month data centers moratorium in Sprigg Township",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "megawatts": 1300
   },
   {
@@ -29866,7 +29866,7 @@
     "lng": -89.4008,
     "action_type": "legislation",
     "date": "2026-02-18",
-    "status": "pending",
+    "status": "defeated",
     "bill_name": "SB 969 / AB 969 (NDA Ban)",
     "bill_url": "https://docs.legis.wisconsin.gov/2025/proposals/SB969",
     "summary": "Senate Bill 969, authored by Sen. Andre Jacque (R-New Franken), would prohibit NDAs between data center companies and municipalities, while still allowing withholding of genuine trade secrets. The bill was prompted by a Wisconsin Watch investigation revealing at least four communities had signed secrecy deals hiding billion-dollar data center plans. Rep. Clint Moses (R-Menomonie), author of the companion Assembly bill, called the measure 'really about trust.' Passed Senate Utilities Committee 4-1, but the Senate adjourned the 2026 session without a floor vote.",
@@ -29877,7 +29877,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Ban data center NDAs in Wisconsin (original bipartisan bill)",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Sen. Andre Jacque (R-WI)"
     ]
@@ -32085,7 +32085,7 @@
     "lng": -77.9967,
     "action_type": "zoning_restriction",
     "date": "2026-01-21",
-    "status": "active",
+    "status": "passed",
     "summary": "Culpeper County, Virginia, unanimously required conditional use permits for data centers on industrial land in September 2025, impacting 3,000+ acres across 140+ parcels that previously allowed by-right construction. Five projects in the Culpeper Technology Zone remain vested. The Piedmont Environmental Council and Coalition to Save Culpeper pushed for the stronger regulations.",
     "last_updated": "2026-03-16",
     "issue_category": [
@@ -32095,7 +32095,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Require conditional use permits in Culpeper County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "scope": "local",
@@ -33092,7 +33092,7 @@
     "lng": -83.1541,
     "action_type": "moratorium",
     "date": "2025-12-08",
-    "status": "active",
+    "status": "passed",
     "company": "Multiple (New Albany corridor)",
     "concerns": [
       "water",
@@ -33118,7 +33118,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 90-day data centers moratorium in Washington Township",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "st-albans-township-oh-2026-03-10",
@@ -33532,7 +33532,7 @@
     "lng": -83.8602,
     "action_type": "moratorium",
     "date": "2026-01-05",
-    "status": "active",
+    "status": "passed",
     "company": "3Rivers Development",
     "project_name": null,
     "opposition_groups": [
@@ -36608,7 +36608,7 @@
     "lng": -77.436,
     "action_type": "legislation",
     "date": "2026-02-01",
-    "status": "passed",
+    "status": "pending",
     "scope": "statewide",
     "bill_name": "SB 94 / HB 153 - Data Center Siting Requirements",
     "summary": "Virginia SB 94 / HB 153, sponsored by Sen. Danica Roem and Del. Josh Thomas, requires 100+ MW data center applicants seeking rezoning to submit site assessment reports examining impacts on agriculture, parks, historic sites, forestland, and noise near homes/schools. Passed both chambers of the General Assembly. Awaits Governor Spanberger's signature, amendment, or veto by April 14, 2026. Legislators reconvene for a veto session on April 22.",
@@ -36645,7 +36645,7 @@
     "lng": -77.436,
     "action_type": "legislation",
     "date": "2026-02-01",
-    "status": "passed",
+    "status": "pending",
     "scope": "statewide",
     "bill_name": "SB 553 - Data Center Water Disclosure",
     "summary": "Virginia SB 553, the state's first water transparency requirement for data centers, directs water utilities to report aggregate data center water consumption monthly or quarterly to the State Water Control Board. Companion bill HB 496 sponsored by Del. Guzman (D-Prince William). Passed both chambers and now awaits Governor Spanberger's signature, amendment, or veto by April 14, 2026. Legislators reconvene for a veto session on April 22.",
@@ -36714,7 +36714,7 @@
     "lng": -86.2168,
     "action_type": "moratorium",
     "date": "2026-01-13",
-    "status": "active",
+    "status": "passed",
     "scope": "local",
     "summary": "Meade County, Kentucky, Fiscal Court adopted Ordinance 2025-07 on January 13, 2026, establishing a moratorium on data center development while the county reviews its zoning ordinance and comprehensive plan, which do not specifically address data centers. The moratorium followed the Fiscal Court's earlier vote to deny rezoning of 138 acres along Joe Prather Highway for a PowerHouse Industries data center, after both the Planning and Zoning Commission and residents raised concerns about water and electricity usage, environmental impacts, and the urgency of the planning process.",
     "sources": [
@@ -36734,7 +36734,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Meade County after PowerHouse Industries proposal",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_groups": [
       "Meade County residents"
     ]
@@ -38689,7 +38689,7 @@
     "lng": -83.987,
     "action_type": "moratorium",
     "date": "2026-01-06",
-    "status": "active",
+    "status": "passed",
     "scope": "local",
     "company": null,
     "hyperscaler": null,
@@ -38719,7 +38719,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 6-month data centers moratorium in Crawford County",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "floyd-county-rome-ga-2025-05-01",
@@ -38981,7 +38981,7 @@
     "lng": -112.3577,
     "action_type": "project_withdrawal",
     "date": "2024-05-01",
-    "status": "passed",
+    "status": "cancelled",
     "company": "Tract",
     "hyperscaler": null,
     "project_name": "Project Range",
@@ -39037,7 +39037,7 @@
     "lng": -86.055,
     "action_type": "project_withdrawal",
     "date": "2025-09-22",
-    "status": "passed",
+    "status": "cancelled",
     "company": "Google",
     "hyperscaler": "Google",
     "project_name": "Project Flo",
@@ -39189,7 +39189,7 @@
     "lng": -75.2967,
     "action_type": "project_withdrawal",
     "date": "2025-11-17",
-    "status": "passed",
+    "status": "cancelled",
     "company": "Brian O'Neill Properties",
     "hyperscaler": null,
     "project_name": null,
@@ -40072,7 +40072,7 @@
     "lng": -75.5371,
     "action_type": "zoning_restriction",
     "date": "2026-03-27",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Archbald I LLC (Provident Data Centers)",
     "hyperscaler": null,
     "project_name": "Project Steel",
@@ -40121,7 +40121,7 @@
     "lng": -93.2174,
     "action_type": "zoning_restriction",
     "date": "2026-03-18",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Oppidan Investment Company / Rockport LLC",
     "hyperscaler": null,
     "project_name": "Apple Valley Technology Park",
@@ -40945,7 +40945,7 @@
     "lng": -80.41,
     "action_type": "lawsuit",
     "date": "2024-04-01",
-    "status": "approved",
+    "status": "active",
     "company": "Google",
     "hyperscaler": "Google",
     "project_name": null,
@@ -40978,7 +40978,7 @@
     ],
     "authority_level": "court",
     "objective": "Force disclosure of Google data center water usage in Dorchester County",
-    "community_outcome": "win"
+    "community_outcome": "pending"
   },
   {
     "id": "south-carolina-s-902-sc-2026-02-10",
@@ -43038,7 +43038,7 @@
     "lng": -75.7502,
     "action_type": "zoning_restriction",
     "date": "2026-03-26",
-    "status": "cancelled",
+    "status": "defeated",
     "company": "Starwood Digital Ventures",
     "hyperscaler": null,
     "project_name": "Project Washington",

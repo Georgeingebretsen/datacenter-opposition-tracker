@@ -1070,9 +1070,9 @@ function openDetail(f) {
     <h2>${f.jurisdiction}, ${f.state}</h2>
     ${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
     <div class="detail-meta">
-      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span>
+      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span>
       &nbsp;&middot;&nbsp;
-      <span class="status-badge status-${f.status}">${capitalize(f.status)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span>
+      <span class="status-badge status-${f.status}">${capitalize(f.status)}</span>
       &nbsp;&middot;&nbsp;
       ${formatDate(f.date)}
     </div>
@@ -1085,7 +1085,7 @@ function openDetail(f) {
 
     ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p><span class="status-badge" style="text-transform:capitalize;background:var(--border);color:var(--text)">${f.authority_level.replace(/_/g, ' ')}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getAuthorityTooltip(f.authority_level))}</span></span></p></div>` : ''}
 
-    ${f.community_outcome ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'partial' ? 'Partial Win' : 'Pending'}</span></p></div>` : ''}
+    ${f.community_outcome && f.community_outcome !== 'pending' ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'mixed' ? 'Mixed Result' : ''}</span></p></div>` : ''}
 
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 

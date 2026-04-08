@@ -34,17 +34,18 @@ const STATUS_COLORS = {
 };
 
 // Outcome-based map colors (matches the top bar legend exactly)
+// Intentionally avoiding green/red so the colors don't read as a value judgement
 const OUTCOME_COLORS = {
-  win: '#66800B',     // green — favorable to communities
-  loss: '#AF3029',    // red — unfavorable to communities
+  win: '#24837B',     // teal — favorable to communities
+  loss: '#5E409D',    // purple — unfavorable to communities
   pending: '#AD8301', // yellow — awaiting decision
   mixed: '#878580',   // gray — mixed result
 };
 
 const STATUS_LEGEND = [
-  { color: '#66800B', label: 'Resolved – Favorable for communities' },
+  { color: '#24837B', label: 'Resolved – Favorable for communities' },
   { color: '#AD8301', label: 'Pending' },
-  { color: '#AF3029', label: 'Resolved – Unfavorable for communities' },
+  { color: '#5E409D', label: 'Resolved – Unfavorable for communities' },
   { color: '#878580', label: 'Resolved – Mixed' },
 ];
 
@@ -578,14 +579,14 @@ function updateOutcomeBar(filtered) {
 
   bar.innerHTML = `
     <div class="outcome-labels">
-      <span class="outcome-label" style="color:#66800B">Resolved – Favorable for communities: ${won} (${pWon}%)</span>
-      <span class="outcome-label" style="color:#AF3029">Resolved – Unfavorable for communities: ${lost} (${pLost}%)</span>
+      <span class="outcome-label" style="color:#24837B">Resolved – Favorable for communities: ${won} (${pWon}%)</span>
+      <span class="outcome-label" style="color:#5E409D">Resolved – Unfavorable for communities: ${lost} (${pLost}%)</span>
       ${mixed > 0 ? `<span class="outcome-label" style="color:#878580">Resolved – Mixed: ${mixed} (${pMixed}%)</span>` : ''}
       <span class="outcome-label" style="color:#AD8301">Pending: ${pending} (${pPending}%)</span>
     </div>
     <div class="outcome-track">
-      <div class="outcome-segment" style="width:${pWon}%;background:#66800B" title="Resolved – Favorable for communities: ${won}"></div>
-      <div class="outcome-segment" style="width:${pLost}%;background:#AF3029" title="Resolved – Unfavorable for communities: ${lost}"></div>
+      <div class="outcome-segment" style="width:${pWon}%;background:#24837B" title="Resolved – Favorable for communities: ${won}"></div>
+      <div class="outcome-segment" style="width:${pLost}%;background:#5E409D" title="Resolved – Unfavorable for communities: ${lost}"></div>
       <div class="outcome-segment" style="width:${pMixed}%;background:#878580" title="Resolved – Mixed: ${mixed}"></div>
       <div class="outcome-segment" style="width:${pPending}%;background:#AD8301" title="Pending: ${pending}"></div>
     </div>

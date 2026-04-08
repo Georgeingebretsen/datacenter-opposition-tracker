@@ -7,6 +7,7 @@ let legFilterStatus = 'all';
 let legGroupBy = 'state';
 let legFilterState = '';
 let legFilterIssue = '';
+let legSearchQuery = '';
 let legFederalExpanded = false;
 let legExpandedGroups = new Set();
 const LEG_GROUP_COLLAPSE_THRESHOLD = 6;
@@ -147,6 +148,30 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateLegislation();
   });
 
+  // Search bar — input + clear button
+  const searchInput = document.getElementById('leg-search-input');
+  const searchClear = document.getElementById('leg-search-clear');
+  const searchBar = searchInput && searchInput.closest('.search-bar');
+  const updateSearchClearVisibility = () => {
+    if (searchBar) searchBar.classList.toggle('has-text', !!searchInput.value);
+  };
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      legSearchQuery = searchInput.value.trim().toLowerCase();
+      updateSearchClearVisibility();
+      updateLegislation();
+    });
+  }
+  if (searchClear) {
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      legSearchQuery = '';
+      updateSearchClearVisibility();
+      searchInput.focus();
+      updateLegislation();
+    });
+  }
+
   // Clear Filters button — reset all filters AND grouping back to defaults (group by State)
   const clearBtn = document.getElementById('leg-clear-filters');
   if (clearBtn) {
@@ -154,6 +179,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       legFilterStatus = 'all';
       legFilterState = '';
       legFilterIssue = '';
+      legSearchQuery = '';
       legGroupBy = 'state';
       legFederalExpanded = false;
       const ss = document.getElementById('leg-status-select');
@@ -162,6 +188,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (ss) ss.value = 'all';
       if (stSel) stSel.value = '';
       if (is) is.value = '';
+      if (searchInput) {
+        searchInput.value = '';
+        updateSearchClearVisibility();
+      }
       document.querySelectorAll('#leg-group-pills .leg-pill').forEach(p => {
         p.classList.toggle('active', p.dataset.group === 'state');
       });
@@ -178,11 +208,29 @@ function matchesStatusFilter(f) {
   return outcome === legFilterStatus;
 }
 
+function matchesSearchQuery(f) {
+  if (!legSearchQuery) return true;
+  const fullStateName = STATE_NAMES[f.state] || '';
+  const haystack = [
+    f.bill_name,
+    f.jurisdiction,
+    f.state,
+    fullStateName,
+    f.summary,
+    f.objective,
+    ...(Array.isArray(f.sponsors) ? f.sponsors : []),
+    ...(Array.isArray(f.issue_category) ? f.issue_category : []),
+    ...(Array.isArray(f.action_type) ? f.action_type : []),
+  ].filter(Boolean).join(' ').toLowerCase();
+  return haystack.includes(legSearchQuery);
+}
+
 function matchesAllFilters(f) {
   if (!matchesStatusFilter(f)) return false;
   if (legFilterState === 'federal' && f.scope !== 'federal') return false;
   if (legFilterState && legFilterState !== 'federal' && f.state !== legFilterState) return false;
   if (legFilterIssue && !(f.issue_category || []).includes(legFilterIssue)) return false;
+  if (!matchesSearchQuery(f)) return false;
   return true;
 }
 

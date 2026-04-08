@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=1775618821" />
+  <link rel="stylesheet" href="css/style.css?v=1775683723" />
 </head>
 <body>
   <header>
@@ -33,6 +33,11 @@
       <div class="legislation-header">
         <h2>Legislation Tracker <span id="legislation-count" class="count-badge"></span></h2>
         <p class="legislation-subtitle">State and federal bills regulating data center development</p>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" id="leg-search-input" placeholder="Search by bill name, sponsor, state, or keyword..." />
+        <button type="button" id="leg-search-clear" class="search-clear" aria-label="Clear search">✕</button>
       </div>
 
       <div class="leg-controls">
@@ -108,7 +113,7 @@
     <div id="detail-content"></div>
   </section>
 
-  <script src="js/utils.js?v=1775618821"></script>
-  <script src="js/legislation.js?v=1775618821"></script>
+  <script src="js/utils.js?v=1775683723"></script>
+  <script src="js/legislation.js?v=1775683723"></script>
 </body>
 </html>

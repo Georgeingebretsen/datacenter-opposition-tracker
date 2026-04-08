@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="css/style.css?v=1775618248" />
+  <link rel="stylesheet" href="css/style.css?v=1775618821" />
 </head>
 <body>
   <header>
@@ -57,22 +57,25 @@
       <div class="map-controls">
         <div class="size-by-group">
           <label for="size-by" class="size-by-label-text"><span class="size-by-icon">⊙</span> Circle size</label>
-          <select id="size-by" title="What determines dot size">
-            <option value="investment">Investment ($)</option>
-            <option value="energy">Energy Demand (MW)</option>
-            <option value="acreage">Land Area (acres)</option>
-            <option value="petitions">Petition Signatures</option>
-          </select>
-          <span class="size-legend" id="size-legend"></span>
+          <div class="size-by-row">
+            <select id="size-by" title="What determines dot size">
+              <option value="investment">Investment ($)</option>
+              <option value="energy">Energy Demand (MW)</option>
+              <option value="acreage">Land Area (acres)</option>
+              <option value="petitions">Petition Signatures</option>
+            </select>
+            <span class="size-legend" id="size-legend"></span>
+          </div>
+          <span class="size-legend-count-footer" id="size-legend-count-footer"></span>
         </div>
-        <div class="map-controls-divider"></div>
-        <div class="filters-column">
-          <button id="filters-toggle" class="filters-toggle" aria-expanded="false">
-            <span class="filters-toggle-icon">▸</span>
-            <span class="filters-toggle-label">Filters</span>
-            <span id="filters-active-count" class="filters-active-count" hidden></span>
-          </button>
-          <div class="filters-wrapper" id="filters-wrapper" hidden>
+      </div>
+      <div class="filters-column">
+        <button id="filters-toggle" class="filters-toggle" aria-expanded="false">
+          <span class="filters-toggle-icon">▸</span>
+          <span class="filters-toggle-label">Filters</span>
+          <span id="filters-active-count" class="filters-active-count" hidden></span>
+        </button>
+        <div class="filters-wrapper" id="filters-wrapper" hidden>
         <div class="filters">
           <div class="filter-group">
             <label for="filter-state">State</label>
@@ -149,7 +152,6 @@
             <button id="clear-filters" class="btn-clear">✕ Clear Filters</button>
           </div>
         </div>
-        </div>
       </div>
       <div id="map"></div>
       <p class="map-attribution">Map tiles: © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors. Rendered with <a href="https://maplibre.org/" target="_blank" rel="noopener">MapLibre</a>.</p>
@@ -216,7 +218,7 @@
   </footer>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script src="js/utils.js?v=1775618248"></script>
-  <script src="js/app.js?v=1775618248"></script>
+  <script src="js/utils.js?v=1775618821"></script>
+  <script src="js/app.js?v=1775618821"></script>
 </body>
 </html>

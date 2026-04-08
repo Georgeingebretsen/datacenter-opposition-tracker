@@ -563,7 +563,7 @@ h1 {
   display: flex;
   align-items: flex-start;
   gap: 1.25rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 .size-by-group {
   display: flex;
@@ -571,21 +571,20 @@ h1 {
   gap: 0.35rem;
   min-width: 0;
 }
-.map-controls-divider {
-  width: 1px;
-  align-self: stretch;
-  background: var(--border);
-  margin: 0 0.25rem;
+/* Row: dropdown on the left, reference circles on the right */
+.size-by-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .filters-column {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  min-width: 0;
+  gap: 0.4rem;
   align-items: flex-start;
+  margin-bottom: 0.75rem;
 }
-/* Inside the column, button aligns to the left (not flex-end) */
 .filters-column .filters-toggle {
   align-self: flex-start;
 }
@@ -595,14 +594,11 @@ h1 {
 .filters-column .filters-wrapper {
   width: 100%;
 }
-/* Inside the right panel, use a more compact 4-col grid for filters */
-.filters-column .filters {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.4rem 0.5rem;
-  margin-bottom: 0.25rem;
-}
-.filters-column .filters-footer {
-  margin: 0;
+.size-legend-count-footer {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.1rem;
 }
 .size-by-label-text {
   font-size: 0.6rem;
@@ -1608,9 +1604,9 @@ h1 {
   margin-left: 0.5rem;
 }
 .size-legend-visual {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .size-legend-title {
   font-weight: 600;

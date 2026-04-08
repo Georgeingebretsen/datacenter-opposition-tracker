@@ -514,9 +514,14 @@ function updateSizeLegend(filtered) {
           <span class="size-legend-label">no data</span>
         </div>
       </div>
-      <span class="size-legend-count">${values.length} of ${filtered.length} entries have ${({investment:'investment',energy:'energy',acreage:'acreage',petitions:'petition'}[sizeBy]||'')} data</span>
     </div>
   `;
+  // The "N of M entries have X data" line is rendered separately beneath the circle-size row
+  const countFooter = document.getElementById('size-legend-count-footer');
+  if (countFooter) {
+    const dataTypeLabel = ({investment:'investment',energy:'energy',acreage:'acreage',petitions:'petition'}[sizeBy] || '');
+    countFooter.textContent = `${values.length} of ${filtered.length} entries have ${dataTypeLabel} data`;
+  }
 }
 
 function updateStats(filtered) {

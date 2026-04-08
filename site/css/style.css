@@ -585,6 +585,10 @@ h1 {
   min-width: 0;
   align-items: flex-start;
 }
+/* Inside the column, button aligns to the left (not flex-end) */
+.filters-column .filters-toggle {
+  align-self: flex-start;
+}
 .filters-column .filters-wrapper[hidden] {
   display: none;
 }

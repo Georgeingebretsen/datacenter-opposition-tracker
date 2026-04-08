@@ -514,7 +514,7 @@ function updateSizeLegend(filtered) {
           <span class="size-legend-label">no data</span>
         </div>
       </div>
-      <span class="size-legend-count">${values.length} of ${filtered.length} entries have data</span>
+      <span class="size-legend-count">${values.length} of ${filtered.length} entries have ${({investment:'investment',energy:'energy',acreage:'acreage',petitions:'petition'}[sizeBy]||'')} data</span>
     </div>
   `;
 }

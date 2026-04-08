@@ -1,27 +1,23 @@
 /**
- * US Datacenter Fights — Interactive map and database viewer
+ * Tracking American AI Data Center Buildout — Interactive map and database viewer
  */
 
 let fights = [];
 let map;
 let markers = [];
-let currentSort = { key: 'petition_signatures', dir: 'desc' };
+let currentSort = { key: 'date', dir: 'desc' };
 let selectedHyperscalers = new Set();
 
 const ACTION_LABELS = {
   moratorium: 'Moratorium',
   legislation: 'Legislation',
-  ordinance: 'Ordinance',
   zoning_restriction: 'Zoning Restriction',
-  other_opposition: 'Other Opposition',
+  public_comment: 'Public Comment',
   community_benefit_agreement: 'Community Benefit Agreement',
   lawsuit: 'Lawsuit',
-  permit_denial: 'Permit Denial',
   project_withdrawal: 'Project Withdrawal',
-  infrastructure_opposition: 'Infrastructure',
-  regulatory_action: 'Regulatory Action',
-  executive_action: 'Executive Action',
-  study_or_report: 'Study / Report',
+  utility_regulation: 'Utility Regulation',
+  executive_order: 'Executive Order',
   other: 'Other',
 };
 
@@ -37,12 +33,19 @@ const STATUS_COLORS = {
   mixed: '#878580',
 };
 
+// Outcome-based map colors (matches the top bar legend exactly)
+const OUTCOME_COLORS = {
+  win: '#66800B',     // green — favorable to communities
+  loss: '#AF3029',    // red — unfavorable to communities
+  pending: '#AD8301', // yellow — awaiting decision
+  mixed: '#878580',   // gray — mixed result
+};
+
 const STATUS_LEGEND = [
-  { color: '#66800B', label: 'Protected' },
-  { color: '#AD8301', label: 'Ongoing' },
-  { color: '#BC5215', label: 'Pending' },
-  { color: '#AF3029', label: 'Approved' },
-  { color: '#878580', label: 'Other' },
+  { color: '#66800B', label: 'Resolved – Favorable for communities' },
+  { color: '#AD8301', label: 'Pending' },
+  { color: '#AF3029', label: 'Resolved – Unfavorable for communities' },
+  { color: '#878580', label: 'Resolved – Mixed' },
 ];
 
 // Hyperscaler short labels and brand colors for map markers
@@ -98,7 +101,36 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('filter-hyperscaler').addEventListener('change', render);
   document.getElementById('size-by').addEventListener('change', render);
   document.getElementById('clear-filters').addEventListener('click', clearFilters);
-  document.getElementById('search-input').addEventListener('input', render);
+
+  // Collapsible filters toggle
+  const filtersToggle = document.getElementById('filters-toggle');
+  const filtersWrapper = document.getElementById('filters-wrapper');
+  if (filtersToggle && filtersWrapper) {
+    filtersToggle.addEventListener('click', () => {
+      const expanded = filtersToggle.getAttribute('aria-expanded') === 'true';
+      filtersToggle.setAttribute('aria-expanded', (!expanded).toString());
+      filtersWrapper.hidden = expanded;
+    });
+  }
+  const searchInput = document.getElementById('search-input');
+  const searchClear = document.getElementById('search-clear');
+  const searchBar = searchInput && searchInput.closest('.search-bar');
+  const updateSearchClearVisibility = () => {
+    if (searchBar) searchBar.classList.toggle('has-text', !!searchInput.value);
+  };
+  searchInput.addEventListener('input', () => {
+    updateSearchClearVisibility();
+    render();
+  });
+  if (searchClear) {
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      updateSearchClearVisibility();
+      searchInput.focus();
+      render();
+    });
+  }
+  updateSearchClearVisibility();
   document.getElementById('close-panel').addEventListener('click', closePanel);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closePanel();
@@ -125,6 +157,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const tip = badge.querySelector('.status-tip');
     if (tip) tip.style.display = 'none';
   }, true);
+
+  // Custom tooltip system for [data-tooltip] elements
+  // Used in the detail panel for action category and authority level info
+  setupCustomTooltips();
 
   document.querySelectorAll('#fights-table thead th[data-sort]').forEach(th => {
     th.addEventListener('click', () => {
@@ -308,7 +344,7 @@ function reapplyMapData() {
 function populateFilters() {
   const localFights = fights.filter(f => f.scope !== 'statewide' && f.scope !== 'federal');
   const stateCounts = {};
-  localFights.forEach(f => { stateCounts[f.state] = (stateCounts[f.state] || 0) + 1; });
+  fights.forEach(f => { if (f.state && f.state !== 'US') stateCounts[f.state] = (stateCounts[f.state] || 0) + 1; });
   const states = Object.keys(stateCounts).sort();
   const stateSelect = document.getElementById('filter-state');
   states.forEach(s => {
@@ -318,7 +354,7 @@ function populateFilters() {
     stateSelect.appendChild(opt);
   });
 
-  const years = [...new Set(localFights.map(f => f.date.substring(0, 4)))].sort();
+  const years = [...new Set(fights.map(f => f.date.substring(0, 4)))].sort();
   const yearSelect = document.getElementById('filter-year');
   years.forEach(y => {
     const opt = document.createElement('option');
@@ -327,20 +363,11 @@ function populateFilters() {
     yearSelect.appendChild(opt);
   });
 
-  // Populate status filter
-  const statusCounts = {};
-  localFights.forEach(f => { if (f.status) statusCounts[f.status] = (statusCounts[f.status] || 0) + 1; });
-  const statusSelect = document.getElementById('filter-status');
-  Object.keys(statusCounts).sort().forEach(s => {
-    const opt = document.createElement('option');
-    opt.value = s;
-    opt.textContent = `${s.charAt(0).toUpperCase() + s.slice(1)} (${statusCounts[s]})`;
-    statusSelect.appendChild(opt);
-  });
+  // Status filter is hardcoded in HTML with community_outcome values (pending/win/loss/mixed)
 
   // Populate hyperscaler filter
   const hyperCounts = {};
-  localFights.forEach(f => { if (f.hyperscaler) hyperCounts[f.hyperscaler] = (hyperCounts[f.hyperscaler] || 0) + 1; });
+  fights.forEach(f => { if (f.hyperscaler) hyperCounts[f.hyperscaler] = (hyperCounts[f.hyperscaler] || 0) + 1; });
   const hyperSelect = document.getElementById('filter-hyperscaler');
   Object.keys(hyperCounts).sort().forEach(h => {
     const opt = document.createElement('option');
@@ -363,17 +390,17 @@ function getFiltered() {
 
   const base = fights.filter(f => {
     if (state && f.state !== state) return false;
-    if (type && f.action_type !== type) return false;
+    if (type && !(f.action_type || []).includes(type)) return false;
     if (year && !f.date.startsWith(year)) return false;
     if (lean && f.county_lean !== lean) return false;
-    if (status && f.status !== status) return false;
+    if (status && (f.community_outcome || 'pending') !== status) return false;
     if (issue && !(f.issue_category || []).includes(issue)) return false;
     if (hyperscaler && f.hyperscaler !== hyperscaler) return false;
     if (selectedHyperscalers.size > 0 && !selectedHyperscalers.has(f.hyperscaler)) return false;
     if (search) {
       const haystack = [
         f.jurisdiction, f.state, f.company, f.project_name, f.summary,
-        ACTION_LABELS[f.action_type],
+        ...(f.action_type || []).map(a => ACTION_LABELS[a] || a),
         ...(f.opposition_groups || []),
       ].filter(Boolean).join(' ').toLowerCase();
       if (!haystack.includes(search)) return false;
@@ -393,45 +420,9 @@ function render() {
   updateTable(filtered);
   updateSortIndicators();
   updateSizeLegend(localOnly);
-  updateLegislationStrip();
+  // legislation strip removed — statewide entries are already in the table
   // Update URL to reflect current filters (skip on initial load)
   if (typeof updateUrlFromFilters === 'function') updateUrlFromFilters();
-}
-
-function updateLegislationStrip() {
-  const strip = document.getElementById('legislation-strip');
-  const state = document.getElementById('filter-state').value;
-  if (!state) { strip.style.display = 'none'; return; }
-
-  const bills = fights.filter(f => f.state === state && (f.scope === 'statewide' || f.scope === 'federal'));
-  if (bills.length === 0) { strip.style.display = 'none'; return; }
-
-  const enacted = bills.filter(b => b.status === 'enacted').length;
-  const pending = bills.filter(b => ['active', 'pending', 'ongoing'].includes(b.status)).length;
-  const defeated = bills.filter(b => ['defeated', 'cancelled'].includes(b.status)).length;
-
-  strip.style.display = '';
-  strip.innerHTML = `
-    <div class="leg-strip-inner">
-      <div class="leg-strip-summary">
-        <strong>${state} Legislation:</strong>
-        ${bills.length} bill${bills.length !== 1 ? 's' : ''} tracked
-        ${enacted ? `<span class="leg-strip-tag enacted">${enacted} enacted</span>` : ''}
-        ${pending ? `<span class="leg-strip-tag pending">${pending} pending</span>` : ''}
-        ${defeated ? `<span class="leg-strip-tag defeated">${defeated} defeated</span>` : ''}
-      </div>
-      <div class="leg-strip-bills">
-        ${bills.slice(0, 5).map(b => `
-          <span class="leg-strip-bill" onclick="event.stopPropagation(); const f = fights.find(x => x.id === '${b.id}'); if(f) openDetail(f);">
-            ${b.bill_name || b.objective?.slice(0, 50) || b.action_type}
-            <span class="leg-strip-status status-${(b.status || '').split(/[\s-]/)[0].toLowerCase()}">${capitalize((b.status || '').split(/[\s-]/)[0])}</span>
-          </span>
-        `).join('')}
-        ${bills.length > 5 ? `<a href="legislation.html" class="leg-strip-more">${bills.length - 5} more →</a>` : ''}
-      </div>
-      <a href="legislation.html" class="leg-strip-link">View all legislation →</a>
-    </div>
-  `;
 }
 
 function updateSizeLegend(filtered) {
@@ -444,48 +435,82 @@ function updateSizeLegend(filtered) {
   const min = Math.min(...values);
   const max = Math.max(...values);
   const noData = filtered.length - values.length;
-  const fmt = (v) => {
-    if (v >= 1e9) return '$' + (v/1e9).toFixed(1) + 'B';
-    if (v >= 1e6) return '$' + (v/1e6).toFixed(0) + 'M';
-    if (v >= 1e3) return (v/1e3).toFixed(0) + 'K';
-    return v.toLocaleString();
-  };
 
-  // Pick 3 reference values: small, medium, large
+  // Per-metric formatters (values are in metric-native units)
+  const formatters = {
+    investment: (v) => {
+      // v is in millions of USD
+      if (v >= 1000) return '$' + (v/1000).toFixed(v >= 10000 ? 0 : 1) + 'B';
+      return '$' + Math.round(v) + 'M';
+    },
+    energy: (v) => {
+      // v is in megawatts
+      if (v >= 1000) return (v/1000).toFixed(1) + ' GW';
+      return Math.round(v) + ' MW';
+    },
+    acreage: (v) => {
+      if (v >= 1000) return (v/1000).toFixed(1) + 'K acres';
+      return Math.round(v).toLocaleString() + ' acres';
+    },
+    petitions: (v) => {
+      if (v >= 1e3) return (v/1e3).toFixed(1) + 'K sigs';
+      return Math.round(v) + ' sigs';
+    },
+  };
+  const fmt = formatters[sizeBy] || ((v) => Math.round(v).toLocaleString());
+
+  // Pick 3 reference values: small, medium, large (use min and max for end labels)
   const sorted = values.slice().sort((a, b) => a - b);
   const refSmall = sorted[Math.floor(sorted.length * 0.1)];
   const refMid = sorted[Math.floor(sorted.length * 0.5)];
   const refLarge = sorted[Math.floor(sorted.length * 0.9)];
 
   // Calculate radii for reference values using same logic as getMarkerRadius
+  // Mirror getMarkerRadius() exactly so legend matches map
   const calcR = (val) => {
-    if (val == null || val <= 0) return 5;
+    if (val == null || val <= 0) return 3;
     if (metric.logScale) {
       const logVal = Math.log10(Math.max(val, 1));
-      const logMax = Math.log10(Math.max(max, 10));
-      return metric.minR + (logVal / logMax) * (metric.maxR - metric.minR);
+      const t = Math.min(1, logVal / 6);
+      const curved = Math.pow(t, 1.6);
+      return metric.minR + curved * (metric.maxR - metric.minR);
     }
     return metric.minR + (val / 1) * (metric.maxR - metric.minR);
   };
 
-  const circles = [
-    { val: refSmall, r: calcR(refSmall) },
-    { val: refMid, r: calcR(refMid) },
-    { val: refLarge, r: calcR(refLarge) },
-  ];
+  // Pick reference circles based on how many unique values we have
+  const uniqueValues = [...new Set(values)].sort((a, b) => a - b);
+  let circles;
+  if (uniqueValues.length === 1) {
+    // Only 1 unique value: show single circle
+    const v = uniqueValues[0];
+    circles = [{ val: v, r: calcR(v), label: fmt(v) }];
+  } else if (uniqueValues.length === 2) {
+    // 2 values: show min and max
+    circles = [
+      { val: uniqueValues[0], r: calcR(uniqueValues[0]), label: fmt(uniqueValues[0]) },
+      { val: uniqueValues[1], r: calcR(uniqueValues[1]), label: fmt(uniqueValues[1]) },
+    ];
+  } else {
+    // 3+ values: small/mid/large with ≤ ≥ signs
+    circles = [
+      { val: refSmall, r: calcR(refSmall), label: '≤ ' + fmt(refSmall) },
+      { val: refMid, r: calcR(refMid), label: fmt(refMid) },
+      { val: refLarge, r: calcR(refLarge), label: '≥ ' + fmt(refLarge) },
+    ];
+  }
 
   legend.innerHTML = `
     <div class="size-legend-visual">
-      <span class="size-legend-title">${metric.label}</span>
       <div class="size-legend-circles">
         ${circles.map(c => `
           <div class="size-legend-item">
             <span class="size-legend-circle" style="width:${c.r * 2}px;height:${c.r * 2}px"></span>
-            <span class="size-legend-label">${fmt(c.val)}</span>
+            <span class="size-legend-label">${c.label}</span>
           </div>
         `).join('')}
         <div class="size-legend-item">
-          <span class="size-legend-circle size-legend-nodata" style="width:10px;height:10px"></span>
+          <span class="size-legend-circle size-legend-nodata" style="width:6px;height:6px"></span>
           <span class="size-legend-label">no data</span>
         </div>
       </div>
@@ -496,10 +521,10 @@ function updateSizeLegend(filtered) {
 
 function updateStats(filtered) {
   document.getElementById('stat-total').textContent = filtered.length;
-  document.getElementById('stat-states').textContent = new Set(filtered.filter(f => f.state && f.state !== 'US').map(f => f.state)).size;
+  // Note: the old "across X states" sub-label was removed — it didn't make sense when
+  // filtering to a single state, and a static "50" was confusing with active filters.
   const totalInvestment = filtered.filter(f => f.investment_million_usd).reduce((s, f) => s + f.investment_million_usd, 0);
   document.getElementById('stat-investment').textContent = totalInvestment > 0 ? formatInvestment(totalInvestment) : '—';
-  document.getElementById('stat-moratoria').textContent = filtered.filter(f => f.action_type === 'moratorium').length;
   const rCount = filtered.filter(f => f.county_lean === 'R').length;
   const dCount = filtered.filter(f => f.county_lean === 'D').length;
   document.querySelector('.partisan-r').textContent = rCount + 'R';
@@ -507,37 +532,57 @@ function updateStats(filtered) {
   document.getElementById('fights-count').textContent = filtered.length;
   updateOutcomeBar(filtered);
   updateHyperscalerBar(filtered);
+  updateFiltersActiveBadge();
+}
+
+function updateFiltersActiveBadge() {
+  const badge = document.getElementById('filters-active-count');
+  if (!badge) return;
+  let active = 0;
+  if (document.getElementById('filter-state').value) active++;
+  if (document.getElementById('filter-type').value) active++;
+  if (document.getElementById('filter-year').value) active++;
+  if (document.getElementById('filter-lean').value) active++;
+  if (document.getElementById('filter-status').value) active++;
+  if (document.getElementById('filter-issue').value) active++;
+  if (document.getElementById('filter-hyperscaler').value) active++;
+  if (active > 0) {
+    badge.textContent = active;
+    badge.hidden = false;
+  } else {
+    badge.hidden = true;
+  }
 }
 
 function updateOutcomeBar(filtered) {
   const bar = document.getElementById('outcome-bar');
-  const wonStatuses = new Set(['active','cancelled']);
-  const ongoingStatuses = new Set(['ongoing','pending','delayed']);
-  const lostStatuses = new Set(['approved']);
 
-  let won = 0, ongoing = 0, lost = 0, other = 0;
+  let won = 0, pending = 0, lost = 0, mixed = 0;
   filtered.forEach(f => {
-    if (wonStatuses.has(f.status)) won++;
-    else if (ongoingStatuses.has(f.status)) ongoing++;
-    else if (lostStatuses.has(f.status)) lost++;
-    else other++;
+    const o = f.community_outcome;
+    if (o === 'win') won++;
+    else if (o === 'loss') lost++;
+    else if (o === 'mixed') mixed++;
+    else pending++;
   });
   const total = filtered.length || 1;
   const pWon = Math.round(won/total*100);
-  const pOngoing = Math.round(ongoing/total*100);
+  const pPending = Math.round(pending/total*100);
   const pLost = Math.round(lost/total*100);
+  const pMixed = 100 - pWon - pPending - pLost;
 
   bar.innerHTML = `
     <div class="outcome-labels">
-      <span class="outcome-label" style="color:#66800B">Protected: ${won} (${pWon}%)</span>
-      <span class="outcome-label" style="color:#AD8301">Ongoing: ${ongoing} (${pOngoing}%)</span>
-      <span class="outcome-label" style="color:#AF3029">Approved: ${lost} (${pLost}%)</span>
+      <span class="outcome-label" style="color:#66800B">Resolved – Favorable for communities: ${won} (${pWon}%)</span>
+      <span class="outcome-label" style="color:#AF3029">Resolved – Unfavorable for communities: ${lost} (${pLost}%)</span>
+      ${mixed > 0 ? `<span class="outcome-label" style="color:#878580">Resolved – Mixed: ${mixed} (${pMixed}%)</span>` : ''}
+      <span class="outcome-label" style="color:#AD8301">Pending: ${pending} (${pPending}%)</span>
     </div>
     <div class="outcome-track">
-      <div class="outcome-segment" style="width:${pWon}%;background:#66800B" title="Protected: ${won}"></div>
-      <div class="outcome-segment" style="width:${pOngoing}%;background:#AD8301" title="Ongoing: ${ongoing}"></div>
-      <div class="outcome-segment" style="width:${pLost}%;background:#AF3029" title="Approved: ${lost}"></div>
-      <div class="outcome-segment" style="width:${100-pWon-pOngoing-pLost}%;background:#878580" title="Other: ${other}"></div>
+      <div class="outcome-segment" style="width:${pWon}%;background:#66800B" title="Resolved – Favorable for communities: ${won}"></div>
+      <div class="outcome-segment" style="width:${pLost}%;background:#AF3029" title="Resolved – Unfavorable for communities: ${lost}"></div>
+      <div class="outcome-segment" style="width:${pMixed}%;background:#878580" title="Resolved – Mixed: ${mixed}"></div>
+      <div class="outcome-segment" style="width:${pPending}%;background:#AD8301" title="Pending: ${pending}"></div>
     </div>
   `;
 }
@@ -597,86 +642,43 @@ function updateHyperscalerBar(filtered) {
 const SIZE_METRICS = {
   energy: {
     getValue: f => f.megawatts,
-    minR: 4, maxR: 26, logScale: true,
+    minR: 1, maxR: 23, logScale: true,
     label: 'project power',
     formatTip: (f) => f.megawatts ? formatPower(f.megawatts) : (f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null),
   },
   investment: {
     getValue: f => f.investment_million_usd,
-    minR: 4, maxR: 24, logScale: true,
+    minR: 1, maxR: 23, logScale: true,
     label: 'investment',
     formatTip: (f) => f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null,
   },
   acreage: {
     getValue: f => f.acreage,
-    minR: 4, maxR: 24, logScale: true,
+    minR: 1, maxR: 23, logScale: true,
     label: 'land usage (acres)',
     formatTip: (f) => f.acreage ? f.acreage.toLocaleString() + ' acres' : null,
   },
-  water: {
-    getValue: f => f.water_usage_gallons_per_day,
-    minR: 4, maxR: 24, logScale: true,
-    label: 'water usage',
-    formatTip: (f) => {
-      const w = f.water_usage_gallons_per_day;
-      if (!w) return null;
-      return (w >= 1000000 ? (w/1000000).toFixed(1).replace(/\.0$/,'') + 'M' : w >= 1000 ? Math.round(w/1000) + 'K' : w.toLocaleString()) + ' gal/day';
-    },
-  },
-  grassroots: {
-    getValue: f => getGrassrootsScore(f),
-    minR: 4, maxR: 24, logScale: false,
-    label: 'grassroots support',
-    formatTip: (f) => {
-      const s = getGrassrootsScore(f);
-      return s ? Math.round(s * 100) + '% grassroots score' : null;
-    },
-  },
   petitions: {
     getValue: f => f.petition_signatures,
-    minR: 4, maxR: 24, logScale: true,
+    minR: 1, maxR: 23, logScale: true,
     label: 'petition signatures',
     formatTip: (f) => f.petition_signatures ? f.petition_signatures.toLocaleString() + ' sigs' : null,
   },
-  facebook: {
-    getValue: f => f.opposition_facebook_members,
-    minR: 4, maxR: 24, logScale: true,
-    label: 'Facebook members',
-    formatTip: (f) => f.opposition_facebook_members ? f.opposition_facebook_members.toLocaleString() + ' members' : null,
-  },
-  instagram: {
-    getValue: f => f.opposition_instagram_followers,
-    minR: 4, maxR: 24, logScale: true,
-    label: 'Instagram followers',
-    formatTip: (f) => f.opposition_instagram_followers ? f.opposition_instagram_followers.toLocaleString() + ' followers' : null,
-  },
 };
-
-// Grassroots composite score (0-1): normalized average of petition sigs, FB members, IG followers, group count
-function getGrassrootsScore(f) {
-  const components = [];
-  if (f.petition_signatures) components.push(Math.log10(f.petition_signatures + 1) / Math.log10(100000));
-  if (f.opposition_facebook_members) components.push(Math.log10(f.opposition_facebook_members + 1) / Math.log10(50000));
-  if (f.opposition_instagram_followers) components.push(Math.log10(f.opposition_instagram_followers + 1) / Math.log10(25000));
-  if (f.opposition_groups && f.opposition_groups.length) components.push(Math.log10(f.opposition_groups.length + 1) / Math.log10(10));
-  if (components.length === 0) return null;
-  const avg = components.reduce((a, b) => a + b, 0) / components.length;
-  return Math.min(1, Math.max(0, avg));
-}
 
 // Compute marker radius based on selected size-by metric
 function getMarkerRadius(f) {
   const sizeBy = document.getElementById('size-by').value;
   const metric = SIZE_METRICS[sizeBy] || SIZE_METRICS.energy;
   const val = metric.getValue(f);
-  if (val == null || val <= 0) return 5;
+  if (val == null || val <= 0) return 3;
 
   if (metric.logScale) {
     const logVal = Math.log10(Math.max(val, 1));
-    const logMin = 0;
-    const logMax = Math.log10(Math.max(val, 1)) > 0 ? 6 : 1; // auto-scale
     const t = Math.min(1, logVal / 6);
-    return metric.minR + t * (metric.maxR - metric.minR);
+    // Use power curve to push small values smaller (more visual contrast)
+    const curved = Math.pow(t, 1.6);
+    return metric.minR + curved * (metric.maxR - metric.minR);
   }
   // Linear (0-1 range, used for grassroots)
   return metric.minR + val * (metric.maxR - metric.minR);
@@ -703,7 +705,8 @@ function updateMap(filtered) {
   const features = [];
   filtered.forEach(f => {
     if (!f.lat || !f.lng) return;
-    const color = STATUS_COLORS[f.status] || '#8888a0';
+    // Color dots by community_outcome so the map legend matches the top bar exactly
+    const color = OUTCOME_COLORS[f.community_outcome] || '#8888a0';
     const radius = getMarkerRadius(f);
     const companyLabel = f.hyperscaler || f.company || '';
     const sizeTip = getSizeTooltipLabel(f);
@@ -795,6 +798,9 @@ function updateTable(filtered) {
   const sorted = [...filtered].sort((a, b) => {
     let va = a[currentSort.key];
     let vb = b[currentSort.key];
+    // For arrays (action_type), sort by first element
+    if (Array.isArray(va)) va = va[0] || null;
+    if (Array.isArray(vb)) vb = vb[0] || null;
     // Push nulls/undefined to the end regardless of sort direction
     if (va == null && vb == null) return 0;
     if (va == null) return 1;
@@ -810,39 +816,25 @@ function updateTable(filtered) {
 
   updateSpreadsheetHeader();
   tbody.innerHTML = sorted.map(f => {
-    const groups = (f.opposition_groups || []).join('; ');
-    const links = [];
-    if (f.opposition_website) links.push(`<a href="${f.opposition_website}" target="_blank">web</a>`);
-    if (f.opposition_facebook) links.push(`<a href="${f.opposition_facebook}" target="_blank">fb</a>`);
-    if (f.opposition_instagram) links.push(`<a href="${f.opposition_instagram.startsWith('http') ? f.opposition_instagram : 'https://instagram.com/'+f.opposition_instagram.replace('@','')}" target="_blank">ig</a>`);
-    if (f.opposition_twitter) links.push(`<a href="${f.opposition_twitter.startsWith('http') ? f.opposition_twitter : 'https://x.com/'+f.opposition_twitter.replace('@','')}" target="_blank">x</a>`);
-    const petition = f.petition_url ? `<a href="${f.petition_url}" target="_blank">${f.petition_signatures ? f.petition_signatures.toLocaleString()+' sigs' : 'link'}</a>` : (f.petition_signatures ? f.petition_signatures.toLocaleString()+' sigs' : '');
-    const srcCount = (f.sources || []).length;
-    const srcTooltip = (f.sources || []).map(function(s) { try { return new URL(s).hostname.replace('www.',''); } catch(e) { return s; } }).join(', ');
-    const sourcesHtml = srcCount ? `<span title="${escapeHtml(srcTooltip)}">${srcCount} source${srcCount !== 1 ? 's' : ''}</span>` : '';
-    const statusWord = (f.status || '').split(/[\s\-–]/)[0];
+    const outcomeLabel = f.community_outcome === 'win' ? 'Resolved – Favorable for communities' : f.community_outcome === 'loss' ? 'Resolved – Unfavorable for communities' : f.community_outcome === 'mixed' ? 'Resolved – Mixed' : 'Pending';
     return `
       <tr data-id="${f.id}">
         <td>${formatDate(f.date)}</td>
-        <td><strong>${f.jurisdiction}</strong></td>
+        <td class="jurisdiction-cell" title="${escapeHtml(f.jurisdiction)}"><strong>${f.jurisdiction}</strong></td>
         <td>${f.state}</td>
-        <td>${f.county || ''}</td>
-        <td><span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getActionTooltip(f.action_type))}</span></span></td>
-        <td class="issue-cell">${(f.issue_category || []).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ')}</td>
-        <td><span class="status-badge status-${statusWord.toLowerCase()}">${capitalize(statusWord)}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getStatusTooltip(f.status))}</span></span></td>
-        <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${f.community_outcome === 'win' ? 'Won' : f.community_outcome === 'loss' ? 'Lost' : f.community_outcome === 'partial' ? 'Partial' : 'Pending'}</span></td>
-        <td class="objective-cell" title="${escapeHtml(f.objective || '')}">${f.objective || ''}</td>
-        <td class="petition-cell">${petition}</td>
-        <td class="links-cell">${links.join(' ')}</td>
-        <td class="truncate-cell" title="${escapeHtml(f.hyperscaler || '')}" style="${f.hyperscaler ? 'font-weight:700' : ''}">${f.hyperscaler || ''}</td>
-        <td class="truncate-cell" title="${escapeHtml(f.company || '')}">${f.company || ''}</td>
-        <td>${formatInvestment(f.investment_million_usd)}</td>
-        <td>${formatPower(f.megawatts)}</td>
-        <td>${f.acreage ? f.acreage.toLocaleString() : ''}</td>
-        <td style="text-align:center">${f.county_lean ? `<span class="status-badge ${f.county_lean === 'R' ? 'partisan-r' : 'partisan-d'}" style="font-weight:600">${f.county_lean}<span class="info-icon">i</span><span class="status-tip">Based on 2024 presidential election results in ${escapeHtml(f.county || 'this county')}</span></span>` : ''}</td>
-        <td class="groups-cell" title="${escapeHtml(groups)}">${groups}</td>
-        <td class="summary-cell" title="${escapeHtml(f.summary || '')}">${f.summary || ''}</td>
-        <td class="sources-cell">${sourcesHtml}</td>
+        <td class="action-cell">${(() => {
+          const actions = f.action_type || [];
+          const shown = actions.slice(0, 2).map(a => `<span class="action-tag-sm">${ACTION_LABELS[a] || a}</span>`).join(' ');
+          const more = actions.length > 2 ? `<span class="action-tag-sm action-tag-more">+${actions.length - 2}</span>` : '';
+          return shown + (more ? ' ' + more : '');
+        })()}</td>
+        <td class="issue-cell">${(() => {
+          const cats = f.issue_category || [];
+          const shown = cats.slice(0, 2).map(c => `<span class="issue-tag-sm">${c.replace(/_/g,' ')}</span>`).join(' ');
+          const more = cats.length > 2 ? `<span class="issue-tag-sm issue-tag-more">+${cats.length - 2}</span>` : '';
+          return shown + (more ? ' ' + more : '');
+        })()}</td>
+        <td><span class="outcome-badge-sm outcome-${f.community_outcome || 'pending'}">${outcomeLabel}</span></td>
       </tr>
     `;
   }).join('');
@@ -865,64 +857,10 @@ function updateSpreadsheetHeader() {
     <th data-sort="date">Date</th>
     <th data-sort="jurisdiction">Jurisdiction</th>
     <th data-sort="state">State</th>
-    <th data-sort="county">County</th>
     <th data-sort="action_type">Action</th>
     <th>Issue</th>
-    <th data-sort="status">Status</th>
-    <th data-sort="community_outcome">Outcome</th>
-    <th>Objective</th>
-    <th data-sort="petition_signatures">Petition</th>
-    <th>Links</th>
-    <th data-sort="hyperscaler">Company</th>
-    <th data-sort="company">Developer</th>
-    <th data-sort="investment_million_usd">Investment</th>
-    <th data-sort="megawatts">Power</th>
-    <th data-sort="acreage">Acres</th>
-    <th data-sort="county_lean">Lean</th>
-    <th>Groups</th>
-    <th>Summary</th>
-    <th>Sources</th>
+    <th data-sort="community_outcome">Status</th>
   `;
-
-  // Add filter row if not present
-  let filterRow = thead.querySelector('.col-filter-row');
-  if (!filterRow) {
-    filterRow = document.createElement('tr');
-    filterRow.className = 'col-filter-row';
-    const filterCols = [
-      { key: 'date', ph: 'Year...' },       // Date
-      { key: 'jurisdiction', ph: 'Filter...' }, // Jurisdiction
-      { key: 'state', ph: 'ST' },            // State
-      { key: 'county', ph: 'County...' },    // County
-      { key: 'action_type', ph: 'Type...' }, // Action
-      { key: 'issue_category', ph: 'Issue...' }, // Issue
-      { key: 'status', ph: 'Status...' },    // Status
-      { key: 'community_outcome', ph: 'Win/Loss' }, // Outcome
-      { key: 'objective', ph: 'Objective...' }, // Objective
-      { key: '', ph: '' },                   // Petition
-      { key: '', ph: '' },                   // Links
-      { key: 'hyperscaler', ph: 'Company...' }, // Company
-      { key: 'company', ph: 'Dev...' },      // Developer
-      { key: '', ph: '' },                   // Investment
-      { key: 'megawatts_filter', ph: 'Min MW' }, // Power
-      { key: '', ph: '' },                   // Acres
-      { key: 'county_lean', ph: 'R/D' },     // Lean
-      { key: 'groups', ph: 'Group...' },     // Groups
-      { key: 'summary', ph: 'Keyword...' },  // Summary
-      { key: '', ph: '' },                   // Sources
-    ];
-    filterRow.innerHTML = filterCols.map(c => {
-      if (!c.key) return '<th></th>';
-      return `<th><input class="col-filter-input" data-col="${c.key}" placeholder="${c.ph}" /></th>`;
-    }).join('');
-    thead.appendChild(filterRow);
-
-    // Bind filter inputs
-    filterRow.querySelectorAll('.col-filter-input').forEach(input => {
-      input.addEventListener('input', () => render());
-      input.addEventListener('click', (e) => e.stopPropagation());
-    });
-  }
 
   rebindSortHeaders();
 }
@@ -1059,7 +997,7 @@ function openDetail(f) {
 
   content.innerHTML = `
     <div class="detail-toolbar">
-      <button class="btn-share" onclick="copyShareLink()" title="Copy link to this fight">
+      <button class="btn-share" onclick="copyShareLink()" title="Copy link to this entry">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H3a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-3M9 1h6m0 0v6m0-6L8 8"/></svg>
         <span class="share-label">Share</span>
       </button>
@@ -1070,36 +1008,39 @@ function openDetail(f) {
     <h2>${f.jurisdiction}, ${f.state}</h2>
     ${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
     <div class="detail-meta">
-      <span class="badge badge-${f.action_type}">${ACTION_LABELS[f.action_type] || f.action_type}</span>
-      &nbsp;&middot;&nbsp;
-      <span class="status-badge status-${f.status}">${capitalize(f.status)}</span>
+      <span class="outcome-badge outcome-${f.community_outcome || 'pending'}">${
+        f.community_outcome === 'win' ? 'Resolved – Favorable for communities' :
+        f.community_outcome === 'loss' ? 'Resolved – Unfavorable for communities' :
+        f.community_outcome === 'mixed' ? 'Resolved – Mixed' :
+        'Pending'
+      }</span>
       &nbsp;&middot;&nbsp;
       ${formatDate(f.date)}
     </div>
 
-    ${f.sponsors && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><div class="sponsors-list">${f.sponsors.map(s => `<span class="sponsor-badge">${escapeHtml(s)}</span>`).join('')}</div></div>` : ''}
+    ${Array.isArray(f.sponsors) && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><div class="sponsors-list">${f.sponsors.map(s => `<span class="sponsor-badge">${escapeHtml(s)}</span>`).join('')}</div></div>` : ''}
 
     ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p style="font-weight:600;font-size:1.05rem;">${f.objective}</p></div>` : ''}
 
-    ${f.issue_category && f.issue_category.length ? `<div class="detail-section"><h3>Issue Categories</h3><div class="issue-tags">${f.issue_category.map(c => `<span class="issue-tag">${c.replace(/_/g, ' ')}</span>`).join('')}</div></div>` : ''}
+    ${f.action_type && f.action_type.length ? `<div class="detail-section"><h3>Action Categories</h3><div class="issue-tags">${f.action_type.map(a => `<span class="issue-tag" data-tooltip="${escapeHtml(getActionTooltip(a))}">${ACTION_LABELS[a] || a}<span class="info-icon-detail">i</span></span>`).join('')}</div></div>` : ''}
 
-    ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p><span class="status-badge" style="text-transform:capitalize;background:var(--border);color:var(--text)">${f.authority_level.replace(/_/g, ' ')}<span class="info-icon">i</span><span class="status-tip">${escapeHtml(getAuthorityTooltip(f.authority_level))}</span></span></p></div>` : ''}
+    ${f.issue_category && f.issue_category.length ? `<div class="detail-section"><h3>Issue Categories</h3><div class="issue-tags">${f.issue_category.map(c => `<span class="issue-tag" data-tooltip="${escapeHtml(getIssueTooltip(c))}">${c.replace(/_/g, ' ')}<span class="info-icon-detail">i</span></span>`).join('')}</div></div>` : ''}
 
-    ${f.community_outcome && f.community_outcome !== 'pending' ? `<div class="detail-section"><h3>Community Outcome</h3><p><span class="outcome-badge outcome-${f.community_outcome}">${f.community_outcome === 'win' ? 'Community Won' : f.community_outcome === 'loss' ? 'Project Approved' : f.community_outcome === 'mixed' ? 'Mixed Result' : ''}</span></p></div>` : ''}
+    ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p><span class="status-badge" data-tooltip="${escapeHtml(getAuthorityTooltip(f.authority_level))}" style="text-transform:capitalize;background:var(--border);color:var(--text)">${f.authority_level.replace(/_/g, ' ')}<span class="info-icon-detail">i</span></span></p></div>` : ''}
 
     ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
 
     ${f.bill_url ? `<div class="detail-section bill-link-section"><h3>Official Bill</h3><a href="${f.bill_url}" target="_blank" class="bill-link">${f.bill_name || 'View Bill Text'} ↗</a></div>` : ''}
 
-    ${f.hyperscaler ? `<div class="detail-section"><h3>Hyperscaler / End User</h3><p style="font-size:1.1rem;font-weight:700;color:${(HYPERSCALER_INFO[f.hyperscaler]||{}).color||'var(--text)'}">${f.hyperscaler}</p>${f.company && f.company !== f.hyperscaler ? `<p style="color:var(--text-muted);font-size:0.85rem;">Developer: ${f.company}</p>` : ''}</div>` : (f.company ? `<div class="detail-section"><h3>Company</h3><p>${f.company}</p></div>` : '')}
+    ${f.hyperscaler ? `<div class="detail-section"><h3>Hyperscaler</h3><p style="font-size:1.1rem;font-weight:700;color:${(HYPERSCALER_INFO[f.hyperscaler]||{}).color||'var(--text)'}">${f.hyperscaler}</p>${f.company && f.company !== f.hyperscaler ? `<p style="color:var(--text-muted);font-size:0.85rem;">Developer: ${f.company}</p>` : ''}</div>` : (f.company ? `<div class="detail-section"><h3>Company</h3><p>${f.company}</p></div>` : '')}
     ${f.project_name ? `<div class="detail-section"><h3>Project</h3><p>${f.project_name}</p></div>` : ''}
 
     ${specs.length ? `<div class="detail-section"><h3>Project Specs</h3><ul>${specs.join('')}</ul></div>` : ''}
 
-    <div class="detail-section">
+    ${f.opposition_groups && f.opposition_groups.length ? `<div class="detail-section">
       <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Community Groups'}</h3>
       <div class="groups-container">${groupsHtml}</div>
-    </div>
+    </div>` : ''}
 
     ${oppLinks.length ? `<div class="detail-section"><h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Advocacy Links' : 'Community Links'}</h3><div class="opp-links">${oppLinks.map(l => `<span class="opp-link">${l}</span>`).join('')}</div></div>` : ''}
 
@@ -1109,7 +1050,7 @@ function openDetail(f) {
     </div>
 
     <div class="detail-section" style="color:var(--text-muted); font-size:0.8rem;">
-      Data source: ${f.data_source} &middot; Last updated: ${f.last_updated}
+      ${f.last_updated ? `Last updated: ${f.last_updated}` : ''}
     </div>
   `;
 
@@ -1206,13 +1147,18 @@ function clearFilters() {
   render();
 }
 
+// Custom tooltip functions (setupCustomTooltips, _positionCustomTooltip) are now in utils.js
+
 // Download functions
 function downloadCSV() {
   const filtered = getFiltered();
   const headers = [
-    'date', 'jurisdiction', 'state', 'county', 'county_lean', 'action_type', 'status', 'hyperscaler', 'company',
-    'project_name', 'investment_million_usd', 'megawatts', 'acreage',
-    'opposition_groups', 'summary', 'sources',
+    'date', 'jurisdiction', 'state', 'county', 'county_lean', 'scope',
+    'action_type', 'issue_category', 'objective', 'authority_level',
+    'status', 'community_outcome',
+    'hyperscaler', 'company', 'project_name',
+    'investment_million_usd', 'megawatts', 'acreage',
+    'sponsors', 'opposition_groups', 'summary', 'sources',
     'opposition_website', 'opposition_facebook', 'opposition_instagram', 'petition_url', 'petition_signatures',
   ];
   const csvRows = [headers.join(',')];
@@ -1227,18 +1173,18 @@ function downloadCSV() {
     csvRows.push(row.join(','));
   });
   csvRows.push('');
-  csvRows.push('"License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — US Datacenter Fights — datacenterfights.org"');
-  downloadFile('datacenter-fights.csv', csvRows.join('\n'), 'text/csv');
+  csvRows.push('"License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — Tracking American AI Data Center Buildout — datacentertracker.org"');
+  downloadFile('data-center-tracker.csv', csvRows.join('\n'), 'text/csv');
 }
 
 function downloadJSON() {
   const filtered = getFiltered();
   const output = {
     license: 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)',
-    attribution: 'US Datacenter Fights — datacenterfights.org',
+    attribution: 'Tracking American AI Data Center Buildout — datacentertracker.org',
     data: filtered
   };
-  downloadFile('datacenter-fights.json', JSON.stringify(output, null, 2), 'application/json');
+  downloadFile('data-center-tracker.json', JSON.stringify(output, null, 2), 'application/json');
 }
 
 function downloadFile(filename, content, type) {

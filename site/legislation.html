@@ -3,27 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Legislation Tracker — US Datacenter Community Response</title>
-  <meta name="description" content="Tracking state and federal bills regulating datacenter development across the United States.">
+  <title>Legislation Tracker — Tracking American AI Data Center Buildout</title>
+  <meta name="description" content="Tracking state and federal bills regulating data center development across the United States.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1775617940" />
 </head>
 <body>
   <header>
     <div class="hero-image">
-      <img src="img/hero.jpg" alt="Aerial view of a massive datacenter construction site" />
+      <img src="img/hero.jpg" alt="Aerial view of a massive data center construction site" />
       <div class="hero-overlay"></div>
     </div>
     <div class="header-inner">
-      <h1>Tracking American AI Datacenter Community Response</h1>
+      <h1>Tracking American AI Data Center Buildout</h1>
+      <p class="hero-subtitle">Community Response and Legislative Action</p>
       <p class="last-updated" id="last-updated"></p>
     </div>
   </header>
   <nav class="site-nav">
-    <a href="index.html" class="nav-link">Datacenter Responses</a>
+    <a href="index.html" class="nav-link">Data Center Responses</a>
     <a href="legislation.html" class="nav-link active">Legislation Tracker</a>
   </nav>
 
@@ -31,8 +32,47 @@
     <section class="legislation-tracker" id="legislation-tracker">
       <div class="legislation-header">
         <h2>Legislation Tracker <span id="legislation-count" class="count-badge"></span></h2>
-        <p class="legislation-subtitle">State and federal bills regulating datacenter development</p>
+        <p class="legislation-subtitle">State and federal bills regulating data center development</p>
       </div>
+
+      <div class="leg-controls">
+        <div class="leg-controls-filters">
+          <div class="leg-control-group">
+            <label class="leg-control-label">Status</label>
+            <select id="leg-status-select" class="leg-select">
+              <option value="all">All</option>
+              <option value="pending">Pending</option>
+              <option value="win">Resolved – Favorable for communities</option>
+              <option value="loss">Resolved – Unfavorable for communities</option>
+              <option value="mixed">Resolved – Mixed</option>
+            </select>
+          </div>
+          <div class="leg-control-group">
+            <label class="leg-control-label">State / Federal</label>
+            <select id="leg-state-select" class="leg-select">
+              <option value="">All</option>
+              <option value="federal">Federal only</option>
+            </select>
+          </div>
+          <div class="leg-control-group">
+            <label class="leg-control-label">Issue Category</label>
+            <select id="leg-issue-select" class="leg-select">
+              <option value="">All Issues</option>
+            </select>
+          </div>
+          <button id="leg-clear-filters" class="btn-clear">✕ Clear Filters</button>
+        </div>
+        <div class="leg-controls-divider"></div>
+        <div class="leg-control-group">
+          <label class="leg-control-label">Group by</label>
+          <div class="leg-pills" id="leg-group-pills">
+            <button class="leg-pill active" data-group="state">State</button>
+            <button class="leg-pill" data-group="status">Status</button>
+            <button class="leg-pill" data-group="issue">Issue Area</button>
+          </div>
+        </div>
+      </div>
+
       <div id="legislation-federal"></div>
       <div id="legislation-states"></div>
     </section>
@@ -48,7 +88,7 @@
         </div>
         <div class="about-card">
           <h3>Contribute</h3>
-          <p>Know of a community action not listed here? Notice an issue? Please email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
+          <p>Know of a community action or piece of legislation not listed here? Notice an issue? Please email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
         </div>
       </div>
     </div>
@@ -56,7 +96,10 @@
 
   <footer>
     <div class="footer-inner">
-      <p>Last updated March 2026.</p>
+      <p class="license-notice">
+        Data licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Free to download, share, and reuse with attribution.
+        Code licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
+      </p>
     </div>
   </footer>
 
@@ -65,7 +108,7 @@
     <div id="detail-content"></div>
   </section>
 
-  <script src="js/utils.js"></script>
-  <script src="js/legislation.js"></script>
+  <script src="js/utils.js?v=1775617940"></script>
+  <script src="js/legislation.js?v=1775617940"></script>
 </body>
 </html>

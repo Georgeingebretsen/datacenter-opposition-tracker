@@ -3,34 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tracking American AI Datacenter Community Response</title>
-  <meta name="description" content="An interactive map and database tracking community response to datacenter development across the United States. 894 community actions tracked across 51 states.">
-  <meta property="og:title" content="US Datacenter Responses">
-  <meta property="og:description" content="An interactive map tracking 913 community responses to datacenter development across 51 US states.">
+  <title>Tracking American AI Data Center Buildout – Community Response and Legislative Action</title>
+  <meta name="description" content="An interactive map and open database tracking community response and legislative action on AI data center buildout across the United States.">
+  <meta property="og:title" content="Tracking American AI Data Center Buildout">
+  <meta property="og:description" content="Interactive map and database tracking community response and legislative action on AI data center buildout across the US.">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="US Datacenter Responses">
-  <meta name="twitter:description" content="913 community responses to datacenter development across 51 US states. Interactive map and open database.">
+  <meta name="twitter:title" content="Tracking American AI Data Center Buildout">
+  <meta name="twitter:description" content="Interactive map and open database tracking community response and legislative action on AI data center buildout across the US.">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=1775617940" />
 </head>
 <body>
   <header>
     <div class="hero-image">
-      <img src="img/hero.jpg" alt="Aerial view of a massive datacenter construction site" />
+      <img src="img/hero.jpg" alt="Aerial view of a massive data center construction site" />
       <div class="hero-overlay"></div>
     </div>
     <div class="header-inner">
-      <h1>Tracking American AI Datacenter Community Response</h1>
+      <h1>Tracking American AI Data Center Buildout</h1>
+      <p class="hero-subtitle">Community Response and Legislative Action</p>
       <p class="last-updated" id="last-updated"></p>
     </div>
   </header>
   <nav class="site-nav">
-    <a href="index.html" class="nav-link active">Datacenter Responses</a>
+    <a href="index.html" class="nav-link active">Data Center Responses</a>
     <a href="legislation.html" class="nav-link">Legislation Tracker</a>
   </nav>
 
@@ -38,15 +39,11 @@
     <section class="stats-strip" id="stats-bar">
       <div class="stat-card">
         <span class="stat-number"><span id="stat-total">—</span></span>
-        <span class="stat-label">actions across <span id="stat-states">—</span> states</span>
+        <span class="stat-label">actions tracked</span>
       </div>
       <div class="stat-card">
         <span class="stat-number"><span id="stat-investment">—</span></span>
-        <span class="stat-label">in investment at stake</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-number"><span id="stat-moratoria">—</span></span>
-        <span class="stat-label">moratoria</span>
+        <span class="stat-label">in investment</span>
       </div>
       <div class="stat-card" id="stat-partisan">
         <span class="stat-number"><span class="partisan-r">—R</span> / <span class="partisan-d">—D</span></span>
@@ -55,76 +52,107 @@
     </section>
 
     <div class="outcome-bar" id="outcome-bar"></div>
-    <div class="legislation-strip" id="legislation-strip" style="display:none"></div>
 
     <section class="map-container">
-      <div class="filters">
-        <select id="filter-state">
-          <option value="">All States</option>
-        </select>
-        <select id="filter-type">
-          <option value="">All Actions</option>
-          <option value="moratorium">Moratorium</option>
-          <option value="ordinance">Ordinance</option>
-          <option value="legislation">Legislation</option>
-          <option value="zoning_restriction">Zoning Restriction</option>
-          <option value="community_benefit_agreement">Community Benefit Agreement</option>
-          <option value="other_opposition">Other Opposition</option>
-          <option value="lawsuit">Lawsuit</option>
-          <option value="permit_denial">Permit Denial</option>
-          <option value="project_withdrawal">Project Withdrawal</option>
-          <option value="infrastructure_opposition">Infrastructure Opposition</option>
-          <option value="regulatory_action">Regulatory Action</option>
-          <option value="executive_action">Executive Action</option>
-          <option value="study_or_report">Study / Report</option>
-        </select>
-        <select id="filter-year">
-          <option value="">All Years</option>
-        </select>
-        <select id="filter-lean">
-          <option value="">All Leanings</option>
-          <option value="R">Republican (R)</option>
-          <option value="D">Democrat (D)</option>
-        </select>
-        <select id="filter-status">
-          <option value="">All Statuses</option>
-        </select>
-        <select id="filter-issue">
-          <option value="">All Issues</option>
-          <option value="zoning">Zoning / Land Use</option>
-          <option value="water">Water</option>
-          <option value="environmental">Environmental</option>
-          <option value="community_impact">Community Impact</option>
-          <option value="grid_energy">Grid / Energy</option>
-          <option value="transparency">Transparency</option>
-          <option value="ratepayer">Ratepayer</option>
-          <option value="noise">Noise</option>
-          <option value="tax_incentive">Tax / Incentive</option>
-          <option value="farmland">Farmland</option>
-          <option value="traffic">Traffic</option>
-          <option value="design_standards">Design Standards</option>
-          <option value="contract_guarantees">Contract Guarantees</option>
-          <option value="anti_ai">Anti-AI</option>
-        </select>
-        <select id="filter-hyperscaler">
-          <option value="">All Companies</option>
-        </select>
-        <button id="clear-filters" class="btn-clear">Clear Filters</button>
-      </div>
       <div class="map-controls">
-        <label class="size-by-label">
-          <span class="size-by-icon">⊙</span> Circle size:
+        <div class="size-by-group">
+          <label for="size-by" class="size-by-label-text"><span class="size-by-icon">⊙</span> Circle size</label>
           <select id="size-by" title="What determines dot size">
             <option value="investment">Investment ($)</option>
             <option value="energy">Energy Demand (MW)</option>
             <option value="acreage">Land Area (acres)</option>
             <option value="petitions">Petition Signatures</option>
-            <option value="grassroots">Community Support</option>
           </select>
-        </label>
-        <span class="size-legend" id="size-legend"></span>
+          <span class="size-legend" id="size-legend"></span>
+        </div>
+        <div class="map-controls-divider"></div>
+        <div class="filters-column">
+          <button id="filters-toggle" class="filters-toggle" aria-expanded="false">
+            <span class="filters-toggle-icon">▸</span>
+            <span class="filters-toggle-label">Filters</span>
+            <span id="filters-active-count" class="filters-active-count" hidden></span>
+          </button>
+          <div class="filters-wrapper" id="filters-wrapper" hidden>
+        <div class="filters">
+          <div class="filter-group">
+            <label for="filter-state">State</label>
+            <select id="filter-state">
+              <option value="">All States</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-type">Action</label>
+            <select id="filter-type">
+              <option value="">All Actions</option>
+              <option value="zoning_restriction">Zoning Restriction</option>
+              <option value="legislation">Legislation</option>
+              <option value="moratorium">Moratorium</option>
+              <option value="public_comment">Public Comment</option>
+              <option value="lawsuit">Lawsuit</option>
+              <option value="project_withdrawal">Project Withdrawal</option>
+              <option value="utility_regulation">Utility Regulation</option>
+              <option value="executive_order">Executive Order</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-year">Year</label>
+            <select id="filter-year">
+              <option value="">All Years</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-lean">County Lean</label>
+            <select id="filter-lean">
+              <option value="">All Leanings</option>
+              <option value="R">Republican (R)</option>
+              <option value="D">Democrat (D)</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-status">Status</label>
+            <select id="filter-status">
+              <option value="">All</option>
+              <option value="pending">Pending</option>
+              <option value="win">Resolved – Favorable for communities</option>
+              <option value="loss">Resolved – Unfavorable for communities</option>
+              <option value="mixed">Resolved – Mixed</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-issue">Issue Category</label>
+            <select id="filter-issue">
+              <option value="">All Issues</option>
+              <option value="zoning">Zoning / Land Use</option>
+              <option value="water">Water</option>
+              <option value="environmental">Environmental</option>
+              <option value="community_impact">Community Impact</option>
+              <option value="grid_energy">Grid / Energy</option>
+              <option value="transparency">Transparency</option>
+              <option value="ratepayer">Ratepayer</option>
+              <option value="noise">Noise</option>
+              <option value="tax_incentive">Tax / Incentive</option>
+              <option value="farmland">Farmland</option>
+              <option value="traffic">Traffic</option>
+              <option value="design_standards">Design Standards</option>
+              <option value="contract_guarantees">Contract Guarantees</option>
+              <option value="anti_ai">Anti-AI</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-hyperscaler">Company</label>
+            <select id="filter-hyperscaler">
+              <option value="">All Companies</option>
+            </select>
+          </div>
+        </div>
+          <div class="filters-footer">
+            <button id="clear-filters" class="btn-clear">✕ Clear Filters</button>
+          </div>
+        </div>
+        </div>
       </div>
       <div id="map"></div>
+      <p class="map-attribution">Map tiles: © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors. Rendered with <a href="https://maplibre.org/" target="_blank" rel="noopener">MapLibre</a>.</p>
     </section>
 
     <section class="fights-list spreadsheet-mode" id="fights-list">
@@ -137,6 +165,7 @@
       </div>
       <div class="search-bar">
         <input type="text" id="search-input" placeholder="Search by location, company, or keyword..." />
+        <button type="button" id="search-clear" class="search-clear" aria-label="Clear search">✕</button>
       </div>
       <div id="fights-table-container">
         <table id="fights-table">
@@ -145,11 +174,9 @@
               <th data-sort="date">Date</th>
               <th data-sort="jurisdiction">Jurisdiction</th>
               <th data-sort="state">State</th>
-              <th data-sort="county">County</th>
-              <th data-sort="county_lean">Lean</th>
-              <th data-sort="action_type">Mechanism</th>
-              <th data-sort="status">Status</th>
-              <th>Details</th>
+              <th data-sort="action_type">Action</th>
+              <th>Issue</th>
+              <th data-sort="community_outcome">Status</th>
             </tr>
           </thead>
           <tbody id="fights-tbody"></tbody>
@@ -173,7 +200,7 @@
         </div>
         <div class="about-card">
           <h3>Contribute</h3>
-          <p>Know of a community action not listed here? Notice an issue? Please email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
+          <p>Know of a community action or piece of legislation not listed here? Notice an issue? Please email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
         </div>
       </div>
     </div>
@@ -181,7 +208,6 @@
 
   <footer>
     <div class="footer-inner">
-      <p>Last updated March 2026.</p>
       <p class="license-notice">
         Data licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Free to download, share, and reuse with attribution.
         Code licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
@@ -190,7 +216,7 @@
   </footer>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script src="js/utils.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/utils.js?v=1775617940"></script>
+  <script src="js/app.js?v=1775617940"></script>
 </body>
 </html>

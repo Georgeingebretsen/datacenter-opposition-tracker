@@ -1,15 +1,16 @@
 /**
- * Shared utilities for US Datacenter Fights
+ * Shared utilities for Tracking American AI Data Center Buildout
  */
 
 const STATUS_TOOLTIPS = {
-  active: 'A restriction or opposition measure is currently in effect',
-  approved: 'The datacenter project was approved despite opposition',
+  active: 'A community action or restriction is currently in effect or in progress',
+  approved: 'The data center project was approved despite community concerns',
   cancelled: 'The project was cancelled or the developer withdrew',
+  defeated: 'The project, bill, or measure was rejected by the deciding body',
   delayed: 'The project or decision has been delayed',
   expired: 'The moratorium or restriction has expired',
   mixed: 'Mixed outcome — partial wins and losses',
-  ongoing: 'The fight is still in progress with no resolution yet',
+  passed: 'The bill, ordinance, or community measure was officially enacted',
   pending: 'A decision is pending — awaiting vote or ruling',
 };
 
@@ -56,6 +57,70 @@ function getAuthorityTooltip(authority) {
 function getActionTooltip(action) {
   if (!action) return '';
   return ACTION_TOOLTIPS[action] || action.replace(/_/g, ' ');
+}
+
+const ISSUE_TOOLTIPS = {
+  zoning: 'Land use and zoning concerns — whether the site should be industrial, residential, mixed-use, or agricultural',
+  water: 'Water consumption concerns — cooling demand, aquifer depletion, impacts on local supply, wetlands, or waterways',
+  environmental: 'Environmental concerns — pollution, emissions, habitat destruction, wildlife impact, or ecosystem damage',
+  community_impact: 'Broader community impacts — property values, rural character, displacement, noise, traffic, or quality of life for residents',
+  grid_energy: 'Electric grid and energy concerns — strain on the grid, transmission infrastructure, reliability, or new power generation',
+  transparency: 'Transparency concerns — NDAs, secret negotiations, hidden terms, or community being kept in the dark',
+  ratepayer: 'Ratepayer protection — worries that data center costs will be passed on to residential electric customers',
+  noise: 'Noise pollution concerns — hum from cooling fans, backup generators, or construction disturbance',
+  tax_incentive: 'Tax incentive concerns — public subsidies, tax abatements, or giveaways to corporations',
+  farmland: 'Farmland preservation — loss of working farms, prime agricultural soil, or rural open space',
+  traffic: 'Traffic concerns — construction truck volume, road damage, or permanent increases in local traffic',
+  design_standards: 'Building and site design requirements — height limits, setbacks, screening, sound barriers, and architectural rules',
+  contract_guarantees: 'Contract guarantees — financial assurances, early termination fees, load ramp terms, or decommissioning bonds',
+  anti_ai: 'Explicit opposition to AI as a technology — job displacement, AI energy footprint, or opposition to the AI industry specifically',
+};
+
+function getIssueTooltip(issue) {
+  if (!issue) return '';
+  return ISSUE_TOOLTIPS[issue] || issue.replace(/_/g, ' ');
+}
+
+// Custom tooltip — shared by main page and legislation page
+function setupCustomTooltips() {
+  let tooltipEl = document.getElementById('custom-tooltip');
+  if (!tooltipEl) {
+    tooltipEl = document.createElement('div');
+    tooltipEl.id = 'custom-tooltip';
+    document.body.appendChild(tooltipEl);
+  }
+  document.addEventListener('mouseover', (e) => {
+    if (!e.target || typeof e.target.closest !== 'function') return;
+    const target = e.target.closest('[data-tooltip]');
+    if (!target) return;
+    const text = target.dataset.tooltip;
+    if (!text) return;
+    tooltipEl.textContent = text;
+    tooltipEl.classList.add('visible');
+    _positionCustomTooltip(target, tooltipEl);
+  });
+  document.addEventListener('mouseout', (e) => {
+    if (!e.target || typeof e.target.closest !== 'function') return;
+    const target = e.target.closest('[data-tooltip]');
+    if (!target) return;
+    if (target.contains(e.relatedTarget)) return;
+    tooltipEl.classList.remove('visible');
+  });
+  window.addEventListener('scroll', () => tooltipEl.classList.remove('visible'), true);
+}
+
+function _positionCustomTooltip(target, tooltipEl) {
+  const rect = target.getBoundingClientRect();
+  const tipRect = tooltipEl.getBoundingClientRect();
+  let top = rect.top - tipRect.height - 10;
+  let left = rect.left + rect.width / 2 - tipRect.width / 2;
+  if (top < 8) top = rect.bottom + 10;
+  if (left < 8) left = 8;
+  if (left + tipRect.width > window.innerWidth - 8) {
+    left = window.innerWidth - tipRect.width - 8;
+  }
+  tooltipEl.style.left = left + 'px';
+  tooltipEl.style.top = top + 'px';
 }
 
 function capitalize(s) {

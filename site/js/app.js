@@ -717,7 +717,8 @@ function updateMap(filtered) {
     const companyLabel = f.hyperscaler || f.company || '';
     const sizeTip = getSizeTooltipLabel(f);
     const scaleLabel = sizeTip ? ` &middot; ${sizeTip}` : '';
-    const tooltipHtml = `<strong>${escapeHtml(f.jurisdiction)}, ${f.state}</strong> &middot; ${capitalize(f.status)}${companyLabel ? ' &middot; ' + escapeHtml(companyLabel) : ''}${scaleLabel}`;
+    // Outcome is already conveyed by the dot color, so we don't repeat it in the hover text.
+    const tooltipHtml = `<strong>${escapeHtml(f.jurisdiction)}, ${f.state}</strong>${companyLabel ? ' &middot; ' + escapeHtml(companyLabel) : ''}${scaleLabel}`;
     features.push({
       type: 'Feature',
       geometry: { type: 'Point', coordinates: [f.lng, f.lat] },

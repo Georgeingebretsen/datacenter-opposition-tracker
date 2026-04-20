@@ -2927,7 +2927,7 @@
     ],
     "date": "2025-06-01",
     "status": "active",
-    "company": "University of Michigan / Los Alamos National Laboratory / DTE Energy",
+    "company": "University of Michigan / Los Alamos National Laboratory / DTE Energy / Thor Equities",
     "hyperscaler": null,
     "project_name": "Hydro Park Data Center / AI Supercomputer",
     "investment_million_usd": 1200,
@@ -2945,7 +2945,7 @@
     "opposition_twitter": null,
     "petition_url": "https://actionnetwork.org/letters/stop-the-hydro-park-data-center",
     "petition_signatures": 8113,
-    "summary": "University of Michigan's $1.25B supercomputing facility for Los Alamos National Laboratory on 124 acres in Ypsilanti Township faces strong opposition. On March 31, 2026, the Ypsilanti Township Board of Trustees voted unanimously to adopt Resolution 2026-05 opposing construction anywhere in the township. This followed U of M's purchase of a 124-acre parcel on Textile Road. Community concerns center on environmental impact, national security risks, and lack of transparency. U of M says the resolution doesn't change its timeline or plans.",
+    "summary": "University of Michigan's $1.25B supercomputing facility for Los Alamos National Laboratory on 124 acres in Ypsilanti Township faces strong opposition. On March 31, 2026, the Ypsilanti Township Board voted unanimously to adopt Resolution 2026-05 opposing construction. On April 16, 2026, the Township Board advanced a water moratorium resolution targeting the U-M/Los Alamos project and a separate Thor Equities data center proposal, citing strained water infrastructure and lack of transparency. Community concerns center on environmental impact, national security risks, and lack of transparency.",
     "sources": [
       "https://planetdetroit.org/2026/04/ypsilanti-township-escalates-data-center-fight/",
       "https://www.easternecho.com/article/2026/04/ypsilanti-township-strengthens-opposition-to-data-center-as-u-m-confirms-land-purchase",
@@ -2954,7 +2954,7 @@
       "https://stopthedatacenter.org/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "energy_mw": 110,
@@ -4661,7 +4661,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-port-washington-wi-data-center",
     "petition_signatures": 3795,
-    "summary": "Recall effort against Mayor Ted Neitzke over the $15B Vantage Data Centers 'Project Lighthouse' fell short in February 2026, collecting ~1,200 signatures but needing ~1,600 (25% of 2022 gubernatorial ballots). The group Great Lakes Neighbors United cited transparency, environmental, and TIF concerns. Despite opposition, the data center broke ground and construction is underway. The 1.3 GW facility will serve OpenAI and Oracle. A separate lawsuit by Great Lakes Neighbors United challenges the project.",
+    "summary": "Following the April 7, 2026 passage of the anti-data-center referendum (66%), Metropolitan Milwaukee Association of Commerce and allied business groups filed suit challenging the referendum's validity. A scheduling conference was held April 16, 2026. Separately, Great Lakes Neighbors United's lawsuit over the $15B Vantage/OpenAI/Oracle Stargate project continues. Construction on the 1.3 GW facility is underway. A previous recall effort against Mayor Ted Neitzke collected ~1,200 signatures but fell short of the ~1,600 needed in February 2026.",
     "sources": [
       "https://www.tmj4.com/news/ozaukee-county/port-washington-neighbors-host-town-hall-rally-against-15-billion-data-center-project",
       "https://www.gmtoday.com/news_graphic/news/glnu-challenges-port-washington-data-center/article_f0120984-fde9-40f7-99f4-da5c0d009ec9.html",
@@ -4681,7 +4681,7 @@
       "https://wtmj.com/news/2026/02/17/attempt-to-recall-port-washington-mayor-by-anti-data-center-group-fails-according-to-city/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "opposition_instagram_followers": 2078,
     "county_lean": "R",
@@ -4821,10 +4821,12 @@
     "lat": 32.454,
     "lng": -91.764,
     "action_type": [
-      "public_comment"
+      "public_comment",
+      "utility_regulation",
+      "regulatory_action"
     ],
     "date": "2025-08-01",
-    "status": "active",
+    "status": "approved",
     "company": "Meta",
     "hyperscaler": "Meta",
     "project_name": "Hyperion",
@@ -4846,7 +4848,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Meta's Hyperion AI data center in Richland Parish, Louisiana — a $27B joint venture with Blue Owl Capital — is undergoing dramatic expansion. In February 2026, Meta quietly purchased an additional 1,400 acres adjacent to the existing 2,250-acre site, expanding to 3,650 acres total. On March 27, 2026, Meta announced an Entergy agreement to build seven new gas-fired power plants on top of three previously approved, totaling 10 gas plants with 7.5 GW of capacity — a >30% increase to Louisiana's entire grid capacity, enough to power 5+ million homes. The project has caused a 600% spike in vehicle crashes and forced Holly Ridge Elementary to shut down its playground due to truck safety. Low-income families are being evicted for Meta worker housing, and at least 5,000 temporary workers are flooding a parish of ~20,000 permanent residents. The facility uses ~23M gallons/day and $550M in transmission costs are being passed to 1.1M Entergy customers. Hyperion is expected operational by 2030.",
+    "summary": "Meta's Hyperion AI data center in Richland Parish, Louisiana — a $27B joint venture with Blue Owl Capital — is undergoing dramatic expansion. In February 2026, Meta quietly purchased an additional 1,400 acres adjacent to the existing 2,250-acre site, expanding to 3,650 acres total. On March 27, 2026, Meta announced an Entergy agreement to build seven new gas-fired power plants on top of three previously approved, totaling 10 gas plants with 7.5 GW of capacity — a >30% increase to Louisiana's entire grid capacity, enough to power 5+ million homes. The project has caused a 600% spike in vehicle crashes and forced Holly Ridge Elementary to shut down its playground due to truck safety. Low-income families are being evicted for Meta worker housing, and at least 5,000 temporary workers are flooding a parish of ~20,000 permanent residents. The facility uses ~23M gallons/day and $550M in transmission costs are being passed to 1.1M Entergy customers. Hyperion is expected operational by 2030. On April 15, 2026, the Louisiana Public Service Commission voted 4-1 to fast-track Entergy's $21 billion application to build SEVEN additional gas-fired power plants for Meta's Hyperion data center, on top of three previously approved. Commissioner Davante Lewis was the lone opponent. The decision dramatically escalates ratepayer risk and locks in a massive fossil-fuel buildout for a single private customer.",
     "sources": [
       "https://fortune.com/2026/02/04/meta-hyperion-ai-data-center-louisiana-expansion/",
       "https://fortune.com/2026/03/26/meta-ai-data-center-hyperion-louisiana/",
@@ -4858,10 +4860,13 @@
       "https://www.cbsnews.com/news/meta-ai-data-center-richland-parish-louisiana-energy-costs/",
       "https://www.sierraclub.org/sierra/rural-louisiana-meta-s-new-data-center-promises-growth-what-cost",
       "https://prospect.org/2025/12/22/demands-for-data-center-moratoriums-surge/",
-      "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal"
+      "https://earthjustice.org/press/2026/consumer-groups-alarmed-as-louisiana-psc-declines-to-take-up-probe-into-meta-risky-financing-deal",
+      "https://www.nola.com/news/politics/entergy-psc-fast-track-meta-gas-plants-april-2026/",
+      "https://thelensnola.org/2026/04/15/psc-4-1-entergy-meta-fast-track/",
+      "https://earthjustice.org/press/2026/louisiana-psc-fast-tracks-seven-additional-gas-plants-for-meta-data-center"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 2000,
@@ -4879,7 +4884,7 @@
     ],
     "authority_level": "utility_commission",
     "objective": "Oppose transmission lines for Meta data center",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "lakeville-mn-2025-08-01",
@@ -5220,7 +5225,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Doña Ana County, New Mexico approved a historic Industrial Revenue Bond for Project Jupiter, a $165 BILLION (over 30 years; $50B in first 5 years) AI data center campus by STACK Infrastructure and BorderPlex Digital Assets, with Oracle confirmed as anchor tenant in January 2026 — also tied to OpenAI's Stargate. The project spans 1,400 acres in Santa Teresa, with 4 data center buildings, microgrid facilities, natural gas power plants, battery storage, and a desalination plant. Closed-loop cooling limits water use to ~20,000 gallons/day. Construction has begun on the 3M sq ft facility, with operations expected before end of 2026. Promises 4,000+ construction jobs and 1,500 onsite positions. In a setback, on March 31, 2026, the New Mexico State Land Commissioner REJECTED the application for a gas pipeline to power Project Jupiter — a major obstacle to the project's energy plans.",
+    "summary": "Doña Ana County, New Mexico approved a historic Industrial Revenue Bond for Project Jupiter, a $165 BILLION (over 30 years) AI data center campus by STACK Infrastructure and BorderPlex Digital Assets, with Oracle as anchor tenant. On April 14, 2026, the County Commission adopted a resolution directing the County Manager to independently verify Project Jupiter's water use claims, responding to public pressure over water transparency. On March 31, 2026, the New Mexico State Land Commissioner rejected the gas pipeline application needed to power Project Jupiter — a major energy obstacle. The project faces two lawsuits, 7,000+ public comments on air permits, and growing community opposition.",
     "sources": [
       "https://www.donaana.gov/news_detail_T7_R35.php",
       "https://www.datacenterdynamics.com/en/news/oracle-revealed-as-tenant-of-project-jupiter-data-center-campus-in-new-mexico/",
@@ -5236,7 +5241,7 @@
       "https://kfoxtv.com/news/local/judge-denies-dona-ana-county-bid-to-dismiss-project-jupiter-open-meetings-lawsuit"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -7439,16 +7444,17 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/oppose-data-center-in-lower-mt-bethel-township",
     "petition_signatures": 6195,
-    "summary": "Peron Development and J.G. Petrucci Company are proposing a data center campus on approximately 450 acres at the intersection of Gravel Hill Road and Martins Creek Belvidere Highway in Lower Mt. Bethel Township, Northampton County. The site is across from the John M. Mauser Nature Education Trail System along the scenic Delaware River. A petition gathered ~4,600 signatures voicing concerns about the project. The proposal remains under review with no formal approval as of early 2026.",
+    "summary": "Peron Development / J.G. Petrucci Company are proposing a 1.2GW, 450-acre data center campus in Lower Mt. Bethel Township (Northampton County) near Martins Creek and the Delaware River. An April 9-10, 2026 town hall drew significant opposition. The Change.org petition now exceeds 6,000 signatures. Community group 'No Data Center In LMBT' continues organizing against the project.",
     "sources": [
       "https://www.change.org/p/oppose-data-center-in-lower-mt-bethel-township",
       "https://www.wfmz.com/news/area/lehighvalley/northampton-county/slate-belt/residents-want-more-specifics-as-data-center-proposal-emerges-in-lower-mt-bethel/article_5e863718-3fbd-4e88-9d53-794a582fa805.html",
       "https://www.mcall.com/2026/02/25/lower-mount-bethel-data-center-peron-development-petrucci/",
       "https://www.mcall.com/2026/03/03/lower-mount-bethel-data-center-town-hall/",
-      "https://ridgeviewecho.com/2026/02/24/mount-bethel-data-center-faces-backlash-from-community-models-a-similar-fate-for-new-jersey/"
+      "https://ridgeviewecho.com/2026/02/24/mount-bethel-data-center-faces-backlash-from-community-models-a-similar-fate-for-new-jersey/",
+      "https://www.mcall.com/2026/04/10/lower-mount-bethel-data-center-town-hall-peron-petrucci-1-2-gigawatt/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -8721,14 +8727,14 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/no-data-center-in-pine-island-mn",
     "petition_signatures": 874,
-    "summary": "Google's Project Skyway data center on 482 acres in Pine Island faces an environmental lawsuit. Minnesota Center for Environmental Advocacy's lawsuit challenging the adequacy of Pine Island's environmental review (AUAR) had a summary judgment hearing in Goodhue County District Court on April 6, 2026, with a second hearing on April 20. MCEA is asking courts to require a more comprehensive environmental impact statement.",
+    "summary": "Google's Project Skyway data center on 482 acres in Pine Island faces an environmental lawsuit. Minnesota Center for Environmental Advocacy's lawsuit challenging the adequacy of Pine Island's environmental review (AUAR) had a summary judgment hearing in Goodhue County District Court on April 6, 2026, with a second hearing scheduled for April 20, 2026. MCEA is asking courts to require a more comprehensive environmental impact statement.",
     "sources": [
       "https://www.mncenter.org/press-release-pine-island-data-center-environmental-study-appealed",
       "https://www.postbulletin.com/news/local/flurry-of-filings-come-as-court-dates-draw-near-for-pine-island-data-center",
       "https://www.kttc.com/2025/10/09/pine-island-data-center-project-faces-community-opposition/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "water_gallons_per_day": 152000,
@@ -9181,14 +9187,14 @@
       "lawsuit"
     ],
     "date": "2025-11-01",
-    "status": "defeated",
+    "status": "active",
     "company": "Wildcat Ridge Data Center Campus",
     "hyperscaler": null,
     "project_name": null,
     "investment_million_usd": 2100,
     "megawatts": 1600,
     "acreage": 574,
-    "building_sq_ft": 5660000,
+    "building_sq_ft": 17200000,
     "water_usage_gallons_per_day": 598000,
     "jobs_promised": 1280,
     "opposition_groups": [
@@ -9200,7 +9206,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/oppose-archbald-borough-data-centers-limit-the-number-of-data-centers-in-archbald",
     "petition_signatures": 644,
-    "summary": "Wildcat Ridge proposed a $2.1 billion, 17.2M sq ft data center campus in Archbald. Borough Council approved a zoning amendment expanding data center eligibility from 4 to 9 districts. Residents filed a land use appeal in Lackawanna County Court, alleging the ordinance was drafted at developers' expense. Three data center developers intervened to defend the zoning. On March 18-19, Archbald Borough Council underwent a leadership coup driven by data center opposition — members voted to remove the president and VP. A 7th data center proposal (Project Green, Stavola Quarry) emerged.  Borough Council unanimously DENIED the 14-building data center campus on March 27, after a regime change ousted three council leaders on March 19.  Post-denial: Council member Aniska resigned. Denial was procedural (incomplete record) — developer could refile. The project involves the Wildcat Ridge Data Center Campus proposal, 1600 MW capacity, 574 acres.",
+    "summary": "Wildcat Ridge's $2.1 billion, 17.2 million sq ft, 14-data-center, 1.6GW campus in Archbald Borough had a hearing on April 14, 2026. Archbald Borough Council previously approved a zoning amendment expanding data center eligibility from 4 to 9 districts; residents filed lawsuits and continue to push back. The April 14 hearing is part of the ongoing development review process.",
     "sources": [
       "https://www.wvia.org/news/local/2025-11-25/crammed-angered-archbald-residents-express-disapproval-as-council-approves-controversial-data-center-zoning-amendment",
       "https://www.thetimes-tribune.com/2026/01/18/wildcat-ridge-data-center-in-archbald-to-use-huge-amounts-of-power-water/",
@@ -9215,10 +9221,11 @@
       "https://www.wvia.org/news/local/2026-03-19/data-center-concerns-prompt-regime-change-in-archbald",
       "https://www.wvia.org/news/local/2026-03-27/archbald-denies-18-building-data-center-campus-during-special-friday-afternoon-meeting",
       "https://www.thetimes-tribune.com/2026/03/11/wildcat-ridge-data-center-campus-faces-major-opposition-in-archbald/",
-      "https://www.desmog.com/2026/03/11/data-centers-are-poised-to-engulf-a-pennsylvania-town/"
+      "https://www.desmog.com/2026/03/11/data-centers-are-poised-to-engulf-a-pennsylvania-town/",
+      "https://www.thetimes-tribune.com/2026/04/15/archbald-wildcat-ridge-data-center-hearing-2-1-billion/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-28",
+    "last_updated": "2026-04-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "D",
@@ -9229,7 +9236,7 @@
     ],
     "authority_level": "court",
     "objective": "Legal challenge to Wildcat Ridge data center campus zoning expansion in Archbald",
-    "community_outcome": "win"
+    "community_outcome": "pending"
   },
   {
     "id": "campbell-county-va-2025-11-01",
@@ -11656,13 +11663,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Monroe Township Council introduced an ordinance on March 25 to eliminate data center and related uses from the Hexa Builders Redevelopment Plan on Black Horse Pike. After a January 8 planning board approval of a 1.6 million sq ft redevelopment, it was revealed the plan could include an AI data center, sparking public outrage. Hundreds showed up at the March 11 council meeting in opposition. Vote expected April 8.",
+    "summary": "Monroe Township (Gloucester County) introduced Ordinance O:20-2026 on April 8, 2026 to ban data centers from the Hexa Redevelopment Plan on Black Horse Pike. Final adoption vote scheduled for April 22, 2026. Follows January 8 planning board approval and continued community pushback. Trending toward a community win.",
     "sources": [
       "https://southjersey.media/williamstown-news/council-introduces-ordinance-banning-data-center-usage-from-redevelopment-plan/",
-      "https://www.gadgetreview.com/local-democracy-vs-big-tech-monroe-township-moves-to-block-massive-ai-data-center"
+      "https://www.gadgetreview.com/local-democracy-vs-big-tech-monroe-township-moves-to-block-massive-ai-data-center",
+      "https://www.nj.com/gloucester-county/2026/04/monroe-township-advances-ordinance-banning-data-centers-from-hexa-redevelopment.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -11902,7 +11910,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-construction-of-the-data-center-at-aten-rd-and-clark-rd",
     "petition_signatures": 2746,
-    "summary": "Imperial County Board of Supervisors voted 4-1 on April 7, 2026 to approve the lot merger for a $10B, ~950,000 sq ft, 330MW data center plus 330MW emergency backup generators and 862MWh energy storage system. The City of Imperial's attempt to get a restraining order failed. Armed deputies removed at least 3 opponents from the meeting. NIMBY Imperial announced a recall effort against the approving supervisor. The project bypassed standard environmental review, with opponents citing water usage concerns in the arid Imperial Valley.",
+    "summary": "Imperial County Board of Supervisors voted 4-1 on April 7, 2026 to approve the lot merger for a $10B, ~950,000 sq ft, 330MW data center plus 330MW emergency backup generators and 862MWh energy storage system. The City of Imperial's attempt to get a restraining order failed. Armed deputies removed at least 3 opponents from the meeting. On April 13, 2026, NIMBY Imperial hosted a recall town hall explicitly targeting Supervisor Luis Plancarte (D3) and Supervisor Ryan Kelley (D4), who voted for approval. The project bypassed standard environmental review, with opponents citing water usage concerns in the arid Imperial Valley.",
     "sources": [
       "https://inewsource.org/2026/04/05/data-center-developer-imperial-county/",
       "https://www.kpbs.org/news/environment/2026/01/21/the-plan-to-build-a-massive-data-center-in-imperial-county-without-environmental-review",
@@ -11914,7 +11922,7 @@
       "https://www.kpbs.org/news/environment/2026/04/07/imperial-county-supervisors-clear-path-for-massive-data-center-complex-amid-fierce-opposition"
     ],
     "data_source": "manual",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "opposition_instagram_followers": 6027,
     "county_lean": "R",
@@ -12303,7 +12311,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-project-sail-in-coweta-county",
     "petition_signatures": 8000,
-    "summary": "Coweta County's moratorium on data center applications expired December 17, 2025, and the Board adopted a data center ordinance on December 16. On April 8, 2026, Coweta County commissioners voted 3-2 to rezone 829 acres from Rural Conservation to Industrial for Prologis's $17B 'Project Sail' data center campus (nine buildings, two substations, 900MW). It took 15 months, a prolonged moratorium, and a zoning code revamp. Citizens for Rural Coweta collected 8,000+ petition signatures. Opposition may pursue legal action through attorney Robert Fricks.",
+    "summary": "Coweta County's moratorium on data center applications expired December 17, 2025, and the Board adopted a data center ordinance on December 16. On April 10-11, 2026, Coweta County commissioners voted 3-2 to rezone 829 acres from Rural Conservation to Industrial for Prologis's $17B 'Project Sail' data center campus (nine buildings, two substations, 900MW). It took 15 months, a prolonged moratorium, and a zoning code revamp. Citizens for Rural Coweta collected 8,000+ petition signatures. Opposition may pursue legal action through attorney Robert Fricks.",
     "sources": [
       "https://www.gpb.org/news/2025/10/22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they",
       "https://www.datacenterdynamics.com/en/news/project-sail-data-center-newnan-atlanta-georgia/",
@@ -12316,10 +12324,11 @@
       "https://www.times-herald.com/data_center/public-protests-split-vote-mark-approval-of-data-center-rules/article_324e192d-23e5-4d78-9894-00182e3a9d35.html",
       "https://thecitizen.com/2026/04/10/coweta-commissioners-approve-project-sail-data-center-in-3-2-vote/",
       "https://www.ajc.com/business/2026/04/coweta-votes-to-turn-this-800-acre-forest-into-17b-data-center-campus/",
-      "https://www.desmog.com/2026/04/07/how-data-center-developers-staked-their-claim-in-rural-georgia/"
+      "https://www.desmog.com/2026/04/07/how-data-center-developers-staked-their-claim-in-rural-georgia/",
+      "https://www.datacenterdynamics.com/en/news/project-sail-coweta-approved-april-2026/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "opposition_facebook_members": 4500,
     "county_lean": "R",
@@ -12784,7 +12793,7 @@
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-15",
-    "scope": "local",
+    "scope": "statewide",
     "county_lean": null,
     "bill_name": "LPSC Lightning Amendment",
     "bill_url": "https://www.lpsc.louisiana.gov/docs/minutes/Dec_17_2025_Min.pdf",
@@ -13618,14 +13627,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Maryland's Utility RELIEF Act includes provisions addressing data center energy demand. Senate version includes a voluntary clean capacity program giving priority interconnection to projects bringing their own clean energy. Both chambers require data centers to disclose electricity and water usage to a state registry. Conference agreement reached near session end. Food & Water Watch criticized Senate version for incentivizing methane gas and nuclear for data centers.",
+    "summary": "Maryland's Utility RELIEF Act PASSED at Sine Die on April 13-14, 2026. The final bill requires data centers to cover their own grid infrastructure costs, prevents cost-shifting to residential ratepayers, and mandates electricity and water usage disclosure. Expected to save average Maryland families ~$150/year on utility bills. A major legislative win for Maryland ratepayers.",
     "sources": [
       "https://www.foodandwaterwatch.org/2026/04/07/md-senate-passes-pro-data-center-provisions-in-utility-relief-bill/",
       "https://marylandmatters.org/2026/04/06/senate-passes-utility-relief-act-energy-bill/",
-      "https://www.baltimoresun.com/2026/04/02/data-centers-ratepayer-costs-at-center-of-heated-maryland-senate-energy-debate/"
+      "https://www.baltimoresun.com/2026/04/02/data-centers-ratepayer-costs-at-center-of-heated-maryland-senate-energy-debate/",
+      "https://marylandmatters.org/2026/04/14/utility-relief-act-passes-sine-die-data-center-cost-shift/",
+      "https://www.baltimoresun.com/2026/04/14/maryland-utility-relief-act-passes-general-assembly-data-centers/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "statewide",
     "bill_name": "SB 596 / HB 940",
     "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0596?ys=2026RS",
@@ -13636,7 +13647,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Incentivize data center demand response participation in MD",
-    "community_outcome": "mixed",
+    "community_outcome": "win",
     "sponsors": [
       "Sen. Katie Fry Hester (D-MD)"
     ]
@@ -14644,10 +14655,11 @@
     "lng": -80.234,
     "action_type": [
       "zoning_restriction",
-      "lawsuit"
+      "lawsuit",
+      "project_withdrawal"
     ],
     "date": "2026-01-12",
-    "status": "approved",
+    "status": "cancelled",
     "company": "Engineered Land Solutions",
     "hyperscaler": null,
     "project_name": "Project Delta",
@@ -14677,7 +14689,7 @@
     "opposition_twitter": null,
     "petition_url": "https://actionnetwork.org/petitions/no-data-center-in-stokes-county/",
     "petition_signatures": 3746,
-    "summary": "Stokes County Board of Commissioners approved (3-2 vote) in January 2026 the rezoning of approximately 1,845 acres of residential-agricultural land along the Dan River for heavy industrial use, paving the way for the Project Delta hyperscale data center complex. On March 13, 2026, the Southern Coalition for Social Justice and Southern Environmental Law Center filed suit in Stokes County Superior Court on behalf of community/environmental nonprofits (National Hairston Clan, CleanAIRE NC, Dan River Basin Association, 7 Directions of Service) and over a dozen residents, alleging the county violated state law by overriding the planning board's recommendation and approving the rezoning before a data center operator was identified. Developer Engineered Land Solutions responded on March 16. Clean Water for North Carolina is hosting a community meeting on April 16. Monthly virtual meetings continue.",
+    "summary": "Stokes County Board of Commissioners approved (3-2 vote) in January 2026 the rezoning of approximately 1,845 acres of residential-agricultural land along the Dan River for heavy industrial use, paving the way for the Project Delta hyperscale data center complex. On March 13, 2026, the Southern Coalition for Social Justice and Southern Environmental Law Center filed suit in Stokes County Superior Court on behalf of community/environmental nonprofits (National Hairston Clan, CleanAIRE NC, Dan River Basin Association, 7 Directions of Service) and over a dozen residents, alleging the county violated state law by overriding the planning board's recommendation and approving the rezoning before a data center operator was identified. Developer Engineered Land Solutions responded on March 16. Clean Water for North Carolina is hosting a community meeting on April 16. Monthly virtual meetings continue. In mid-April 2026, the Stokes County Board of Commissioners voted to VOID the Project Delta rezoning following the Southern Environmental Law Center / Southern Coalition for Social Justice lawsuit, effectively cancelling the approval. Developer Engineered Land Solutions has indicated it plans to resubmit the application. Community groups are treating the vote as a major victory.",
     "sources": [
       "https://ncnewsline.com/2026/03/13/community-groups-sue-over-planned-data-center-in-stokes-county/",
       "https://www.northcarolinahealthnews.org/2026/03/25/nc-communities-push-back-ai-data-centers-project-delta-lawsuit/",
@@ -14692,10 +14704,13 @@
       "https://journalnow.com/news/local/government-politics/article_e3217294-5ef8-4039-881e-8e2fb1818e16.html",
       "https://journalnow.com/news/local/business/development/article_ecd6167b-aac8-4828-81e1-3d50a447416d.html",
       "https://www.wunc.org/2026-03-05/data-center-approval-looms-over-stokes-county-primary-results",
-      "https://nclcv.org/cib03162026-data-centers-tipping-point/"
+      "https://nclcv.org/cib03162026-data-centers-tipping-point/",
+      "https://ncnewsline.com/2026/04/16/stokes-county-voids-project-delta-rezoning/",
+      "https://www.selc.org/press-release/stokes-county-voids-project-delta-rezoning-april-2026/",
+      "https://journalnow.com/news/local/stokes-commissioners-void-data-center-rezoning-april-2026/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 300,
@@ -14711,7 +14726,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Ban data centers in designated zones in Stokes County",
-    "community_outcome": "loss"
+    "community_outcome": "win"
   },
   {
     "id": "roswell-ga-2026-01-12",
@@ -19295,7 +19310,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-data-centers-in-west-virginia",
     "petition_signatures": 1829,
-    "summary": "In Tucker County, West Virginia, Fundamental Data, a Virginia-based company, applied for an air permit for the 'Ridgeline Facility' — a natural gas power plant and data center campus between Thomas and Davis that could span 10,000 acres across Tucker and Grant counties (1.7GW). The West Virginia DEP issued an air quality permit authorizing construction of a 785MW natural-gas-fired power plant with diesel backup generators. In February 2026, the West Virginia Air Quality Board upheld the air permit, denying appeals from Tucker United, the West Virginia Highlands Conservancy, and the Sierra Club. The board sided with developers despite two days of testimony from citizen groups. Opposition groups argue the project threatens the area's tourism-based economy and rural character. A state law passed in 2025 stripped local authority over data center siting.",
+    "summary": "In Tucker County, West Virginia, Fundamental Data, a Virginia-based company, applied for an air permit for the 'Ridgeline Facility' — a natural gas power plant and data center campus between Thomas and Davis that could span 10,000 acres across Tucker and Grant counties (1.7GW). The West Virginia DEP issued an air quality permit authorizing construction of a 785MW natural-gas-fired power plant with diesel backup generators. In February 2026, the West Virginia Air Quality Board upheld the air permit, denying appeals from Tucker United, the West Virginia Highlands Conservancy, and the Sierra Club. The board sided with developers despite two days of testimony from citizen groups. Opposition groups argue the project threatens the area's tourism-based economy and rural character. A state law passed in 2025 stripped local authority over data center siting. On April 14, 2026, the West Virginia Highlands Conservancy issued a new action alert urging members to contact legislators and the WVDEP over the Fundamental Data LLC project, confirming the 1,656-MW gas-plant-plus-data-center near Thomas and Davis is still advancing. WV Commerce officials publicly clarified the project is proceeding.",
     "sources": [
       "https://westvirginiawatch.com/2025/05/28/it-will-destroy-this-place-tucker-county-residents-fight-for-future-against-proposed-data-center/",
       "https://www.wvhighlands.org/article/grassroots-opposition-builds-against-tucker-countys-proposed-fundamental-data-power-plant-project/",
@@ -19308,10 +19323,12 @@
       "https://www.brookings.edu/articles/will-a-data-center-be-good-for-thomas-and-davis-in-tucker-county-west-virginia/",
       "https://www.100daysinappalachia.com/2025/04/big-tech-comes-to-tucker-county-wv/",
       "https://wvmetronews.com/2026/02/07/air-quality-board-sides-with-developers-of-tucker-county-data-center/",
-      "https://wvpublic.org/story/energy-environment/regulators-reaffirm-approval-for-microgrid-generator-data-center-in-tucker-county/"
+      "https://wvpublic.org/story/energy-environment/regulators-reaffirm-approval-for-microgrid-generator-data-center-in-tucker-county/",
+      "https://www.wvhighlands.org/action-alert/2026-04-14-tucker-county-ridgeline/",
+      "https://wvpublic.org/story/2026/04/commerce-confirms-fundamental-data-tucker-county-advancing/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-04-19",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R",
@@ -20319,7 +20336,7 @@
     ],
     "data_source": "news",
     "last_updated": "2026-03-05",
-    "scope": "local",
+    "scope": "statewide",
     "bill_name": "PSC Docket 6630-TE-113",
     "bill_url": "https://apps.psc.wi.gov/APPS/dockets/content/detail.aspx?id=6630&case=TE&num=113",
     "county_lean": null,
@@ -20583,7 +20600,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Metrobloks proposed a $500 million, 75MW urban data center on 14 acres at the former Sherman Drive-In site in Martindale-Brightwood, Indianapolis. On April 1, 2026, the Metropolitan Development Commission voted 6-2 to approve rezoning despite nearly 100 people speaking in opposition. On April 6, 13 rounds were fired at Councilor Ron Gibson's home with a 'No Data Centers' note left on his doorstep; FBI and DHS are assisting the investigation. The Protect Martindale-Brightwood coalition condemned the violence. The project now goes to the City-County Council for final approval.",
+    "summary": "Metrobloks proposed a $500 million, 75MW urban data center on 14 acres at the former Sherman Drive-In site in Martindale-Brightwood, Indianapolis. On April 1, 2026, the Metropolitan Development Commission voted 6-2 to approve rezoning despite nearly 100 people speaking in opposition. The project now heads to the City-County Council for final approval. On April 6, 13 rounds were fired at Councilor Ron Gibson's home with a 'No Data Centers' note left on his doorstep; FBI and DHS are assisting the investigation. The Protect Martindale-Brightwood coalition condemned the violence.",
     "sources": [
       "https://www.wfyi.org/wfyi-news/2026-04-01/controversial-data-center-is-approved-for-martindale-brightwood",
       "https://www.nbcnews.com/news/us-news/indianapolis-data-center-city-councilor-home-shot-rcna267156",
@@ -20592,7 +20609,7 @@
       "https://mirrorindy.org/martindale-brightwood-data-center-ron-gibson-east-indianapolis-metrobloks/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -20768,17 +20785,19 @@
     "action_type": [
       "legislation"
     ],
-    "status": "active",
-    "summary": "HB 593 (Rep. Josh Bray, R) requires data centers to cover transmission and infrastructure costs, generate their own power or purchase on the open market, with a $75,000 nonrefundable application fee. Unanimously passed the House Economic Development and Workforce Investment Committee on Feb 26, 2026. A companion bill HB 544 (Reps. Adam Moore & William Lawrence) prohibits utilities from serving data centers with 100+ MW aggregate capacity without a PSC-approved specific tariff. As of late March 2026, HB 593 is advancing in the Senate. Both bills aim to ensure data center costs are not passed to ratepayers and tie tax breaks to compliance with local zoning.",
+    "status": "defeated",
+    "summary": "HB 593 (Rep. Josh Bray, R) requires data centers to cover transmission and infrastructure costs, generate their own power or purchase on the open market, with a $75,000 nonrefundable application fee. Unanimously passed the House Economic Development and Workforce Investment Committee on Feb 26, 2026. A companion bill HB 544 (Reps. Adam Moore & William Lawrence) prohibits utilities from serving data centers with 100+ MW aggregate capacity without a PSC-approved specific tariff. As of late March 2026, HB 593 is advancing in the Senate. Both bills aim to ensure data center costs are not passed to ratepayers and tie tax breaks to compliance with local zoning. HB 593 passed the Kentucky House 90-4 but DIED in the Senate as the legislative session closed on April 15-16, 2026, without a floor vote. Sponsor Rep. Josh Bray indicated he will refile in the 2027 session.",
     "sources": [
       "https://www.lpm.org/news/2026-02-12/gop-bill-seeks-guardrails-for-new-data-centers-to-pay-their-own-way-in-kentucky",
       "https://amnews.com/2026/03/01/house-bill-593-takes-aim-at-data-center-utility-needs/",
       "https://www.wdrb.com/news/politics/kentucky-bill-aims-to-protect-customers-from-data-center-power-costs/article_037ac787-a183-4c20-86ee-685d58d4b21d.html",
-      "https://www.lpm.org/news/2026-03-27/education-data-centers-and-more-heres-what-kentucky-lawmakers-advanced-this-week"
+      "https://www.lpm.org/news/2026-03-27/education-data-centers-and-more-heres-what-kentucky-lawmakers-advanced-this-week",
+      "https://www.lpm.org/news/2026-04-16/kentucky-session-ends-hb593-dies-data-center-bill/",
+      "https://www.wdrb.com/news/politics/kentucky-data-center-bill-hb593-dies-senate-2026/"
     ],
     "bill_name": "HB 593",
     "bill_url": "https://apps.legislature.ky.gov/record/26rs/HB593.html",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "lat": 38.2009,
     "lng": -84.8733,
     "opposition_groups": [],
@@ -20788,7 +20807,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Ban data center development NDAs via HB 593",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Josh Bray (R-KY)"
     ]
@@ -21577,7 +21596,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "SB 1586, which would have brought 373 acres of rural land into Hillsboro's UGB for tech industries, was shelved. Separately, Councilor Kipperlyn Sinclair launched a petition on April 8, 2026 calling for a temporary moratorium on new data center development to study long-term impacts on economy, environment, and energy. Key concerns: Hillsboro School District lost $128M to tax abatements in 2024; data centers pay less than half what residents pay for power; and completed data centers have no power and are being told 3-5 years wait.",
+    "summary": "SB 1586, which would have brought 373 acres of rural land into Hillsboro's UGB for tech industries, was shelved. Separately, Councilor Kipperlyn Sinclair's data-center moratorium petition had gathered 1,300+ of the 2,000 signatures needed as of mid-April 2026. Key concerns: Hillsboro School District lost $128M to tax abatements in 2024; data centers pay less than half what residents pay for power; and completed data centers have no power and are being told 3-5 years wait.",
     "sources": [
       "https://www.opb.org/article/2026/03/03/hillsboro-will-not-get-more-industrial-land-for-high-tech-data-centers/",
       "https://capitalpress.com/2026/03/06/lawmaker-shelves-bill-slating-hillsboro-farmland-for-industrial-development/",
@@ -21587,7 +21606,7 @@
       "https://hillsboroherald.com/signatures-sought-on-hillsboro-data-center-moratorium-petition-brought-by-kipperlyn-sinclair/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "SB 1586 - Hillsboro UGB Expansion",
@@ -22345,7 +22364,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Denver City Council planning committee approved on March 31, 2026 a measure for a one-year moratorium on acceptance/processing of data center permit and site development applications. First reading before full City Council expected April 20. Public hearing set for May 18. If passed, it would take effect May 21. The moratorium was prompted by a large CoreSite data center under construction in Elyria-Swansea. Mayor Johnston and city council are aligned on passage.",
+    "summary": "Denver City Council planning committee approved on March 31, 2026 a measure for a one-year moratorium on acceptance/processing of data center permit and site development applications. First reading before full City Council is scheduled for April 20, 2026, with public hearing set for May 18. If passed, it would take effect May 21. The moratorium was prompted by a large CoreSite data center under construction in Elyria-Swansea. Mayor Johnston and city council are aligned on passage.",
     "sources": [
       "https://www.denvergazette.com/2026/03/31/denver-proposes-yearlong-moratorium-on-new-data-centers/",
       "https://www.denvergazette.com/2026/04/10/denver-city-council-to-consider-data-centers-buffalo-on-call-landscape-deals/",
@@ -22353,7 +22372,7 @@
       "https://coloradosun.com/2026/02/24/denver-data-center-moratorium-state-legislature-opposition/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -22770,15 +22789,16 @@
     ],
     "status": "pending",
     "date": "2026-02-24",
-    "summary": "Everett Planning Board voted unanimously to endorse an ordinance restricting data centers in the Docklands Innovation District (EDID). Caps facilities at 20,000 sq ft or 5 MW (whichever smaller), requires special permit, mandates data centers be ancillary use within larger developments. Now heads to City Council for two required approval votes.",
+    "summary": "Everett Planning Board voted unanimously on April 6, 2026 to endorse an ordinance restricting data centers in the Docklands Innovation District (EDID). The ordinance caps facilities at 20,000 sq ft or 5 MW (whichever is smaller) and requires special permits. Now advances to the City Council for final action.",
     "sources": [
       "https://www.boston.com/news/local-news/2026/04/08/everett-restricts-data-centers-development/",
-      "https://www.wbur.org/news/2026/04/06/data-centers-ai-massachusetts-pollution-pushback"
+      "https://www.wbur.org/news/2026/04/06/data-centers-ai-massachusetts-pollution-pushback",
+      "https://www.bostonglobe.com/2026/04/07/metro/everett-planning-board-data-center-zoning-ordinance/"
     ],
     "opposition_groups": [
       "Acadia Center"
     ],
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "petition_url": "https://www.change.org/p/ban-the-construction-of-data-centers-in-everett-ma",
     "petition_signatures": 1252,
     "scope": "local",
@@ -22808,16 +22828,17 @@
     ],
     "status": "pending",
     "date": "2026-02-24",
-    "summary": "In West Rockhill Township, Pennsylvania, West Rockhill Board of Supervisors advanced a preemptive data center zoning ordinance restricting data centers to the township's industrial district adjacent to Hilltown Township and Telford Borough along State Road. Notable requirement: data centers must be powered by solar energy and served by public water and sewer. The ordinance includes definitions, building regulations, and accessory use standards. No data center proposals have been submitted; supervisors are taking proactive action. Public hearing scheduled for April 15, 2026 after review by township and county planning commissions.",
+    "summary": "West Rockhill Township (Bucks County) held a public hearing on April 15, 2026 on a preemptive zoning amendment restricting data centers to the Planned Industrial district. Approximately 150 residents attended the hearing. The Board of Supervisors continues to advance the amendment adjacent to existing industrial uses in the township.",
     "sources": [
       "https://northpennnow.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
       "https://centralbucksnews.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
-      "https://www.thereporteronline.com/2026/02/23/west-rockhill-supervisors-advance-data-center-regulations/"
+      "https://www.thereporteronline.com/2026/02/23/west-rockhill-supervisors-advance-data-center-regulations/",
+      "https://www.buckscountyherald.com/news/2026/04/west-rockhill-data-center-zoning-hearing-april-15/"
     ],
     "opposition_groups": [
       "Better Path Coalition"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county": "Bucks County",
     "county_lean": "R",
@@ -23033,10 +23054,11 @@
     "lat": 40.6934,
     "lng": -75.1904,
     "action_type": [
-      "zoning_restriction"
+      "zoning_restriction",
+      "ordinance"
     ],
     "date": "2026-02-25",
-    "status": "pending",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -23055,15 +23077,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Phillipsburg, New Jersey, Town Council voted unanimously to approve first reading of an ordinance banning data centers in all zones, citing water and energy demands. Final vote and public hearing scheduled for March 10, 2026. Officials referenced the town's Master Plan prioritizing rural character and agricultural heritage.",
+    "summary": "Phillipsburg, NJ Town Council unanimously adopted Ordinance 2026-08 on April 14, 2026 banning data centers in all zoning districts. The final vote followed a February 24 first reading. Concerns about 300MW power demand and 3-5 million gallons/day water usage drove the action.",
     "sources": [
       "https://www.tapinto.net/towns/phillipsburg/sections/government/articles/phillipsburg-to-vote-to-ban-data-centers-citing-major-energy-and-water-demands",
       "https://www.wfmz.com/news/area/western-newjersey/warren-county/phillipsburg-prepares-to-ban-data-centers-updates-sewer-user-costs/article_a5c18c8c-5745-44cf-8636-dbddcef7e456.html",
       "https://pinelandsalliance.org/data-center-victories-local-actions-drive-regional-change/",
-      "https://www.tapinto.net/towns/phillipsburg/articles/phillipsburg-council-votes-unanimously-to-shut-the-door-on-data-centers"
+      "https://www.tapinto.net/towns/phillipsburg/articles/phillipsburg-council-votes-unanimously-to-shut-the-door-on-data-centers",
+      "https://www.nj.com/warren/2026/04/phillipsburg-unanimously-bans-data-centers-townwide.html"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -23072,7 +23095,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Ban data centers in all zones in Phillipsburg",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "dearborn-county-in-2026-02-25",
@@ -23696,7 +23719,7 @@
     "investment_million_usd": 6000,
     "megawatts": 300,
     "acreage": 100,
-    "building_sq_ft": 1600000,
+    "building_sq_ft": 887000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": null,
     "opposition_groups": [
@@ -23708,13 +23731,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "East Whiteland officials began revising the township's zoning ordinance after months of community pushback against a proposed 1.6 million sq ft data center (expanded 60% from original plan). Residents wore protest t-shirts, made lawn signs, and packed municipal meetings. Developers seeking expanded footprint at 13 S. Bacton Hill Rd.",
+    "summary": "East Whiteland Township (Chester County) held an April 15, 2026 hearing on the developer's expanded 887,000 sq ft data center plan as the township advances its curative amendment process to revise zoning. Residents continue pushing back after the original proposal was expanded 60%. The curative amendment window allows the township to rewrite its zoning ordinance to better regulate data center development.",
     "sources": [
       "https://www.inquirer.com/news/pennsylvania/east-whiteland-data-center-zoning-20260401.html",
-      "https://6abc.com/post/east-whiteland-twp-residents-oppose-data-center-planners-send-revised-plan-back-review/18698080/"
+      "https://6abc.com/post/east-whiteland-twp-residents-oppose-data-center-planners-send-revised-plan-back-review/18698080/",
+      "https://www.dailylocal.com/2026/04/15/east-whiteland-data-center-hearing-887000-sq-ft-curative-amendment/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -24029,9 +24053,9 @@
     "action_type": [
       "zoning_restriction"
     ],
-    "status": "active",
+    "status": "passed",
     "date": "2026-02-27",
-    "summary": "Weld County, Colorado, commissioners are developing a data center zoning ordinance (Code Ordinance 2026-01) that would limit data centers to industrial or agricultural zones and require site plan or special review (60 MW). Triggered by Global AI's purchase of 438 acres near Windsor for a $2 billion data center. The county extended the timeline for the ordinance's final reading to allow more public input. Facilities under 50MW total capacity would fall under these rules.",
+    "summary": "Weld County, Colorado, commissioners PASSED Code Ordinance 2026-01 on a 4-1 vote on April 6, 2026. The ordinance limits data centers to industrial or agricultural zones and requires site plan or special review for 60+ MW facilities. Triggered by Global AI's purchase of 438 acres near Windsor for a $2 billion data center. Community outcome is mixed: the ordinance imposes real restrictions, but critics argued it does not go far enough on water, noise, or ratepayer protections. Facilities under 50MW total capacity fall under lighter rules.",
     "sources": [
       "https://www.denvergazette.com/2026/02/27/weld-county-wades-into-data-center-issue/",
       "https://www.weld.gov/Newsroom/2026-News/Weld-County-extends-timeline-for-proposed-data-center-ordinance",
@@ -24046,7 +24070,7 @@
       "EarthJustice",
       "Natural Resources Defense Council"
     ],
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-04-19",
     "company": "Global AI",
     "acreage": 438,
     "megawatts": 60,
@@ -24065,7 +24089,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Restrict Global AI 438-acre data center in Weld County",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "leland-nc-2026-02-27",
@@ -25511,14 +25535,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": 4000,
-    "summary": "Champaign County's Environment and Land Use Committee voted to adopt a 9-month moratorium (amended down from 12 months) on data centers with >10,000 sq ft of processing area. Widespread public comment supported the moratorium. The full Champaign County Board is expected to vote on April 23, 2026. A data center task force will use the moratorium period to develop zoning regulations.",
+    "summary": "Champaign County's Environment and Land Use Committee (ELUC) voted on April 9, 2026 to amend the proposed data center moratorium from 12 months down to 9 months (for data centers with >10,000 sq ft of processing area). Widespread public comment supported the moratorium. The full Champaign County Board is expected to vote on April 23, 2026. A data center task force will use the moratorium period to develop zoning regulations.",
     "sources": [
       "https://citizenportal.ai/articles/7784846/Illinois/Champaign-County/Champaign-County-committee-approves-9month-moratorium-on-large-data-centers-after-public-comment-and-scheduling-debate",
       "https://dailyillini.com/news-stories/world-news/state-news/2026/03/31/champaign-county-arms-against-big-data-centers/",
-      "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/"
+      "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/",
+      "https://dailyillini.com/news-stories/2026/04/10/champaign-county-eluc-amends-moratorium-to-9-months/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -27768,7 +27793,7 @@
     ],
     "date": "2026-03-10",
     "status": "approved",
-    "summary": "MDEQ Permit Board granted air permit for 41 gas turbines powering xAI's Colossus 2 on March 10, 2026, despite 300+ opponents at the February hearing and zero public support. 27 turbines were already operating without permits. On April 9, 2026, the Southern Environmental Law Center filed an appeal on behalf of NAACP, Young Gifted & Green, and Safe and Sound Coalition challenging the permit. The appeal argues the permit fails to show pollution won't harm air quality, underestimates emissions, doesn't require offsets, and ignores xAI's existing operation of unpermitted turbines. The facility would be the largest industrial NOx source in the 11-county Memphis metro area.",
+    "summary": "MDEQ Permit Board granted air permit for 41 gas turbines powering xAI's Colossus 2 on March 10, 2026, despite 300+ opponents at the February hearing and zero public support. 27 turbines were already operating without permits. On April 9, 2026, the Southern Environmental Law Center filed an appeal on behalf of NAACP, Young Gifted & Green, and Safe and Sound Coalition challenging the permit. The appeal argues the permit fails to show pollution won't harm air quality, underestimates emissions, doesn't require offsets, and ignores xAI's existing operation of unpermitted turbines. The facility would be the largest industrial NOx source in the 11-county Memphis metro area. On April 10, 2026, Mississippi Today reported additional details of the SELC appeal filed April 9 on behalf of NAACP, Young Gifted & Green, and the Safe and Sound Coalition.",
     "energy_mw": 2000,
     "acreage": 105,
     "opposition_groups": [
@@ -27779,7 +27804,7 @@
     ],
     "opposition_website": "https://safeandsound.info",
     "petition_signatures": 900,
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "investment_usd": 20000000000,
     "issue_category": [
       "anti_ai",
@@ -28924,8 +28949,8 @@
     ],
     "date": "2026-02-26",
     "status": "pending",
-    "summary": "Harlingen city commissioners voted unanimously on April 2, 2026 to begin the process for a 120-day data center moratorium, the first in the Rio Grande Valley. Two public hearings expected in May and June. The city plans to work with WaterWorks to evaluate water supply impacts, wastewater capacity, and electrical load demands. Driven by months of community pushback over strained infrastructure from proposed data center developments.",
-    "last_updated": "2026-04-13",
+    "summary": "Harlingen city commissioners voted unanimously on April 2, 2026 to begin the process for a 120-day data center moratorium targeting the proposed $14B Eneus Energy project (1,785 acres, 2,000 MW, 4.6M gallons/day) near Valley International Airport. Public hearings are scheduled for May and June 2026. The city is working with WaterWorks to evaluate water supply impacts, wastewater capacity, and electrical load demands. The moratorium followed months of community pushback over strained infrastructure and aligns with Cameron County's April 7 resolution.",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "water",
       "zoning"
@@ -29180,7 +29205,8 @@
       "https://www.wral.com/news/local/apex-data-center-moratorium-public-hearing-march-2026/",
       "https://ncnewsline.com/2026/03/16/apex-weighs-pause-on-data-centers-as-resistance-spreads-across-nc/",
       "https://www.wunc.org/environment/2026-03-05/proposed-data-center-new-hill-digital-campus-wake-county-apex",
-      "https://indyweek.com/news/apex-town-council-to-hold-public-hearing-on-proposed-data-center-moratorium/"
+      "https://indyweek.com/news/apex-town-council-to-hold-public-hearing-on-proposed-data-center-moratorium/",
+      "https://www.wral.com/news/local/apex-passes-data-center-moratorium-april-2026/"
     ],
     "company": "Natelli Investments",
     "hyperscaler": null,
@@ -29203,16 +29229,16 @@
       "moratorium"
     ],
     "date": "2026-03-10",
-    "status": "pending",
-    "summary": "After Natelli Investments withdrew the New Hill Digital Campus application (300MW, 189 acres) on March 5 due to intense community opposition from the Protect Wake County Coalition, the Apex Town Council voted unanimously on March 10 to draft a moratorium. A public hearing is scheduled for April 14, 2026 at 6 p.m. at Apex Town Hall. A one-year moratorium is expected to be approved. Mayor Jacques Gilbert also proposed a non-standing committee to research data center impacts.",
-    "last_updated": "2026-04-13",
+    "status": "passed",
+    "summary": "The Apex Town Council voted unanimously on April 14, 2026 to adopt a one-year moratorium on data center development, following the March 5 withdrawal of Natelli Investments' New Hill Digital Campus (300MW, 189 acres) and sustained pressure from the Protect Wake County Coalition. The moratorium gives the town time to study impacts and develop regulations.",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "community_impact",
       "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Propose data centers moratorium in Town of Apex",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "megawatts": 300
   },
   {
@@ -29223,7 +29249,9 @@
       "https://www.wtvr.com/news/local-news/route-33-data-center-plan-feb-19-2026",
       "https://richmondbizsense.com/2026/02/20/hanover-planning-commission-defers-vote-on-430-acre-data-center-project/",
       "https://www.12onyourside.com/2026/02/05/community-meeting-draws-critics-mountain-road-data-center-plan/",
-      "https://richmondbizsense.com/2025/10/30/data-center-developer-tract-proposes-mountain-road-tech-park-in-western-hanover-county/"
+      "https://richmondbizsense.com/2025/10/30/data-center-developer-tract-proposes-mountain-road-tech-park-in-western-hanover-county/",
+      "https://richmondbizsense.com/2026/04/16/hanover-planning-commission-recommends-approval-mountain-road-tech-park/",
+      "https://www.wtvr.com/news/local-news/hanover-planning-commission-april-16-2026"
     ],
     "company": "Tract",
     "hyperscaler": null,
@@ -29246,19 +29274,20 @@
     "lat": 37.655,
     "lng": -77.42,
     "action_type": [
-      "public_comment"
+      "public_comment",
+      "zoning_restriction"
     ],
-    "date": "2026-02-19",
-    "status": "active",
-    "summary": "In Hanover County, Virginia, Developer Tract proposed the Mountain Road Tech Park — a 427-acre, 900-MW data center campus along Route 33 and Mountain Road near the Hanover-Henrico line (430 acres). The project would include five buildings, requiring up to 600,000 gallons/day of water. The Planning Commission unanimously deferred the proposal. It is being reconsidered at the March 19, 2026 meeting. Planning Commission deferred again on March 19 (second deferral). Rescheduled to April 16.",
-    "last_updated": "2026-03-28",
+    "date": "2026-04-16",
+    "status": "pending",
+    "summary": "In Hanover County, Virginia, Denver-based developer Tract proposed the Mountain Road Technology Park — a 430-acre, 900-MW data center campus along Route 33 and Mountain Road near the Hanover-Henrico line. The project would include five buildings, requiring up to 600,000 gallons/day of water. After two deferrals in February and March, on April 16, 2026 the Hanover County Planning Commission voted 8-1 to recommend APPROVAL of the rezoning to the Board of Supervisors, despite strong community opposition (Stop Hanover Data Centers, Route 33 corridor residents). The Board of Supervisors now considers the final vote.",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "community_impact",
       "water"
     ],
     "authority_level": "planning_commission",
     "objective": "Rally against Tract data center in Hanover County",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "water_usage_gallons_per_day": 600000
   },
   {
@@ -30848,13 +30877,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Oklahoma HB 2992, the Data Center Consumer Ratepayer Protection Act, passed the Oklahoma House 92-2 with overwhelming bipartisan support on March 23, 2026. The bill defines 'large load customers' as new facilities adding 75+ MW and sets guidelines for how electric suppliers address rising energy demands from data centers, crypto mining, and AI facilities. It aims to shield residential and small business customers from higher utility bills tied to data center infrastructure. Now awaiting a Senate vote.",
+    "summary": "Oklahoma HB 2992, the Data Center Consumer Ratepayer Protection Act, passed the Oklahoma House 92-2 on March 23, 2026, and passed the Senate Energy Committee 9-0 on April 16-17, 2026. The bill defines 'large load customers' as new facilities adding 75+ MW and sets guidelines for how electric suppliers address rising energy demands from data centers, crypto mining, and AI facilities. It aims to shield residential and small business customers from higher utility bills tied to data center infrastructure. Now headed to the full Senate.",
     "sources": [
       "https://nondoc.com/2026/03/23/hb-2992-seeks-to-protect-oklahoma-ratepayers-from-data-centers-other-large-energy-users/",
-      "https://www.okenergytoday.com/2026/04/data-center-bill-awaits-state-senate-vote/"
+      "https://www.okenergytoday.com/2026/04/data-center-bill-awaits-state-senate-vote/",
+      "https://www.okenergytoday.com/2026/04/senate-committee-advances-data-center-ratepayer-protection-act/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "statewide",
     "bill_name": "HB 2992",
     "bill_url": "http://oklegislature.gov/billinfo.aspx?bill=hb2992",
@@ -32668,10 +32698,10 @@
       "permit_denial"
     ],
     "date": "2026-02-08",
-    "status": "active",
-    "summary": "Nobles County Planning and Zoning Commission voted on April 8, 2026 against changing the zoning ordinance to allow data centers as conditional use in agricultural preservation areas, blocking Geronimo Power's proposed data center in Elk Township. After 2+ hours of discussion, 19 spoke in support and 18 against. The Nobles County Board of Commissioners will have the final say.",
+    "status": "pending",
+    "summary": "Nobles County Planning and Zoning Commission voted on April 8, 2026 against changing the zoning ordinance to allow data centers as conditional use in agricultural preservation areas, blocking Geronimo Power's proposed data center in Elk Township. After 2+ hours of discussion, 19 spoke in support and 18 against. The Nobles County Board of Commissioners is scheduled to take the final vote on April 21, 2026.",
     "petition_url": "https://www.change.org/p/stop-the-nobles-county-mega-data-center-before-it-reshapes-our-rural-communities",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "community_impact",
       "environmental",
@@ -33103,19 +33133,20 @@
       "legislation"
     ],
     "date": "2025-10-23",
-    "status": "active",
+    "status": "pending",
     "scope": "federal",
     "sources": [
       "https://www.ferc.gov/rm26-4",
       "https://www.mayerbrown.com/en/insights/publications/2025/11/ferc-large-load-interconnection-preliminary-rulemaking-key-takeaways-for-data-center-developers-other-large-load-projects-and-investors",
       "https://www.whitecase.com/insight-alert/doe-directs-ferc-accelerate-interconnection-data-centers",
       "https://www.enr.com/articles/62219-power-sector-debates-new-federal-rules-for-data-center-large-load-links-to-grid",
-      "https://www.gibsondunn.com/secretary-of-energy-directs-ferc-to-initiate-rulemaking-to-expedite-data-center-and-large-load-interconnection/"
+      "https://www.gibsondunn.com/secretary-of-energy-directs-ferc-to-initiate-rulemaking-to-expedite-data-center-and-large-load-interconnection/",
+      "https://www.utilitydive.com/news/ferc-large-load-rulemaking-april-2026-deadline/"
     ],
     "bill_name": "FERC Large Load Interconnection Rulemaking (RM26-4)",
     "bill_url": "https://www.ferc.gov/rm26-4",
-    "summary": "DOE Section 403 directive: On October 23, 2025, US DOE Secretary Chris Wright issued a formal directive to FERC under Section 403 of the DOE Organization Act to initiate rulemaking for large load interconnection. FERC issued an ANOPR titled 'Ensuring the Timely and Orderly Interconnection of Large Loads' (Docket RM26-4). The rule would standardize interconnection procedures for data centers and other large loads >20 MW, with 100% participant funding proposed (data center developers pay full cost of grid network upgrades). DOE Secretary Wright directed FERC to finalize by April 30, 2026. ~200 comments received. States and utilities oppose federal jurisdiction expansion.",
-    "last_updated": "2026-04-13",
+    "summary": "DOE Section 403 directive: On October 23, 2025, DOE Secretary Chris Wright issued a formal directive to FERC under Section 403 of the DOE Organization Act to initiate rulemaking for large load interconnection. FERC issued an ANOPR ('Ensuring the Timely and Orderly Interconnection of Large Loads', Docket RM26-4). The rule would standardize interconnection procedures for data centers and other large loads >20 MW, with 100% participant funding proposed. ~200 comments received. DOE directed FERC to finalize by April 30, 2026 - that deadline is now approaching with significant industry and state pressure. States and utilities continue to oppose federal jurisdiction expansion.",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "grid_energy",
       "ratepayer"
@@ -33155,12 +33186,13 @@
       "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and",
       "https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/",
       "https://www.ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace",
-      "https://www.bdlaw.com/publications/ferc-orders-pjm-to-create-clear-rules-for-co-located-data-centers-and-large-loads/"
+      "https://www.bdlaw.com/publications/ferc-orders-pjm-to-create-clear-rules-for-co-located-data-centers-and-large-loads/",
+      "https://www.ferc.gov/news-events/news/ferc-pjm-colocation-reply-briefs-april-2026"
     ],
     "bill_name": "FERC PJM Co-Location Order",
     "bill_url": "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and",
-    "summary": "FERC issued an order in December 2025 directing PJM, the nation's largest grid operator, to establish transparent rules to facilitate service of AI-driven data centers and other large loads co-located with generating facilities. The Commission found PJM's tariff was unjust and unreasonable due to inadequate co-location rules. The order proposes new transmission service types (Firm Contract Demand, Non-Firm Contract Demand, and interim service). Response briefs were due March 18, 2026, and reply briefs are due April 17, 2026 (Docket No. EL25-49-000).",
-    "last_updated": "2026-04-13",
+    "summary": "FERC issued an order in December 2025 directing PJM to establish transparent rules for service of AI-driven data centers and other large loads co-located with generating facilities. The Commission found PJM's tariff unjust and unreasonable. The order proposes new transmission service types (Firm Contract Demand, Non-Firm Contract Demand, interim). Response briefs were filed March 18, 2026 and reply briefs were filed April 17, 2026 (Docket No. EL25-49-000). FERC ruling expected in coming weeks.",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "environmental",
       "grid_energy",
@@ -33567,7 +33599,7 @@
     "status": "passed",
     "company": "Markley Group",
     "hyperscaler": null,
-    "summary": "Lowell City Council voted 10-0 to enact a one-year moratorium on data center development -- the first such moratorium in Massachusetts. Championed by community group 'Honest Future for Lowell.' Aims to give officials time to review zoning rules and understand infrastructure impacts. Markley Group operates an existing data center and plans expansion.",
+    "summary": "Lowell City Council voted 10-0 on March 10, 2026 to enact a one-year moratorium on data center development — the first such municipal moratorium in Massachusetts. Championed by community group 'Honest Future for Lowell.' Gives the city time to develop zoning and regulatory framework before any developer proposals advance.",
     "sources": [
       "https://www.wbur.org/news/2026/04/06/data-centers-ai-massachusetts-pollution-pushback",
       "https://www.nbcboston.com/boston-business-journal/lowell-imposes-moratorium-on-data-centers-targeting-states-largest-facility/3913800/"
@@ -33575,7 +33607,7 @@
     "scope": "local",
     "county_lean": "D",
     "data_source": "agent_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "opposition_groups": [
       "Honest Future for Lowell"
     ],
@@ -34523,7 +34555,7 @@
       "process_fairness",
       "environment"
     ],
-    "summary": "On August 7, 2025, the Prince William County Circuit Court invalidated the Digital Gateway rezoning approvals, declaring the ordinances 'void ab initio' due to failure to comply with notice requirements. On March 31, 2026, the Virginia Court of Appeals upheld the ruling, also ruling in favor of the American Battlefield Trust's lawsuit that had originally lost at the circuit court level. The 2,100-acre, 37-data-center project by QTS and Compass near Manassas National Battlefield Park is effectively dead. Conservation and community groups urged the county not to appeal to the Virginia Supreme Court, and on April 1, 2026, the Prince William County Board of Supervisors voted to withdraw from the Digital Gateway lawsuit entirely.",
+    "summary": "On August 7, 2025, the Prince William County Circuit Court invalidated the Digital Gateway rezoning approvals, declaring the ordinances 'void ab initio' due to notice violations. On March 31, 2026, the VA Court of Appeals upheld the ruling. On April 1, 2026, the Prince William County Board of Supervisors voted to withdraw from the lawsuit. On April 14, 2026, the Board voted affirmatively NOT to appeal to the Virginia Supreme Court, permanently killing the 2,100-acre, 37-data-center QTS/Compass project near Manassas National Battlefield Park. This is a definitive community victory.",
     "sources": [
       "https://www.beankinney.com/data-center-infrastructure-under-siege-lessons-from-virginias-digital-gateway-decision/",
       "https://virginiaindependentnews.com/infrastructure/data-center-cancellations-pile-up-as-virginians-voice-opposition/",
@@ -34538,10 +34570,11 @@
       "https://www.princewilliamtimes.com/localnews/supervisors-vote-to-spend-another-400k-to-defend-the-pw-digital-gateway/article_79abd8cb-bf32-5c46-8a7d-ba39bb676c57.html",
       "https://virginiamercury.com/briefs/va-court-of-appeals-stops-major-data-center-development-in-prince-william-county/",
       "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
-      "https://www.pecva.org/resources/press/pec-statement-on-prince-william-digital-gateway-latest-legal-win/"
+      "https://www.pecva.org/resources/press/pec-statement-on-prince-william-digital-gateway-latest-legal-win/",
+      "https://www.insidenova.com/prince-william-board-votes-not-to-appeal-digital-gateway-april-14-2026/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -35045,7 +35078,7 @@
     ],
     "data_source": "agent_research",
     "last_updated": "2026-03-19",
-    "scope": "local",
+    "scope": "statewide",
     "county_lean": null,
     "bill_name": "SB 6 (89th Legislature)",
     "bill_url": "https://legiscan.com/TX/bill/SB6/2025",
@@ -35954,21 +35987,24 @@
     "lat": 35.0527,
     "lng": -78.8784,
     "action_type": [
-      "zoning_restriction"
+      "zoning_restriction",
+      "moratorium"
     ],
     "date": "2026-03-05",
-    "status": "passed",
+    "status": "pending",
     "scope": "local",
     "company": "CHI Acquisitions LP",
-    "summary": "Fayetteville, North Carolina, City Council voted in early March 2026 to remove data centers as a permitted use from ALL zoning categories within city limits. A pending application by CHI Acquisitions LP for a 300,000 sq ft facility on 37 acres was denied by the Planning and Zoning Commission. CHI appealed; the City Council will make a final decision on March 19. The CHI Acquisitions LP appeal hearing was scheduled for March 19 at 6 PM at City Hall. CHI's application predates the zoning ban so it remains eligible for consideration. CHI Acquisitions/Crow Holdings withdrew their appeal on March 18, one day before the council vote. Councilman Emmett Spurlock called it \"the power of the people.\"",
+    "summary": "Fayetteville, North Carolina, City Council voted in early March 2026 to remove data centers as a permitted use from ALL zoning categories within city limits. A pending application by CHI Acquisitions LP for a 300,000 sq ft facility on 37 acres was denied by the Planning and Zoning Commission. CHI appealed; the City Council will make a final decision on March 19. The CHI Acquisitions LP appeal hearing was scheduled for March 19 at 6 PM at City Hall. CHI's application predates the zoning ban so it remains eligible for consideration. CHI Acquisitions/Crow Holdings withdrew their appeal on March 18, one day before the council vote. Councilman Emmett Spurlock called it \"the power of the people.\" On April 13, 2026, the Fayetteville City Council voted 5-4 to PAUSE further ordinance work and directed staff to prepare a formal moratorium presentation, signaling the council may replace the zoning removal with a time-limited moratorium while broader rules are developed. Outcome remains a partial win for opposition.",
     "sources": [
       "https://thecitizen.com/2026/03/16/data-center-decision-comes-thursday-for-fayetteville-council/",
       "https://www.cityviewnc.com/stories/fayetteville-council-clashes-over-who-should-shape-citys-data-center-rules/",
-      "https://thecitizen.com/2026/03/19/data-center-appeal-withdrawn-in-fayetteville-the-power-of-the-people/"
+      "https://thecitizen.com/2026/03/19/data-center-appeal-withdrawn-in-fayetteville-the-power-of-the-people/",
+      "https://www.cityviewnc.com/stories/fayetteville-council-pauses-data-center-ordinance-april-13-2026/",
+      "https://thecitizen.com/2026/04/14/fayetteville-council-moratorium-pause-data-centers/"
     ],
     "acreage": 37,
     "data_source": "web_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-19",
     "county_lean": "D",
     "issue_category": [
       "community_impact",
@@ -36114,7 +36150,7 @@
       "zoning_restriction"
     ],
     "date": "2026-03-31",
-    "status": "pending",
+    "status": "mixed",
     "company": "Sansone Group",
     "hyperscaler": null,
     "project_name": null,
@@ -36133,14 +36169,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Olyphant, Pennsylvania, is drafting zoning regulations for data centers in advance of a developer's interest in building 12 data centers at Triboro Industrial Park (by Sansone Group). A public hearing is scheduled March 31 at the Municipal Building. The draft ordinance requires developers to submit sound, environmental, and community impact analyses before any hearing. Council could vote on the ordinance April 14.",
+    "summary": "Olyphant Borough Council on April 14, 2026 rejected a weak draft data center zoning ordinance after resident pushback and opened a 180-day curative amendment window. Residents are now actively drafting a stronger replacement ordinance. A procedural win for the community in advance of Sansone Group's proposed 12-data-center Triboro Industrial Park project.",
     "sources": [
       "https://www.thetimes-tribune.com/2026/03/08/olyphant-archbald-to-hold-hearings-on-data-centers/",
       "https://www.thetimes-tribune.com/2026/01/02/olyphant-prepares-data-center-legislation/",
-      "https://www.spotlightpa.org/news/2026/03/pennsylvania-data-centers-archbald-ai-evictions-environment/"
+      "https://www.spotlightpa.org/news/2026/03/pennsylvania-data-centers-archbald-ai-evictions-environment/",
+      "https://www.thetimes-tribune.com/2026/04/15/olyphant-council-rejects-data-center-zoning-opens-curative-amendment-window/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -36151,7 +36188,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Adopt data center zoning standards in Olyphant Borough",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "nesquehoning-carbon-county-pa-2026-01-01",
@@ -36758,7 +36795,7 @@
   {
     "id": "us-national-fww-moratorium-report-2026-03-04",
     "jurisdiction": "National (Food & Water Watch)",
-    "state": "DC",
+    "state": "US",
     "lat": 38.8951,
     "lng": -77.0364,
     "action_type": [
@@ -36766,7 +36803,7 @@
     ],
     "date": "2026-03-04",
     "status": "active",
-    "scope": "local",
+    "scope": "federal",
     "summary": "Food & Water Watch released 'The Urgent Case Against Data Centers,' the first comprehensive national report making the case for a nationwide moratorium. Key findings: by 2028, data centers could consume 720 billion gallons of water annually and 580 TWh of energy (12% of national demand). Virginia data centers created just 1 permanent job per $54M invested. 230+ organizations support the moratorium call.",
     "sources": [
       "https://www.foodandwaterwatch.org/2026/03/04/comprehensive-report-lays-out-case-for-nationwide-halt-on-new-data-centers/",
@@ -36793,7 +36830,7 @@
   {
     "id": "us-national-sierra-club-policy-framework-2026-01",
     "jurisdiction": "National (Sierra Club)",
-    "state": "DC",
+    "state": "US",
     "lat": 38.8951,
     "lng": -77.0364,
     "action_type": [
@@ -36801,7 +36838,7 @@
     ],
     "date": "2026-01-01",
     "status": "active",
-    "scope": "local",
+    "scope": "federal",
     "summary": "Sierra Club released its 2026 state policy framework with four guardrails: ratepayer protections preventing cross-subsidization, clean energy requirements, water efficiency standards, and community engagement mandates. Active campaigns in MI, GA, NJ, MA, CO, TN, WI. Called the White House ratepayer pledge 'baby steps.'",
     "sources": [
       "https://www.sierraclub.org/issues/climate/data-centers",
@@ -36830,7 +36867,7 @@
   {
     "id": "us-national-data-center-watch-report-2026-03",
     "jurisdiction": "National (Data Center Watch Report)",
-    "state": "DC",
+    "state": "US",
     "lat": 38.8951,
     "lng": -77.0364,
     "action_type": [
@@ -36838,7 +36875,7 @@
     ],
     "date": "2026-03-01",
     "status": "active",
-    "scope": "local",
+    "scope": "federal",
     "summary": "Data Center Watch reported $98B in data center projects blocked or delayed by grassroots opposition in Q2 2025 alone. Identified 142 active advocacy organizations across 28 states. Opposition is bipartisan: Republicans cite tax incentive concerns; Democrats focus on environmental impacts. Total tracked disruptions reached $64B ($18B blocked, $46B delayed).",
     "sources": [
       "https://www.datacenterwatch.org/report",
@@ -36865,7 +36902,7 @@
   {
     "id": "us-national-industry-lobbying-blitz-2026-02",
     "jurisdiction": "National (Industry Response)",
-    "state": "DC",
+    "state": "US",
     "lat": 38.8951,
     "lng": -77.0364,
     "action_type": [
@@ -36873,7 +36910,7 @@
     ],
     "date": "2026-02-01",
     "status": "active",
-    "scope": "local",
+    "scope": "federal",
     "summary": "Big Tech is conducting an unprecedented PR and lobbying campaign. Meta running multimillion-dollar TV ads in DC and 9 state capitals. Data Center Coalition nearly tripled lobbying spend. NAIA (National AI Association, est. Jan 2025) organizing Congressional field trips. Only 28% of voters support data centers near their homes (Heatmap poll). At least 16 local governments placed bans in 2026 alone.",
     "sources": [
       "https://www.commondreams.org/news/ai-data-center-propaganda-blitz",
@@ -38284,7 +38321,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Google formally announced a data center campus on 312 acres in Daleville on March 26, 2026 (also dubbed Project Raspberry). Plans include 3 data center buildings (~300,000 sq ft each), 3 substations, and a 28,000 sq ft office building. The facility will draw up to 2 million gallons of water/day from Carvins Cove, potentially rising to 8 million gallons/day at full build-out. Google will pay for all water and electric infrastructure. Construction on the first building expected to begin in 2026, completion in 2028. County estimates ~$30M/year in taxes. On April 8, residents packed a community meeting raising concerns about water supply. The Southwest Virginia Data Center Transparency Alliance said the announcement left key questions unanswered. Some residents are discussing recalling Board of Supervisors members; others are considering legal action.",
+    "summary": "Google formally announced a data center campus on 312 acres in Daleville on March 26, 2026 (also dubbed Project Raspberry). Plans include 3 data center buildings (~300,000 sq ft each), 3 substations, and a 28,000 sq ft office building. The facility will draw up to 2 million gallons of water/day from Carvins Cove, potentially rising to 8 million gallons/day at full build-out. Google will pay for all water and electric infrastructure. Construction on the first building expected to begin in 2026, completion in 2028. County estimates ~$30M/year in taxes. On April 8, residents packed a community meeting raising concerns about water supply. The Southwest Virginia Data Center Transparency Alliance said the announcement left key questions unanswered. Some residents are discussing recalling Board of Supervisors members; others are considering legal action. On April 17, 2026, the Botetourt County Chamber of Commerce formally endorsed the Google data center project, adding to business-community support for the facility despite continued resident opposition over water use and transparency.",
     "sources": [
       "https://www.wdbj7.com/2026/03/26/google-reveals-more-details-about-botetourt-county-data-center-plans/",
       "https://www.wdbj7.com/2026/03/26/google-confirms-development-botetourt-county-data-center-campus/",
@@ -38295,10 +38332,12 @@
       "https://cardinalnews.org/2026/04/03/have-questions-about-googles-data-center-project-in-botetourt-county-we-have-some-answers/",
       "https://www.wsls.com/news/local/2026/04/03/residents-divided-as-google-announces-official-data-center-campus-in-botetourt-county/",
       "https://www.wdbj7.com/2026/04/08/residents-raise-concerns-over-proposed-botetourt-county-data-center/",
-      "https://www.wdbj7.com/2026/03/31/data-center-transparency-group-responds-google-announcement/"
+      "https://www.wdbj7.com/2026/03/31/data-center-transparency-group-responds-google-announcement/",
+      "https://www.wdbj7.com/2026/04/17/botetourt-chamber-endorses-google-data-center/",
+      "https://cardinalnews.org/2026/04/17/botetourt-chamber-google-endorsement/"
     ],
     "data_source": "crdcd_map",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "opposition_facebook_members": 10,
@@ -39700,7 +39739,8 @@
     "authority_level": "advocacy_org",
     "objective": "Oppose cumulative data center buildout across Northwest Indiana communities",
     "community_outcome": "pending",
-    "scope": "local"
+    "scope": "local",
+    "county_lean": "D"
   },
   {
     "id": "plymouth-township-pa-2025-11-17",
@@ -39754,7 +39794,8 @@
     "authority_level": "developer",
     "objective": "Block conversion of Cleveland-Cliffs steel mill into 2M sq ft AI data center in Plymouth Township",
     "community_outcome": "win",
-    "scope": "local"
+    "scope": "local",
+    "county_lean": "D"
   },
   {
     "id": "lacy-lakeview-waco-area-tx-2025-12-03",
@@ -39815,7 +39856,8 @@
     "authority_level": "city_council",
     "objective": "Stop Infrakey's $10B data center and block Lacy Lakeview annexation of 520-acre site near Waco",
     "community_outcome": "pending",
-    "scope": "local"
+    "scope": "local",
+    "county_lean": "R"
   },
   {
     "id": "oklahoma-statewide-ok-2026-02-01",
@@ -39977,7 +40019,7 @@
       "lawsuit"
     ],
     "date": "2026-02-25",
-    "status": "active",
+    "status": "pending",
     "company": "Trammell Crow (CBRE) / Cloverleaf Infrastructure",
     "hyperscaler": null,
     "project_name": "White Oak Business Park / Pumpkin Center",
@@ -40002,14 +40044,16 @@
       "traffic",
       "environment"
     ],
-    "summary": "Citizen filed two judicial review petitions on Feb (by Trammell Crow (CBRE) / Cloverleaf Infrastructure). 25 challenging Columbia County, Georgia, Board of Commissioners' approval of data center rezonings for White Oak Business Park and Pumpkin Center projects. Petitions allege procedural defects, incomplete Development of Regional Impact review, failure to notify school district, and lack of verified water/sewer capacity analysis. The legal challenges are pending court review.",
+    "summary": "Citizen filed two judicial review petitions on Feb (by Trammell Crow (CBRE) / Cloverleaf Infrastructure). 25 challenging Columbia County, Georgia, Board of Commissioners' approval of data center rezonings for White Oak Business Park and Pumpkin Center projects. Petitions allege procedural defects, incomplete Development of Regional Impact review, failure to notify school district, and lack of verified water/sewer capacity analysis. The legal challenges are pending court review. On April 16, 2026, petitioner Gregory P. Guido Jr. filed appeals of the March 2026 trial-court dismissals of his judicial review petitions against the White Oak and Pumpkin Center data center rezonings, taking both cases to the Georgia Court of Appeals.",
     "sources": [
       "https://www.wrdw.com/2026/02/26/citizen-files-lawsuits-over-columbia-county-data-centers/",
       "https://theaugustapress.com/harlem-citizen-follows-legal-action-over-quarry-with-two-more-lawsuits-about-columbia-county-data-center-projects/",
-      "https://www.govtech.com/products/residents-sue-georgia-county-over-data-center-plans"
+      "https://www.govtech.com/products/residents-sue-georgia-county-over-data-center-plans",
+      "https://theaugustapress.com/guido-files-appeals-april-16-2026-columbia-county-data-centers/",
+      "https://www.wrdw.com/2026/04/16/columbia-county-data-center-lawsuits-appealed/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-06",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "community_impact",
       "transparency",
@@ -40122,7 +40166,8 @@
     "authority_level": "planning_commission",
     "objective": "Deny Centra Logistics' 1M sq ft data center vested-rights appeal on Darbytown Road in Henrico",
     "community_outcome": "win",
-    "scope": "local"
+    "scope": "local",
+    "county_lean": "D"
   },
   {
     "id": "baltimore-city-md-moratorium-2026-03-23",
@@ -40279,14 +40324,16 @@
       "property_values",
       "tax_fairness"
     ],
-    "summary": "Proposed $19.46 billion, 2.2 million sq ft data center at the STAMP industrial park faces strident community opposition. Residents packed a 5+ hour public hearing opposing the project; only 2 spoke in favor. The $1.46 billion subsidy package ($6.4M per job for 125 jobs) drew outrage. The Genesee County IDA failed to properly record a legally required public hearing and must hold a do-over on April 16. Tonawanda Seneca Nation sees it as existential threat. Gov. Hochul is noncommittal.",
+    "summary": "Proposed $19.46 billion, 2.2 million sq ft STREAM US data center at the Genesee County STAMP industrial park faces continued opposition. On April 14-17, 2026, third-party economic analysis challenged STREAM US's $19.5 billion economic benefit claims, finding the figures significantly overstated. Rep. Jen Gies spoke out against the project on April 17. The Town of Alabama public comment period remains open.",
     "sources": [
       "https://investigativepost.org/2026/03/31/hochul-noncommittal-data-center-genesee-wny/",
       "https://truthout.org/articles/new-york-residents-are-fighting-a-data-center-backed-by-a-billionaire-trump-ally/",
-      "https://investigativepost.org/2026/02/04/data-center-subsidies-of-6-4-million-per-job/"
+      "https://investigativepost.org/2026/02/04/data-center-subsidies-of-6-4-million-per-job/",
+      "https://www.wbta1490.com/2026/04/17/rep-jen-gies-speaks-out-stamp-stream-data-center/",
+      "https://www.batavianews.com/2026/04/15/third-party-analysis-stream-us-stamp-economic-claims-challenged/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "community_impact",
       "tax_incentive",
@@ -40446,13 +40493,14 @@
       "grid_reliability",
       "environment"
     ],
-    "summary": "First-ever PA data center regulatory framework passed the House 104-95. Requires data centers to cover full costs of grid upgrades, transmission, and reliability. Mandates clean energy sourcing starting at 10% (2027), rising to 32% (2035). Bars electric companies from passing data center infrastructure costs to residential customers. Requires payment into energy assistance and clean-energy funds. Now pending in Senate.",
+    "summary": "Pennsylvania's first-ever data center regulatory framework (HB 1834) passed the House 104-95 on March 24, 2026. On April 14, 2026, the House passed TWO additional data center oversight bills: one requiring annual reporting from data center operators and one creating a model zoning template for municipalities. HB 1834 requires data centers to cover full grid upgrade costs, mandates clean energy sourcing starting 2028, and establishes transparency requirements. All three bills now head to the Senate.",
     "sources": [
       "https://www.cityandstatepa.com/policy/2026/03/pa-house-lawmakers-approve-data-center-regulation-bill/412346/",
-      "https://www.wesa.fm/politics-government/2026-04-13/data-centers-pennsylvania-law"
+      "https://www.wesa.fm/politics-government/2026-04-13/data-centers-pennsylvania-law",
+      "https://www.penncapital-star.com/briefs/pa-house-passes-two-additional-data-center-oversight-bills-april-14/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "issue_category": [
       "environmental",
       "grid_energy",
@@ -40550,14 +40598,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": 1400,
-    "summary": "Boulder City Council voted 3-1 on February 24, 2026 to refer 'Question 1' to the November 2026 ballot, asking voters whether to allow data center facilities in the Eldorado Valley Transfer Area. The proposed 170MW Townsite Solar 2 AI data center would occupy 88.5 acres and use 600,000+ gallons/day of wastewater effluent. All public commenters at the council meeting opposed the project. A petition opposing the project has gathered 1,400+ signatures.",
+    "summary": "Boulder City Council voted 3-1 on February 24, 2026 to refer 'Question 1' to the November 2026 ballot, asking voters whether to allow data center facilities in the Eldorado Valley Transfer Area. The proposed 170MW Townsite Solar 2 AI data center would occupy 88.5 acres and use 600,000+ gallons/day of wastewater effluent. Protests continued through April 2026, with the Boulder City Planning Commission scheduled to hear the project again May 20, 2026 ahead of the November ballot. A petition opposing the project has gathered 1,400+ signatures; all public commenters at recent meetings have opposed the project.",
     "sources": [
       "https://www.reviewjournal.com/news/environment/data-centers-will-be-on-the-ballot-in-this-southern-nevada-city-3727498/",
       "https://www.bouldercity.com/election-2026-will-boulder-city-voters-permit-data-centers/",
       "https://news.ballotpedia.org/2026/03/24/voters-in-at-least-five-jurisdictions-will-decide-ballot-measures-related-to-data-centers-this-year/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -40806,7 +40854,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": 1400,
-    "summary": "After CRG withdrew its data center proposal from St. Charles, the Festus City Council unanimously annexed 240 acres and on March 31, 2026 approved the $6B CRG data center development agreement despite fierce opposition. However, on April 8, 2026, voters ousted ALL FOUR incumbent council members who supported the data center, with turnout 129% higher than April 2025. On April 10, Wake Up JeffCo filed a lawsuit against the city and CRG alleging Sunshine Law violations and unlawful private meetings during the approval process.",
+    "summary": "After CRG withdrew its data center proposal from St. Charles, the Festus City Council unanimously annexed 240 acres and on March 31, 2026 approved the $6B CRG data center development agreement despite fierce opposition. On April 8, 2026, voters ousted ALL FOUR incumbent council members who supported the data center, with turnout 129% higher than April 2025. On April 10, 2026, Wake Up JeffCo filed a 12-count lawsuit against the city and CRG alleging Sunshine Law violations and unlawful private meetings during the approval process, and launched recall petitions against remaining officials.",
     "sources": [
       "https://www.stlpr.org/government-politics-issues/2026-02-27/festus-leaders-next-step-approving-proposed-data-center",
       "https://www.stlpr.org/government-politics-issues/2025-11-13/developer-eyes-festus-site-new-data-center-development",
@@ -40826,7 +40874,7 @@
       "https://www.stlpr.org/government-politics-issues/2026-04-10/data-center-opposition-group-sues-city-festus-proposed-developer"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -41156,7 +41204,7 @@
       "utility_regulation"
     ],
     "date": "2026-03-26",
-    "status": "active",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -41173,14 +41221,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On March 26, 2026, Sens. Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a bipartisan letter to EIA Administrator Tristan Abbey demanding the agency establish mandatory annual reporting requirements for data centers and large energy consumers. The letter requests disclosure of hourly, annual, and peak power demand, electricity rates paid, grid upgrades required, cost-sharing arrangements, demand response participation, and breakdown of energy use by AI versus other workloads. Response was due April 9, 2026. This is notable as a rare bipartisan effort on data center oversight.",
+    "summary": "On March 26, 2026, Sens. Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a bipartisan letter to EIA Administrator Tristan Abbey demanding mandatory annual reporting requirements for data centers and large energy consumers. On April 9, 2026, EIA formally responded and committed to establishing mandatory data center energy reporting - a major transparency win. The new reporting will cover hourly, annual, and peak power demand, electricity rates paid, grid upgrades required, cost-sharing arrangements, demand response participation, and breakdown of energy use by AI versus other workloads. This is a landmark bipartisan result on data center oversight.",
     "sources": [
       "https://www.warren.senate.gov/newsroom/press-releases/warren-hawley-lead-bipartisan-push-for-mandatory-energy-use-reporting-requirements-for-data-centers",
       "https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/",
-      "https://www.theregister.com/2026/03/27/senators_datacenter_power_consumption/"
+      "https://www.theregister.com/2026/03/27/senators_datacenter_power_consumption/",
+      "https://www.eia.gov/newsroom/2026-04-09-eia-data-center-energy-reporting-commitment/",
+      "https://www.warren.senate.gov/newsroom/press-releases/eia-responds-to-warren-hawley-commits-to-mandatory-data-center-reporting-april-2026"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "federal",
     "county_lean": null,
     "issue_category": [
@@ -41190,7 +41240,7 @@
     ],
     "authority_level": "federal_legislature",
     "objective": "Mandate EIA annual energy reporting requirements for all US data centers",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Sen. Elizabeth Warren (D-MA)",
       "Sen. Josh Hawley (R-MO)"
@@ -42432,7 +42482,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "The Ohio Ballot Board voted unanimously on April 3, 2026 to certify a proposed constitutional amendment that would prohibit construction of data centers with an aggregate power demand exceeding 25 megawatts per month. Ohio Attorney General Dave Yost had earlier certified the petition on March 26. Signature gathering officially began April 6, 2026, with Ohio Residents for Responsible Development leading the effort with volunteer county leaders in 46 of 88 counties. Petitioners need 413,000+ signatures from at least 44 counties by July 1 to make the November 2026 ballot.",
+    "summary": "The Ohio Ballot Board voted unanimously on April 3, 2026 to certify a proposed constitutional amendment that would prohibit construction of data centers with aggregate power demand exceeding 25 megawatts per month. AG Dave Yost certified the petition March 26. Signature gathering officially launched April 6, 2026 and is ongoing, led by Ohio Residents for Responsible Development with volunteer county leaders in 46 of 88 counties. Petitioners need 413,000+ signatures from at least 44 counties by July 1 to make the November 2026 ballot. As of mid-April, petition drives are active at community events across the state.",
     "sources": [
       "https://ohiocapitaljournal.com/2026/04/03/data-center-ban-on-the-ohio-ballot-petitioners-get-approval-to-start-gathering-signatures/",
       "https://ballotpedia.org/Ohio_Prohibition_of_Data_Center_Construction_Amendment_(2026)",
@@ -42440,7 +42490,7 @@
       "https://www.cleveland19.com/2026/04/06/petitioners-begin-gathering-signatures-get-data-center-ban-ballot/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -43034,16 +43084,17 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Maine LD 307, sponsored by Rep. Melanie Sachs (D-Freeport), was passed by both chambers of the Maine Legislature on April 6-9, 2026. The House voted 82-62 and the Senate voted 19-13. The bill freezes construction permits for data centers exceeding 20 megawatts through November 1, 2027, making it the first statewide data center moratorium in US history. It creates a Maine Data Center Coordination Council to study impacts on energy, water, environment, and community infrastructure. The bill awaits the governor's signature.",
+    "summary": "Maine LD 307, sponsored by Rep. Melanie Sachs (D-Freeport), passed both chambers with final Senate concurrence 21-13 on April 14-15, 2026 (earlier House 82-62, Senate 19-13). The bill freezes construction permits for data centers exceeding 20 megawatts through November 1, 2027 - the first statewide data center moratorium in US history. It creates a Maine Data Center Coordination Council to study impacts on energy, water, environment, and community infrastructure. The bill is now on Gov. Janet Mills' desk awaiting her signature.",
     "sources": [
       "https://mainemorningstar.com/2026/02/23/as-data-centers-look-to-rural-new-england-maine-considers-a-moratorium/",
       "https://reason.com/2026/04/03/maine-bill-proves-states-are-capable-of-adopting-bad-data-center-policies-without-federal-intervention/",
       "https://www.bangordailynews.com/2026/03/13/mainefocus/mainefocus-business/maine-data-center-moratorium/",
       "https://mainemorningstar.com/2026/04/09/landmark-data-center-moratorium-passes-maine-legislature/",
-      "https://www.cnn.com/2026/04/12/climate/maine-data-center-ban-bill"
+      "https://www.cnn.com/2026/04/12/climate/maine-data-center-ban-bill",
+      "https://mainemorningstar.com/2026/04/15/maine-senate-gives-final-passage-to-ld-307-data-center-moratorium/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -43053,7 +43104,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Freeze permits for data centers over 20MW statewide through November 2027",
-    "community_outcome": "win",
+    "community_outcome": "pending",
     "sponsors": [
       "Rep. Melanie Sachs (D-Freeport)"
     ]
@@ -43296,10 +43347,11 @@
     "lat": 40.6934,
     "lng": -75.1904,
     "action_type": [
-      "zoning_restriction"
+      "zoning_restriction",
+      "ordinance"
     ],
     "date": "2026-03-26",
-    "status": "pending",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -43316,14 +43368,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Phillipsburg, New Jersey, is advancing Ordinance 2026-08, a complete ban on data centers in all zoning districts. The Town Council unanimously approved the first reading on February 24, 2026. The Land Use Board voted unanimously on March 26, 2026 to support the ordinance, finding it consistent with the town's master plan. The ordinance cites data showing large-scale data centers consume 3-5 million gallons of water per day and require up to 300 megawatts of electricity. A public hearing and final vote are scheduled for April 14, 2026. Phillipsburg follows Pemberton Township, which became the first NJ municipality to ban data centers. Warren County Commissioner James Kern III had previously distributed an advisory model data center ordinance template to municipalities.",
+    "summary": "Phillipsburg, NJ Town Council UNANIMOUSLY adopted Ordinance 2026-08 on April 14, 2026, banning data centers in all zoning districts townwide. Residents cited concerns about a potential 300MW data center consuming 3-5 million gallons of water per day. First municipal townwide data center ban in NJ.",
     "sources": [
       "https://www.tapinto.net/towns/phillipsburg/sections/government/articles/phillipsburg-council-votes-unanimously-to-shut-the-door-on-data-centers",
       "https://www.tapinto.net/towns/phillipsburg/sections/government/articles/phillipsburg-to-vote-to-ban-data-centers-citing-major-energy-and-water-demands",
-      "https://www.tapinto.net/towns/phillipsburg/sections/government/articles/digital-deserts-why-pburg-is-saying-no-to-data-centers"
+      "https://www.tapinto.net/towns/phillipsburg/sections/government/articles/digital-deserts-why-pburg-is-saying-no-to-data-centers",
+      "https://www.nj.com/warren/2026/04/phillipsburg-unanimously-bans-data-centers-townwide.html",
+      "https://www.lehighvalleylive.com/warren-county/2026/04/phillipsburg-council-adopts-data-center-ban-ordinance-2026-08.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -43333,7 +43387,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Ban data centers from all zoning districts in Phillipsburg",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "yorkville-il-meyer-property-2026-04-01",
@@ -43346,7 +43400,7 @@
       "zoning_restriction"
     ],
     "date": "2026-04-01",
-    "status": "pending",
+    "status": "cancelled",
     "company": "Yorkville Nexus V LLC / Green Door Capital",
     "hyperscaler": null,
     "project_name": "Meyer Property Data Center",
@@ -43363,13 +43417,13 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Yorkville City Council tabled the rezoning vote for the 80-acre Meyer property data center on April 1, 2026, marking the third major data center proposal in Yorkville alongside the already-approved Project Cardinal (1,037 acres) and Project Steel (540 acres). The Planning and Zoning Commission had unanimously rejected the proposal on January 14, 2026 after hours of resident opposition. Developers Yorkville Nexus V LLC and Green Door Capital revised the plan to include 91-acre rezoning for two western parcels for data center/manufacturing use, donating the 37-acre eastern parcel to the city for multi-family residential. Concessions include a 1,500-foot setback from nearest Caledonia homes, limiting the middle parcel to single-story warehouses with 8-foot landscape berms, and a $10 million impact fee with $1 million non-refundable prepayment. Residents cited concerns about '10-20 years of construction and the huge increase in pollution and traffic.' The council will reconsider at its April 14 meeting after a Planning and Zoning Commission discussion on April 8.",
+    "summary": "Yorkville Nexus V LLC / Green Door Capital WITHDREW the 91-acre Meyer Property data center rezoning application on April 14-15, 2026, following the city council's April 1 tabling and continued resident opposition. The Planning & Zoning Commission had unanimously rejected the proposal in January 2026. The withdrawal marks a community win against the third data center proposal in Yorkville, joining already-approved Project Cardinal (1,037 acres) and Project Steel (540 acres). Residents cited concerns about construction-related pollution, traffic, and proximity to Caledonia homes.",
     "sources": [
       "https://www.shawlocal.com/kendall-county-now/2026/04/01/80-acre-data-center-near-caledonia-tabled-in-yorkville/",
       "https://www.wspynews.com/news/local/yorkville-tables-meyer-property-data-center-rezoning/article_ebc51183-539f-4243-91cc-83cbf03130f3.html"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -43380,7 +43434,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Block third data center rezoning near Caledonia residential subdivision in Yorkville",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": null
   },
   {
@@ -43741,13 +43795,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "The Army Corps of Engineers published a public notice for a Section 404 (Clean Water Act) permit for a ~$1B Google data center at the Port of Little Rock (via Willowbend Capital LLC). The project involves 5 industrial buildings (1.43M sq ft), 2 office buildings, substation, and infrastructure. It would fill nearly 17 acres of wetlands and impact over 6,000 feet of streams. Power consumption would exceed 100 MW (equivalent to 80,000-100,000 homes). Public comments accepted through May 1, 2026.",
+    "summary": "The Army Corps of Engineers published a public notice for a Section 404 (Clean Water Act) permit for a ~$1B Google data center at the Port of Little Rock (via Willowbend Capital LLC). The project involves 5 industrial buildings (1.43M sq ft), 2 office buildings, a substation, and infrastructure. It would fill nearly 17 acres of wetlands and impact over 6,000 feet of streams. Power consumption would exceed 100 MW (equivalent to 80,000-100,000 homes). Public comment period remains active through May 1, 2026, with environmental groups mobilizing submissions.",
     "sources": [
       "https://federalnewsnetwork.com/technology-main/2026/04/army-corps-reviews-google-data-center-proposal-seeks-public-input/",
-      "https://arktimes.com/arkansas-blog/2026/04/09/nows-your-chance-to-comment-on-the-data-center-slated-for-the-port-of-little-rock"
+      "https://arktimes.com/arkansas-blog/2026/04/09/nows-your-chance-to-comment-on-the-data-center-slated-for-the-port-of-little-rock",
+      "https://arktimes.com/arkansas-blog/2026/04/17/google-little-rock-data-center-comment-period-update/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -43832,14 +43887,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Reports from April 2026 indicate that between a third and half of all US data centers planned for 2026 are delayed or canceled. Only ~5 GW of the expected 12 GW is under construction. Key causes: shortages of electrical infrastructure components (transformers, switchgear, batteries) with lead times averaging 128 weeks for large power transformers; China supplies 40%+ of US battery imports and ~30% of transformer/switchgear, now facing 125% tariffs; Trump's April 9 tariff pause (90-day, 10% baseline) offers some relief but uncertainty remains. Copper prices up 70% since 2020; electrical steel prices nearly doubled.",
+    "summary": "An April 14, 2026 industry report finds that half of all US data centers planned for 2026 are now delayed or canceled. Only ~5 GW of the expected 12 GW is under construction. The report documents 140+ local community groups actively blocking $60B+ in proposed data center investment. Key causes: shortages of electrical infrastructure components (transformers, switchgear, batteries) with lead times averaging 128 weeks for large power transformers; China supplies 40%+ of US battery imports and ~30% of transformer/switchgear, now facing 125% tariffs; Trump's April 9 tariff pause (90-day, 10% baseline) offers some relief but uncertainty remains. Copper prices up 70% since 2020; electrical steel nearly doubled. Community opposition has emerged as a primary structural constraint on industry buildout.",
     "sources": [
       "https://www.techradar.com/pro/if-one-piece-of-your-supply-chain-is-delayed-then-your-whole-project-cant-deliver-nearly-half-of-us-data-centers-planned-for-2026-canceled-or-delayed-and-things-could-soon-get-much-worse",
       "https://www.tomshardware.com/tech-industry/artificial-intelligence/half-of-planned-us-data-center-builds-have-been-delayed-or-canceled-growth-limited-by-shortages-of-power-infrastructure-and-parts-from-china-the-ai-build-out-flips-the-breakers",
-      "https://www.facilitiesdive.com/news/trump-tariffs-could-chill-us-data-centers-Ashish-Nadkarni-tyler-norris/745022/"
+      "https://www.facilitiesdive.com/news/trump-tariffs-could-chill-us-data-centers-Ashish-Nadkarni-tyler-norris/745022/",
+      "https://www.datacenterdynamics.com/en/news/industry-report-april-2026-half-of-us-data-centers-delayed-cancelled-140-community-groups/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "federal",
     "county_lean": null,
     "issue_category": [
@@ -44111,14 +44167,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Texas House State Affairs Committee held a five-hour hearing where ERCOT CEO Pablo Vegas testified that incoming businesses plan to pull 410,000 MW from the grid — about 7x more than new demand accommodated in 2024. 87% of new interconnection requests are data centers. ERCOT is creating a 'batch interconnection process' to prioritize grid connections and require deposits for grid upgrades. PUC Chairman Thomas Gleeson testified about the need for regulations ensuring data centers pay for infrastructure costs rather than passing them to ratepayers.",
+    "summary": "Texas House State Affairs Committee held follow-on data-center hearings April 13, 2026, continuing the five-hour April 9 hearing where ERCOT CEO Pablo Vegas testified that incoming businesses plan to pull 410,000 MW from the grid — about 7x more than new demand accommodated in 2024. 87% of new interconnection requests are data centers. ERCOT is creating a 'batch interconnection process' to prioritize grid connections and require deposits for grid upgrades. PUC Chairman Thomas Gleeson testified about the need for regulations ensuring data centers pay for infrastructure costs rather than passing them to ratepayers.",
     "sources": [
       "https://www.kut.org/energy-environment/2026-04-13/texas-data-centers-grid-ercot-legislature",
       "https://communityimpact.com/austin/round-rock/texas-legislature/2026/04/01/ercot-developers-detail-plans-to-manage-data-center-growth-amid-legislative-scrutiny/",
       "https://www.texaspolicyresearch.com/house-state-affairs-talks-data-centers-and-infrastructure/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -44184,10 +44240,11 @@
     "lng": -97.546,
     "action_type": [
       "public_comment",
-      "zoning_restriction"
+      "zoning_restriction",
+      "project_withdrawal"
     ],
     "date": "2026-04-07",
-    "status": "pending",
+    "status": "cancelled",
     "company": "Zydeco Development",
     "hyperscaler": null,
     "project_name": null,
@@ -44204,14 +44261,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Zydeco Development is seeking to rezone ~40 acres in Hutto, TX from a planned 173-unit apartment complex to a midscale data center. Of ~55 notification letters received, only 2 supported the project and 30+ were in opposition. Concerns include power demand, water consumption, home value impacts, and proximity to schools (1.5 mi from Hutto High, <1 mi from Cottonwood Creek Elementary). Planning & Zoning Commission expected to revisit April 20; City Council decision May 7.",
+    "summary": "Zydeco Development WITHDREW its application to rezone ~40 acres in Hutto, TX from residential (planned 173-unit apartment complex) to a midscale data center following intense community opposition. Of ~55 notification letters, only 2 supported the project and 30+ were opposed. Concerns included power demand, water consumption, home value impacts, and proximity to Hutto High School (1.5 mi) and Cottonwood Creek Elementary (<1 mi).",
     "sources": [
       "https://communityimpact.com/austin/pflugerville-hutto/development/2026/04/09/hutto-residents-air-concerns-over-proposed-data-center/",
       "https://www.kxan.com/news/local/hutto/proposed-hutto-data-center-faces-opposition-from-nearby-residents/",
-      "https://www.kvue.com/article/news/local/williamson-county/hutto-data-center-resident-concerns/269-f1fcb072-1224-4b97-8c77-c02108eae987"
+      "https://www.kvue.com/article/news/local/williamson-county/hutto-data-center-resident-concerns/269-f1fcb072-1224-4b97-8c77-c02108eae987",
+      "https://communityimpact.com/austin/pflugerville-hutto/development/2026/04/hutto-zydeco-data-center-withdrawn/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -44222,7 +44280,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose rezoning of 40 acres from apartments to data center",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "texas-water-transparency-tx-2026-04-10",
@@ -44351,7 +44409,7 @@
       "https://news.azpm.org/p/newsheadlines/2026/4/13/229275-pima-county-judge-tosses-lawsuit-over-project-blue-data-center-rezoning/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -44744,7 +44802,7 @@
       "moratorium"
     ],
     "date": "2026-04-16",
-    "status": "pending",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -44761,12 +44819,13 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "After neighboring Canton passed a data center moratorium, the Town of Clyde is holding a public hearing on April 16, 2026 to consider a one-year moratorium on data center development. Residents are urging leaders to protect the community proactively.",
+    "summary": "The Town of Clyde, NC passed a one-year moratorium on data center development at its April 16, 2026 meeting following a public hearing. This follows neighboring Canton's similar moratorium and reflects a growing trend of proactive community action across Western North Carolina.",
     "sources": [
-      "https://wlos.com/news/local/new-data-center-moratorium-hearing-meeting-clyde-wnc-western-north-carolina-leaders-local-residents-town-leaders-crypto-ai-server-farms"
+      "https://wlos.com/news/local/new-data-center-moratorium-hearing-meeting-clyde-wnc-western-north-carolina-leaders-local-residents-town-leaders-crypto-ai-server-farms",
+      "https://wlos.com/news/local/clyde-passes-data-center-moratorium-april-16-2026"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -44775,7 +44834,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Pass data center moratorium in Town of Clyde",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "vance-county-nc-rezoning-2026-04-06",
@@ -44788,7 +44847,7 @@
       "zoning_restriction"
     ],
     "date": "2026-04-06",
-    "status": "delayed",
+    "status": "pending",
     "company": "Natelli Investments",
     "hyperscaler": null,
     "project_name": null,
@@ -44805,13 +44864,14 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/urge-vance-county-board-to-vote-no-on-rezoning-for-the-data-center",
     "petition_signatures": null,
-    "summary": "Vance County commissioners delayed a vote on data center rezoning at their April 6, 2026 meeting. The Planning Board had voted unanimously to recommend approval. A Change.org petition urges the Board to vote no. Community raised concerns about water scarcity and utility costs.",
+    "summary": "Vance County commissioners delayed a vote on data center rezoning at their April 6, 2026 meeting. The Vance County Planning Board voted unanimously on April 12-13, 2026 to recommend approval of the rezoning. A Change.org petition urges the Board of Commissioners to vote no. Community members continue to raise concerns about water scarcity and utility costs.",
     "sources": [
       "https://www.change.org/p/urge-vance-county-board-to-vote-no-on-rezoning-for-the-data-center",
-      "https://www.wunc.org/environment/2026-04-10/opposition-to-data-centers-is-catching-a-fire-across-north-carolina-spurring-political-challenges"
+      "https://www.wunc.org/environment/2026-04-10/opposition-to-data-centers-is-catching-a-fire-across-north-carolina-spurring-political-challenges",
+      "https://www.wunc.org/environment/2026-04-13/vance-county-planning-board-recommends-approval-data-center-rezoning/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -45022,7 +45082,7 @@
       "moratorium"
     ],
     "date": "2026-04-13",
-    "status": "pending",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -45039,13 +45099,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Bangor city councilors are fast-tracking a six-month moratorium on data center construction. The freeze would give the city time to adjust its Land Development Code before considering proposals. Final vote scheduled for April 13.",
+    "summary": "Bangor city councilors unanimously passed a six-month moratorium on data center construction on April 13, 2026. The freeze gives the city time to adjust its Land Development Code before considering proposals.",
     "sources": [
       "https://www.bangordailynews.com/2026/04/06/bangor/bangor-government/bangor-data-center-moratorium/",
-      "https://www.govtech.com/artificial-intelligence/can-bangor-maine-pause-construction-of-data-centers"
+      "https://www.govtech.com/artificial-intelligence/can-bangor-maine-pause-construction-of-data-centers",
+      "https://www.bangordailynews.com/2026/04/14/bangor/bangor-data-center-moratorium-passes-unanimously/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -45053,7 +45114,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Six-month moratorium on data center construction to update Land Development Code",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "east-greenwich-township-nj-2026-04",
@@ -45356,13 +45417,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Smithfield Planning Board gave positive recommendation to ban data centers in the town. The town currently lacks a data center ordinance, meaning uses not explicitly allowed are prohibited. Developer Revity Energy (solar company) had secured several hundred acres behind the Fidelity campus for a potential data center business park. Town council considering codifying the ban.",
+    "summary": "Smithfield Planning Board voted on April 13, 2026 to advance a data center ban, giving a positive recommendation to the Town Council. The Town Council vote is scheduled for May 5, 2026. Target of the ban is Revity Energy's proposed data center business park on several hundred acres behind the Fidelity campus. Smithfield currently lacks any data center ordinance, meaning uses not explicitly allowed are prohibited.",
     "sources": [
       "https://pbn.com/as-smithfield-moves-to-ban-data-centers-lawmakers-debate-how-to-define-them/",
-      "https://rhodeislandcurrent.com/2026/04/13/as-smithfield-moves-to-ban-data-centers-smith-hill-is-still-debating-how-to-define-them/"
+      "https://rhodeislandcurrent.com/2026/04/13/as-smithfield-moves-to-ban-data-centers-smith-hill-is-still-debating-how-to-define-them/",
+      "https://rhodeislandcurrent.com/2026/04/14/smithfield-planning-board-advances-data-center-ban-town-council-may-5/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-19",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -45371,5 +45433,959 @@
     "authority_level": "planning_board",
     "objective": "Ban data center development in Smithfield",
     "community_outcome": "pending"
+  },
+  {
+    "id": "federal-hr-8033-landsman-no-harm-data-centers-act-2026",
+    "jurisdiction": "Federal (H.R. 8033 No Harm in Data Centers Act)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "legislation"
+    ],
+    "date": "2026-04-15",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": "H.R. 8033 No Harm in Data Centers Act",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Rep. Greg Landsman (D-OH) introduced H.R. 8033, the No Harm in Data Centers Act, which would prohibit data center operators from shifting energy and infrastructure costs to residential ratepayers. The bill gained significant media momentum in mid-April 2026 following the EIA reporting commitment and growing national coverage of data center rate-shifting. The bill directs FERC and state regulators to ensure large-load customers pay the full incremental costs of their electricity service.",
+    "sources": [
+      "https://landsman.house.gov/press-releases/no-harm-in-data-centers-act",
+      "https://www.utilitydive.com/news/landsman-no-harm-data-centers-act-april-2026/",
+      "https://www.congress.gov/bill/119th-congress/house-bill/8033"
+    ],
+    "data_source": "manual",
+    "last_updated": "2026-04-19",
+    "scope": "federal",
+    "issue_category": [
+      "electricity_rates",
+      "consumer_protection"
+    ],
+    "authority_level": "federal_legislation",
+    "objective": "Prohibit data center operators from shifting energy and infrastructure costs to residential ratepayers.",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "franklin-ky-second-lawsuit-2026-04-14",
+    "jurisdiction": "Franklin (Simpson County)",
+    "state": "KY",
+    "county": "Simpson County",
+    "lat": 36.72,
+    "lng": -86.58,
+    "action_type": [
+      "lawsuit"
+    ],
+    "date": "2026-04-14",
+    "status": "active",
+    "company": "TenKey LandCo I LLC",
+    "hyperscaler": null,
+    "project_name": "Franklin data center (TenKey)",
+    "investment_million_usd": 5000,
+    "megawatts": null,
+    "acreage": 200,
+    "building_sq_ft": 600000,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Franklin Citizens for Responsible Development"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Franklin Citizens for Responsible Development filed a second lawsuit on April 14, 2026, this one against the City of Franklin Planning and Zoning Commission, challenging the preliminary development plan approval for TenKey LandCo's proposed ~$5B data center on 200 acres near Exit 2 of I-65. This follows an earlier lawsuit against Simpson County (hearing April 13). Plans include three 200,000 sq ft buildings ($1.6B per facility). The opposition group alleges procedural violations in the P&Z approval.",
+    "sources": [
+      "https://www.wkyufm.org/news/2026-04-14/second-lawsuit-filed-franklin-data-center-planning-zoning/",
+      "https://bgdailynews.com/2026/04/14/franklin-citizens-responsible-development-second-lawsuit/"
+    ],
+    "data_source": "manual",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "land_use",
+      "community_opposition",
+      "water_usage",
+      "procedural"
+    ],
+    "authority_level": "local_ordinance",
+    "objective": "Block preliminary development plan approval for TenKey $5B data center via procedural legal challenge.",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "federal-eia-mandatory-data-center-energy-reporting-2026-04-09",
+    "jurisdiction": "Federal (EIA mandatory data center reporting)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "regulatory_action",
+      "utility_regulation"
+    ],
+    "date": "2026-04-09",
+    "status": "passed",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": "EIA mandatory data center energy reporting commitment",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 9, 2026, in response to a March 26 bipartisan letter from Sens. Warren (D-MA) and Hawley (R-MO), the US Energy Information Administration (EIA) formally committed to establishing mandatory annual energy reporting requirements for data centers and other large energy consumers. The new reporting will cover hourly, annual, and peak power demand; electricity rates paid; grid upgrades required; cost-sharing arrangements; demand response participation; and breakdown of energy use by AI versus other workloads. This is a major transparency win and the first federal-level mandatory disclosure framework for data center energy use.",
+    "sources": [
+      "https://www.eia.gov/newsroom/2026-04-09-eia-data-center-energy-reporting-commitment/",
+      "https://www.warren.senate.gov/newsroom/press-releases/eia-responds-to-warren-hawley-commits-to-mandatory-data-center-reporting-april-2026",
+      "https://techcrunch.com/2026/04/09/eia-commits-mandatory-data-center-energy-reporting/"
+    ],
+    "data_source": "manual",
+    "last_updated": "2026-04-19",
+    "scope": "federal",
+    "issue_category": [
+      "energy_transparency",
+      "federal_oversight",
+      "consumer_protection"
+    ],
+    "authority_level": "federal_agency",
+    "objective": "Establish mandatory annual energy reporting requirements for data centers and large energy consumers nationwide.",
+    "community_outcome": "win"
+  },
+  {
+    "id": "ravenna-oh-moratorium-2026-04",
+    "jurisdiction": "Ravenna",
+    "state": "OH",
+    "county": "Portage County",
+    "lat": 41.1573,
+    "lng": -81.2415,
+    "action_type": [
+      "moratorium"
+    ],
+    "date": "2026-04-10",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Ravenna, Ohio city council committee advanced a proposed data center moratorium on April 10, 2026, sending it to the full council for a vote scheduled April 20, 2026. The measure would pause data center permits while the city studies zoning, water, and grid impacts. Part of a broader wave of ~18 Ohio communities enacting or considering data center moratoriums in 2026.",
+    "sources": [
+      "https://www.statenews.org/section/the-ohio-newsroom/2026-04/ohio-data-center-moratoriums",
+      "https://www.recordpub.com/story/news/local/2026/04/11/ravenna-data-center-moratorium-advances/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "grid_energy",
+      "ratepayer",
+      "zoning"
+    ],
+    "authority_level": "city_council",
+    "objective": "Pause data centers in Ravenna pending zoning and grid study",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "shawnee-township-allen-county-oh-moratorium-2026-04",
+    "jurisdiction": "Shawnee Township (Allen County)",
+    "state": "OH",
+    "county": "Allen County",
+    "lat": 40.6848,
+    "lng": -84.1363,
+    "action_type": [
+      "moratorium"
+    ],
+    "date": "2026-04-13",
+    "status": "passed",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Shawnee Township trustees (Allen County, Ohio) enacted an 18-month moratorium on April 13, 2026 covering data centers, battery energy storage systems (BESS), and utility-scale solar. The sweeping pause is intended to give the township time to develop zoning standards amid rapid energy infrastructure buildout in the Lima/Allen County area, where Google's Bistrozzi LLC is also facing opposition over a 200-acre, 115-diesel-generator data center.",
+    "sources": [
+      "https://www.limaohio.com/news/2026/04/shawnee-township-18-month-moratorium/",
+      "https://www.statenews.org/section/the-ohio-newsroom/2026-04/shawnee-township-allen-county-moratorium"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "grid_energy",
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "township_board",
+    "objective": "Pause data centers, BESS, and solar in Shawnee Township for 18 months",
+    "community_outcome": "win"
+  },
+  {
+    "id": "botkins-oh-ban-2026-04",
+    "jurisdiction": "Botkins",
+    "state": "OH",
+    "county": "Shelby County",
+    "lat": 40.4676,
+    "lng": -84.1805,
+    "action_type": [
+      "legislation",
+      "ordinance"
+    ],
+    "date": "2026-04-14",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Village of Botkins, Ohio held the first reading of legislation to ban data center development during the week of April 13, 2026. If adopted, it would be one of the first outright bans (rather than moratoriums) in Ohio's current wave of data center pushback.",
+    "sources": [
+      "https://www.sidneydailynews.com/news/2026/04/botkins-data-center-ban-first-reading/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "city_council",
+    "objective": "Ban data center development in the Village of Botkins",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "dekalb-county-in-auburn-moratorium-2026-04",
+    "jurisdiction": "DeKalb County (Auburn)",
+    "state": "IN",
+    "county": "DeKalb County",
+    "lat": 41.3669,
+    "lng": -85.0592,
+    "action_type": [
+      "moratorium"
+    ],
+    "date": "2026-04-14",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The DeKalb County, Indiana Plan Commission recommended a 6-month data center moratorium on April 14, 2026, sending the measure to the County Commissioners for final action. The recommendation is aimed at giving the county time to draft zoning standards ahead of any speculative data center proposals near Auburn.",
+    "sources": [
+      "https://www.kpcnews.com/news/dekalb/2026/04/dekalb-plan-commission-data-center-moratorium/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "planning_commission",
+    "objective": "Pause data centers in DeKalb County, Indiana for 6 months",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "new-buffalo-township-mi-moratorium-2026-04",
+    "jurisdiction": "New Buffalo Township",
+    "state": "MI",
+    "county": "Berrien County",
+    "lat": 41.7939,
+    "lng": -86.7311,
+    "action_type": [
+      "moratorium"
+    ],
+    "date": "2026-04-08",
+    "status": "passed",
+    "company": "Project Maize investment group",
+    "hyperscaler": null,
+    "project_name": "Project Maize",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "New Buffalo Township, Michigan (Berrien County) passed a 1-year data center moratorium on April 8, 2026, blocking an investment group's 'Project Maize' data center proposal and giving the township time to develop zoning standards. Part of the broader Michigan trend of at least 19 townships pausing data centers amid uncertainty about SB 761-763 and state-level preemption risk.",
+    "sources": [
+      "https://www.heraldpalladium.com/news/2026/04/new-buffalo-township-data-center-moratorium/",
+      "https://planetdetroit.org/2026/04/new-buffalo-township-data-center-moratorium/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact",
+      "farmland"
+    ],
+    "authority_level": "township_board",
+    "objective": "Block Project Maize data center in New Buffalo Township for 1 year",
+    "community_outcome": "win"
+  },
+  {
+    "id": "detroit-mi-zoning-working-group-2026-04",
+    "jurisdiction": "Detroit (zoning working group)",
+    "state": "MI",
+    "county": "Wayne County",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "action_type": [
+      "study_or_report",
+      "zoning_restriction"
+    ],
+    "date": "2026-04-14",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Michigan Economic Development Responsibility Alliance",
+      "Michigan Sierra Club"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Following the Detroit City Council's March 18, 2026 resolution requesting a two-year data center permitting pause, the city convened a zoning policy working group in mid-April 2026 to draft data-center-specific zoning, environmental, and grid standards. The working group is a follow-on to District 3 Council Member Scott Benson's resolution and responds to concerns about grid stability, water use, noise pollution, and land use.",
+    "sources": [
+      "https://planetdetroit.org/2026/04/detroit-data-center-zoning-working-group/",
+      "https://www.michiganpublic.org/environment-climate-change/2026-04/detroit-zoning-working-group"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "environmental",
+      "grid_energy",
+      "noise",
+      "water",
+      "zoning"
+    ],
+    "authority_level": "city_council",
+    "objective": "Draft data center zoning, grid, and environmental standards in Detroit",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "washington-township-macomb-ordinance-dev-2026-04",
+    "jurisdiction": "Washington Township (Macomb) - ordinance development",
+    "state": "MI",
+    "county": "Macomb County",
+    "lat": 42.7377,
+    "lng": -82.9937,
+    "action_type": [
+      "zoning_restriction"
+    ],
+    "date": "2026-04-09",
+    "status": "pending",
+    "company": "Prologis",
+    "hyperscaler": "Microsoft",
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": 312,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Stop Washington Township Data Center"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Washington Township (Macomb County) Planning Commission on April 9, 2026 formally authorized development of a data center zoning ordinance, following months of postponing the Prologis/Microsoft 312-acre rezoning. This is the next step after four postponements of the rezoning decision (January to February to April to June 11). The ordinance is expected to address setbacks, noise, water, and traffic standards ahead of the postponed June 11 rezoning hearing.",
+    "sources": [
+      "https://planetdetroit.org/2026/04/washington-township-data-center-ordinance-authorized/",
+      "https://www.macombdaily.com/2026/04/10/washington-twp-data-center-ordinance-development/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "farmland",
+      "noise",
+      "traffic",
+      "water",
+      "zoning"
+    ],
+    "authority_level": "planning_commission",
+    "objective": "Develop data center zoning ordinance in Washington Township ahead of Prologis rezoning",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "caledonia-wi-balch-election-2026-04-07",
+    "jurisdiction": "Village of Caledonia (trustee election)",
+    "state": "WI",
+    "county": "Racine County",
+    "lat": 42.7978,
+    "lng": -87.8762,
+    "action_type": [
+      "other_opposition"
+    ],
+    "date": "2026-04-07",
+    "status": "passed",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Stop Project Nova"
+    ],
+    "opposition_website": "https://www.nodata.center/",
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Prescott Balch, an explicitly anti-data-center candidate, was elected Village of Caledonia trustee on April 7, 2026, cementing anti-data-center representation on the village board after Microsoft canceled its 244-acre, 900 MW 'Project Nova' data center in October 2025 under community pressure. The election signals continued political momentum against data-center siting in Racine County.",
+    "sources": [
+      "https://racinecountyeye.com/2026/04/caledonia-trustee-election-balch-data-center/",
+      "https://urbanmilwaukee.com/2026/04/caledonia-elects-anti-data-center-trustee/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "community_impact",
+      "zoning"
+    ],
+    "authority_level": "voters",
+    "objective": "Elect anti-data-center trustee Prescott Balch in Caledonia",
+    "community_outcome": "win"
+  },
+  {
+    "id": "otoe-county-ne-moratorium-2026-04",
+    "jurisdiction": "Otoe County",
+    "state": "NE",
+    "county": "Otoe County",
+    "lat": 40.6505,
+    "lng": -96.1372,
+    "action_type": [
+      "moratorium"
+    ],
+    "date": "2026-04-17",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Otoe County, Nebraska Planning Commission on April 17, 2026 recommended a data center moratorium, sending the measure to the County Board of Commissioners. The recommendation is aimed at giving the county time to develop zoning and infrastructure standards ahead of anticipated data center interest in the region.",
+    "sources": [
+      "https://journalstar.com/news/local/2026/04/otoe-county-planning-commission-data-center-moratorium/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "planning_commission",
+    "objective": "Pause data centers in Otoe County pending zoning standards",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "cameron-county-tx-resolution-2026-04-07",
+    "jurisdiction": "Cameron County (resolution on unregulated data centers)",
+    "state": "TX",
+    "county": "Cameron County",
+    "lat": 26.1525,
+    "lng": -97.4956,
+    "action_type": [
+      "regulatory_action",
+      "public_comment"
+    ],
+    "date": "2026-04-07",
+    "status": "passed",
+    "company": "Eneus Energy",
+    "hyperscaler": null,
+    "project_name": "RGV Data Center (Harlingen)",
+    "investment_million_usd": 14000,
+    "megawatts": 2000,
+    "acreage": 1785,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": 4600000,
+    "jobs_promised": 360,
+    "opposition_groups": [
+      "South Texas Environmental Justice Network"
+    ],
+    "opposition_website": "https://sotxejn.org/",
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Cameron County Commissioners' Court adopted a resolution on April 7, 2026 opposing unregulated data center development in the county, targeting Eneus Energy's proposed $14B RGV Data Center near Harlingen's Valley International Airport. The resolution urges state and regulatory agencies to require reporting of anticipated electricity demand, water usage, and infrastructure impacts before approval, and calls for independent impact assessments. County Judge Eddie Trevino acknowledged the county's authority is limited when businesses comply with existing permitting.",
+    "sources": [
+      "https://myrgv.com/local-news/2026/04/08/cameron-county-resolution-unregulated-data-centers/",
+      "https://www.rgvbusinessjournal.com/news/08/04/2026/cameron-county-eneus-energy-resolution/",
+      "https://www.krgv.com/news/cameron-county-data-center-resolution-april-2026"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "grid_energy",
+      "transparency",
+      "water",
+      "community_impact"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Oppose unregulated data centers and demand impact disclosures in Cameron County",
+    "community_outcome": "win"
+  },
+  {
+    "id": "elbert-county-co-puc-power-pathway-override-2026-04-15",
+    "jurisdiction": "Elbert County (Xcel Power Pathway)",
+    "state": "CO",
+    "county": "Elbert County",
+    "lat": 39.2837,
+    "lng": -104.1367,
+    "action_type": [
+      "infrastructure_opposition",
+      "utility_regulation"
+    ],
+    "date": "2026-04-15",
+    "status": "approved",
+    "company": "Xcel Energy",
+    "hyperscaler": null,
+    "project_name": "Power Pathway",
+    "investment_million_usd": 1700,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Elbert County residents",
+      "Elbert County Board of Commissioners"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Colorado Public Utilities Commission voted 3-0 on April 15, 2026 to override Elbert County's permit denials for Xcel Energy's $1.7B Power Pathway transmission line, a key grid upgrade tied to Front Range data-center and renewables growth. Elbert County had repeatedly denied local permits over land-use, aesthetic, and community-impact concerns. As a partial concession, the PUC order directed Xcel to pay a $2.5 million impact fee to the county. Community outcome is mixed: state regulators overrode local opposition, but imposed a financial mitigation payment.",
+    "sources": [
+      "https://www.denvergazette.com/2026/04/16/puc-power-pathway-elbert-county/",
+      "https://coloradosun.com/2026/04/15/puc-xcel-power-pathway-elbert/",
+      "https://www.9news.com/article/news/local/colorado-news/puc-overrides-elbert-county-xcel/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "statewide",
+    "county_lean": "R",
+    "issue_category": [
+      "grid_energy",
+      "community_impact",
+      "transparency"
+    ],
+    "authority_level": "utility_commission",
+    "objective": "Block Xcel Power Pathway transmission line through Elbert County",
+    "community_outcome": "loss"
+  },
+  {
+    "id": "washington-state-utc-data-center-review-2026-04",
+    "jurisdiction": "Washington State (UTC data center review)",
+    "state": "WA",
+    "county": null,
+    "lat": 47.0379,
+    "lng": -122.9007,
+    "action_type": [
+      "utility_regulation",
+      "study_or_report"
+    ],
+    "date": "2026-04-01",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Washington Utilities and Transportation Commission (UTC) opened a review in April 2026 of how utilities should allocate data-center-driven grid costs, modeled partly on Oregon's and Oklahoma's ratepayer-protection efforts. Written public comments are due April 21, 2026, and the UTC has scheduled a stakeholder workshop for April 27, 2026. The review is expected to shape tariff structures for large-load customers statewide.",
+    "sources": [
+      "https://www.utc.wa.gov/news/2026/utc-opens-data-center-cost-allocation-review",
+      "https://www.seattletimes.com/business/technology/2026/04/washington-utc-data-center-rate-review/"
+    ],
+    "data_source": "agent_research",
+    "last_updated": "2026-04-19",
+    "scope": "statewide",
+    "county_lean": null,
+    "issue_category": [
+      "grid_energy",
+      "ratepayer"
+    ],
+    "authority_level": "utility_commission",
+    "objective": "Review data center cost allocation and tariff structure statewide in Washington",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "virginia-statewide-wapo-schar-poll-va-2026-04-15",
+    "jurisdiction": "Virginia (statewide)",
+    "state": "VA",
+    "county": null,
+    "lat": 37.5647,
+    "lng": -77.412,
+    "action_type": [
+      "study_or_report"
+    ],
+    "date": "2026-04-15",
+    "status": "passed",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": "Washington Post-Schar School Poll",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Virginia Data Center Reform Coalition",
+      "Piedmont Environmental Council"
+    ],
+    "opposition_website": "https://www.pecva.org/datacenters",
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "A Washington Post-Schar School poll of Virginia registered voters released April 15, 2026 found that support for data center development in Virginia has COLLAPSED from 69% in 2022 to 35% in April 2026, with majorities now citing concerns about electricity rates, water use, and community character. The poll validates the arguments of the Virginia Data Center Reform Coalition and Piedmont Environmental Council and is expected to shape the 2027 legislative session.",
+    "sources": [
+      "https://www.washingtonpost.com/dc-md-va/2026/04/15/virginia-data-center-poll-schar-school/",
+      "https://schar.gmu.edu/research-center/data-center-poll-2026/",
+      "https://virginiamercury.com/2026/04/16/virginia-voters-sour-on-data-centers-wapo-poll/"
+    ],
+    "data_source": "news",
+    "last_updated": "2026-04-19",
+    "scope": "statewide",
+    "county_lean": null,
+    "issue_category": [
+      "community_impact",
+      "environmental",
+      "grid_energy",
+      "ratepayer",
+      "water"
+    ],
+    "authority_level": "state_legislature",
+    "objective": "Document collapsing statewide support for data centers in Virginia",
+    "community_outcome": "win"
+  },
+  {
+    "id": "south-carolina-statewide-moratorium-h-5526-sc-2026-04-14",
+    "jurisdiction": "South Carolina (statewide moratorium H 5526)",
+    "state": "SC",
+    "county": "Richland County",
+    "lat": 34.0007,
+    "lng": -81.0348,
+    "action_type": [
+      "legislation",
+      "moratorium"
+    ],
+    "date": "2026-04-14",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": "H 5526",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "South Carolina Community Rights Coalition"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "South Carolina H 5526, introduced by Rep. Steven Long (R), would impose a statewide moratorium on new data center permits, approvals, and incentives pending the adoption of comprehensive regulations. The bill was referred to the House Ways and Means Committee on April 14, 2026. It joins the earlier H 5286 (Hager) as a second statewide moratorium vehicle following escalating opposition in Marion, Colleton, York, and Cherokee counties.",
+    "sources": [
+      "https://legiscan.com/SC/bill/H5526/2026",
+      "https://www.scstatehouse.gov/sess126_2025-2026/bills/5526.htm",
+      "https://scdailygazette.com/2026/04/14/sc-h5526-data-center-moratorium-long/"
+    ],
+    "data_source": "news",
+    "last_updated": "2026-04-19",
+    "scope": "statewide",
+    "county_lean": null,
+    "issue_category": [
+      "community_impact",
+      "tax_incentive",
+      "zoning"
+    ],
+    "authority_level": "state_legislature",
+    "objective": "Block data center permits statewide pending new SC regulations via H 5526",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "southaven-xai-naacp-federal-lawsuit-ms-2026-04-14",
+    "jurisdiction": "Southaven (NAACP federal Clean Air Act lawsuit)",
+    "state": "MS",
+    "county": "DeSoto County",
+    "lat": 34.9689,
+    "lng": -89.9978,
+    "action_type": [
+      "lawsuit"
+    ],
+    "date": "2026-04-14",
+    "status": "pending",
+    "company": "xAI / MZX Tech LLC",
+    "hyperscaler": "xAI",
+    "project_name": "Colossus 2",
+    "investment_million_usd": 20000,
+    "megawatts": 495,
+    "acreage": 114,
+    "building_sq_ft": 810000,
+    "water_usage_gallons_per_day": 1300000,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "NAACP",
+      "Southern Environmental Law Center",
+      "Earthjustice",
+      "Safe and Sound Coalition"
+    ],
+    "opposition_website": "https://safeandsound.info",
+    "opposition_facebook": "https://www.facebook.com/people/Safe-and-Sound-Coalition/61587372716516/",
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": 900,
+    "summary": "On April 14, 2026, the NAACP — represented by the Southern Environmental Law Center and Earthjustice — filed a federal Clean Air Act lawsuit against xAI and subsidiary MZX Tech LLC in the U.S. District Court for the Northern District of Mississippi. The complaint seeks statutory penalties of up to $124,400 per day for operating 27 unpermitted natural gas turbines at the Southaven facility, the largest industrial NOx source in the 11-county Memphis metro. This is a separate action from the February 2026 notice of intent and the April 9 state permit appeal.",
+    "sources": [
+      "https://earthjustice.org/press/2026/naacp-files-federal-clean-air-act-lawsuit-xai-southaven",
+      "https://naacp.org/articles/naacp-files-federal-lawsuit-xai-mississippi-april-2026",
+      "https://www.selc.org/press-release/naacp-files-federal-clean-air-act-lawsuit-against-xai-april-2026/",
+      "https://mississippitoday.org/2026/04/14/xai-naacp-federal-lawsuit-southaven/"
+    ],
+    "data_source": "news",
+    "last_updated": "2026-04-19",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "anti_ai",
+      "community_impact",
+      "environmental",
+      "grid_energy"
+    ],
+    "authority_level": "court",
+    "objective": "Seek federal Clean Air Act penalties against xAI's unpermitted Southaven turbines",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "north-franklin-township-pa-2026-04-14",
+    "jurisdiction": "North Franklin Township",
+    "state": "PA",
+    "county": "Washington County",
+    "lat": 40.1773,
+    "lng": -80.2442,
+    "action_type": [
+      "ordinance"
+    ],
+    "date": "2026-04-14",
+    "status": "passed",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "North Franklin Township (Washington County) adopted a proactive ordinance on April 14-16, 2026 regulating cryptocurrency mining and data center operations. No developer has filed a project yet — supervisors called the move 'extremely proactive.' The ordinance includes setbacks, noise limits, and siting requirements designed to protect residential areas before any developer interest emerges.",
+    "sources": [
+      "https://observer-reporter.com/news/2026/04/north-franklin-township-adopts-data-center-crypto-mining-ordinance/",
+      "https://www.post-gazette.com/local/washington/2026/04/16/north-franklin-township-data-center-ordinance-proactive/"
+    ],
+    "data_source": "news",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "township_board",
+    "objective": "Proactive data center and crypto mining regulation ordinance",
+    "community_outcome": "win",
+    "last_updated": "2026-04-19"
+  },
+  {
+    "id": "montour-county-zoning-amendment-pa-2026-04-14",
+    "jurisdiction": "Montour County (zoning amendment)",
+    "state": "PA",
+    "county": "Montour County",
+    "lat": 41.0319,
+    "lng": -76.6592,
+    "action_type": [
+      "ordinance"
+    ],
+    "date": "2026-04-14",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Montour County Commissioners approved a notice of intent on April 14, 2026 to adopt a 26-page zoning amendment covering cryptocurrency mining, AI data centers, and hyperscaler facilities. The amendment follows the commissioners' February 2026 unanimous denial of a Talen Energy rezoning request and establishes comprehensive siting standards for high-density compute operations countywide.",
+    "sources": [
+      "https://www.standardjournal.com/news/local/article_montour-county-zoning-amendment-data-center-april-2026.html",
+      "https://www.pressenterpriseonline.com/2026/04/15/montour-county-advances-data-center-zoning-amendment/"
+    ],
+    "data_source": "news",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning"
+    ],
+    "authority_level": "county_commission",
+    "objective": "26-page zoning amendment covering crypto, AI, and hyperscaler data centers",
+    "community_outcome": "pending",
+    "last_updated": "2026-04-19"
   }
 ]

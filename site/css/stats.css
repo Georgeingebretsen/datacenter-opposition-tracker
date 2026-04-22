@@ -91,7 +91,8 @@
   gap: 0.6rem;
 }
 .bar-label {
-  min-width: 140px;
+  width: 220px;
+  flex-shrink: 0;
   text-align: right;
   font-size: 0.82rem;
   font-weight: 500;
@@ -129,7 +130,7 @@
   align-items: start;
 }
 .outcomes-bars .bar-label {
-  min-width: 100px;
+  width: 280px;
 }
 
 /* Donut chart */
@@ -224,15 +225,21 @@
 .bar-fill.hyp-xai { background: #1DA1F2; }
 .bar-fill.hyp-default { background: var(--accent); }
 
-/* Status colors for outcomes */
-.bar-fill.status-active { background: #66800B; }
-.bar-fill.status-cancelled { background: #66800B; }
-.bar-fill.status-defeated { background: #66800B; }
-.bar-fill.status-enacted { background: #66800B; }
+/* Outcome colors — match site palette (no green/red to avoid value judgment) */
+.bar-fill.outcome-win { background: #24837B; }       /* teal — favorable */
+.bar-fill.outcome-loss { background: #BC5215; }      /* orange — unfavorable */
+.bar-fill.outcome-pending { background: #AD8301; }   /* yellow */
+.bar-fill.outcome-mixed { background: #878580; }     /* gray */
+
+/* Legacy status classes (kept for back-compat; prefer outcome-* going forward) */
+.bar-fill.status-active { background: #24837B; }
+.bar-fill.status-cancelled { background: #24837B; }
+.bar-fill.status-defeated { background: #24837B; }
+.bar-fill.status-enacted { background: #24837B; }
 .bar-fill.status-ongoing { background: #AD8301; }
-.bar-fill.status-pending { background: #BC5215; }
-.bar-fill.status-delayed { background: #BC5215; }
-.bar-fill.status-approved { background: #AF3029; }
+.bar-fill.status-pending { background: #AD8301; }
+.bar-fill.status-delayed { background: #AD8301; }
+.bar-fill.status-approved { background: #BC5215; }
 .bar-fill.status-expired { background: #878580; }
 .bar-fill.status-mixed { background: #878580; }
 

@@ -2,6 +2,13 @@
  * Stats page — all charts computed dynamically from fights.json
  */
 
+// action_type is an array; this helper handles both array and legacy string form
+function hasAction(f, t) {
+  const a = f.action_type;
+  if (Array.isArray(a)) return a.includes(t);
+  return a === t;
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   const resp = await fetch('data/fights.json');
   const fights = await resp.json();
@@ -140,7 +147,7 @@ function renderHeroStats(fights, petitionData) {
   const totalInv = fights.reduce((s, f) => s + (getInvestment(f) || 0), 0);
   const blocked = fights.filter(f => ['cancelled', 'defeated'].includes(f.status));
   const blockedInv = blocked.reduce((s, f) => s + (getInvestment(f) || 0), 0);
-  const activeMoratoria = fights.filter(f => f.action_type === 'moratorium' && ['active', 'enacted', 'approved'].includes(f.status)).length;
+  const activeMoratoria = fights.filter(f => hasAction(f, 'moratorium') && ['active', 'enacted', 'approved'].includes(f.status)).length;
 
   document.getElementById('s-total').textContent = fights.length.toLocaleString();
   document.getElementById('s-states').textContent = states.size;
@@ -224,31 +231,22 @@ function renderTimeline(fights) {
 // --- Outcomes ---
 
 function renderOutcomes(fights) {
-  // Group statuses into display categories
-  const statusGroups = {
-    'Active': f => f.status === 'active',
-    'Ongoing': f => f.status === 'ongoing',
-    'Pending': f => f.status === 'pending',
-    'Cancelled / Defeated': f => ['cancelled', 'defeated'].includes(f.status),
-    'Enacted': f => f.status === 'enacted',
-    'Approved (for developer)': f => f.status === 'approved',
-    'Delayed': f => f.status === 'delayed',
-    'Expired / Other': f => ['expired', 'mixed'].includes(f.status),
+  // Group by community_outcome — the canonical outcome field
+  const outcomeGroups = {
+    'Resolved – Favorable for communities': f => f.community_outcome === 'win',
+    'Pending': f => f.community_outcome === 'pending',
+    'Resolved – Unfavorable for communities': f => f.community_outcome === 'loss',
+    'Resolved – Mixed': f => f.community_outcome === 'mixed',
   };
-
-  const statusColors = {
-    'Active': 'status-active',
-    'Ongoing': 'status-ongoing',
-    'Pending': 'status-pending',
-    'Cancelled / Defeated': 'status-cancelled',
-    'Enacted': 'status-enacted',
-    'Approved (for developer)': 'status-approved',
-    'Delayed': 'status-delayed',
-    'Expired / Other': 'status-expired',
+  const outcomeColors = {
+    'Resolved – Favorable for communities': 'outcome-win',
+    'Pending': 'outcome-pending',
+    'Resolved – Unfavorable for communities': 'outcome-loss',
+    'Resolved – Mixed': 'outcome-mixed',
   };
 
   const counts = {};
-  for (const [label, fn] of Object.entries(statusGroups)) {
+  for (const [label, fn] of Object.entries(outcomeGroups)) {
     counts[label] = fights.filter(fn).length;
   }
 
@@ -260,18 +258,19 @@ function renderOutcomes(fights) {
       <div class="bar-row">
         <span class="bar-label">${label}</span>
         <div class="bar-track">
-          <div class="bar-fill ${statusColors[label]}" style="width: ${(count / maxCount) * 100}%"></div>
+          <div class="bar-fill ${outcomeColors[label]}" style="width: ${(count / maxCount) * 100}%"></div>
         </div>
         <span class="bar-value">${count}</span>
       </div>
     `).join('');
 
-  // Moratorium donut
-  const moratoria = fights.filter(f => f.action_type === 'moratorium');
-  const mHolding = moratoria.filter(f => ['active', 'enacted', 'approved'].includes(f.status)).length;
-  const mFailed = moratoria.filter(f => ['defeated', 'expired'].includes(f.status)).length;
-  const mPending = moratoria.filter(f => ['pending', 'ongoing', 'delayed'].includes(f.status)).length;
-  const mCancelled = moratoria.filter(f => f.status === 'cancelled').length;
+  // Moratorium donut — action_type is an array now
+  const hasAction = (f, t) => Array.isArray(f.action_type) ? f.action_type.includes(t) : f.action_type === t;
+  const moratoria = fights.filter(f => hasAction(f, 'moratorium'));
+  const mHolding = moratoria.filter(f => f.community_outcome === 'win').length;
+  const mFailed = moratoria.filter(f => f.community_outcome === 'loss').length;
+  const mPending = moratoria.filter(f => f.community_outcome === 'pending').length;
+  const mCancelled = moratoria.filter(f => f.community_outcome === 'mixed').length;
   const total = moratoria.length || 1;
 
   const holdPct = Math.round((mHolding / total) * 100);
@@ -279,12 +278,12 @@ function renderOutcomes(fights) {
   document.getElementById('moratorium-subtitle').textContent =
     `${mHolding} holding of ${total} moratoriums (${holdPct}%)`;
 
-  // Simple donut SVG
+  // Donut segments — matches site outcome palette (teal+orange+yellow+gray, no green/red)
   const segments = [
-    { val: mHolding, color: '#66800B', label: 'Holding' },
+    { val: mHolding, color: '#24837B', label: 'Favorable for communities' },
     { val: mPending, color: '#AD8301', label: 'Pending' },
-    { val: mCancelled, color: '#BC5215', label: 'Cancelled' },
-    { val: mFailed, color: '#878580', label: 'Expired/Defeated' },
+    { val: mFailed, color: '#BC5215', label: 'Unfavorable for communities' },
+    { val: mCancelled, color: '#878580', label: 'Mixed' },
   ].filter(s => s.val > 0);
 
   let donutSvg = `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">`;
@@ -342,15 +341,15 @@ function renderCallouts(fights, petitionData) {
   // Moratoriums per day in peak month
   const byMonth = {};
   fights.forEach(f => {
-    if (f.action_type === 'moratorium' && f.date && f.date.length >= 7)
+    if (hasAction(f, 'moratorium') && f.date && f.date.length >= 7)
       byMonth[f.date.slice(0,7)] = (byMonth[f.date.slice(0,7)] || 0) + 1;
   });
   const peakMorMonth = Object.entries(byMonth).sort((a,b) => b[1]-a[1])[0];
   const morPerDay = peakMorMonth ? (peakMorMonth[1] / 28).toFixed(1) : '?';
 
   // R vs D moratorium comparison
-  const rMor = fights.filter(f => f.action_type === 'moratorium' && f.county_lean === 'R').length;
-  const dMor = fights.filter(f => f.action_type === 'moratorium' && f.county_lean === 'D').length;
+  const rMor = fights.filter(f => hasAction(f, 'moratorium') && f.county_lean === 'R').length;
+  const dMor = fights.filter(f => hasAction(f, 'moratorium') && f.county_lean === 'D').length;
 
   const cards = [
     { number: formatBigNumber(blockedInv), color: 'green', label: 'in projects where communities shaped the outcome' },
@@ -398,7 +397,7 @@ function renderHyperscalerScorecard(fights) {
     if (f.status === 'approved') stats[h].approved++;
     stats[h].investment += getInvestment(f) || 0;
     stats[h].petitions += f.petition_signatures || 0;
-    if (f.action_type === 'moratorium') stats[h].moratoria++;
+    if (hasAction(f, 'moratorium')) stats[h].moratoria++;
   });
 
   const sorted = Object.entries(stats).filter(([,s]) => s.fights >= 3).sort((a,b) => b[1].fights - a[1].fights);
@@ -559,13 +558,15 @@ function renderWinRateByTool(fights) {
 
   const stats = {};
   fights.forEach(f => {
-    const at = f.action_type || 'other';
-    if (!stats[at]) stats[at] = { total: 0, wins: 0, losses: 0, pending: 0 };
-    stats[at].total++;
+    const types = Array.isArray(f.action_type) ? f.action_type : (f.action_type ? [f.action_type] : ['other']);
     const o = f.community_outcome || 'pending';
-    if (o === 'win') stats[at].wins++;
-    else if (o === 'loss') stats[at].losses++;
-    else stats[at].pending++;
+    types.forEach(at => {
+      if (!stats[at]) stats[at] = { total: 0, wins: 0, losses: 0, pending: 0 };
+      stats[at].total++;
+      if (o === 'win') stats[at].wins++;
+      else if (o === 'loss') stats[at].losses++;
+      else stats[at].pending++;
+    });
   });
 
   // Only show types with 5+ entries

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fight — American Data Center Community Response</title>
+  <meta name="description" content="A story about how American communities are responding to the AI data center boom.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/stats-story.css" />
+</head>
+<body class="story-body">
+
+  <nav class="story-nav">
+    <a href="index.html" class="story-nav-link">Home</a>
+    <a href="legislation.html" class="story-nav-link">Legislation</a>
+    <a href="stats.html" class="story-nav-link">Dashboard</a>
+    <span class="story-nav-link active">Story</span>
+  </nav>
+
+  <!-- Opening hero -->
+  <section class="story-hero">
+    <div class="story-hero-inner">
+      <p class="eyebrow">A movement appeared</p>
+      <h1>The people fighting<br>AI's hunger for power</h1>
+      <p class="lede">
+        Since 2020, Americans across <strong id="lede-states">—</strong> states have filed
+        <strong id="lede-total">—</strong> community actions against data center development.
+        This is how the fight is going.
+      </p>
+      <div class="scroll-hint">scroll ↓</div>
+    </div>
+  </section>
+
+  <!-- CH 1: Acceleration -->
+  <section class="chapter" id="ch-acceleration">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 1</p>
+      <h2>The acceleration</h2>
+      <p class="dek">For a decade, data center opposition was rare. Then something changed.</p>
+    </div>
+    <div class="scrollyscene">
+      <div class="scrollyscene-viz">
+        <div class="viz-frame">
+          <div class="viz-title" id="timeline-title">All community actions, 2018–2026</div>
+          <div id="timeline-chart" class="chart-container"></div>
+          <div class="year-scrubber">
+            <input type="range" id="year-slider" min="2018" max="2026" value="2026" step="1">
+            <div class="scrub-readout">
+              <div>
+                <span class="scrub-year" id="scrub-year">2026</span>
+                <span class="scrub-year-label">Through</span>
+              </div>
+              <div>
+                <span class="scrub-count" id="scrub-count">—</span>
+                <span class="scrub-count-label">cumulative actions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scrollyscene-steps">
+        <div class="step" data-year="2019">
+          <p>Before 2020, data center opposition barely existed. A handful of zoning fights per year, scattered across the country.</p>
+        </div>
+        <div class="step" data-year="2022">
+          <p>By 2022, the pace had doubled. Counties started passing short-term moratoria as projects multiplied.</p>
+        </div>
+        <div class="step" data-year="2023">
+          <p><strong>2023 was the inflection.</strong> ChatGPT was a year old. Hyperscalers announced gigawatt-scale builds. Monthly action counts went vertical.</p>
+        </div>
+        <div class="step" data-year="2024">
+          <p>In 2024, new community actions appeared <strong>every week</strong>. A local movement became a national one.</p>
+        </div>
+        <div class="step" data-year="2026">
+          <p>Today, the tracker logs <strong id="step-total-a">—</strong> actions in <strong id="step-states-a">—</strong> states. Drag the slider above to see how it built.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CH 2: Stakes -->
+  <section class="chapter chapter-dark" id="ch-stakes">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 2</p>
+      <h2>What's at stake</h2>
+      <p class="dek">A hyperscale data center doesn't draw power like a factory. It draws power like a city.</p>
+    </div>
+    <div class="stakes-container">
+      <div class="stakes-intro">
+        <p>The median project in our tracker draws <strong>500 megawatts</strong>. The largest, in Beaver County, Utah, is planned for <strong>10 gigawatts</strong> — more electricity than the state of Rhode Island uses.</p>
+        <p>Pick a size to see what that means:</p>
+      </div>
+
+      <div class="size-slider-card">
+        <div class="size-readout">
+          <span class="size-value" id="size-value">1000</span>
+          <span class="size-unit">MW</span>
+        </div>
+        <input type="range" id="size-slider" min="50" max="5000" value="1000" step="50">
+        <div class="size-presets">
+          <button class="preset-btn" data-mw="100">100 MW</button>
+          <button class="preset-btn" data-mw="500">500 MW</button>
+          <button class="preset-btn" data-mw="1000">1 GW</button>
+          <button class="preset-btn" data-mw="2500">2.5 GW</button>
+          <button class="preset-btn" data-mw="5000">5 GW</button>
+        </div>
+
+        <div class="comparison-grid">
+          <div class="comp-card">
+            <span class="comp-number" id="comp-homes">—</span>
+            <span class="comp-label">average US homes' annual electricity</span>
+          </div>
+          <div class="comp-card">
+            <span class="comp-number" id="comp-seattle">—</span>
+            <span class="comp-label">× Seattle's peak power draw (~1.4 GW)</span>
+          </div>
+          <div class="comp-card">
+            <span class="comp-number" id="comp-water">—</span>
+            <span class="comp-label">gallons of water per day (evaporative cooling)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stakes-footer">
+        <p>For comparison — the <strong>combined projects</strong> in our tracker total <strong id="stakes-total-mw">—</strong> of proposed capacity. That's more than the entire electricity output of some mid-size countries.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CH 3: Toolkit -->
+  <section class="chapter" id="ch-toolkit">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 3</p>
+      <h2>The toolkit</h2>
+      <p class="dek">Communities are fighting. Some tactics work almost every time. Others almost never do.</p>
+    </div>
+    <div class="toolkit-container">
+      <div class="toolkit-callout">
+        <div class="big-stat">
+          <span class="big-stat-number"><span id="toolkit-withdraw-rate">96</span>%</span>
+          <span class="big-stat-label">of fights that end in <strong>project withdrawal</strong> are won by the community</span>
+        </div>
+        <div class="big-stat">
+          <span class="big-stat-number"><span id="toolkit-pc-rate">2</span>%</span>
+          <span class="big-stat-label">of fights using only <strong>public comment</strong> succeed</span>
+        </div>
+      </div>
+      <div id="winrate-chart" class="chart-block"></div>
+      <p class="chapter-note">
+        A fight can use multiple tools, so totals exceed the action count. Only action types with 5+ resolved fights are shown.
+      </p>
+    </div>
+  </section>
+
+  <!-- CH 4: Scorecard -->
+  <section class="chapter chapter-muted" id="ch-scorecard">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 4</p>
+      <h2>The scorecard</h2>
+      <p class="dek">Not every hyperscaler faces the same resistance.</p>
+    </div>
+    <div class="scorecard-wrap">
+      <div id="hyperscaler-scorecard"></div>
+    </div>
+  </section>
+
+  <!-- CH 5: Geography -->
+  <section class="chapter" id="ch-geography">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 5</p>
+      <h2>The map of resistance</h2>
+      <p class="dek">The fights are concentrated — and they cross partisan lines.</p>
+    </div>
+    <div class="geography-grid">
+      <div class="geo-card">
+        <h3>Top states by action count</h3>
+        <div class="bar-chart" id="state-count-chart"></div>
+      </div>
+      <div class="geo-card">
+        <h3>Top states by petition signatures</h3>
+        <div class="bar-chart" id="state-sigs-chart"></div>
+      </div>
+    </div>
+    <div class="partisan-block">
+      <h3>This isn't a red or blue story</h3>
+      <p class="dek">County lean based on 2024 presidential results</p>
+      <div id="partisan-bar"></div>
+    </div>
+  </section>
+
+  <!-- CH 6: Size vs attention (the surprise) -->
+  <section class="chapter" id="ch-size">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 6</p>
+      <h2>Does size matter?</h2>
+      <p class="dek">You'd expect bigger projects to get bigger opposition. They don't.</p>
+    </div>
+    <div class="size-corr-wrap">
+      <div id="size-corr-chart"></div>
+      <p class="chapter-note">
+        Median petition size is nearly flat across project sizes. A 50 MW exurban build draws roughly the same signature count as a 1 GW hyperscale campus. Local stakes — water, traffic, farmland — mobilize people more reliably than scale.
+      </p>
+    </div>
+  </section>
+
+  <!-- CH 7: Scoreboard -->
+  <section class="chapter chapter-dark" id="ch-scoreboard">
+    <div class="chapter-header">
+      <p class="chapter-number">Chapter 7</p>
+      <h2>The scoreboard</h2>
+      <p class="dek">Where do things stand?</p>
+    </div>
+    <div class="scoreboard-wrap">
+      <div id="outcome-summary"></div>
+      <div class="scoreboard-stats">
+        <div class="score-stat">
+          <span class="score-num" id="score-wins">—</span>
+          <span class="score-label">fights communities have won</span>
+        </div>
+        <div class="score-stat">
+          <span class="score-num" id="score-moratoria">—</span>
+          <span class="score-label">active moratoria</span>
+        </div>
+        <div class="score-stat">
+          <span class="score-num" id="score-pending">—</span>
+          <span class="score-label">fights still unresolved</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Epilogue -->
+  <section class="story-outro">
+    <div class="story-outro-inner">
+      <p class="eyebrow">Read more</p>
+      <h2>Explore the full data</h2>
+      <p class="lede">
+        Every fight, every bill, every community group in this story is documented in the tracker. Browse, search, download.
+      </p>
+      <div class="outro-links">
+        <a href="index.html" class="outro-btn">All community actions →</a>
+        <a href="legislation.html" class="outro-btn">Legislation tracker →</a>
+        <a href="stats.html" class="outro-btn">Full stats dashboard →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="license-notice">
+        Data licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        Code licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/stats-story.js"></script>
+</body>
+</html>

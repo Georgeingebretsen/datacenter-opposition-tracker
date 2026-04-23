@@ -58,6 +58,8 @@ Promise.all([
     initKicker(fights);
     initHyperscalers(fights);
     initChapterRail();
+    initRevealOnScroll();
+    initScrollProgress();
     initCountUps();   // must run last so all data-count attrs are set
   })
   .catch(e => console.error('stats-story init failed:', e));
@@ -274,6 +276,7 @@ function initMap(fights, usTopo) {
         name: f.project_name || f.jurisdiction || '(unnamed)',
         state: f.state || '',
         company: (Array.isArray(f.company) ? f.company[0] : f.company) || '',
+        id: f.id,
       };
     })
     .filter(Boolean);
@@ -309,9 +312,31 @@ function initMap(fights, usTopo) {
     .attr('fill', d => COLORS[d.outcome] || COLORS.pending)
     .attr('fill-opacity', 0.72)
     .on('mousemove', showTip)
-    .on('mouseleave', hideTip);
+    .on('mouseleave', hideTip)
+    .on('click', (e, d) => {
+      if (!d.id) return;
+      window.open(`index.html?id=${encodeURIComponent(d.id)}`, '_blank', 'noopener');
+    });
 
-  // Year slider
+  // Legend filter — click a legend item to solo by outcome (click again to clear).
+  const legendItems = document.querySelectorAll('.map-legend .legend-item');
+  legendItems.forEach(item => {
+    const outcome = item.dataset.outcome;
+    if (!outcome) return;
+    item.style.cursor = 'pointer';
+    item.addEventListener('click', () => {
+      activeOutcome = (activeOutcome === outcome) ? null : outcome;
+      legendItems.forEach(li => {
+        const ocome = li.dataset.outcome;
+        li.classList.toggle('is-active', ocome === activeOutcome);
+        li.classList.toggle('is-dim', Boolean(activeOutcome) && ocome !== activeOutcome);
+      });
+      applyYear(Number(slider ? slider.value : 2026));
+    });
+  });
+
+  // Year slider + legend filter state
+  let activeOutcome = null;
   const slider = document.getElementById('map-slider');
   const yearEl = document.getElementById('map-year');
   const countEl = document.getElementById('map-count');
@@ -344,9 +369,11 @@ function initMap(fights, usTopo) {
     if (yearEl) yearEl.textContent = y;
     let n = 0;
     dots.attr('opacity', d => {
-      const visible = d.year !== null && d.year <= y;
+      const yearOk = d.year !== null && d.year <= y;
+      const outcomeOk = !activeOutcome || d.outcome === activeOutcome;
+      const visible = yearOk && outcomeOk;
       if (visible) n++;
-      return visible ? 1 : 0;
+      return visible ? 1 : (activeOutcome && yearOk ? 0.08 : 0);
     });
     if (countEl) countEl.textContent = n.toLocaleString();
     if (slider) {
@@ -736,6 +763,38 @@ function initHyperscalers(fights) {
 // ============================================================
 // Chapter rail active state
 // ============================================================
+function initScrollProgress() {
+  const bar = document.getElementById('scroll-progress');
+  if (!bar) return;
+  let ticking = false;
+  const handler = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = h > 0 ? Math.max(0, Math.min(100, (window.scrollY / h) * 100)) : 0;
+      bar.style.width = pct + '%';
+      ticking = false;
+    });
+  };
+  window.addEventListener('scroll', handler, { passive: true });
+  handler();
+}
+
+function initRevealOnScroll() {
+  const selectors = ['.chapter-header', '.case-study', '.kicker-block', '.credibility-note', '.mismatch-conclusion'];
+  const els = document.querySelectorAll(selectors.join(','));
+  els.forEach(el => el.classList.add('reveal-on-scroll'));
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting && e.intersectionRatio > 0.15) {
+        e.target.classList.add('is-visible');
+      }
+    });
+  }, { threshold: [0.15] });
+  els.forEach(el => obs.observe(el));
+}
+
 function initChapterRail() {
   const dots = document.querySelectorAll('.rail-dot');
   const sections = Array.from(dots).map(d => {

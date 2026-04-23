@@ -58,6 +58,7 @@ Promise.all([
     initSizeCorrelation(fights);
     initKicker(fights);
     initHyperscalers(fights);
+    initPipeline(fights);
     initChapterRail();
     initRevealOnScroll();
     initScrollProgress();
@@ -799,6 +800,72 @@ function initHyperscalers(fights) {
   html += '</tbody></table>';
   const el = document.getElementById('hyperscaler-scorecard');
   if (el) el.innerHTML = html;
+}
+
+// ============================================================
+// Pipeline — 6 most recently added pending fights
+// ============================================================
+function fmtRelative(dateStr) {
+  if (!dateStr) return '';
+  const then = new Date(dateStr);
+  if (isNaN(then)) return '';
+  const now = new Date();
+  const days = Math.floor((now - then) / 86400000);
+  if (days <= 0) return 'today';
+  if (days === 1) return '1 day ago';
+  if (days < 7) return `${days} days ago`;
+  if (days < 30) return `${Math.floor(days / 7)}w ago`;
+  if (days < 365) return `${Math.floor(days / 30)}mo ago`;
+  return `${Math.floor(days / 365)}y ago`;
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+function initPipeline(fights) {
+  const container = document.getElementById('pipeline-strip');
+  if (!container) return;
+
+  const pending = fights
+    .filter(f => !f.community_outcome || f.community_outcome === 'pending')
+    .filter(f => f.date || f.last_updated)
+    .sort((a, b) => {
+      const ad = a.last_updated || a.date;
+      const bd = b.last_updated || b.date;
+      return bd.localeCompare(ad);
+    })
+    .slice(0, 6);
+
+  container.innerHTML = pending.map(f => {
+    const name = escapeHtml(f.project_name || f.jurisdiction || '(unnamed)');
+    const state = escapeHtml(f.state || '');
+    const company = Array.isArray(f.company) ? f.company[0] : f.company;
+    const mw = getMW(f);
+    const groups = Array.isArray(f.opposition_groups) ? f.opposition_groups : [];
+    const date = f.last_updated || f.date;
+    const meta = [
+      company ? 'vs ' + escapeHtml(company) : 'Developer TBD',
+      mw ? fmtMW(mw) : '',
+    ].filter(Boolean).join(' · ');
+    const groupsText = groups.length
+      ? groups.slice(0, 2).map(escapeHtml).join(' · ') + (groups.length > 2 ? ` · +${groups.length - 2}` : '')
+      : '';
+    return `
+      <a class="pipeline-card" href="index.html?id=${encodeURIComponent(f.id)}" target="_blank" rel="noopener">
+        <div class="pipeline-card-top">
+          <span class="pipeline-state">${state}</span>
+          <span class="pipeline-date">${fmtRelative(date)}</span>
+        </div>
+        <h3 class="pipeline-name">${name}</h3>
+        <p class="pipeline-meta">${meta}</p>
+        ${groupsText ? `<p class="pipeline-groups">${groupsText}</p>` : ''}
+        <span class="pipeline-arrow">→</span>
+      </a>
+    `;
+  }).join('');
 }
 
 // ============================================================

@@ -50,6 +50,7 @@ Promise.all([
   .then(([fights, us]) => {
     initLiveIndicator(fights);
     initHero(fights);
+    initHeroBackground(fights, us);
     initMismatch(fights);
     initMap(fights, us);
     initNumbers(fights);
@@ -222,6 +223,46 @@ function initMismatch(fights) {
   setCountTarget(byId('m-counties'), countySet.size, { format: 'comma' });
   setCountTarget(byId('m-winrate'), winrate, { format: 'plain', suffix: '%' });
   setCountTarget(byId('m-hyprate'), hyprate, { format: 'plain', suffix: '%' });
+}
+
+// ============================================================
+// Hero ambient map background
+// ============================================================
+function initHeroBackground(fights, usTopo) {
+  const container = document.getElementById('hero-bg');
+  if (!container || !usTopo || typeof d3 === 'undefined') return;
+
+  const W = 1200, H = 800;
+  const svg = d3.select(container).append('svg')
+    .attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('preserveAspectRatio', 'xMidYMid slice');
+
+  const projection = d3.geoAlbersUsa().scale(1600).translate([W / 2, H / 2]);
+  const path = d3.geoPath(projection);
+
+  if (usTopo.objects && usTopo.objects.states) {
+    const states = topojson.feature(usTopo, usTopo.objects.states);
+    svg.append('g').selectAll('path')
+      .data(states.features)
+      .enter().append('path')
+      .attr('class', 'state-path')
+      .attr('d', path);
+  }
+
+  // All fights as small dim dots — outcome-colored so the data still reads
+  svg.append('g').selectAll('circle')
+    .data(fights.filter(f => f.lat && f.lng))
+    .enter().append('circle')
+    .attr('class', 'fight-dot')
+    .attr('cx', d => {
+      const p = projection([+d.lng, +d.lat]); return p ? p[0] : -9999;
+    })
+    .attr('cy', d => {
+      const p = projection([+d.lng, +d.lat]); return p ? p[1] : -9999;
+    })
+    .attr('r', 2.5)
+    .attr('fill', d => COLORS[d.community_outcome || 'pending'])
+    .attr('fill-opacity', 0.55);
 }
 
 // ============================================================

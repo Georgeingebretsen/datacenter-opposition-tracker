@@ -762,6 +762,7 @@ function initKicker(fights) {
   });
   const rate = pcWins + pcLosses > 0 ? Math.round(pcWins / (pcWins + pcLosses) * 100) : 0;
   const byId = id => document.getElementById(id);
+  setCountTarget(byId('kicker-pc-wins'), pcWins, { format: 'plain' });
   setCountTarget(byId('kicker-pc-count'), pcTotal, { format: 'comma' });
   setCountTarget(byId('kicker-pc-rate'), rate, { format: 'plain', suffix: '%' });
 }

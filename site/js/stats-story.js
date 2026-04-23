@@ -406,16 +406,34 @@ function initMap(fights, usTopo) {
     }, 180);
   }
 
-  function applyYear(y) {
+  let prevAppliedYear = null;
+  function applyYear(y, opts = {}) {
     y = Number(y);
+    const animate = opts.animate === true;
     if (yearEl) yearEl.textContent = y;
     let n = 0;
-    dots.attr('opacity', d => {
+    dots.each(function(d) {
       const yearOk = d.year !== null && d.year <= y;
       const outcomeOk = !activeOutcome || d.outcome === activeOutcome;
       const visible = yearOk && outcomeOk;
+      const justAppeared = animate && prevAppliedYear !== null
+        && d.year === y && yearOk && outcomeOk;
+
       if (visible) n++;
-      return visible ? 1 : (activeOutcome && yearOk ? 0.08 : 0);
+
+      const sel = d3.select(this);
+      const opacityTarget = visible ? 1 : (activeOutcome && yearOk ? 0.08 : 0);
+
+      if (justAppeared) {
+        sel
+          .attr('r', 0)
+          .attr('opacity', opacityTarget)
+          .transition().duration(450).ease(d3.easeBackOut.overshoot(1.4))
+          .attr('r', radiusFor(d));
+      } else {
+        sel.attr('r', radiusFor(d));
+        sel.attr('opacity', opacityTarget);
+      }
     });
     if (countEl) countEl.textContent = n.toLocaleString();
     if (slider) {
@@ -424,6 +442,7 @@ function initMap(fights, usTopo) {
       slider.style.setProperty('--fill', fill + '%');
     }
     updateContext(y);
+    prevAppliedYear = y;
   }
   if (slider) {
     slider.addEventListener('input', e => {
@@ -456,8 +475,8 @@ function initMap(fights, usTopo) {
       v++;
       if (v > max) { stopPlay(); return; }
       slider.value = v;
-      applyYear(v);
-    }, 700);
+      applyYear(v, { animate: true });
+    }, 800);
   }
   if (btn) {
     btn.addEventListener('click', () => {

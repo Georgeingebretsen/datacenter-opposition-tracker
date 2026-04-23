@@ -381,6 +381,26 @@ body:has(.chapter-dark:target) .rail-dot { background: rgba(255,252,240,0.3); }
 }
 .map-year-sub span { color: #AF3029; font-weight: 600; }
 
+.map-context {
+  padding: 0.95rem 1.2rem;
+  margin-bottom: 1rem;
+  background: #1C1B1A;
+  color: #CECDC3;
+  border-left: 3px solid #AF3029;
+  border-radius: 6px;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  min-height: 2.6em;
+  transition: opacity 0.3s ease;
+}
+.map-context strong {
+  color: #FFFCF0;
+  font-weight: 600;
+  font-style: normal;
+}
+
 #us-map {
   background: #FFFCF0;
   border: 1px solid #E6E4D9;
@@ -770,13 +790,32 @@ body:has(.chapter-dark:target) .rail-dot { background: rgba(255,252,240,0.3); }
 }
 .case-takeaway strong { color: #100F0F; }
 
-/* Size correlation chart */
+/* Size correlation scatter */
 .size-corr-chart {
-  background: #F2F0E5;
+  background: #FFFCF0;
   border: 1px solid #E6E4D9;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.6rem 1.4rem 0.8rem;
 }
+.scatter-head {
+  margin-bottom: 0.8rem;
+}
+.scatter-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #6F6E69;
+  margin-bottom: 0.35rem;
+}
+.scatter-sub {
+  font-size: 0.85rem;
+  color: #6F6E69;
+  line-height: 1.5;
+}
+.scatter-svg .axis .domain { stroke: #CECDC3; }
+.scatter-svg .axis .tick text { font-family: 'Inter', sans-serif; }
 
 /* Bar charts (reusable) */
 .bar-chart {

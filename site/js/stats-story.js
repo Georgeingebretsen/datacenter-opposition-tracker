@@ -58,8 +58,90 @@ Promise.all([
     initKicker(fights);
     initHyperscalers(fights);
     initChapterRail();
+    initCountUps();   // must run last so all data-count attrs are set
   })
   .catch(e => console.error('stats-story init failed:', e));
+
+// ============================================================
+// Count-up animation engine
+// Elements marked with data-count=N animate on scroll-in.
+// Options: data-count-format (comma|plain|decimal1), data-count-prefix,
+// data-count-suffix, data-count-duration (ms).
+// ============================================================
+function setCountTarget(el, target, opts = {}) {
+  if (!el) return;
+  el.dataset.count = String(target);
+  if (opts.format) el.dataset.countFormat = opts.format;
+  if (opts.prefix !== undefined) el.dataset.countPrefix = opts.prefix;
+  if (opts.suffix !== undefined) el.dataset.countSuffix = opts.suffix;
+  if (opts.duration) el.dataset.countDuration = String(opts.duration);
+  // Initial placeholder: final formatted value with 0 is visually jarring,
+  // so use an em-dash until the animation fires.
+  delete el.dataset.counted;
+  el.textContent = opts.placeholder || '—';
+}
+
+function formatCount(n, format) {
+  switch (format) {
+    case 'plain': return Math.round(n).toString();
+    case 'decimal1': return n.toFixed(1);
+    case 'compact': return fmtNum(n);
+    case 'comma':
+    default: return Math.round(n).toLocaleString();
+  }
+}
+
+function animateCountUp(el) {
+  if (el.dataset.counted) return;
+  const target = parseFloat(el.dataset.count);
+  if (isNaN(target)) return;
+  el.dataset.counted = '1';
+
+  const format = el.dataset.countFormat || 'comma';
+  const prefix = el.dataset.countPrefix || '';
+  const suffix = el.dataset.countSuffix || '';
+  const duration = parseInt(el.dataset.countDuration || '1300', 10);
+
+  const start = performance.now();
+  function tick(now) {
+    const t = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - t, 3); // cubic ease-out
+    const current = target * eased;
+    el.textContent = prefix + formatCount(current, format) + suffix;
+    if (t < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+function initCountUps() {
+  const els = document.querySelectorAll('[data-count]');
+  if (!els.length) return;
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && entry.intersectionRatio > 0.35) {
+        animateCountUp(entry.target);
+      }
+    });
+  }, { threshold: [0.35] });
+  els.forEach(el => obs.observe(el));
+
+  // Safety net: if any targets weren't counted after 3s (e.g., already past
+  // viewport on deep-link load), finalize them.
+  setTimeout(() => {
+    els.forEach(el => {
+      if (!el.dataset.counted) {
+        const t = parseFloat(el.dataset.count);
+        if (!isNaN(t)) {
+          const fmt = el.dataset.countFormat || 'comma';
+          const pre = el.dataset.countPrefix || '';
+          const suf = el.dataset.countSuffix || '';
+          el.textContent = pre + formatCount(t, fmt) + suf;
+          el.dataset.counted = '1';
+        }
+      }
+    });
+  }, 3000);
+}
 
 // ============================================================
 // Live indicator
@@ -91,10 +173,13 @@ function initHero(fights) {
   const losses = fights.filter(f => f.community_outcome === 'loss').length;
   const winrate = Math.round(wins / (wins + losses) * 100);
 
-  const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
-  set('lede-total', total.toLocaleString());
-  set('lede-states', states);
-  set('lede-winrate', winrate + '%');
+  // Hero lede is above the fold — animate immediately, not on scroll.
+  const el1 = document.getElementById('lede-total');
+  const el2 = document.getElementById('lede-states');
+  const el3 = document.getElementById('lede-winrate');
+  if (el1) { setCountTarget(el1, total, { format: 'comma' }); setTimeout(() => animateCountUp(el1), 300); }
+  if (el2) { setCountTarget(el2, states, { format: 'plain' }); setTimeout(() => animateCountUp(el2), 400); }
+  if (el3) { setCountTarget(el3, winrate, { format: 'plain', suffix: '%' }); setTimeout(() => animateCountUp(el3), 500); }
 }
 
 // ============================================================
@@ -127,12 +212,14 @@ function initMismatch(fights) {
   const hypL = hypFights.filter(f => f.community_outcome === 'loss').length;
   const hyprate = Math.round(hypW / (hypW + hypL) * 100);
 
-  const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
-  set('m-groups', groupSet.size.toLocaleString());
-  set('m-total-mw', fmtMW(totalMW));
-  set('m-counties', countySet.size.toLocaleString());
-  set('m-winrate', winrate + '%');
-  set('m-hyprate', hyprate + '%');
+  const byId = id => document.getElementById(id);
+  setCountTarget(byId('m-groups'), groupSet.size, { format: 'comma' });
+  // m-total-mw is a formatted string ("150 GW") — keep static for clarity.
+  const mwEl = byId('m-total-mw');
+  if (mwEl) mwEl.textContent = fmtMW(totalMW);
+  setCountTarget(byId('m-counties'), countySet.size, { format: 'comma' });
+  setCountTarget(byId('m-winrate'), winrate, { format: 'plain', suffix: '%' });
+  setCountTarget(byId('m-hyprate'), hyprate, { format: 'plain', suffix: '%' });
 }
 
 // ============================================================
@@ -228,6 +315,29 @@ function initMap(fights, usTopo) {
   const slider = document.getElementById('map-slider');
   const yearEl = document.getElementById('map-year');
   const countEl = document.getElementById('map-count');
+  const contextEl = document.getElementById('map-context');
+
+  // Year context annotations — shown as a scrubbing caption under the slider.
+  const YEAR_CONTEXT = {
+    2018: '<strong>2018.</strong> Data center construction accelerates in Northern Virginia. Community opposition is virtually nonexistent.',
+    2019: '<strong>2019.</strong> A handful of early zoning fights, mostly around noise and rural land-use concerns.',
+    2020: '<strong>2020.</strong> COVID pauses most public hearings. Hyperscalers quietly continue land acquisition.',
+    2021: '<strong>2021.</strong> Crypto-mining facilities draw the first wave of organized opposition. The AI boom has not yet started.',
+    2022: '<strong>2022.</strong> ChatGPT launches in November. Opposition to data centers remains scattered and local.',
+    2023: '<strong>2023.</strong> Inflection year. Hyperscalers announce gigawatt-scale builds; moratorium ordinances begin spreading county to county.',
+    2024: '<strong>2024.</strong> New community actions appear every week. The movement becomes visibly national.',
+    2025: '<strong>2025.</strong> Record year for moratoria. Statehouses file dozens of data center bills. Large projects get denied.',
+    2026: '<strong>2026 (so far).</strong> Opposition is national, organized, and cross-partisan. The pipeline keeps growing.',
+  };
+  function updateContext(y) {
+    if (!contextEl) return;
+    const text = YEAR_CONTEXT[y] || `<strong>${y}.</strong>`;
+    contextEl.style.opacity = '0';
+    setTimeout(() => {
+      contextEl.innerHTML = text;
+      contextEl.style.opacity = '1';
+    }, 180);
+  }
 
   function applyYear(y) {
     y = Number(y);
@@ -244,6 +354,7 @@ function initMap(fights, usTopo) {
       const fill = ((y - min) / (max - min)) * 100;
       slider.style.setProperty('--fill', fill + '%');
     }
+    updateContext(y);
   }
   if (slider) {
     slider.addEventListener('input', e => {
@@ -319,11 +430,11 @@ function initNumbers(fights) {
   const hypL = hyp.filter(f => f.community_outcome === 'loss').length;
   const hyprate = Math.round(hypW / (hypW + hypL) * 100);
 
-  const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
-  set('big-winrate', winrate);
-  set('big-win-count', wins.toLocaleString());
-  set('big-loss-count', losses.toLocaleString());
-  set('big-hyprate', hyprate);
+  const byId = id => document.getElementById(id);
+  setCountTarget(byId('big-winrate'), winrate, { format: 'plain', duration: 1600 });
+  setCountTarget(byId('big-hyprate'), hyprate, { format: 'plain', duration: 1600 });
+  setCountTarget(byId('big-win-count'), wins, { format: 'comma' });
+  setCountTarget(byId('big-loss-count'), losses, { format: 'comma' });
 
   // Outcome summary stack
   const total = wins + losses + pending + mixed;
@@ -414,44 +525,139 @@ function initToolkit(fights) {
 // CH 4 — Size correlation (binned median sigs by MW)
 // ============================================================
 function initSizeCorrelation(fights) {
-  const bins = [
-    { label: '< 100 MW', test: m => m > 0 && m < 100, sigs: [] },
-    { label: '100–500 MW', test: m => m >= 100 && m < 500, sigs: [] },
-    { label: '500 MW – 1 GW', test: m => m >= 500 && m < 1000, sigs: [] },
-    { label: '1 GW – 5 GW', test: m => m >= 1000 && m < 5000, sigs: [] },
-    { label: '5 GW +', test: m => m >= 5000, sigs: [] },
-  ];
-  fights.forEach(f => {
-    const mw = getMW(f);
-    const s = Number(f.petition_signatures) || 0;
-    if (!mw || !s) return;
-    const bin = bins.find(b => b.test(mw));
-    if (bin) bin.sigs.push(s);
-  });
-  const median = arr => {
-    if (!arr.length) return 0;
-    const s = [...arr].sort((a, b) => a - b);
-    const m = Math.floor(s.length / 2);
-    return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
-  };
-  const data = bins.map(b => ({ label: b.label, n: b.sigs.length, median: Math.round(median(b.sigs)) }));
-  const maxMed = Math.max(...data.map(d => d.median), 1);
-
   const el = document.getElementById('size-corr-chart');
   if (!el) return;
-  el.innerHTML = `
-    <div class="outcome-title" style="margin-bottom:1rem">Median petition signatures, by project size</div>
-    <div class="bar-chart">
-      ${data.map(d => {
-        const pct = (d.median / maxMed) * 100;
-        return `<div class="bar-row">
-          <div class="bar-label">${d.label}</div>
-          <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
-          <div class="bar-value">${d.median ? d.median.toLocaleString() : '—'} sigs (n=${d.n})</div>
-        </div>`;
-      }).join('')}
-    </div>
+
+  const points = fights
+    .filter(f => getMW(f) > 0 && Number(f.petition_signatures) > 0)
+    .map(f => ({
+      mw: getMW(f),
+      sigs: Number(f.petition_signatures),
+      name: f.project_name || f.jurisdiction || '(unnamed)',
+      state: f.state || '',
+      outcome: f.community_outcome || 'pending',
+    }));
+  if (!points.length) { el.innerHTML = '<p>No size/signature data available.</p>'; return; }
+
+  const W = 900, H = 460;
+  const M = { top: 30, right: 24, bottom: 60, left: 70 };
+
+  const xDomain = d3.extent(points, d => d.mw);
+  const yDomain = d3.extent(points, d => d.sigs);
+  const x = d3.scaleLog().domain([Math.max(1, xDomain[0] * 0.8), xDomain[1] * 1.1]).range([M.left, W - M.right]);
+  const y = d3.scaleLog().domain([Math.max(1, yDomain[0] * 0.8), yDomain[1] * 1.1]).range([H - M.bottom, M.top]);
+
+  // Outliers: top 3 sigs-per-MW ("punched above weight") and bottom 3 ("silent giants")
+  const sorted = [...points].sort((a, b) => (b.sigs / b.mw) - (a.sigs / a.mw));
+  const highIntensity = sorted.slice(0, 3);
+  const lowIntensity = sorted.slice(-3).reverse();
+  const callouts = [...highIntensity, ...lowIntensity];
+  const calloutSet = new Set(callouts.map(d => d.name + '|' + d.state));
+
+  // Median line (flat across x — the point)
+  const medianSigs = d3.median(points, d => d.sigs);
+
+  el.innerHTML = '';
+  // Title + legend
+  const head = document.createElement('div');
+  head.className = 'scatter-head';
+  head.innerHTML = `
+    <div class="scatter-title">Every project with both MW and signature data (n=${points.length})</div>
+    <div class="scatter-sub">Log–log. Each dot is one fight. Horizontal dashed line = median signature count across all projects (${Math.round(medianSigs).toLocaleString()}). If bigger projects drew more opposition, dots would trend up and to the right. They don't.</div>
   `;
+  el.appendChild(head);
+
+  const svg = d3.select(el).append('svg')
+    .attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('preserveAspectRatio', 'xMidYMid meet')
+    .style('width', '100%')
+    .style('display', 'block')
+    .classed('scatter-svg', true);
+
+  // Gridlines
+  const gridX = svg.append('g').attr('class', 'grid').attr('transform', `translate(0,${H - M.bottom})`)
+    .call(d3.axisBottom(x).ticks(8, '~s').tickSize(-(H - M.top - M.bottom)).tickFormat(''));
+  gridX.select('.domain').remove();
+  gridX.selectAll('.tick line').attr('stroke', '#E6E4D9').attr('stroke-dasharray', '2 2');
+
+  const gridY = svg.append('g').attr('class', 'grid').attr('transform', `translate(${M.left},0)`)
+    .call(d3.axisLeft(y).ticks(6, '~s').tickSize(-(W - M.left - M.right)).tickFormat(''));
+  gridY.select('.domain').remove();
+  gridY.selectAll('.tick line').attr('stroke', '#E6E4D9').attr('stroke-dasharray', '2 2');
+
+  // Median line
+  svg.append('line')
+    .attr('x1', M.left).attr('x2', W - M.right)
+    .attr('y1', y(medianSigs)).attr('y2', y(medianSigs))
+    .attr('stroke', '#AF3029').attr('stroke-dasharray', '4 4').attr('stroke-width', 1.2).attr('opacity', 0.7);
+
+  // Axes
+  const xAxis = svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - M.bottom})`)
+    .call(d3.axisBottom(x).ticks(6, '~s'));
+  xAxis.select('.domain').attr('stroke', '#CECDC3');
+  xAxis.selectAll('.tick line').attr('stroke', '#CECDC3');
+  xAxis.selectAll('.tick text').attr('fill', '#6F6E69').attr('font-size', 11).attr('font-family', 'Inter, sans-serif');
+
+  const yAxis = svg.append('g').attr('class', 'axis').attr('transform', `translate(${M.left},0)`)
+    .call(d3.axisLeft(y).ticks(6, '~s'));
+  yAxis.select('.domain').attr('stroke', '#CECDC3');
+  yAxis.selectAll('.tick line').attr('stroke', '#CECDC3');
+  yAxis.selectAll('.tick text').attr('fill', '#6F6E69').attr('font-size', 11).attr('font-family', 'Inter, sans-serif');
+
+  // Axis labels
+  svg.append('text')
+    .attr('x', W / 2).attr('y', H - 14).attr('text-anchor', 'middle')
+    .attr('fill', '#6F6E69').attr('font-size', 12).attr('font-family', 'Oswald, sans-serif')
+    .attr('letter-spacing', '0.05em').attr('text-transform', 'uppercase')
+    .text('PROJECT SIZE (MEGAWATTS, LOG SCALE)');
+  svg.append('text')
+    .attr('transform', 'rotate(-90)').attr('x', -(H / 2)).attr('y', 18)
+    .attr('text-anchor', 'middle').attr('fill', '#6F6E69').attr('font-size', 12)
+    .attr('font-family', 'Oswald, sans-serif').attr('letter-spacing', '0.05em')
+    .text('PETITION SIGNATURES (LOG SCALE)');
+
+  // Dots
+  svg.append('g').selectAll('circle')
+    .data(points)
+    .enter()
+    .append('circle')
+    .attr('cx', d => x(d.mw))
+    .attr('cy', d => y(d.sigs))
+    .attr('r', d => calloutSet.has(d.name + '|' + d.state) ? 6 : 4)
+    .attr('fill', d => COLORS[d.outcome] || COLORS.pending)
+    .attr('fill-opacity', d => calloutSet.has(d.name + '|' + d.state) ? 0.92 : 0.58)
+    .attr('stroke', d => calloutSet.has(d.name + '|' + d.state) ? '#100F0F' : 'rgba(16,15,15,0.25)')
+    .attr('stroke-width', d => calloutSet.has(d.name + '|' + d.state) ? 1.2 : 0.5)
+    .append('title')
+    .text(d => `${d.name} (${d.state}) — ${fmtMW(d.mw)}, ${d.sigs.toLocaleString()} sigs`);
+
+  // Callout labels with smart offset
+  const labelG = svg.append('g');
+  callouts.forEach((d, i) => {
+    const cx = x(d.mw), cy = y(d.sigs);
+    // Offset label: high-intensity above, low-intensity below
+    const isHigh = highIntensity.includes(d);
+    const dy = isHigh ? -12 : 18;
+    labelG.append('text')
+      .attr('x', cx).attr('y', cy + dy)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#100F0F').attr('font-size', 10)
+      .attr('font-family', 'Inter, sans-serif').attr('font-weight', 600)
+      .text(`${d.name.slice(0, 22)}${d.name.length > 22 ? '…' : ''}`);
+    labelG.append('text')
+      .attr('x', cx).attr('y', cy + dy + 12)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#6F6E69').attr('font-size', 9)
+      .attr('font-family', 'Inter, sans-serif')
+      .text(`${fmtMW(d.mw)} · ${d.sigs.toLocaleString()} sigs`);
+  });
+
+  // Reference text for median line
+  svg.append('text')
+    .attr('x', W - M.right - 4).attr('y', y(medianSigs) - 5)
+    .attr('text-anchor', 'end').attr('fill', '#AF3029').attr('font-size', 10)
+    .attr('font-family', 'Oswald, sans-serif').attr('letter-spacing', '0.05em')
+    .text(`MEDIAN ${Math.round(medianSigs).toLocaleString()} SIGS`);
 }
 
 // ============================================================
@@ -467,9 +673,9 @@ function initKicker(fights) {
     }
   });
   const rate = pcWins + pcLosses > 0 ? Math.round(pcWins / (pcWins + pcLosses) * 100) : 0;
-  const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
-  set('kicker-pc-count', pcTotal.toLocaleString());
-  set('kicker-pc-rate', rate + '%');
+  const byId = id => document.getElementById(id);
+  setCountTarget(byId('kicker-pc-count'), pcTotal, { format: 'comma' });
+  setCountTarget(byId('kicker-pc-rate'), rate, { format: 'plain', suffix: '%' });
 }
 
 // ============================================================

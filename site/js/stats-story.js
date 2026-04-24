@@ -327,6 +327,22 @@ function initHeroBackground(fights, usTopo) {
 // ============================================================
 // CH 2 — US map
 // ============================================================
+// Mapping from full state name → two-letter abbreviation (for us-atlas + fights data join)
+const STATE_ABBR = {
+  'Alabama':'AL','Alaska':'AK','Arizona':'AZ','Arkansas':'AR','California':'CA',
+  'Colorado':'CO','Connecticut':'CT','Delaware':'DE','District of Columbia':'DC',
+  'Florida':'FL','Georgia':'GA','Hawaii':'HI','Idaho':'ID','Illinois':'IL',
+  'Indiana':'IN','Iowa':'IA','Kansas':'KS','Kentucky':'KY','Louisiana':'LA',
+  'Maine':'ME','Maryland':'MD','Massachusetts':'MA','Michigan':'MI','Minnesota':'MN',
+  'Mississippi':'MS','Missouri':'MO','Montana':'MT','Nebraska':'NE','Nevada':'NV',
+  'New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','New York':'NY',
+  'North Carolina':'NC','North Dakota':'ND','Ohio':'OH','Oklahoma':'OK','Oregon':'OR',
+  'Pennsylvania':'PA','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',
+  'Tennessee':'TN','Texas':'TX','Utah':'UT','Vermont':'VT','Virginia':'VA',
+  'Washington':'WA','West Virginia':'WV','Wisconsin':'WI','Wyoming':'WY',
+  'Puerto Rico':'PR',
+};
+
 function initMap(fights, usTopo) {
   const container = document.getElementById('us-map');
   if (!container) return;
@@ -344,6 +360,43 @@ function initMap(fights, usTopo) {
   const projection = d3.geoAlbersUsa().scale(1300).translate([W / 2, H / 2]);
   const path = d3.geoPath(projection);
 
+  // Precompute per-state tallies
+  const stateTallies = {};
+  fights.forEach(f => {
+    if (!f.state) return;
+    const s = f.state;
+    if (!stateTallies[s]) stateTallies[s] = { total: 0, wins: 0, losses: 0, pending: 0, mixed: 0 };
+    stateTallies[s].total++;
+    const o = f.community_outcome;
+    if (o === 'win') stateTallies[s].wins++;
+    else if (o === 'loss') stateTallies[s].losses++;
+    else if (o === 'mixed') stateTallies[s].mixed++;
+    else stateTallies[s].pending++;
+  });
+
+  const tooltip = document.getElementById('map-tooltip');
+  function showStateTip(e, abbr, name) {
+    const t = stateTallies[abbr];
+    if (!tooltip) return;
+    tooltip.style.display = 'block';
+    tooltip.style.left = (e.clientX + 14) + 'px';
+    tooltip.style.top = (e.clientY - 10) + 'px';
+    if (!t) {
+      tooltip.innerHTML = `<div class="tip-title">${name}</div><div class="tip-meta">No tracked fights yet</div>`;
+      return;
+    }
+    const resolved = t.wins + t.losses;
+    const rate = resolved ? Math.round(t.wins / resolved * 100) : null;
+    tooltip.innerHTML = `
+      <div class="tip-title">${name}</div>
+      <div>${t.total.toLocaleString()} tracked fight${t.total === 1 ? '' : 's'}</div>
+      <div class="tip-meta">
+        ${t.wins} won · ${t.losses} lost · ${t.pending + t.mixed} in progress${rate !== null ? ` · ${rate}% win rate` : ''}
+      </div>
+    `;
+  }
+  function hideAnyTip() { if (tooltip) tooltip.style.display = 'none'; }
+
   if (usTopo && usTopo.objects && usTopo.objects.states) {
     const states = topojson.feature(usTopo, usTopo.objects.states);
     gStates.selectAll('path')
@@ -351,7 +404,18 @@ function initMap(fights, usTopo) {
       .enter()
       .append('path')
       .attr('class', 'state-path')
-      .attr('d', path);
+      .attr('d', path)
+      .on('mousemove', function(e, d) {
+        const name = d.properties && d.properties.name;
+        if (!name) return;
+        const abbr = STATE_ABBR[name];
+        d3.select(this).classed('state-hover', true);
+        if (abbr) showStateTip(e, abbr, name);
+      })
+      .on('mouseleave', function() {
+        d3.select(this).classed('state-hover', false);
+        hideAnyTip();
+      });
   } else {
     // Graceful fallback
     svg.append('text')

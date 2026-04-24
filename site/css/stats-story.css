@@ -546,7 +546,18 @@ body:has(.chapter-dark:target) .rail-dot { background: rgba(255,252,240,0.3); }
   min-height: 500px;
 }
 #us-map svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
-.state-path { fill: #F2F0E5; stroke: #CECDC3; stroke-width: 0.5; }
+.state-path {
+  fill: #F2F0E5;
+  stroke: #CECDC3;
+  stroke-width: 0.5;
+  transition: fill 0.15s;
+  cursor: default;
+}
+.state-path.state-hover {
+  fill: #E8E4D4;
+  stroke: #AF3029;
+  stroke-width: 1;
+}
 .fight-dot {
   stroke: rgba(16,15,15,0.3);
   stroke-width: 0.5;

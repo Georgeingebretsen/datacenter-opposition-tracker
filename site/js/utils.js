@@ -74,6 +74,8 @@ const ISSUE_TOOLTIPS = {
   design_standards: 'Building and site design requirements — height limits, setbacks, screening, sound barriers, and architectural rules',
   contract_guarantees: 'Contract guarantees — financial assurances, early termination fees, load ramp terms, or decommissioning bonds',
   anti_ai: 'Explicit opposition to AI as a technology — job displacement, AI energy footprint, or opposition to the AI industry specifically',
+  air_quality: 'Air quality concerns — emissions from on-site gas turbines, diesel backup generators, or construction; respiratory and health effects on nearby residents',
+  property_values: 'Concerns about declining property values — noise, sightlines, industrial character, and effect on home sale prices or rental demand',
 };
 
 function getIssueTooltip(issue) {

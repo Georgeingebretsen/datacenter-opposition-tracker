@@ -451,7 +451,6 @@ function initMap(fights, usTopo) {
     return Math.min(base + Math.sqrt(d.mw) / 6, 13);
   };
 
-  const tooltip = document.getElementById('map-tooltip');
   const showTip = (e, d) => {
     if (!tooltip) return;
     tooltip.style.display = 'block';
@@ -463,7 +462,7 @@ function initMap(fights, usTopo) {
       <div class="tip-meta">${d.company ? d.company + ' · ' : ''}${d.year || '?'} · ${d.outcome}</div>
     `;
   };
-  const hideTip = () => { if (tooltip) tooltip.style.display = 'none'; };
+  const hideDotTip = () => { if (tooltip) tooltip.style.display = 'none'; };
 
   const dots = gDots.selectAll('circle')
     .data(points)
@@ -476,7 +475,7 @@ function initMap(fights, usTopo) {
     .attr('fill', d => COLORS[d.outcome] || COLORS.pending)
     .attr('fill-opacity', 0.72)
     .on('mousemove', showTip)
-    .on('mouseleave', hideTip)
+    .on('mouseleave', hideDotTip)
     .on('click', (e, d) => {
       if (!d.id) return;
       window.open(`index.html?id=${encodeURIComponent(d.id)}`, '_blank', 'noopener');

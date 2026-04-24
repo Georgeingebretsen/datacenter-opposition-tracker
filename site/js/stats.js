@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderGroupsTimeline(fights);
   renderTopPetitions(fights, petitionData);
 
-  // Last updated
+  // Last updated — pulsing live dot + relative time
   const dates = fights.map(f => f.last_updated || f.date).filter(Boolean).sort();
   if (dates.length) {
-    const latest = dates[dates.length - 1];
-    document.getElementById('last-updated').textContent = 'Last updated: ' + new Date(latest + 'T00:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    const el = document.getElementById('last-updated');
+    if (el) el.innerHTML = renderLastUpdated(dates[dates.length - 1]);
   }
 });
 

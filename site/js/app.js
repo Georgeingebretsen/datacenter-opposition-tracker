@@ -86,11 +86,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // Show last updated from most recent entry
+  // Show last updated from most recent entry, with a pulsing live dot
   const dates = fights.map(f => f.last_updated || f.date).filter(Boolean).sort();
   if (dates.length) {
     const latest = dates[dates.length - 1];
-    document.getElementById('last-updated').textContent = 'Last updated: ' + new Date(latest + 'T00:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    document.getElementById('last-updated').innerHTML = renderLastUpdated(latest);
   }
 
   document.getElementById('filter-state').addEventListener('change', render);

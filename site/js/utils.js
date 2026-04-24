@@ -144,3 +144,20 @@ function getStatusTooltip(status) {
   const key = status.split(/[\s\-–]/)[0].toLowerCase();
   return STATUS_TOOLTIPS[key] || status;
 }
+
+// Render the "Updated X days ago" pill with a pulsing dot.
+// Accepts a YYYY-MM-DD date string from the fights dataset.
+function renderLastUpdated(dateStr) {
+  if (!dateStr) return '';
+  const then = new Date(dateStr + 'T00:00:00');
+  const now = new Date();
+  const days = Math.floor((now - then) / 86400000);
+  let label;
+  if (days <= 0) label = 'today';
+  else if (days === 1) label = 'yesterday';
+  else if (days < 7) label = `${days} days ago`;
+  else if (days < 14) label = '1 week ago';
+  else if (days < 60) label = `${Math.floor(days / 7)} weeks ago`;
+  else label = then.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+  return `<span class="live-dot" aria-hidden="true"></span>Updated ${label}`;
+}

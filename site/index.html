@@ -14,9 +14,9 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="css/style.css?v=1777680000" />
+  <link rel="stylesheet" href="css/style.css?v=1777710100" />
 </head>
 <body>
   <header>
@@ -38,16 +38,20 @@
   <main>
     <section class="stats-strip" id="stats-bar">
       <div class="stat-card">
-        <span class="stat-number"><span id="stat-total">—</span></span>
-        <span class="stat-label">actions tracked</span>
+        <span class="stat-number" id="stat-total">—</span>
+        <span class="stat-label">Actions Tracked</span>
       </div>
       <div class="stat-card">
-        <span class="stat-number"><span id="stat-investment">—</span></span>
-        <span class="stat-label">in investment</span>
+        <span class="stat-number" id="stat-investment">—</span>
+        <span class="stat-label">Total Investment</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-power">—</span>
+        <span class="stat-label">Total Power</span>
       </div>
       <div class="stat-card" id="stat-partisan">
-        <span class="stat-number"><span class="partisan-r">—R</span> / <span class="partisan-d">—D</span></span>
-        <span class="stat-label">county lean <span class="stat-info" data-tip="Based on 2024 presidential election results by county">i</span></span>
+        <span class="stat-number"><span class="partisan-r">—R</span><span class="partisan-slash"> / </span><span class="partisan-d">—D</span></span>
+        <span class="stat-label">County Lean <span class="stat-info" data-tip="Based on 2024 presidential election results by county">i</span></span>
       </div>
     </section>
 
@@ -218,7 +222,7 @@
   </footer>
 
   <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-  <script src="js/utils.js?v=1777680000"></script>
-  <script src="js/app.js?v=1777680000"></script>
+  <script src="js/utils.js?v=1777710100"></script>
+  <script src="js/app.js?v=1777710100"></script>
 </body>
 </html>

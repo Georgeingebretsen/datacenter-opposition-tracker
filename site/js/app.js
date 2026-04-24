@@ -526,11 +526,15 @@ function updateSizeLegend(filtered) {
 }
 
 function updateStats(filtered) {
-  document.getElementById('stat-total').textContent = filtered.length;
-  // Note: the old "across X states" sub-label was removed — it didn't make sense when
-  // filtering to a single state, and a static "50" was confusing with active filters.
+  // Total actions — count-up animation on first render, direct swap on re-filter
+  setStatNumber('stat-total', filtered.length, v => v.toLocaleString());
+
   const totalInvestment = filtered.filter(f => f.investment_million_usd).reduce((s, f) => s + f.investment_million_usd, 0);
-  document.getElementById('stat-investment').textContent = totalInvestment > 0 ? formatInvestment(totalInvestment) : '—';
+  setStatNumber('stat-investment', totalInvestment, v => (v > 0 ? formatInvestment(v) : '—'));
+
+  const totalPower = filtered.filter(f => f.megawatts).reduce((s, f) => s + f.megawatts, 0);
+  setStatNumber('stat-power', totalPower, v => (v > 0 ? formatPower(v) : '—'));
+
   const rCount = filtered.filter(f => f.county_lean === 'R').length;
   const dCount = filtered.filter(f => f.county_lean === 'D').length;
   document.querySelector('.partisan-r').textContent = rCount + 'R';
@@ -541,9 +545,35 @@ function updateStats(filtered) {
   updateFiltersActiveBadge();
 }
 
+// Count-up animation state — animates on first render, direct set on re-renders
+const _statAnimState = {};
+function setStatNumber(elId, value, formatter) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  const first = !_statAnimState[elId];
+  _statAnimState[elId] = true;
+  if (first && typeof value === 'number' && value > 0) {
+    animateStat(el, value, formatter);
+  } else {
+    el.textContent = formatter(value);
+  }
+}
+
+function animateStat(el, target, formatter) {
+  const duration = 1100;
+  const start = performance.now();
+  function tick(now) {
+    const t = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - t, 3);
+    const current = target * eased;
+    el.textContent = formatter(current);
+    if (t < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
 function updateFiltersActiveBadge() {
   const badge = document.getElementById('filters-active-count');
-  if (!badge) return;
   let active = 0;
   if (document.getElementById('filter-state').value) active++;
   if (document.getElementById('filter-type').value) active++;
@@ -552,11 +582,21 @@ function updateFiltersActiveBadge() {
   if (document.getElementById('filter-status').value) active++;
   if (document.getElementById('filter-issue').value) active++;
   if (document.getElementById('filter-hyperscaler').value) active++;
-  if (active > 0) {
-    badge.textContent = active;
-    badge.hidden = false;
-  } else {
-    badge.hidden = true;
+  if (badge) {
+    if (active > 0) {
+      badge.textContent = active;
+      badge.hidden = false;
+    } else {
+      badge.hidden = true;
+    }
+  }
+  // Show clear button only when filters are applied (search counts too)
+  const searchVal = (document.getElementById('search-input') || {}).value || '';
+  const hasSearch = !!searchVal.trim();
+  const clearBtn = document.getElementById('clear-filters');
+  if (clearBtn) {
+    const show = active > 0 || hasSearch || selectedHyperscalers.size > 0;
+    clearBtn.hidden = !show;
   }
 }
 
@@ -1002,6 +1042,68 @@ function openDetail(f) {
     oppLinks.push(`<span>Petition (${f.petition_signatures.toLocaleString()} signatures)</span>`);
   }
 
+  const outcomeLabel = f.community_outcome === 'win' ? 'Resolved – Favorable for communities' :
+    f.community_outcome === 'loss' ? 'Resolved – Unfavorable for communities' :
+    f.community_outcome === 'mixed' ? 'Resolved – Mixed' :
+    'Pending';
+
+  // Build a compact stakes grid instead of a bullet list for specs
+  const stakesHtml = specs.length ? (() => {
+    const tiles = [];
+    if (f.investment_million_usd) tiles.push(`<div class="stake-tile"><span class="stake-label">Investment</span><span class="stake-value">${formatInvestment(f.investment_million_usd)}</span></div>`);
+    if (f.megawatts) tiles.push(`<div class="stake-tile"><span class="stake-label">Power</span><span class="stake-value">${formatPower(f.megawatts)}</span></div>`);
+    if (f.acreage) tiles.push(`<div class="stake-tile"><span class="stake-label">Land</span><span class="stake-value">${f.acreage.toLocaleString()} ac</span></div>`);
+    if (f.building_sq_ft) tiles.push(`<div class="stake-tile"><span class="stake-label">Building</span><span class="stake-value">${f.building_sq_ft.toLocaleString()} sq ft</span></div>`);
+    if (f.water_usage_gallons_per_day) {
+      const w = f.water_usage_gallons_per_day;
+      const waterStr = w >= 1000000 ? (w / 1000000).toFixed(1).replace(/\.0$/, '') + 'M' : w >= 1000 ? Math.round(w / 1000) + 'K' : w.toLocaleString();
+      tiles.push(`<div class="stake-tile"><span class="stake-label">Water</span><span class="stake-value">${waterStr} gal/day</span></div>`);
+    }
+    return tiles.join('');
+  })() : '';
+
+  // Group chips for opposition_groups (same style family as stats-story)
+  const groupChipsHtml = (f.opposition_groups && f.opposition_groups.length)
+    ? f.opposition_groups.map(g => `<span class="group-chip">${escapeHtml(g)}</span>`).join('')
+    : '';
+
+  // External link row: website, facebook, instagram, twitter, petition, bill
+  const linkButtons = [];
+  if (f.bill_url) linkButtons.push({ url: f.bill_url, label: f.bill_name || 'Official Bill', kind: 'bill' });
+  if (f.opposition_website) linkButtons.push({ url: f.opposition_website, label: 'Website', kind: 'web' });
+  if (f.opposition_facebook) {
+    const fbLabel = f.opposition_facebook_members ? `Facebook · ${f.opposition_facebook_members.toLocaleString()}` : 'Facebook';
+    linkButtons.push({ url: f.opposition_facebook, label: fbLabel, kind: 'fb' });
+  }
+  if (f.opposition_instagram) {
+    const igUrl = f.opposition_instagram.startsWith('http') ? f.opposition_instagram : `https://instagram.com/${f.opposition_instagram.replace('@','')}`;
+    const igLabel = f.opposition_instagram_followers ? `Instagram · ${f.opposition_instagram_followers.toLocaleString()}` : 'Instagram';
+    linkButtons.push({ url: igUrl, label: igLabel, kind: 'ig' });
+  }
+  if (f.opposition_twitter) {
+    const twUrl = f.opposition_twitter.startsWith('http') ? f.opposition_twitter : `https://x.com/${f.opposition_twitter.replace('@','')}`;
+    linkButtons.push({ url: twUrl, label: 'X / Twitter', kind: 'x' });
+  }
+  if (f.petition_url) {
+    const petLabel = f.petition_signatures ? `Petition · ${f.petition_signatures.toLocaleString()}` : 'Petition';
+    linkButtons.push({ url: f.petition_url, label: petLabel, kind: 'petition' });
+  }
+
+  const linkRowHtml = linkButtons.length
+    ? `<div class="detail-link-row">${linkButtons.map(l => `<a class="detail-link-btn detail-link-${l.kind}" href="${l.url}" target="_blank" rel="noopener">${escapeHtml(l.label)} <span class="detail-link-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`
+    : '';
+
+  // Identify project title — prefer project_name for editorial weight, fall back to jurisdiction
+  const hasProjectName = !!f.project_name;
+  const projectTitle = hasProjectName ? f.project_name : `${f.jurisdiction}, ${f.state}`;
+  const locationSubtitle = hasProjectName
+    ? `${f.jurisdiction}, ${f.state}${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? ` · ${f.county} County` : ''}`
+    : (f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `${f.county} County` : '');
+
+  const companyLine = f.hyperscaler
+    ? `<span class="detail-company" style="color:${(HYPERSCALER_INFO[f.hyperscaler]||{}).color||'var(--text)'}">${escapeHtml(f.hyperscaler)}</span>${f.company && f.company !== f.hyperscaler ? ` <span class="detail-company-muted">· developer ${escapeHtml(f.company)}</span>` : ''}`
+    : (f.company ? `<span class="detail-company">${escapeHtml(f.company)}</span>` : '');
+
   content.innerHTML = `
     <div class="detail-toolbar">
       <button class="btn-share" onclick="copyShareLink()" title="Copy link to this entry">
@@ -1012,22 +1114,22 @@ function openDetail(f) {
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4"/></svg>
       </button>
     </div>
-    <h2>${f.jurisdiction}, ${f.state}</h2>
-    ${f.county && f.scope !== 'statewide' && f.scope !== 'federal' ? `<div class="detail-county">${f.county}, ${f.state}</div>` : ''}
-    <div class="detail-meta">
-      <span class="outcome-badge outcome-${f.community_outcome || 'pending'}">${
-        f.community_outcome === 'win' ? 'Resolved – Favorable for communities' :
-        f.community_outcome === 'loss' ? 'Resolved – Unfavorable for communities' :
-        f.community_outcome === 'mixed' ? 'Resolved – Mixed' :
-        'Pending'
-      }</span>
-      &nbsp;&middot;&nbsp;
-      ${formatDate(f.date)}
+
+    <div class="detail-hero">
+      <span class="outcome-badge outcome-${f.community_outcome || 'pending'}">${outcomeLabel}</span>
+      <h2 class="detail-title">${escapeHtml(projectTitle)}</h2>
+      ${locationSubtitle ? `<div class="detail-location">${escapeHtml(locationSubtitle)}</div>` : ''}
+      <div class="detail-hero-meta">
+        ${companyLine ? `<span class="detail-hero-meta-item">${companyLine}</span>` : ''}
+        <span class="detail-hero-meta-item">${formatDate(f.date)}</span>
+      </div>
     </div>
 
-    ${Array.isArray(f.sponsors) && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><div class="sponsors-list">${f.sponsors.map(s => `<span class="sponsor-badge">${escapeHtml(s)}</span>`).join('')}</div></div>` : ''}
+    ${stakesHtml ? `<div class="detail-stakes-grid">${stakesHtml}</div>` : ''}
 
-    ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p style="font-weight:600;font-size:1.05rem;">${f.objective}</p></div>` : ''}
+    ${f.summary ? `<div class="detail-section detail-summary"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
+
+    ${f.objective ? `<div class="detail-section"><h3>Objective</h3><p class="detail-objective">${f.objective}</p></div>` : ''}
 
     ${f.action_type && f.action_type.length ? `<div class="detail-section"><h3>Action Categories</h3><div class="issue-tags">${f.action_type.map(a => `<span class="issue-tag" data-tooltip="${escapeHtml(getActionTooltip(a))}">${ACTION_LABELS[a] || a}<span class="info-icon-detail">i</span></span>`).join('')}</div></div>` : ''}
 
@@ -1035,28 +1137,21 @@ function openDetail(f) {
 
     ${f.authority_level ? `<div class="detail-section"><h3>Authority Level</h3><p><span class="status-badge" data-tooltip="${escapeHtml(getAuthorityTooltip(f.authority_level))}" style="text-transform:capitalize;background:var(--border);color:var(--text)">${f.authority_level.replace(/_/g, ' ')}<span class="info-icon-detail">i</span></span></p></div>` : ''}
 
-    ${f.summary ? `<div class="detail-section"><h3>Summary</h3><p>${f.summary}</p></div>` : ''}
+    ${Array.isArray(f.sponsors) && f.sponsors.length ? `<div class="detail-section"><h3>Sponsors</h3><div class="sponsors-list">${f.sponsors.map(s => `<span class="sponsor-badge">${escapeHtml(s)}</span>`).join('')}</div></div>` : ''}
 
-    ${f.bill_url ? `<div class="detail-section bill-link-section"><h3>Official Bill</h3><a href="${f.bill_url}" target="_blank" class="bill-link">${f.bill_name || 'View Bill Text'} ↗</a></div>` : ''}
-
-    ${f.hyperscaler ? `<div class="detail-section"><h3>Hyperscaler</h3><p style="font-size:1.1rem;font-weight:700;color:${(HYPERSCALER_INFO[f.hyperscaler]||{}).color||'var(--text)'}">${f.hyperscaler}</p>${f.company && f.company !== f.hyperscaler ? `<p style="color:var(--text-muted);font-size:0.85rem;">Developer: ${f.company}</p>` : ''}</div>` : (f.company ? `<div class="detail-section"><h3>Company</h3><p>${f.company}</p></div>` : '')}
-    ${f.project_name ? `<div class="detail-section"><h3>Project</h3><p>${f.project_name}</p></div>` : ''}
-
-    ${specs.length ? `<div class="detail-section"><h3>Project Specs</h3><ul>${specs.join('')}</ul></div>` : ''}
-
-    ${f.opposition_groups && f.opposition_groups.length ? `<div class="detail-section">
-      <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Community Groups'}</h3>
-      <div class="groups-container">${groupsHtml}</div>
+    ${groupChipsHtml ? `<div class="detail-section">
+      <h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Supporting Organizations' : 'Opposition Groups'}</h3>
+      <div class="detail-group-chips">${groupChipsHtml}</div>
     </div>` : ''}
 
-    ${oppLinks.length ? `<div class="detail-section"><h3>${f.scope === 'statewide' || f.scope === 'federal' ? 'Advocacy Links' : 'Community Links'}</h3><div class="opp-links">${oppLinks.map(l => `<span class="opp-link">${l}</span>`).join('')}</div></div>` : ''}
+    ${linkRowHtml ? `<div class="detail-section"><h3>External Links</h3>${linkRowHtml}</div>` : ''}
 
     <div class="detail-section">
       <h3>Sources</h3>
-      ${sources}
+      <div class="detail-sources">${sources}</div>
     </div>
 
-    <div class="detail-section" style="color:var(--text-muted); font-size:0.8rem;">
+    <div class="detail-section detail-last-updated">
       ${f.last_updated ? `Last updated: ${f.last_updated}` : ''}
     </div>
   `;

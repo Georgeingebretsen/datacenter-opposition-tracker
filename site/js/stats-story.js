@@ -52,6 +52,7 @@ Promise.all([
     initHero(fights);
     initHeroBackground(fights, us);
     initMismatch(fights);
+    initIssues(fights);
     initMap(fights, us);
     initNumbers(fights);
     initToolkit(fights);
@@ -224,6 +225,42 @@ function initMismatch(fights) {
   setCountTarget(byId('m-counties'), countySet.size, { format: 'comma' });
   setCountTarget(byId('m-winrate'), winrate, { format: 'plain', suffix: '%' });
   setCountTarget(byId('m-hyprate'), hyprate, { format: 'plain', suffix: '%' });
+}
+
+// ============================================================
+// CH 2 — Issues (populate frequency + win rate per category)
+// ============================================================
+function initIssues(fights) {
+  const total = fights.length;
+  const stats = {};
+  fights.forEach(f => {
+    const ic = f.issue_category;
+    if (!Array.isArray(ic)) return;
+    const outcome = f.community_outcome;
+    ic.forEach(key => {
+      if (!stats[key]) stats[key] = { count: 0, wins: 0, losses: 0 };
+      stats[key].count++;
+      if (outcome === 'win') stats[key].wins++;
+      else if (outcome === 'loss') stats[key].losses++;
+    });
+  });
+
+  // Keys that match the HTML id format: issue-<key>-freq / issue-<key>-rate
+  const keys = [
+    'zoning', 'community_impact', 'grid_energy', 'water', 'environmental',
+    'transparency', 'ratepayer', 'noise', 'farmland', 'tax_incentive',
+  ];
+  keys.forEach(key => {
+    const s = stats[key];
+    const freqEl = document.getElementById(`issue-${key}-freq`);
+    const rateEl = document.getElementById(`issue-${key}-rate`);
+    if (!s) return;
+    const pct = Math.round(s.count / total * 100);
+    const resolved = s.wins + s.losses;
+    const rate = resolved > 0 ? Math.round(s.wins / resolved * 100) : null;
+    if (freqEl) freqEl.textContent = `Appears in ${pct}% of fights`;
+    if (rateEl) rateEl.textContent = rate !== null ? `${rate}% win rate` : 'Insufficient data';
+  });
 }
 
 // ============================================================

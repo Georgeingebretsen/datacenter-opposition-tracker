@@ -247,7 +247,7 @@ function initIssues(fights) {
 
   // Keys that match the HTML id format: issue-<key>-freq / issue-<key>-rate
   const keys = [
-    'zoning', 'community_impact', 'grid_energy', 'water', 'environmental',
+    'zoning', 'grid_energy', 'water', 'environmental',
     'transparency', 'ratepayer', 'noise', 'farmland', 'tax_incentive',
   ];
   keys.forEach(key => {

@@ -942,6 +942,19 @@ body:has(.chapter-dark:target) .rail-dot { background: rgba(255,252,240,0.3); }
 }
 .case-link:hover { border-bottom-color: #AF3029; }
 
+/* Size chapter */
+.size-chapter-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.size-chapter-prose {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  line-height: 1.65;
+  color: #403E3C;
+  margin: 1.8rem 0 0;
+}
+
 /* Size correlation scatter */
 .size-corr-chart {
   background: #FFFCF0;

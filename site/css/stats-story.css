@@ -390,8 +390,42 @@ body:has(.chapter-dark:target) .rail-dot { background: rgba(255,252,240,0.3); }
   font-size: 0.98rem;
   line-height: 1.6;
   color: #403E3C;
-  margin: 0;
+  margin: 0 0 1rem;
   padding-left: calc(48px + 1rem);
+}
+.issue-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-left: calc(48px + 1rem);
+  background: #E6E4D9;
+}
+.ibar-seg {
+  height: 100%;
+  display: block;
+  transition: opacity 0.15s;
+}
+.ibar-seg:hover { opacity: 0.8; }
+.ibar-win { background: #24837B; }
+.ibar-loss { background: #BC5215; }
+.ibar-mixed { background: #878580; }
+.ibar-pending { background: #E6E4D9; }
+.issue-bar-legend {
+  font-size: 0.76rem;
+  color: #878580;
+  margin: 0.5rem 0 0;
+  padding-left: calc(48px + 1rem);
+  font-variant-numeric: tabular-nums;
+}
+.issue-bar-legend strong {
+  color: #403E3C;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .issue-bar,
+  .issue-bar-legend { margin-left: 0; padding-left: 0; }
 }
 
 @media (max-width: 700px) {

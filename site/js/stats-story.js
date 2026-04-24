@@ -238,14 +238,15 @@ function initIssues(fights) {
     if (!Array.isArray(ic)) return;
     const outcome = f.community_outcome;
     ic.forEach(key => {
-      if (!stats[key]) stats[key] = { count: 0, wins: 0, losses: 0 };
+      if (!stats[key]) stats[key] = { count: 0, wins: 0, losses: 0, pending: 0, mixed: 0 };
       stats[key].count++;
       if (outcome === 'win') stats[key].wins++;
       else if (outcome === 'loss') stats[key].losses++;
+      else if (outcome === 'mixed') stats[key].mixed++;
+      else stats[key].pending++;
     });
   });
 
-  // Keys that match the HTML id format: issue-<key>-freq / issue-<key>-rate
   const keys = [
     'zoning', 'grid_energy', 'water', 'environmental',
     'transparency', 'ratepayer', 'noise', 'farmland', 'tax_incentive',
@@ -254,12 +255,32 @@ function initIssues(fights) {
     const s = stats[key];
     const freqEl = document.getElementById(`issue-${key}-freq`);
     const rateEl = document.getElementById(`issue-${key}-rate`);
+    const barEl = document.getElementById(`issue-${key}-bar`);
     if (!s) return;
     const pct = Math.round(s.count / total * 100);
     const resolved = s.wins + s.losses;
     const rate = resolved > 0 ? Math.round(s.wins / resolved * 100) : null;
     if (freqEl) freqEl.textContent = `Appears in ${pct}% of fights`;
     if (rateEl) rateEl.textContent = rate !== null ? `${rate}% win rate` : 'Insufficient data';
+
+    if (barEl) {
+      const totalOutcomes = s.wins + s.losses + s.pending + s.mixed;
+      if (totalOutcomes === 0) return;
+      const winPct = (s.wins / totalOutcomes) * 100;
+      const lossPct = (s.losses / totalOutcomes) * 100;
+      const mixPct = (s.mixed / totalOutcomes) * 100;
+      const pendPct = Math.max(0, 100 - winPct - lossPct - mixPct);
+      barEl.innerHTML = `
+        <span class="ibar-seg ibar-win" style="width:${winPct}%" title="${s.wins} wins"></span>
+        <span class="ibar-seg ibar-loss" style="width:${lossPct}%" title="${s.losses} losses"></span>
+        <span class="ibar-seg ibar-mixed" style="width:${mixPct}%" title="${s.mixed} mixed"></span>
+        <span class="ibar-seg ibar-pending" style="width:${pendPct}%" title="${s.pending} pending"></span>
+      `;
+      const legend = barEl.nextElementSibling;
+      if (legend && legend.classList.contains('issue-bar-legend')) {
+        legend.innerHTML = `<strong>${s.wins}</strong> won · <strong>${s.losses}</strong> lost · <strong>${s.pending + s.mixed}</strong> still in progress`;
+      }
+    }
   });
 }
 

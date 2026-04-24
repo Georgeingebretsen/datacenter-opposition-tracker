@@ -242,79 +242,10 @@ function getLegStatus(f) {
   return { label: capitalize(f.status), cls: 'leg-pending' };
 }
 
-function hasActiveFilters() {
-  return (
-    legFilterStatus !== 'all' ||
-    !!legFilterState ||
-    !!legFilterIssue ||
-    !!legSearchQuery
-  );
-}
-
-function renderStatsStrip(legislation) {
-  const el = document.getElementById('leg-stats-strip');
-  if (!el) return;
-
-  const total = legislation.length;
-  let pending = 0, win = 0, loss = 0;
-  const stateCounts = {};
-  legislation.forEach(f => {
-    const o = f.community_outcome || 'pending';
-    if (o === 'pending') pending++;
-    else if (o === 'win') win++;
-    else if (o === 'loss') loss++;
-    if (f.scope === 'statewide' && f.state) {
-      stateCounts[f.state] = (stateCounts[f.state] || 0) + 1;
-    }
-  });
-  const topStates = Object.entries(stateCounts)
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, 3);
-
-  const statesHtml = topStates.length
-    ? topStates.map(([s, n]) => `
-        <div class="leg-stat-state-row">
-          <span class="leg-stat-state-name">${STATE_NAMES[s] || s}</span>
-          <span class="leg-stat-state-count">${n}</span>
-        </div>
-      `).join('')
-    : '<div class="leg-stat-state-empty">No state bills in view</div>';
-
-  el.innerHTML = `
-    <div class="leg-stat">
-      <div class="leg-stat-num">${total}</div>
-      <div class="leg-stat-label">Bills Tracked</div>
-    </div>
-    <div class="leg-stat">
-      <div class="leg-stat-num is-gold">${pending}</div>
-      <div class="leg-stat-label">Pending</div>
-    </div>
-    <div class="leg-stat">
-      <div class="leg-stat-num is-teal">${win}</div>
-      <div class="leg-stat-label">Enacted / Won</div>
-    </div>
-    <div class="leg-stat">
-      <div class="leg-stat-num is-orange">${loss}</div>
-      <div class="leg-stat-label">Defeated / Lost</div>
-    </div>
-    <div class="leg-stat leg-stat-top">
-      <div class="leg-stat-label">Top States</div>
-      <div class="leg-stat-states">${statesHtml}</div>
-    </div>
-  `;
-}
-
-function updateFilterChromeState() {
-  const controls = document.querySelector('.leg-controls');
-  if (controls) controls.classList.toggle('has-active-filters', hasActiveFilters());
-}
-
 function updateLegislation() {
   const allLegislation = fights.filter(f => f.scope === 'statewide' || f.scope === 'federal');
   const legislation = allLegislation.filter(matchesAllFilters);
   document.getElementById('legislation-count').textContent = legislation.length;
-  renderStatsStrip(legislation);
-  updateFilterChromeState();
 
   const fedEl = document.getElementById('legislation-federal');
   const statesEl = document.getElementById('legislation-states');
@@ -462,13 +393,14 @@ function bindCollapsibleToggles() {
 function renderLegCard(f, showJurisdiction = false) {
   // Use community_outcome for the badge instead of procedural status
   const outcome = f.community_outcome || 'pending';
-  const outcomeMeta = {
-    win: { label: 'Community win', cls: 'leg-enacted' },
-    loss: { label: 'Community loss', cls: 'leg-defeated' },
-    mixed: { label: 'Mixed outcome', cls: 'leg-mixed' },
-    pending: { label: 'Pending', cls: 'leg-pending' },
+  const st = {
+    label: outcome === 'win' ? 'Resolved – Favorable for communities' :
+           outcome === 'loss' ? 'Resolved – Unfavorable for communities' :
+           outcome === 'mixed' ? 'Resolved – Mixed' : 'Pending',
+    cls: outcome === 'win' ? 'leg-enacted' :
+         outcome === 'loss' ? 'leg-defeated' :
+         outcome === 'mixed' ? 'leg-pending' : 'leg-pending',
   };
-  const st = outcomeMeta[outcome] || outcomeMeta.pending;
 
   let title = f.bill_name;
   if (!title) {
@@ -480,7 +412,7 @@ function renderLegCard(f, showJurisdiction = false) {
   }
 
   const jurisdictionLabel = showJurisdiction
-    ? `<div class="leg-card-jurisdiction">${f.scope === 'federal' ? 'Federal' : (STATE_NAMES[f.state] || f.state)}</div>`
+    ? `<div class="leg-card-jurisdiction">${f.scope === 'federal' ? 'Federal' : f.state}</div>`
     : '';
 
   const rawSummary = f.summary || '';
@@ -503,39 +435,17 @@ function renderLegCard(f, showJurisdiction = false) {
     if (summary.length > 200) summary = summary.slice(0, 200) + '…';
   }
 
-  const issueTagsHtml = Array.isArray(f.issue_category) && f.issue_category.length
-    ? `<div class="leg-card-tags">${f.issue_category.slice(0, 4).map(c => {
-        const label = ISSUE_LABELS[c] || capitalize(c.replace(/_/g, ' '));
-        const tip = (typeof getIssueTooltip === 'function') ? getIssueTooltip(c) : '';
-        return `<span class="leg-card-tag" data-tooltip="${escapeHtml(tip)}">${escapeHtml(label)}</span>`;
-      }).join('')}</div>`
-    : '';
-
-  const sponsorsHtml = Array.isArray(f.sponsors) && f.sponsors.length
-    ? `<div class="leg-card-sponsors"><span class="leg-card-sponsors-label">Sponsors</span>${escapeHtml(f.sponsors.join(', '))}</div>`
-    : '';
-
-  const updatedDate = f.last_updated || f.date;
-  const updatedHtml = updatedDate
-    ? `<span class="leg-card-updated">Updated ${formatDate(updatedDate)}</span>`
-    : '<span></span>';
-
-  const billLinkHtml = f.bill_url
-    ? `<a href="${f.bill_url}" target="_blank" rel="noopener" class="leg-card-bill" onclick="event.stopPropagation()">${escapeHtml(f.bill_name || 'View bill')} <span class="ext-arrow" aria-hidden="true">↗</span></a>`
-    : '';
-
   return `
-    <div class="leg-card leg-outcome-${outcome}" data-id="${f.id}">
+    <div class="leg-card" data-id="${f.id}">
       <div class="leg-card-top">
         <span class="leg-status ${st.cls}">${st.label}</span>
         <span class="leg-date">${formatDate(f.date)}</span>
       </div>
       ${jurisdictionLabel}
-      <div class="leg-card-title">${escapeHtml(title || '')}</div>
-      ${sponsorsHtml}
+      <div class="leg-card-title">${title}</div>
+      ${Array.isArray(f.sponsors) && f.sponsors.length ? `<div class="leg-card-sponsors">${f.sponsors.join(', ')}</div>` : ''}
       <div class="leg-card-summary">${summary}</div>
-      ${issueTagsHtml}
-      ${(updatedHtml || billLinkHtml) ? `<div class="leg-card-footer">${updatedHtml}${billLinkHtml}</div>` : ''}
+      ${f.bill_url ? `<a href="${f.bill_url}" target="_blank" class="leg-card-bill" onclick="event.stopPropagation()">${f.bill_name || 'View Bill'} ↗</a>` : ''}
     </div>
   `;
 }

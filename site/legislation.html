@@ -8,8 +8,9 @@
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=1777680000" />
+  <link rel="stylesheet" href="css/legislation.css?v=1777700000" />
 </head>
 <body>
   <header>
@@ -32,8 +33,10 @@
     <section class="legislation-tracker" id="legislation-tracker">
       <div class="legislation-header">
         <h2>Legislation Tracker <span id="legislation-count" class="count-badge"></span></h2>
-        <p class="legislation-subtitle">State and federal bills regulating data center development</p>
+        <p class="legislation-subtitle">State and federal bills regulating data center development. Numbers update live as you filter.</p>
       </div>
+
+      <div class="leg-stats-strip" id="leg-stats-strip" aria-label="Summary statistics for the filtered bill set"></div>
 
       <div class="search-bar">
         <input type="text" id="leg-search-input" placeholder="Search by bill name, sponsor, state, or keyword..." />
@@ -114,6 +117,6 @@
   </section>
 
   <script src="js/utils.js?v=1777680000"></script>
-  <script src="js/legislation.js?v=1777680000"></script>
+  <script src="js/legislation.js?v=1777700000"></script>
 </body>
 </html>

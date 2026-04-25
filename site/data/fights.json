@@ -19460,7 +19460,7 @@
       "legislation"
     ],
     "date": "2026-02-09",
-    "status": "active",
+    "status": "dead",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 1063",
@@ -19487,7 +19487,7 @@
       "https://georgiarecorder.com/2026/02/26/data-center-bill-stalls-after-last-minute-change-opposed-by-industry-finds-support/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 1063",
     "bill_url": "https://www.legis.ga.gov/legislation/72365",
@@ -19499,7 +19499,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require utility-data center contracts shielding other customers",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Brad Thomas (R-GA)"
     ]
@@ -25411,7 +25411,7 @@
       "legislation"
     ],
     "date": "2026-03-06",
-    "status": "active",
+    "status": "dead",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -25437,7 +25437,7 @@
       "https://thecurrentga.org/2026/03/07/georgia-senate-votes-to-end-tax-breaks-for-new-data-centers/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "SB 410 - Data Center Tax Exemption Repeal",
@@ -25448,7 +25448,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Repeal data center tax exemptions via SB 34",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Sen. Matt Brass (R-GA)"
     ]
@@ -27954,18 +27954,18 @@
       "legislation"
     ],
     "date": "2026-02-01",
-    "status": "pending",
-    "summary": "Georgia HB 559 would accelerate the sunset date for the state's data center sales and use tax exemption program, ending tax breaks for new data centers by 2026 rather than the originally scheduled later date. The bill is part of a wave of Georgia legislation targeting data center incentives in the 2026 session, alongside SB 410 (which passed the Senate to repeal exemptions entirely) and HB 1063 (which passed the House 159-5 requiring data centers to pay infrastructure costs).",
+    "status": "dead",
+    "summary": "Georgia HB 559 would accelerate the sunset date for the state's data center sales and use tax exemption program, ending tax breaks for new data centers by 2026 rather than the originally scheduled later date. The bill is part of a wave of Georgia legislation targeting data center incentives in the 2026 session, alongside SB 410 (which passed the Senate to repeal exemptions entirely) and HB 1063 (which passed the House 159-5 requiring data centers to pay infrastructure costs). Per Inside Climate News (April 9, 2026), all data center ratepayer protection bills failed in the 2026 Georgia session; the tax exemption is set to remain in place until 2032.",
     "bill_name": "HB 559 - Data Center Equipment Tax Exemption Sunset",
     "bill_url": "https://www.legis.ga.gov/legislation/70171",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "ratepayer",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
     "objective": "Accelerate Georgia data center tax exemption sunset to 2026",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. John Carson (R-GA)"
     ]
@@ -27991,18 +27991,18 @@
       "legislation"
     ],
     "date": "2026-02-01",
-    "status": "pending",
-    "summary": "SB 408, sponsored by Sen. Nan Orrock (D-Atlanta), would move the sunset date for Georgia's data center sales and use tax exemption from January 1, 2032 to January 1, 2027, effectively ending the incentive five years early. It is one of several bills introduced in the 2025-26 session targeting the exemption, including SB 410 (immediate repeal) and HB 559 (sunset December 31, 2026). A state audit found the exemption has cost Georgia significant revenue while creating relatively few jobs per dollar of tax benefit.",
+    "status": "dead",
+    "summary": "SB 408, sponsored by Sen. Nan Orrock (D-Atlanta), would move the sunset date for Georgia's data center sales and use tax exemption from January 1, 2032 to January 1, 2027, effectively ending the incentive five years early. It is one of several bills introduced in the 2025-26 session targeting the exemption, including SB 410 (immediate repeal) and HB 559 (sunset December 31, 2026). A state audit found the exemption has cost Georgia significant revenue while creating relatively few jobs per dollar of tax benefit. Per Inside Climate News (April 9, 2026), SB 408 did not reach a vote in the Senate; the exemption remains until 2032.",
     "bill_name": "SB 408 - Data Center Tax Exemption Sunset",
     "bill_url": "https://www.legis.ga.gov/legislation/70803",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "ratepayer",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
     "objective": "Accelerate data center tax exemption sunset (HB 559)",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Sen. Nan Orrock (D-GA)"
     ]

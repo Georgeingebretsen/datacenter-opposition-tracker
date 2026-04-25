@@ -13744,7 +13744,7 @@
       "legislation"
     ],
     "date": "2026-01-01",
-    "status": "active",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 897 (data center sales tax exemption conditions)",
@@ -13775,7 +13775,7 @@
       "https://introl.com/blog/virginia-data-center-tax-exemption-battle-2026"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-20",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 897",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB897",
@@ -13786,13 +13786,14 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Reduce scope of data center tax exemptions in VA",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Del. Rip Sullivan (D-VA)"
     ],
     "flags": [
       "bill_number_corrected_from_hb961_to_hb897",
-      "sponsor_corrected_from_watts_to_sullivan"
+      "sponsor_corrected_from_watts_to_sullivan",
+      "duplicate_of_virginia-statewide-hb-897-va-2026-01-01"
     ]
   },
   {
@@ -15750,7 +15751,7 @@
       "legislation"
     ],
     "date": "2026-01-15",
-    "status": "pending",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 76",
@@ -15774,7 +15775,7 @@
       "https://www.upr.org/politics/2026-03-17/how-utahs-2026-legislative-session-reshaped-water-policy"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 76",
     "bill_url": "https://le.utah.gov/~2026/bills/static/HB0076.html",
@@ -15786,7 +15787,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require data center water usage notification and reporting in Utah",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Rep. Jill Koford (R-UT)"
     ]
@@ -19353,7 +19354,7 @@
       "legislation"
     ],
     "date": "2026-02-09",
-    "status": "pending",
+    "status": "dead",
     "company": "Meta / Diode Ventures",
     "hyperscaler": "Meta",
     "project_name": "HB 609 / HB 756 (Mickelsen Rate Protection Bill)",
@@ -19377,7 +19378,7 @@
       "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0739/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 609",
     "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0609/",
@@ -19389,7 +19390,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Reduce data center tax exemptions via HB 609",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Steve Mickelsen (R-ID)"
     ]
@@ -19459,7 +19460,7 @@
       "legislation"
     ],
     "date": "2026-02-09",
-    "status": "active",
+    "status": "dead",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 1063",
@@ -19486,7 +19487,7 @@
       "https://georgiarecorder.com/2026/02/26/data-center-bill-stalls-after-last-minute-change-opposed-by-industry-finds-support/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 1063",
     "bill_url": "https://www.legis.ga.gov/legislation/72365",
@@ -19498,7 +19499,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require utility-data center contracts shielding other customers",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Brad Thomas (R-GA)"
     ]
@@ -20349,7 +20350,7 @@
       "legislation"
     ],
     "date": "2026-02-12",
-    "status": "active",
+    "status": "defeated",
     "company": "LiquidCool (seeking exemption for Loring data center)",
     "hyperscaler": null,
     "project_name": "LD 307 Moratorium Amendment",
@@ -20383,7 +20384,7 @@
       "https://www.centralmaine.com/2026/03/05/no-more-maine-data-centers-for-now-lawmakers-say/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "LD 307",
     "bill_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132",
@@ -20395,7 +20396,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Pause data center permits for study via LD 307",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Melanie Sachs (D-ME)"
     ],
@@ -25410,7 +25411,7 @@
       "legislation"
     ],
     "date": "2026-03-06",
-    "status": "active",
+    "status": "dead",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -25436,7 +25437,7 @@
       "https://thecurrentga.org/2026/03/07/georgia-senate-votes-to-end-tax-breaks-for-new-data-centers/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "SB 410 - Data Center Tax Exemption Repeal",
@@ -25447,7 +25448,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Repeal data center tax exemptions via SB 34",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Sen. Matt Brass (R-GA)"
     ]
@@ -27953,18 +27954,18 @@
       "legislation"
     ],
     "date": "2026-02-01",
-    "status": "pending",
-    "summary": "Georgia HB 559 would accelerate the sunset date for the state's data center sales and use tax exemption program, ending tax breaks for new data centers by 2026 rather than the originally scheduled later date. The bill is part of a wave of Georgia legislation targeting data center incentives in the 2026 session, alongside SB 410 (which passed the Senate to repeal exemptions entirely) and HB 1063 (which passed the House 159-5 requiring data centers to pay infrastructure costs).",
+    "status": "dead",
+    "summary": "Georgia HB 559 would accelerate the sunset date for the state's data center sales and use tax exemption program, ending tax breaks for new data centers by 2026 rather than the originally scheduled later date. The bill is part of a wave of Georgia legislation targeting data center incentives in the 2026 session, alongside SB 410 (which passed the Senate to repeal exemptions entirely) and HB 1063 (which passed the House 159-5 requiring data centers to pay infrastructure costs). Per Inside Climate News (April 9, 2026), all data center ratepayer protection bills failed in the 2026 Georgia session; the tax exemption is set to remain in place until 2032.",
     "bill_name": "HB 559 - Data Center Equipment Tax Exemption Sunset",
     "bill_url": "https://www.legis.ga.gov/legislation/70171",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "ratepayer",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
     "objective": "Accelerate Georgia data center tax exemption sunset to 2026",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. John Carson (R-GA)"
     ]
@@ -27990,18 +27991,18 @@
       "legislation"
     ],
     "date": "2026-02-01",
-    "status": "pending",
-    "summary": "SB 408, sponsored by Sen. Nan Orrock (D-Atlanta), would move the sunset date for Georgia's data center sales and use tax exemption from January 1, 2032 to January 1, 2027, effectively ending the incentive five years early. It is one of several bills introduced in the 2025-26 session targeting the exemption, including SB 410 (immediate repeal) and HB 559 (sunset December 31, 2026). A state audit found the exemption has cost Georgia significant revenue while creating relatively few jobs per dollar of tax benefit.",
+    "status": "dead",
+    "summary": "SB 408, sponsored by Sen. Nan Orrock (D-Atlanta), would move the sunset date for Georgia's data center sales and use tax exemption from January 1, 2032 to January 1, 2027, effectively ending the incentive five years early. It is one of several bills introduced in the 2025-26 session targeting the exemption, including SB 410 (immediate repeal) and HB 559 (sunset December 31, 2026). A state audit found the exemption has cost Georgia significant revenue while creating relatively few jobs per dollar of tax benefit. Per Inside Climate News (April 9, 2026), SB 408 did not reach a vote in the Senate; the exemption remains until 2032.",
     "bill_name": "SB 408 - Data Center Tax Exemption Sunset",
     "bill_url": "https://www.legis.ga.gov/legislation/70803",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "ratepayer",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
     "objective": "Accelerate data center tax exemption sunset (HB 559)",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Sen. Nan Orrock (D-GA)"
     ]
@@ -28260,8 +28261,8 @@
       "legislation"
     ],
     "date": "2026-03-10",
-    "status": "pending",
-    "summary": "In Maryland, HB 1411 would require large-scale data center operators to report environmental and resource impacts publicly. Mandates jurisdictions with 10,000+ residents create formal data center management plans by 2027. Includes $1,000/MW payment into EmPOWER program for low-income assistance. The outcome remains pending. The community's stated objective was to mandate public environmental reporting from data centers (HB 1411).",
+    "status": "dead",
+    "summary": "In Maryland, HB 1411 would require large-scale data center operators to report environmental and resource impacts publicly. Mandates jurisdictions with 10,000+ residents create formal data center management plans by 2027. Includes $1,000/MW payment into EmPOWER program for low-income assistance. HB 1411 did not pass the 2026 Maryland session (sine die April 13, 2026). The community's stated objective was to mandate public environmental reporting from data centers (HB 1411).",
     "bill_name": "HB 1411 - Data Center Planning and Transparency Act",
     "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb1411?ys=2026RS",
     "issue_category": [
@@ -28272,11 +28273,11 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Mandate public environmental reporting from data centers (HB 1411)",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Del. Sheila Ruth (D-MD)"
     ],
-    "last_updated": "2026-03-28"
+    "last_updated": "2026-04-25"
   },
   {
     "scope": "statewide",
@@ -29794,11 +29795,11 @@
       "legislation"
     ],
     "date": "2026-03-13",
-    "status": "active",
+    "status": "passed",
     "bill_name": "SB 265 - Data Center Tax Incentive Reform",
     "bill_url": "https://legiscan.com/AL/bill/SB265/2026",
-    "summary": "Alabama SB265, sponsored by Sen. Andrew Jones (R-Centre), limits data center tax abatement periods to 20 years starting January 1, 2027, down from the current 30-year maximum. The bill also mandates that large-scale data centers consuming 100+ MW pay state sales and use taxes. The governor may waive taxes for economically struggling counties. Passed the Senate 30-0 on March 13, 2026, with Governor Kay Ivey's support as part of a broader package aimed at lowering costs for Alabama families.",
-    "last_updated": "2026-03-19",
+    "summary": "Alabama SB265, sponsored by Sen. Andrew Jones (R-Centre), limits data center tax abatement periods to 20 years starting January 1, 2027, down from the current 30-year maximum. The bill also mandates that large-scale data centers consuming 100+ MW pay state sales and use taxes. The governor may waive taxes for economically struggling counties. Passed the Senate 30-0 on March 13, 2026, with Governor Kay Ivey's support as part of a broader package aimed at lowering costs for Alabama families. The companion HB 399 (Hulsey) reached the same outcome and was sent to Ivey's desk on April 9, 2026.",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "contract_guarantees",
       "ratepayer",
@@ -29806,7 +29807,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Limit data center tax abatements to 20 years in Alabama",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Sen. Andrew Jones (R-AL)"
     ]
@@ -32673,11 +32674,11 @@
       "legislation"
     ],
     "date": "2026-02-12",
-    "status": "active",
+    "status": "passed",
     "bill_name": "HB 399 - Data Center Abatement Limits",
     "bill_url": "https://legiscan.com/AL/bill/HB399/2026",
-    "summary": "Alabama HB 399, sponsored by Rep. Hulsey (R-Helena), is the House companion to SB 265. Limits tax abatements for data center projects over $200M to 20 years, down from the current 30-year maximum. Requires data centers consuming 100+ MW to pay state sales and use taxes allocated to the General Fund, effective January 1, 2027. Passed House 103-0. Part of a bipartisan effort to rein in data center subsidies after the Meridian Compass deal was named '2025 Worst Economic Development Deal.'",
-    "last_updated": "2026-03-19",
+    "summary": "Alabama HB 399, sponsored by Rep. Hulsey (R-Helena), is the House companion to SB 265. Limits tax abatements for data center projects over $200M to 20 years, down from the current 30-year maximum. Requires data centers consuming 100+ MW to pay state sales and use taxes allocated to the General Fund, effective January 1, 2027. Passed House 103-0; Senate unanimously passed amended version (April 9, 2026); House concurred and bill was sent to Gov. Ivey's desk. Gov. Ivey publicly supports the legislation as part of a package to lower costs for families.",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "contract_guarantees",
       "ratepayer",
@@ -32685,7 +32686,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Limit data center tax abatements to 20 years and require 100MW+ sales tax payments (HB 399)",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Rep. Leigh Hulsey (R-AL)"
     ]
@@ -35167,7 +35168,7 @@
       "legislation"
     ],
     "date": "2025-12-17",
-    "status": "active",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "acreage": null,
@@ -35190,16 +35191,17 @@
       "https://www.sierraclub.org/virginia/blog/2026/01/looser-rules-dirtier-air-data-centers-and-diesel-pollution-virginia"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
       "community_impact",
-      "environmental"
+      "environmental",
+      "air_quality"
     ],
     "authority_level": "state_legislature",
     "objective": "Ban diesel backup generators at data centers in VA",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "bill_name": "HB 507 (Tier IV Generator Requirement)",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB507",
     "sponsors": [
@@ -42660,7 +42662,7 @@
       "legislation"
     ],
     "date": "2026-03-20",
-    "status": "passed",
+    "status": "defeated",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -42686,7 +42688,7 @@
       "https://www.cnn.com/2026/04/12/climate/maine-data-center-ban-bill"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -42696,7 +42698,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Freeze permits for data centers over 20MW statewide through November 2027",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Melanie Sachs (D-Freeport)"
     ]

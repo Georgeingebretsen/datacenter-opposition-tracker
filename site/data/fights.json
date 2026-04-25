@@ -15751,7 +15751,7 @@
       "legislation"
     ],
     "date": "2026-01-15",
-    "status": "pending",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": "HB 76",
@@ -15775,7 +15775,7 @@
       "https://www.upr.org/politics/2026-03-17/how-utahs-2026-legislative-session-reshaped-water-policy"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 76",
     "bill_url": "https://le.utah.gov/~2026/bills/static/HB0076.html",
@@ -15787,7 +15787,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Require data center water usage notification and reporting in Utah",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "sponsors": [
       "Rep. Jill Koford (R-UT)"
     ]
@@ -19354,7 +19354,7 @@
       "legislation"
     ],
     "date": "2026-02-09",
-    "status": "pending",
+    "status": "dead",
     "company": "Meta / Diode Ventures",
     "hyperscaler": "Meta",
     "project_name": "HB 609 / HB 756 (Mickelsen Rate Protection Bill)",
@@ -19378,7 +19378,7 @@
       "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0739/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "HB 609",
     "bill_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0609/",
@@ -19390,7 +19390,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Reduce data center tax exemptions via HB 609",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Steve Mickelsen (R-ID)"
     ]
@@ -20350,7 +20350,7 @@
       "legislation"
     ],
     "date": "2026-02-12",
-    "status": "active",
+    "status": "defeated",
     "company": "LiquidCool (seeking exemption for Loring data center)",
     "hyperscaler": null,
     "project_name": "LD 307 Moratorium Amendment",
@@ -20384,7 +20384,7 @@
       "https://www.centralmaine.com/2026/03/05/no-more-maine-data-centers-for-now-lawmakers-say/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "bill_name": "LD 307",
     "bill_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132",
@@ -20396,7 +20396,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Pause data center permits for study via LD 307",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Melanie Sachs (D-ME)"
     ],
@@ -42662,7 +42662,7 @@
       "legislation"
     ],
     "date": "2026-03-20",
-    "status": "passed",
+    "status": "defeated",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -42688,7 +42688,7 @@
       "https://www.cnn.com/2026/04/12/climate/maine-data-center-ban-bill"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -42698,7 +42698,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Freeze permits for data centers over 20MW statewide through November 2027",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "sponsors": [
       "Rep. Melanie Sachs (D-Freeport)"
     ]

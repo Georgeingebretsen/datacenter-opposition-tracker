@@ -1852,7 +1852,7 @@
       "https://www.investigativepost.org/2026/01/30/genesee-ida-has-conflict-of-interest-in-stamp-data-center/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "community_impact",
       "environmental",
@@ -1862,7 +1862,7 @@
     ],
     "authority_level": "court",
     "objective": "Challenge STREAM Data Centers for treaty rights violations",
-    "community_outcome": "pending",
+    "community_outcome": "mixed",
     "flags": [
       {
         "type": "status_uncertain",
@@ -2350,7 +2350,7 @@
       "https://abc7ny.com/post/nassau-county-officials-do-not-want-lithium-ion-battery-storage-facilities-long-island/16186659/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -2359,7 +2359,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Propose battery energy storage systems moratorium in Nassau County",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "energy_mw": 275
   },
   {
@@ -2800,7 +2800,7 @@
       "public_comment"
     ],
     "date": "2025-06-01",
-    "status": "active",
+    "status": "approved",
     "company": "Meta, Google, QTS",
     "hyperscaler": "Meta",
     "project_name": null,
@@ -2830,7 +2830,7 @@
       "https://eaglemountain.gov/preparations-underway-for-future-energy-generation-with-proposed-code-amendments/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -2839,7 +2839,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Block Alternative Energy Overlay Zone for nuclear reactors near data centers in Eagle Mountain",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "little-rock-ar-2025-06-01",
@@ -2985,7 +2985,7 @@
       "https://actionnetwork.org/letters/stop-the-hydro-park-data-center"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "energy_mw": 110,
@@ -3000,7 +3000,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Rally against University of Michigan data center in Ypsilanti Township",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "oakland-university-rochester-hills-mi-2025-06-01",
@@ -3072,7 +3072,7 @@
     "opposition_groups": [
       "Economic Development Responsibility Alliance of Michigan"
     ],
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county": "Chippewa County",
     "county_lean": "R",
@@ -3082,7 +3082,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 1-year data centers moratorium in Clark Township",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_website": "https://edraofmi.org/",
     "opposition_facebook": "https://www.facebook.com/edraofmi",
     "opposition_facebook_members": 163
@@ -4168,7 +4168,7 @@
       "https://www.clickondetroit.com/news/local/2025/06/03/farming-community-resists-1b-data-center-project-in-washtenaw-county/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-03-28",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "energy_mw": 100,
@@ -4184,7 +4184,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Force public referendum on Thor Equities data center in Augusta Charter",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "city-of-north-mankato-mn-2025-08-01",
@@ -4555,7 +4555,7 @@
       "public_comment"
     ],
     "date": "2025-08-01",
-    "status": "active",
+    "status": "approved",
     "company": "Microsoft",
     "hyperscaler": "Microsoft",
     "project_name": "SAT 93 & SAT 94",
@@ -4584,7 +4584,7 @@
       "https://www.kens5.com/article/news/community/texas-san-antonios-data-center-economy-skyline/273-82d28bd3-34c2-48bb-a493-cd24008bc9cc"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "investment_usd": 700000000,
@@ -4595,7 +4595,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose Microsoft data center over Edwards Aquifer drought impacts",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "mooresville-nc-2025-08-01",
@@ -4994,7 +4994,7 @@
       "https://www.wgrz.com/article/tech/science/environment/impacts-north-tonawanda-cryptomines-nuclear-power/71-1f8c0958-4d71-4443-86b6-c30e4df93afc"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -5003,7 +5003,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Impose two-year moratorium on crypto mining and data centers in North Tonawanda",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "wrangell-ak-2025-08-21",
@@ -5315,7 +5315,7 @@
       "https://www.news-daily.com/news/clayton-county-boc-extending-data-center-moratorium/article_ac1dfa43-3798-4a15-a9c8-342177ae4091.html"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "energy_mw": 180,
@@ -5327,7 +5327,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Clayton County after TA Realty proposal",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "troup-county-ga-2025-09-01",
@@ -5376,7 +5376,7 @@
       "https://www.lagrangenews.com/news/troup-unveils-proposed-data-center-draft-ordinance-5b5dcee3"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 600,
@@ -5389,7 +5389,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 90-day data centers moratorium in Troup County (Fertile Ground Investments)",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "prince-george-s-county-md-2025-09-01",
@@ -5545,7 +5545,7 @@
       "https://www.sierraclub.org/georgia/datacenters"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -5554,7 +5554,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Pike County after Amazon/AWS proposal",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "flags": [
       {
         "type": "attribution_uncertain",
@@ -5602,7 +5602,7 @@
       "https://www.wabe.org/georgia-lawmakers-debating-data-center-moratorium-and-regulation-bills-in-legislature/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -5611,7 +5611,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in Lamar County after Amazon/AWS proposal",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "statesville-nc-2025-09-01",
@@ -5891,7 +5891,7 @@
       "public_comment"
     ],
     "date": "2025-09-01",
-    "status": "active",
+    "status": "approved",
     "company": "AVAIO Digital",
     "hyperscaler": null,
     "project_name": "Taurus",
@@ -5916,7 +5916,7 @@
       "https://www.supertalk.fm/multi-billion-dollar-data-center-being-built-in-brandon-but-residents-still-want-answers/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -5926,7 +5926,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Petition to block AVAIO Digital data center in Brandon",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "logan-county-wv-2025-09-02",
@@ -5939,7 +5939,7 @@
       "lawsuit"
     ],
     "date": "2025-09-02",
-    "status": "active",
+    "status": "approved",
     "company": "TransGas Development Systems",
     "hyperscaler": null,
     "project_name": "Adams Fork Energy",
@@ -5983,7 +5983,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Oppose TransGas Development Systems data center over water in Logan County",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "jerome-township-oh-2025-09-03",
@@ -6772,7 +6772,7 @@
       "https://www.shutesbury.org/zoning-bylaw-maps-and-amendments"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -6782,7 +6782,7 @@
     ],
     "authority_level": "voters",
     "objective": "Impose 9-month data centers moratorium in Shutesbury",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "white-county-in-2025-10-01",
@@ -6826,7 +6826,7 @@
       "https://www.citact.org/about"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -6835,7 +6835,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Halt data centers in White County after Undisclosed proposal",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_facebook_members": 5096
   },
   {
@@ -7094,7 +7094,7 @@
       "https://cornerpost.org/2025/12/10/page-ariz-citizens-file-referendum-to-veto-city-councils-decision-to-sell-500-acres-for-data-center-development/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "investment_usd": 10000000000,
@@ -7106,7 +7106,7 @@
     ],
     "authority_level": "city_council",
     "objective": "Recall officials who approved Huntley data center",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "villa-rica-ga-2025-10-01",
@@ -7412,7 +7412,7 @@
       "zoning_restriction"
     ],
     "date": "2025-10-01",
-    "status": "active",
+    "status": "approved",
     "company": "Shenandoah Computing LLC",
     "hyperscaler": "Google",
     "project_name": "Project Kestrel",
@@ -7443,7 +7443,7 @@
       "https://www.co.platte.mo.us/data-center-project"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -7454,7 +7454,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Study data center impacts on water resources in MO",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "lower-mt-bethel-township-pa-2025-10-01",
@@ -7970,7 +7970,7 @@
       "https://planetdetroit.org/2025/12/dte-data-center-contracts-approved/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "opposition_facebook_members": 1800,
     "county_lean": "D",
@@ -7986,7 +7986,7 @@
     ],
     "authority_level": "court",
     "objective": "Sue over open meeting violations in OpenAI / Oracle approval",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "shreveport-la-2025-10-01",
@@ -8125,7 +8125,7 @@
       "East Vincent Advocacy",
       "Prevent East Vincent DC Development"
     ],
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "company": "Penn Hurst Holdings DE LLC",
     "opposition_website": "https://www.evtadvocacy.org/",
     "petition_url": "https://www.change.org/p/protect-pennhurst-from-data-center-development",
@@ -8144,7 +8144,7 @@
     ],
     "authority_level": "planning_commission",
     "objective": "Deny Penn Hurst Holdings DE data center on 125 acres in East Vincent",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "temple-tx-2025-10-01",
@@ -8270,7 +8270,7 @@
       "https://www.cvilletomorrow.org/how-should-albemarle-county-regulate-data-centers-officials-want-to-hear-what-residents-think/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -8281,7 +8281,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Create data center overlay zone in Albemarle County",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "muscogee-nation-ok-2025-10-01",
@@ -8417,7 +8417,7 @@
       "Dundee's Not for Sale",
       "Citizens Against a Dundee Data Center"
     ],
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-25",
     "company": "Cloverleaf Infrastructure",
     "petition_url": "https://www.change.org/p/prevent-the-construction-of-a-data-center-in-dundee-mi",
     "petition_signatures": 2062,
@@ -8434,7 +8434,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 90-day data centers moratorium in Dundee Township (Cloverleaf Infrastructure)",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "city-of-bristol-tn-2025-10-01",
@@ -8725,7 +8725,7 @@
       "Michiganders Against Data Centers",
       "Economic Development Responsibility Alliance of Michigan"
     ],
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-25",
     "opposition_website": "https://edraofmi.org/",
     "opposition_facebook": "https://www.facebook.com/groups/1370478521101998",
     "petition_url": "https://www.change.org/p/ban-ai-data-centers-in-michigan",
@@ -8740,7 +8740,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Impose 2-year data centers moratorium in Manchester Township",
-    "community_outcome": "pending"
+    "community_outcome": "win"
   },
   {
     "id": "pine-island-mn-2025-10-16",
@@ -8935,7 +8935,7 @@
       "https://pagosadailypost.com/2025/10/21/granite-renewables-logan-county/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -8944,7 +8944,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 180-day battery energy storage systems moratorium in Logan County",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "energy_mw": 2000,
     "investment_usd": 15000000000,
     "flags": [
@@ -9000,7 +9000,7 @@
       "https://www.douglascountysentinel.com/douglasville_sentinel/data-center-moratorium-extended-to-determine-impact-on-ratepayers/article_3d610d7f-cec8-5be2-a4dc-9f3591440adc.html"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -9010,7 +9010,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Impose 90-day data centers moratorium in Douglas County (DC BLOX)",
-    "community_outcome": "pending",
+    "community_outcome": "mixed",
     "flags": [
       {
         "type": "figure_unverified",
@@ -21760,7 +21760,7 @@
       "moratorium"
     ],
     "date": "2025-04-01",
-    "status": "active",
+    "status": "approved",
     "company": "Meta",
     "hyperscaler": "Meta",
     "project_name": null,
@@ -21793,7 +21793,7 @@
       "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -21805,7 +21805,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Demand transparency on Meta's $800M data center under construction in Middleton Township",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "new-brunswick-nj-2026-02-19",
@@ -25697,7 +25697,7 @@
       "Piedmont Environmental Council"
     ],
     "opposition_website": "https://protectfauquier.com/",
-    "last_updated": "2026-03-24",
+    "last_updated": "2026-04-25",
     "investment_usd": 3067000000,
     "issue_category": [
       "community_impact",
@@ -25707,7 +25707,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny Gigaland 600MW data center permit in Fauquier County",
-    "community_outcome": "pending",
+    "community_outcome": "mixed",
     "megawatts": 600,
     "investment_million_usd": 3067
   },
@@ -26074,7 +26074,7 @@
       "Earthjustice"
     ],
     "opposition_facebook": "https://www.facebook.com/groups/bitcoinoisehoodcounty/",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "grid_energy",
       "noise",
@@ -26082,7 +26082,7 @@
     ],
     "authority_level": "court",
     "objective": "Challenge TIF financing for MARA Holdings data center",
-    "community_outcome": "pending",
+    "community_outcome": "mixed",
     "investment_million_usd": 179
   },
   {
@@ -26476,7 +26476,7 @@
       "zoning_restriction"
     ],
     "date": "2025-10-06",
-    "status": "active",
+    "status": "approved",
     "summary": "CoreWeave announced a $6 billion commitment to build an AI data center in Lancaster, converting former R.R. Donnelley/LSC Communications printing plants into a state-of-the-art facility co-developed with Chirisa Technology Parks and Machine Investment Group. Phase 1 (100 MW) is under construction with expected completion summer 2027; Phase 2 targets end of 2027 with potential expansion to 300 MW. Approximately 600 construction jobs and 70-175 permanent technical/operational roles are expected. Community concerns about noise, water use, and neighborhood impacts persist.",
     "issue_category": [
       "community_impact",
@@ -26488,12 +26488,12 @@
     ],
     "authority_level": "city_council",
     "objective": "Require special exception permits for CoreWeave data center conversion of former R.R. Donnelly plants in Lancaster City",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "investment_million_usd": 6000,
     "opposition_groups": [
       "Lancaster Residents Against Data Centers"
     ],
-    "last_updated": "2026-04-05"
+    "last_updated": "2026-04-25"
   },
   {
     "scope": "local",
@@ -26561,14 +26561,14 @@
     "opposition_groups": [
       "Save Frackville"
     ],
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "environmental",
       "zoning"
     ],
     "authority_level": "township_board",
     "objective": "Restrict KRNL Data Centers data center via zoning in New Castle Township",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "scope": "local",
@@ -27110,7 +27110,7 @@
       "public_comment"
     ],
     "date": "2025-07-10",
-    "status": "active",
+    "status": "approved",
     "summary": "DC Blox is building a scaled-down 10 MW data center in Palm Coast (Flagler County, FL) Town Center, kept under 40,000 sq ft to bypass public planning board reviews. Construction on the project ('Project Orchid') is likely to begin at end of 2026, operational by 2028. The facility serves as an undersea cable landing station via Flagler Beach. Google announced Sol, the only in-service fiber-optic cable between Florida (Flagler Beach) and Europe (Spain), connecting at the DC Blox Cable Landing Station. The project operated under state confidentiality law for two years before FlaglerLive obtained construction documents through repeated FOIA requests. Florida Project Tango (separate, S Florida) is also moving forward despite backlash, and Florida SB 484 aims to protect Floridians from data center costs.",
     "acreage": 34,
     "issue_category": [
@@ -27120,8 +27120,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Oppose DC BLOX subsea cable landing station and data center connecting up to 8 undersea cables for Google in Palm Coast",
-    "community_outcome": "pending",
-    "last_updated": "2026-04-21",
+    "community_outcome": "loss",
+    "last_updated": "2026-04-25",
     "flags": [
       {
         "type": "attribution_uncertain",
@@ -31621,7 +31621,7 @@
       "https://www.bisnow.com/national/news/data-center/virginia-county-backtracks-on-agreement-with-amazon-for-6b-data-center-campus-122327"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-18",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -31632,7 +31632,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Deny Amazon Web Services data center on 52 acres in Prince William",
-    "community_outcome": "pending",
+    "community_outcome": "mixed",
     "opposition_facebook_members": 1300
   },
   {
@@ -34370,7 +34370,7 @@
       "lawsuit"
     ],
     "date": "2025-09-01",
-    "status": "active",
+    "status": "approved",
     "company": "Meta (via Beignet LLC / Blue Owl Capital)",
     "project_name": "Hyperion Data Center",
     "investment_million_usd": 27000,
@@ -34394,7 +34394,7 @@
       "https://thelensnola.org/2026/01/29/meta-datacenter-louisiana-corruption-water-power-utilities/"
     ],
     "data_source": "news",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "R",
     "hyperscaler": "Meta",
@@ -34409,7 +34409,7 @@
     ],
     "authority_level": "utility_commission",
     "objective": "Challenge Meta's 2000MW data center groundwater withdrawal",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "prince-william-va-digital-gateway-void-2025-08",
@@ -39089,7 +39089,7 @@
     ],
     "authority_level": "township_board",
     "objective": "Community pressure forces Panattoni Development to withdraw in Perry Township",
-    "community_outcome": "pending"
+    "community_outcome": "mixed"
   },
   {
     "id": "washington-county-waterford-oh-2026-01-01",
@@ -39196,7 +39196,7 @@
       "public_comment"
     ],
     "date": "2025-05-01",
-    "status": "active",
+    "status": "approved",
     "scope": "local",
     "company": "Atlas Development",
     "hyperscaler": "Microsoft",
@@ -39222,7 +39222,7 @@
     "petition_url": "https://www.change.org/p/we-say-no-to-atlas-development-s-data-center-battey-complex",
     "petition_signatures": 1951,
     "data_source": "crdcd_map",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "county_lean": "R",
     "issue_category": [
       "community_impact",
@@ -39231,7 +39231,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Petition to block Atlas Development, Microsoft data center in Floyd County",
-    "community_outcome": "pending"
+    "community_outcome": "loss"
   },
   {
     "id": "paulding-county-ga-2025-12-01",

@@ -13731,11 +13731,11 @@
     "action_type": [
       "legislation"
     ],
-    "date": "2026-01-01",
+    "date": "2026-04-15",
     "status": "passed",
     "company": null,
     "hyperscaler": null,
-    "project_name": "SB 596 / HB 940",
+    "project_name": "HB 1532 / SB 596 — Utility RELIEF Act",
     "investment_million_usd": null,
     "megawatts": null,
     "acreage": null,
@@ -13749,17 +13749,22 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Maryland's Utility RELIEF Act PASSED at Sine Die on April 13-14, 2026. The final bill requires data centers to cover their own grid infrastructure costs, prevents cost-shifting to residential ratepayers, and mandates electricity and water usage disclosure. Expected to save average Maryland families ~$150/year on utility bills. A major legislative win for Maryland ratepayers. UPDATE 2026-04-21: Signed by Gov. Wes Moore on April 14, 2026. Delivers ~$150/year household utility relief, requires data centers to cover their own grid infrastructure, and taps $100M from the Strategic Energy Investment Fund. Food & Water Watch criticized the final bill as too weak.",
+    "summary": "Governor Wes Moore signed HB 1532, the Utility RELIEF (Reducing Energy Load Inflation for Everyday Families) Act, into law on or about April 15, 2026, the day after the General Assembly passed it on the final day of session (April 13/14). The bill's data center provisions create a large-load registry program for grid management, require data centers to pay for transmission, distribution, interconnection, and new capacity costs (preventing cost-shifting to other ratepayers), and incentivize data centers to bring their own clean energy generation with battery backup (effective 2028). Top-tier projects receive 12-month expedited environmental permitting and priority interconnection. Critics including Food & Water Watch criticized provisions they characterized as pro-industry. The law saves Maryland families an estimated $150/year on energy bills.",
     "sources": [
+      "https://marylandmatters.org/2026/04/14/energy-bill-passage-utility-relief-act/",
+      "https://governor.maryland.gov/news/press/pages/Governor-Moore,-Senate-President-Ferguson,-and-House-Speaker-Pe%C3%B1a-Melnyk-Announce-Agreement-to-Pass-Utility-RELIEF-Act.aspx",
+      "https://www.foodandwaterwatch.org/2026/04/13/fww-criticizes-final-version-of-pro-data-center-utility-relief-act/",
+      "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1532?ys=2026RS",
+      "https://marylandmatters.org/2026/04/20/battles-over-data-centers-intensify-in-the-state-house-and-communities/",
       "https://www.foodandwaterwatch.org/2026/04/07/md-senate-passes-pro-data-center-provisions-in-utility-relief-bill/",
       "https://marylandmatters.org/2026/04/06/senate-passes-utility-relief-act-energy-bill/",
       "https://www.baltimoresun.com/2026/04/02/data-centers-ratepayer-costs-at-center-of-heated-maryland-senate-energy-debate/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
-    "bill_name": "SB 596 / HB 940",
-    "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0596?ys=2026RS",
+    "bill_name": "HB 1532 / SB 596 — Utility RELIEF Act",
+    "bill_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1532?ys=2026RS",
     "county_lean": null,
     "issue_category": [
       "grid_energy",
@@ -13767,7 +13772,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Incentivize data center demand response participation in MD",
-    "community_outcome": "win",
+    "community_outcome": "mixed",
     "sponsors": [
       "Sen. Katie Fry Hester (D-MD)"
     ]
@@ -20409,9 +20414,10 @@
     "lat": 44.3106,
     "lng": -69.7795,
     "action_type": [
-      "legislation"
+      "legislation",
+      "executive_action"
     ],
-    "date": "2026-02-12",
+    "date": "2026-04-24",
     "status": "defeated",
     "company": "LiquidCool (seeking exemption for Loring data center)",
     "hyperscaler": null,
@@ -20432,18 +20438,18 @@
     "opposition_twitter": "https://x.com/NRCMenvironment",
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Maine LD 307 (statewide data center regulation bill): As of April 21, 2026, Governor Janet Mills has neither signed nor vetoed the bill. Her deadline is approximately April 24-25, 2026. On April 21, Franklin County leaders publicly urged Gov. Mills to veto the bill. The bill's fate remains uncertain heading into the deadline.",
+    "summary": "Governor Janet Mills VETOED LD 307 on April 24, 2026 — \"An Act to Establish the Maine Data Center Coordination Council and Place a Temporary Limitation on Certain Data Centers.\" The bill would have made Maine the first state with a statewide moratorium on new data centers using 20+ MW, freezing approvals through November 1, 2027. Mills cited the bill's failure to exempt a $550M data center project at the former Androscoggin Mill in Jay. The legislature passed LD 307 on April 14 by 79-62 in the House and 21-13 in the Senate, falling short of the two-thirds majority needed for an override. Mills said she will issue an executive order creating a council to study data center impacts.",
     "sources": [
+      "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+      "https://www.maine.gov/governor/mills/official_documents/veto_messages/2026-04-ld-307-act-establish-maine-data-center-coordination",
+      "https://www.bangordailynews.com/2026/04/24/politics/janet-mills-vetoes-maine-data-center-ban/",
+      "https://mainemorningstar.com/2026/04/24/gov-mills-vetoes-landmark-data-center-ban/",
+      "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
       "https://mainemorningstar.com/2026/02/23/as-data-centers-look-to-rural-new-england-maine-considers-a-moratorium/",
       "https://www.bostonglobe.com/2026/02/23/metro/maine-data-center-legislation-ld307/",
       "https://themainemonitor.org/maine-considers-data-centers-moratorium/",
       "https://legislature.maine.gov/backend/app/services/getDocument.aspx?documentId=122054",
-      "https://www.nrcm.org/blog/four-ways-maine-can-address-energy-impact-data-centers/",
-      "https://www.mainepublic.org/climate/2026-02-16/maine-lawmakers-consider-moratorium-on-new-data-centers",
-      "https://www.slingshot.org/",
-      "https://www.pressherald.com/2026/03/13/maines-proposed-data-center-moratorium-could-scuttle-project-at-jay-mill/",
-      "https://www.bangordailynews.com/2026/03/06/politics/state-politics/maine-data-center-moratorium-bill-ld-307-advances/",
-      "https://www.centralmaine.com/2026/03/05/no-more-maine-data-centers-for-now-lawmakers-say/"
+      "https://www.nrcm.org/blog/four-ways-maine-can-address-energy-impact-data-centers/"
     ],
     "data_source": "news",
     "last_updated": "2026-04-25",
@@ -20457,7 +20463,7 @@
       "water"
     ],
     "authority_level": "state_legislature",
-    "objective": "Pause data center permits for study via LD 307",
+    "objective": "Pause data center permits via LD 307 statewide moratorium (vetoed by Gov. Mills 2026-04-24)",
     "community_outcome": "loss",
     "sponsors": [
       "Rep. Melanie Sachs (D-ME)"
@@ -22806,12 +22812,16 @@
     "lat": 40.3824,
     "lng": -75.3569,
     "action_type": [
+      "ordinance",
       "zoning_restriction"
     ],
     "status": "passed",
-    "date": "2026-02-24",
-    "summary": "West Rockhill Township (Bucks County) held a public hearing on April 15, 2026 on a preemptive zoning amendment restricting data centers to the Planned Industrial district. Approximately 150 residents attended the hearing. The Board of Supervisors continues to advance the amendment adjacent to existing industrial uses in the township. UPDATE 2026-04-21: Board of Supervisors unanimously adopted the data center zoning ordinance on April 15, 2026 (25-acre minimum lot, 35-ft height cap, 150-ft parking setback from residential, on-site solar required, public water/sewer, underground utilities, limited to industrial zones). Mixed outcome — residents had pushed for stricter limits.",
+    "date": "2026-04-15",
+    "summary": "West Rockhill Township Board of Supervisors unanimously adopted a zoning ordinance regulating data centers on April 15, 2026, limiting them to the township's Planned Industrial district by special exception. Standards include 25-acre minimum lot size, 35-foot height limit, 150-foot parking setback from residential lots, mandatory on-site solar generation, and underground utility lines where practical. Approximately 150 residents attended the hearing; many called the ordinance too lenient. Supervisors directed the solicitor to prepare amendments based on resident feedback for a May 20 follow-up meeting. No formal data center application has been submitted; an informal sketch plan was presented in fall 2025 for 215 Cathill Road in Sellersville.",
     "sources": [
+      "https://centralbucksnews.com/news/2026/apr/21/west-rockhill-supervisors-adopt-data-center-ordinance-over-public-concerns/",
+      "https://northpennnow.com/news/2026/apr/21/west-rockhill-supervisors-adopt-data-center-ordinance-over-public-concerns/",
+      "https://keystonenewsroom.com/2026/04/14/west-rockhill-considers-these-new-data-center-regulations/",
       "https://northpennnow.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
       "https://centralbucksnews.com/news/2026/feb/26/west-rockhill-supervisors-advance-data-center-regulations/",
       "https://www.thereporteronline.com/2026/02/23/west-rockhill-supervisors-advance-data-center-regulations/"
@@ -22819,13 +22829,15 @@
     "opposition_groups": [
       "Better Path Coalition"
     ],
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county": "Bucks County",
     "county_lean": "R",
     "issue_category": [
       "design_standards",
       "environmental",
+      "grid_energy",
+      "noise",
       "water",
       "zoning"
     ],
@@ -24683,7 +24695,7 @@
       "legislation"
     ],
     "date": "2026-03-02",
-    "status": "pending",
+    "status": "active",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -24703,14 +24715,18 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Pennsylvania HB2151 directs the Department of Community and Economic Development to create a model zoning ordinance municipalities can voluntarily adopt to regulate data centers, covering noise, water and energy usage, emergency response plans, and site location. Its companion bill HB2150 requires data centers to report annual water and energy usage to the Department of Environmental Protection. Both passed the House Energy Committee on party-line votes of 14-12 in the Democratic-controlled committee.",
+    "summary": "Pennsylvania HB 2151 (sponsored by Rep. Kyle Donahue, D-Lackawanna) passed the PA House of Representatives 124-77 on April 14, 2026. The bill directs the Department of Community and Economic Development to produce a model zoning ordinance for municipalities to use voluntarily when regulating data centers, covering noise, water and energy usage, emergency response plans, and site location. Companion bill HB 2150 (annual reporting requirement) passed the same day 133-68. Both bills now head to the Republican-controlled state Senate, where prospects are uncertain.",
     "sources": [
+      "https://radio.wpsu.org/2026-04-15/pa-state-house-passes-two-measures-on-data-center-regulation",
+      "https://www.wesa.fm/politics-government/2026-04-14/state-house-data-center-regulations",
+      "https://www.foodandwaterwatch.org/2026/04/13/pa-house-passes-model-ordinance-to-speed-data-center-development/",
+      "https://www.wfmz.com/news/area/pennsylvania/pa-house-passes-bills-to-increase-oversight-of-data-centers-protect-local-communities/article_8b5e7016-095e-4619-a287-916e35ae2662.html",
       "https://www.wesa.fm/politics-government/2026-03-09/lawmakers-bill-data-center-construction",
       "https://www.cityandstatepa.com/policy/2026/03/pa-house-committee-advances-data-center-bills/411812/",
       "https://buckscountybeacon.com/2026/02/legislation-in-the-state-house-seeks-to-assist-pennsylvania-municipalities-regulate-data-centers-but-who-would-it-actually-help/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-03-09",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "bill_name": "HB 2151 - Data Center Model Zoning Ordinance",
@@ -26778,6 +26794,10 @@
     "data_source": "agent_research",
     "county_lean": null,
     "sources": [
+      "https://radio.wpsu.org/2026-04-15/pa-state-house-passes-two-measures-on-data-center-regulation",
+      "https://www.wesa.fm/politics-government/2026-04-14/state-house-data-center-regulations",
+      "https://www.foodandwaterwatch.org/2026/04/13/pa-house-passes-model-ordinance-to-speed-data-center-development/",
+      "https://www.wfmz.com/news/area/pennsylvania/pa-house-passes-bills-to-increase-oversight-of-data-centers-protect-local-communities/article_8b5e7016-095e-4619-a287-916e35ae2662.html",
       "https://www.cityandstatepa.com/policy/2026/03/pa-house-committee-advances-data-center-bills/411812/",
       "https://www.wesa.fm/politics-government/2026-03-09/lawmakers-bill-data-center-construction",
       "https://www.fox43.com/article/news/local/pa-house-energy-committee-advance-two-bills-regulating-data-centers-politics-dauphin-county/521-7f7c709e-92dd-4eda-84ff-3c169b0d647f"
@@ -26794,11 +26814,11 @@
       "legislation"
     ],
     "date": "2026-03-09",
-    "status": "pending",
-    "summary": "Pennsylvania HB 2150 requires data centers to report annual energy and water consumption to the Department of Environmental Protection, while its companion bill HB 2151 directs the Department of Community and Economic Development to create a model zoning ordinance municipalities can voluntarily adopt to regulate data centers. Both bills passed the House Energy Committee on party-line votes of 14-12 on March 9, 2026. The legislation is part of a statewide response to over 50 proposed data center projects across Pennsylvania.",
+    "status": "active",
+    "summary": "Pennsylvania HB 2150 (sponsored by Rep. Kyle Mullins, D-Lackawanna) passed the PA House of Representatives 133-68 on April 14, 2026. The bill requires data centers to file annual reports with the Department of Environmental Protection on water and electricity use, with a $10,000-per-day penalty for non-compliance. Companion bill HB 2151 (model zoning ordinance) passed the same day 124-77. Both bills now head to the Republican-controlled state Senate, where prospects are uncertain.",
     "bill_name": "HB 2150 - Data Center Energy and Water Reporting Act",
     "bill_url": "https://www.palegis.us/legislation/bills/2025/hb2150",
-    "last_updated": "2026-03-19",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "transparency",
       "water"
@@ -29642,6 +29662,8 @@
     "data_source": "agent_research",
     "county_lean": null,
     "sources": [
+      "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+      "https://mainemorningstar.com/2026/04/24/gov-mills-vetoes-landmark-data-center-ban/",
       "https://www.mainepublic.org/climate/2026-03-12/maine-bill-blocks-data-centers-from-state-tax-breaks",
       "https://www.newsfromthestates.com/article/amid-mounting-concerns-maine-considers-excluding-data-centers-tax-breaks",
       "https://mainemorningstar.com/2026/03/20/legislature-poised-to-vote-on-bills-to-curb-data-center-development-in-maine/"
@@ -29664,21 +29686,22 @@
     "lat": 44.3106,
     "lng": -69.7795,
     "action_type": [
-      "legislation"
+      "legislation",
+      "executive_action"
     ],
-    "date": "2026-03-12",
-    "status": "pending",
+    "date": "2026-04-24",
+    "status": "passed",
     "bill_name": "LD 713 - Exclude Data Centers from Tax Exemptions",
     "bill_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=713&snum=132",
-    "summary": "Maine LD 713 would exclude data centers from Maine's Business Equipment Tax Exemption (BETE) program (100% property tax break) and the Dirigo Business Incentives Programs. The bill also requires the Maine DECD to study other state incentives data centers may benefit from. Supported by the Natural Resources Council of Maine, the bill was presented to the Taxation Committee on March 12, 2026. The bill is pending committee action.",
-    "last_updated": "2026-03-19",
+    "summary": "Governor Janet Mills SIGNED LD 713 on April 24, 2026, prohibiting data center projects from Maine's business development tax incentive programs. The law bars data centers from eligibility under the state's Business Equipment Tax Exemption (BETE) for facilities beginning operations on or after July 1, 2026, and excludes data centers from the Dirigo business incentives program. Maine's Department of Economic and Community Development must study other potential financial incentives for data centers and report by November 4, 2026. Mills signed LD 713 on the same day she vetoed LD 307.",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "ratepayer",
       "tax_incentive"
     ],
     "authority_level": "state_legislature",
-    "objective": "Exclude data centers from Maine business tax exemption programs",
-    "community_outcome": "pending",
+    "objective": "Exclude data centers from Maine BETE and Dirigo tax incentive programs (signed 2026-04-24)",
+    "community_outcome": "win",
     "sponsors": [
       "Sen. Nicole Grohoski (D-ME)"
     ]
@@ -36011,10 +36034,11 @@
     "lat": 41.4683,
     "lng": -75.6027,
     "action_type": [
-      "zoning_restriction"
+      "zoning_restriction",
+      "ordinance"
     ],
-    "date": "2026-03-31",
-    "status": "mixed",
+    "date": "2026-04-14",
+    "status": "pending",
     "company": "Sansone Group",
     "hyperscaler": null,
     "project_name": null,
@@ -36033,14 +36057,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Olyphant Borough Council on April 14, 2026 rejected a weak draft data center zoning ordinance after resident pushback and opened a 180-day curative amendment window. Residents are now actively drafting a stronger replacement ordinance. A procedural win for the community in advance of Sansone Group's proposed 12-data-center Triboro Industrial Park project.",
+    "summary": "Olyphant Borough Council on April 14, 2026 rejected a proposed data center zoning amendment after residents argued the regulations were too lax (covering setbacks, noise, water usage, environmental impact). Immediately after rejection, the council introduced a \"curative amendment\" under Section 609.2 of Pennsylvania's Municipalities Planning Code, giving the borough 180 days to revise its zoning ordinance and protect it from legal challenges in the meantime. PA law prohibits municipalities from outright banning a land use, so the curative amendment is the procedural path to develop stronger restrictions. No formal data center application is currently before the borough.",
     "sources": [
+      "https://fox56.com/news/local/olyphant-council-rejects-data-center-zoning-plan-then-opens-180-day-curative-amendment",
+      "https://writing.strisker.com/data-centers-daily-notes-april-15-2026/",
       "https://www.thetimes-tribune.com/2026/03/08/olyphant-archbald-to-hold-hearings-on-data-centers/",
       "https://www.thetimes-tribune.com/2026/01/02/olyphant-prepares-data-center-legislation/",
       "https://www.spotlightpa.org/news/2026/03/pennsylvania-data-centers-archbald-ai-evictions-environment/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -40018,16 +40044,17 @@
     "lat": 43.0967,
     "lng": -78.3947,
     "action_type": [
-      "public_comment"
+      "public_comment",
+      "other_opposition"
     ],
-    "date": "2026-03-20",
-    "status": "active",
-    "company": "Stream Data Centers",
+    "date": "2026-04-15",
+    "status": "delayed",
+    "company": "STREAM US Data Centers / Apollo Global Management",
     "hyperscaler": null,
     "project_name": "Project Double Reed (STAMP)",
     "investment_million_usd": 19460,
     "megawatts": 500,
-    "acreage": null,
+    "acreage": 130,
     "building_sq_ft": 2200000,
     "water_usage_gallons_per_day": null,
     "jobs_promised": 125,
@@ -40040,24 +40067,28 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Proposed $19.46 billion, 2.2 million sq ft STREAM US data center at the Genesee County STAMP industrial park faces continued opposition. On April 14-17, 2026, third-party economic analysis challenged STREAM US's $19.5 billion economic benefit claims, finding the figures significantly overstated. Rep. Jen Gies spoke out against the project on April 17. The Town of Alabama public comment period remains open.",
+    "summary": "The Town of Alabama Planning Board postponed its scheduled April 20 public hearing on the site plan for STREAM US Data Centers' proposed 2.2 million sq ft, three-building data center campus at the Western New York Science & Technology Advanced Manufacturing Park (STAMP). The postponement was announced April 15, 2026 due to \"the inability of the Town's independent sound consultants to complete their peer review of the applicant's sound study.\" The hearing was rescheduled to May 4 at the Alabama Fire Hall. The project, nicknamed \"Project Double Reed\" ($19.46B, 500MW), faces strong opposition from the Tonawanda Seneca Nation, Sierra Club, and Allies of Tonawanda Seneca Nation. Companion April 16 GCEDC supplemental public hearing on $1.5B+ in tax incentives drew strong opposition.",
     "sources": [
+      "https://www.thedailynewsonline.com/news/alabama-planning-board-postpones-april-20-data-center-hearing/article_58990c26-64dd-477c-90c1-9d8b583d75cc.html",
+      "https://www.thebatavian.com/press-release/alabama-planning-board-data-centers-project-hearing-set-for-may-4-at-fire-hall/647190",
+      "https://orleanshub.com/community-sends-clear-message-that-data-center-not-wanted-at-stamp-site/",
       "https://investigativepost.org/2026/03/31/hochul-noncommittal-data-center-genesee-wny/",
       "https://truthout.org/articles/new-york-residents-are-fighting-a-data-center-backed-by-a-billionaire-trump-ally/",
       "https://investigativepost.org/2026/02/04/data-center-subsidies-of-6-4-million-per-job/",
       "https://www.wbta1490.com/2026/04/17/rep-jen-gies-speaks-out-stamp-stream-data-center/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "community_impact",
-      "tax_incentive",
-      "zoning",
-      "water",
-      "noise",
-      "ratepayer",
       "environmental",
-      "property_values"
+      "grid_energy",
+      "noise",
+      "property_values",
+      "ratepayer",
+      "tax_incentive",
+      "water",
+      "zoning"
     ],
     "authority_level": "city_council",
     "objective": "Block Stream Data Centers' 500MW, 2.2M sq ft data center at WNY STAMP park with $1.46B in tax breaks in Town of Alabama",
@@ -42793,7 +42824,8 @@
     "lat": 44.3106,
     "lng": -69.7795,
     "action_type": [
-      "legislation"
+      "legislation",
+      "executive_action"
     ],
     "date": "2026-03-20",
     "status": "defeated",
@@ -42813,8 +42845,13 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Maine LD 307, sponsored by Rep. Melanie Sachs (D-Freeport), passed both chambers with final Senate concurrence 21-13 on April 14-15, 2026 (earlier House 82-62, Senate 19-13). The bill freezes construction permits for data centers exceeding 20 megawatts through November 1, 2027 - the first statewide data center moratorium in US history. It creates a Maine Data Center Coordination Council to study impacts on energy, water, environment, and community infrastructure. The bill is now on Gov. Janet Mills' desk awaiting her signature.",
+    "summary": "Governor Janet Mills VETOED LD 307 on April 24, 2026. The bill, sponsored by Rep. Melanie Sachs (D-Freeport), passed the House 79-62 and Senate 21-13 on April 14, falling short of the two-thirds majority needed to override the veto. LD 307 would have established the Maine Data Center Coordination Council and frozen permits for data centers exceeding 20 MW through November 1, 2027 — the first statewide data center moratorium in US history. Mills cited the bill's failure to exempt the $550M Androscoggin Mill project in Jay. She announced she will issue an executive order creating a study council instead.",
     "sources": [
+      "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+      "https://www.maine.gov/governor/mills/official_documents/veto_messages/2026-04-ld-307-act-establish-maine-data-center-coordination",
+      "https://www.bangordailynews.com/2026/04/24/politics/janet-mills-vetoes-maine-data-center-ban/",
+      "https://mainemorningstar.com/2026/04/24/gov-mills-vetoes-landmark-data-center-ban/",
+      "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
       "https://mainemorningstar.com/2026/02/23/as-data-centers-look-to-rural-new-england-maine-considers-a-moratorium/",
       "https://reason.com/2026/04/03/maine-bill-proves-states-are-capable-of-adopting-bad-data-center-policies-without-federal-intervention/",
       "https://www.bangordailynews.com/2026/03/13/mainefocus/mainefocus-business/maine-data-center-moratorium/",
@@ -46756,7 +46793,7 @@
     "id": "pennsylvania-wellsboro-hearing-pa-2026-04-17",
     "jurisdiction": "Pennsylvania (Wellsboro hearing)",
     "state": "PA",
-    "county": null,
+    "county": "Tioga County",
     "lat": 41.749,
     "lng": -77.3047,
     "action_type": [
@@ -46781,14 +46818,17 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Center for Rural Pennsylvania held a contentious legislative hearing in Wellsboro on April 17, 2026. PJM's Stephen Bennett testified that data centers are 'predominant, by far' driver of load growth, contradicting the Data Center Coalition. Indiana County Commissioner Sherene Hess testified on local impacts. Another hearing planned for July. Feeds into HB 1834 and companion bills pending in Senate Consumer Protection & Professional Licensure Committee.",
+    "summary": "Center for Rural Pennsylvania Board of Directors held the first hearing in a multi-part public hearing series on data center growth in Pennsylvania, 10 a.m.-1 p.m. at the Coolidge Theatre at the Deane Center in Wellsboro (Tioga County), chaired by Sen. Gene Yaw. Testimony focused on siting considerations, infrastructure and energy demands, regulatory frameworks, and rural-community impacts. PJM's Stephen Bennett testified that data centers are 'predominant, by far' the driver of load growth, contradicting the Data Center Coalition; Indiana County Commissioner Sherene Hess testified on local impacts. Subsequent hearings in the series continue across the state; another is planned for July.",
     "sources": [
+      "https://www.pasenategop.com/news/rural-041726/",
+      "https://www.senatorgeneyaw.com/2026/04/09/rural-041726/",
+      "https://www.rural.pa.gov/news-events/public-hearing/data-centers-part-i",
       "https://www.wccsradio.com/2026/04/19/hess-testifies-at-data-center-hearing/",
       "https://www.wesa.fm/politics-government/2026-04-20/pennsylvania-data-center-regulations-harrisburg",
       "https://www.cityandstatepa.com/policy/2026/04/power-plays-battle-over-data-centers-pa/412554/"
     ],
     "data_source": "manual_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -48127,6 +48167,203 @@
     ],
     "authority_level": "city_council",
     "objective": "Pause data center development with 183-day moratorium",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "tredyffrin-township-chester-county-pa-2026-04-21",
+    "jurisdiction": "Tredyffrin Township",
+    "state": "PA",
+    "county": "Chester County",
+    "lat": 40.0556,
+    "lng": -75.4663,
+    "action_type": [
+      "zoning_restriction"
+    ],
+    "date": "2026-04-21",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Tredyffrin Township Board of Supervisors voted unanimously on April 21, 2026 to authorize township staff and the solicitor to draft zoning amendments regarding data centers. No applications have been submitted in Tredyffrin, but the action responds to two large Chester County data center proposals (each nearly 2 million sq ft) facing significant public opposition in neighboring municipalities (East Vincent, North Coventry, East Whiteland). Chester and Montgomery Counties released joint guidance on data center ordinances earlier in April covering zoning districts, aesthetics, water usage, noise, and energy sources.",
+    "sources": [
+      "https://www.inquirer.com/news/pennsylvania/tredyffrin-data-center-ordinance-20260421.html"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "design_standards",
+      "noise",
+      "water",
+      "zoning"
+    ],
+    "authority_level": "township_board",
+    "objective": "Authorize draft zoning amendments to regulate data centers in Tredyffrin Township",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "genesee-county-gcedc-stamp-ny-2026-04-16",
+    "jurisdiction": "Genesee County Economic Development Center (GCEDC)",
+    "state": "NY",
+    "county": "Genesee County",
+    "lat": 43.0967,
+    "lng": -78.3947,
+    "action_type": [
+      "public_comment"
+    ],
+    "date": "2026-04-16",
+    "status": "active",
+    "company": "STREAM US Data Centers / Apollo Global Management",
+    "hyperscaler": null,
+    "project_name": "Project Double Reed",
+    "investment_million_usd": 19460,
+    "megawatts": 500,
+    "acreage": 130,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "GCEDC held a supplemental public hearing on April 16, 2026 at 4 p.m. at the Town of Alabama Fire Hall on a proposed roughly $1.5 billion sales tax exemption package (plus $31+ million in mortgage tax exemptions) for STREAM US Data Centers' $19.46 billion data center at the STAMP site. The original March 19 hearing was invalidated due to a livestream/recording glitch; written comments were extended to April 17. A subsequent hearing on the broader incentive package on April 17 saw most of those who spoke opposing the project, with concerns about environmental impacts, energy demand, water use, and impact on the Tonawanda Seneca Nation territory adjacent to the site.",
+    "sources": [
+      "https://orleanshub.com/hearing-on-incentives-for-massive-data-center-at-stamp-shows-strong-opposition-for-project/",
+      "https://orleanshub.com/community-sends-clear-message-that-data-center-not-wanted-at-stamp-site/",
+      "https://spectrumlocalnews.com/nys/rochester/news/2026/04/17/massive-western-n-y--data-center-plan-sparks-heated-debate",
+      "https://investigativepost.org/2026/04/17/residents-again-blast-proposed-data-center/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "community_impact",
+      "environmental",
+      "grid_energy",
+      "ratepayer",
+      "tax_incentive"
+    ],
+    "authority_level": "advocacy_org",
+    "objective": "Hold supplemental public hearing on $1.5B+ tax incentive package for STREAM US Data Centers' STAMP project",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "harford-county-md-2026-04-21",
+    "jurisdiction": "Harford County Council",
+    "state": "MD",
+    "county": "Harford County",
+    "lat": 39.5337,
+    "lng": -76.3471,
+    "action_type": [
+      "moratorium",
+      "legislation"
+    ],
+    "date": "2026-04-21",
+    "status": "pending",
+    "company": "CloudHQ",
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": 260,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Our Land, Our Home, Our Harford"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Councilmember Jacob Bennett officially introduced Bill 26-005 at the Harford County Council meeting on Tuesday, April 21, 2026, proposing a 90-day moratorium on data center development. The proposal responds to a developer's plan to build a data center on the 260+ acre Mountain Branch Golf Course in Joppa (developer reported as CloudHQ). Council members signaled \"universal agreement.\" The proposal also has the support of County Executive Bob Cassilly. A public hearing on the moratorium is scheduled for May 19 before the pause becomes official. Bennett indicated openness to extending the pause beyond 90 days. Community group Our Land, Our Home, Our Harford has organized in response.",
+    "sources": [
+      "https://www.wmar2news.com/news/region/harford-county/harford-county-council-introduces-bill-to-pause-data-center-development-after-community-pushback",
+      "https://www.baltimoresun.com/2026/04/21/harford-council-mulls-data-center-pause/",
+      "https://www.baltimoresun.com/2026/04/20/harford-moratorium-data-centers/",
+      "https://www.datacenterdynamics.com/en/news/harford-county-maryland-could-impose-90-day-moratorium-on-data-centers/",
+      "https://foxbaltimore.com/news/local/harford-county-council-member-plans-to-introduce-data-center-moratorium-energy"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "community_impact",
+      "grid_energy",
+      "ratepayer",
+      "transparency",
+      "water"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Enact 90-day moratorium on data center development in Harford County (Bill 26-005)",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "delaware-statewide-de-2026-04-24",
+    "jurisdiction": "State of Delaware",
+    "state": "DE",
+    "county": null,
+    "lat": 39.0,
+    "lng": -75.5,
+    "action_type": [
+      "study_or_report",
+      "regulatory_action"
+    ],
+    "date": "2026-04-24",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Delaware Department of Natural Resources and Environmental Control (DNREC) released a Siemens Energy analysis on April 24, 2026 showing that doubling energy demand by 2029 — driven by data centers — could cause average wholesale electricity prices in Delaware to rise more than 80%. Delmarva Power said winter peak electricity demand in its Delaware service area would likely double if five planned New Castle County data centers are built. Wholesale prices would spike especially high in southern Delaware due to transmission line congestion. Even without new data centers, wholesale prices could rise 9% from regional demand; an additional 9% if just Delaware's largest proposed data center is built. The state is exploring a large-load tariff for data centers, small modular nuclear reactors, and allowing Delmarva Power to generate its own power.",
+    "sources": [
+      "https://spotlightdelaware.org/2026/04/24/data-centers-could-almost-double-wholesale-electricity-prices-in-delaware/",
+      "https://www.newsfromthestates.com/article/report-data-centers-could-cause-wholesale-electricity-prices-spike-delaware"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "statewide",
+    "county_lean": null,
+    "issue_category": [
+      "environmental",
+      "grid_energy",
+      "ratepayer"
+    ],
+    "authority_level": "state_legislature",
+    "objective": "Quantify wholesale electricity price impact of data center load growth in Delaware",
     "community_outcome": "pending"
   }
 ]

@@ -14747,14 +14747,16 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "The Michigan Public Service Commission voted 3-0 in December 2025 to conditionally approve DTE Energy's 19-year, 1.4 GW power supply agreement for the $7 billion Stargate data center campus in Saline Township — Michigan's first hyperscale data center. Developed by OpenAI, Oracle, and Related Digital on a 575-acre site south of Ann Arbor, construction was set to begin in early 2026. DTE will supply 100% of power using existing resources plus a new battery storage investment financed entirely by the project. The contract includes take-or-pay terms requiring 80% minimum billing demand to protect ratepayers from subsidizing the facility. Project promises 450 permanent jobs and millions annually in taxes. Community opposition continues over the lack of public hearing, climate impacts, and the strain on Michigan's grid.",
+    "summary": "The Michigan Public Service Commission voted 3-0 in December 2025 to conditionally approve DTE Energy's 19-year, 1.4 GW power supply agreement for the Stargate data center campus in Saline Township — Michigan's first hyperscale data center. Developed by OpenAI, Oracle, and Related Digital on a 575-acre site south of Ann Arbor, the project has scaled to a $16 billion investment with Blackstone confirmed as the primary financier. As of April 25, 2026, Michigan Public reported major construction is well underway and financing is secured. On April 20, 2026, OpenAI and Oracle signed a project labor agreement with North America's Building Trades Unions (NABTU) at NABTU's Legislative Conference, making Saline the first Stargate site under the OpenAI-NABTU MOU. DTE will supply 100% of power using existing resources plus a new battery storage investment financed entirely by the project, with take-or-pay terms requiring 80% minimum billing demand to protect ratepayers. Project promises 450 permanent jobs and millions annually in taxes. Community opposition continues over the lack of public hearing, climate impacts, and grid strain.",
     "sources": [
       "https://themanchestermirror.com/2026/01/05/regulators-approve-dte-contracts-for-saline-township-data-center/",
       "https://bridgemi.com/michigan-environment-watch/michigan-regulators-approve-contract-for-michigans-first-hyperscale-data-center/",
       "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-stargate-data-center-gets-approval-to-receive-1-4-gigawatts-of-power-in-michigan-some-residents-furious-as-energy-company-is-given-go-ahead-by-regulatory-body-without-hearing-opposition",
       "https://planetdetroit.org/2026/01/dte-agrees-saline-data-center-conditions/",
       "https://www.related-digital.com/news/openai-oracle-and-related-digital-announce-stargate-data-center-site-in-michigan",
-      "https://www.wxyz.com/news/data-centers/michigan-public-service-commission-approves-dte-contract-for-saline-township-data-center-project"
+      "https://www.wxyz.com/news/data-centers/michigan-public-service-commission-approves-dte-contract-for-saline-township-data-center-project",
+      "https://www.michiganpublic.org/economy/2026-04-25/saline-township-data-center-major-construction-underway-financing-secured",
+      "https://www.edtechinnovationhub.com/news/openai-and-oracle-commit-to-union-built-stargate-data-center-in-michigan"
     ],
     "data_source": "dcw",
     "last_updated": "2026-04-25",
@@ -19338,7 +19340,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-data-centers-in-west-virginia",
     "petition_signatures": 1862,
-    "summary": "In Tucker County, West Virginia, Fundamental Data, a Virginia-based company, applied for an air permit for the 'Ridgeline Facility' — a natural gas power plant and data center campus between Thomas and Davis that could span 10,000 acres across Tucker and Grant counties (1.7GW). The West Virginia DEP issued an air quality permit authorizing construction of a 785MW natural-gas-fired power plant with diesel backup generators. In February 2026, the West Virginia Air Quality Board upheld the air permit, denying appeals from Tucker United, the West Virginia Highlands Conservancy, and the Sierra Club. The board sided with developers despite two days of testimony from citizen groups. Opposition groups argue the project threatens the area's tourism-based economy and rural character. A state law passed in 2025 stripped local authority over data center siting. On April 14, 2026, the West Virginia Highlands Conservancy issued a new action alert urging members to contact legislators and the WVDEP over the Fundamental Data LLC project, confirming the 1,656-MW gas-plant-plus-data-center near Thomas and Davis is still advancing. WV Commerce officials publicly clarified the project is proceeding. The West Virginia Air Quality Board ruled in favor of developers on February 7, 2026.",
+    "summary": "In Tucker County, West Virginia, Fundamental Data, a Virginia-based company, applied for an air permit for the 'Ridgeline Facility' — a natural gas power plant and data center campus between Thomas and Davis that could span 10,000 acres across Tucker and Grant counties (1.7GW). The West Virginia DEP issued an air quality permit authorizing construction of a 785MW natural-gas-fired power plant with diesel backup generators. In February 2026, the West Virginia Air Quality Board upheld the air permit, denying appeals from Tucker United, the West Virginia Highlands Conservancy, and the Sierra Club. The board sided with developers despite two days of testimony from citizen groups. Opposition groups argue the project threatens the area's tourism-based economy and rural character. A state law passed in 2025 stripped local authority over data center siting. On April 14, 2026, the West Virginia Highlands Conservancy issued a new action alert urging members to contact legislators and the WVDEP over the Fundamental Data LLC project, confirming the 1,656-MW gas-plant-plus-data-center near Thomas and Davis is still advancing. WV Commerce officials publicly clarified the project is proceeding. The West Virginia Air Quality Board ruled in favor of developers on February 7, 2026. UPDATE 2026-04-25: On April 21, 2026, the West Virginia Highlands Conservancy, Tucker United, and Sierra Club filed a motion in the WV Intermediate Court of Appeals seeking the recusal of Chief Judge Dan Greear from the Ridgeline air permit appeal. The motion cites Rule 2.11 of the WV Code of Judicial Conduct and alleges multiple conflicts: House Speaker Roger Hanshaw co-hosted Greear's campaign fundraisers, Greear's son worked at Bowles Rice (the firm representing Fundamental Data), and Hanshaw is a partner at Bowles Rice. A portion of the appeal had been dismissed earlier ahead of the evidentiary hearing.",
     "sources": [
       "https://westvirginiawatch.com/2025/05/28/it-will-destroy-this-place-tucker-county-residents-fight-for-future-against-proposed-data-center/",
       "https://www.wvhighlands.org/article/grassroots-opposition-builds-against-tucker-countys-proposed-fundamental-data-power-plant-project/",
@@ -19352,10 +19354,13 @@
       "https://www.100daysinappalachia.com/2025/04/big-tech-comes-to-tucker-county-wv/",
       "https://wvmetronews.com/2026/02/07/air-quality-board-sides-with-developers-of-tucker-county-data-center/",
       "https://wvpublic.org/story/energy-environment/regulators-reaffirm-approval-for-microgrid-generator-data-center-in-tucker-county/",
-      "https://wvpublic.org/story/2026/04/commerce-confirms-fundamental-data-tucker-county-advancing/"
+      "https://wvpublic.org/story/2026/04/commerce-confirms-fundamental-data-tucker-county-advancing/",
+      "https://www.wdtv.com/2026/04/23/environmental-protection-organizations-seek-recusal-judge-ridgeline-air-permit-appeal/",
+      "https://www.theintermountain.com/news/local-news/2026/04/groups-seek-recusal-of-judge-in-permit-appeal/",
+      "https://www.wboy.com/news/tucker/portion-of-tucker-county-data-center-permit-appeal-dismissed-ahead-of-evidentiary-hearing/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R",
@@ -23210,9 +23215,9 @@
     "action_type": [
       "zoning_restriction"
     ],
-    "status": "active",
+    "status": "approved",
     "date": "2026-02-25",
-    "summary": "Community members rallied outside Fort Meade, Florida, City Hall to protest a proposed $2.7 billion, 1.2-gigawatt, 4.4-million-square-foot hyperscale data center on over 1,330 acres being developed by Stonebridge. The city previously approved rezoning and a tax break, but residents are demanding a halt before a final site plan vote expected in March. Concerns center on massive water and energy drain in a small rural Polk County city, noise from low-frequency sound, and diesel backup generator pollution. The project would be one of the largest data centers in the US. Fox13 reports $2.6B investment, 1,100+ acres, with 3,960 construction-peak jobs in 2028 and 456 operational jobs by 2031. UPDATE 2026-04-21: On April 18, 2026 Florida Commerce Secretary Alex Kelly (DeSantis administration) sent a letter calling the project 'fundamentally flawed.' SWFWMD permits are still required. Developer identified as Florida Ecopark LLC.",
+    "summary": "Community members rallied outside Fort Meade, Florida, City Hall to protest a proposed $2.7 billion, 1.2-gigawatt, 4.4-million-square-foot hyperscale data center on over 1,330 acres being developed by Stonebridge (developer entity Florida Ecopark LLC). On April 8, 2026, after roughly three hours of public comment and despite strong local opposition, the Fort Meade city commission unanimously approved the Stonebridge development agreement. On April 16, 2026, Florida Commerce Secretary Alex Kelly (DeSantis administration) publicly opposed the project, calling it 'fundamentally flawed' — coverage expanded across Tampa Bay Times, WFSU, and WUSF April 16-20. The Southwest Florida Water Management District (SWFWMD) water permit is still pending. Project is projected to bring 3,960 construction-peak jobs in 2028 and 456 operational jobs by 2031; concerns center on massive water and energy demand in a small rural Polk County city, low-frequency noise, and diesel backup generator pollution.",
     "sources": [
       "https://www.fox13news.com/news/residents-fort-meade-protest-proposed-data-center-developers-respond-questions",
       "https://www.fox13news.com/news/protesters-against-proposed-fort-meade-data-center-gather-outside-city-hall",
@@ -23221,7 +23226,10 @@
       "https://www.wusf.org/environment/2026-02-16/proposals-massive-data-centers-across-florida-are-local-governments-prepared",
       "https://www.tampabay28.com/news/region-polk/fort-meade-commissioners-hear-more-public-concerns-over-proposed-data-center",
       "https://www.wtsp.com/article/news/local/polkcounty/fort-meade-data-center-town-hall/67-4cceada6-6b09-44b3-9457-1b9cb466a941",
-      "https://www.datacenterdynamics.com/en/news/44-million-sq-ft-data-center-campus-gets-zoning-approval-in-fort-meade-florida/"
+      "https://www.datacenterdynamics.com/en/news/44-million-sq-ft-data-center-campus-gets-zoning-approval-in-fort-meade-florida/",
+      "https://mynews13.com/fl/orlando/news/2026/04/08/fort-meade-data-center-proposal-advances-despite-resident-concerns",
+      "https://www.tampabay.com/news/florida-politics/2026/04/16/florida-data-center-fort-meade-desantis-utilities-water-ai/",
+      "https://news.wfsu.org/state-news/2026-04-20/floridas-commerce-secretary-comes-out-against-a-proposed-ai-data-center"
     ],
     "opposition_groups": [
       "Fort Meade residents",
@@ -25497,8 +25505,8 @@
     "action_type": [
       "moratorium"
     ],
-    "date": "2026-04-09",
-    "status": "pending",
+    "date": "2026-04-23",
+    "status": "passed",
     "company": null,
     "hyperscaler": null,
     "project_name": null,
@@ -25517,14 +25525,17 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": 4000,
-    "summary": "Champaign County's Environment and Land Use Committee (ELUC) voted on April 9, 2026 to amend the proposed data center moratorium from 12 months down to 9 months (for data centers with >10,000 sq ft of processing area). Widespread public comment supported the moratorium. The full Champaign County Board is expected to vote on April 23, 2026. A data center task force will use the moratorium period to develop zoning regulations.",
+    "summary": "On April 23, 2026, the Champaign County Board passed a 12-month moratorium on new large-scale data centers (≥10,000 sq ft of processing area) in unincorporated areas — reversing the Environment and Land Use Committee's prior 9-month recommendation after pressure from 100+ residents at the meeting. A data center task force will use the moratorium period to develop zoning regulations. Roofers Local 97 had preferred the shorter 9-month version. The board action is a clear community win after months of organizing.",
     "sources": [
       "https://citizenportal.ai/articles/7784846/Illinois/Champaign-County/Champaign-County-committee-approves-9month-moratorium-on-large-data-centers-after-public-comment-and-scheduling-debate",
       "https://dailyillini.com/news-stories/world-news/state-news/2026/03/31/champaign-county-arms-against-big-data-centers/",
-      "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/"
+      "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/",
+      "https://www.nprillinois.org/economy-business/2026-04-24/champaign-county-board-approves-1-year-data-center-moratorium",
+      "https://sjodaily.com/2026/04/24/champaign-county-board-places-yearlong-halt-on-large-data-centers-in-rural-areas/",
+      "https://www.wandtv.com/news/champaign-county-board-to-vote-thursday-on-data-center-moratorium/article_c1313fd7-ad95-4649-a434-c09b47d08d0f.html"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -25533,7 +25544,7 @@
     ],
     "authority_level": "county_commission",
     "objective": "Propose data centers moratorium in Champaign County",
-    "community_outcome": "pending",
+    "community_outcome": "win",
     "opposition_facebook_members": 5800
   },
   {
@@ -33198,19 +33209,23 @@
       "legislation"
     ],
     "date": "2025-10-23",
-    "status": "pending",
+    "status": "active",
     "scope": "federal",
     "sources": [
       "https://www.ferc.gov/rm26-4",
       "https://www.mayerbrown.com/en/insights/publications/2025/11/ferc-large-load-interconnection-preliminary-rulemaking-key-takeaways-for-data-center-developers-other-large-load-projects-and-investors",
       "https://www.whitecase.com/insight-alert/doe-directs-ferc-accelerate-interconnection-data-centers",
       "https://www.enr.com/articles/62219-power-sector-debates-new-federal-rules-for-data-center-large-load-links-to-grid",
-      "https://www.gibsondunn.com/secretary-of-energy-directs-ferc-to-initiate-rulemaking-to-expedite-data-center-and-large-load-interconnection/"
+      "https://www.gibsondunn.com/secretary-of-energy-directs-ferc-to-initiate-rulemaking-to-expedite-data-center-and-large-load-interconnection/",
+      "https://www.ferc.gov/news-events/news/ferc-act-large-load-interconnection-docket-june-2026",
+      "https://www.troutmanenergyreport.com/2026/04/ferc-commits-to-june-2026-action-in-large-load-interconnection-rulemaking/",
+      "https://www.utilitydive.com/news/ferc-doe-data-center-interconnection-pjm-backstop-auction/817804/",
+      "https://www.publicpower.org/periodical/article/ferc-act-large-load-interconnection-docket-june-2026"
     ],
     "bill_name": "FERC Large Load Interconnection Rulemaking (RM26-4)",
     "bill_url": "https://www.ferc.gov/rm26-4",
-    "summary": "FERC Large Load Interconnection Rulemaking: On April 16, 2026, FERC issued an Order Regarding Intent to Act, deferring action to the end of June 2026 — past the April 30 DOE deadline that had been requested. Chair Laura Swett's accompanying statement emphasized the ongoing FERC-vs-state jurisdictional tension over large-load (data center) interconnection. The rulemaking remains pending with substantive order expected by end of June 2026.",
-    "last_updated": "2026-04-21",
+    "summary": "FERC Large Load Interconnection Rulemaking (Docket RM26-4): At its April 16, 2026 open meeting, FERC issued an Order Regarding Intent to Act, committing to a final order by the end of June 2026 — past the April 30, 2026 deadline DOE Secretary Chris Wright had requested when initiating the proceeding in October 2025. Chair David Swett's accompanying statement said the forthcoming order will translate ANOPR issues into standards for processing large-load (>20 MW) interconnection requests including AI data centers. The rulemaking would assert federal jurisdiction over an area traditionally regulated by states; outcome (whether it constrains or fast-tracks data center interconnection) will determine community impact.",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "grid_energy",
       "ratepayer"
@@ -33244,7 +33259,7 @@
       "legislation"
     ],
     "date": "2025-12-18",
-    "status": "active",
+    "status": "pending",
     "scope": "federal",
     "sources": [
       "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and",
@@ -33252,12 +33267,14 @@
       "https://www.ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace",
       "https://www.bdlaw.com/publications/ferc-orders-pjm-to-create-clear-rules-for-co-located-data-centers-and-large-loads/",
       "https://www.ferc.gov/news-events/news/ferc-pjm-colocation-reply-briefs-april-2026",
-      "https://www.ferc.gov/news-events/news/pjm-colocation-record-closed-2026-04-17"
+      "https://www.ferc.gov/news-events/news/pjm-colocation-record-closed-2026-04-17",
+      "https://www.blankrome.com/publications/ferc-issues-order-clarifying-data-center-and-large-load-interconnection-procedures-pjm",
+      "https://www.energylawinfo.com/2025/12/ferc-directs-revisions-to-enable-co-located-load-data-centers-and-generation/"
     ],
     "bill_name": "FERC PJM Co-Location Order",
     "bill_url": "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and",
-    "summary": "FERC PJM Co-Location proceeding: The April 17, 2026 reply brief deadline closed the record. FERC is now awaiting a substantive order on co-location of data centers with existing generation in PJM. The outcome will shape how data centers can directly contract with power plants without going through the full interconnection queue.",
-    "last_updated": "2026-04-21",
+    "summary": "FERC PJM Co-Location proceeding (Docket EL25-49): April 17, 2026 was the deadline for reply briefs to responsive briefs in the paper hearing FERC ordered in December 2025 to determine just and reasonable rates, terms, and conditions for new transmission services serving co-located data center loads in PJM. The proceeding will set the framework for how data centers can plug directly into power plants in the 13-state PJM region serving 67 million Americans. With the record now closed, FERC is awaiting a substantive order on whether to allow expedited co-location arrangements that bypass standard transmission service.",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "environmental",
       "grid_energy",
@@ -44619,12 +44636,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Amazon announced expansion of its Mississippi data center investment to $25 billion (up from previous $10B in Madison County and $3B in Warren County) on April 9-11, 2026. This increases scrutiny from community groups concerned about water, power, jobs, and environmental impacts across the state.",
+    "summary": "On April 9, 2026, Amazon announced an additional $12 billion Mississippi data center investment, split between an $11 billion expansion in Madison County (700 new jobs) and a new $1 billion campus in Clinton (100 new jobs) retrofitting the former Delphi Corporation plant. Combined with the prior $10 billion in Madison and $3 billion in Vicksburg/Warren County announced November 2025, Amazon's total Mississippi commitment now reaches $25 billion with roughly 2,000 jobs. The expansion is paired with Entergy Mississippi's 'Superpower Mississippi' initiative, including approximately $300 million in grid modernization. The scale increases scrutiny from community groups concerned about water, power, jobs, and environmental impacts across the state.",
     "sources": [
-      "https://mississippitoday.org/2026/04/09/data-centers-amazon-investments/"
+      "https://mississippitoday.org/2026/04/09/data-centers-amazon-investments/",
+      "https://magnoliatribune.com/2026/04/09/amazon-investing-another-12-billion-in-central-mississippi/",
+      "https://governorreeves.ms.gov/amazon-continues-mississippi-expansion-announcing-plans-to-invest-a-total-of-25-billion-across-the-magnolia-state/",
+      "https://www.aboutamazon.com/news/company-news/amazon-25-billion-mississippi-data-centers"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": "R",
     "issue_category": [
@@ -45105,7 +45125,7 @@
     "action_type": [
       "legislation"
     ],
-    "date": "2026-04-15",
+    "date": "2026-03-20",
     "status": "active",
     "company": null,
     "hyperscaler": null,
@@ -45123,12 +45143,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Rep. Greg Landsman (D-OH) introduced H.R. 8033, the No Harm in Data Centers Act, which would prohibit data center operators from shifting energy and infrastructure costs to residential ratepayers. The bill gained significant media momentum in mid-April 2026 following the EIA reporting commitment and growing national coverage of data center rate-shifting. The bill directs FERC and state regulators to ensure large-load customers pay the full incremental costs of their electricity service.",
+    "summary": "Rep. Greg Landsman (D-OH) introduced H.R. 8033, the No Harm in Data Centers Act, on March 20, 2026, and the bill was referred to the House Committee on Energy and Commerce. The bill applies to data centers with peak demand of 50 MW or more. It directs FERC and state regulators to ensure large-load customers pay the full incremental costs of their electricity service, mandates an environmental impact study, and bans non-disclosure agreements between elected officials and data center developers. The bill gained renewed media attention in mid-April 2026 following the EIA reporting commitment and growing national coverage of data center rate-shifting.",
     "sources": [
-      "https://www.congress.gov/bill/119th-congress/house-bill/8033"
+      "https://www.congress.gov/bill/119th-congress/house-bill/8033",
+      "https://www.congress.gov/bill/119th-congress/house-bill/8033/all-info",
+      "https://www.govtrack.us/congress/bills/119/hr8033"
     ],
     "data_source": "manual",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "federal",
     "issue_category": [
       "ratepayer"
@@ -46715,13 +46737,14 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Gov. Abigail Spanberger (VA) joined a bipartisan coalition of governors on April 13, 2026 calling on PJM Interconnection to prioritize ratepayer protections and make data centers pay their fair share. Ratepayers across PJM's 13-state footprint face an additional $1.4B in capacity costs starting June 2026 largely from data center demand.",
+    "summary": "On April 13, 2026, Virginia Gov. Abigail Spanberger joined a bipartisan coalition calling on PJM Interconnection to prioritize ratepayer protections and make data centers pay their fair share. Confirmed signatories: Spanberger (VA), the governors of Maryland, Delaware, Pennsylvania, New Jersey, Indiana, and Illinois, plus D.C. Mayor Muriel Bowser. The letter outlines a consumers-first framework for PJM's new reliability backstop auction, calls on PJM to make sure data centers pay for new capacity costs (with state-specific accounting like Virginia's SCC data center rate class), and asks for safeguards so everyday customers do not end up paying extra if large energy users fail to cover their own costs or PJM buys more power than needed. Ratepayers across PJM's 13-state footprint face an additional $1.4B in capacity costs starting June 2026 largely from data center demand.",
     "sources": [
       "https://virginiamercury.com/briefs/spanberger-joins-other-governors-in-push-for-pjm-to-prioritize-ratepayer-protections/",
-      "https://www.12onyourside.com/2026/04/13/spanberger-joins-other-governors-push-pjm-prioritize-ratepayer-protections/"
+      "https://www.12onyourside.com/2026/04/13/spanberger-joins-other-governors-push-pjm-prioritize-ratepayer-protections/",
+      "https://www.governor.virginia.gov/newsroom/news-releases/2026/april-releases/name-1116140-en.html"
     ],
     "data_source": "manual_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -46821,6 +46844,199 @@
     ],
     "authority_level": null,
     "objective": null,
+    "community_outcome": "pending"
+  },
+  {
+    "id": "epa-wrap-2-water-reuse-data-centers-us-2026-04-16",
+    "jurisdiction": "EPA",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "regulatory_action",
+      "study_or_report"
+    ],
+    "date": "2026-04-16",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 16, 2026, EPA Administrator Lee Zeldin launched the Water Reuse Action Plan (WRAP) 2.0 with a specific focus on data centers, industry, and energy providers. The plan includes an initiative called 'Water for the U.S. Technology Revolution' aimed at strengthening links between the tech and water sectors. EPA committed to working with states and the regulated community to compile and share best practices for industrial cooling so states can readily permit recycled water use for data centers. The plan frames water reuse for AI/data centers as both a public-health/resource-protection measure and a tool to clear regulatory hurdles for siting more data centers — hence a mixed-outcome framing.",
+    "sources": [
+      "https://www.epa.gov/waterreuse/water-reuse-action-plan-20",
+      "https://www.ngwa.org/detail/news/2026/04/20/water-reuse-plan-for-data-centers-and-industry-announced-by-epa"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "federal",
+    "issue_category": [
+      "water",
+      "environmental"
+    ],
+    "authority_level": "federal_agency",
+    "objective": "Launch federal water reuse action plan tailored to data centers and industry to streamline recycled-water permitting.",
+    "community_outcome": "mixed"
+  },
+  {
+    "id": "ferc-transwestern-green-chile-pipeline-us-2026-04-13",
+    "jurisdiction": "FERC (Transwestern Green Chile Pipeline)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "regulatory_action",
+      "infrastructure_opposition"
+    ],
+    "date": "2026-04-13",
+    "status": "pending",
+    "company": "Energy Transfer / Transwestern Pipeline Company",
+    "hyperscaler": null,
+    "project_name": "Project Jupiter / Green Chile Pipeline",
+    "investment_million_usd": 60,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Sierra Club Rio Grande Chapter",
+      "Center for Biological Diversity",
+      "Food & Water Watch"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "FERC staff filed a formal protest dated April 13, 2026 (published in the Federal Register April 16) against Transwestern Pipeline Company's blanket-certificate request for the 17.77-mile Green Chile Pipeline in Doña Ana County, NM, which would supply 400,000 dekatherms per day of natural gas to power plants for the proposed Project Jupiter data center. FERC Acting Secretary Debbie-Anne Reese signed the protest, noting the application was incomplete and lacked required confirmation from the New Mexico State Historic Preservation Office. If unresolved within 30 days, the project loses eligibility for the expedited blanket certificate and must undergo full project-specific certification, likely delaying construction. Sierra Club Rio Grande Chapter, Center for Biological Diversity, and Food & Water Watch filed a parallel environmental protest on April 15, 2026.",
+    "sources": [
+      "https://www.federalregister.gov/documents/2026/04/16/2026-07448/transwestern-pipeline-company-llc-notice-of-staff-protest-to-proposed-blanket-certificate-activity",
+      "https://sourcenm.com/2026/04/17/federal-regulatory-staff-protest-proposed-new-mexico-pipeline-for-data-center/",
+      "https://www.foodandwaterwatch.org/2026/04/15/environmental-orgs-file-protest-against-green-chile-pipeline-in-southern-new-mexico/",
+      "https://www.santafenewmexican.com/news/local_news/federal-agency-files-protest-in-natural-gas-pipeline-project-in-southern-new-mexico/article_7a3cf260-40dc-47b2-b900-abdcaabc9dd1.html"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "federal",
+    "issue_category": [
+      "environmental",
+      "grid_energy",
+      "community_impact"
+    ],
+    "authority_level": "federal_agency",
+    "objective": "Force full FERC certification of natural-gas pipeline serving Project Jupiter data center, delaying expedited approval.",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "house-data-act-companion-begich-us-2026-04-21",
+    "jurisdiction": "US House (DATA Act of 2026 — House companion)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "legislation"
+    ],
+    "date": "2026-04-21",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 21, 2026, Reps. Nick Begich (R-AK), Dan Crenshaw (R-TX), and Burgess Owens (R-UT) introduced the House companion to the DATA Act of 2026 (Decentralized Access to Technology Alternatives Act). The bill creates a new federal 'consumer-regulated electric utility' (CREU) category allowing hyperscalers to build fully off-grid, isolated 'grid-of-one' power systems that bypass federal/state utility regulation, on the rationale of preventing data center load growth from raising residential ratepayer bills. The Senate companion was introduced earlier by Sen. Tom Cotton (R-AR). Industry-friendly framing as ratepayer protection, but the structure removes federal oversight of data center power generation, raising concerns about emissions, siting, and accountability — community advocates view the bill as enabling faster, less-regulated buildout.",
+    "sources": [
+      "https://begich.house.gov/media/press-releases/congressman-begich-leads-legislation-lower-energy-costs-introduces-house",
+      "https://www.advocates4cre.org/blog/congressman-begich-leads-legislation-to-lower-energy-costs-introduces-house-version-of-the-data-act",
+      "https://www.datacenterdynamics.com/en/news/us-senator-proposes-bill-permitting-ai-data-centers-to-bypass-federal-power-rules-via-off-grid-energy-infrastructure-development/",
+      "https://foleyhoag.com/news-and-insights/blogs/energy-and-climate-counsel/2026/march/the-data-act-of-2026-and-the-future-of-data-center-development/",
+      "https://www.nextgov.com/policy/2026/04/tech-bills-week-creating-data-privacy-standards-securing-critical-infrastructure-drones-and-more/413117/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "federal",
+    "issue_category": [
+      "grid_energy",
+      "ratepayer",
+      "environmental"
+    ],
+    "authority_level": "federal_legislature",
+    "objective": "Create off-grid 'CREU' federal category enabling hyperscaler power systems to bypass federal/state utility regulation.",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "senator-ossoff-ferc-inquiry-georgia-us-2026-04-24",
+    "jurisdiction": "US Senate (Sen. Ossoff FERC inquiry)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "other_opposition",
+      "regulatory_action"
+    ],
+    "date": "2026-04-24",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 24, 2026, Sen. Jon Ossoff (D-GA) sent a formal letter to FERC opening an inquiry into whether AI data centers are driving up electricity costs for Georgia ratepayers. Georgia has received over $4.5 billion in AI investment since 2019, and the Georgia PSC has approved 9,885 MW of new generation specifically to serve data centers. Ossoff asked FERC for assurances that data centers will 'pay their own way' and questioned FERC's load forecasting methods and contingency strategies if load growth exceeds projections. He requested a formal FERC response by June 1, 2026. This is congressional pressure on a federal agency rather than legislation, signaling continued bipartisan scrutiny of data center cost-shifting.",
+    "sources": [
+      "https://www.11alive.com/article/news/politics/jon-ossoff-ai-data-centers-power-bill-impact-inquiry/85-1fe2723c-097f-4028-8b3a-5ef70a5d835a",
+      "https://www.wjbf.com/news/georgia-news/sen-ossoff-investigates-ai-data-center-impact-on-georgians-energy-costs/",
+      "https://broadbandbreakfast.com/ossoff-probes-energy-impact-of-ai-data-centers-in-georgia/",
+      "https://www.cbsnews.com/atlanta/news/ossoff-investigating-ai-data-center-are-impacting-rising-power-bills-in-georgia/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "federal",
+    "issue_category": [
+      "ratepayer",
+      "transparency",
+      "grid_energy"
+    ],
+    "authority_level": "federal_legislature",
+    "objective": "Senate-led FERC inquiry into AI data center cost-shifting onto Georgia ratepayers, with June 1 response deadline.",
     "community_outcome": "pending"
   }
 ]

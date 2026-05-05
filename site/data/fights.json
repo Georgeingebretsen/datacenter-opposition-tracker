@@ -47206,12 +47206,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On April 24, 2026, Sen. Jon Ossoff (D-GA) sent a formal letter to FERC opening an inquiry into whether AI data centers are driving up electricity costs for Georgia ratepayers. Georgia has received over $4.5 billion in AI investment since 2019, and the Georgia PSC has approved 9,885 MW of new generation specifically to serve data centers. Ossoff asked FERC for assurances that data centers will 'pay their own way' and questioned FERC's load forecasting methods and contingency strategies if load growth exceeds projections. He requested a formal FERC response by June 1, 2026. This is congressional pressure on a federal agency rather than legislation, signaling continued bipartisan scrutiny of data center cost-shifting.",
+    "summary": "On April 24, 2026, Sen. Jon Ossoff (D-GA) sent a formal letter to FERC opening an inquiry into whether AI data centers are driving up electricity costs for Georgia ratepayers. Georgia has received over $4.5 billion in AI investment since 2019, and the Georgia PSC has approved 9,885 MW of new generation specifically to serve data centers. Ossoff asked FERC for assurances that data centers will 'pay their own way' and questioned FERC's load forecasting methods and contingency strategies if load growth exceeds projections. He requested a formal FERC response by June 1, 2026. This is congressional pressure on a federal agency rather than legislation, signaling continued bipartisan scrutiny of data center cost-shifting. UPDATE: On April 27, 2026, Georgia PSC Chairman Jason Shaw and Commissioner Tricia Pridemore filed a formal letter to FERC pushing back on Ossoff's premise, asserting 'data centers are not affecting power bills' in Georgia. FERC's June 1 response deadline remains active.",
     "sources": [
       "https://www.11alive.com/article/news/politics/jon-ossoff-ai-data-centers-power-bill-impact-inquiry/85-1fe2723c-097f-4028-8b3a-5ef70a5d835a",
       "https://www.wjbf.com/news/georgia-news/sen-ossoff-investigates-ai-data-center-impact-on-georgians-energy-costs/",
       "https://broadbandbreakfast.com/ossoff-probes-energy-impact-of-ai-data-centers-in-georgia/",
-      "https://www.cbsnews.com/atlanta/news/ossoff-investigating-ai-data-center-are-impacting-rising-power-bills-in-georgia/"
+      "https://www.cbsnews.com/atlanta/news/ossoff-investigating-ai-data-center-are-impacting-rising-power-bills-in-georgia/",
+      "https://www.wrdw.com/2026/04/27/ga-regulators-push-back-ossoff-inquiry-about-data-centers/",
+      "https://middlegeorgiaceo.com/news/2026/04/chairman-shaw-commissioner-pridemore-address-data-center-issues-letter-ferc/",
+      "https://www.aol.com/news/georgia-psc-tells-feds-not-203703643.html"
     ],
     "data_source": "web_scrape_2026-04",
     "last_updated": "2026-04-25",
@@ -47858,7 +47861,7 @@
       "zoning_restriction"
     ],
     "date": "2026-04-24",
-    "status": "pending",
+    "status": "approved",
     "company": "O'Leary Digital Utah Development Company",
     "hyperscaler": null,
     "project_name": "Wonder Valley (Stratos Project Area)",
@@ -47875,11 +47878,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On April 24, 2026, Kevin O'Leary unveiled details of the Stratos Project Area to Utah's Military Installation Development Authority (MIDA) board. The 40,000 acres of privately owned land plus 1,200 acres of military and state land in unincorporated western Box Elder County will be marketed as 'Wonder Valley.' Phase 1 will generate ~3 GW; total project capacity 9 GW (more than twice all of Utah's power consumption). The project is near final approval and includes tax deals to attract Amazon, Microsoft, Google.",
+    "summary": "On April 24, 2026, Kevin O'Leary unveiled details of the Stratos Project Area to Utah's Military Installation Development Authority (MIDA) board. The 40,000 acres of privately owned land plus 1,200 acres of state land in unincorporated western Box Elder County would host one of the nation's largest data center campuses, totaling up to 9 GW. UPDATE: On May 4, 2026, Box Elder County commissioners voted unanimously to approve two resolutions in support of the project despite ~1,100 attendees gathering at the Box Elder County Fairgrounds for a rally and public hearing. After the crowd became rowdy, commissioners moved to a small room away from the public to make their decision. Developer O'Leary Digital (Kevin O'Leary, 'Mr. Wonderful' of Shark Tank) said a $1B Phase 1 capital-raising effort will begin over the next 60 days, with first-phase construction within months.",
     "sources": [
       "https://www.kpcw.org/state-regional/2026-04-24/mida-shark-tank-kevin-oleary-announce-new-data-center-project-area",
       "https://www.deseret.com/business/2026/04/24/shark-tank-kevin-oleary-data-center-energy-development-utah-ai-artificial-intelligence/",
-      "https://www.sltrib.com/news/2026/04/25/hyperscale-data-center-may-be/"
+      "https://www.sltrib.com/news/2026/04/25/hyperscale-data-center-may-be/",
+      "https://utahnewsdispatch.com/2026/05/04/box-elder-commissioners-approve-data-center/",
+      "https://www.sltrib.com/news/2026/05/04/utah-data-center-final-vote-box/",
+      "https://www.ksl.com/article/51492962/box-elder-county-commissioners-ok-controversial-data-center-proposal",
+      "https://www.standard.net/news/2026/may/05/hundreds-cry-out-as-box-elder-commissioners-wave-in-massive-data-center/"
     ],
     "data_source": "web_scrape_2026-04",
     "last_updated": "2026-04-25",
@@ -47891,7 +47898,7 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Establish 41,200-acre Wonder Valley data center project area with 9 GW capacity.",
-    "community_outcome": "pending",
+    "community_outcome": "loss",
     "county_lean": "R"
   },
   {
@@ -48149,7 +48156,7 @@
       "public_comment"
     ],
     "date": "2026-04-22",
-    "status": "pending",
+    "status": "delayed",
     "company": "Metts LLC; Falmouth Tech LLC",
     "hyperscaler": null,
     "project_name": "Potomac Creek Campus; Accokeek Center",
@@ -48166,10 +48173,13 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On April 22, 2026, the Stafford County Planning Commission held public hearings on two proposed data center projects: the Potomac Creek Campus (Metts LLC, Joseph Metts; 99.3 acres on Eskimo Hill Road; three two-story buildings of 325,000 sq ft each plus a substation; requesting 70-foot height) and the Accokeek Center (Falmouth Tech LLC, Stephen DeFalco; 121 acres west of US-1 near Eskimo Hill Road; three buildings of 230,000 sq ft each). Both seek rezoning from agricultural to heavy industrial plus conditional use permits for substations. County planning staff recommended deferral of Potomac Creek (pending noise mitigation, trip generation data, and historical/cultural review) and denial of Accokeek (incompatible with existing residential development).",
+    "summary": "On April 22, 2026, the Stafford County Planning Commission held public hearings on two proposed data center projects. The Potomac Creek Campus (Metts LLC, Joseph Metts; 99.3 acres on Eskimo Hill Road) was deferred unanimously to May 27, 2026 over concerns about noise mitigation, traffic, and historical/cultural review. The Potomac Creek site contains 4 marked Seddon family burials and 12+ unmarked graves believed to be of enslaved individuals. The Accokeek Tech Park applicant pulled the project from the agenda at the last minute, sparking resident outrage; the attorney cited confusion with the staff report. The last-minute pull triggered a planning-commission discussion of new procedural rule changes (per Fredericksburg Free Press, April 29, 2026). Both items are on hold pending resubmission and deferred review.",
     "sources": [
       "https://www.fxbgadvance.com/p/stafford-planning-commission-to-hold-4fc",
-      "https://www.thecentersquare.com/virginia/article_0197a013-ec97-4cdf-a453-c821b507b7d2.html"
+      "https://www.thecentersquare.com/virginia/article_0197a013-ec97-4cdf-a453-c821b507b7d2.html",
+      "https://www.fxbgadvance.com/p/stafford-planning-commission-votes",
+      "https://www.potomaclocal.com/2026/05/04/stafford-planning-commission-defers-potomac-creek-data-center-after-last-minute-accugeek-pull-sparks-resident-outrage/",
+      "https://www.fredericksburgfreepress.com/2026/04/29/stafford-planning-commission-considering-new-rules-after-data-center-hearing-canceled/"
     ],
     "data_source": "web_scrape_2026-04",
     "last_updated": "2026-04-25",
@@ -51059,12 +51069,15 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "DTE Energy formally filed for a $474.3 million rate increase with the MPSC but pledged a two-year pause on additional rate-hike requests if the Saline Township Stargate data center comes online by 2027. The $474M would fund Belle River conversion (coal-to-gas) and the Trenton Channel Energy Center, not the data center itself. MPSC decision expected February 2027. Critics linked the pledge to ratepayer-subsidization concerns.",
+    "summary": "DTE Energy formally filed for a $474.3 million rate increase with the MPSC but pledged a two-year pause on additional rate-hike requests if the Saline Township Stargate data center comes online by 2027. The $474M would fund Belle River conversion (coal-to-gas) and the Trenton Channel Energy Center, not the data center itself. MPSC decision expected February 2027. Critics linked the pledge to ratepayer-subsidization concerns. UPDATE: On April 28, 2026, Michigan Attorney General Dana Nessel announced she would intervene in the DTE rate case before the Michigan PSC to oppose the rate hike. A pre-hearing is scheduled for May 27, 2026.",
     "sources": [
       "https://www.wlns.com/news/michigan/dte-energy-links-data-center-474m-funding-request-to-pause-in-electricity-rate-hikes/",
       "https://www.fox2detroit.com/news/dte-says-will-pause-rate-hike-requests-2-years-citing-increased-revenue-from-data-centers",
       "https://www.cbsnews.com/detroit/news/dte-2-year-pause-rate-hike-requests/",
-      "https://www.detroitnews.com/story/business/2026/04/24/dte-to-seek-473m-rate-hike-but-promises-relief-if-data-centers-open/89776997007/"
+      "https://www.detroitnews.com/story/business/2026/04/24/dte-to-seek-473m-rate-hike-but-promises-relief-if-data-centers-open/89776997007/",
+      "https://www.michigan.gov/ag/news/press-releases/2026/04/28/ag-nessel-to-intervene-in-dte",
+      "https://eu.detroitnews.com/story/business/2026/04/29/dte-wants-a-nearly-10-electric-rate-hike-nessel-says-shell-fight-it/89853725007/",
+      "https://michiganadvance.com/briefs/as-dte-seeks-474-million-rate-hike-nessel-pledges-to-intervene/"
     ],
     "data_source": "frontier_deep_dive_2026-04",
     "last_updated": "2026-04-25",
@@ -52317,5 +52330,96 @@
     "authority_level": "utility_commission",
     "objective": "Approve 1,200 MW of new gas generation tied to Microsoft Mount Pleasant load",
     "community_outcome": "loss"
+  },
+  {
+    "id": "federal-mciver-data-center-transparency-act-us-2026-04-23",
+    "jurisdiction": "US House (Rep. McIver — AI Data Center Site Selection Transparency Act)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "legislation"
+    ],
+    "date": "2026-04-23",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 23, 2026, Rep. LaMonica McIver (D-NJ-10), with co-leads Reps. Valerie Foushee (D-NC-04) and Andre Carson (D-IN-07), introduced the AI Data Center Site Selection Transparency Act of 2026. The bill requires developers to publicly disclose proposed AI data center locations at least 180 days before any definitive development step, mandates multilingual community outreach, requires developer-funded independent third-party environmental impact analyses, restricts NDAs with public entities, requires disclosure of electricity, water, and cooling demand, and treats violations as unfair or deceptive practices under the FTC Act with joint liability for developers, owners, and operators. Pro-community / transparency-focused bill with environmental-justice framing. Sponsors: LaMonica McIver, Valerie Foushee, Andre Carson.",
+    "sources": [
+      "https://mciver.house.gov/media/press-releases/mciver-introduces-bill-to-stop-surprise-ai-data-center-development",
+      "https://www.insidernj.com/mciver-introduces-bill-to-stop-surprise-ai-data-center-development/",
+      "https://mciver.house.gov/imo/media/doc/ai_data_center_site_selection_transparency_act_of_2026.pdf"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "federal",
+    "issue_category": [
+      "transparency",
+      "environmental",
+      "community_impact"
+    ],
+    "authority_level": "federal_legislature",
+    "objective": "Require federal pre-disclosure (180 days), multilingual outreach, third-party environmental impact studies, NDA restrictions, and resource-demand disclosure for all proposed AI data centers.",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "federal-nber-muller-data-center-damages-2026-04-21",
+    "jurisdiction": "Federal / National Bureau of Economic Research (Carnegie Mellon — Muller study)",
+    "state": "US",
+    "county": null,
+    "lat": null,
+    "lng": null,
+    "action_type": [
+      "study_or_report"
+    ],
+    "date": "2026-04-21",
+    "status": "active",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Carnegie Mellon economist Nicholas Z. Muller released NBER Working Paper w35100 in April 2026, 'Measuring the Impact of Data Centers in the United States Economy: Monetary Damage from Air Pollution and Greenhouse Gas Emissions.' The study analyzed approximately 2,800 U.S. data centers operating in 2025 and estimated $25 billion in annual gross external damages (range $10-33B) from local air pollution and greenhouse gas emissions, with $3.7B specifically tied to AI activities. Texas and Virginia together account for roughly 30% of the national health-cost burden. The paper projects damages could rise up to 85% in the near term as planned expansion comes online. Widely covered April 21, 2026 in Fortune and used by community advocates pushing for federal regulation. Informational/research finding rather than a discrete fight outcome.",
+    "sources": [
+      "https://www.nber.org/papers/w35100",
+      "https://fortune.com/2026/04/21/data-centers-environmental-health-costs-25-billion/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "federal",
+    "issue_category": [
+      "air_quality",
+      "environmental",
+      "community_impact"
+    ],
+    "authority_level": "federal_agency",
+    "objective": "Quantify monetary damages of U.S. data center air pollution and greenhouse gas emissions to inform federal regulatory and policy responses.",
+    "community_outcome": "mixed"
   }
 ]

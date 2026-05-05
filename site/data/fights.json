@@ -20651,16 +20651,18 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Metrobloks proposed a $500 million, 75MW urban data center on 14 acres at the former Sherman Drive-In site in Martindale-Brightwood, Indianapolis. On April 1, 2026, the Metropolitan Development Commission voted 6-2 to approve rezoning despite nearly 100 people speaking in opposition. The project now heads to the City-County Council for final approval. On April 6, 13 rounds were fired at Councilor Ron Gibson's home with a 'No Data Centers' note left on his doorstep; FBI and DHS are assisting the investigation. The Protect Martindale-Brightwood coalition condemned the violence.",
+    "summary": "Metrobloks proposed a $500 million, 75MW urban data center on 14 acres at the former Sherman Drive-In site in Martindale-Brightwood, Indianapolis. On April 1, 2026, the Metropolitan Development Commission voted 6-2 to approve rezoning despite nearly 100 people speaking in opposition. On April 6, 13 rounds were fired at Councilor Ron Gibson's home with a 'No Data Centers' note left on his doorstep; FBI and DHS are assisting the investigation. On April 21, the Indianapolis City-County Council denied the Protect Martindale-Brightwood coalition's appeal of the MDC approval, allowing the project to proceed. The Protect Martindale-Brightwood coalition condemned the earlier shooting and continues to oppose the project.",
     "sources": [
       "https://www.wfyi.org/wfyi-news/2026-04-01/controversial-data-center-is-approved-for-martindale-brightwood",
       "https://www.nbcnews.com/news/us-news/indianapolis-data-center-city-councilor-home-shot-rcna267156",
       "https://fortune.com/2026/04/07/indianapolis-councilmember-ai-data-center-backlash/",
       "https://www.wfyi.org/2026-04-06/indy-city-county-councilor-ron-gibson--home-targeted-in-shooting",
-      "https://mirrorindy.org/martindale-brightwood-data-center-ron-gibson-east-indianapolis-metrobloks/"
+      "https://mirrorindy.org/martindale-brightwood-data-center-ron-gibson-east-indianapolis-metrobloks/",
+      "https://www.ibj.com/articles/indy-council-asks-for-data-center-approval-pause-denies-martindale-brightwood-appeal",
+      "https://www.insideindianabusiness.com/articles/indy-council-asks-for-pause-in-data-center-approvals-denies-martindale-brightwood-appeal"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-04-25",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -25292,23 +25294,24 @@
     ],
     "status": "active",
     "date": "2026-03-04",
-    "summary": "Google abandoned unincorporated Linn County and is pursuing annexation into the City of Palo, Iowa (pop. 1,407) to avoid the county's strict zoning. Palo held a town hall on March 25 where residents pressed city leaders for details. On April 4, a KCRG investigation revealed documents showing Palo negotiated with Google for months while publicly downplaying involvement. The project would require annexing ~545 acres near the Duane Arnold nuclear power plant. Mayor Bryan Busch supports the project but promised community protections.",
+    "summary": "Google abandoned unincorporated Linn County and is pursuing annexation into the City of Palo, Iowa (pop. 1,407) to avoid the county's strict data center zoning. Palo held a town hall on March 25 where residents pressed city leaders for details. On April 4, a KCRG investigation revealed documents showing Palo negotiated with Google for months while publicly downplaying involvement. On April 23, Iowa Public Radio reporting on \"Project Meridian\" detailed water use of up to 14 million gallons/day at full build-out. The project would require annexing ~545 acres near the Duane Arnold nuclear power plant. Mayor Bryan Busch supports the project but promised community protections.",
     "sources": [
       "https://www.iowapublicradio.org/ipr-news/2026-03-25/palo-google-data-center-mayor-townhall-linn-county",
       "https://www.kcrg.com/2026/04/04/i9-investigation-documents-show-palo-negotiated-with-google-while-publicly-downplaying-involvement/",
       "https://www.kcrg.com/2026/03/25/palo-residents-question-google-data-center-plans-town-hall/",
-      "https://www.iowapublicradio.org/ipr-news/2026-03-04/google-data-center-palo-linn-county"
+      "https://www.iowapublicradio.org/ipr-news/2026-03-04/google-data-center-palo-linn-county",
+      "https://www.iowapublicradio.org/ipr-news/2026-04-23/palo-google-project-meridian-water-data-center"
     ],
     "opposition_groups": [
       "Linn County residents"
     ],
-    "last_updated": "2026-04-13",
+    "last_updated": "2026-04-25",
     "company": "Google",
     "hyperscaler": "Google",
     "megawatts": 615,
     "investment_million_usd": 1000,
     "acreage": 545,
-    "water_usage_gallons_per_day": 12000000,
+    "water_usage_gallons_per_day": 14000000,
     "scope": "local",
     "county": "Linn County",
     "county_lean": "D",
@@ -25320,7 +25323,8 @@
     ],
     "authority_level": "city_council",
     "objective": "Block Google from annexing into Palo to evade Linn County's strict data center ordinance",
-    "community_outcome": "pending"
+    "community_outcome": "pending",
+    "project_name": "Project Meridian"
   },
   {
     "id": "mcduffie-county-ga-2026-03-04",
@@ -32864,13 +32868,16 @@
     "sources": [
       "https://www.wctrib.com/news/minnesota/nobles-county-planning-commission-votes-to-keep-data-center-out-of-ag-preservation-area",
       "https://www.dakotanewsnow.com/2026/04/09/nobles-county-residents-pushing-back-proposed-data-center/",
-      "https://www.dglobe.com/news/local/nobles-county-planning-commission-votes-against-data-centers-in-ag-district"
+      "https://www.dglobe.com/news/local/nobles-county-planning-commission-votes-against-data-centers-in-ag-district",
+      "https://www.mprnews.org/story/2026/04/21/nobles-county-board-to-vote-on-whether-to-allow-massive-data-centers-on-farm-land",
+      "https://www.startribune.com/southwest-minnesota-board-says-no-to-proposed-4-billion-data-center-complex/601786193",
+      "https://www.dglobe.com/news/local/geronimo-power-to-seek-alternative-sites-for-data-center"
     ],
     "company": "Geronimo Power",
     "hyperscaler": null,
     "energy_mw": null,
     "investment_usd": null,
-    "acreage": null,
+    "acreage": 640,
     "water_gallons_per_day": null,
     "petition_signatures": 877,
     "opposition_groups": [
@@ -32887,19 +32894,20 @@
       "permit_denial",
       "zoning_restriction"
     ],
-    "date": "2026-02-08",
+    "date": "2026-04-21",
     "status": "defeated",
-    "summary": "Nobles County (MN) Board of Commissioners voted 3-2 on April 21, 2026 to block a rezoning application from Geronimo Power that would have enabled a data center on land designated for agricultural preservation. The denial caps months of community opposition and protects the ag-preservation designation.",
+    "summary": "Nobles County (MN) Board of Commissioners voted 3-2 on April 21, 2026 to deny a zoning change that would have allowed Geronimo Power's proposed $4 billion, ~640-acre data center campus on farmland near Worthington — the change would have permitted data centers in agricultural preservation districts covering roughly 70-80% of the county. A packed room of farmers and residents applauded the decision; Geronimo CEO Blake Nixon said the company will seek alternative sites. The vote caps months of community opposition.",
     "petition_url": "https://www.change.org/p/stop-the-nobles-county-mega-data-center-before-it-reshapes-our-rural-communities",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "issue_category": [
       "community_impact",
       "environmental",
       "farmland"
     ],
-    "authority_level": "planning_commission",
+    "authority_level": "county_board",
     "objective": "Reject data centers in agricultural preservation district and pursue environmental review in Nobles County",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "investment_million_usd": 4000
   },
   {
     "scope": "local",
@@ -52421,5 +52429,198 @@
     "authority_level": "federal_agency",
     "objective": "Quantify monetary damages of U.S. data center air pollution and greenhouse gas emissions to inform federal regulatory and policy responses.",
     "community_outcome": "mixed"
+  },
+  {
+    "id": "indianapolis-council-pause-resolution-in-2026-04-21",
+    "jurisdiction": "Indianapolis City-County Council",
+    "state": "IN",
+    "county": "Marion County",
+    "lat": 39.7684,
+    "lng": -86.1581,
+    "action_type": [
+      "other_opposition"
+    ],
+    "date": "2026-04-21",
+    "status": "passed",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 21, 2026, the Indianapolis City-County Council unanimously passed Proposal No. 158 (sponsored by Councilor Jesse Brown) asking the Metropolitan Development Commission (MDC) to defer approval of new rezoning petitions and Improvement Location Permits for hyperscale data center projects until May 7, 2027 or until the MDC adopts new data center regulations. The resolution is non-binding — the MDC is independent and has no obligation to comply — but signals strong council pressure following months of resident opposition. Same meeting, the council denied the Martindale-Brightwood Metrobloks appeal.",
+    "sources": [
+      "https://www.wthr.com/article/news/local/city-county-council-passes-unanimous-resolution-calling-for-pause-data-center-development-indianapolis/531-981b44da-cda9-4adf-be1c-37b865904199",
+      "https://www.ibj.com/articles/indy-council-asks-for-data-center-approval-pause-denies-martindale-brightwood-appeal",
+      "https://fox59.com/news/indianapolis-city-county-council-seeks-to-halt-data-center-developments-until-may-2027/",
+      "https://www.insideindianabusiness.com/articles/indy-council-asks-for-pause-in-data-center-approvals-denies-martindale-brightwood-appeal"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "zoning",
+      "community_impact",
+      "grid_energy"
+    ],
+    "authority_level": "city_council",
+    "objective": "Pressure MDC to pause hyperscale data center approvals until new regulations adopted",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "niles-oh-bitdeer-withdrawal-2026-04-20",
+    "jurisdiction": "Niles",
+    "state": "OH",
+    "county": "Trumbull County",
+    "lat": 41.1828,
+    "lng": -80.7659,
+    "action_type": [
+      "project_withdrawal"
+    ],
+    "date": "2026-04-20",
+    "status": "defeated",
+    "company": "Whitetail Creek LLC / Bitdeer Technologies Group",
+    "hyperscaler": null,
+    "project_name": "Bitdeer Niles data center",
+    "investment_million_usd": null,
+    "megawatts": 300,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On Monday April 20, 2026, the City of Niles announced it would take \"no further action\" on a proposed annexation of three Weathersfield Township parcels submitted by Whitetail Creek LLC (a Bitdeer subsidiary) for a planned 300 MW AI/crypto data center at 1047 Belmont Ave. The announcement effectively halts the project. The April 15 council meeting featured 90 minutes of overwhelmingly opposed public comment. Niles is concurrently moving toward a moratorium on data centers, with a public hearing set for May 20.",
+    "sources": [
+      "https://www.wkbn.com/news/local-news/niles-news/niles-announces-decision-on-proposed-data-center-annexation/",
+      "https://www.wfmj.com/news/local-news/niles/city-of-niles-no-further-action-on-proposed-annexation-related-to-bitdeer-data-center-project/article_9a921062-8dd2-4528-bbff-57e0777f25ab.html",
+      "https://www.tribtoday.com/news/local-news/2026/04/niles-council-considers-data-center-moratorium/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact",
+      "grid_energy"
+    ],
+    "authority_level": "city_council",
+    "objective": "Block Bitdeer 300 MW annexation and adopt moratorium in Niles",
+    "community_outcome": "win"
+  },
+  {
+    "id": "san-angelo-tx-zoning-ordinance-2026-04-20",
+    "jurisdiction": "San Angelo",
+    "state": "TX",
+    "county": "Tom Green County",
+    "lat": 31.4638,
+    "lng": -100.437,
+    "action_type": [
+      "zoning_restriction"
+    ],
+    "date": "2026-04-20",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 20, 2026, the San Angelo Planning Commission voted 6-0 to recommend approval of a new data center zoning ordinance that establishes land-use rules for data centers in certain manufacturing zoning districts, including a 200-foot setback from residential areas, height restrictions, and other design standards. The recommendation now goes to the San Angelo City Council for final adoption.",
+    "sources": [
+      "https://www.conchovalleyhomepage.com/news/local-news/concho-valley-data-centers/data-center-zoning-regulations/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "noise",
+      "design_standards",
+      "community_impact"
+    ],
+    "authority_level": "planning_commission",
+    "objective": "Adopt zoning ordinance with setbacks and design standards for data centers in San Angelo",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "coachella-ca-2026-04-22",
+    "jurisdiction": "Coachella",
+    "state": "CA",
+    "county": "Riverside County",
+    "lat": 33.6803,
+    "lng": -116.1739,
+    "action_type": [
+      "public_comment",
+      "other_opposition"
+    ],
+    "date": "2026-04-22",
+    "status": "pending",
+    "company": "Stronghold Power Systems / DMK Project Solutions",
+    "hyperscaler": null,
+    "project_name": "Coachella Valley Technology Campus",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": 240,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On April 22, 2026, more than 100 residents packed the Coachella City Council meeting demanding a moratorium on the proposed 240-acre (potentially 450-acre, six-building) Coachella Valley Technology Campus near Avenue 52 and Fillmore Street, planned by Stronghold Power Systems / DMK Project Solutions. The item was not on the formal agenda; residents used public comment to press officials over water use in a drought-prone region, electric demand, air quality, noise, and loss of farmland in a 97% Latino working-class community. The mayor did not commit to a moratorium; a community town hall was scheduled for May 11. Records show developer Stronghold previously donated to former Mayor Steven Hernandez.",
+    "sources": [
+      "https://kesq.com/news/2026/04/22/more-than-100-residents-protest-proposed-data-center-at-coachella-city-council-meeting/",
+      "https://www.nbcpalmsprings.com/2026/04/22/controversial-data-center-proposal-sparks-community-outcry-in-coachella",
+      "https://www.kpbs.org/news/environment/2026/04/27/coachella-residents-call-for-data-center-moratorium-as-debate-expands-across-southern-california",
+      "https://ourlosangeles.com/coachella-residents-demand-moratorium-on-data-centers/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "water",
+      "air_quality",
+      "farmland",
+      "community_impact",
+      "transparency",
+      "grid_energy"
+    ],
+    "authority_level": "city_council",
+    "objective": "Adopt moratorium on Coachella Valley Technology Campus in Coachella",
+    "community_outcome": "pending"
   }
 ]

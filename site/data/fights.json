@@ -52814,5 +52814,49 @@
     "authority_level": "municipal",
     "objective": "Block American Towers data center near Reedy Creek Nature Preserve",
     "community_outcome": "pending"
+  },
+  {
+    "id": "bethel-township-lebanon-pa-2026-04-21",
+    "jurisdiction": "Bethel Township",
+    "state": "PA",
+    "county": "Lebanon County",
+    "lat": 40.45,
+    "lng": -76.3,
+    "action_type": [
+      "zoning_restriction"
+    ],
+    "date": "2026-04-21",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Bethel Township Planning Commission unanimously voted on April 21, 2026 to begin developing a draft data center ordinance, with Chairman Dale Snader noting \"It's coming, and I suppose we have to look at it.\" Zoning officer Jackie Hollenbach was tasked with researching peer ordinances; the commission is weighing whether to handle data centers via special exception or conditional use.",
+    "sources": [
+      "https://lebtown.com/2026/04/23/data-centers-old-comprehensive-plan-highlight-bethel-twp-planning-session/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "planning_commission",
+    "objective": "Develop data center zoning ordinance for Bethel Township",
+    "community_outcome": "pending"
   }
 ]

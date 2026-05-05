@@ -35217,7 +35217,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Virginia's Democratic-controlled legislature missed a critical budget deadline as lawmakers remain deadlocked over data center tax exemptions. The sales tax exemption cost the Commonwealth $1.6 billion in forgone revenue in FY2025 — up from the $1.5 million originally estimated in 2008. The Senate proposes accelerating the sunset from 2035 to January 1, 2027. The House wants to preserve the 2035 sunset but attach clean energy requirements. Gov. Spanberger sides with the House position. The IBEW has lobbied to protect data centers. SB 253 would allow the SCC to shift electricity distribution and capacity auction costs from residential customers to data centers demanding 25+ MW. Governor Spanberger scheduled a special session for April 23, 2026 to resolve the budget impasse — the data center tax exemption is the single largest fiscal item in dispute. UPDATE 2026-04-21: April 23 special session preview — Senate (Lucas) and House (Torian) remain deadlocked over the $1.6B/yr data center tax exemption.",
+    "summary": "Virginia's Democratic-controlled legislature missed a critical budget deadline as lawmakers remain deadlocked over data center tax exemptions. The sales tax exemption cost the Commonwealth $1.6 billion in forgone revenue in FY2025 — up from the $1.5 million originally estimated in 2008. The Senate proposes accelerating the sunset from 2035 to January 1, 2027 and using the revenue for child care and school construction; the House would tie the exemption to environmental compliance. Gov. Spanberger sides with the House position. The IBEW has lobbied to protect data centers. SB 253 would allow the SCC to shift electricity distribution and capacity auction costs from residential customers to data centers demanding 25+ MW. UPDATE 2026-04-23: Virginia's special legislative session opened April 23, 2026 to resolve the budget impasse and recessed the same day with no agreement. The data center sales-and-use tax exemption (~$1.6B/yr) remains the central dispute. The Data Center Coalition (Josh Levi) said the industry offered concessions; the Senate (Lucas) and House (Torian) positions remain unreconciled.",
     "sources": [
       "https://www.vpm.org/generalassembly/2026-03-12/budget-data-center-tax-break-scott-lucas-spanberger-torian-rephann",
       "https://virginiamercury.com/2026/03/11/clock-ticking-on-virginia-budget-as-democrats-clash-over-data-center-tax-break/",
@@ -35225,10 +35225,12 @@
       "https://virginiamercury.com/2026/02/10/bill-would-put-more-energy-costs-on-data-centers-slash-residential-customerss-rates/",
       "https://news.bloombergtax.com/daily-tax-report-state/virginia-impasse-over-data-center-tax-break-punts-budget-talks",
       "https://cardinalnews.org/2026/03/14/the-2026-general-assembly-session-wraps-with-no-budget-special-session-on-the-horizon/",
-      "https://www.multistate.us/insider/2026/3/30/virginia-lawmakers-pass-15-data-center-bills-as-tax-exemption-fight-looms"
+      "https://www.multistate.us/insider/2026/3/30/virginia-lawmakers-pass-15-data-center-bills-as-tax-exemption-fight-looms",
+      "https://cardinalnews.org/2026/04/23/first-day-of-the-budget-special-session-ends-without-an-agreement-on-data-center-tax-exemptions/",
+      "https://virginiamercury.com/2026/04/23/virginia-lawmakers-adjourn-special-session-without-a-budget-deal/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-04-25",
     "scope": "statewide",
     "county_lean": null,
     "issue_category": [
@@ -52621,6 +52623,196 @@
     ],
     "authority_level": "city_council",
     "objective": "Adopt moratorium on Coachella Valley Technology Campus in Coachella",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "harnett-county-nc-2026-04-21",
+    "jurisdiction": "Harnett County",
+    "state": "NC",
+    "county": "Harnett County",
+    "lat": 35.37,
+    "lng": -78.87,
+    "action_type": [
+      "moratorium",
+      "public_comment"
+    ],
+    "date": "2026-04-21",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Harnett County Commissioners on April 21, 2026 voted to schedule a public hearing for May 4, 2026 on a proposed one-year data center moratorium and authorized modifications to the county's Unified Development Ordinance language. Commissioners cited concerns about the water department's capacity to support large-load uses. The vote follows a wave of central North Carolina counties advancing data center moratoriums in spring 2026.",
+    "sources": [
+      "https://sandhills.news/2026/04/21/harnett-moratorium-on-data-centers-public-hearing-scheduled/",
+      "https://www.sanfordherald.com/archives/harnett-commissioners-approve-one-year-data-center-moratorium/article_17ded063-c0fe-548e-bab0-20cd6df6c922.html"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "water",
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Pause data center development in Harnett County pending regulations",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "cumberland-county-nc-2026-04-20",
+    "jurisdiction": "Cumberland County",
+    "state": "NC",
+    "county": "Cumberland County",
+    "lat": 35.05,
+    "lng": -78.83,
+    "action_type": [
+      "moratorium",
+      "public_comment"
+    ],
+    "date": "2026-04-20",
+    "status": "pending",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Cumberland County (NC) Board of Commissioners voted 6-0 (one absent) on April 20, 2026 to schedule a public hearing on May 18 at 6:45 p.m. on a proposed data center moratorium. Commissioners also voted 6-0 to direct the Cumberland County Joint Planning Board to collaborate with the City of Fayetteville on developing data center regulations. Residents have suggested moratorium durations of one to three years. Commissioner Henry Tyson stressed distinguishing dedicated data centers from companies where data storage is secondary.",
+    "sources": [
+      "https://www.cityviewnc.com/stories/cumberland-commissioners-schedule-hearing-on-data-center-moratorium/",
+      "https://1077thebounce.com/2026/04/23/cumberland-county-approves-1-45m-generator-contract-schedules-data-center-moratorium-hearing/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "zoning",
+      "community_impact"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Pause data center development in Cumberland County pending regulations",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "wythe-county-va-2026-04-22",
+    "jurisdiction": "Wythe County",
+    "state": "VA",
+    "county": "Wythe County",
+    "lat": 36.92,
+    "lng": -81.08,
+    "action_type": [
+      "public_comment"
+    ],
+    "date": "2026-04-22",
+    "status": "pending",
+    "company": "Solis Arx",
+    "hyperscaler": null,
+    "project_name": "Solis Arx AI computing campus (Progress Park)",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": 99,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Reserve Wythe"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On Earth Day, April 22, 2026, Reserve Wythe (led by Andy Kegley) organized a public rally in Wythe County, VA — one of the few Virginia counties without zoning — to demand a public hearing on adopting a zoning ordinance to slow or restrict additional data center development. The group is targeting the previously announced 99-acre, multi-phase Solis Arx AI data center campus in Progress Park. A concurrent data center impact discussion was held at the Blacksburg library featuring Daniel Breslau of Virginia Tech's Science, Technology, and Society department.",
+    "sources": [
+      "https://www.wdbj7.com/2026/04/22/earth-day-brings-focus-growing-data-center-debate-across-southwest-virginia/"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "transparency",
+      "environmental",
+      "grid_energy",
+      "water"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Establish zoning oversight for data center development in unzoned Wythe County",
+    "community_outcome": "pending"
+  },
+  {
+    "id": "charlotte-nc-american-towers-2026-04-23",
+    "jurisdiction": "Charlotte",
+    "state": "NC",
+    "county": "Mecklenburg County",
+    "lat": 35.23,
+    "lng": -80.84,
+    "action_type": [
+      "other_opposition",
+      "public_comment"
+    ],
+    "date": "2026-04-23",
+    "status": "delayed",
+    "company": "American Towers",
+    "hyperscaler": null,
+    "project_name": "East Charlotte data center near Reedy Creek Nature Preserve",
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": 10,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Charlotte's Party for Socialism and Liberation"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "At the April 23, 2026 Charlotte zoning meeting, American Towers — citing a need for additional community engagement — pushed its rezoning hearing to May for a small data center planned on 10 acres of a 58-acre property near Reedy Creek Nature Preserve in east Charlotte. Charlotte's Party for Socialism and Liberation organized roughly 15 protesters outside the Charlotte-Mecklenburg Government Center. Residents raised concerns about proximity to the nature preserve and surrounding neighborhoods.",
+    "sources": [
+      "https://www.wfae.org/energy-environment/2026-04-23/east-charlotte-residents-protest-data-center-development-during-rezoning-hearing"
+    ],
+    "data_source": "web_scrape_2026-04",
+    "last_updated": "2026-04-25",
+    "scope": "local",
+    "county_lean": "D",
+    "issue_category": [
+      "zoning",
+      "community_impact",
+      "transparency"
+    ],
+    "authority_level": "municipal",
+    "objective": "Block American Towers data center near Reedy Creek Nature Preserve",
     "community_outcome": "pending"
   }
 ]

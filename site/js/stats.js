@@ -603,6 +603,7 @@ function renderWinRateByTool(fights) {
 function renderIssueCategoryChart(fights) {
   const ISSUE_NAMES = {
     zoning: 'Zoning / Land Use', water: 'Water', environmental: 'Environmental',
+    air_quality: 'Air Quality', property_values: 'Property Values',
     community_impact: 'Community Impact', grid_energy: 'Grid / Energy',
     noise: 'Noise', transparency: 'Transparency',
     ratepayer: 'Ratepayer', tax_incentive: 'Tax / Incentive', farmland: 'Farmland',

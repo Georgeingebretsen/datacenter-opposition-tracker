@@ -1914,6 +1914,11 @@ footer {
 .footer-inner p {
   margin-bottom: 0.3rem;
 }
+.footer-inner .ai-disclaimer {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  margin-top: 0.6rem;
+}
 
 /* Smooth transitions for dark mode toggling */
 body {

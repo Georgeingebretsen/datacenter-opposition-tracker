@@ -12090,7 +12090,7 @@
     "date": "2025-12-04",
     "status": "approved",
     "company": "Imperial Valley Computer Manufacturing LLC (IVCM)",
-    "hyperscaler": "Google",
+    "hyperscaler": null,
     "project_name": "Imperial Valley Data Center Campus",
     "investment_million_usd": 10000,
     "megawatts": 330,
@@ -12107,7 +12107,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-construction-of-the-data-center-at-aten-rd-and-clark-rd",
     "petition_signatures": 2746,
-    "summary": "Imperial County Board of Supervisors voted 4-1 on April 7, 2026 to approve the lot merger for the $10B, ~950,000 sq ft, 330MW Imperial Valley Computer Manufacturing (IVCM/Google) data center plus 330MW emergency backup generators and 862MWh energy storage system. Following the April 7 approval, attention shifted to the Imperial Irrigation District (IID), the valley's powerful public water and energy utility, which would have final say on water/energy contracts. As of April 16, 2026, IVCM still did not have contracts for water and energy. More than 100 attended an April 13 community meeting where organizers collected signatures for recall efforts against two county supervisors and a potential November ballot measure to ban data centers on county land. The facility could consume more electricity than all of Imperial County used in 2024 and need ~750,000 gallons of water per day.",
+    "summary": "Imperial County Board of Supervisors voted 4-1 on April 7, 2026 to approve the lot merger for the $10B, ~950,000 sq ft, 330MW Imperial Valley Computer Manufacturing (IVCM; tenant unconfirmed) data center plus 330MW emergency backup generators and 862MWh energy storage system. Following the April 7 approval, attention shifted to the Imperial Irrigation District (IID), the valley's powerful public water and energy utility, which would have final say on water/energy contracts. As of April 16, 2026, IVCM still did not have contracts for water and energy. More than 100 attended an April 13 community meeting where organizers collected signatures for recall efforts against two county supervisors and a potential November ballot measure to ban data centers on county land. The facility could consume more electricity than all of Imperial County used in 2024 and need ~750,000 gallons of water per day. Note: no hyperscaler tenant is confirmed by any primary source — the developer (Sebastian Rucci) says it will lease to an unnamed 'hyperscaler,' and the 'Google' link is speculative reporting. Recall: a recall of Supervisor Peggy Price (District 3) was served April 21 but stalled on technicalities; proponents re-gathered the initial 60 signatures and now need 4,040 valid signatures — not yet qualified and likely to miss the November 2026 ballot. Ballot measure: the 'Imperial County Data Center Prohibition Act' was submitted to the Registrar April 2, but on April 30 five residents sued alleging it violates California's single-subject rule, which could halt its processing; qualification is unconfirmed. Two supervisors (Escobar, Hawk) were forced into November runoffs in the June 2 primary, with the data center vote a central issue. IID still has no water or energy contracts with IVCM.",
     "sources": [
       "https://inewsource.org/2026/04/05/data-center-developer-imperial-county/",
       "https://www.kpbs.org/news/environment/2026/01/21/the-plan-to-build-a-massive-data-center-in-imperial-county-without-environmental-review",
@@ -12118,13 +12118,25 @@
       "https://www.cityofimperial.org/large-scale-data-center-complex-southeast-corner-aten-clark",
       "https://www.kpbs.org/news/environment/2026/04/07/imperial-county-supervisors-clear-path-for-massive-data-center-complex-amid-fierce-opposition",
       "https://calexicochronicle.com/2026/04/17/iid-vote-water-power-contracts-data-center/",
-      "https://www.kpbs.org/news/environment/2026/04/16/imperial-valley-utility-could-decide-fate-of-massive-data-center-following-key-vote"
+      "https://www.kpbs.org/news/environment/2026/04/16/imperial-valley-utility-could-decide-fate-of-massive-data-center-following-key-vote",
+      {
+        "url": "https://calexicochronicle.com/2026/04/27/supervisor-peggy-price-recall-effort-third-times-a-charm/",
+        "title": "Supervisor Peggy Price recall effort"
+      },
+      {
+        "url": "https://www.ivpressonline.com/news/imperial-county-lawsuit-challenges-data-center-prohibition-act-over-claims-of-voter-overreach/article_0524e7f6-f8f4-4be5-aa12-e7b04e6dab18.html",
+        "title": "Lawsuit challenges Imperial County Data Center Prohibition Act"
+      },
+      {
+        "url": "https://inewsource.org/2026/06/04/imperial-county-data-center-moratorium-vote-supervisors-ceqa/",
+        "title": "Imperial County data center moratorium vote and supervisor runoffs"
+      }
     ],
     "data_source": "manual",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-08",
     "scope": "local",
     "opposition_instagram_followers": 6027,
-    "county_lean": "R",
+    "county_lean": "D",
     "issue_category": [
       "anti_ai",
       "community_impact",
@@ -28952,7 +28964,19 @@
       "https://www.thedesertreview.com/business/data-center-company-to-build-315-acre-center-in-lithium-valley/article_aff75860-4f82-11ef-a8b5-7f739e431385.html",
       "https://www.kpbs.org/news/environment/2025/12/12/imperial-valley-city-sues-to-force-environmental-review-of-massive-data-center-project",
       "https://calexicochronicle.com/2026/01/07/where-imperial-data-center-project-and-opposition-stands/",
-      "https://calexicochronicle.com/2026/04/02/judge-denies-imperials-ex-parte-application-county-board-vote-on-data-center-lot-merger-to-continue-as-scheduled/"
+      "https://calexicochronicle.com/2026/04/02/judge-denies-imperials-ex-parte-application-county-board-vote-on-data-center-lot-merger-to-continue-as-scheduled/",
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/calethos-launches-geothermal-subsidiary-targeting-behind-the-meter-power-for-data-centers/",
+        "title": "CalEthos launches behind-the-meter subsidiary"
+      },
+      {
+        "url": "https://sqxalts.com/calethos-secures-15m-loan-to-advance-data-center-power-plant-project/",
+        "title": "CalEthos secures $15M loan"
+      },
+      {
+        "url": "https://www.thedesertreview.com/news/developer-of-imperial-valley-ai-data-center-sues-activist-and-environmental-nonprofit-for-defamation-alleged/article_d9ca8730-b133-401b-a605-94bf8a61f702.html",
+        "title": "Data center developer sues activist and nonprofit for defamation"
+      }
     ],
     "company": "CalEthos",
     "hyperscaler": null,
@@ -28976,8 +29000,8 @@
     ],
     "date": "2025-01-28",
     "status": "active",
-    "summary": "Multiple lawsuits surround data center development in Imperial Valley. The City of Imperial sued Imperial County in December 2025 to force environmental review of a $10B data center by Imperial Valley Computer Manufacturing LLC. In February 2026, the court ruled the city's CEQA claims were insufficient. In April 2026, the developer filed defamation and civil rights lawsuits against the City of Imperial and environmental activists. On April 2, 2026, a judge denied Imperial's ex parte application to block a county board vote on a lot merger. A case management conference is set for June 2, 2026. Separately, CalEthos is developing a 330 MW, 315-acre project near Niland/Calipatria.",
-    "last_updated": "2026-04-05",
+    "summary": "Multiple lawsuits surround data center development in Imperial Valley. The City of Imperial sued Imperial County in December 2025 to force environmental review of a $10B data center by Imperial Valley Computer Manufacturing LLC. In February 2026, the court ruled the city's CEQA claims were insufficient. In April 2026, the developer filed defamation and civil rights lawsuits against the City of Imperial and environmental activists. On April 2, 2026, a judge denied Imperial's ex parte application to block a county board vote on a lot merger. A case management conference is set for June 2, 2026. Separately, CalEthos is developing a 330 MW, 315-acre project near Niland/Calipatria. CalEthos developments (2026): launched subsidiary TerraVolt Infrastructure Inc. as a behind-the-meter 'Infrastructure-as-a-Service' platform; secured a $15M insider loan (rolled to ~$16M); and on May 11 executed a 55,000 MMBTU/day natural-gas supply agreement — but for a campus in Southeast Idaho, signaling a pivot from the original '100% geothermal/solar Lithium Valley' pitch toward natural gas and out-of-state sites (the Calipatria/Niland 315-acre campus, first phase ~420 MW, still in earlier filings). Litigation update: on April 1, 2026 IVCM/Rucci filed a defamation suit (Imperial County Superior Court) against activist Jake Tison, Comité Cívico del Valle, and Luis Olmedo — calling the nonprofit a 'greenmail extortion racket' and seeking $1M+ plus punitive damages; no anti-SLAPP ruling yet.",
+    "last_updated": "2026-06-08",
     "issue_category": [
       "environmental",
       "water"
@@ -56857,7 +56881,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Calipatria City Council voted 4-0 to advance an interim urgency ordinance for a temporary 5-year moratorium on large-scale data center approval/permitting/construction — the first Imperial County-area jurisdiction to formally consider blocking data centers. Tied to broader Salton Sea-area data center opposition.",
+    "summary": "Calipatria City Council voted 4-0 to advance an interim urgency ordinance for a temporary 5-year moratorium on large-scale data center approval/permitting/construction — the first Imperial County-area jurisdiction to formally consider blocking data centers. Tied to broader Salton Sea-area data center opposition. As of June 8, the 5-year moratorium remains an introduction only — the May 12 vote directed staff to advertise a formal public hearing to refine the ordinance before it takes full effect; no second-reading adoption has been confirmed. Mayor Michael Luellen said 'data centers, the only place that they exist, is in hell,' and council members faced recall notices around the same time.",
     "sources": [
       {
         "url": "https://inewsource.org/2026/05/13/data-center-moratorium-imperial-county-salton-sea-calipatria/",
@@ -56866,10 +56890,14 @@
       {
         "url": "https://calexicochronicle.com/2026/05/13/calipatria-council-introduces-data-center-moratorium/",
         "title": "Calipatria council introduces data center moratorium"
+      },
+      {
+        "url": "https://kyma.com/news/top-stories/2026/05/13/calipatria-city-council-approves-data-center-moratorium-on-heels-of-council-recall-notices/",
+        "title": "Calipatria approves data center moratorium amid recall notices"
       }
     ],
     "data_source": "research_batch_2026-05-25",
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-06-08",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -56909,15 +56937,23 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "A 231-page CEQA complaint challenges a ~1M sq ft data center near the City of Imperial; trial date set for June 25, 2026 (Judge Anderholt). Part of the broader Imperial County/Salton Sea data center fight.",
+    "summary": "A 231-page CEQA complaint challenges a ~1M sq ft data center near the City of Imperial; trial date set for June 25, 2026 (Judge Anderholt). Part of the broader Imperial County/Salton Sea data center fight. No ruling or settlement emerged from the June 2 case-management conference; the June 25, 2026 trial before Judge L. Brooks Anderholt stands. The court set trial after denying the county's second motion for judgment on the pleadings, and in a stipulation of facts county officials admitted gaps in the administrative record — including no record of an initial environmental study for the project.",
     "sources": [
       {
         "url": "https://inewsource.org/2026/05/13/data-center-moratorium-imperial-county-salton-sea-calipatria/",
         "title": "Imperial County Salton Sea data center CEQA lawsuit"
+      },
+      {
+        "url": "https://www.thedesertreview.com/business/city-of-imperial-prepares-for-upcoming-data-center-court-case/article_1ee31a32-f2fa-4375-a3b4-7fc325f7bb80.html",
+        "title": "City of Imperial prepares for data center court case"
+      },
+      {
+        "url": "https://www.thedesertreview.com/news/county-data-center-developer-file-motion-to-dismiss-imperial-lawsuit/article_ed141397-5555-45a7-955a-50a9aaffbad1.html",
+        "title": "County, developer file motion to dismiss Imperial lawsuit"
       }
     ],
     "data_source": "research_batch_2026-05-25",
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-06-08",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -62422,6 +62458,402 @@
       "grid_energy",
       "noise",
       "community_impact"
+    ],
+    "flags": null
+  },
+  {
+    "id": "brawley-ca-moratorium-2026-05-19",
+    "jurisdiction": "City of Brawley (data center moratorium passed 3-2), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 32.9787,
+    "lng": -115.5303,
+    "date": "2026-05-19",
+    "action_type": [
+      "moratorium"
+    ],
+    "status": "passed",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On May 19, 2026, the Brawley City Council voted 3-2 (Grass and Kelley dissenting) to approve Ordinance No. 2026-03, an immediate moratorium on data centers requiring more than 50 MW of electrical demand or exceeding 250,000 sq ft of gross floor area (smaller server rooms and telecom hubs exempt). Introduced by Councilmember Gil Rebollar to give the city time to draft zoning, environmental, and infrastructure standards.",
+    "sources": [
+      {
+        "url": "https://www.thedesertreview.com/business/brawley-council-approves-moratorium-on-data-center/article_702beb39-c98b-4e10-8024-c0eb5466ad19.html",
+        "title": "Brawley council approves moratorium on data center"
+      },
+      {
+        "url": "https://www.ivpressonline.com/news/brawley-targets-hyperscale-tech-growth-with-proposed-data-center-moratorium/article_495ce2ac-c352-4f86-bfbe-5d14939ae51c.html",
+        "title": "Brawley targets hyperscale tech growth with proposed moratorium"
+      },
+      {
+        "url": "https://calexicochronicle.com/2026/05/27/brawley-and-imperial-speak-on-data-center-moratoriums/",
+        "title": "Brawley and Imperial speak on data center moratoriums"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "city_council",
+    "objective": null,
+    "community_outcome": "win",
+    "issue_category": [
+      "zoning",
+      "grid_energy",
+      "water",
+      "noise"
+    ],
+    "flags": null
+  },
+  {
+    "id": "imperial-city-ca-moratorium-2026-05-20",
+    "jurisdiction": "City of Imperial (hyperscale data center moratorium advancing), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 32.8475,
+    "lng": -115.5694,
+    "date": "2026-05-20",
+    "action_type": [
+      "moratorium"
+    ],
+    "status": "pending",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On May 20, 2026, the City of Imperial council voted 4-0 to direct staff to return with a moratorium on hyperscale data centers within city limits; the item returned June 3 with the council moving to advance it (Mayor Ida Obeso: 'we have a right and a privilege to protect our residents'). The city is also the plaintiff in a separate CEQA suit against Imperial County over the IVCM project.",
+    "sources": [
+      {
+        "url": "https://kyma.com/news/top-stories/2026/05/21/imperial-moves-toward-moratorium-on-hyperscale-data-centers/",
+        "title": "Imperial moves toward moratorium on hyperscale data centers"
+      },
+      {
+        "url": "https://calexicochronicle.com/2026/05/27/brawley-and-imperial-speak-on-data-center-moratoriums/",
+        "title": "Brawley and Imperial speak on data center moratoriums"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "city_council",
+    "objective": null,
+    "community_outcome": "win",
+    "issue_category": [
+      "zoning",
+      "grid_energy",
+      "water",
+      "community_impact"
+    ],
+    "flags": null
+  },
+  {
+    "id": "calexico-ca-moratorium-2026-06-03",
+    "jurisdiction": "City of Calexico (proposed data center moratorium), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 32.6789,
+    "lng": -115.4989,
+    "date": "2026-06-03",
+    "action_type": [
+      "moratorium"
+    ],
+    "status": "pending",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Calexico City Council was scheduled to consider a proposed data center moratorium at its June 3, 2026 meeting (alongside a public-safety budgeting mandate). No specific data center project in Calexico was identified — the measure appears precautionary amid the county-wide moratorium cascade. The June 3 vote outcome was not yet reported as of June 8.",
+    "sources": [
+      {
+        "url": "https://www.ivpressonline.com/news/calexico-city-council-to-consider-public-safety-budgeting-mandate-and-data-center-moratorium/article_3dc38980-49ad-4f2d-ac2f-ca34c7c7627c.html",
+        "title": "Calexico council to consider data center moratorium"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "city_council",
+    "objective": null,
+    "community_outcome": "pending",
+    "issue_category": [
+      "zoning",
+      "grid_energy",
+      "water"
+    ],
+    "flags": [
+      {
+        "type": "status_uncertain",
+        "note": "June 3, 2026 council vote was scheduled and sourced, but the outcome had not been reported in available coverage as of June 8. Re-check Calexico Chronicle for the result.",
+        "added": "2026-06-08"
+      }
+    ]
+  },
+  {
+    "id": "imperial-county-ca-moratorium-by-right-2026-06-02",
+    "jurisdiction": "Imperial County (data center moratorium + by-right elimination advancing), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 32.792,
+    "lng": -115.5631,
+    "date": "2026-06-02",
+    "action_type": [
+      "moratorium",
+      "zoning_restriction"
+    ],
+    "status": "delayed",
+    "scope": "local",
+    "company": null,
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On June 2, 2026, after 1+ hour of public comment and 296 emailed comments, the Imperial County Board of Supervisors declined to adopt staff-drafted 'Data Center Development Guidelines' (21 safeguards including elimination of by-right development, infrastructure-impact assessments, 1,000-ft setbacks, water-use disclosure, local hiring, and a Good Neighbor Community Benefit Agreement), which opponents called full of loopholes. Supervisor Jesus Eduardo Escobar pushed for a six-month moratorium 'with more teeth.' Staff was directed to return June 16 with two items: an amended resolution creating an ad hoc study committee, and a moratorium urgency ordinance for immediate effect. A controversial carve-out for a second project (Tomcat Development near Brawley/Imperial) drew criticism.",
+    "sources": [
+      {
+        "url": "https://inewsource.org/2026/06/04/imperial-county-data-center-moratorium-vote-supervisors-ceqa/",
+        "title": "Imperial County considers data center moratorium"
+      },
+      {
+        "url": "https://calexicochronicle.com/2026/06/03/board-of-supervisors-considers-data-center-resolution/",
+        "title": "Board of Supervisors considers data center resolution"
+      },
+      {
+        "url": "https://www.ivpressonline.com/news/imperial-county-moves-to-strip-by-right-status-for-data-center-developments/article_67468b5d-a469-4e68-98b8-cb278c72f776.html",
+        "title": "Imperial County moves to strip by-right status for data centers"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "county_commission",
+    "objective": null,
+    "community_outcome": "pending",
+    "issue_category": [
+      "zoning",
+      "grid_energy",
+      "water",
+      "community_impact",
+      "transparency"
+    ],
+    "flags": null
+  },
+  {
+    "id": "sierra-club-v-imperial-county-ceqa-2026-05-27",
+    "jurisdiction": "Imperial County Superior Court (Sierra Club CEQA suit over IVCM approval), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 32.792,
+    "lng": -115.5631,
+    "date": "2026-05-27",
+    "action_type": [
+      "lawsuit"
+    ],
+    "status": "active",
+    "scope": "local",
+    "company": "Imperial Valley Computer Manufacturing LLC (IVCM)",
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [
+      "Sierra Club"
+    ],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "The Sierra Club (San Diego/San Gorgonio chapters; atty Kathryn Pettit) sued Imperial County over the Board of Supervisors' April 2026 lot-merger approval for the ~$10B IVCM data center, alleging illegal CEQA 'segmentation' — breaking the project into pieces approved piecemeal to avoid environmental review — and that the county overrode its planning commission before it could decide. It is a second, separate CEQA challenge alongside the City of Imperial's suit, and reportedly the Sierra Club's first legal action against the county since 1999.",
+    "sources": [
+      {
+        "url": "https://www.kpbs.org/news/environment/2026/05/27/sierra-club-sues-imperial-county-over-approval-of-massive-data-center-complex",
+        "title": "Sierra Club sues Imperial County over data center approval"
+      },
+      {
+        "url": "https://www.thedesertreview.com/news/local/sierra-club-seeks-to-join-lawsuit-challenging-imperial-county-data-center-approval/article_af478516-f23e-4fe9-945d-2374a79e9d72.html",
+        "title": "Sierra Club seeks to challenge Imperial County data center approval"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "court",
+    "objective": null,
+    "community_outcome": "pending",
+    "issue_category": [
+      "environmental",
+      "water",
+      "grid_energy",
+      "transparency"
+    ],
+    "flags": null
+  },
+  {
+    "id": "imperial-irrigation-district-election-data-center-2026-06-02",
+    "jurisdiction": "Imperial Irrigation District (voters reject data-center-backed board candidate), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 32.792,
+    "lng": -115.5631,
+    "date": "2026-06-02",
+    "action_type": [
+      "utility_regulation",
+      "other_opposition"
+    ],
+    "status": "defeated",
+    "scope": "local",
+    "company": "Imperial Valley Computer Manufacturing LLC (IVCM)",
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": null,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "In the June 2, 2026 primary (results reported June 5), Imperial Irrigation District Division 1 incumbent Alex Cardenas (~1,700 votes) defeated Carlos Duran (~900), a former IVCM spokesperson whom the data center developer backed with ~$30,000. IID holds final say over any energy (and potentially water) contracts for data centers — as of spring 2026 the IVCM project still had no IID contracts — so opponents framed the result as voters 'rejecting special interests.' Three of five IID seats were up in 2026; IID Chair Karin Eugenio, an IVCM critic, was re-elected board leader.",
+    "sources": [
+      {
+        "url": "https://www.kpbs.org/news/politics/2026/06/05/imperial-county-voters-reject-data-center-backed-candidate-for-water-and-power-utility",
+        "title": "Imperial County voters reject data-center-backed IID candidate"
+      },
+      {
+        "url": "https://www.kpbs.org/news/environment/2026/04/16/imperial-valley-utility-could-decide-fate-of-massive-data-center-following-key-vote",
+        "title": "Imperial Valley utility could decide fate of massive data center"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "voters",
+    "objective": null,
+    "community_outcome": "win",
+    "issue_category": [
+      "grid_energy",
+      "water",
+      "ratepayer",
+      "transparency"
+    ],
+    "flags": null
+  },
+  {
+    "id": "ctr-american-data-power-salton-sea-2026-01-30",
+    "jurisdiction": "Imperial County / Salton Sea Lithium Valley (CTR geothermal-powered data center complex), CA",
+    "state": "CA",
+    "county": "Imperial County",
+    "county_lean": "D",
+    "lat": 33.203,
+    "lng": -115.584,
+    "date": "2026-01-30",
+    "action_type": [
+      "other_opposition"
+    ],
+    "status": "active",
+    "scope": "local",
+    "company": "Controlled Thermal Resources (CTR) / American Data Power",
+    "hyperscaler": null,
+    "project_name": "Hell's Kitchen geothermal energy complex",
+    "investment_million_usd": null,
+    "megawatts": 600,
+    "acreage": 4000,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "On Jan 30, 2026, Salton Sea lithium developer Controlled Thermal Resources (CTR) launched a subsidiary, American Data Power, to build a 600 MW geothermal energy complex on ~4,000 acres ('Hell's Kitchen') to power data centers/AI off-grid, with plans for six new geothermal plants (Stage One 50 MW near construction readiness). It is the clearest case of Imperial County's lithium boom pivoting to data center power. Environmental-justice advocates warn it could be a 'gateway' for more data centers that won't bring lithium-industry-level jobs, and tribal consultation with the Torres Martinez Desert Cahuilla Indians has been described as 'uneven at best.'",
+    "sources": [
+      {
+        "url": "https://calexicochronicle.com/2026/01/30/ctr-launches-american-data-power-in-lithium-valley/",
+        "title": "CTR launches American Data Power in Lithium Valley"
+      },
+      {
+        "url": "https://www.kpbs.org/news/environment/2026/02/12/what-one-companys-shift-towards-data-centers-says-about-imperial-countys-lithium-industry",
+        "title": "What one company's shift toward data centers says about Imperial County's lithium industry"
+      },
+      {
+        "url": "https://undark.org/2026/02/11/clean-energy-salton-sea/",
+        "title": "Clean energy and the Salton Sea (Undark)"
+      }
+    ],
+    "data_source": "web_scrape_2026-06",
+    "last_updated": "2026-06-08",
+    "authority_level": "developer",
+    "objective": null,
+    "community_outcome": "pending",
+    "issue_category": [
+      "environmental",
+      "water",
+      "community_impact",
+      "grid_energy"
     ],
     "flags": null
   }

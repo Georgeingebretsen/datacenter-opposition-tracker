@@ -32337,6 +32337,18 @@
       {
         "url": "url",
         "title": "title"
+      },
+      {
+        "url": "https://www.ksl.com/article/51507699/iron-county-planning-commission-approves-conditional-use-permit-for-antelope-data-campus",
+        "title": "Iron County Planning Commission approves Antelope CUP"
+      },
+      {
+        "url": "https://www.sltrib.com/news/2026/06/06/iron-county-planning-commission/",
+        "title": "Iron County Planning Commission approves data center"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/640-acre-data-center-could-be-built-in-iron-county-utah/",
+        "title": "640-acre data center could be built in Iron County, Utah"
       }
     ],
     "company": "Pronghorn Development",
@@ -32362,8 +32374,8 @@
     ],
     "date": "2026-06-04",
     "status": "approved",
-    "last_updated": "2026-06-06",
-    "summary": "In Iron County, Utah, 350+ residents packed Festival Hall on March 5, 2026 for a hearing on the Antelope Data Center proposed for 640 acres on Antelope Springs Road, 15 miles NW of Cedar City. Of 15+ speakers over 2 hours, only one supported the project. Concerns: water (2.6M gallon initial fill), utility prices, farmland loss, noise, pollution. On June 4-5, 2026, the Iron County Planning Commission unanimously approved a conditional-use permit for the Antelope Data Center (developer Pronghorn Development LLC) — 640 acres, ~5 buildings and 300 MW — which proceeded despite the County Commission’s new 180-day moratorium because its application was already deemed \"complete.\" No hyperscaler is named.",
+    "last_updated": "2026-06-08",
+    "summary": "In Iron County, Utah, 350+ residents packed Festival Hall on March 5, 2026 for a hearing on the Antelope Data Center proposed for 640 acres on Antelope Springs Road, 15 miles NW of Cedar City. Of 15+ speakers over 2 hours, only one supported the project. Concerns: water (2.6M gallon initial fill), utility prices, farmland loss, noise, pollution. On June 4-5, 2026, the Iron County Planning Commission unanimously approved a conditional-use permit for the Antelope Data Center (developer Pronghorn Development LLC) — 640 acres, ~5 buildings and 300 MW — which proceeded despite the County Commission’s new 180-day moratorium because its application was already deemed \"complete.\" No hyperscaler is named. The June 4 CUP approval was unanimous and carries 62 conditions (water rights, wastewater, roads, wildlife, noise, lighting, cultural surveys, site restoration) — more than every prior Iron County project combined. The Pronghorn 'Antelope' campus is 640 acres, up to five buildings totaling ~6.75 million sq ft with an on-site natural-gas plant up to 1.5 GW, phased over 8-10 years. It was exempt from the county's new 180-day moratorium because its application was deemed complete beforehand. Residents held up 'appeal' signs, but no formal appeal had been filed as of June 7.",
     "issue_category": [
       "environmental",
       "farmland",
@@ -46319,7 +46331,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": 900,
-    "summary": "On April 14, 2026, the NAACP — represented by the Southern Environmental Law Center and Earthjustice — filed a federal Clean Air Act lawsuit against xAI and subsidiary MZX Tech LLC in the U.S. District Court for the Northern District of Mississippi. The complaint seeks statutory penalties of up to $124,400 per day for operating 27 unpermitted natural gas turbines at the Southaven facility, the largest industrial NOx source in the 11-county Memphis metro. This is a separate action from the February 2026 notice of intent and the April 9 state permit appeal. UPDATE 2026-04-21: Filing details confirmed — Earthjustice and SELC serving as counsel. Plaintiffs allege 1,700+ tons/yr NOx, 180 tons PM2.5, 500 tons CO, and 19 tons formaldehyde emissions. Suit seeks BACT requirements and per-day penalties. As of early June, the DOJ has signaled it may intervene on xAI's side, citing the U.S.'s interest in Clean Air Act interpretation and AI promotion; its deadline to decide is June 15. No ruling on the NAACP/SELC/Earthjustice emergency injunction motion had issued as of June 7.",
+    "summary": "On April 14, 2026, the NAACP — represented by the Southern Environmental Law Center and Earthjustice — filed a federal Clean Air Act lawsuit against xAI and subsidiary MZX Tech LLC in the U.S. District Court for the Northern District of Mississippi. The complaint seeks statutory penalties of up to $124,400 per day for operating 27 unpermitted natural gas turbines at the Southaven facility, the largest industrial NOx source in the 11-county Memphis metro. This is a separate action from the February 2026 notice of intent and the April 9 state permit appeal. UPDATE 2026-04-21: Filing details confirmed — Earthjustice and SELC serving as counsel. Plaintiffs allege 1,700+ tons/yr NOx, 180 tons PM2.5, 500 tons CO, and 19 tons formaldehyde emissions. Suit seeks BACT requirements and per-day penalties. As of early June, the DOJ has signaled it may intervene on xAI's side, citing the U.S.'s interest in Clean Air Act interpretation and AI promotion; its deadline to decide is June 15. No ruling on the NAACP/SELC/Earthjustice emergency injunction motion had issued as of June 7. The court has set an August 2026 hearing on both the NAACP's preliminary-injunction motion and xAI's motion to dismiss — so no ruling before late summer. The alleged count of unpermitted gas turbines grew from 33 (mid-April) to 46 (May). The DOJ has signaled it may intervene on xAI's side (citing the U.S. interest in AI promotion) with a June 15 deadline to decide.",
     "sources": [
       "https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant",
       "https://www.selc.org/press-release/civil-rights-group-sues-xai-for-illegal-pollution-from-data-center-power-plant/",
@@ -46333,10 +46345,18 @@
       {
         "url": "https://earthjustice.org/press/2026/naacp-asks-court-for-emergency-action-to-stop-illegal-air-pollution-from-xais-data-center-power-plant",
         "title": "NAACP asks court for emergency action on xAI pollution"
+      },
+      {
+        "url": "https://mississippitoday.org/2026/05/25/elon-musk-xai-dater-center-mississippi/",
+        "title": "DOJ may intervene in lawsuit over xAI turbines in Mississippi"
+      },
+      {
+        "url": "https://www.esgdive.com/news/doj-may-intervene-in-naacp-lawsuit-over-xais-data-center-gas-turbines/820607/",
+        "title": "DOJ may intervene in NAACP lawsuit over xAI gas turbines"
       }
     ],
     "data_source": "news",
-    "last_updated": "2026-06-07",
+    "last_updated": "2026-06-08",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -48270,7 +48290,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On April 15, 2026 the Louisiana Public Service Commission voted 4-1 to expedite Entergy's application for seven new natural gas power plants to power Meta's second Louisiana data center (Project Everest), bypassing standard competitive bidding and removing administrative law judge review. Combined with three plants already approved for Meta's Hyperion facility in Richland Parish, the total combined output approaches 7.5 GW. Final vote on the project is scheduled for November 18, 2026. Advocacy groups raised concerns about transparency and ratepayer cost-shifting.",
+    "summary": "On April 15, 2026 the Louisiana Public Service Commission voted 4-1 to expedite Entergy's application for seven new natural gas power plants to power Meta's second Louisiana data center (Project Everest), bypassing standard competitive bidding and removing administrative law judge review. Combined with three plants already approved for Meta's Hyperion facility in Richland Parish, the total combined output approaches 7.5 GW. Final vote on the project is scheduled for November 18, 2026. Advocacy groups raised concerns about transparency and ratepayer cost-shifting. Earthjustice (for the Alliance for Affordable Energy and Union of Concerned Scientists) asked the LPSC to investigate Meta's financing — Meta shifted ~80% ownership of the campus to a Blue Owl Capital joint venture ('Beignet') the same day the LPSC approved Entergy's gas plants, potentially letting Meta exit in ~4 years while ratepayers carry 30-year plant costs; the LPSC declined to investigate (Feb 25). Separately, a Floodlight/Verite/Louisiana Illuminator investigation (May 21) found state Sen. Jay Morris co-sponsored enabling legislation and lobbied regulators while he and partners bought and sold land around the site and transferred acreage to Entergy for the gas plant. Morris denies wrongdoing.",
     "sources": [
       "https://www.kplctv.com/2026/04/15/louisiana-psc-aproves-fast-track-entergy-21b-proposal-tied-meta-data-center/",
       "https://www.wafb.com/2026/04/15/entergy-asks-public-service-commission-approve-new-energy-investments-power-richland-parish-meta-center/",
@@ -48280,10 +48300,22 @@
       "https://www.wrkf.org/2026-04-14/entergy-wants-to-fast-track-21b-meta-deal-as-psc-commissioner-advocates-sound-alarm",
       "https://san.com/cc/in-race-for-ai-data-centers-regulators-move-to-fast-track-louisiana-gas-plants/",
       "https://thelensnola.org/2026/04/03/meta-entergy-louisiana-power-plants-ai-data-centers-2/",
-      "https://louisianaradionetwork.com/2026/04/16/46165/"
+      "https://louisianaradionetwork.com/2026/04/16/46165/",
+      {
+        "url": "https://earthjustice.org/press/2026/louisiana-regulators-asked-to-investigate-shady-meta-financing-deal-that-could-leave-households-paying-for-tech-giants-electricity",
+        "title": "Louisiana regulators asked to investigate Meta financing deal"
+      },
+      {
+        "url": "https://veritenews.org/2026/05/21/jay-morris-meta-data-center/",
+        "title": "Sen. Jay Morris and the Meta data center (Verite)"
+      },
+      {
+        "url": "https://lailluminator.com/2026/05/21/morris-meta/",
+        "title": "Morris and Meta (Louisiana Illuminator)"
+      }
     ],
     "data_source": "web_scrape_2026-04",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-08",
     "scope": "statewide",
     "issue_category": [
       "grid_energy",
@@ -54169,7 +54201,7 @@
     "status": "approved",
     "company": "Stratos Project; Utah Military Installation Development Authority (MIDA); Kevin O'Leary (backer)",
     "hyperscaler": null,
-    "summary": "Box Elder County Commission unanimously approved the partnership with the Utah Military Installation Development Authority for the Stratos data center — 40,000-acre site with planned 9 GW gas-fired plant. Hundreds protested. Residents filed a referendum application May 6 needing >5,000 signatures to put the project to a November ballot vote. Mid-May 2026: The 'Box Elder Accountability Referendum' (BEAR) filed two referendum applications to overturn the May 4 commission approval. County Attorney has 20 days to review; if approved, BEAR gets 45 days to gather 5,422 signatures with sub-county thresholds. National coverage (CNN, WBUR). On June 1, 2026, Utah Senate President Stuart Adams sent Kevin O’Leary a letter demanding the Stratos project be cut 75% (to ~10,000 acres); O’Leary, after initially calling it “outrageous,” announced he would cut the footprint roughly in half (~20,000 acres removed). Separately, the Box Elder County attorney rejected the citizens’ referendum application; organizers plan to appeal. Scientists say the acreage compromise does little to address Great Salt Lake Basin impacts. Per June 4 project diagrams, the removal totals ~20,050 acres (19,430 near the Locomotive Springs Waterfowl Management Area + 620 near I-84), leaving one ~20,000-acre Hansel Valley parcel of which fewer than ~10,000 acres would be developed; power was revised from 9 GW to 7.5 GW (a 17% cut, far less than the ~50% acreage cut). Phase 1 is a 1 GW gas plant plus a 500 MW data center. A USU physicist who modeled up to a 12°F local nighttime temperature rise called the acreage cut \"performative\" since energy use drives the Great Salt Lake impact. In a June 4 letter to Senate President Stuart Adams, O'Leary agreed to remove 19,430 acres around Locomotive Springs (a Waterfowl Management Area) plus 620 acres elsewhere — cutting the project from ~40,000 to ~20,000 acres, with developable land held under 10,000 acres — after Adams demanded a 75% reduction and that excess water go to the Great Salt Lake. O'Leary admitted he 'screwed up' the rollout.",
+    "summary": "Box Elder County Commission unanimously approved the partnership with the Utah Military Installation Development Authority for the Stratos data center — 40,000-acre site with planned 9 GW gas-fired plant. Hundreds protested. Residents filed a referendum application May 6 needing >5,000 signatures to put the project to a November ballot vote. Mid-May 2026: The 'Box Elder Accountability Referendum' (BEAR) filed two referendum applications to overturn the May 4 commission approval. County Attorney has 20 days to review; if approved, BEAR gets 45 days to gather 5,422 signatures with sub-county thresholds. National coverage (CNN, WBUR). On June 1, 2026, Utah Senate President Stuart Adams sent Kevin O’Leary a letter demanding the Stratos project be cut 75% (to ~10,000 acres); O’Leary, after initially calling it “outrageous,” announced he would cut the footprint roughly in half (~20,000 acres removed). Separately, the Box Elder County attorney rejected the citizens’ referendum application; organizers plan to appeal. Scientists say the acreage compromise does little to address Great Salt Lake Basin impacts. Per June 4 project diagrams, the removal totals ~20,050 acres (19,430 near the Locomotive Springs Waterfowl Management Area + 620 near I-84), leaving one ~20,000-acre Hansel Valley parcel of which fewer than ~10,000 acres would be developed; power was revised from 9 GW to 7.5 GW (a 17% cut, far less than the ~50% acreage cut). Phase 1 is a 1 GW gas plant plus a 500 MW data center. A USU physicist who modeled up to a 12°F local nighttime temperature rise called the acreage cut \"performative\" since energy use drives the Great Salt Lake impact. In a June 4 letter to Senate President Stuart Adams, O'Leary agreed to remove 19,430 acres around Locomotive Springs (a Waterfowl Management Area) plus 620 acres elsewhere — cutting the project from ~40,000 to ~20,000 acres, with developable land held under 10,000 acres — after Adams demanded a 75% reduction and that excess water go to the Great Salt Lake. O'Leary admitted he 'screwed up' the rollout. The fight has become the dominant national data center story (CNN, NBC News, CS Monitor, High Country News, Slate, Washington Examiner). On a national-media tour, O'Leary accused opposition groups Alliance for a Better Utah and Elevate Strategies of being 'proxies for the Chinese government' and demanded a forensic audit of their funding; both flatly denied it (Elevate's Gabi Finlayson: they'd be 'the worst operatives in the entire world'; Alliance says it is funded by Utah grassroots donors). O'Leary also committed to a public transparency website and to sending excess water to the Great Salt Lake, but USU physicist Robert Davies notes the ~9 GW energy load is unchanged by the acreage cut, so the core impact remains.",
     "sources": [
       {
         "url": "https://www.sltrib.com/news/2026/05/04/utah-data-center-final-vote-box/",
@@ -54210,9 +54242,17 @@
       {
         "url": "https://www.sltrib.com/news/2026/06/04/box-elder-county-data-center/",
         "title": "Box Elder County data center cut in half"
+      },
+      {
+        "url": "https://www.fox13now.com/news/local-news/box-elder-county/utah-data-center-investor-kevin-oleary-accuses-opposition-groups-of-being-funded-by-china",
+        "title": "O'Leary accuses opposition groups of being funded by China"
+      },
+      {
+        "url": "https://thehill.com/policy/technology/5910463-kevin-oleary-utah-data-center/",
+        "title": "The Hill: Kevin O’Leary Utah data center"
       }
     ],
-    "last_updated": "2026-06-07"
+    "last_updated": "2026-06-08"
   },
   {
     "id": "san-angelo-tx-data-center-zoning-2026-05-05",
@@ -54734,7 +54774,7 @@
     "status": "filed",
     "company": "QTS (Blackstone)",
     "hyperscaler": null,
-    "summary": "QTS petitioned the Virginia Supreme Court to overturn the Court of Appeals ruling (March 31, 2026) that voided rezoning approvals for the 2,139-acre, 22M sq ft PW Digital Gateway near Manassas Battlefield. Compass Datacenters dropped out April 28; Prince William County dropped its defense earlier. A three-justice writ panel will decide whether to hear the case. Opposition response deadline May 21. May 21, 2026: Opposition filing deadline passed. A three-justice writ panel is scheduled for late May/early June in Richmond (20-min QTS-only argument); whether the full Supreme Court grants review is discretionary with no set timeline. No decision in window.",
+    "summary": "QTS petitioned the Virginia Supreme Court to overturn the Court of Appeals ruling (March 31, 2026) that voided rezoning approvals for the 2,139-acre, 22M sq ft PW Digital Gateway near Manassas Battlefield. Compass Datacenters dropped out April 28; Prince William County dropped its defense earlier. A three-justice writ panel will decide whether to hear the case. Opposition response deadline May 21. May 21, 2026: Opposition filing deadline passed. A three-justice writ panel is scheduled for late May/early June in Richmond (20-min QTS-only argument); whether the full Supreme Court grants review is discretionary with no set timeline. No decision in window. A three-justice writ panel of the Virginia Supreme Court was set to hear short arguments on whether to take the appeal; no ruling yet. The ~2,100-acre project — billed as one of the world's largest data center campuses and abutting Manassas National Battlefield — remains halted under the March 31 Court of Appeals stay, drawing Washington Post coverage as a marquee test case for the nation's data center capital.",
     "sources": [
       {
         "url": "https://www.washingtontimes.com/news/2026/may/4/developer-asks-virginia-supreme-court-overturn-ruling-blocking-data/",
@@ -54749,7 +54789,7 @@
         "title": "Data center Virginia lawsuit Manassas"
       }
     ],
-    "last_updated": "2026-05-25"
+    "last_updated": "2026-06-08"
   },
   {
     "id": "campbell-county-va-by-right-elimination-2026-05-05",
@@ -61652,7 +61692,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On May 29, 2026, Gov. Spencer Cox issued Executive Order 2026-03 establishing a statewide framework requiring five state divisions — Air Quality, Drinking Water, Water Quality, Water Rights, and Wildlife Resources — to approve aspects of large data-center projects (including Stratos Phase 1) before construction, prioritizing protection of water/the Great Salt Lake, air quality, ratepayers, and wildlife. Cox conceded it \"could potentially delay the project,\" with air/water permitting \"at least a year away\"; opponents called it a \"PR stunt,\" and the Salt Lake Tribune reported Cox knew of the project months before acting.",
+    "summary": "On May 29, 2026, Gov. Spencer Cox issued Executive Order 2026-03 establishing a statewide framework requiring five state divisions — Air Quality, Drinking Water, Water Quality, Water Rights, and Wildlife Resources — to approve aspects of large data-center projects (including Stratos Phase 1) before construction, prioritizing protection of water/the Great Salt Lake, air quality, ratepayers, and wildlife. Cox conceded it \"could potentially delay the project,\" with air/water permitting \"at least a year away\"; opponents called it a \"PR stunt,\" and the Salt Lake Tribune reported Cox knew of the project months before acting. The order is designated Executive Order 2026-03. The Salt Lake Tribune reported (May 31) that emails show Cox knew about the proposed Box Elder data center months before acting, a credibility angle that gained traction. The EO is an executive framework, not legislation, and does not override MIDA's statutory preemption of county zoning.",
     "sources": [
       {
         "url": "https://www.deseret.com/utah/2026/05/29/utah-executive-order-data-center-gov-cox/",
@@ -61668,7 +61708,7 @@
       }
     ],
     "data_source": "web_scrape_2026-06",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-08",
     "authority_level": "governor",
     "objective": null,
     "community_outcome": "mixed",
@@ -61709,15 +61749,19 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On May 20, 2026, the Utah Legislature’s Natural Resources, Agriculture, and Environment Interim Committee voted (without GOP opposition, including Box Elder representatives) to study data-center impacts, on a motion by Rep. Doug Owens (D-Salt Lake County). The study focuses on the Stratos project, citing water use of ~1,900 acre-feet/year; no completion timeline was set.",
+    "summary": "On May 20, 2026, the Utah Legislature’s Natural Resources, Agriculture, and Environment Interim Committee voted (without GOP opposition, including Box Elder representatives) to study data-center impacts, on a motion by Rep. Doug Owens (D-Salt Lake County). The study focuses on the Stratos project, citing water use of ~1,900 acre-feet/year; no completion timeline was set. On May 27, the Natural Resources, Agriculture and Environment Interim Committee voted (at Rep. Doug Owens' request) to add data center impacts — wildlife, air, noise, water, and cooling technology — to its summer study agenda, informing the 2027 session. Speaker Mike Schultz endorsed Box Elder residents' right to vote on the project. No formal bill to amend the MIDA Act has emerged yet.",
     "sources": [
       {
         "url": "https://kutv.com/news/local/utah-lawmakers-vote-to-study-impacts-of-box-elder-county-data-center",
         "title": "Utah lawmakers vote to study impacts of Box Elder data center"
+      },
+      {
+        "url": "https://www.deseret.com/utah/2026/05/27/utah-lawmakers-to-study-impact-of-data-centers-on-wildlife-environment/",
+        "title": "Utah lawmakers to study data center impacts"
       }
     ],
     "data_source": "web_scrape_2026-06",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-08",
     "authority_level": "state_legislature",
     "objective": null,
     "community_outcome": "pending",
@@ -61759,7 +61803,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "The Box Elder Accountability Referendum (BEAR) filed two referendum applications on May 11, 2026 targeting the county’s Stratos-enabling Resolutions 26-11 and 26-12. County Attorney Stephen Hadfield rejected them ~May 28, ruling the resolutions were administrative (not legislative) and thus not subject to referendum. On June 3, 2026, BEAR filed an appeal/lawsuit in Utah First District Court (Brigham City) seeking to reverse the denial and place the question on the November 2026 ballot, relying on Baker v. Carlson (Utah Supreme Court, 2018). No hearing was scheduled. On June 3, BEAR filed an appeal in Utah's 1st District Court (Brigham City) challenging the county attorney's rejection of two referendum applications (Resolutions 26-11 and 26-12), arguing the attorney — who works for the commission — could not impartially deem the resolutions 'administrative' and non-referable, and that the county omitted material information in its impact statements.",
+    "summary": "The Box Elder Accountability Referendum (BEAR) filed two referendum applications on May 11, 2026 targeting the county’s Stratos-enabling Resolutions 26-11 and 26-12. County Attorney Stephen Hadfield rejected them ~May 28, ruling the resolutions were administrative (not legislative) and thus not subject to referendum. On June 3, 2026, BEAR filed an appeal/lawsuit in Utah First District Court (Brigham City) seeking to reverse the denial and place the question on the November 2026 ballot, relying on Baker v. Carlson (Utah Supreme Court, 2018). No hearing was scheduled. On June 3, BEAR filed an appeal in Utah's 1st District Court (Brigham City) challenging the county attorney's rejection of two referendum applications (Resolutions 26-11 and 26-12), arguing the attorney — who works for the commission — could not impartially deem the resolutions 'administrative' and non-referable, and that the county omitted material information in its impact statements. The appeal was filed in Utah's First District Court (Brigham City); the core dispute is whether Resolutions 26-11/26-12 are 'administrative' (the county's position, making them non-referable) or 'legislative.' BEAR seeks to put the Stratos agreement on the November 2026 ballot, and Utah House Speaker Mike Schultz publicly backed residents' right to vote ('the people of Box Elder County should be the ones that make this decision'). No hearing had been scheduled as of June 7.",
     "sources": [
       {
         "url": "https://www.cachevalleydaily.com/news/stratos-project-opponents-file-promised-referendum-appeal-with-utah-first-district-court/article_d89e1640-d5cb-4ad6-814a-b90a9fec4c11.html",
@@ -61776,10 +61820,14 @@
       {
         "url": "https://utahnewsdispatch.com/2026/06/04/stratos-data-center-referendum-group-appeal-to-a-judge/",
         "title": "Stratos referendum group appeals to a judge"
+      },
+      {
+        "url": "https://www.stopstratos.org/post/press-release-referendum-denied",
+        "title": "StopStratos: referendum denied (press release)"
       }
     ],
     "data_source": "web_scrape_2026-06",
-    "last_updated": "2026-06-07",
+    "last_updated": "2026-06-08",
     "authority_level": "court",
     "objective": null,
     "community_outcome": "pending",
@@ -61827,15 +61875,23 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Two water-rights applications tied to the Stratos data center were withdrawn after mass protests to the Utah Division of Water Rights. Bar H Ranch’s bid to transfer 1,900 acre-feet/year (a 1904-vintage right from Salt Wells Spring near the Great Salt Lake) from irrigation to industrial use drew ~4,000 protests and was withdrawn ~May 7; a second application (Murray Hollow L.C.) drew ~700 protests and was withdrawn May 28. Bar H said it plans to refile, so the project still lacks secured water rights.",
+    "summary": "Two water-rights applications tied to the Stratos data center were withdrawn after mass protests to the Utah Division of Water Rights. Bar H Ranch’s bid to transfer 1,900 acre-feet/year (a 1904-vintage right from Salt Wells Spring near the Great Salt Lake) from irrigation to industrial use drew ~4,000 protests and was withdrawn ~May 7; a second application (Murray Hollow L.C.) drew ~700 protests and was withdrawn May 28. Bar H said it plans to refile, so the project still lacks secured water rights. There were two separate water-rights applications — Bar H Ranch (withdrawn ~May 5-7 after 4,000+ protests) and Murray Hollow L.C. (withdrawn May 22, cancellation confirmed by State Engineer Teresa Wilhelmsen May 27). Bar H Ranch has said it will refile, making this a temporary procedural win rather than a permanent kill.",
     "sources": [
       {
         "url": "https://www.upr.org/utah-news/2026-05-28/box-elder-data-center-water-rights-referendum-iron-county",
         "title": "Box Elder data center water rights, referendum, Iron County"
+      },
+      {
+        "url": "https://www.abc4.com/news/northern-utah/stratos-project-developers-will-refile-water-rights/",
+        "title": "Stratos developers will refile water rights"
+      },
+      {
+        "url": "https://greatsaltlakenews.org/latest-news/salt-lake-tribune/water-rights-request-for-massive-box-elder-data-center-withdrawn-after-thousands-of-utahns-file-protests",
+        "title": "Water-rights request withdrawn after thousands of protests"
       }
     ],
     "data_source": "web_scrape_2026-06",
-    "last_updated": "2026-06-06",
+    "last_updated": "2026-06-08",
     "authority_level": "advocacy_org",
     "objective": null,
     "community_outcome": "win",
@@ -62134,7 +62190,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "On June 4, 2026, Alliance for a Better Utah and five anonymous Box Elder County residents filed a civil-rights suit against the Military Installation Development Authority (MIDA), the Box Elder County Commission, and Sens. Stuart Adams and Jerry Stevenson. It argues MIDA's framework makes local consent 'irrevocable,' denying residents any process; challenges the constitutionality of parts of the MIDA Act; and alleges Adams violated fiduciary/constitutional duties by accepting $135,000 in PAC money tied to MIDA. The suit seeks to void the Stratos project-area agreement. (Distinct from the BEAR referendum appeal.)",
+    "summary": "On June 4, 2026, Alliance for a Better Utah and five anonymous Box Elder County residents filed a civil-rights suit against the Military Installation Development Authority (MIDA), the Box Elder County Commission, and Sens. Stuart Adams and Jerry Stevenson. It argues MIDA's framework makes local consent 'irrevocable,' denying residents any process; challenges the constitutionality of parts of the MIDA Act; and alleges Adams violated fiduciary/constitutional duties by accepting $135,000 in PAC money tied to MIDA. The suit seeks to void the Stratos project-area agreement. (Distinct from the BEAR referendum appeal.) The suit was filed in Utah's Third District Court and goes beyond Stratos: it challenges MIDA's underlying code, seeks to remove Sens. Adams and Stevenson from the MIDA board as unconstitutional multiple-office-holders, and asks the court to make Adams return $135,000 in PAC contributions tied to MIDA-aligned interests. It drove NBC News national coverage.",
     "sources": [
       {
         "url": "https://www.sltrib.com/news/2026/06/04/lawsuit-mida-box-elder-leaders/",
@@ -62147,10 +62203,18 @@
       {
         "url": "https://www.nbcnews.com/tech/tech-news/utah-residents-sue-officials-kevin-oleary-data-center-plan-rcna348720",
         "title": "Utah residents sue officials over O'Leary data center plan"
+      },
+      {
+        "url": "https://www.fox13now.com/news/local-news/box-elder-county/lawsuit-claims-mida-and-box-elder-county-violated-rights-in-data-center-plan",
+        "title": "Lawsuit claims MIDA and Box Elder County violated rights"
+      },
+      {
+        "url": "https://kutv.com/news/local/non-profit-sues-mida-utah-lawmakers-for-unconstitutional-box-elder-data-center-plans",
+        "title": "Nonprofit sues MIDA, Utah lawmakers over Box Elder data center"
       }
     ],
     "data_source": "web_scrape_2026-06",
-    "last_updated": "2026-06-07",
+    "last_updated": "2026-06-08",
     "authority_level": "court",
     "objective": null,
     "community_outcome": "pending",

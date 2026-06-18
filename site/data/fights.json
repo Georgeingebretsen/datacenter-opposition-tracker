@@ -1324,7 +1324,7 @@
       "zoning_restriction",
       "lawsuit"
     ],
-    "date": "2024-12-01",
+    "date": "2025-12-16",
     "status": "approved",
     "company": "Beale Infrastructure",
     "hyperscaler": null,
@@ -1371,7 +1371,7 @@
     "scope": "local",
     "county_lean": "D",
     "data_source": "agent_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "issue_category": [
       "community_impact",
       "transparency",
@@ -1624,7 +1624,7 @@
       "public_comment",
       "zoning_restriction"
     ],
-    "date": "2025-01-21",
+    "date": "2026-01-09",
     "status": "approved",
     "company": "OpenAI / SoftBank (SB Energy)",
     "hyperscaler": "OpenAI",
@@ -1662,7 +1662,7 @@
       "https://pv-magazine-usa.com/2026/01/12/sb-energy-secures-1-billion-from-openai-and-softbank-for-stargate-datacenter-expansion/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "energy_mw": 1200,
@@ -3152,7 +3152,7 @@
       "moratorium"
     ],
     "date": "2025-06-02",
-    "status": "cancelled",
+    "status": "relocated",
     "company": "Western Hospitality Partners",
     "hyperscaler": null,
     "project_name": "Project Lincoln",
@@ -3178,7 +3178,7 @@
       "https://www.datacenterdynamics.com/en/news/planned-data-center-project-in-kentuckys-oldham-county-relocated-and-downsized-amid-backlash/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "opposition_facebook_members": 4300,
@@ -4064,7 +4064,7 @@
       "moratorium",
       "lawsuit"
     ],
-    "date": "2026-02-01",
+    "date": "2026-05-19",
     "status": "passed",
     "company": "CRG (Clayco) / Spark Innovations",
     "opposition_groups": [
@@ -4124,7 +4124,7 @@
       }
     ],
     "data_source": "news",
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -4141,7 +4141,7 @@
     "community_outcome": "win",
     "petition_url": "https://www.change.org/p/stop-the-hazardous-data-center-in-st-charles-protect-our-water-health-and-community",
     "petition_signatures": 8029,
-    "hyperscaler": "Google",
+    "hyperscaler": null,
     "project_name": "Project Cumulus",
     "acreage": 440,
     "investment_million_usd": 1000,
@@ -4149,7 +4149,14 @@
     "jobs_promised": 250,
     "opposition_facebook": "https://www.facebook.com/GreatRiversHabitatAlliance/",
     "opposition_twitter": "https://twitter.com/GRHAmo",
-    "opposition_website": "https://www.nofestusdatacenter.org/"
+    "opposition_website": "https://www.nofestusdatacenter.org/",
+    "flags": [
+      {
+        "type": "attribution_uncertain",
+        "note": "Validation pass cleared hyperscaler 'Google': no primary source explicitly names the tenant for this project.",
+        "added": "2026-06-18"
+      }
+    ]
   },
   {
     "id": "augusta-charter-township-mi-2025-08-01",
@@ -7031,7 +7038,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": null,
-    "summary": "Twiggs County commissioners unanimously approved Eagle Rock Partners' $2B data center rezoning of ~300 acres (Weyerhaeuser-owned land) on September 18, 2025, despite hundreds of residents' objections. Residents filed a lawsuit in Twiggs County Superior Court alleging procedural violations: the notice sign was placed on the wrong property with an incorrect hearing date, and the commission did not acquire a required impact report before voting. The county's December response denied the allegations. As of February 2026, a judge is reviewing the case and is expected to issue a written decision.",
+    "summary": "Twiggs County commissioners unanimously approved Eagle Rock Partners' $2B data center rezoning of ~300 acres (Weyerhaeuser-owned land) on September 18, 2025, despite hundreds of residents' objections. Residents filed a lawsuit in Twiggs County Superior Court alleging procedural violations: the notice sign was placed on the wrong property with an incorrect hearing date, and the commission did not acquire a required impact report before voting. The county's December response denied the allegations. The trial court dismissed the rezoning lawsuit in February 2026; residents are appealing (as of April 2026).",
     "sources": [
       "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-data-center-city-sized-appetite-for-power",
       "https://www.13wmaz.com/article/news/local/twiggs-county-approves-5-billion-data-center-despite-large-opposition-turnout/93-2e3d70a4-abb3-4fe3-8781-96b47c76d33b",
@@ -7045,7 +7052,7 @@
       "https://www.govtech.com/products/residents-sue-georgia-county-over-data-center-plans"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-06-18",
     "opposition_facebook_members": 785,
     "scope": "local",
     "county_lean": "R",
@@ -9918,7 +9925,7 @@
       "public_comment",
       "zoning_restriction"
     ],
-    "date": "2025-11-01",
+    "date": "2026-05-06",
     "status": "approved",
     "company": "Takanock LLC",
     "hyperscaler": null,
@@ -9940,7 +9947,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-project-baccara-on-the-southern-border-of-surprise-az-in-maricopa-county",
     "petition_signatures": 5000,
-    "summary": "Takanock LLC (DigitalBridge-backed) Project Baccara: The Maricopa County Planning & Zoning Commission unanimously approved a military Special Use Permit on April 9, 2026 for the 2 million sq ft data center campus with a 700 MW gas plant, despite 225 opposition letters submitted to the commission. The 'Stop Project Baccara' coalition has collected approximately 5,000 petition signatures. The Board of Supervisors vote on the SUP is still pending and community groups continue to organize against it.",
+    "summary": "Takanock LLC (DigitalBridge-backed) Project Baccara: The Maricopa County Planning & Zoning Commission unanimously approved a military Special Use Permit on April 9, 2026 for the 2 million sq ft data center campus with a 700 MW gas plant, despite 225 opposition letters submitted to the commission. The 'Stop Project Baccara' coalition has collected approximately 5,000 petition signatures. On May 6, 2026 the Maricopa County Board of Supervisors approved Project Baccara’s military compatibility permit 4-1 (Steve Gallardo the lone no vote), with final EPA/county air-quality and military approvals still outstanding (development expected ~2027).",
     "sources": [
       "https://ktar.com/arizona-business/valley-data-center-scrutiny/5812647/",
       "https://www.abc15.com/news/region-west-valley/community-concerned-over-major-new-data-center-project",
@@ -9948,7 +9955,7 @@
       "https://www.azcentral.com/story/news/local/arizona/2026/04/09/maricopa-county-planning-zoning-approves-project-baccara-data-center/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -11366,7 +11373,7 @@
     "action_type": [
       "utility_regulation"
     ],
-    "date": "2025-12-01",
+    "date": "2026-02-25",
     "status": "approved",
     "company": "Fermi America",
     "hyperscaler": null,
@@ -11401,7 +11408,7 @@
       "https://www.datacenterdynamics.com/en/news/pacifico-secures-765gw-air-permit-for-gw-ranch-project-in-west-texas/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "statewide",
     "county_lean": "R",
     "energy_mw": 7650,
@@ -12555,7 +12562,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-project-sail-in-coweta-county",
     "petition_signatures": 8000,
-    "summary": "Coweta County's moratorium on data center applications expired December 17, 2025, and the Board adopted a data center ordinance on December 16. On April 10-11, 2026, Coweta County commissioners voted 3-2 to rezone 829 acres from Rural Conservation to Industrial for Prologis's $17B 'Project Sail' data center campus (nine buildings, two substations, 900MW). It took 15 months, a prolonged moratorium, and a zoning code revamp. Citizens for Rural Coweta collected 8,000+ petition signatures. Opposition may pursue legal action through attorney Robert Fricks. UPDATE 2026-04-21: Citizens for Rural Coweta have NOT yet filed a lawsuit but have signaled appeal grounds. Opposition petition exceeds 8,000 signatures.",
+    "summary": "Coweta County's moratorium on data center applications expired December 17, 2025, and the Board adopted a data center ordinance on December 16. On April 10-11, 2026, Coweta County commissioners voted 3-2 to rezone 829 acres from Rural Conservation to Industrial for Prologis's $17B 'Project Sail' data center campus (nine buildings, two substations, 900MW). It took 15 months, a prolonged moratorium, and a zoning code revamp. Citizens for Rural Coweta collected 8,000+ petition signatures. Opposition may pursue legal action through attorney Robert Fricks. UPDATE 2026-05: Citizens for a Rural Coweta (attorney Robert Fricks; plaintiff incl. Steve Swope) filed a petition in Coweta County Superior Court on May 5, 2026 to void the ~829-acre rezoning. Opposition petition exceeds 8,000 signatures.",
     "sources": [
       "https://www.gpb.org/news/2025/10/22/wave-of-data-center-ordinances-sweep-through-ga-counties-how-strict-are-they",
       "https://www.datacenterdynamics.com/en/news/project-sail-data-center-newnan-atlanta-georgia/",
@@ -12571,7 +12578,7 @@
       "https://www.desmog.com/2026/04/07/how-data-center-developers-staked-their-claim-in-rural-georgia/"
     ],
     "data_source": "bryce",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "opposition_facebook_members": 4500,
     "county_lean": "R",
@@ -13094,7 +13101,7 @@
       "Sierra Club (New Jersey Chapter)",
       "New Jersey Environmental Justice Alliance (NJEJA)"
     ],
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "company": "Nebius / DataOne / Microsoft",
     "megawatts": 350,
     "building_sq_ft": 2400000,
@@ -13127,6 +13134,11 @@
         "type": "figure_unverified",
         "note": "investment_million_usd of 17400 reflects the total Nebius-Microsoft contract value, not Vineland data center capital expenditure",
         "added": "2026-04-21"
+      },
+      {
+        "type": "figure_unverified",
+        "note": "Validation: the $17.4B investment figure appears to conflate a broader Microsoft cloud investment; not verified as the cost of this Vineland facility specifically.",
+        "added": "2026-06-18"
       }
     ]
   },
@@ -13264,7 +13276,7 @@
     "opposition_twitter": null,
     "petition_url": "https://www.change.org/p/stop-the-massive-data-center-in-van-buren-township-michigan",
     "petition_signatures": 1604,
-    "summary": "Project Cannoli is a Google hyperscale data center campus proposed near I-94 and Haggerty Road in Van Buren Township (Wayne County), MI, requiring 1 GW of power. Google was confirmed as the company behind it in March 2026. Will use 2-3.6 million gallons/day of water purchased from the township. Van Buren Township Planning Commission voted 5-1 on Feb 11, 2026 to approve site plans; matter forwarded to Township Board of Trustees. Google committed to serving its operations with 2.7 GW of NEW resources (solar, advanced storage, demand flexibility) and explicitly said it will NOT power the facility with nuclear or natural gas. Google will put $10M into a fund for residential ratepayer relief: home weatherization, household energy efficiency, and energy workforce development. Google and DTE committed to a contested case hearing on the deal.",
+    "summary": "Project Cannoli is a Google hyperscale data center campus proposed near I-94 and Haggerty Road in Van Buren Township (Wayne County), MI, requiring 1 GW of power. Google was confirmed as the company behind it in March 2026. Will use 2-3.6 million gallons/day of water purchased from the township. Van Buren Township Planning Commission voted 5-2 on Feb 11, 2026 to approve site plans; matter forwarded to Township Board of Trustees. Google committed to serving its operations with 2.7 GW of NEW resources (solar, advanced storage, demand flexibility) and explicitly said it will NOT power the facility with nuclear or natural gas. Google will put $10M into a fund for residential ratepayer relief: home weatherization, household energy efficiency, and energy workforce development. Google and DTE committed to a contested case hearing on the deal.",
     "sources": [
       "https://eu.detroitnews.com/story/news/local/michigan/2026/03/17/google-weighs-joining-van-buren-township-data-center-project-dte-energy/89187228007/",
       "https://www.cbsnews.com/detroit/news/google-van-buren-township-data-center-plan/",
@@ -13274,7 +13286,7 @@
       "https://www.detroitnews.com/story/news/local/wayne-county/2026/02/28/van-buren-twp-approves-step-for-massive-data-center/88862741007/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "D",
     "water_gallons_per_day": 3600000,
@@ -15595,7 +15607,7 @@
       "public_comment"
     ],
     "status": "approved",
-    "date": "2026-01-14",
+    "date": "2026-01-22",
     "summary": "Despite vocal opposition from dozens of residents, Spalding County Commissioners unanimously approved a $3.9 billion, 5 million sq ft data center complex by Wallace Jackson LLC spanning 190 acres along Interstate 75, consisting of ten separate buildings (roughly three times the size of Lenox Square Mall). The vote took place on January 22, 2026. Officials claimed the project will lower resident tax burdens without leaving taxpayers responsible for development costs. Residents objected to the plan citing environmental pollution concerns and loss of generational agricultural land. Full build-out could be reached by 2035. Final vote held January 23, 2026.",
     "sources": [
       "https://www.fox5atlanta.com/news/spalding-county-data-center-vote",
@@ -15605,7 +15617,7 @@
     "opposition_groups": [
       "Spalding County residents"
     ],
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "company": "Wallace Jackson LLC",
     "investment_million_usd": 3900,
     "project_name": "Wallace Jackson DC Campus",
@@ -15692,7 +15704,7 @@
     "id": "sand-springs-ok-2026-01-15",
     "jurisdiction": "Sand Springs",
     "state": "OK",
-    "county": "Tulsa County",
+    "county": "Osage County",
     "lat": 36.1079,
     "lng": -96.115,
     "action_type": [
@@ -15733,7 +15745,7 @@
       "https://krmg.com/2026/03/26/lawsuit-filed-over-proposed-google-data-center-site-near-sand-springs/"
     ],
     "data_source": "news",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -17597,7 +17609,7 @@
     "action_type": [
       "moratorium"
     ],
-    "date": "2026-02-01",
+    "date": "2026-03-03",
     "status": "passed",
     "company": "Thor Equities",
     "hyperscaler": null,
@@ -17630,7 +17642,7 @@
       "https://wysu.org/ohio-news/2026-03-04/urbana-passes-moratorium-on-new-data-centers-leaving-1b-proposal-in-limbo"
     ],
     "data_source": "news",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "investment_usd": 1000000000,
@@ -19382,7 +19394,7 @@
     "action_type": [
       "legislation"
     ],
-    "date": "2026-02-06",
+    "date": "2026-05-31",
     "status": "dead",
     "company": null,
     "hyperscaler": null,
@@ -19433,7 +19445,7 @@
       }
     ],
     "data_source": "dcw",
-    "last_updated": "2026-05-26",
+    "last_updated": "2026-06-18",
     "scope": "statewide",
     "bill_name": "SB 4016 / HB 5513 (POWER Act)",
     "county_lean": null,
@@ -20169,7 +20181,7 @@
     "date": "2026-02-11",
     "status": "passed",
     "company": null,
-    "hyperscaler": "Oracle",
+    "hyperscaler": null,
     "project_name": null,
     "investment_million_usd": null,
     "megawatts": null,
@@ -20193,7 +20205,7 @@
       "https://citydesk.org/2026/02/11/bernco-commission-oks-data-center-restrictions/"
     ],
     "data_source": "ssrn_moratorium_nation",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -20203,7 +20215,14 @@
     ],
     "authority_level": "county_commission",
     "objective": "Adopt data center zoning standards in Bernalillo County",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "flags": [
+      {
+        "type": "attribution_uncertain",
+        "note": "Validation pass cleared hyperscaler 'Oracle': no primary source explicitly names the tenant for this project.",
+        "added": "2026-06-18"
+      }
+    ]
   },
   {
     "id": "town-of-canton-nc-2026-02-11",
@@ -22527,7 +22546,7 @@
     "action_type": [
       "moratorium"
     ],
-    "date": "2026-02-26",
+    "date": "2026-02-24",
     "status": "defeated",
     "company": "Gemini Data Center SD LLC (Gemini Capital)",
     "hyperscaler": null,
@@ -22561,7 +22580,7 @@
       "https://www.sdnewswatch.org/gemini-data-center-power-usage-sioux-falls-sd-ai-electricty/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "opposition_facebook_members": null,
     "scope": "local",
     "county_lean": "R",
@@ -23140,7 +23159,7 @@
       "zoning_restriction"
     ],
     "date": "2026-02-25",
-    "status": "cancelled",
+    "status": "pending",
     "company": "Beltline Energy",
     "hyperscaler": null,
     "project_name": "Meramec Valley Technology Park",
@@ -23179,7 +23198,7 @@
       "https://www.firstalert4.com/2026/03/14/franklin-county-data-center-projects-return-planning-commission-tuesday-with-frustration-about-process/"
     ],
     "data_source": "dcw",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -24056,7 +24075,7 @@
     "action_type": [
       "project_withdrawal"
     ],
-    "date": "2025-04-01",
+    "date": "2026-02-27",
     "status": "cancelled",
     "company": "TigerDC (HG Tiger DC I LLC)",
     "project_name": "Project Spero",
@@ -24093,7 +24112,7 @@
       "https://www.wspa.com/news/top-stories/spartanburg-delays-vote-on-3-billion-data-center-proposal/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -25442,7 +25461,7 @@
       "public_comment"
     ],
     "date": "2026-03-04",
-    "status": "pending",
+    "status": "approved",
     "company": "Williams Brothers Development",
     "hyperscaler": null,
     "project_name": "Project Azalea",
@@ -25468,7 +25487,7 @@
       "https://www.wrdw.com/2026/01/14/another-data-center-proposed-this-time-mcduffie-county/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -27998,7 +28017,7 @@
       "https://www.wsbtv.com/news/local/newton-county/data-center-gas-station-store-moratoriums-extended-metro-atlanta-community/L3ABWDQG5FBIFBE4HZ6HOZZWME/"
     ],
     "company": null,
-    "hyperscaler": "Meta",
+    "hyperscaler": null,
     "id": "newton-county-moratorium-ga-2026-01-20",
     "jurisdiction": "Newton County (moratorium)",
     "state": "GA",
@@ -28011,7 +28030,7 @@
     "date": "2026-01-20",
     "status": "passed",
     "summary": "In Newton County, Georgia, Board of Commissioners unanimously enacted 30-day moratorium on data center applications. Existing ordinance limits DCs to Stanton Springs overlay, but development creeping into incorporated areas. Moratorium extended through April 8, 2026 (originally 30 days). Staff reviewing development ordinances. Data centers have crept into incorporated areas like Covington, Social Circle, and Porterdale through city annexation.",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "issue_category": [
       "zoning"
     ],
@@ -28028,6 +28047,11 @@
         "type": "attribution_uncertain",
         "note": "Meta's Stanton Springs campus is nearby but cited sources don't explicitly name Meta for the 2026 moratorium context",
         "added": "2026-04-21"
+      },
+      {
+        "type": "attribution_uncertain",
+        "note": "Validation pass cleared hyperscaler 'Meta': no primary source explicitly names the tenant for this project.",
+        "added": "2026-06-18"
       }
     ]
   },
@@ -34697,7 +34721,7 @@
       "National Parks Conservation Association",
       "Virginia Data Center Reform Coalition"
     ],
-    "summary": "Prince William County (VA) Digital Gateway rezoning was voided by court order in August 2025. On April 15, 2026, the Board of Supervisors unanimously voted NOT to appeal the ruling to the Virginia Supreme Court. The county spent over $2 million on outside counsel defending the rezoning. The decision finalizes the community win on the 2,139-acre Digital Gateway.",
+    "summary": "Prince William County (VA) Digital Gateway rezoning was voided by court order in August 2025. On April 15, 2026, the Board of Supervisors unanimously voted NOT to appeal the ruling to the Virginia Supreme Court. The county spent over $2 million on outside counsel defending the rezoning. While the county declined to appeal, developer QTS separately appealed to the Virginia Supreme Court, so the outcome on the 2,139-acre Digital Gateway is not yet final.",
     "sources": [
       "https://www.beankinney.com/data-center-infrastructure-under-siege-lessons-from-virginias-digital-gateway-decision/",
       "https://virginiaindependentnews.com/infrastructure/data-center-cancellations-pile-up-as-virginians-voice-opposition/",
@@ -34719,7 +34743,7 @@
       "https://www.pecva.org/region/regional-state-national-region/prince-william/massive-digital-gateway-data-center-project-has-been-halted/"
     ],
     "data_source": "news",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "D",
     "issue_category": [
@@ -34730,7 +34754,7 @@
     ],
     "authority_level": "court",
     "objective": "Challenge QTS Realty Trust / Compass rezoning in Prince William in court",
-    "community_outcome": "win"
+    "community_outcome": "pending"
   },
   {
     "id": "wa-governor-data-center-workgroup-2025",
@@ -40790,7 +40814,7 @@
     "action_type": [
       "legislation"
     ],
-    "date": "2026-02-19",
+    "date": "2026-04-07",
     "status": "passed",
     "company": "Vantage Data Centers / OpenAI / Oracle",
     "hyperscaler": "Oracle",
@@ -40819,7 +40843,7 @@
       "https://thehill.com/policy/technology/5822566-port-washington-data-center-vote/"
     ],
     "data_source": "web_research",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -44496,9 +44520,9 @@
       "other_opposition"
     ],
     "date": "2026-04-03",
-    "status": "defeated",
+    "status": "pending",
     "company": "Meta, Related Digital, Crusoe, Tallgrass Energy",
-    "hyperscaler": "Meta",
+    "hyperscaler": null,
     "project_name": null,
     "investment_million_usd": 2000,
     "megawatts": 2700,
@@ -44520,7 +44544,7 @@
       "https://capcity.news/community/city/2026/04/13/sixth-penny-tax-1200-acre-annexation-on-cheyenne-council-agenda/"
     ],
     "data_source": "news",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -44529,7 +44553,14 @@
     ],
     "authority_level": "city_council",
     "objective": "Manage data center boom through systematic annexation",
-    "community_outcome": "win"
+    "community_outcome": "win",
+    "flags": [
+      {
+        "type": "attribution_uncertain",
+        "note": "Validation pass cleared hyperscaler 'Meta': no primary source explicitly names the tenant for this project.",
+        "added": "2026-06-18"
+      }
+    ]
   },
   {
     "id": "bonner-missoula-mt-krambu-2026-03-27",
@@ -45952,7 +45983,7 @@
       "infrastructure_opposition",
       "utility_regulation"
     ],
-    "date": "2026-04-15",
+    "date": "2026-04-10",
     "status": "approved",
     "company": "Xcel Energy",
     "hyperscaler": null,
@@ -45980,7 +46011,7 @@
       "https://rockymountainvoice.com/2026/04/15/colorado-regulators-override-local-denial-to-advance-renewable-energy-grid/"
     ],
     "data_source": "agent_research",
-    "last_updated": "2026-04-21",
+    "last_updated": "2026-06-18",
     "scope": "statewide",
     "county_lean": "R",
     "issue_category": [
@@ -46304,7 +46335,14 @@
     "authority_level": "county_commission",
     "objective": "26-page zoning amendment covering crypto, AI, and hyperscaler data centers",
     "community_outcome": "pending",
-    "last_updated": "2026-04-21"
+    "last_updated": "2026-06-18",
+    "flags": [
+      {
+        "type": "url_unverifiable",
+        "note": "Validation: the single cited source could not be verified by automated fetch; the underlying action is corroborated via county/primary sources but the link should be replaced.",
+        "added": "2026-06-18"
+      }
+    ]
   },
   {
     "id": "rowan-county-nc-moratorium-2026-04-21",
@@ -50601,7 +50639,7 @@
       "utility_regulation"
     ],
     "date": "2025-10-31",
-    "status": "pending",
+    "status": "approved",
     "company": "DTE Energy / Green Chile Ventures (Oracle) / Related Digital",
     "hyperscaler": "Oracle",
     "project_name": "Stargate / The Barn",
@@ -50630,7 +50668,7 @@
       "https://www.tdworld.com/utility-business/news/55340640/michigan-regulators-approve-dte-data-center-power-contracts-with-added-ratepayer-protections"
     ],
     "data_source": "frontier_deep_dive_2026-04",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "statewide",
     "issue_category": [
       "ratepayer",
@@ -51760,7 +51798,7 @@
     "action_type": [
       "lawsuit"
     ],
-    "date": "2026-03-19",
+    "date": "2026-02-23",
     "status": "defeated",
     "company": "Vantage Data Centers / Metropolitan Milwaukee Association of Commerce",
     "hyperscaler": "Oracle",
@@ -51789,7 +51827,7 @@
       "https://www.ozaukeepress.com/content/motion-block-tif-referendum-gets-day-court"
     ],
     "data_source": "frontier_deep_dive_2026-04",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "local",
     "county_lean": "R",
     "issue_category": [
@@ -52306,7 +52344,7 @@
     "date": "2025-11-01",
     "status": "defeated",
     "company": null,
-    "hyperscaler": "Microsoft",
+    "hyperscaler": null,
     "project_name": "Fairwater Wisconsin (Mount Pleasant) (referenced)",
     "investment_million_usd": null,
     "megawatts": null,
@@ -52332,7 +52370,7 @@
       "https://wisconsinexaminer.com/2026/02/12/democratic-lawmakers-propose-data-center-moratorium/"
     ],
     "data_source": "frontier_deep_dive_2026-04",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "statewide",
     "issue_category": [
       "ratepayer",
@@ -52342,7 +52380,14 @@
     ],
     "authority_level": "state_legislature",
     "objective": "Create VLC rate class, ban cost-shift, require 70% renewable for sales-tax exemption",
-    "community_outcome": "loss"
+    "community_outcome": "loss",
+    "flags": [
+      {
+        "type": "attribution_uncertain",
+        "note": "Validation pass cleared hyperscaler 'Microsoft': no primary source explicitly names the tenant for this project.",
+        "added": "2026-06-18"
+      }
+    ]
   },
   {
     "id": "wisconsin-psc-we-energies-oak-creek-paris-gas-plants-wi-2024-08-15",
@@ -52355,7 +52400,7 @@
       "utility_regulation",
       "regulatory_action"
     ],
-    "date": "2024-08-15",
+    "date": "2025-05-22",
     "status": "approved",
     "company": "We Energies / Microsoft",
     "hyperscaler": "Microsoft",
@@ -52383,7 +52428,7 @@
       "https://www.canarymedia.com/articles/utilities/wepco-gas-data-centers"
     ],
     "data_source": "frontier_deep_dive_2026-04",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-06-18",
     "scope": "statewide",
     "issue_category": [
       "grid_energy",
@@ -58196,7 +58241,7 @@
         "title": "Big data center in SE Mesa passes first review"
       }
     ],
-    "last_updated": "2026-05-26"
+    "last_updated": "2026-06-18"
   },
   {
     "id": "pittsburg-county-ok-2026-05-14",

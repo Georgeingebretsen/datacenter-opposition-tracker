@@ -355,7 +355,7 @@ function populateFilters() {
     stateSelect.appendChild(opt);
   });
 
-  const years = [...new Set(fights.map(f => f.date.substring(0, 4)))].sort();
+  const years = [...new Set(fights.map(f => (f.date || '').substring(0, 4)).filter(Boolean))].sort();
   const yearSelect = document.getElementById('filter-year');
   years.forEach(y => {
     const opt = document.createElement('option');
@@ -392,7 +392,7 @@ function getFiltered() {
   const base = fights.filter(f => {
     if (state && f.state !== state) return false;
     if (type && !(f.action_type || []).includes(type)) return false;
-    if (year && !f.date.startsWith(year)) return false;
+    if (year && !(f.date || '').startsWith(year)) return false;
     if (lean && f.county_lean !== lean) return false;
     if (status && (f.community_outcome || 'pending') !== status) return false;
     if (issue && !(f.issue_category || []).includes(issue)) return false;

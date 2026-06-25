@@ -1,5 +1,5 @@
 [build]
-  command = "echo 'No build needed - static site'"
+  command = "node scripts/validate.js"
   publish = "site"
 
 [[headers]]

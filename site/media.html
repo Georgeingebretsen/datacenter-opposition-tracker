@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Coverage — Tracking American AI Data Center Buildout</title>
+  <meta name="description" content="Press and analysis citing datacentertracker.org's data on community responses to AI data center development.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1782500001" />
+</head>
+<body>
+  <header>
+    <div class="hero-image">
+      <img src="img/hero.jpg" alt="Aerial view of a massive data center construction site" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="header-inner">
+      <h1>Tracking American AI Data Center Buildout</h1>
+      <p class="hero-subtitle">Community Response and Legislative Action</p>
+      <p class="last-updated" id="last-updated"></p>
+    </div>
+  </header>
+  <nav class="site-nav">
+    <a href="index.html" class="nav-link">Data Center Responses</a>
+    <a href="legislation.html" class="nav-link">Legislation Tracker</a>
+    <a href="media.html" class="nav-link active">Media Coverage</a>
+  </nav>
+
+  <main>
+    <section class="media-coverage">
+      <div class="legislation-header">
+        <h2>Media Coverage</h2>
+        <p class="legislation-subtitle">Reporting and analysis that cites or features this project's data</p>
+      </div>
+
+      <div class="media-list">
+        <a class="media-card" href="https://www.barrons.com/articles/ai-data-centers-backlash-stocks-8d564b5f" target="_blank" rel="noopener">
+          <div class="media-card-top">
+            <span class="media-outlet">Barron's</span>
+            <span class="media-date">July 2, 2026</span>
+          </div>
+          <h3 class="media-headline">Americans Hate AI Data Centers. For Stocks, the Trouble Is Just Beginning.</h3>
+          <p class="media-byline">Joe Light</p>
+        </a>
+
+        <a class="media-card" href="https://kelvinmu.substack.com/p/the-growing-cost-of-intelligence" target="_blank" rel="noopener">
+          <div class="media-card-top">
+            <span class="media-outlet">Kelvin Mu</span>
+            <span class="media-date">June 4, 2026</span>
+          </div>
+          <h3 class="media-headline">The Growing Cost of Intelligence (Part I)</h3>
+          <p class="media-byline">Kelvin Mu</p>
+        </a>
+
+        <a class="media-card" href="https://www.softwareseni.com/710b-meets-main-street-the-scale-of-the-data-center-collision/" target="_blank" rel="noopener">
+          <div class="media-card-top">
+            <span class="media-outlet">SoftwareSeni</span>
+            <span class="media-date">May 18, 2026</span>
+          </div>
+          <h3 class="media-headline">$710B Meets Main Street — The Scale of the Data Center Collision</h3>
+          <p class="media-byline">James A. Wondrasek</p>
+        </a>
+      </div>
+
+      <p class="media-contact">Writing about data center development? The full dataset is free to use with attribution — see the license below, or reach us at <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a>.</p>
+    </section>
+  </main>
+
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <h2>About This Project</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Contributors</h3>
+          <p>Built by <a href="mailto:ca1004@berkeley.edu">Cam Acosta</a> and <a href="https://georgeing.me" target="_blank">George Ingebretsen</a>.</p>
+        </div>
+        <div class="about-card">
+          <h3>Contribute</h3>
+          <p>Know of a community action or piece of legislation not listed here? Notice an issue? Please email <a href="mailto:contact@datacentertracker.org">contact@datacentertracker.org</a> with questions, additions, or suggestions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="license-notice">
+        Data licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Free to download, share, and reuse with attribution.
+        Code licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
+      </p>
+      <p class="ai-disclaimer">AI systems were used to help synthesize and structure this database from public sources. Entries may contain errors.</p>
+    </div>
+  </footer>
+
+  <script src="js/utils.js?v=1782500001"></script>
+  <script>
+    // Same "last updated" dot as the other pages, driven by the dataset.
+    fetch('data/fights.json')
+      .then(r => r.json())
+      .then(fights => {
+        const dates = fights.map(f => f.last_updated || f.date).filter(Boolean).sort();
+        const el = document.getElementById('last-updated');
+        if (el && dates.length) el.innerHTML = renderLastUpdated(dates[dates.length - 1]);
+      })
+      .catch(() => {});
+  </script>
+</body>
+</html>

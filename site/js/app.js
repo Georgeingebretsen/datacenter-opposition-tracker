@@ -655,7 +655,7 @@ const SIZE_METRICS = {
   investment: {
     getValue: f => f.investment_million_usd,
     minR: 1, maxR: 23, logScale: true,
-    label: 'investment',
+    label: 'Data center cost',
     formatTip: (f) => f.investment_million_usd ? formatInvestment(f.investment_million_usd) : null,
   },
   acreage: {
@@ -969,7 +969,7 @@ function openDetail(f) {
 
   // Build project specs section
   const specs = [];
-  if (f.investment_million_usd) specs.push(`<li><strong>Investment:</strong> ${formatInvestment(f.investment_million_usd)}</li>`);
+  if (f.investment_million_usd) specs.push(`<li><strong>Data center cost:</strong> ${formatInvestment(f.investment_million_usd)}</li>`);
   if (f.megawatts) specs.push(`<li><strong>Power:</strong> ${formatPower(f.megawatts)}</li>`);
   if (f.acreage) specs.push(`<li><strong>Acreage:</strong> ${f.acreage.toLocaleString()} acres</li>`);
   if (f.building_sq_ft) specs.push(`<li><strong>Building:</strong> ${f.building_sq_ft.toLocaleString()} sq ft</li>`);

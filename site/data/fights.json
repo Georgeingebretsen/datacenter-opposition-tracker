@@ -1537,7 +1537,7 @@
     "opposition_twitter": null,
     "petition_url": null,
     "petition_signatures": 930,
-    "summary": "Black Mountain Power LLC has obtained rezoning approval for over 450 acres in southeast Fort Worth for a $10B data center. The City Council approved zoning changes in multiple phases: 141 acres in January 2025, 171 additional acres in June, and 119 more acres on September 30. However, in February 2026, city officials tabled a vote on further land expansion, citing concerns about infrastructure, resources, and land usage. Residents have asked council to reject additional zoning changes, citing noise pollution, traffic congestion, and water usage. The project involves 530 acres.",
+    "summary": "Black Mountain Power LLC has obtained rezoning approval for over 450 acres in southeast Fort Worth for a $10B data center. The City Council approved zoning changes in multiple phases: 141 acres in January 2025, 171 additional acres in June, and 119 more acres on September 30. However, in February 2026, city officials tabled a vote on further land expansion, citing concerns about infrastructure, resources, and land usage. Residents have asked council to reject additional zoning changes, citing noise pollution, traffic congestion, and water usage. The project involves 530 acres. Black Mountain has also purchased 2,000+ acres in neighboring Parker County near Weatherford for a separate, unconfirmed potential second site (see weatherford-parker-county-tx-2026-06-09).",
     "sources": [
       "https://fortworthreport.org/2026/02/11/10b-data-center-hits-wall-after-fort-worth-leaders-cite-resources-land-usage-concerns/",
       "https://www.wfaa.com/article/news/local/tarrant-county/fort-worth-council-delays-proposed-450-acre-data-center-rezoning-vote/287-3ac6b783-f553-47d5-8106-b009d799bec5",
@@ -1546,7 +1546,7 @@
       "https://www.keranews.org/environment-nature/2025-10-01/data-center-on-431-acres-in-southeast-fort-worth-moving-forward-amid-environmental-concerns"
     ],
     "data_source": "news",
-    "last_updated": "2026-06-18",
+    "last_updated": "2026-07-27",
     "scope": "local",
     "bill_name": null,
     "bill_url": null,
@@ -73091,5 +73091,75 @@
     "authority_level": "court",
     "objective": "Defend townships' revised zoning ordinances against developer's pending-ordinance-doctrine lawsuit",
     "community_outcome": "pending"
+  },
+  {
+    "id": "weatherford-parker-county-tx-2026-06-09",
+    "jurisdiction": "Weatherford (Parker County)",
+    "state": "TX",
+    "county": "Parker County",
+    "lat": 32.7593,
+    "lng": -97.7973,
+    "action_type": [
+      "zoning_restriction",
+      "other_opposition"
+    ],
+    "date": "2026-06-09",
+    "status": "pending",
+    "company": "Black Mountain",
+    "hyperscaler": null,
+    "project_name": null,
+    "investment_million_usd": null,
+    "megawatts": null,
+    "acreage": 2000,
+    "building_sq_ft": null,
+    "water_usage_gallons_per_day": null,
+    "jobs_promised": null,
+    "opposition_groups": [],
+    "opposition_website": null,
+    "opposition_facebook": null,
+    "opposition_instagram": null,
+    "opposition_twitter": null,
+    "petition_url": null,
+    "petition_signatures": null,
+    "summary": "Black Mountain \u2014 the Fort Worth-based energy consortium developing the separate $10B, 530-acre data center campus in southeast Fort Worth (see fort-worth-southeast-tx-2025-01-01) \u2014 purchased over 2,000 acres near Azle Highway and Pearson Ranch Road in unincorporated Parker County, about 7 miles northeast of downtown Weatherford, assessed at over $57 million per the Parker County Appraisal District. In April 2025 the TCEQ approved a related shell entity, Fort Worth Power Core LLC (Black Mountain CEO Rhett Bennett listed as CEO), to operate five natural gas turbines at 501 Pearson Ranch Road as \u201cbackup/bridge power for a new data center\u201d; Weatherford's city manager said he wasn't told of the filing until a reporter asked, calling it \u201cconcerning.\u201d The City of Weatherford declined to add data centers as an allowed zoning use on Jan 16, 2026 (\u201cdata centers will remain NOT ALLOWED in Weatherford\u201d) and, after the Star-Telegram broke the land-purchase/TCEQ story on May 20, 2026, issued a follow-up statement criticizing the lack of public notice for the turbine permit; the property itself sits outside city limits, so Weatherford has no zoning authority over it. On June 9, 2026, the Parker County Commissioners Court held a standing-room-only special meeting and unanimously passed a resolution opposing large-scale data center development \u2014 specifically targeting high-volume open-loop water cooling \u2014 and committing to deny tax abatements to such projects, while acknowledging Texas counties have little formal land-use authority. Bennett has said Black Mountain is only \u201cconsidering\u201d a \u201cpotential\u201d site here and disputes that Weatherford ever told the company it wasn't wanted; no source confirms the project has been formally committed or abandoned as of this writing.",
+    "sources": [
+      "https://www.star-telegram.com/news/local/article315770666.html",
+      "https://weatherfordtx.gov/m/newsflash/home/detail/647",
+      "https://weatherfordtx.gov/m/newsflash/Home/Detail/657",
+      "https://www.govtech.com/artificial-intelligence/north-texas-counties-continue-weighing-data-center-proposals",
+      "https://www.springtownepigraph.com/article/1488,no-action-regarding-proposed-data-center",
+      "https://www.springtownepigraph.com/article/1548,parker-county-approves-resolution-opposing-data-centers",
+      "https://www.yahoo.com/news/us/articles/overwhelming-outrage-public-floods-courthouse-191100405.html"
+    ],
+    "data_source": "web_scrape_2026-07",
+    "last_updated": "2026-07-27",
+    "scope": "local",
+    "bill_name": null,
+    "bill_url": null,
+    "county_lean": "R",
+    "issue_category": [
+      "zoning",
+      "transparency",
+      "air_quality",
+      "water",
+      "grid_energy",
+      "noise",
+      "tax_incentive"
+    ],
+    "authority_level": "county_commission",
+    "objective": "Prevent Black Mountain from siting a second hyperscale data center campus in Parker County near Weatherford",
+    "community_outcome": "mixed",
+    "flags": [
+      {
+        "type": "figure_unverified",
+        "note": "Acreage (2,000+) is from the Parker County Appraisal District via the Star-Telegram; other reporting references a related but distinct 189-acre parcel previously in Weatherford's ETJ that was voluntarily removed. investment_million_usd is left null \u2014 no source states a project-specific dollar figure for this Parker County site; the $10B figure applies only to the separate Fort Worth campus (fort-worth-southeast-tx-2025-01-01) and should not be copied here.",
+        "added": "2026-07-27"
+      },
+      {
+        "type": "status_uncertain",
+        "note": "As of the latest reporting found (June 2026), Black Mountain CEO Rhett Bennett describes this only as a 'potential' site under consideration, not a confirmed project. No source confirms the site has been formally committed to or abandoned.",
+        "added": "2026-07-27"
+      }
+    ]
   }
 ]
